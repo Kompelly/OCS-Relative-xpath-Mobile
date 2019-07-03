@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Recently viewed</name>
+   <tag></tag>
+   <comment>WINDOW TITLE: &quot; + a
+WINDOW TITLE:&quot; + b</comment>
+   <testCaseGuid>2cb5f067-7ed0-4949-a5c2-616d075c47dc</testCaseGuid>
+</TestCaseEntity>

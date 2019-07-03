@@ -1,0 +1,289 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+home page,Firefox 67.0,,2019-05-24 18:43:50,2019-05-24 18:52:44,8m - 53.394s,FAILED
+,,,,,,
+Test Cases/OCS - MOBILE/OCS- HOME PAGE/Announcement,Firefox 67.0,,2019-05-24 18:43:51,2019-05-24 18:44:23,32.611s,FAILED
+"callTestCase(findTestCase(""OCS - MOBILE/CALL - AGE GATE""), [:], STOP_ON_FAILURE)",Firefox 67.0,,2019-05-24 18:43:51,2019-05-24 18:44:15,23.900s,PASSED
+"flag = verifyTextPresent(""Due to holiday closures within the Canada Post network for Victoria Day, please expect some order delivery delays."", false, CONTINUE_ON_FAILURE)",Firefox 67.0,,2019-05-24 18:44:15,2019-05-24 18:44:21,6.383s,FAILED
+delay(2),Firefox 67.0,,2019-05-24 18:44:21,2019-05-24 18:44:23,2.004s,PASSED
+"comment(""flag ="" + flag)",Firefox 67.0,,2019-05-24 18:44:23,2019-05-24 18:44:23,0.010s,PASSED
+if (flag == false),Firefox 67.0,,2019-05-24 18:44:23,2019-05-24 18:44:23,0.011s,FAILED
+,,,,,,
+Test Cases/OCS - MOBILE/OCS- HOME PAGE/cart flyout,Firefox 67.0,,2019-05-24 18:44:23,2019-05-24 18:45:13,49.792s,PASSED
+"callTestCase(findTestCase(""OCS - MOBILE/CALL - AGE GATE""), [:], STOP_ON_FAILURE)",Firefox 67.0,,2019-05-24 18:44:23,2019-05-24 18:44:46,22.394s,PASSED
+delay(2),Firefox 67.0,,2019-05-24 18:44:46,2019-05-24 18:44:48,2.002s,PASSED
+"click(findTestObject(""OCS-MOBILE /Home - page/Cart icon -bag""))",Firefox 67.0,,2019-05-24 18:44:48,2019-05-24 18:44:48,0.264s,PASSED
+delay(3),Firefox 67.0,,2019-05-24 18:44:48,2019-05-24 18:44:51,3.005s,PASSED
+"verifyTextPresent(""Bag"", false, OPTIONAL)",Firefox 67.0,,2019-05-24 18:44:51,2019-05-24 18:45:02,10.654s,PASSED
+if (true),Firefox 67.0,,2019-05-24 18:45:02,2019-05-24 18:45:02,0.002s,PASSED
+delay(5),Firefox 67.0,,2019-05-24 18:45:02,2019-05-24 18:45:07,5.016s,PASSED
+"click(findTestObject(""OCS-MOBILE /Home - page/Collapse cart flyout""))",Firefox 67.0,,2019-05-24 18:45:07,2019-05-24 18:45:07,0.249s,PASSED
+"verifyTextPresent(""Bag"", false, OPTIONAL)",Firefox 67.0,,2019-05-24 18:45:07,2019-05-24 18:45:13,6.019s,PASSED
+if (true),Firefox 67.0,,2019-05-24 18:45:13,2019-05-24 18:45:13,0.001s,PASSED
+,,,,,,
+Test Cases/OCS - MOBILE/OCS- HOME PAGE/footer,Firefox 67.0,,2019-05-24 18:45:13,2019-05-24 18:47:58,2m - 44.498s,PASSED
+"callTestCase(findTestCase(""OCS - MOBILE/CALL - AGE GATE""), [:], STOP_ON_FAILURE)",Firefox 67.0,,2019-05-24 18:45:13,2019-05-24 18:45:36,22.647s,PASSED
+delay(2),Firefox 67.0,,2019-05-24 18:45:36,2019-05-24 18:45:38,2.003s,PASSED
+"executeJavaScript(""var previewBar = document.getElementById(""preview-bar-iframe""); previewBar.style.display = ""none"";"", [])",Firefox 67.0,,2019-05-24 18:45:38,2019-05-24 18:45:38,0.024s,PASSED
+"click(findTestObject(""OCS-MOBILE /Home - page/Return Policy""))",Firefox 67.0,,2019-05-24 18:45:38,2019-05-24 18:45:38,0.077s,PASSED
+delay(2),Firefox 67.0,,2019-05-24 18:45:38,2019-05-24 18:45:40,2.006s,PASSED
+"setViewPortSize(1000, 800, OPTIONAL)",Firefox 67.0,,2019-05-24 18:45:40,2019-05-24 18:45:41,0.855s,PASSED
+"delay(2, OPTIONAL)",Firefox 67.0,,2019-05-24 18:45:41,2019-05-24 18:45:43,2.012s,PASSED
+"click(findTestObject(""Theme_oR/Page_Ontario Cannabis Store  Ontari/button_Hide bar""), OPTIONAL)",Firefox 67.0,,2019-05-24 18:45:43,2019-05-24 18:45:43,0.156s,PASSED
+"setViewPortSize(360, 800, OPTIONAL)",Firefox 67.0,,2019-05-24 18:45:43,2019-05-24 18:45:43,0.098s,PASSED
+"delay(2, OPTIONAL)",Firefox 67.0,,2019-05-24 18:45:43,2019-05-24 18:45:45,2.004s,PASSED
+"executeJavaScript(""var previewBar = document.getElementById(""preview-bar-iframe""); previewBar.style.display = ""none"";"", [])",Firefox 67.0,,2019-05-24 18:45:45,2019-05-24 18:45:45,0.012s,PASSED
+"click(findTestObject(""OCS-MOBILE /Home - page/Glossary of terms""))",Firefox 67.0,,2019-05-24 18:45:45,2019-05-24 18:45:48,3.026s,PASSED
+delay(2),Firefox 67.0,,2019-05-24 18:45:48,2019-05-24 18:45:50,2.005s,PASSED
+"setViewPortSize(1000, 800, OPTIONAL)",Firefox 67.0,,2019-05-24 18:45:50,2019-05-24 18:45:50,0.080s,PASSED
+"delay(2, OPTIONAL)",Firefox 67.0,,2019-05-24 18:45:50,2019-05-24 18:45:52,2.005s,PASSED
+"click(findTestObject(""Theme_oR/Page_Ontario Cannabis Store  Ontari/button_Hide bar""), OPTIONAL)",Firefox 67.0,,2019-05-24 18:45:52,2019-05-24 18:45:52,0.124s,PASSED
+"setViewPortSize(360, 800, OPTIONAL)",Firefox 67.0,,2019-05-24 18:45:52,2019-05-24 18:45:53,0.071s,PASSED
+"delay(2, OPTIONAL)",Firefox 67.0,,2019-05-24 18:45:53,2019-05-24 18:45:55,2.005s,PASSED
+"executeJavaScript(""var previewBar = document.getElementById(""preview-bar-iframe""); previewBar.style.display = ""none"";"", [])",Firefox 67.0,,2019-05-24 18:45:55,2019-05-24 18:45:55,0.011s,PASSED
+"click(findTestObject(""OCS-MOBILE /Home - page/Product Recall""))",Firefox 67.0,,2019-05-24 18:45:55,2019-05-24 18:45:58,3.266s,PASSED
+delay(2),Firefox 67.0,,2019-05-24 18:45:58,2019-05-24 18:46:00,2.004s,PASSED
+"setViewPortSize(1000, 800, OPTIONAL)",Firefox 67.0,,2019-05-24 18:46:00,2019-05-24 18:46:00,0.079s,PASSED
+"delay(2, OPTIONAL)",Firefox 67.0,,2019-05-24 18:46:00,2019-05-24 18:46:02,2.004s,PASSED
+"click(findTestObject(""Theme_oR/Page_Ontario Cannabis Store  Ontari/button_Hide bar""), OPTIONAL)",Firefox 67.0,,2019-05-24 18:46:02,2019-05-24 18:46:02,0.130s,PASSED
+"setViewPortSize(360, 800, OPTIONAL)",Firefox 67.0,,2019-05-24 18:46:02,2019-05-24 18:46:02,0.064s,PASSED
+"delay(2, OPTIONAL)",Firefox 67.0,,2019-05-24 18:46:02,2019-05-24 18:46:04,2.005s,PASSED
+"executeJavaScript(""var previewBar = document.getElementById(""preview-bar-iframe""); previewBar.style.display = ""none"";"", [])",Firefox 67.0,,2019-05-24 18:46:04,2019-05-24 18:46:04,0.010s,PASSED
+"click(findTestObject(""OCS-MOBILE /Home - page/Government of Canada - Canna""))",Firefox 67.0,,2019-05-24 18:46:04,2019-05-24 18:46:06,1.546s,PASSED
+delay(2),Firefox 67.0,,2019-05-24 18:46:06,2019-05-24 18:46:08,2.006s,PASSED
+"setViewPortSize(1000, 800, OPTIONAL)",Firefox 67.0,,2019-05-24 18:46:08,2019-05-24 18:46:08,0.073s,PASSED
+"delay(2, OPTIONAL)",Firefox 67.0,,2019-05-24 18:46:08,2019-05-24 18:46:10,2.005s,PASSED
+"click(findTestObject(""Theme_oR/Page_Ontario Cannabis Store  Ontari/button_Hide bar""), OPTIONAL)",Firefox 67.0,,2019-05-24 18:46:10,2019-05-24 18:46:10,0.101s,PASSED
+"setViewPortSize(360, 800, OPTIONAL)",Firefox 67.0,,2019-05-24 18:46:10,2019-05-24 18:46:10,0.069s,PASSED
+"delay(2, OPTIONAL)",Firefox 67.0,,2019-05-24 18:46:10,2019-05-24 18:46:12,2.004s,PASSED
+"executeJavaScript(""var previewBar = document.getElementById(""preview-bar-iframe""); previewBar.style.display = ""none"";"", [])",Firefox 67.0,,2019-05-24 18:46:12,2019-05-24 18:46:12,0.010s,PASSED
+"click(findTestObject(""OCS-MOBILE /Home - page/Government of Ontario - Cann""))",Firefox 67.0,,2019-05-24 18:46:12,2019-05-24 18:46:12,0.051s,PASSED
+delay(2),Firefox 67.0,,2019-05-24 18:46:12,2019-05-24 18:46:14,2.001s,PASSED
+"setViewPortSize(1000, 800, OPTIONAL)",Firefox 67.0,,2019-05-24 18:46:14,2019-05-24 18:46:14,0.101s,PASSED
+"delay(2, OPTIONAL)",Firefox 67.0,,2019-05-24 18:46:14,2019-05-24 18:46:16,2.011s,PASSED
+"click(findTestObject(""Theme_oR/Page_Ontario Cannabis Store  Ontari/button_Hide bar""), OPTIONAL)",Firefox 67.0,,2019-05-24 18:46:16,2019-05-24 18:46:16,0.105s,PASSED
+"setViewPortSize(360, 800, OPTIONAL)",Firefox 67.0,,2019-05-24 18:46:16,2019-05-24 18:46:16,0.097s,PASSED
+"delay(2, OPTIONAL)",Firefox 67.0,,2019-05-24 18:46:16,2019-05-24 18:46:18,2.004s,PASSED
+"executeJavaScript(""var previewBar = document.getElementById(""preview-bar-iframe""); previewBar.style.display = ""none"";"", [])",Firefox 67.0,,2019-05-24 18:46:18,2019-05-24 18:46:18,0.010s,PASSED
+"click(findTestObject(""OCS-MOBILE /Home - page/About the OCS""))",Firefox 67.0,,2019-05-24 18:46:18,2019-05-24 18:46:21,3.129s,PASSED
+delay(2),Firefox 67.0,,2019-05-24 18:46:21,2019-05-24 18:46:23,2.008s,PASSED
+"setViewPortSize(1000, 800, OPTIONAL)",Firefox 67.0,,2019-05-24 18:46:23,2019-05-24 18:46:24,0.066s,PASSED
+"delay(2, OPTIONAL)",Firefox 67.0,,2019-05-24 18:46:24,2019-05-24 18:46:26,2.007s,PASSED
+"click(findTestObject(""Theme_oR/Page_Ontario Cannabis Store  Ontari/button_Hide bar""), OPTIONAL)",Firefox 67.0,,2019-05-24 18:46:26,2019-05-24 18:46:26,0.133s,PASSED
+"setViewPortSize(360, 800, OPTIONAL)",Firefox 67.0,,2019-05-24 18:46:26,2019-05-24 18:46:26,0.090s,PASSED
+"delay(2, OPTIONAL)",Firefox 67.0,,2019-05-24 18:46:26,2019-05-24 18:46:28,2.004s,PASSED
+"executeJavaScript(""var previewBar = document.getElementById(""preview-bar-iframe""); previewBar.style.display = ""none"";"", [])",Firefox 67.0,,2019-05-24 18:46:28,2019-05-24 18:46:28,0.011s,PASSED
+"click(findTestObject(""OCS-MOBILE /Home - page/Careers""))",Firefox 67.0,,2019-05-24 18:46:28,2019-05-24 18:46:30,2.254s,PASSED
+delay(2),Firefox 67.0,,2019-05-24 18:46:30,2019-05-24 18:46:32,2.010s,PASSED
+"setViewPortSize(1000, 800, OPTIONAL)",Firefox 67.0,,2019-05-24 18:46:32,2019-05-24 18:46:32,0.070s,PASSED
+"delay(2, OPTIONAL)",Firefox 67.0,,2019-05-24 18:46:32,2019-05-24 18:46:34,2.005s,PASSED
+"click(findTestObject(""Theme_oR/Page_Ontario Cannabis Store  Ontari/button_Hide bar""), OPTIONAL)",Firefox 67.0,,2019-05-24 18:46:34,2019-05-24 18:46:34,0.117s,PASSED
+"setViewPortSize(360, 800, OPTIONAL)",Firefox 67.0,,2019-05-24 18:46:34,2019-05-24 18:46:34,0.064s,PASSED
+"delay(2, OPTIONAL)",Firefox 67.0,,2019-05-24 18:46:34,2019-05-24 18:46:36,2.006s,PASSED
+"scrollToElement(findTestObject(""OCS-MOBILE /Home - page/Contact us -""), 0)",Firefox 67.0,,2019-05-24 18:46:36,2019-05-24 18:46:36,0.000s,NOT_RUN
+"delay(2, OPTIONAL)",Firefox 67.0,,2019-05-24 18:46:36,2019-05-24 18:46:38,2.004s,PASSED
+"executeJavaScript(""var previewBar = document.getElementById(""preview-bar-iframe""); previewBar.style.display = ""none"";"", [])",Firefox 67.0,,2019-05-24 18:46:38,2019-05-24 18:46:38,0.014s,PASSED
+"click(findTestObject(""OCS-MOBILE /Home - page/News""), OPTIONAL)",Firefox 67.0,,2019-05-24 18:46:38,2019-05-24 18:46:42,3.253s,PASSED
+delay(2),Firefox 67.0,,2019-05-24 18:46:42,2019-05-24 18:46:44,2.001s,PASSED
+"setViewPortSize(1000, 800, OPTIONAL)",Firefox 67.0,,2019-05-24 18:46:44,2019-05-24 18:46:44,0.069s,PASSED
+"delay(2, OPTIONAL)",Firefox 67.0,,2019-05-24 18:46:44,2019-05-24 18:46:46,2.005s,PASSED
+"click(findTestObject(""Theme_oR/Page_Ontario Cannabis Store  Ontari/button_Hide bar""), OPTIONAL)",Firefox 67.0,,2019-05-24 18:46:46,2019-05-24 18:46:46,0.109s,PASSED
+"setViewPortSize(360, 800, OPTIONAL)",Firefox 67.0,,2019-05-24 18:46:46,2019-05-24 18:46:46,0.071s,PASSED
+"delay(2, OPTIONAL)",Firefox 67.0,,2019-05-24 18:46:46,2019-05-24 18:46:48,2.004s,PASSED
+"executeJavaScript(""var previewBar = document.getElementById(""preview-bar-iframe""); previewBar.style.display = ""none"";"", [])",Firefox 67.0,,2019-05-24 18:46:48,2019-05-24 18:46:48,0.010s,PASSED
+"click(findTestObject(""OCS-MOBILE /Home - page/Doing Business With OCS""))",Firefox 67.0,,2019-05-24 18:46:48,2019-05-24 18:46:48,0.058s,PASSED
+delay(2),Firefox 67.0,,2019-05-24 18:46:48,2019-05-24 18:46:50,2.010s,PASSED
+"setViewPortSize(1000, 800, OPTIONAL)",Firefox 67.0,,2019-05-24 18:46:50,2019-05-24 18:46:50,0.166s,PASSED
+"delay(2, OPTIONAL)",Firefox 67.0,,2019-05-24 18:46:50,2019-05-24 18:46:52,2.003s,PASSED
+"click(findTestObject(""Theme_oR/Page_Ontario Cannabis Store  Ontari/button_Hide bar""), OPTIONAL)",Firefox 67.0,,2019-05-24 18:46:52,2019-05-24 18:46:52,0.210s,PASSED
+"setViewPortSize(360, 800, OPTIONAL)",Firefox 67.0,,2019-05-24 18:46:52,2019-05-24 18:46:52,0.068s,PASSED
+"delay(2, OPTIONAL)",Firefox 67.0,,2019-05-24 18:46:52,2019-05-24 18:46:54,2.004s,PASSED
+delay(2),Firefox 67.0,,2019-05-24 18:46:54,2019-05-24 18:46:56,2.004s,PASSED
+"executeJavaScript(""var previewBar = document.getElementById(""preview-bar-iframe""); previewBar.style.display = ""none"";"", [])",Firefox 67.0,,2019-05-24 18:46:56,2019-05-24 18:46:56,0.010s,PASSED
+"click(findTestObject(""OCS-MOBILE /Home - page/Help us improve OCS.ca""), CONTINUE_ON_FAILURE)",Firefox 67.0,,2019-05-24 18:46:56,2019-05-24 18:46:56,0.052s,PASSED
+delay(2),Firefox 67.0,,2019-05-24 18:46:56,2019-05-24 18:46:58,2.005s,PASSED
+"setViewPortSize(1000, 800, OPTIONAL)",Firefox 67.0,,2019-05-24 18:46:58,2019-05-24 18:46:59,0.074s,PASSED
+"delay(2, OPTIONAL)",Firefox 67.0,,2019-05-24 18:46:59,2019-05-24 18:47:01,2.009s,PASSED
+"click(findTestObject(""Theme_oR/Page_Ontario Cannabis Store  Ontari/button_Hide bar""), OPTIONAL)",Firefox 67.0,,2019-05-24 18:47:01,2019-05-24 18:47:01,0.099s,PASSED
+"setViewPortSize(360, 800, OPTIONAL)",Firefox 67.0,,2019-05-24 18:47:01,2019-05-24 18:47:01,0.062s,PASSED
+"delay(2, OPTIONAL)",Firefox 67.0,,2019-05-24 18:47:01,2019-05-24 18:47:03,2.002s,PASSED
+delay(2),Firefox 67.0,,2019-05-24 18:47:03,2019-05-24 18:47:05,2.004s,PASSED
+"executeJavaScript(""var previewBar = document.getElementById(""preview-bar-iframe""); previewBar.style.display = ""none"";"", [])",Firefox 67.0,,2019-05-24 18:47:05,2019-05-24 18:47:05,0.009s,PASSED
+"click(findTestObject(""OCS-MOBILE /Home - page/Terms and Conditions""))",Firefox 67.0,,2019-05-24 18:47:05,2019-05-24 18:47:08,2.851s,PASSED
+delay(2),Firefox 67.0,,2019-05-24 18:47:08,2019-05-24 18:47:10,2.003s,PASSED
+"setViewPortSize(1000, 800, OPTIONAL)",Firefox 67.0,,2019-05-24 18:47:10,2019-05-24 18:47:10,0.082s,PASSED
+"delay(2, OPTIONAL)",Firefox 67.0,,2019-05-24 18:47:10,2019-05-24 18:47:12,2.002s,PASSED
+"click(findTestObject(""Theme_oR/Page_Ontario Cannabis Store  Ontari/button_Hide bar""), OPTIONAL)",Firefox 67.0,,2019-05-24 18:47:12,2019-05-24 18:47:12,0.106s,PASSED
+"setViewPortSize(360, 800, OPTIONAL)",Firefox 67.0,,2019-05-24 18:47:12,2019-05-24 18:47:12,0.060s,PASSED
+"delay(2, OPTIONAL)",Firefox 67.0,,2019-05-24 18:47:12,2019-05-24 18:47:14,2.002s,PASSED
+delay(2),Firefox 67.0,,2019-05-24 18:47:14,2019-05-24 18:47:16,2.002s,PASSED
+"executeJavaScript(""var previewBar = document.getElementById(""preview-bar-iframe""); previewBar.style.display = ""none"";"", [])",Firefox 67.0,,2019-05-24 18:47:16,2019-05-24 18:47:16,0.011s,PASSED
+"click(findTestObject(""OCS-MOBILE /Home - page/Privacy""))",Firefox 67.0,,2019-05-24 18:47:16,2019-05-24 18:47:18,2.600s,PASSED
+delay(2),Firefox 67.0,,2019-05-24 18:47:18,2019-05-24 18:47:20,2.005s,PASSED
+"setViewPortSize(1000, 800, OPTIONAL)",Firefox 67.0,,2019-05-24 18:47:20,2019-05-24 18:47:21,0.075s,PASSED
+"delay(2, OPTIONAL)",Firefox 67.0,,2019-05-24 18:47:21,2019-05-24 18:47:23,2.009s,PASSED
+"click(findTestObject(""Theme_oR/Page_Ontario Cannabis Store  Ontari/button_Hide bar""), OPTIONAL)",Firefox 67.0,,2019-05-24 18:47:23,2019-05-24 18:47:23,0.113s,PASSED
+"setViewPortSize(360, 800, OPTIONAL)",Firefox 67.0,,2019-05-24 18:47:23,2019-05-24 18:47:23,0.059s,PASSED
+"delay(2, OPTIONAL)",Firefox 67.0,,2019-05-24 18:47:23,2019-05-24 18:47:25,2.002s,PASSED
+delay(2),Firefox 67.0,,2019-05-24 18:47:25,2019-05-24 18:47:27,2.004s,PASSED
+"executeJavaScript(""var previewBar = document.getElementById(""preview-bar-iframe""); previewBar.style.display = ""none"";"", [])",Firefox 67.0,,2019-05-24 18:47:27,2019-05-24 18:47:27,0.011s,PASSED
+"click(findTestObject(""OCS-MOBILE /Home - page/Accessibility""))",Firefox 67.0,,2019-05-24 18:47:27,2019-05-24 18:47:29,2.424s,PASSED
+delay(2),Firefox 67.0,,2019-05-24 18:47:29,2019-05-24 18:47:31,2.005s,PASSED
+"setViewPortSize(1000, 800, OPTIONAL)",Firefox 67.0,,2019-05-24 18:47:31,2019-05-24 18:47:31,0.075s,PASSED
+"delay(2, OPTIONAL)",Firefox 67.0,,2019-05-24 18:47:31,2019-05-24 18:47:33,2.005s,PASSED
+"click(findTestObject(""Theme_oR/Page_Ontario Cannabis Store  Ontari/button_Hide bar""), OPTIONAL)",Firefox 67.0,,2019-05-24 18:47:33,2019-05-24 18:47:33,0.110s,PASSED
+"setViewPortSize(360, 800, OPTIONAL)",Firefox 67.0,,2019-05-24 18:47:33,2019-05-24 18:47:33,0.049s,PASSED
+"delay(2, OPTIONAL)",Firefox 67.0,,2019-05-24 18:47:33,2019-05-24 18:47:35,2.005s,PASSED
+delay(2),Firefox 67.0,,2019-05-24 18:47:35,2019-05-24 18:47:37,2.012s,PASSED
+"executeJavaScript(""var previewBar = document.getElementById(""preview-bar-iframe""); previewBar.style.display = ""none"";"", [])",Firefox 67.0,,2019-05-24 18:47:37,2019-05-24 18:47:37,0.010s,PASSED
+"click(findTestObject(""OCS-MOBILE /Home - page/Delivery to First Nations""))",Firefox 67.0,,2019-05-24 18:47:37,2019-05-24 18:47:41,3.116s,PASSED
+delay(2),Firefox 67.0,,2019-05-24 18:47:41,2019-05-24 18:47:43,2.004s,PASSED
+"setViewPortSize(1000, 800, OPTIONAL)",Firefox 67.0,,2019-05-24 18:47:43,2019-05-24 18:47:43,0.072s,PASSED
+"delay(2, OPTIONAL)",Firefox 67.0,,2019-05-24 18:47:43,2019-05-24 18:47:45,2.011s,PASSED
+"click(findTestObject(""Theme_oR/Page_Ontario Cannabis Store  Ontari/button_Hide bar""), OPTIONAL)",Firefox 67.0,,2019-05-24 18:47:45,2019-05-24 18:47:45,0.109s,PASSED
+"setViewPortSize(360, 800, OPTIONAL)",Firefox 67.0,,2019-05-24 18:47:45,2019-05-24 18:47:45,0.052s,PASSED
+"delay(2, OPTIONAL)",Firefox 67.0,,2019-05-24 18:47:45,2019-05-24 18:47:47,2.005s,PASSED
+delay(2),Firefox 67.0,,2019-05-24 18:47:47,2019-05-24 18:47:49,2.003s,PASSED
+"executeJavaScript(""var previewBar = document.getElementById(""preview-bar-iframe""); previewBar.style.display = ""none"";"", [])",Firefox 67.0,,2019-05-24 18:47:49,2019-05-24 18:47:49,0.010s,PASSED
+"click(findTestObject(""OCS-MOBILE /Home - page/Hello OCS image""))",Firefox 67.0,,2019-05-24 18:47:49,2019-05-24 18:47:49,0.276s,PASSED
+delay(2),Firefox 67.0,,2019-05-24 18:47:49,2019-05-24 18:47:51,2.012s,PASSED
+"setViewPortSize(1000, 800, OPTIONAL)",Firefox 67.0,,2019-05-24 18:47:51,2019-05-24 18:47:51,0.087s,PASSED
+"delay(2, OPTIONAL)",Firefox 67.0,,2019-05-24 18:47:51,2019-05-24 18:47:53,2.001s,PASSED
+"click(findTestObject(""Theme_oR/Page_Ontario Cannabis Store  Ontari/button_Hide bar""), OPTIONAL)",Firefox 67.0,,2019-05-24 18:47:53,2019-05-24 18:47:53,0.119s,PASSED
+"setViewPortSize(360, 800, OPTIONAL)",Firefox 67.0,,2019-05-24 18:47:53,2019-05-24 18:47:53,0.062s,PASSED
+"delay(2, OPTIONAL)",Firefox 67.0,,2019-05-24 18:47:53,2019-05-24 18:47:55,2.006s,PASSED
+delay(2),Firefox 67.0,,2019-05-24 18:47:55,2019-05-24 18:47:57,2.002s,PASSED
+"click(findTestObject(""OCS-MOBILE /Home - page/twitter""))",Firefox 67.0,,2019-05-24 18:47:57,2019-05-24 18:47:58,0.252s,PASSED
+,,,,,,
+Test Cases/OCS - MOBILE/OCS- HOME PAGE/How to choose cannabis-learn more,Firefox 67.0,,2019-05-24 18:47:58,2019-05-24 18:48:50,52.561s,PASSED
+"callTestCase(findTestCase(""OCS - MOBILE/CALL - AGE GATE""), [:], STOP_ON_FAILURE)",Firefox 67.0,,2019-05-24 18:47:58,2019-05-24 18:48:22,23.889s,PASSED
+delay(2),Firefox 67.0,,2019-05-24 18:48:22,2019-05-24 18:48:24,2.001s,PASSED
+delay(2),Firefox 67.0,,2019-05-24 18:48:24,2019-05-24 18:48:26,2.005s,PASSED
+"setViewPortSize(1000, 800, OPTIONAL)",Firefox 67.0,,2019-05-24 18:48:26,2019-05-24 18:48:26,0.092s,PASSED
+"delay(2, OPTIONAL)",Firefox 67.0,,2019-05-24 18:48:26,2019-05-24 18:48:28,2.004s,PASSED
+"click(findTestObject(""Theme_oR/Page_Ontario Cannabis Store  Ontari/button_Hide bar""), OPTIONAL)",Firefox 67.0,,2019-05-24 18:48:28,2019-05-24 18:48:28,0.308s,PASSED
+"delay(2, OPTIONAL)",Firefox 67.0,,2019-05-24 18:48:28,2019-05-24 18:48:30,2.004s,PASSED
+"setViewPortSize(360, 800, OPTIONAL)",Firefox 67.0,,2019-05-24 18:48:30,2019-05-24 18:48:30,0.067s,PASSED
+"delay(1, OPTIONAL)",Firefox 67.0,,2019-05-24 18:48:30,2019-05-24 18:48:31,1.006s,PASSED
+"executeJavaScript(""var previewBar = document.getElementById(""preview-bar-iframe""); previewBar.style.display = ""none"";"", [])",Firefox 67.0,,2019-05-24 18:48:31,2019-05-24 18:48:31,0.010s,PASSED
+"click(findTestObject(""OCS-MOBILE /Home - page/a_Learn more- A brief history of cannabis""))",Firefox 67.0,,2019-05-24 18:48:31,2019-05-24 18:48:35,3.355s,PASSED
+"click(findTestObject(""OCS-MOBILE /Home - page/OCS icon""), STOP_ON_FAILURE)",Firefox 67.0,,2019-05-24 18:48:35,2019-05-24 18:48:38,3.094s,PASSED
+back(),Firefox 67.0,,2019-05-24 18:48:38,2019-05-24 18:48:38,0.001s,NOT_RUN
+delay(2),Firefox 67.0,,2019-05-24 18:48:38,2019-05-24 18:48:40,2.002s,PASSED
+"setViewPortSize(1000, 800, OPTIONAL)",Firefox 67.0,,2019-05-24 18:48:40,2019-05-24 18:48:40,0.082s,PASSED
+"delay(2, OPTIONAL)",Firefox 67.0,,2019-05-24 18:48:40,2019-05-24 18:48:42,2.004s,PASSED
+"click(findTestObject(""Theme_oR/Page_Ontario Cannabis Store  Ontari/button_Hide bar""), OPTIONAL)",Firefox 67.0,,2019-05-24 18:48:42,2019-05-24 18:48:42,0.284s,PASSED
+"delay(2, OPTIONAL)",Firefox 67.0,,2019-05-24 18:48:42,2019-05-24 18:48:44,2.005s,PASSED
+"setViewPortSize(360, 800, OPTIONAL)",Firefox 67.0,,2019-05-24 18:48:44,2019-05-24 18:48:44,0.077s,PASSED
+"delay(3, OPTIONAL)",Firefox 67.0,,2019-05-24 18:48:44,2019-05-24 18:48:47,3.006s,PASSED
+"executeJavaScript(""var previewBar = document.getElementById(""preview-bar-iframe""); previewBar.style.display = ""none"";"", [])",Firefox 67.0,,2019-05-24 18:48:47,2019-05-24 18:48:47,0.009s,PASSED
+"click(findTestObject(""OCS-MOBILE /Home - page/a_Learn more- Tips for responsible use""))",Firefox 67.0,,2019-05-24 18:48:47,2019-05-24 18:48:50,3.072s,PASSED
+,,,,,,
+Test Cases/OCS - MOBILE/OCS- HOME PAGE/HP -Burger menu-FAQ,Firefox 67.0,,2019-05-24 18:48:50,2019-05-24 18:50:18,1m - 28.316s,FAILED
+"callTestCase(findTestCase(""OCS - MOBILE/CALL - AGE GATE""), [:], STOP_ON_FAILURE)",Firefox 67.0,,2019-05-24 18:48:50,2019-05-24 18:49:11,20.714s,PASSED
+delay(2),Firefox 67.0,,2019-05-24 18:49:11,2019-05-24 18:49:13,2.004s,PASSED
+"executeJavaScript(""var previewBar = document.getElementById(""preview-bar-iframe""); previewBar.style.display = ""none"";"", [])",Firefox 67.0,,2019-05-24 18:49:13,2019-05-24 18:49:13,0.009s,PASSED
+delay(2),Firefox 67.0,,2019-05-24 18:49:13,2019-05-24 18:49:15,2.002s,PASSED
+"click(findTestObject(""OCS-MOBILE /Age gate and burger menu/Burger menu - English""))",Firefox 67.0,,2019-05-24 18:49:15,2019-05-24 18:49:15,0.248s,PASSED
+delay(2),Firefox 67.0,,2019-05-24 18:49:15,2019-05-24 18:49:17,2.003s,PASSED
+"click(findTestObject(""OCS-MOBILE /FAQ page/FAQ""))",Firefox 67.0,,2019-05-24 18:49:17,2019-05-24 18:49:18,0.260s,PASSED
+delay(1),Firefox 67.0,,2019-05-24 18:49:18,2019-05-24 18:49:19,1.004s,PASSED
+"click(findTestObject(""OCS-MOBILE /FAQ page/First chevron link""))",Firefox 67.0,,2019-05-24 18:49:19,2019-05-24 18:49:21,2.422s,PASSED
+delay(1),Firefox 67.0,,2019-05-24 18:49:21,2019-05-24 18:49:22,1.002s,PASSED
+"executeJavaScript(""var previewBar = document.getElementById(""preview-bar-iframe""); previewBar.style.display = ""none"";"", [])",Firefox 67.0,,2019-05-24 18:49:22,2019-05-24 18:49:22,0.007s,PASSED
+"scrollToElement(findTestObject(""OCS-MOBILE /FAQ page/scroll view element""), 0)",Firefox 67.0,,2019-05-24 18:49:22,2019-05-24 18:49:22,0.028s,PASSED
+delay(1),Firefox 67.0,,2019-05-24 18:49:22,2019-05-24 18:49:23,1.006s,PASSED
+"click(findTestObject(""OCS-MOBILE /FAQ page/Dropdown button -First chevron -open- FAQ""))",Firefox 67.0,,2019-05-24 18:49:23,2019-05-24 18:49:23,0.037s,PASSED
+delay(1),Firefox 67.0,,2019-05-24 18:49:23,2019-05-24 18:49:24,1.005s,PASSED
+"click(findTestObject(""OCS-MOBILE /FAQ page/Dropdown button -First chevron - close -FAQ""))",Firefox 67.0,,2019-05-24 18:49:24,2019-05-24 18:49:24,0.235s,PASSED
+"delay(1, OPTIONAL)",Firefox 67.0,,2019-05-24 18:49:24,2019-05-24 18:49:25,1.006s,PASSED
+"setViewPortSize(1000, 800, OPTIONAL)",Firefox 67.0,,2019-05-24 18:49:25,2019-05-24 18:49:25,0.077s,PASSED
+"delay(2, OPTIONAL)",Firefox 67.0,,2019-05-24 18:49:25,2019-05-24 18:49:27,2.005s,PASSED
+"click(findTestObject(""Theme_oR/Page_Ontario Cannabis Store  Ontari/button_Hide bar""), OPTIONAL)",Firefox 67.0,,2019-05-24 18:49:27,2019-05-24 18:49:28,0.104s,PASSED
+"delay(2, OPTIONAL)",Firefox 67.0,,2019-05-24 18:49:28,2019-05-24 18:49:30,2.002s,PASSED
+"setViewPortSize(360, 800, OPTIONAL)",Firefox 67.0,,2019-05-24 18:49:30,2019-05-24 18:49:30,0.072s,PASSED
+"delay(1, OPTIONAL)",Firefox 67.0,,2019-05-24 18:49:30,2019-05-24 18:49:31,1.005s,PASSED
+"click(findTestObject(""OCS-MOBILE /FAQ page/First accordian - add""))",Firefox 67.0,,2019-05-24 18:49:31,2019-05-24 18:49:31,0.240s,PASSED
+delay(1),Firefox 67.0,,2019-05-24 18:49:31,2019-05-24 18:49:32,1.004s,PASSED
+"click(findTestObject(""OCS-MOBILE /FAQ page/First accordian - Subtract""))",Firefox 67.0,,2019-05-24 18:49:32,2019-05-24 18:49:32,0.236s,PASSED
+delay(1),Firefox 67.0,,2019-05-24 18:49:32,2019-05-24 18:49:33,1.006s,PASSED
+"click(findTestObject(""OCS-MOBILE /FAQ page/Second accordian- add""))",Firefox 67.0,,2019-05-24 18:49:33,2019-05-24 18:49:33,0.236s,PASSED
+delay(1),Firefox 67.0,,2019-05-24 18:49:33,2019-05-24 18:49:34,1.002s,PASSED
+"click(findTestObject(""OCS-MOBILE /FAQ page/Second accordian - subtract""))",Firefox 67.0,,2019-05-24 18:49:34,2019-05-24 18:49:35,0.234s,PASSED
+delay(1),Firefox 67.0,,2019-05-24 18:49:35,2019-05-24 18:49:36,1.005s,PASSED
+"click(findTestObject(""OCS-MOBILE /FAQ page/Load more1""))",Firefox 67.0,,2019-05-24 18:49:36,2019-05-24 18:49:36,0.245s,PASSED
+delay(1),Firefox 67.0,,2019-05-24 18:49:36,2019-05-24 18:49:37,1.014s,PASSED
+"click(findTestObject(""OCS-MOBILE /FAQ page/Loadmore2""))",Firefox 67.0,,2019-05-24 18:49:37,2019-05-24 18:49:37,0.244s,PASSED
+delay(1),Firefox 67.0,,2019-05-24 18:49:37,2019-05-24 18:49:38,1.004s,PASSED
+"click(findTestObject(""OCS-MOBILE /FAQ page/Loadmore3""))",Firefox 67.0,,2019-05-24 18:49:38,2019-05-24 18:49:38,0.234s,PASSED
+delay(1),Firefox 67.0,,2019-05-24 18:49:38,2019-05-24 18:49:39,1.004s,PASSED
+"click(findTestObject(""OCS-MOBILE /FAQ page/Learn about cannabis""))",Firefox 67.0,,2019-05-24 18:49:39,2019-05-24 18:49:43,3.811s,PASSED
+delay(1),Firefox 67.0,,2019-05-24 18:49:43,2019-05-24 18:49:44,1.002s,PASSED
+back(),Firefox 67.0,,2019-05-24 18:49:44,2019-05-24 18:49:46,1.424s,PASSED
+delay(1),Firefox 67.0,,2019-05-24 18:49:46,2019-05-24 18:49:47,1.004s,PASSED
+"setViewPortSize(1000, 800, OPTIONAL)",Firefox 67.0,,2019-05-24 18:49:47,2019-05-24 18:49:47,0.069s,PASSED
+"delay(2, OPTIONAL)",Firefox 67.0,,2019-05-24 18:49:47,2019-05-24 18:49:49,2.003s,PASSED
+"click(findTestObject(""Theme_oR/Page_Ontario Cannabis Store  Ontari/button_Hide bar""), OPTIONAL)",Firefox 67.0,,2019-05-24 18:49:49,2019-05-24 18:49:49,0.106s,PASSED
+"delay(2, OPTIONAL)",Firefox 67.0,,2019-05-24 18:49:49,2019-05-24 18:49:51,2.001s,PASSED
+"setViewPortSize(360, 800, OPTIONAL)",Firefox 67.0,,2019-05-24 18:49:51,2019-05-24 18:49:51,0.058s,PASSED
+"delay(1, OPTIONAL)",Firefox 67.0,,2019-05-24 18:49:51,2019-05-24 18:49:52,1.001s,PASSED
+"executeJavaScript(""var previewBar = document.getElementById(""preview-bar-iframe""); previewBar.style.display = ""none"";"", [])",Firefox 67.0,,2019-05-24 18:49:52,2019-05-24 18:49:52,0.008s,PASSED
+"click(findTestObject(""OCS-MOBILE /FAQ page/Loadmore4""))",Firefox 67.0,,2019-05-24 18:49:52,2019-05-24 18:49:52,0.282s,PASSED
+"delay(2, OPTIONAL)",Firefox 67.0,,2019-05-24 18:49:52,2019-05-24 18:49:54,2.002s,PASSED
+"setViewPortSize(1000, 800, OPTIONAL)",Firefox 67.0,,2019-05-24 18:49:54,2019-05-24 18:49:54,0.060s,PASSED
+"delay(2, OPTIONAL)",Firefox 67.0,,2019-05-24 18:49:54,2019-05-24 18:49:56,2.003s,PASSED
+"click(findTestObject(""Theme_oR/Page_Ontario Cannabis Store  Ontari/button_Hide bar""), OPTIONAL)",Firefox 67.0,,2019-05-24 18:49:56,2019-05-24 18:49:56,0.095s,PASSED
+"delay(2, OPTIONAL)",Firefox 67.0,,2019-05-24 18:49:56,2019-05-24 18:49:58,2.005s,PASSED
+"setViewPortSize(360, 800, OPTIONAL)",Firefox 67.0,,2019-05-24 18:49:58,2019-05-24 18:49:58,0.066s,PASSED
+"delay(1, OPTIONAL)",Firefox 67.0,,2019-05-24 18:49:58,2019-05-24 18:49:59,1.004s,PASSED
+"click(findTestObject(""OCS-MOBILE /FAQ page/Learn about OCS""))",Firefox 67.0,,2019-05-24 18:49:59,2019-05-24 18:50:03,3.181s,PASSED
+back(),Firefox 67.0,,2019-05-24 18:50:03,2019-05-24 18:50:05,2.632s,PASSED
+"delay(2, OPTIONAL)",Firefox 67.0,,2019-05-24 18:50:05,2019-05-24 18:50:07,2.003s,PASSED
+"setViewPortSize(1000, 800, OPTIONAL)",Firefox 67.0,,2019-05-24 18:50:07,2019-05-24 18:50:07,0.062s,PASSED
+"delay(2, OPTIONAL)",Firefox 67.0,,2019-05-24 18:50:07,2019-05-24 18:50:09,2.002s,PASSED
+"click(findTestObject(""Theme_oR/Page_Ontario Cannabis Store  Ontari/button_Hide bar""), OPTIONAL)",Firefox 67.0,,2019-05-24 18:50:09,2019-05-24 18:50:09,0.093s,PASSED
+"delay(2, OPTIONAL)",Firefox 67.0,,2019-05-24 18:50:09,2019-05-24 18:50:11,2.006s,PASSED
+"setViewPortSize(360, 800, OPTIONAL)",Firefox 67.0,,2019-05-24 18:50:11,2019-05-24 18:50:11,0.069s,PASSED
+"delay(1, OPTIONAL)",Firefox 67.0,,2019-05-24 18:50:11,2019-05-24 18:50:12,1.004s,PASSED
+"executeJavaScript(""var previewBar = document.getElementById(""preview-bar-iframe""); previewBar.style.display = ""none"";"", [])",Firefox 67.0,,2019-05-24 18:50:12,2019-05-24 18:50:12,0.011s,PASSED
+"click(findTestObject(""OCS-MOBILE /FAQ page/Choose cannabis products""))",Firefox 67.0,,2019-05-24 18:50:12,2019-05-24 18:50:16,3.172s,PASSED
+back(),Firefox 67.0,,2019-05-24 18:50:16,2019-05-24 18:50:17,1.526s,PASSED
+"executeJavaScript(""var previewBar = document.getElementById(""preview-bar-iframe""); previewBar.style.display = ""none"";"", [])",Firefox 67.0,,2019-05-24 18:50:17,2019-05-24 18:50:17,0.010s,PASSED
+"click(findTestObject(""OCS-MOBILE /Age gate and burger menu/Burger menu - English""))",Firefox 67.0,,2019-05-24 18:50:17,2019-05-24 18:50:17,0.255s,PASSED
+"delay(1, OPTIONAL)",Firefox 67.0,,2019-05-24 18:50:17,2019-05-24 18:50:18,1.005s,PASSED
+"click(findTestObject(""OCS-MOBILE /FAQ page/FAQ""))",Firefox 67.0,,2019-05-24 18:50:18,2019-05-24 18:50:18,0.093s,FAILED
+,,,,,,
+Test Cases/OCS - MOBILE/OCS- HOME PAGE/Retail stores link,Firefox 67.0,,2019-05-24 18:50:18,2019-05-24 18:51:14,55.829s,FAILED
+"callTestCase(findTestCase(""OCS - MOBILE/CALL - AGE GATE""), [:], STOP_ON_FAILURE)",Firefox 67.0,,2019-05-24 18:50:19,2019-05-24 18:50:42,22.990s,PASSED
+delay(2),Firefox 67.0,,2019-05-24 18:50:42,2019-05-24 18:50:44,2.004s,PASSED
+"flag = verifyElementPresent(findTestObject(""OCS-MOBILE /Home - page/Retail stores link""), 0, CONTINUE_ON_FAILURE)",Firefox 67.0,,2019-05-24 18:50:44,2019-05-24 18:51:14,30.759s,FAILED
+"comment(""flag="" + flag)",Firefox 67.0,,2019-05-24 18:51:14,2019-05-24 18:51:14,0.000s,PASSED
+if (flag == true),Firefox 67.0,,2019-05-24 18:51:14,2019-05-24 18:51:14,0.001s,PASSED
+else,Firefox 67.0,,2019-05-24 18:51:14,2019-05-24 18:51:14,0.001s,FAILED
+,,,,,,
+Test Cases/OCS - MOBILE/OCS- HOME PAGE/Screen reader link,Firefox 67.0,,2019-05-24 18:51:14,2019-05-24 18:51:43,28.358s,PASSED
+"callTestCase(findTestCase(""OCS - MOBILE/CALL - AGE GATE""), [:], STOP_ON_FAILURE)",Firefox 67.0,,2019-05-24 18:51:14,2019-05-24 18:51:37,23.099s,PASSED
+delay(2),Firefox 67.0,,2019-05-24 18:51:37,2019-05-24 18:51:39,2.002s,PASSED
+"click(findTestObject(""OCS-MOBILE /Home - page/Screen readers link""))",Firefox 67.0,,2019-05-24 18:51:39,2019-05-24 18:51:42,2.832s,PASSED
+"flag = verifyTextPresent(""Accessibility at the Ontario Cannabis Store (OCS)"", false)",Firefox 67.0,,2019-05-24 18:51:42,2019-05-24 18:51:43,0.350s,PASSED
+"comment(""flag ="" + flag)",Firefox 67.0,,2019-05-24 18:51:43,2019-05-24 18:51:43,0.001s,PASSED
+if (flag == false),Firefox 67.0,,2019-05-24 18:51:43,2019-05-24 18:51:43,0.000s,PASSED
+else,Firefox 67.0,,2019-05-24 18:51:43,2019-05-24 18:51:43,0.001s,PASSED
+,,,,,,
+Test Cases/OCS - MOBILE/OCS- HOME PAGE/Toggling language,Firefox 67.0,,2019-05-24 18:51:43,2019-05-24 18:52:08,25.366s,FAILED
+"callTestCase(findTestCase(""OCS - MOBILE/CALL - AGE GATE""), [:], STOP_ON_FAILURE)",Firefox 67.0,,2019-05-24 18:51:43,2019-05-24 18:52:04,20.920s,PASSED
+delay(2),Firefox 67.0,,2019-05-24 18:52:04,2019-05-24 18:52:06,2.001s,PASSED
+"click(findTestObject(""OCS-MOBILE /Age gate and burger menu/Burger menu - English""))",Firefox 67.0,,2019-05-24 18:52:06,2019-05-24 18:52:06,0.251s,PASSED
+delay(2),Firefox 67.0,,2019-05-24 18:52:06,2019-05-24 18:52:08,2.003s,PASSED
+"click(findTestObject(""OCS-MOBILE /Cart flyout/English dropdown""))",Firefox 67.0,,2019-05-24 18:52:08,2019-05-24 18:52:08,0.072s,FAILED
+,,,,,,
+Test Cases/OCS - MOBILE/OCS- HOME PAGE/why trust OCS,Firefox 67.0,,2019-05-24 18:52:08,2019-05-24 18:52:43,35.058s,PASSED
+"callTestCase(findTestCase(""OCS - MOBILE/CALL - AGE GATE""), [:], STOP_ON_FAILURE)",Firefox 67.0,,2019-05-24 18:52:08,2019-05-24 18:52:32,23.889s,PASSED
+delay(2),Firefox 67.0,,2019-05-24 18:52:32,2019-05-24 18:52:34,2.005s,PASSED
+"executeJavaScript(""var previewBar = document.getElementById(""preview-bar-iframe""); previewBar.style.display = ""none"";"", [])",Firefox 67.0,,2019-05-24 18:52:34,2019-05-24 18:52:34,0.008s,PASSED
+"setViewPortSize(1000, 800, OPTIONAL)",Firefox 67.0,,2019-05-24 18:52:34,2019-05-24 18:52:34,0.088s,PASSED
+"delay(2, OPTIONAL)",Firefox 67.0,,2019-05-24 18:52:34,2019-05-24 18:52:36,2.003s,PASSED
+"click(findTestObject(""Theme_oR/Page_Ontario Cannabis Store  Ontari/button_Hide bar""), OPTIONAL)",Firefox 67.0,,2019-05-24 18:52:36,2019-05-24 18:52:36,0.305s,PASSED
+"delay(2, OPTIONAL)",Firefox 67.0,,2019-05-24 18:52:36,2019-05-24 18:52:38,2.008s,PASSED
+"setViewPortSize(360, 800, OPTIONAL)",Firefox 67.0,,2019-05-24 18:52:38,2019-05-24 18:52:38,0.066s,PASSED
+"delay(1, OPTIONAL)",Firefox 67.0,,2019-05-24 18:52:38,2019-05-24 18:52:39,1.002s,PASSED
+"click(findTestObject(""OCS-MOBILE /Home - page/Why trust OCS -img""))",Firefox 67.0,,2019-05-24 18:52:39,2019-05-24 18:52:43,3.613s,PASSED

@@ -1,0 +1,456 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+"AG , COLL , HP - CHROME",Firefox 66.0,,2019-05-18 20:09:52,2019-05-18 20:18:49,8m - 56.927s,FAILED
+,,,,,,
+Test Cases/OCS - MOBILE/OCS-AGE GATE/AG- Under Age,Firefox 66.0,,2019-05-18 20:09:53,2019-05-18 20:10:29,36.299s,PASSED
+"openBrowser("""")",Firefox 66.0,,2019-05-18 20:09:53,2019-05-18 20:09:57,3.783s,PASSED
+"navigateToUrl(""https://ocs.ca/?fts=0&preview_theme_id=53373863756"")",Firefox 66.0,,2019-05-18 20:09:57,2019-05-18 20:10:02,5.617s,PASSED
+"setViewPortSize(360, 800)",Firefox 66.0,,2019-05-18 20:10:02,2019-05-18 20:10:02,0.091s,PASSED
+delay(4),Firefox 66.0,,2019-05-18 20:10:02,2019-05-18 20:10:06,4.019s,PASSED
+"selectOptionByValue(findTestObject(""OCS-MOBILE /Age gate and burger menu/Date""), ""12"", true)",Firefox 66.0,,2019-05-18 20:10:06,2019-05-18 20:10:07,0.818s,PASSED
+"selectOptionByValue(findTestObject(""OCS-MOBILE /Age gate and burger menu/month""), ""6"", true)",Firefox 66.0,,2019-05-18 20:10:07,2019-05-18 20:10:08,0.500s,PASSED
+delay(2),Firefox 66.0,,2019-05-18 20:10:08,2019-05-18 20:10:10,2.007s,PASSED
+"selectOptionByValue(findTestObject(""OCS-MOBILE /Age gate and burger menu/Year Dropdown""), ""2017"", true)",Firefox 66.0,,2019-05-18 20:10:10,2019-05-18 20:10:11,1.438s,PASSED
+"click(findTestObject(""OCS-MOBILE /Age gate and burger menu/button_Verify""))",Firefox 66.0,,2019-05-18 20:10:11,2019-05-18 20:10:12,0.745s,PASSED
+delay(3),Firefox 66.0,,2019-05-18 20:10:12,2019-05-18 20:10:15,3.003s,PASSED
+"click(findTestObject(""OCS-MOBILE /Age gate and burger menu/Checkbox_CONFIRM AND ACKNOWLEDGE""))",Firefox 66.0,,2019-05-18 20:10:15,2019-05-18 20:10:16,0.741s,PASSED
+"click(findTestObject(""OCS-MOBILE /Age gate and burger menu/button_CONFIRM""))",Firefox 66.0,,2019-05-18 20:10:16,2019-05-18 20:10:16,0.516s,PASSED
+delay(3),Firefox 66.0,,2019-05-18 20:10:16,2019-05-18 20:10:19,3.006s,PASSED
+"click(findTestObject(""OCS-MOBILE /Age gate and burger menu/Oops Im actually 19 or older - Link""))",Firefox 66.0,,2019-05-18 20:10:19,2019-05-18 20:10:20,0.739s,PASSED
+"selectOptionByValue(findTestObject(""OCS-MOBILE /Age gate and burger menu/Date""), ""5"", true)",Firefox 66.0,,2019-05-18 20:10:20,2019-05-18 20:10:21,0.632s,PASSED
+"selectOptionByValue(findTestObject(""OCS-MOBILE /Age gate and burger menu/month""), ""6"", true)",Firefox 66.0,,2019-05-18 20:10:21,2019-05-18 20:10:21,0.450s,PASSED
+"selectOptionByValue(findTestObject(""OCS-MOBILE /Age gate and burger menu/Year Dropdown""), ""1970"", true)",Firefox 66.0,,2019-05-18 20:10:21,2019-05-18 20:10:23,1.722s,PASSED
+"click(findTestObject(""OCS-MOBILE /Age gate and burger menu/button_Verify""))",Firefox 66.0,,2019-05-18 20:10:23,2019-05-18 20:10:24,0.725s,PASSED
+"click(findTestObject(""OCS-MOBILE /Age gate and burger menu/Checkbox_CONFIRM AND ACKNOWLEDGE""))",Firefox 66.0,,2019-05-18 20:10:24,2019-05-18 20:10:24,0.515s,PASSED
+"click(findTestObject(""OCS-MOBILE /Age gate and burger menu/button_CONFIRM""))",Firefox 66.0,,2019-05-18 20:10:24,2019-05-18 20:10:25,0.734s,PASSED
+"click(findTestObject(""OCS-MOBILE /Age gate and burger menu/button_Start Browsing""))",Firefox 66.0,,2019-05-18 20:10:25,2019-05-18 20:10:25,0.510s,PASSED
+delay(3),Firefox 66.0,,2019-05-18 20:10:25,2019-05-18 20:10:28,3.008s,PASSED
+closeBrowser(),Firefox 66.0,,2019-05-18 20:10:28,2019-05-18 20:10:29,0.602s,PASSED
+,,,,,,
+Test Cases/OCS - MOBILE/OCS-AGE GATE/AG - Date correction,Firefox 66.0,,2019-05-18 20:10:29,2019-05-18 20:11:00,30.804s,PASSED
+"openBrowser("""")",Firefox 66.0,,2019-05-18 20:10:29,2019-05-18 20:10:31,2.193s,PASSED
+"navigateToUrl(""https://ocs.ca/?fts=0&preview_theme_id=53373863756"")",Firefox 66.0,,2019-05-18 20:10:31,2019-05-18 20:10:43,11.561s,PASSED
+"setViewPortSize(360, 800)",Firefox 66.0,,2019-05-18 20:10:43,2019-05-18 20:10:43,0.091s,PASSED
+delay(4),Firefox 66.0,,2019-05-18 20:10:43,2019-05-18 20:10:47,4.006s,PASSED
+"selectOptionByValue(findTestObject(""OCS-MOBILE /Age gate and burger menu/Date""), ""12"", true)",Firefox 66.0,,2019-05-18 20:10:47,2019-05-18 20:10:48,0.681s,PASSED
+"selectOptionByValue(findTestObject(""OCS-MOBILE /Age gate and burger menu/month""), ""6"", true)",Firefox 66.0,,2019-05-18 20:10:48,2019-05-18 20:10:48,0.453s,PASSED
+delay(2),Firefox 66.0,,2019-05-18 20:10:48,2019-05-18 20:10:50,2.004s,PASSED
+"selectOptionByValue(findTestObject(""OCS-MOBILE /Age gate and burger menu/Year Dropdown""), ""2000"", true)",Firefox 66.0,,2019-05-18 20:10:50,2019-05-18 20:10:51,1.455s,PASSED
+"click(findTestObject(""OCS-MOBILE /Age gate and burger menu/button_Verify""))",Firefox 66.0,,2019-05-18 20:10:51,2019-05-18 20:10:52,0.724s,PASSED
+delay(3),Firefox 66.0,,2019-05-18 20:10:52,2019-05-18 20:10:55,3.006s,PASSED
+"click(findTestObject(""OCS_OR/Page_Ontario Cannabis Store  Ontari/a_Correct Your Date of Birth""))",Firefox 66.0,,2019-05-18 20:10:55,2019-05-18 20:10:56,0.730s,PASSED
+"selectOptionByValue(findTestObject(""OCS-MOBILE /Age gate and burger menu/Date""), ""1"", true)",Firefox 66.0,,2019-05-18 20:10:56,2019-05-18 20:10:57,0.577s,PASSED
+"selectOptionByValue(findTestObject(""OCS-MOBILE /Age gate and burger menu/month""), ""5"", true)",Firefox 66.0,,2019-05-18 20:10:57,2019-05-18 20:10:57,0.430s,PASSED
+"selectOptionByValue(findTestObject(""OCS-MOBILE /Age gate and burger menu/Year Dropdown""), ""1980"", true)",Firefox 66.0,,2019-05-18 20:10:57,2019-05-18 20:10:59,1.567s,PASSED
+"click(findTestObject(""OCS-MOBILE /Age gate and burger menu/button_Verify""))",Firefox 66.0,,2019-05-18 20:10:59,2019-05-18 20:10:59,0.731s,PASSED
+closeBrowser(),Firefox 66.0,,2019-05-18 20:10:59,2019-05-18 20:11:00,0.492s,PASSED
+,,,,,,
+Test Cases/OCS - MOBILE/OCS- HOME PAGE/Toggling language,Firefox 66.0,,2019-05-18 20:11:00,2019-05-18 20:11:20,20.139s,FAILED
+"openBrowser("""")",Firefox 66.0,,2019-05-18 20:11:00,2019-05-18 20:11:02,2.160s,PASSED
+"navigateToUrl(""https://ocs.ca/?fts=0&preview_theme_id=53373863756"")",Firefox 66.0,,2019-05-18 20:11:02,2019-05-18 20:11:06,4.386s,PASSED
+"setViewPortSize(360, 800)",Firefox 66.0,,2019-05-18 20:11:06,2019-05-18 20:11:07,0.064s,PASSED
+delay(4),Firefox 66.0,,2019-05-18 20:11:07,2019-05-18 20:11:11,4.004s,PASSED
+"selectOptionByValue(findTestObject(""OCS-MOBILE /Age gate and burger menu/Date""), ""12"", true)",Firefox 66.0,,2019-05-18 20:11:11,2019-05-18 20:11:11,0.690s,PASSED
+"selectOptionByValue(findTestObject(""OCS-MOBILE /Age gate and burger menu/month""), ""6"", true)",Firefox 66.0,,2019-05-18 20:11:11,2019-05-18 20:11:12,0.444s,PASSED
+delay(2),Firefox 66.0,,2019-05-18 20:11:12,2019-05-18 20:11:14,2.002s,PASSED
+"selectOptionByValue(findTestObject(""OCS-MOBILE /Age gate and burger menu/Year Dropdown""), ""1990"", true)",Firefox 66.0,,2019-05-18 20:11:14,2019-05-18 20:11:15,1.602s,PASSED
+"click(findTestObject(""OCS-MOBILE /Age gate and burger menu/button_Verify""))",Firefox 66.0,,2019-05-18 20:11:15,2019-05-18 20:11:16,0.731s,PASSED
+"click(findTestObject(""OCS-MOBILE /Age gate and burger menu/Checkbox_CONFIRM AND ACKNOWLEDGE""))",Firefox 66.0,,2019-05-18 20:11:16,2019-05-18 20:11:17,0.507s,PASSED
+"click(findTestObject(""OCS-MOBILE /Age gate and burger menu/button_CONFIRM""))",Firefox 66.0,,2019-05-18 20:11:17,2019-05-18 20:11:17,0.736s,PASSED
+"click(findTestObject(""OCS-MOBILE /Age gate and burger menu/button_Start Browsing""))",Firefox 66.0,,2019-05-18 20:11:17,2019-05-18 20:11:18,0.505s,PASSED
+delay(2),Firefox 66.0,,2019-05-18 20:11:18,2019-05-18 20:11:20,2.001s,PASSED
+"click(findTestObject(""OCS-MOBILE /Age gate and burger menu/Burger menu - English""))",Firefox 66.0,,2019-05-18 20:11:20,2019-05-18 20:11:20,0.106s,FAILED
+,,,,,,
+Test Cases/OCS - MOBILE/OCS- HOME PAGE/HP-Burger menu-Accessories,Firefox 66.0,,2019-05-18 20:11:20,2019-05-18 20:12:45,1m - 24.844s,FAILED
+"openBrowser("""", CONTINUE_ON_FAILURE)",Firefox 66.0,,2019-05-18 20:11:20,2019-05-18 20:11:23,2.443s,PASSED
+"navigateToUrl(""https://ocs.ca/?fts=0&preview_theme_id=53373863756"", CONTINUE_ON_FAILURE)",Firefox 66.0,,2019-05-18 20:11:23,2019-05-18 20:11:29,6.389s,PASSED
+"setViewPortSize(360, 800, CONTINUE_ON_FAILURE)",Firefox 66.0,,2019-05-18 20:11:29,2019-05-18 20:11:29,0.067s,PASSED
+"delay(4, CONTINUE_ON_FAILURE)",Firefox 66.0,,2019-05-18 20:11:29,2019-05-18 20:11:33,4.006s,PASSED
+"selectOptionByValue(findTestObject(""OCS-MOBILE /Age gate and burger menu/Date""), ""12"", true, CONTINUE_ON_FAILURE)",Firefox 66.0,,2019-05-18 20:11:33,2019-05-18 20:11:34,0.671s,PASSED
+"selectOptionByValue(findTestObject(""OCS-MOBILE /Age gate and burger menu/month""), ""6"", true, CONTINUE_ON_FAILURE)",Firefox 66.0,,2019-05-18 20:11:34,2019-05-18 20:11:34,0.432s,PASSED
+"delay(2, CONTINUE_ON_FAILURE)",Firefox 66.0,,2019-05-18 20:11:34,2019-05-18 20:11:36,2.001s,PASSED
+"selectOptionByValue(findTestObject(""OCS-MOBILE /Age gate and burger menu/Year Dropdown""), ""1990"", true, CONTINUE_ON_FAILURE)",Firefox 66.0,,2019-05-18 20:11:36,2019-05-18 20:11:38,1.589s,PASSED
+"click(findTestObject(""OCS-MOBILE /Age gate and burger menu/button_Verify""), CONTINUE_ON_FAILURE)",Firefox 66.0,,2019-05-18 20:11:38,2019-05-18 20:11:39,0.727s,PASSED
+"click(findTestObject(""OCS-MOBILE /Age gate and burger menu/Checkbox_CONFIRM AND ACKNOWLEDGE""), CONTINUE_ON_FAILURE)",Firefox 66.0,,2019-05-18 20:11:39,2019-05-18 20:11:39,0.340s,PASSED
+"click(findTestObject(""OCS-MOBILE /Age gate and burger menu/button_CONFIRM""), CONTINUE_ON_FAILURE)",Firefox 66.0,,2019-05-18 20:11:39,2019-05-18 20:11:40,0.725s,PASSED
+"click(findTestObject(""OCS-MOBILE /Age gate and burger menu/button_Start Browsing""), CONTINUE_ON_FAILURE)",Firefox 66.0,,2019-05-18 20:11:40,2019-05-18 20:11:40,0.505s,PASSED
+"delay(2, CONTINUE_ON_FAILURE)",Firefox 66.0,,2019-05-18 20:11:40,2019-05-18 20:11:42,2.004s,PASSED
+"click(findTestObject(""OCS-MOBILE /Age gate and burger menu/Burger menu - English""), CONTINUE_ON_FAILURE)",Firefox 66.0,,2019-05-18 20:11:42,2019-05-18 20:11:42,0.093s,FAILED
+"delay(2, CONTINUE_ON_FAILURE)",Firefox 66.0,,2019-05-18 20:11:42,2019-05-18 20:11:44,2.006s,PASSED
+"click(findTestObject(""OCS-MOBILE /Accessories page/accessories chevron""), CONTINUE_ON_FAILURE)",Firefox 66.0,,2019-05-18 20:11:44,2019-05-18 20:11:45,0.733s,PASSED
+"delay(1, CONTINUE_ON_FAILURE)",Firefox 66.0,,2019-05-18 20:11:45,2019-05-18 20:11:46,1.004s,PASSED
+"click(findTestObject(""OCS-MOBILE /Accessories page/Vaporizers""), CONTINUE_ON_FAILURE)",Firefox 66.0,,2019-05-18 20:11:46,2019-05-18 20:11:46,0.069s,FAILED
+"delay(1, CONTINUE_ON_FAILURE)",Firefox 66.0,,2019-05-18 20:11:46,2019-05-18 20:11:47,1.005s,PASSED
+a = getWindowTitle(CONTINUE_ON_FAILURE),Firefox 66.0,,2019-05-18 20:11:47,2019-05-18 20:11:47,0.015s,PASSED
+comment(a),Firefox 66.0,,2019-05-18 20:11:47,2019-05-18 20:11:47,0.005s,PASSED
+"b = ""Vaporizers | Ontario Cannabis Store""",Firefox 66.0,,2019-05-18 20:11:47,2019-05-18 20:11:47,0.000s,PASSED
+comment(b),Firefox 66.0,,2019-05-18 20:11:47,2019-05-18 20:11:47,0.004s,PASSED
+if (a == b),Firefox 66.0,,2019-05-18 20:11:47,2019-05-18 20:11:47,0.000s,PASSED
+else,Firefox 66.0,,2019-05-18 20:11:47,2019-05-18 20:11:47,0.001s,PASSED
+"delay(1, CONTINUE_ON_FAILURE)",Firefox 66.0,,2019-05-18 20:11:47,2019-05-18 20:11:48,1.005s,PASSED
+"click(findTestObject(""OCS-MOBILE /Age gate and burger menu/Burger menu - English""), CONTINUE_ON_FAILURE)",Firefox 66.0,,2019-05-18 20:11:48,2019-05-18 20:11:48,0.064s,FAILED
+"delay(2, CONTINUE_ON_FAILURE)",Firefox 66.0,,2019-05-18 20:11:48,2019-05-18 20:11:50,2.003s,PASSED
+"click(findTestObject(""OCS-MOBILE /Accessories page/accessories chevron""), CONTINUE_ON_FAILURE)",Firefox 66.0,,2019-05-18 20:11:50,2019-05-18 20:11:51,0.732s,PASSED
+"delay(1, CONTINUE_ON_FAILURE)",Firefox 66.0,,2019-05-18 20:11:51,2019-05-18 20:11:52,1.003s,PASSED
+"click(findTestObject(""OCS-MOBILE /Accessories page/Bongs - water pipes""), CONTINUE_ON_FAILURE)",Firefox 66.0,,2019-05-18 20:11:52,2019-05-18 20:11:52,0.062s,FAILED
+"delay(1, CONTINUE_ON_FAILURE)",Firefox 66.0,,2019-05-18 20:11:52,2019-05-18 20:11:53,1.001s,PASSED
+a1 = getWindowTitle(CONTINUE_ON_FAILURE),Firefox 66.0,,2019-05-18 20:11:53,2019-05-18 20:11:53,0.005s,PASSED
+comment(a1),Firefox 66.0,,2019-05-18 20:11:53,2019-05-18 20:11:53,0.001s,PASSED
+"b1 = ""Bongs & Water Pipes | Ontario Cannabis Store""",Firefox 66.0,,2019-05-18 20:11:53,2019-05-18 20:11:53,0.000s,PASSED
+comment(b1),Firefox 66.0,,2019-05-18 20:11:53,2019-05-18 20:11:53,0.001s,PASSED
+if (a1 == b1),Firefox 66.0,,2019-05-18 20:11:53,2019-05-18 20:11:53,0.000s,PASSED
+else,Firefox 66.0,,2019-05-18 20:11:53,2019-05-18 20:11:53,0.002s,PASSED
+"delay(1, CONTINUE_ON_FAILURE)",Firefox 66.0,,2019-05-18 20:11:53,2019-05-18 20:11:54,1.006s,PASSED
+"click(findTestObject(""OCS-MOBILE /Age gate and burger menu/Burger menu - English""), CONTINUE_ON_FAILURE)",Firefox 66.0,,2019-05-18 20:11:54,2019-05-18 20:11:54,0.056s,FAILED
+"delay(2, CONTINUE_ON_FAILURE)",Firefox 66.0,,2019-05-18 20:11:54,2019-05-18 20:11:56,2.001s,PASSED
+"click(findTestObject(""OCS-MOBILE /Accessories page/accessories chevron""), CONTINUE_ON_FAILURE)",Firefox 66.0,,2019-05-18 20:11:56,2019-05-18 20:11:57,0.724s,PASSED
+"delay(1, CONTINUE_ON_FAILURE)",Firefox 66.0,,2019-05-18 20:11:57,2019-05-18 20:11:58,1.001s,PASSED
+"click(findTestObject(""OCS-MOBILE /Accessories page/Handheld pipes""), CONTINUE_ON_FAILURE)",Firefox 66.0,,2019-05-18 20:11:58,2019-05-18 20:11:58,0.059s,FAILED
+"delay(1, CONTINUE_ON_FAILURE)",Firefox 66.0,,2019-05-18 20:11:58,2019-05-18 20:11:59,1.002s,PASSED
+a11 = getWindowTitle(CONTINUE_ON_FAILURE),Firefox 66.0,,2019-05-18 20:11:59,2019-05-18 20:11:59,0.004s,PASSED
+comment(a11),Firefox 66.0,,2019-05-18 20:11:59,2019-05-18 20:11:59,0.001s,PASSED
+"b11 = ""Handheld Pipes | Ontario Cannabis Store""",Firefox 66.0,,2019-05-18 20:11:59,2019-05-18 20:11:59,0.000s,PASSED
+comment(b11),Firefox 66.0,,2019-05-18 20:11:59,2019-05-18 20:11:59,0.000s,PASSED
+if (a11 == b11),Firefox 66.0,,2019-05-18 20:11:59,2019-05-18 20:11:59,0.001s,PASSED
+else,Firefox 66.0,,2019-05-18 20:11:59,2019-05-18 20:11:59,0.000s,PASSED
+"delay(1, CONTINUE_ON_FAILURE)",Firefox 66.0,,2019-05-18 20:11:59,2019-05-18 20:12:00,1.005s,PASSED
+"click(findTestObject(""OCS-MOBILE /Age gate and burger menu/Burger menu - English""), CONTINUE_ON_FAILURE)",Firefox 66.0,,2019-05-18 20:12:00,2019-05-18 20:12:00,0.057s,FAILED
+"delay(2, CONTINUE_ON_FAILURE)",Firefox 66.0,,2019-05-18 20:12:00,2019-05-18 20:12:02,2.011s,PASSED
+"click(findTestObject(""OCS-MOBILE /Accessories page/accessories chevron""), CONTINUE_ON_FAILURE)",Firefox 66.0,,2019-05-18 20:12:02,2019-05-18 20:12:03,0.727s,PASSED
+"delay(1, CONTINUE_ON_FAILURE)",Firefox 66.0,,2019-05-18 20:12:03,2019-05-18 20:12:04,1.006s,PASSED
+"click(findTestObject(""OCS-MOBILE /Accessories page/Papers -filters""), CONTINUE_ON_FAILURE)",Firefox 66.0,,2019-05-18 20:12:04,2019-05-18 20:12:04,0.060s,FAILED
+"delay(1, CONTINUE_ON_FAILURE)",Firefox 66.0,,2019-05-18 20:12:04,2019-05-18 20:12:05,1.004s,PASSED
+a111 = getWindowTitle(CONTINUE_ON_FAILURE),Firefox 66.0,,2019-05-18 20:12:05,2019-05-18 20:12:05,0.005s,PASSED
+comment(a111),Firefox 66.0,,2019-05-18 20:12:05,2019-05-18 20:12:05,0.000s,PASSED
+"b111 = ""Papers & Filters | Ontario Cannabis Store""",Firefox 66.0,,2019-05-18 20:12:05,2019-05-18 20:12:05,0.001s,PASSED
+comment(b111),Firefox 66.0,,2019-05-18 20:12:05,2019-05-18 20:12:05,0.000s,PASSED
+if (a111 == b111),Firefox 66.0,,2019-05-18 20:12:05,2019-05-18 20:12:05,0.000s,PASSED
+else,Firefox 66.0,,2019-05-18 20:12:05,2019-05-18 20:12:05,0.000s,PASSED
+"delay(1, CONTINUE_ON_FAILURE)",Firefox 66.0,,2019-05-18 20:12:05,2019-05-18 20:12:06,1.002s,PASSED
+"click(findTestObject(""OCS-MOBILE /Age gate and burger menu/Burger menu - English""), CONTINUE_ON_FAILURE)",Firefox 66.0,,2019-05-18 20:12:06,2019-05-18 20:12:06,0.055s,FAILED
+"delay(2, CONTINUE_ON_FAILURE)",Firefox 66.0,,2019-05-18 20:12:06,2019-05-18 20:12:08,2.005s,PASSED
+"click(findTestObject(""OCS-MOBILE /Accessories page/accessories chevron""), CONTINUE_ON_FAILURE)",Firefox 66.0,,2019-05-18 20:12:08,2019-05-18 20:12:08,0.733s,PASSED
+"delay(1, CONTINUE_ON_FAILURE)",Firefox 66.0,,2019-05-18 20:12:08,2019-05-18 20:12:09,1.002s,PASSED
+"click(findTestObject(""OCS-MOBILE /Accessories page/Grinders""), CONTINUE_ON_FAILURE)",Firefox 66.0,,2019-05-18 20:12:09,2019-05-18 20:12:10,0.060s,FAILED
+"delay(1, CONTINUE_ON_FAILURE)",Firefox 66.0,,2019-05-18 20:12:10,2019-05-18 20:12:11,1.003s,PASSED
+a1111 = getWindowTitle(CONTINUE_ON_FAILURE),Firefox 66.0,,2019-05-18 20:12:11,2019-05-18 20:12:11,0.004s,PASSED
+comment(a1111),Firefox 66.0,,2019-05-18 20:12:11,2019-05-18 20:12:11,0.001s,PASSED
+"b1111 = ""Grinders | Ontario Cannabis Store""",Firefox 66.0,,2019-05-18 20:12:11,2019-05-18 20:12:11,0.000s,PASSED
+comment(b1111),Firefox 66.0,,2019-05-18 20:12:11,2019-05-18 20:12:11,0.001s,PASSED
+if (a1111 == b1111),Firefox 66.0,,2019-05-18 20:12:11,2019-05-18 20:12:11,0.000s,PASSED
+else,Firefox 66.0,,2019-05-18 20:12:11,2019-05-18 20:12:11,0.002s,PASSED
+"delay(1, CONTINUE_ON_FAILURE)",Firefox 66.0,,2019-05-18 20:12:11,2019-05-18 20:12:12,1.002s,PASSED
+"click(findTestObject(""OCS-MOBILE /Age gate and burger menu/Burger menu - English""), CONTINUE_ON_FAILURE)",Firefox 66.0,,2019-05-18 20:12:12,2019-05-18 20:12:12,0.056s,FAILED
+"delay(2, CONTINUE_ON_FAILURE)",Firefox 66.0,,2019-05-18 20:12:12,2019-05-18 20:12:14,2.001s,PASSED
+"click(findTestObject(""OCS-MOBILE /Accessories page/accessories chevron""), CONTINUE_ON_FAILURE)",Firefox 66.0,,2019-05-18 20:12:14,2019-05-18 20:12:14,0.720s,PASSED
+"delay(1, CONTINUE_ON_FAILURE)",Firefox 66.0,,2019-05-18 20:12:14,2019-05-18 20:12:15,1.006s,PASSED
+"click(findTestObject(""OCS-MOBILE /Accessories page/Tools -kits""), CONTINUE_ON_FAILURE)",Firefox 66.0,,2019-05-18 20:12:15,2019-05-18 20:12:15,0.058s,FAILED
+"delay(1, CONTINUE_ON_FAILURE)",Firefox 66.0,,2019-05-18 20:12:15,2019-05-18 20:12:16,1.001s,PASSED
+a11111 = getWindowTitle(CONTINUE_ON_FAILURE),Firefox 66.0,,2019-05-18 20:12:16,2019-05-18 20:12:16,0.004s,PASSED
+comment(a11111),Firefox 66.0,,2019-05-18 20:12:16,2019-05-18 20:12:16,0.001s,PASSED
+"b11111 = ""Multi-Tools & Kits | Ontario Cannabis Store""",Firefox 66.0,,2019-05-18 20:12:16,2019-05-18 20:12:16,0.001s,PASSED
+comment(b11111),Firefox 66.0,,2019-05-18 20:12:16,2019-05-18 20:12:16,0.000s,PASSED
+if (a11111 == b11111),Firefox 66.0,,2019-05-18 20:12:16,2019-05-18 20:12:16,0.000s,PASSED
+else,Firefox 66.0,,2019-05-18 20:12:16,2019-05-18 20:12:16,0.001s,PASSED
+"delay(1, CONTINUE_ON_FAILURE)",Firefox 66.0,,2019-05-18 20:12:16,2019-05-18 20:12:17,1.004s,PASSED
+"click(findTestObject(""OCS-MOBILE /Age gate and burger menu/Burger menu - English""), CONTINUE_ON_FAILURE)",Firefox 66.0,,2019-05-18 20:12:17,2019-05-18 20:12:17,0.067s,FAILED
+"delay(2, CONTINUE_ON_FAILURE)",Firefox 66.0,,2019-05-18 20:12:17,2019-05-18 20:12:19,2.003s,PASSED
+"click(findTestObject(""OCS-MOBILE /Accessories page/accessories chevron""), CONTINUE_ON_FAILURE)",Firefox 66.0,,2019-05-18 20:12:19,2019-05-18 20:12:20,0.724s,PASSED
+"delay(1, CONTINUE_ON_FAILURE)",Firefox 66.0,,2019-05-18 20:12:20,2019-05-18 20:12:21,1.006s,PASSED
+"click(findTestObject(""OCS-MOBILE /Accessories page/Cleaning supplies""), CONTINUE_ON_FAILURE)",Firefox 66.0,,2019-05-18 20:12:21,2019-05-18 20:12:21,0.062s,FAILED
+"delay(1, CONTINUE_ON_FAILURE)",Firefox 66.0,,2019-05-18 20:12:21,2019-05-18 20:12:22,1.006s,PASSED
+a12 = getWindowTitle(CONTINUE_ON_FAILURE),Firefox 66.0,,2019-05-18 20:12:22,2019-05-18 20:12:22,0.005s,PASSED
+comment(a12),Firefox 66.0,,2019-05-18 20:12:22,2019-05-18 20:12:22,0.000s,PASSED
+"b12 = ""Cleaning Supplies | Ontario Cannabis Store""",Firefox 66.0,,2019-05-18 20:12:22,2019-05-18 20:12:22,0.001s,PASSED
+comment(b12),Firefox 66.0,,2019-05-18 20:12:22,2019-05-18 20:12:22,0.000s,PASSED
+if (a12 == b12),Firefox 66.0,,2019-05-18 20:12:22,2019-05-18 20:12:22,0.000s,PASSED
+else,Firefox 66.0,,2019-05-18 20:12:22,2019-05-18 20:12:22,0.001s,PASSED
+"delay(1, CONTINUE_ON_FAILURE)",Firefox 66.0,,2019-05-18 20:12:22,2019-05-18 20:12:23,1.006s,PASSED
+"click(findTestObject(""OCS-MOBILE /Age gate and burger menu/Burger menu - English""), CONTINUE_ON_FAILURE)",Firefox 66.0,,2019-05-18 20:12:23,2019-05-18 20:12:23,0.055s,FAILED
+"delay(2, CONTINUE_ON_FAILURE)",Firefox 66.0,,2019-05-18 20:12:23,2019-05-18 20:12:25,2.003s,PASSED
+"click(findTestObject(""OCS-MOBILE /Accessories page/accessories chevron""), CONTINUE_ON_FAILURE)",Firefox 66.0,,2019-05-18 20:12:25,2019-05-18 20:12:26,0.722s,PASSED
+"delay(1, CONTINUE_ON_FAILURE)",Firefox 66.0,,2019-05-18 20:12:26,2019-05-18 20:12:27,1.006s,PASSED
+"click(findTestObject(""OCS-MOBILE /Accessories page/Storage""), CONTINUE_ON_FAILURE)",Firefox 66.0,,2019-05-18 20:12:27,2019-05-18 20:12:27,0.061s,FAILED
+"delay(1, CONTINUE_ON_FAILURE)",Firefox 66.0,,2019-05-18 20:12:27,2019-05-18 20:12:28,1.004s,PASSED
+a13 = getWindowTitle(CONTINUE_ON_FAILURE),Firefox 66.0,,2019-05-18 20:12:28,2019-05-18 20:12:28,0.005s,PASSED
+comment(a13),Firefox 66.0,,2019-05-18 20:12:28,2019-05-18 20:12:28,0.001s,PASSED
+"b13 = ""Storage | Ontario Cannabis Store""",Firefox 66.0,,2019-05-18 20:12:28,2019-05-18 20:12:28,0.000s,PASSED
+comment(b),Firefox 66.0,,2019-05-18 20:12:28,2019-05-18 20:12:28,0.000s,PASSED
+if (a13 == b13),Firefox 66.0,,2019-05-18 20:12:28,2019-05-18 20:12:28,0.000s,PASSED
+else,Firefox 66.0,,2019-05-18 20:12:28,2019-05-18 20:12:28,0.001s,PASSED
+"delay(1, CONTINUE_ON_FAILURE)",Firefox 66.0,,2019-05-18 20:12:28,2019-05-18 20:12:29,1.002s,PASSED
+"click(findTestObject(""OCS-MOBILE /Age gate and burger menu/Burger menu - English""), CONTINUE_ON_FAILURE)",Firefox 66.0,,2019-05-18 20:12:29,2019-05-18 20:12:29,0.053s,FAILED
+"delay(2, CONTINUE_ON_FAILURE)",Firefox 66.0,,2019-05-18 20:12:29,2019-05-18 20:12:31,2.005s,PASSED
+"click(findTestObject(""OCS-MOBILE /Accessories page/accessories chevron""), CONTINUE_ON_FAILURE)",Firefox 66.0,,2019-05-18 20:12:31,2019-05-18 20:12:32,0.735s,PASSED
+"delay(1, CONTINUE_ON_FAILURE)",Firefox 66.0,,2019-05-18 20:12:32,2019-05-18 20:12:33,1.003s,PASSED
+"click(findTestObject(""OCS-MOBILE /Accessories page/Trays""), CONTINUE_ON_FAILURE)",Firefox 66.0,,2019-05-18 20:12:33,2019-05-18 20:12:33,0.055s,FAILED
+"delay(1, CONTINUE_ON_FAILURE)",Firefox 66.0,,2019-05-18 20:12:33,2019-05-18 20:12:34,1.001s,PASSED
+a14 = getWindowTitle(CONTINUE_ON_FAILURE),Firefox 66.0,,2019-05-18 20:12:34,2019-05-18 20:12:34,0.005s,PASSED
+comment(a14),Firefox 66.0,,2019-05-18 20:12:34,2019-05-18 20:12:34,0.000s,PASSED
+"b14 = ""Trays | Ontario Cannabis Store""",Firefox 66.0,,2019-05-18 20:12:34,2019-05-18 20:12:34,0.000s,PASSED
+comment(b14),Firefox 66.0,,2019-05-18 20:12:34,2019-05-18 20:12:34,0.001s,PASSED
+if (a14 == b14),Firefox 66.0,,2019-05-18 20:12:34,2019-05-18 20:12:34,0.000s,PASSED
+else,Firefox 66.0,,2019-05-18 20:12:34,2019-05-18 20:12:34,0.001s,PASSED
+"delay(1, CONTINUE_ON_FAILURE)",Firefox 66.0,,2019-05-18 20:12:34,2019-05-18 20:12:35,1.003s,PASSED
+"click(findTestObject(""OCS-MOBILE /Age gate and burger menu/Burger menu - English""), CONTINUE_ON_FAILURE)",Firefox 66.0,,2019-05-18 20:12:35,2019-05-18 20:12:35,0.060s,FAILED
+"delay(2, CONTINUE_ON_FAILURE)",Firefox 66.0,,2019-05-18 20:12:35,2019-05-18 20:12:37,2.003s,PASSED
+"click(findTestObject(""OCS-MOBILE /Accessories page/accessories chevron""), CONTINUE_ON_FAILURE)",Firefox 66.0,,2019-05-18 20:12:37,2019-05-18 20:12:38,0.725s,PASSED
+"delay(1, CONTINUE_ON_FAILURE)",Firefox 66.0,,2019-05-18 20:12:38,2019-05-18 20:12:39,1.001s,PASSED
+"click(findTestObject(""OCS-MOBILE /Accessories page/Infusers""), CONTINUE_ON_FAILURE)",Firefox 66.0,,2019-05-18 20:12:39,2019-05-18 20:12:39,0.056s,FAILED
+"delay(1, CONTINUE_ON_FAILURE)",Firefox 66.0,,2019-05-18 20:12:39,2019-05-18 20:12:40,1.001s,PASSED
+a15 = getWindowTitle(CONTINUE_ON_FAILURE),Firefox 66.0,,2019-05-18 20:12:40,2019-05-18 20:12:40,0.004s,PASSED
+comment(a15),Firefox 66.0,,2019-05-18 20:12:40,2019-05-18 20:12:40,0.001s,PASSED
+"b15 = ""Infusers | Ontario Cannabis Store""",Firefox 66.0,,2019-05-18 20:12:40,2019-05-18 20:12:40,0.000s,PASSED
+comment(b15),Firefox 66.0,,2019-05-18 20:12:40,2019-05-18 20:12:40,0.000s,PASSED
+if (a15 == b15),Firefox 66.0,,2019-05-18 20:12:40,2019-05-18 20:12:40,0.000s,PASSED
+else,Firefox 66.0,,2019-05-18 20:12:40,2019-05-18 20:12:40,0.001s,PASSED
+"delay(1, CONTINUE_ON_FAILURE)",Firefox 66.0,,2019-05-18 20:12:40,2019-05-18 20:12:41,1.004s,PASSED
+"click(findTestObject(""OCS-MOBILE /Age gate and burger menu/Burger menu - English""), CONTINUE_ON_FAILURE)",Firefox 66.0,,2019-05-18 20:12:41,2019-05-18 20:12:41,0.065s,FAILED
+"delay(2, CONTINUE_ON_FAILURE)",Firefox 66.0,,2019-05-18 20:12:41,2019-05-18 20:12:43,2.005s,PASSED
+"click(findTestObject(""OCS-MOBILE /Accessories page/accessories chevron""), CONTINUE_ON_FAILURE)",Firefox 66.0,,2019-05-18 20:12:43,2019-05-18 20:12:44,0.727s,PASSED
+"delay(1, CONTINUE_ON_FAILURE)",Firefox 66.0,,2019-05-18 20:12:44,2019-05-18 20:12:45,1.006s,PASSED
+"click(findTestObject(""OCS-MOBILE /Accessories page/Shop all acessories""))",Firefox 66.0,,2019-05-18 20:12:45,2019-05-18 20:12:45,0.061s,FAILED
+,,,,,,
+Test Cases/OCS - MOBILE/OCS- HOME PAGE/Announcement,Firefox 66.0,,2019-05-18 20:12:45,2019-05-18 20:13:18,33.460s,PASSED
+"openBrowser("""")",Firefox 66.0,,2019-05-18 20:12:45,2019-05-18 20:12:58,12.898s,PASSED
+"navigateToUrl(""https://ocs.ca/?fts=0&preview_theme_id=53373863756"")",Firefox 66.0,,2019-05-18 20:12:58,2019-05-18 20:13:03,5.240s,PASSED
+"setViewPortSize(360, 800)",Firefox 66.0,,2019-05-18 20:13:03,2019-05-18 20:13:03,0.071s,PASSED
+delay(4),Firefox 66.0,,2019-05-18 20:13:03,2019-05-18 20:13:07,4.005s,PASSED
+"selectOptionByValue(findTestObject(""OCS-MOBILE /Age gate and burger menu/Date""), ""12"", true)",Firefox 66.0,,2019-05-18 20:13:07,2019-05-18 20:13:09,2.194s,PASSED
+"selectOptionByValue(findTestObject(""OCS-MOBILE /Age gate and burger menu/month""), ""6"", true)",Firefox 66.0,,2019-05-18 20:13:09,2019-05-18 20:13:10,0.445s,PASSED
+delay(2),Firefox 66.0,,2019-05-18 20:13:10,2019-05-18 20:13:12,2.003s,PASSED
+"selectOptionByValue(findTestObject(""OCS-MOBILE /Age gate and burger menu/Year Dropdown""), ""1990"", true)",Firefox 66.0,,2019-05-18 20:13:12,2019-05-18 20:13:13,1.519s,PASSED
+"click(findTestObject(""OCS-MOBILE /Age gate and burger menu/button_Verify""))",Firefox 66.0,,2019-05-18 20:13:13,2019-05-18 20:13:14,0.724s,PASSED
+"click(findTestObject(""OCS-MOBILE /Age gate and burger menu/Checkbox_CONFIRM AND ACKNOWLEDGE""))",Firefox 66.0,,2019-05-18 20:13:14,2019-05-18 20:13:15,0.635s,PASSED
+"click(findTestObject(""OCS-MOBILE /Age gate and burger menu/button_CONFIRM""))",Firefox 66.0,,2019-05-18 20:13:15,2019-05-18 20:13:15,0.722s,PASSED
+"click(findTestObject(""OCS-MOBILE /Age gate and burger menu/button_Start Browsing""))",Firefox 66.0,,2019-05-18 20:13:15,2019-05-18 20:13:16,0.510s,PASSED
+delay(2),Firefox 66.0,,2019-05-18 20:13:16,2019-05-18 20:13:18,2.005s,PASSED
+"flag = verifyTextPresent(""Due to holiday closures within the Canada Post network through Good Friday and Easter Monday, please expect some order delivery delays."", false, OPTIONAL)",Firefox 66.0,,2019-05-18 20:13:18,2019-05-18 20:13:18,0.381s,PASSED
+"comment(""flag ="" + flag)",Firefox 66.0,,2019-05-18 20:13:18,2019-05-18 20:13:18,0.001s,PASSED
+if (flag == false),Firefox 66.0,,2019-05-18 20:13:18,2019-05-18 20:13:18,0.001s,PASSED
+closeBrowser(),Firefox 66.0,,2019-05-18 20:13:18,2019-05-18 20:13:18,0.001s,NOT_RUN
+,,,,,,
+Test Cases/OCS - MOBILE/OCS- HOME PAGE/cart flyout,Firefox 66.0,,2019-05-18 20:13:18,2019-05-18 20:13:39,20.457s,FAILED
+"openBrowser("""")",Firefox 66.0,,2019-05-18 20:13:18,2019-05-18 20:13:21,2.551s,PASSED
+"navigateToUrl(""https://ocs.ca/?fts=0&preview_theme_id=53373863756"")",Firefox 66.0,,2019-05-18 20:13:21,2019-05-18 20:13:25,4.003s,PASSED
+"setViewPortSize(360, 800)",Firefox 66.0,,2019-05-18 20:13:25,2019-05-18 20:13:25,0.054s,PASSED
+delay(4),Firefox 66.0,,2019-05-18 20:13:25,2019-05-18 20:13:29,4.004s,PASSED
+"selectOptionByValue(findTestObject(""OCS-MOBILE /Age gate and burger menu/Date""), ""12"", true)",Firefox 66.0,,2019-05-18 20:13:29,2019-05-18 20:13:30,1.165s,PASSED
+"selectOptionByValue(findTestObject(""OCS-MOBILE /Age gate and burger menu/month""), ""6"", true)",Firefox 66.0,,2019-05-18 20:13:30,2019-05-18 20:13:30,0.434s,PASSED
+delay(2),Firefox 66.0,,2019-05-18 20:13:30,2019-05-18 20:13:32,2.011s,PASSED
+"selectOptionByValue(findTestObject(""OCS-MOBILE /Age gate and burger menu/Year Dropdown""), ""1990"", true)",Firefox 66.0,,2019-05-18 20:13:32,2019-05-18 20:13:34,1.576s,PASSED
+"click(findTestObject(""OCS-MOBILE /Age gate and burger menu/button_Verify""))",Firefox 66.0,,2019-05-18 20:13:34,2019-05-18 20:13:35,0.726s,PASSED
+"click(findTestObject(""OCS-MOBILE /Age gate and burger menu/Checkbox_CONFIRM AND ACKNOWLEDGE""))",Firefox 66.0,,2019-05-18 20:13:35,2019-05-18 20:13:35,0.510s,PASSED
+"click(findTestObject(""OCS-MOBILE /Age gate and burger menu/button_CONFIRM""))",Firefox 66.0,,2019-05-18 20:13:35,2019-05-18 20:13:36,0.720s,PASSED
+"click(findTestObject(""OCS-MOBILE /Age gate and burger menu/button_Start Browsing""))",Firefox 66.0,,2019-05-18 20:13:36,2019-05-18 20:13:37,0.511s,PASSED
+delay(2),Firefox 66.0,,2019-05-18 20:13:37,2019-05-18 20:13:39,2.002s,PASSED
+"click(findTestObject(""OCS-MOBILE /Home - page/Cart icon -bag""))",Firefox 66.0,,2019-05-18 20:13:39,2019-05-18 20:13:39,0.091s,FAILED
+,,,,,,
+Test Cases/OCS - MOBILE/OCS- HOME PAGE/Retail stores link,Firefox 66.0,,2019-05-18 20:13:39,2019-05-18 20:14:01,21.948s,FAILED
+"openBrowser("""")",Firefox 66.0,,2019-05-18 20:13:39,2019-05-18 20:13:41,2.341s,PASSED
+"navigateToUrl(""https://ocs.ca/?fts=0&preview_theme_id=53373863756"")",Firefox 66.0,,2019-05-18 20:13:41,2019-05-18 20:13:47,6.186s,PASSED
+"setViewPortSize(360, 800)",Firefox 66.0,,2019-05-18 20:13:47,2019-05-18 20:13:47,0.092s,PASSED
+delay(4),Firefox 66.0,,2019-05-18 20:13:47,2019-05-18 20:13:51,4.005s,PASSED
+"selectOptionByValue(findTestObject(""OCS-MOBILE /Age gate and burger menu/Date""), ""12"", true)",Firefox 66.0,,2019-05-18 20:13:51,2019-05-18 20:13:53,1.202s,PASSED
+"selectOptionByValue(findTestObject(""OCS-MOBILE /Age gate and burger menu/month""), ""6"", true)",Firefox 66.0,,2019-05-18 20:13:53,2019-05-18 20:13:53,0.423s,PASSED
+delay(2),Firefox 66.0,,2019-05-18 20:13:53,2019-05-18 20:13:55,2.006s,PASSED
+"selectOptionByValue(findTestObject(""OCS-MOBILE /Age gate and burger menu/Year Dropdown""), ""1990"", true)",Firefox 66.0,,2019-05-18 20:13:55,2019-05-18 20:13:57,1.503s,PASSED
+"click(findTestObject(""OCS-MOBILE /Age gate and burger menu/button_Verify""))",Firefox 66.0,,2019-05-18 20:13:57,2019-05-18 20:13:57,0.255s,PASSED
+"click(findTestObject(""OCS-MOBILE /Age gate and burger menu/Checkbox_CONFIRM AND ACKNOWLEDGE""))",Firefox 66.0,,2019-05-18 20:13:57,2019-05-18 20:13:57,0.728s,PASSED
+"click(findTestObject(""OCS-MOBILE /Age gate and burger menu/button_CONFIRM""))",Firefox 66.0,,2019-05-18 20:13:57,2019-05-18 20:13:58,0.271s,PASSED
+"click(findTestObject(""OCS-MOBILE /Age gate and burger menu/button_Start Browsing""))",Firefox 66.0,,2019-05-18 20:13:58,2019-05-18 20:13:58,0.728s,PASSED
+delay(2),Firefox 66.0,,2019-05-18 20:13:58,2019-05-18 20:14:00,2.003s,PASSED
+"click(findTestObject(""OCS-MOBILE /Home - page/Retail stores link""))",Firefox 66.0,,2019-05-18 20:14:00,2019-05-18 20:14:01,0.093s,FAILED
+,,,,,,
+Test Cases/OCS - MOBILE/OCS- HOME PAGE/Screen reader link,Firefox 66.0,,2019-05-18 20:14:01,2019-05-18 20:14:23,22.408s,FAILED
+"openBrowser("""")",Firefox 66.0,,2019-05-18 20:14:01,2019-05-18 20:14:03,2.660s,PASSED
+"navigateToUrl(""https://ocs.ca/?fts=0&preview_theme_id=53373863756"")",Firefox 66.0,,2019-05-18 20:14:03,2019-05-18 20:14:07,4.126s,PASSED
+"setViewPortSize(360, 800)",Firefox 66.0,,2019-05-18 20:14:07,2019-05-18 20:14:08,0.071s,PASSED
+delay(4),Firefox 66.0,,2019-05-18 20:14:08,2019-05-18 20:14:12,4.006s,PASSED
+"selectOptionByValue(findTestObject(""OCS-MOBILE /Age gate and burger menu/Date""), ""12"", true)",Firefox 66.0,,2019-05-18 20:14:12,2019-05-18 20:14:14,2.742s,PASSED
+"selectOptionByValue(findTestObject(""OCS-MOBILE /Age gate and burger menu/month""), ""6"", true)",Firefox 66.0,,2019-05-18 20:14:14,2019-05-18 20:14:15,0.422s,PASSED
+delay(2),Firefox 66.0,,2019-05-18 20:14:15,2019-05-18 20:14:17,2.003s,PASSED
+"selectOptionByValue(findTestObject(""OCS-MOBILE /Age gate and burger menu/Year Dropdown""), ""1990"", true)",Firefox 66.0,,2019-05-18 20:14:17,2019-05-18 20:14:18,1.519s,PASSED
+"click(findTestObject(""OCS-MOBILE /Age gate and burger menu/button_Verify""))",Firefox 66.0,,2019-05-18 20:14:18,2019-05-18 20:14:19,0.724s,PASSED
+"click(findTestObject(""OCS-MOBILE /Age gate and burger menu/Checkbox_CONFIRM AND ACKNOWLEDGE""))",Firefox 66.0,,2019-05-18 20:14:19,2019-05-18 20:14:20,0.725s,PASSED
+"click(findTestObject(""OCS-MOBILE /Age gate and burger menu/button_CONFIRM""))",Firefox 66.0,,2019-05-18 20:14:20,2019-05-18 20:14:20,0.721s,PASSED
+"click(findTestObject(""OCS-MOBILE /Age gate and burger menu/button_Start Browsing""))",Firefox 66.0,,2019-05-18 20:14:20,2019-05-18 20:14:21,0.501s,PASSED
+delay(2),Firefox 66.0,,2019-05-18 20:14:21,2019-05-18 20:14:23,2.005s,PASSED
+"click(findTestObject(""OCS-MOBILE /Home - page/Screen readers link""))",Firefox 66.0,,2019-05-18 20:14:23,2019-05-18 20:14:23,0.092s,FAILED
+,,,,,,
+Test Cases/OCS - MOBILE/OCS- HOME PAGE/HP-Burger menu -cannabis,Firefox 66.0,,2019-05-18 20:14:23,2019-05-18 20:14:53,29.659s,FAILED
+"openBrowser("""")",Firefox 66.0,,2019-05-18 20:14:23,2019-05-18 20:14:26,2.353s,PASSED
+"navigateToUrl(""https://ocs.ca/?fts=0&preview_theme_id=53373863756"")",Firefox 66.0,,2019-05-18 20:14:26,2019-05-18 20:14:33,7.844s,PASSED
+"setViewPortSize(360, 800)",Firefox 66.0,,2019-05-18 20:14:33,2019-05-18 20:14:33,0.085s,PASSED
+delay(4),Firefox 66.0,,2019-05-18 20:14:33,2019-05-18 20:14:37,4.002s,PASSED
+"selectOptionByValue(findTestObject(""OCS-MOBILE /Age gate and burger menu/Date""), ""12"", true)",Firefox 66.0,,2019-05-18 20:14:37,2019-05-18 20:14:41,3.216s,PASSED
+"selectOptionByValue(findTestObject(""OCS-MOBILE /Age gate and burger menu/month""), ""6"", true)",Firefox 66.0,,2019-05-18 20:14:41,2019-05-18 20:14:41,0.425s,PASSED
+delay(2),Firefox 66.0,,2019-05-18 20:14:41,2019-05-18 20:14:43,2.003s,PASSED
+"selectOptionByValue(findTestObject(""OCS-MOBILE /Age gate and burger menu/Year Dropdown""), ""1990"", true)",Firefox 66.0,,2019-05-18 20:14:43,2019-05-18 20:14:45,1.586s,PASSED
+"click(findTestObject(""OCS-MOBILE /Age gate and burger menu/button_Verify""))",Firefox 66.0,,2019-05-18 20:14:45,2019-05-18 20:14:45,0.727s,PASSED
+"click(findTestObject(""OCS-MOBILE /Age gate and burger menu/Checkbox_CONFIRM AND ACKNOWLEDGE""))",Firefox 66.0,,2019-05-18 20:14:45,2019-05-18 20:14:46,0.513s,PASSED
+"click(findTestObject(""OCS-MOBILE /Age gate and burger menu/button_CONFIRM""))",Firefox 66.0,,2019-05-18 20:14:46,2019-05-18 20:14:47,0.724s,PASSED
+"click(findTestObject(""OCS-MOBILE /Age gate and burger menu/button_Start Browsing""))",Firefox 66.0,,2019-05-18 20:14:47,2019-05-18 20:14:47,0.511s,PASSED
+delay(2),Firefox 66.0,,2019-05-18 20:14:47,2019-05-18 20:14:49,2.005s,PASSED
+"click(findTestObject(""OCS-MOBILE /Age gate and burger menu/Burger menu - English""), CONTINUE_ON_FAILURE)",Firefox 66.0,,2019-05-18 20:14:49,2019-05-18 20:14:49,0.067s,FAILED
+"delay(2, CONTINUE_ON_FAILURE)",Firefox 66.0,,2019-05-18 20:14:49,2019-05-18 20:14:51,2.005s,PASSED
+"click(findTestObject(""OCS-MOBILE /Cannabis page/Cannabis chevron""))",Firefox 66.0,,2019-05-18 20:14:51,2019-05-18 20:14:52,0.318s,PASSED
+"delay(1, CONTINUE_ON_FAILURE)",Firefox 66.0,,2019-05-18 20:14:52,2019-05-18 20:14:53,1.006s,PASSED
+"click(findTestObject(""OCS-MOBILE /Cannabis page/Dried flower - plus accordian""))",Firefox 66.0,,2019-05-18 20:14:53,2019-05-18 20:14:53,0.064s,FAILED
+,,,,,,
+Test Cases/OCS - MOBILE/OCS- HOME PAGE/footer,Firefox 66.0,,2019-05-18 20:14:53,2019-05-18 20:15:23,30.079s,FAILED
+"openBrowser("""")",Firefox 66.0,,2019-05-18 20:14:53,2019-05-18 20:14:55,2.511s,PASSED
+"navigateToUrl(""https://ocs.ca/?fts=0&preview_theme_id=53373863756"")",Firefox 66.0,,2019-05-18 20:14:55,2019-05-18 20:15:01,6.036s,PASSED
+"setViewPortSize(360, 800)",Firefox 66.0,,2019-05-18 20:15:01,2019-05-18 20:15:01,0.065s,PASSED
+delay(4),Firefox 66.0,,2019-05-18 20:15:01,2019-05-18 20:15:05,4.008s,PASSED
+"selectOptionByValue(findTestObject(""OCS-MOBILE /Age gate and burger menu/Date""), ""12"", true)",Firefox 66.0,,2019-05-18 20:15:05,2019-05-18 20:15:08,2.785s,PASSED
+"selectOptionByValue(findTestObject(""OCS-MOBILE /Age gate and burger menu/month""), ""6"", true)",Firefox 66.0,,2019-05-18 20:15:08,2019-05-18 20:15:09,0.431s,PASSED
+delay(2),Firefox 66.0,,2019-05-18 20:15:09,2019-05-18 20:15:11,2.004s,PASSED
+"selectOptionByValue(findTestObject(""OCS-MOBILE /Age gate and burger menu/Year Dropdown""), ""1990"", true)",Firefox 66.0,,2019-05-18 20:15:11,2019-05-18 20:15:12,1.481s,PASSED
+"click(findTestObject(""OCS-MOBILE /Age gate and burger menu/button_Verify""))",Firefox 66.0,,2019-05-18 20:15:12,2019-05-18 20:15:13,0.664s,PASSED
+"click(findTestObject(""OCS-MOBILE /Age gate and burger menu/Checkbox_CONFIRM AND ACKNOWLEDGE""))",Firefox 66.0,,2019-05-18 20:15:13,2019-05-18 20:15:13,0.728s,PASSED
+"click(findTestObject(""OCS-MOBILE /Age gate and burger menu/button_CONFIRM""))",Firefox 66.0,,2019-05-18 20:15:13,2019-05-18 20:15:14,0.508s,PASSED
+"click(findTestObject(""OCS-MOBILE /Age gate and burger menu/button_Start Browsing""))",Firefox 66.0,,2019-05-18 20:15:14,2019-05-18 20:15:15,0.724s,PASSED
+delay(2),Firefox 66.0,,2019-05-18 20:15:15,2019-05-18 20:15:17,2.006s,PASSED
+"setViewPortSize(1000, 800, OPTIONAL)",Firefox 66.0,,2019-05-18 20:15:17,2019-05-18 20:15:17,0.055s,PASSED
+"delay(2, OPTIONAL)",Firefox 66.0,,2019-05-18 20:15:17,2019-05-18 20:15:19,2.002s,PASSED
+"click(findTestObject(""Theme_oR/Page_Ontario Cannabis Store  Ontari/button_Hide bar""), OPTIONAL)",Firefox 66.0,,2019-05-18 20:15:19,2019-05-18 20:15:20,0.778s,PASSED
+"delay(2, OPTIONAL)",Firefox 66.0,,2019-05-18 20:15:20,2019-05-18 20:15:22,2.003s,PASSED
+"setViewPortSize(360, 800, OPTIONAL)",Firefox 66.0,,2019-05-18 20:15:22,2019-05-18 20:15:22,0.068s,PASSED
+"delay(1, OPTIONAL)",Firefox 66.0,,2019-05-18 20:15:22,2019-05-18 20:15:23,1.001s,PASSED
+"click(findTestObject(""OCS-MOBILE /Home - page/Return Policy""))",Firefox 66.0,,2019-05-18 20:15:23,2019-05-18 20:15:23,0.088s,FAILED
+,,,,,,
+Test Cases/OCS - MOBILE/OCS- HOME PAGE/why trust OCS,Firefox 66.0,,2019-05-18 20:15:23,2019-05-18 20:15:51,28.288s,FAILED
+"openBrowser("""")",Firefox 66.0,,2019-05-18 20:15:23,2019-05-18 20:15:25,2.397s,PASSED
+"navigateToUrl(""https://ocs.ca/?fts=0&preview_theme_id=53373863756"")",Firefox 66.0,,2019-05-18 20:15:25,2019-05-18 20:15:30,5.025s,PASSED
+"setViewPortSize(360, 800)",Firefox 66.0,,2019-05-18 20:15:30,2019-05-18 20:15:30,0.079s,PASSED
+delay(4),Firefox 66.0,,2019-05-18 20:15:30,2019-05-18 20:15:34,4.006s,PASSED
+"selectOptionByValue(findTestObject(""OCS-MOBILE /Age gate and burger menu/Date""), ""12"", true)",Firefox 66.0,,2019-05-18 20:15:34,2019-05-18 20:15:37,2.225s,PASSED
+"selectOptionByValue(findTestObject(""OCS-MOBILE /Age gate and burger menu/month""), ""6"", true)",Firefox 66.0,,2019-05-18 20:15:37,2019-05-18 20:15:37,0.428s,PASSED
+delay(2),Firefox 66.0,,2019-05-18 20:15:37,2019-05-18 20:15:39,2.006s,PASSED
+"selectOptionByValue(findTestObject(""OCS-MOBILE /Age gate and burger menu/Year Dropdown""), ""1990"", true)",Firefox 66.0,,2019-05-18 20:15:39,2019-05-18 20:15:41,1.510s,PASSED
+"click(findTestObject(""OCS-MOBILE /Age gate and burger menu/button_Verify""))",Firefox 66.0,,2019-05-18 20:15:41,2019-05-18 20:15:41,0.724s,PASSED
+"click(findTestObject(""OCS-MOBILE /Age gate and burger menu/Checkbox_CONFIRM AND ACKNOWLEDGE""))",Firefox 66.0,,2019-05-18 20:15:41,2019-05-18 20:15:42,0.545s,PASSED
+"click(findTestObject(""OCS-MOBILE /Age gate and burger menu/button_CONFIRM""))",Firefox 66.0,,2019-05-18 20:15:42,2019-05-18 20:15:43,0.727s,PASSED
+"click(findTestObject(""OCS-MOBILE /Age gate and burger menu/button_Start Browsing""))",Firefox 66.0,,2019-05-18 20:15:43,2019-05-18 20:15:43,0.506s,PASSED
+delay(2),Firefox 66.0,,2019-05-18 20:15:43,2019-05-18 20:15:45,2.006s,PASSED
+"setViewPortSize(1000, 800, OPTIONAL)",Firefox 66.0,,2019-05-18 20:15:45,2019-05-18 20:15:45,0.060s,PASSED
+"delay(2, OPTIONAL)",Firefox 66.0,,2019-05-18 20:15:45,2019-05-18 20:15:47,2.002s,PASSED
+"click(findTestObject(""Theme_oR/Page_Ontario Cannabis Store  Ontari/button_Hide bar""), OPTIONAL)",Firefox 66.0,,2019-05-18 20:15:47,2019-05-18 20:15:48,0.776s,PASSED
+"delay(2, OPTIONAL)",Firefox 66.0,,2019-05-18 20:15:48,2019-05-18 20:15:50,2.003s,PASSED
+"setViewPortSize(360, 800, OPTIONAL)",Firefox 66.0,,2019-05-18 20:15:50,2019-05-18 20:15:50,0.070s,PASSED
+"delay(1, OPTIONAL)",Firefox 66.0,,2019-05-18 20:15:50,2019-05-18 20:15:51,1.001s,PASSED
+"click(findTestObject(""OCS-MOBILE /Home - page/Why trust OCS -img""))",Firefox 66.0,,2019-05-18 20:15:51,2019-05-18 20:15:51,0.097s,FAILED
+,,,,,,
+Test Cases/OCS - MOBILE/OCS- HOME PAGE/How to choose cannabis-learn more,Firefox 66.0,,2019-05-18 20:15:51,2019-05-18 20:16:21,29.885s,FAILED
+"openBrowser("""")",Firefox 66.0,,2019-05-18 20:15:51,2019-05-18 20:15:54,2.412s,PASSED
+"navigateToUrl(""https://ocs.ca/?fts=0&preview_theme_id=53373863756"")",Firefox 66.0,,2019-05-18 20:15:54,2019-05-18 20:15:59,4.998s,PASSED
+"setViewPortSize(360, 800)",Firefox 66.0,,2019-05-18 20:15:59,2019-05-18 20:15:59,0.076s,PASSED
+delay(4),Firefox 66.0,,2019-05-18 20:15:59,2019-05-18 20:16:03,4.005s,PASSED
+"selectOptionByValue(findTestObject(""OCS-MOBILE /Age gate and burger menu/Date""), ""12"", true)",Firefox 66.0,,2019-05-18 20:16:03,2019-05-18 20:16:05,2.193s,PASSED
+"selectOptionByValue(findTestObject(""OCS-MOBILE /Age gate and burger menu/month""), ""6"", true)",Firefox 66.0,,2019-05-18 20:16:05,2019-05-18 20:16:05,0.464s,PASSED
+delay(2),Firefox 66.0,,2019-05-18 20:16:05,2019-05-18 20:16:07,2.006s,PASSED
+"selectOptionByValue(findTestObject(""OCS-MOBILE /Age gate and burger menu/Year Dropdown""), ""1990"", true)",Firefox 66.0,,2019-05-18 20:16:07,2019-05-18 20:16:09,1.532s,PASSED
+"click(findTestObject(""OCS-MOBILE /Age gate and burger menu/button_Verify""))",Firefox 66.0,,2019-05-18 20:16:09,2019-05-18 20:16:09,0.364s,PASSED
+"click(findTestObject(""OCS-MOBILE /Age gate and burger menu/Checkbox_CONFIRM AND ACKNOWLEDGE""))",Firefox 66.0,,2019-05-18 20:16:09,2019-05-18 20:16:10,0.727s,PASSED
+"click(findTestObject(""OCS-MOBILE /Age gate and burger menu/button_CONFIRM""))",Firefox 66.0,,2019-05-18 20:16:10,2019-05-18 20:16:10,0.268s,PASSED
+"click(findTestObject(""OCS-MOBILE /Age gate and burger menu/button_Start Browsing""))",Firefox 66.0,,2019-05-18 20:16:10,2019-05-18 20:16:11,0.721s,PASSED
+delay(2),Firefox 66.0,,2019-05-18 20:16:11,2019-05-18 20:16:13,2.007s,PASSED
+delay(2),Firefox 66.0,,2019-05-18 20:16:13,2019-05-18 20:16:15,2.005s,PASSED
+"setViewPortSize(1000, 800, OPTIONAL)",Firefox 66.0,,2019-05-18 20:16:15,2019-05-18 20:16:15,0.053s,PASSED
+"delay(2, OPTIONAL)",Firefox 66.0,,2019-05-18 20:16:15,2019-05-18 20:16:17,2.005s,PASSED
+"click(findTestObject(""Theme_oR/Page_Ontario Cannabis Store  Ontari/button_Hide bar""), OPTIONAL)",Firefox 66.0,,2019-05-18 20:16:17,2019-05-18 20:16:18,0.791s,PASSED
+"delay(2, OPTIONAL)",Firefox 66.0,,2019-05-18 20:16:18,2019-05-18 20:16:20,2.003s,PASSED
+"setViewPortSize(360, 800, OPTIONAL)",Firefox 66.0,,2019-05-18 20:16:20,2019-05-18 20:16:20,0.068s,PASSED
+"delay(1, OPTIONAL)",Firefox 66.0,,2019-05-18 20:16:20,2019-05-18 20:16:21,1.005s,PASSED
+"click(findTestObject(""OCS-MOBILE /Home - page/a_Learn more- A brief history of cannabis""))",Firefox 66.0,,2019-05-18 20:16:21,2019-05-18 20:16:21,0.098s,FAILED
+,,,,,,
+Test Cases/OCS - MOBILE/OCS- HOME PAGE/HP -Burger menu-FAQ,Firefox 66.0,,2019-05-18 20:16:21,2019-05-18 20:16:46,25.291s,FAILED
+"openBrowser("""")",Firefox 66.0,,2019-05-18 20:16:21,2019-05-18 20:16:24,2.716s,PASSED
+"navigateToUrl(""https://ocs.ca/?fts=0&preview_theme_id=53373863756"")",Firefox 66.0,,2019-05-18 20:16:24,2019-05-18 20:16:30,5.896s,PASSED
+"setViewPortSize(360, 800)",Firefox 66.0,,2019-05-18 20:16:30,2019-05-18 20:16:30,0.079s,PASSED
+delay(4),Firefox 66.0,,2019-05-18 20:16:30,2019-05-18 20:16:34,4.002s,PASSED
+"selectOptionByValue(findTestObject(""OCS-MOBILE /Age gate and burger menu/Date""), ""12"", true)",Firefox 66.0,,2019-05-18 20:16:34,2019-05-18 20:16:35,0.958s,PASSED
+"selectOptionByValue(findTestObject(""OCS-MOBILE /Age gate and burger menu/month""), ""6"", true)",Firefox 66.0,,2019-05-18 20:16:35,2019-05-18 20:16:35,0.443s,PASSED
+delay(2),Firefox 66.0,,2019-05-18 20:16:35,2019-05-18 20:16:37,2.003s,PASSED
+"selectOptionByValue(findTestObject(""OCS-MOBILE /Age gate and burger menu/Year Dropdown""), ""1990"", true)",Firefox 66.0,,2019-05-18 20:16:37,2019-05-18 20:16:39,1.561s,PASSED
+"click(findTestObject(""OCS-MOBILE /Age gate and burger menu/button_Verify""))",Firefox 66.0,,2019-05-18 20:16:39,2019-05-18 20:16:39,0.728s,PASSED
+"click(findTestObject(""OCS-MOBILE /Age gate and burger menu/Checkbox_CONFIRM AND ACKNOWLEDGE""))",Firefox 66.0,,2019-05-18 20:16:39,2019-05-18 20:16:40,0.513s,PASSED
+"click(findTestObject(""OCS-MOBILE /Age gate and burger menu/button_CONFIRM""))",Firefox 66.0,,2019-05-18 20:16:40,2019-05-18 20:16:41,0.724s,PASSED
+"click(findTestObject(""OCS-MOBILE /Age gate and burger menu/button_Start Browsing""))",Firefox 66.0,,2019-05-18 20:16:41,2019-05-18 20:16:41,0.506s,PASSED
+delay(2),Firefox 66.0,,2019-05-18 20:16:41,2019-05-18 20:16:43,2.006s,PASSED
+"click(findTestObject(""OCS-MOBILE /Age gate and burger menu/Burger menu - English""))",Firefox 66.0,,2019-05-18 20:16:43,2019-05-18 20:16:44,0.736s,PASSED
+delay(2),Firefox 66.0,,2019-05-18 20:16:44,2019-05-18 20:16:46,2.006s,PASSED
+"click(findTestObject(""OCS-MOBILE /FAQ page/FAQ""))",Firefox 66.0,,2019-05-18 20:16:46,2019-05-18 20:16:46,0.221s,FAILED
+,,,,,,
+Test Cases/OCS - MOBILE/OCS- HOME PAGE/HP- Burger menu- Learn,Firefox 66.0,,2019-05-18 20:16:46,2019-05-18 20:17:14,28.114s,FAILED
+"openBrowser("""")",Firefox 66.0,,2019-05-18 20:16:46,2019-05-18 20:16:49,2.516s,PASSED
+"navigateToUrl(""https://ocs.ca/?fts=0&preview_theme_id=53373863756"")",Firefox 66.0,,2019-05-18 20:16:49,2019-05-18 20:16:56,6.941s,PASSED
+"setViewPortSize(360, 800)",Firefox 66.0,,2019-05-18 20:16:56,2019-05-18 20:16:56,0.086s,PASSED
+delay(4),Firefox 66.0,,2019-05-18 20:16:56,2019-05-18 20:17:00,4.001s,PASSED
+"selectOptionByValue(findTestObject(""OCS-MOBILE /Age gate and burger menu/Date""), ""12"", true)",Firefox 66.0,,2019-05-18 20:17:00,2019-05-18 20:17:01,1.170s,PASSED
+"selectOptionByValue(findTestObject(""OCS-MOBILE /Age gate and burger menu/month""), ""6"", true)",Firefox 66.0,,2019-05-18 20:17:01,2019-05-18 20:17:02,0.439s,PASSED
+delay(2),Firefox 66.0,,2019-05-18 20:17:02,2019-05-18 20:17:04,2.001s,PASSED
+"selectOptionByValue(findTestObject(""OCS-MOBILE /Age gate and burger menu/Year Dropdown""), ""1990"", true)",Firefox 66.0,,2019-05-18 20:17:04,2019-05-18 20:17:05,1.517s,PASSED
+"click(findTestObject(""OCS-MOBILE /Age gate and burger menu/button_Verify""))",Firefox 66.0,,2019-05-18 20:17:05,2019-05-18 20:17:05,0.376s,PASSED
+"click(findTestObject(""OCS-MOBILE /Age gate and burger menu/Checkbox_CONFIRM AND ACKNOWLEDGE""))",Firefox 66.0,,2019-05-18 20:17:05,2019-05-18 20:17:06,0.732s,PASSED
+"click(findTestObject(""OCS-MOBILE /Age gate and burger menu/button_CONFIRM""))",Firefox 66.0,,2019-05-18 20:17:06,2019-05-18 20:17:07,0.512s,PASSED
+"click(findTestObject(""OCS-MOBILE /Age gate and burger menu/button_Start Browsing""))",Firefox 66.0,,2019-05-18 20:17:07,2019-05-18 20:17:07,0.727s,PASSED
+delay(2),Firefox 66.0,,2019-05-18 20:17:07,2019-05-18 20:17:09,2.005s,PASSED
+"click(findTestObject(""OCS-MOBILE /Age gate and burger menu/Burger menu - English""), CONTINUE_ON_FAILURE)",Firefox 66.0,,2019-05-18 20:17:09,2019-05-18 20:17:10,0.080s,FAILED
+"delay(2, CONTINUE_ON_FAILURE)",Firefox 66.0,,2019-05-18 20:17:10,2019-05-18 20:17:12,2.003s,PASSED
+"click(findTestObject(""OCS-MOBILE /LEARN page/Learn chevron""))",Firefox 66.0,,2019-05-18 20:17:12,2019-05-18 20:17:12,0.728s,PASSED
+delay(2),Firefox 66.0,,2019-05-18 20:17:12,2019-05-18 20:17:14,2.005s,PASSED
+"click(findTestObject(""OCS-MOBILE /LEARN page/How Cannabis Works plus accordian""))",Firefox 66.0,,2019-05-18 20:17:14,2019-05-18 20:17:14,0.069s,FAILED
+,,,,,,
+Test Cases/OCS - MOBILE/OCS-COLLECTION PAGE/Chevron dropdown,Firefox 66.0,,2019-05-18 20:17:14,2019-05-18 20:17:40,25.456s,FAILED
+"openBrowser("""")",Firefox 66.0,,2019-05-18 20:17:14,2019-05-18 20:17:18,3.399s,PASSED
+"navigateToUrl(""https://ocs.ca/?fts=0&preview_theme_id=53373863756"")",Firefox 66.0,,2019-05-18 20:17:18,2019-05-18 20:17:27,8.720s,PASSED
+"setViewPortSize(360, 800)",Firefox 66.0,,2019-05-18 20:17:27,2019-05-18 20:17:27,0.077s,PASSED
+delay(4),Firefox 66.0,,2019-05-18 20:17:27,2019-05-18 20:17:31,4.006s,PASSED
+"selectOptionByValue(findTestObject(""OCS-MOBILE /Age gate and burger menu/Date""), ""12"", true)",Firefox 66.0,,2019-05-18 20:17:31,2019-05-18 20:17:31,0.673s,PASSED
+"selectOptionByValue(findTestObject(""OCS-MOBILE /Age gate and burger menu/month""), ""6"", true)",Firefox 66.0,,2019-05-18 20:17:31,2019-05-18 20:17:32,0.429s,PASSED
+delay(2),Firefox 66.0,,2019-05-18 20:17:32,2019-05-18 20:17:34,2.001s,PASSED
+"selectOptionByValue(findTestObject(""OCS-MOBILE /Age gate and burger menu/Year Dropdown""), ""1990"", true)",Firefox 66.0,,2019-05-18 20:17:34,2019-05-18 20:17:35,1.474s,PASSED
+"click(findTestObject(""OCS-MOBILE /Age gate and burger menu/button_Verify""))",Firefox 66.0,,2019-05-18 20:17:35,2019-05-18 20:17:36,0.728s,PASSED
+"click(findTestObject(""OCS-MOBILE /Age gate and burger menu/Checkbox_CONFIRM AND ACKNOWLEDGE""))",Firefox 66.0,,2019-05-18 20:17:36,2019-05-18 20:17:36,0.519s,PASSED
+"click(findTestObject(""OCS-MOBILE /Age gate and burger menu/button_CONFIRM""))",Firefox 66.0,,2019-05-18 20:17:36,2019-05-18 20:17:37,0.720s,PASSED
+"click(findTestObject(""OCS-MOBILE /Age gate and burger menu/button_Start Browsing""))",Firefox 66.0,,2019-05-18 20:17:37,2019-05-18 20:17:38,0.511s,PASSED
+delay(2),Firefox 66.0,,2019-05-18 20:17:38,2019-05-18 20:17:40,2.005s,PASSED
+"click(findTestObject(""OCS-MOBILE /Age gate and burger menu/Burger menu - English""))",Firefox 66.0,,2019-05-18 20:17:40,2019-05-18 20:17:40,0.105s,FAILED
+,,,,,,
+Test Cases/OCS - MOBILE/OCS-COLLECTION PAGE/Filter,Firefox 66.0,,2019-05-18 20:17:40,2019-05-18 20:18:03,23.690s,FAILED
+delay(2),Firefox 66.0,,2019-05-18 20:17:40,2019-05-18 20:17:42,2.006s,PASSED
+"callTestCase(findTestCase(""OCS - MOBILE/HP""), [:], STOP_ON_FAILURE)",Firefox 66.0,,2019-05-18 20:17:42,2019-05-18 20:18:03,21.415s,PASSED
+"click(findTestObject(""OCS-MOBILE /Age gate and burger menu/Burger menu - English""))",Firefox 66.0,,2019-05-18 20:18:03,2019-05-18 20:18:03,0.078s,FAILED
+,,,,,,
+Test Cases/OCS - MOBILE/OCS-COLLECTION PAGE/Sort,Firefox 66.0,,2019-05-18 20:18:03,2019-05-18 20:18:27,23.325s,FAILED
+"openBrowser("""")",Firefox 66.0,,2019-05-18 20:18:04,2019-05-18 20:18:06,2.596s,PASSED
+"navigateToUrl(""https://ocs.ca/?fts=0&preview_theme_id=53373863756"")",Firefox 66.0,,2019-05-18 20:18:06,2019-05-18 20:18:14,7.603s,PASSED
+"setViewPortSize(360, 800)",Firefox 66.0,,2019-05-18 20:18:14,2019-05-18 20:18:14,0.107s,PASSED
+delay(4),Firefox 66.0,,2019-05-18 20:18:14,2019-05-18 20:18:18,4.006s,PASSED
+"selectOptionByValue(findTestObject(""OCS-MOBILE /Age gate and burger menu/Date""), ""12"", true)",Firefox 66.0,,2019-05-18 20:18:18,2019-05-18 20:18:19,0.687s,PASSED
+"selectOptionByValue(findTestObject(""OCS-MOBILE /Age gate and burger menu/month""), ""6"", true)",Firefox 66.0,,2019-05-18 20:18:19,2019-05-18 20:18:19,0.425s,PASSED
+delay(2),Firefox 66.0,,2019-05-18 20:18:19,2019-05-18 20:18:21,2.005s,PASSED
+"selectOptionByValue(findTestObject(""OCS-MOBILE /Age gate and burger menu/Year Dropdown""), ""1990"", true)",Firefox 66.0,,2019-05-18 20:18:21,2019-05-18 20:18:22,1.491s,PASSED
+"click(findTestObject(""OCS-MOBILE /Age gate and burger menu/button_Verify""))",Firefox 66.0,,2019-05-18 20:18:22,2019-05-18 20:18:23,0.259s,PASSED
+"click(findTestObject(""OCS-MOBILE /Age gate and burger menu/Checkbox_CONFIRM AND ACKNOWLEDGE""))",Firefox 66.0,,2019-05-18 20:18:23,2019-05-18 20:18:23,0.725s,PASSED
+"click(findTestObject(""OCS-MOBILE /Age gate and burger menu/button_CONFIRM""))",Firefox 66.0,,2019-05-18 20:18:23,2019-05-18 20:18:24,0.517s,PASSED
+"click(findTestObject(""OCS-MOBILE /Age gate and burger menu/button_Start Browsing""))",Firefox 66.0,,2019-05-18 20:18:24,2019-05-18 20:18:25,0.727s,PASSED
+delay(2),Firefox 66.0,,2019-05-18 20:18:25,2019-05-18 20:18:27,2.005s,PASSED
+"click(findTestObject(""OCS-MOBILE /Age gate and burger menu/Burger menu - English""))",Firefox 66.0,,2019-05-18 20:18:27,2019-05-18 20:18:27,0.076s,FAILED
+,,,,,,
+Test Cases/OCS - MOBILE/OCS-COLLECTION PAGE/What to consider,Firefox 66.0,,2019-05-18 20:18:27,2019-05-18 20:18:49,22.010s,FAILED
+"openBrowser("""")",Firefox 66.0,,2019-05-18 20:18:27,2019-05-18 20:18:29,2.558s,PASSED
+"navigateToUrl(""https://ocs.ca/?fts=0&preview_theme_id=53373863756"")",Firefox 66.0,,2019-05-18 20:18:29,2019-05-18 20:18:34,4.992s,PASSED
+"setViewPortSize(360, 800)",Firefox 66.0,,2019-05-18 20:18:34,2019-05-18 20:18:35,0.067s,PASSED
+delay(4),Firefox 66.0,,2019-05-18 20:18:35,2019-05-18 20:18:39,4.006s,PASSED
+"selectOptionByValue(findTestObject(""OCS-MOBILE /Age gate and burger menu/Date""), ""12"", true)",Firefox 66.0,,2019-05-18 20:18:39,2019-05-18 20:18:41,2.200s,PASSED
+"selectOptionByValue(findTestObject(""OCS-MOBILE /Age gate and burger menu/month""), ""6"", true)",Firefox 66.0,,2019-05-18 20:18:41,2019-05-18 20:18:41,0.460s,PASSED
+delay(2),Firefox 66.0,,2019-05-18 20:18:41,2019-05-18 20:18:43,2.004s,PASSED
+"selectOptionByValue(findTestObject(""OCS-MOBILE /Age gate and burger menu/Year Dropdown""), ""1990"", true)",Firefox 66.0,,2019-05-18 20:18:43,2019-05-18 20:18:45,1.526s,PASSED
+"click(findTestObject(""OCS-MOBILE /Age gate and burger menu/button_Verify""))",Firefox 66.0,,2019-05-18 20:18:45,2019-05-18 20:18:45,0.300s,PASSED
+"click(findTestObject(""OCS-MOBILE /Age gate and burger menu/Checkbox_CONFIRM AND ACKNOWLEDGE""))",Firefox 66.0,,2019-05-18 20:18:45,2019-05-18 20:18:46,0.728s,PASSED
+"click(findTestObject(""OCS-MOBILE /Age gate and burger menu/button_CONFIRM""))",Firefox 66.0,,2019-05-18 20:18:46,2019-05-18 20:18:46,0.266s,PASSED
+"click(findTestObject(""OCS-MOBILE /Age gate and burger menu/button_Start Browsing""))",Firefox 66.0,,2019-05-18 20:18:46,2019-05-18 20:18:47,0.726s,PASSED
+delay(2),Firefox 66.0,,2019-05-18 20:18:47,2019-05-18 20:18:49,2.004s,PASSED
+"click(findTestObject(""OCS-MOBILE /Age gate and burger menu/Burger menu - English""))",Firefox 66.0,,2019-05-18 20:18:49,2019-05-18 20:18:49,0.080s,FAILED

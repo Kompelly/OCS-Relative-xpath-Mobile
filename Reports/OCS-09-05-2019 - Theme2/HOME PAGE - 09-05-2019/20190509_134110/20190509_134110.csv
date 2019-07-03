@@ -1,0 +1,356 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+HOME PAGE - 09-05-2019,Chrome 74.0.3729.131,,2019-05-09 13:41:12,2019-05-09 14:00:01,18m - 49.370s,FAILED
+,,,,,,
+Test Cases/OCS- HOME PAGE/Announcement,Chrome 74.0.3729.131,,2019-05-09 13:41:12,2019-05-09 13:42:00,47.921s,PASSED
+"openBrowser("""")",Chrome 74.0.3729.131,,2019-05-09 13:41:13,2019-05-09 13:41:20,7.019s,PASSED
+"navigateToUrl(""https://ocs.ca/?fts=0&preview_theme_id=53373863756"")",Chrome 74.0.3729.131,,2019-05-09 13:41:20,2019-05-09 13:41:27,6.773s,PASSED
+"click(findTestObject(""Object Repository/Theme_oR/Page_Ontario Cannabis Store  Ontari/button_Close preview""))",Chrome 74.0.3729.131,,2019-05-09 13:41:27,2019-05-09 13:41:31,4.871s,PASSED
+maximizeWindow(),Chrome 74.0.3729.131,,2019-05-09 13:41:31,2019-05-09 13:41:33,1.484s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Announcement_OR/Page_Ontario Cannabis Store  Ontari/select_Select01020304050607080""), ""1"", true)",Chrome 74.0.3729.131,,2019-05-09 13:41:33,2019-05-09 13:41:37,3.691s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Announcement_OR/Page_Ontario Cannabis Store  Ontari/select_SelectJanuary - 01Febru""), ""0"", true)",Chrome 74.0.3729.131,,2019-05-09 13:41:37,2019-05-09 13:41:38,1.876s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Announcement_OR/Page_Ontario Cannabis Store  Ontari/select_Select20182017201620152""), ""1968"", true)",Chrome 74.0.3729.131,,2019-05-09 13:41:38,2019-05-09 13:41:54,15.612s,PASSED
+delay(2),Chrome 74.0.3729.131,,2019-05-09 13:41:54,2019-05-09 13:41:56,2.021s,PASSED
+"click(findTestObject(""Announcement_OR/Page_Ontario Cannabis Store  Ontari/button_Verify""))",Chrome 74.0.3729.131,,2019-05-09 13:41:56,2019-05-09 13:41:57,0.545s,PASSED
+"click(findTestObject(""Object Repository/Announcement_OR/Page_Ontario Cannabis Store  Ontari/span_CONFIRM AND ACKNOWLEDGE_c""))",Chrome 74.0.3729.131,,2019-05-09 13:41:57,2019-05-09 13:41:57,0.411s,PASSED
+"click(findTestObject(""Object Repository/Announcement_OR/Page_Ontario Cannabis Store  Ontari/button_CONFIRM""))",Chrome 74.0.3729.131,,2019-05-09 13:41:57,2019-05-09 13:41:58,0.511s,PASSED
+"click(findTestObject(""Object Repository/Announcement_OR/Page_Ontario Cannabis Store  Ontari/button_Start Browsing""))",Chrome 74.0.3729.131,,2019-05-09 13:41:58,2019-05-09 13:41:58,0.407s,PASSED
+"flag = verifyTextNotPresent(""Due to holiday closures within the Canada Post network through Good Friday and Easter Monday, please expect some order delivery delays."", false)",Chrome 74.0.3729.131,,2019-05-09 13:41:58,2019-05-09 13:41:59,0.617s,PASSED
+"comment(""flag ="" + flag)",Chrome 74.0.3729.131,,2019-05-09 13:41:59,2019-05-09 13:41:59,0.009s,PASSED
+if (flag == false),Chrome 74.0.3729.131,,2019-05-09 13:41:59,2019-05-09 13:41:59,0.001s,PASSED
+else,Chrome 74.0.3729.131,,2019-05-09 13:41:59,2019-05-09 13:41:59,0.002s,PASSED
+closeBrowser(),Chrome 74.0.3729.131,,2019-05-09 13:41:59,2019-05-09 13:42:00,1.728s,PASSED
+,,,,,,
+Test Cases/OCS- HOME PAGE/cart flyout,Chrome 74.0.3729.131,,2019-05-09 13:42:00,2019-05-09 13:43:02,1m - 1.429s,PASSED
+"openBrowser("""")",Chrome 74.0.3729.131,,2019-05-09 13:42:00,2019-05-09 13:42:06,5.911s,PASSED
+delay(4),Chrome 74.0.3729.131,,2019-05-09 13:42:06,2019-05-09 13:42:10,4.004s,PASSED
+"navigateToUrl(""https://ocs.ca/?fts=0&preview_theme_id=53373863756"")",Chrome 74.0.3729.131,,2019-05-09 13:42:10,2019-05-09 13:42:16,5.801s,PASSED
+"click(findTestObject(""Object Repository/Theme_oR/Page_Ontario Cannabis Store  Ontari/button_Close preview""))",Chrome 74.0.3729.131,,2019-05-09 13:42:16,2019-05-09 13:42:19,2.709s,PASSED
+maximizeWindow(),Chrome 74.0.3729.131,,2019-05-09 13:42:19,2019-05-09 13:42:20,1.385s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/cart flyout_OR/Page_Ontario Cannabis Store  Ontari/select_Select01020304050607080""), ""1"", true)",Chrome 74.0.3729.131,,2019-05-09 13:42:20,2019-05-09 13:42:26,5.406s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/cart flyout_OR/Page_Ontario Cannabis Store  Ontari/select_SelectJanuary - 01Febru""), ""0"", true)",Chrome 74.0.3729.131,,2019-05-09 13:42:26,2019-05-09 13:42:28,2.283s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/cart flyout_OR/Page_Ontario Cannabis Store  Ontari/select_Select20182017201620152""), ""1968"", true)",Chrome 74.0.3729.131,,2019-05-09 13:42:28,2019-05-09 13:42:44,16.232s,PASSED
+"click(findTestObject(""Object Repository/cart flyout_OR/Page_Ontario Cannabis Store  Ontari/button_Verify""))",Chrome 74.0.3729.131,,2019-05-09 13:42:44,2019-05-09 13:42:44,0.293s,PASSED
+"click(findTestObject(""Object Repository/cart flyout_OR/Page_Ontario Cannabis Store  Ontari/span_CONFIRM AND ACKNOWLEDGE_c""))",Chrome 74.0.3729.131,,2019-05-09 13:42:44,2019-05-09 13:42:45,0.363s,PASSED
+"click(findTestObject(""Object Repository/cart flyout_OR/Page_Ontario Cannabis Store  Ontari/button_CONFIRM""))",Chrome 74.0.3729.131,,2019-05-09 13:42:45,2019-05-09 13:42:45,0.255s,PASSED
+"click(findTestObject(""Object Repository/cart flyout_OR/Page_Ontario Cannabis Store  Ontari/button_Start Browsing""))",Chrome 74.0.3729.131,,2019-05-09 13:42:45,2019-05-09 13:42:45,0.231s,PASSED
+delay(3),Chrome 74.0.3729.131,,2019-05-09 13:42:45,2019-05-09 13:42:48,3.002s,PASSED
+"click(findTestObject(""cart flyout_OR/Page_Ontario Cannabis Store  Ontari/div_00.00""))",Chrome 74.0.3729.131,,2019-05-09 13:42:48,2019-05-09 13:42:48,0.003s,NOT_RUN
+"click(findTestObject(""cart flyout_OR/Page_Ontario Cannabis Store  Ontari/div_00.00""))",Chrome 74.0.3729.131,,2019-05-09 13:42:48,2019-05-09 13:42:49,0.401s,PASSED
+delay(3),Chrome 74.0.3729.131,,2019-05-09 13:42:49,2019-05-09 13:42:52,3.006s,PASSED
+"verifyTextPresent(""Bag"", false)",Chrome 74.0.3729.131,,2019-05-09 13:42:52,2019-05-09 13:42:53,0.783s,PASSED
+if (true),Chrome 74.0.3729.131,,2019-05-09 13:42:53,2019-05-09 13:42:53,0.002s,PASSED
+delay(5),Chrome 74.0.3729.131,,2019-05-09 13:42:53,2019-05-09 13:42:58,5.005s,PASSED
+"click(findTestObject(""cart flyout_OR/Page_Ontario Cannabis Store  Ontari/i_0.00_icon icon--back js-clos""))",Chrome 74.0.3729.131,,2019-05-09 13:42:58,2019-05-09 13:42:58,0.420s,PASSED
+"verifyTextNotPresent(""Bag"", false)",Chrome 74.0.3729.131,,2019-05-09 13:42:58,2019-05-09 13:42:59,0.817s,PASSED
+if (true),Chrome 74.0.3729.131,,2019-05-09 13:42:59,2019-05-09 13:42:59,0.001s,PASSED
+closeBrowser(),Chrome 74.0.3729.131,,2019-05-09 13:42:59,2019-05-09 13:43:02,2.966s,PASSED
+,,,,,,
+Test Cases/OCS- HOME PAGE/footer,Chrome 74.0.3729.131,,2019-05-09 13:43:02,2019-05-09 13:45:39,2m - 36.862s,FAILED
+"openBrowser("""")",Chrome 74.0.3729.131,,2019-05-09 13:43:02,2019-05-09 13:43:08,5.624s,PASSED
+"navigateToUrl(""https://ocs.ca/?fts=0&preview_theme_id=53373863756"")",Chrome 74.0.3729.131,,2019-05-09 13:43:08,2019-05-09 13:43:14,6.427s,PASSED
+"click(findTestObject(""Object Repository/Theme_oR/Page_Ontario Cannabis Store  Ontari/button_Close preview""))",Chrome 74.0.3729.131,,2019-05-09 13:43:14,2019-05-09 13:43:19,4.831s,PASSED
+maximizeWindow(),Chrome 74.0.3729.131,,2019-05-09 13:43:19,2019-05-09 13:43:20,1.267s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Footer_OR/Page_Ontario Cannabis Store  Ontari/select_Select01020304050607080""), ""1"", true)",Chrome 74.0.3729.131,,2019-05-09 13:43:20,2019-05-09 13:43:24,4.173s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Footer_OR/Page_Ontario Cannabis Store  Ontari/select_SelectJanuary - 01Febru""), ""0"", true)",Chrome 74.0.3729.131,,2019-05-09 13:43:24,2019-05-09 13:43:26,2.152s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Footer_OR/Page_Ontario Cannabis Store  Ontari/select_Select20182017201620152""), ""1968"", true)",Chrome 74.0.3729.131,,2019-05-09 13:43:26,2019-05-09 13:43:46,20.012s,PASSED
+"click(findTestObject(""Object Repository/Footer_OR/Page_Ontario Cannabis Store  Ontari/button_Verify""))",Chrome 74.0.3729.131,,2019-05-09 13:43:46,2019-05-09 13:43:47,0.641s,PASSED
+"click(findTestObject(""Object Repository/Footer_OR/Page_Ontario Cannabis Store  Ontari/span_CONFIRM AND ACKNOWLEDGE_c""))",Chrome 74.0.3729.131,,2019-05-09 13:43:47,2019-05-09 13:43:47,0.408s,PASSED
+"click(findTestObject(""Object Repository/Footer_OR/Page_Ontario Cannabis Store  Ontari/button_CONFIRM""))",Chrome 74.0.3729.131,,2019-05-09 13:43:47,2019-05-09 13:43:48,0.418s,PASSED
+"click(findTestObject(""Object Repository/Footer_OR/Page_Ontario Cannabis Store  Ontari/button_Start Browsing""))",Chrome 74.0.3729.131,,2019-05-09 13:43:48,2019-05-09 13:43:48,0.505s,PASSED
+"click(findTestObject(""Object Repository/Footer_OR/Page_Ontario Cannabis Store  Ontari/a_Return Policy""))",Chrome 74.0.3729.131,,2019-05-09 13:43:48,2019-05-09 13:43:53,4.310s,PASSED
+"click(findTestObject(""Object Repository/Footer_OR/Page_Return Policy  Ontario Cannabi/a_Glossary of Terms""))",Chrome 74.0.3729.131,,2019-05-09 13:43:53,2019-05-09 13:43:56,3.780s,PASSED
+"click(findTestObject(""Object Repository/Footer_OR/Page_Glossary of Terms  Ontario Can/a_Product Recall""))",Chrome 74.0.3729.131,,2019-05-09 13:43:56,2019-05-09 13:44:00,3.891s,PASSED
+"click(findTestObject(""Object Repository/Footer_OR/Page_Product Recall  Ontario Cannab/a_Government of Canada - Canna""))",Chrome 74.0.3729.131,,2019-05-09 13:44:00,2019-05-09 13:44:01,0.643s,PASSED
+"click(findTestObject(""Object Repository/Footer_OR/Page_Product Recall  Ontario Cannab/a_Government of Ontario - Cann""))",Chrome 74.0.3729.131,,2019-05-09 13:44:01,2019-05-09 13:44:04,3.147s,PASSED
+"click(findTestObject(""Object Repository/Footer_OR/Page_Product Recall  Ontario Cannab/a_About the OCS""))",Chrome 74.0.3729.131,,2019-05-09 13:44:04,2019-05-09 13:44:07,3.276s,PASSED
+"click(findTestObject(""Object Repository/Footer_OR/Page_About Us  Ontario Cannabis Sto/a_Careers""))",Chrome 74.0.3729.131,,2019-05-09 13:44:07,2019-05-09 13:44:09,1.381s,PASSED
+"click(findTestObject(""Object Repository/Footer_OR/Page_CAREERS  Ontario Cannabis Stor/a_News""))",Chrome 74.0.3729.131,,2019-05-09 13:44:09,2019-05-09 13:44:10,1.484s,PASSED
+"click(findTestObject(""Object Repository/Footer_OR/Page_News  Ontario Cannabis Store/a_Doing Business With OCS""))",Chrome 74.0.3729.131,,2019-05-09 13:44:10,2019-05-09 13:44:13,2.469s,PASSED
+delay(2),Chrome 74.0.3729.131,,2019-05-09 13:44:13,2019-05-09 13:44:15,2.003s,PASSED
+"switchToWindowUrl(""https://ocs.ca/blogs/news"")",Chrome 74.0.3729.131,,2019-05-09 13:44:15,2019-05-09 13:44:15,0.000s,NOT_RUN
+"click(findTestObject(""Footer_OR/Page_News  Ontario Cannabis Store/a_Help us improve OCS.ca""), CONTINUE_ON_FAILURE)",Chrome 74.0.3729.131,,2019-05-09 13:44:15,2019-05-09 13:44:56,41.339s,FAILED
+delay(2),Chrome 74.0.3729.131,,2019-05-09 13:44:56,2019-05-09 13:44:58,2.004s,PASSED
+"click(findTestObject(""Object Repository/Footer_OR/Page_News  Ontario Cannabis Store/a_Terms and Conditions""))",Chrome 74.0.3729.131,,2019-05-09 13:44:58,2019-05-09 13:45:39,40.544s,FAILED
+,,,,,,
+Test Cases/OCS- HOME PAGE/How to choose cannabis-learn more,Chrome 74.0.3729.131,,2019-05-09 13:45:39,2019-05-09 13:46:36,57.255s,PASSED
+"openBrowser("""")",Chrome 74.0.3729.131,,2019-05-09 13:45:39,2019-05-09 13:45:51,12.108s,PASSED
+"navigateToUrl(""https://ocs.ca/?fts=0&preview_theme_id=53373863756"")",Chrome 74.0.3729.131,,2019-05-09 13:45:51,2019-05-09 13:45:57,5.865s,PASSED
+"click(findTestObject(""Object Repository/Theme_oR/Page_Ontario Cannabis Store  Ontari/button_Close preview""))",Chrome 74.0.3729.131,,2019-05-09 13:45:57,2019-05-09 13:46:00,2.997s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Tips and how _OR/Page_Ontario Cannabis Store  Ontari/select_Select01020304050607080""), ""16"", true)",Chrome 74.0.3729.131,,2019-05-09 13:46:00,2019-05-09 13:46:04,4.741s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Tips and how _OR/Page_Ontario Cannabis Store  Ontari/select_SelectJanuary - 01Febru""), ""9"", true)",Chrome 74.0.3729.131,,2019-05-09 13:46:04,2019-05-09 13:46:07,2.850s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Tips and how _OR/Page_Ontario Cannabis Store  Ontari/select_Select20182017201620152""), ""1948"", true)",Chrome 74.0.3729.131,,2019-05-09 13:46:07,2019-05-09 13:46:26,18.300s,PASSED
+"click(findTestObject(""Object Repository/Tips and how _OR/Page_Ontario Cannabis Store  Ontari/button_Verify""))",Chrome 74.0.3729.131,,2019-05-09 13:46:26,2019-05-09 13:46:26,0.301s,PASSED
+"click(findTestObject(""Object Repository/Tips and how _OR/Page_Ontario Cannabis Store  Ontari/span_CONFIRM AND ACKNOWLEDGE_c""))",Chrome 74.0.3729.131,,2019-05-09 13:46:26,2019-05-09 13:46:26,0.258s,PASSED
+"click(findTestObject(""Object Repository/Tips and how _OR/Page_Ontario Cannabis Store  Ontari/button_CONFIRM""))",Chrome 74.0.3729.131,,2019-05-09 13:46:26,2019-05-09 13:46:26,0.309s,PASSED
+"click(findTestObject(""Object Repository/Tips and how _OR/Page_Ontario Cannabis Store  Ontari/button_Start Browsing""))",Chrome 74.0.3729.131,,2019-05-09 13:46:26,2019-05-09 13:46:27,0.270s,PASSED
+"click(findTestObject(""Object Repository/Tips and how _OR/Page_Ontario Cannabis Store  Ontari/a_Learn more""))",Chrome 74.0.3729.131,,2019-05-09 13:46:27,2019-05-09 13:46:31,4.028s,PASSED
+a = getWindowTitle(),Chrome 74.0.3729.131,,2019-05-09 13:46:31,2019-05-09 13:46:31,0.098s,PASSED
+assert a == getWindowTitle(),Chrome 74.0.3729.131,,2019-05-09 13:46:31,2019-05-09 13:46:31,0.080s,PASSED
+back(),Chrome 74.0.3729.131,,2019-05-09 13:46:31,2019-05-09 13:46:32,0.740s,PASSED
+"click(findTestObject(""Object Repository/Tips and how _OR/Page_Ontario Cannabis Store  Ontari/a_Learn more_1""))",Chrome 74.0.3729.131,,2019-05-09 13:46:32,2019-05-09 13:46:35,3.282s,PASSED
+b = getWindowTitle(),Chrome 74.0.3729.131,,2019-05-09 13:46:35,2019-05-09 13:46:35,0.104s,PASSED
+assert b == getWindowTitle(),Chrome 74.0.3729.131,,2019-05-09 13:46:35,2019-05-09 13:46:35,0.080s,PASSED
+back(),Chrome 74.0.3729.131,,2019-05-09 13:46:35,2019-05-09 13:46:36,0.732s,PASSED
+,,,,,,
+Test Cases/OCS- HOME PAGE/HP -Mega menu-Hover-FAQ,Chrome 74.0.3729.131,,2019-05-09 13:46:36,2019-05-09 13:48:12,1m - 36.174s,FAILED
+"openBrowser("""")",Chrome 74.0.3729.131,,2019-05-09 13:46:36,2019-05-09 13:46:44,8.238s,PASSED
+"navigateToUrl(""https://ocs.ca/?fts=0&preview_theme_id=53373863756"")",Chrome 74.0.3729.131,,2019-05-09 13:46:44,2019-05-09 13:46:50,5.465s,PASSED
+"click(findTestObject(""Object Repository/Theme_oR/Page_Ontario Cannabis Store  Ontari/button_Close preview""))",Chrome 74.0.3729.131,,2019-05-09 13:46:50,2019-05-09 13:46:52,2.591s,PASSED
+maximizeWindow(),Chrome 74.0.3729.131,,2019-05-09 13:46:52,2019-05-09 13:46:54,1.585s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Accessories_OR/Page_Ontario Cannabis Store  Ontari/select_Select01020304050607080 (1)""), ""1"", true)",Chrome 74.0.3729.131,,2019-05-09 13:46:54,2019-05-09 13:46:59,4.601s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Accessories_OR/Page_Ontario Cannabis Store  Ontari/select_SelectJanuary - 01Febru (1)""), ""0"", true)",Chrome 74.0.3729.131,,2019-05-09 13:46:59,2019-05-09 13:47:02,3.368s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Accessories_OR/Page_Ontario Cannabis Store  Ontari/select_Select20182017201620152 (1)""), ""1968"", true)",Chrome 74.0.3729.131,,2019-05-09 13:47:02,2019-05-09 13:47:24,21.964s,PASSED
+"click(findTestObject(""Object Repository/Accessories_OR/Page_Ontario Cannabis Store  Ontari/button_Verify (1)""))",Chrome 74.0.3729.131,,2019-05-09 13:47:24,2019-05-09 13:47:25,0.563s,PASSED
+"click(findTestObject(""Object Repository/Accessories_OR/Page_Ontario Cannabis Store  Ontari/span_CONFIRM AND ACKNOWLEDGE_c (1)""))",Chrome 74.0.3729.131,,2019-05-09 13:47:25,2019-05-09 13:47:25,0.718s,PASSED
+"click(findTestObject(""Object Repository/Accessories_OR/Page_Ontario Cannabis Store  Ontari/button_CONFIRM (1)""))",Chrome 74.0.3729.131,,2019-05-09 13:47:25,2019-05-09 13:47:26,0.395s,PASSED
+"click(findTestObject(""Object Repository/Accessories_OR/Page_Ontario Cannabis Store  Ontari/button_Start Browsing (1)""))",Chrome 74.0.3729.131,,2019-05-09 13:47:26,2019-05-09 13:47:26,0.429s,PASSED
+delay(4),Chrome 74.0.3729.131,,2019-05-09 13:47:26,2019-05-09 13:47:30,4.001s,PASSED
+"click(findTestObject(""Accessories_OR/Page_Ontario Cannabis Store  Ontari/h3_FAQ (1)""))",Chrome 74.0.3729.131,,2019-05-09 13:47:30,2019-05-09 13:48:12,41.996s,FAILED
+,,,,,,
+Test Cases/OCS- HOME PAGE/HP- Mega menu-Hover- Learn,Chrome 74.0.3729.131,,2019-05-09 13:48:12,2019-05-09 13:51:07,2m - 54.968s,FAILED
+"openBrowser("""")",Chrome 74.0.3729.131,,2019-05-09 13:48:12,2019-05-09 13:48:21,8.330s,PASSED
+"navigateToUrl(""https://ocs.ca/?fts=0&preview_theme_id=53373863756"")",Chrome 74.0.3729.131,,2019-05-09 13:48:21,2019-05-09 13:48:27,6.448s,PASSED
+"click(findTestObject(""Object Repository/Theme_oR/Page_Ontario Cannabis Store  Ontari/button_Close preview""))",Chrome 74.0.3729.131,,2019-05-09 13:48:27,2019-05-09 13:48:34,6.732s,PASSED
+maximizeWindow(),Chrome 74.0.3729.131,,2019-05-09 13:48:34,2019-05-09 13:48:35,1.462s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Learn_OR/Page_Ontario Cannabis Store  Ontari/select_Select01020304050607080""), ""1"", true)",Chrome 74.0.3729.131,,2019-05-09 13:48:35,2019-05-09 13:48:40,4.440s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Learn_OR/Page_Ontario Cannabis Store  Ontari/select_SelectJanuary - 01Febru""), ""0"", true)",Chrome 74.0.3729.131,,2019-05-09 13:48:40,2019-05-09 13:48:42,2.583s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Learn_OR/Page_Ontario Cannabis Store  Ontari/select_Select20182017201620152""), ""1968"", true)",Chrome 74.0.3729.131,,2019-05-09 13:48:42,2019-05-09 13:49:04,21.502s,PASSED
+"click(findTestObject(""Object Repository/Learn_OR/Page_Ontario Cannabis Store  Ontari/button_Verify""))",Chrome 74.0.3729.131,,2019-05-09 13:49:04,2019-05-09 13:49:04,0.555s,PASSED
+"click(findTestObject(""Object Repository/Learn_OR/Page_Ontario Cannabis Store  Ontari/span_CONFIRM AND ACKNOWLEDGE_c""))",Chrome 74.0.3729.131,,2019-05-09 13:49:04,2019-05-09 13:49:05,0.410s,PASSED
+"click(findTestObject(""Object Repository/Learn_OR/Page_Ontario Cannabis Store  Ontari/button_CONFIRM""))",Chrome 74.0.3729.131,,2019-05-09 13:49:05,2019-05-09 13:49:05,0.354s,PASSED
+"click(findTestObject(""Object Repository/Learn_OR/Page_Ontario Cannabis Store  Ontari/button_Start Browsing""))",Chrome 74.0.3729.131,,2019-05-09 13:49:05,2019-05-09 13:49:06,0.726s,PASSED
+"mouseOver(findTestObject(""Learn_spy/Page_Ontario Cannabis Store  Ontari/h3_Learn""))",Chrome 74.0.3729.131,,2019-05-09 13:49:06,2019-05-09 13:49:06,0.247s,PASSED
+delay(2),Chrome 74.0.3729.131,,2019-05-09 13:49:06,2019-05-09 13:49:08,2.005s,PASSED
+"click(findTestObject(""Object Repository/Learn_OR/Page_Ontario Cannabis Store  Ontari/span_How Cannabis Works""))",Chrome 74.0.3729.131,,2019-05-09 13:49:08,2019-05-09 13:49:12,3.632s,PASSED
+"verifyTextPresent(""The human reaction to cannabis."", false)",Chrome 74.0.3729.131,,2019-05-09 13:49:12,2019-05-09 13:49:12,0.720s,PASSED
+"click(findTestObject(""Learn_spy/Page_Ontario Cannabis Store  Ontari/h3_Learn""))",Chrome 74.0.3729.131,,2019-05-09 13:49:12,2019-05-09 13:49:13,0.612s,PASSED
+"click(findTestObject(""Object Repository/Learn_OR/Page_How Cannabis Works  Ontario Ca/span_Endocannabinoids""))",Chrome 74.0.3729.131,,2019-05-09 13:49:13,2019-05-09 13:49:19,5.798s,PASSED
+"verifyTextPresent(""The Endocannabinoid System"", true)",Chrome 74.0.3729.131,,2019-05-09 13:49:19,2019-05-09 13:49:19,0.653s,PASSED
+"click(findTestObject(""Learn_spy/Page_Ontario Cannabis Store  Ontari/h3_Learn""))",Chrome 74.0.3729.131,,2019-05-09 13:49:19,2019-05-09 13:49:20,0.409s,PASSED
+"click(findTestObject(""Object Repository/Learn_OR/Page_The Endocannabinoid System  On/span_The Effects of Cannabis""))",Chrome 74.0.3729.131,,2019-05-09 13:49:20,2019-05-09 13:49:25,5.325s,PASSED
+"verifyTextPresent(""The Effects of Cannabis"", true)",Chrome 74.0.3729.131,,2019-05-09 13:49:25,2019-05-09 13:49:26,0.626s,PASSED
+"click(findTestObject(""Learn_spy/Page_Ontario Cannabis Store  Ontari/h3_Learn""))",Chrome 74.0.3729.131,,2019-05-09 13:49:26,2019-05-09 13:49:26,0.397s,PASSED
+"click(findTestObject(""Object Repository/Learn_OR/Page_The Effects of Cannabis  Ontar/a_Read More""))",Chrome 74.0.3729.131,,2019-05-09 13:49:26,2019-05-09 13:49:31,5.018s,PASSED
+"verifyTextPresent(""The human reaction to cannabis."", true)",Chrome 74.0.3729.131,,2019-05-09 13:49:31,2019-05-09 13:49:32,0.614s,PASSED
+"click(findTestObject(""Learn_spy/Page_Ontario Cannabis Store  Ontari/h3_Learn""))",Chrome 74.0.3729.131,,2019-05-09 13:49:32,2019-05-09 13:49:32,0.512s,PASSED
+"click(findTestObject(""Object Repository/Learn_OR/Page_How Cannabis Works  Ontario Ca/span_Cannabis Anatomy""))",Chrome 74.0.3729.131,,2019-05-09 13:49:32,2019-05-09 13:49:35,2.459s,PASSED
+"verifyTextPresent(""Cannabis Anatomy"", true)",Chrome 74.0.3729.131,,2019-05-09 13:49:35,2019-05-09 13:49:35,0.618s,PASSED
+"click(findTestObject(""Learn_spy/Page_Ontario Cannabis Store  Ontari/h3_Learn""))",Chrome 74.0.3729.131,,2019-05-09 13:49:35,2019-05-09 13:49:36,0.506s,PASSED
+"click(findTestObject(""Object Repository/Learn_OR/Page_Cannabis Anatomy  Ontario Cann/span_Cannabis Plant Types""))",Chrome 74.0.3729.131,,2019-05-09 13:49:36,2019-05-09 13:49:40,3.686s,PASSED
+"verifyTextPresent(""Cannabis Plant Types"", true)",Chrome 74.0.3729.131,,2019-05-09 13:49:40,2019-05-09 13:49:40,0.511s,PASSED
+"click(findTestObject(""Object Repository/Learn_OR/Page_Cannabis Plant Types  Ontario/h3_Learn""))",Chrome 74.0.3729.131,,2019-05-09 13:49:40,2019-05-09 13:49:40,0.253s,PASSED
+"click(findTestObject(""Object Repository/Learn_OR/Page_Cannabis Plant Types  Ontario/span_Terpenes""))",Chrome 74.0.3729.131,,2019-05-09 13:49:40,2019-05-09 13:49:43,2.817s,PASSED
+"verifyTextPresent(""Terpenes give cannabis strains their unique aromas."", true)",Chrome 74.0.3729.131,,2019-05-09 13:49:43,2019-05-09 13:49:44,0.513s,PASSED
+"click(findTestObject(""Learn_spy/Page_Ontario Cannabis Store  Ontari/h3_Learn""))",Chrome 74.0.3729.131,,2019-05-09 13:49:44,2019-05-09 13:49:44,0.276s,PASSED
+"click(findTestObject(""Object Repository/Learn_OR/Page_Terpenes  Ontario Cannabis Sto/a_Read More""))",Chrome 74.0.3729.131,,2019-05-09 13:49:44,2019-05-09 13:49:48,4.129s,PASSED
+"verifyTextPresent(""The components of a complex plant."", true)",Chrome 74.0.3729.131,,2019-05-09 13:49:48,2019-05-09 13:49:49,0.509s,PASSED
+"click(findTestObject(""Learn_spy/Page_Ontario Cannabis Store  Ontari/h3_Learn""))",Chrome 74.0.3729.131,,2019-05-09 13:49:49,2019-05-09 13:49:49,0.281s,PASSED
+"click(findTestObject(""Object Repository/Learn_OR/Page_Cannabis Anatomy  Ontario Cann/span_Cannabis Consumption""))",Chrome 74.0.3729.131,,2019-05-09 13:49:49,2019-05-09 13:49:53,3.823s,PASSED
+"verifyTextPresent(""Facts About Cannabis Consumption"", true)",Chrome 74.0.3729.131,,2019-05-09 13:49:53,2019-05-09 13:49:53,0.402s,PASSED
+"click(findTestObject(""Learn_spy/Page_Ontario Cannabis Store  Ontari/h3_Learn""))",Chrome 74.0.3729.131,,2019-05-09 13:49:53,2019-05-09 13:49:53,0.359s,PASSED
+"click(findTestObject(""Object Repository/Learn_OR/Page_Facts About Cannabis Consumpti/span_Methods of Consumption""))",Chrome 74.0.3729.131,,2019-05-09 13:49:53,2019-05-09 13:49:57,3.942s,PASSED
+"verifyTextPresent(""Methods of Consumption"", true)",Chrome 74.0.3729.131,,2019-05-09 13:49:57,2019-05-09 13:49:58,0.614s,PASSED
+"click(findTestObject(""Learn_spy/Page_Ontario Cannabis Store  Ontari/h3_Learn""))",Chrome 74.0.3729.131,,2019-05-09 13:49:58,2019-05-09 13:49:58,0.249s,PASSED
+"click(findTestObject(""Object Repository/Learn_OR/Page_Methods of Consumption  Ontari/li_LearnLearnHow Cannabis Work""))",Chrome 74.0.3729.131,,2019-05-09 13:49:58,2019-05-09 13:49:58,0.000s,NOT_RUN
+"verifyTextPresent(""The Endocannabinoid System"", true)",Chrome 74.0.3729.131,,2019-05-09 13:49:58,2019-05-09 13:49:58,0.001s,NOT_RUN
+"click(findTestObject(""Object Repository/Learn_OR/Page_Methods of Consumption  Ontari/span_Tips for Responsible Use""))",Chrome 74.0.3729.131,,2019-05-09 13:49:58,2019-05-09 13:50:02,3.846s,PASSED
+"verifyTextPresent(""Tips for Responsible Use"", true)",Chrome 74.0.3729.131,,2019-05-09 13:50:02,2019-05-09 13:50:03,0.515s,PASSED
+"click(findTestObject(""Learn_spy/Page_Ontario Cannabis Store  Ontari/h3_Learn""))",Chrome 74.0.3729.131,,2019-05-09 13:50:03,2019-05-09 13:50:03,0.406s,PASSED
+"click(findTestObject(""Object Repository/Learn_OR/Page_Tips for Responsible Use  Onta/a_Read More""))",Chrome 74.0.3729.131,,2019-05-09 13:50:03,2019-05-09 13:50:07,3.689s,PASSED
+"verifyTextPresent(""Tips for Responsible Use"", true)",Chrome 74.0.3729.131,,2019-05-09 13:50:07,2019-05-09 13:50:07,0.612s,PASSED
+"click(findTestObject(""Learn_spy/Page_Ontario Cannabis Store  Ontari/h3_Learn""))",Chrome 74.0.3729.131,,2019-05-09 13:50:07,2019-05-09 13:50:08,0.409s,PASSED
+"click(findTestObject(""Object Repository/Learn_OR/Page_Facts About Cannabis Consumpti/span_How to Choose Cannabis Pr""))",Chrome 74.0.3729.131,,2019-05-09 13:50:08,2019-05-09 13:50:12,3.892s,PASSED
+"verifyTextPresent(""How To Choose Cannabis Products"", true)",Chrome 74.0.3729.131,,2019-05-09 13:50:12,2019-05-09 13:50:12,0.720s,PASSED
+"click(findTestObject(""Learn_spy/Page_Ontario Cannabis Store  Ontari/h3_Learn""))",Chrome 74.0.3729.131,,2019-05-09 13:50:12,2019-05-09 13:50:13,0.507s,PASSED
+"click(findTestObject(""Object Repository/Learn_OR/Page_How To Choose Cannabis Product/span_Factors in Choosing Canna""))",Chrome 74.0.3729.131,,2019-05-09 13:50:13,2019-05-09 13:50:17,3.892s,PASSED
+"verifyTextPresent(""Factors in Choosing Cannabis Products"", true)",Chrome 74.0.3729.131,,2019-05-09 13:50:17,2019-05-09 13:50:17,0.614s,PASSED
+"click(findTestObject(""Learn_spy/Page_Ontario Cannabis Store  Ontari/h3_Learn""))",Chrome 74.0.3729.131,,2019-05-09 13:50:17,2019-05-09 13:50:18,0.540s,PASSED
+"click(findTestObject(""Object Repository/Learn_OR/Page_Factors in Choosing Cannabis P/a_Read More""))",Chrome 74.0.3729.131,,2019-05-09 13:50:18,2019-05-09 13:50:21,3.353s,PASSED
+"verifyTextPresent(""Facts to inform your choices."", true)",Chrome 74.0.3729.131,,2019-05-09 13:50:21,2019-05-09 13:50:22,0.510s,PASSED
+"click(findTestObject(""Object Repository/Learn_OR/Page_How To Choose Cannabis Product/h3_Learn""))",Chrome 74.0.3729.131,,2019-05-09 13:50:22,2019-05-09 13:50:22,0.408s,PASSED
+"click(findTestObject(""Object Repository/Learn_OR/Page_How To Choose Cannabis Product/span_Buying Cannabis at OCS""))",Chrome 74.0.3729.131,,2019-05-09 13:50:22,2019-05-09 13:50:26,4.122s,PASSED
+"verifyTextPresent(""Buying Cannabis at OCS"", true)",Chrome 74.0.3729.131,,2019-05-09 13:50:26,2019-05-09 13:50:27,0.509s,PASSED
+"click(findTestObject(""Learn_spy/Page_Ontario Cannabis Store  Ontari/h3_Learn""))",Chrome 74.0.3729.131,,2019-05-09 13:50:27,2019-05-09 13:50:27,0.376s,PASSED
+"click(findTestObject(""Object Repository/Learn_OR/Page_Buying Cannabis at OCS  Ontari/span_Why Legal Cannabis Costs""))",Chrome 74.0.3729.131,,2019-05-09 13:50:27,2019-05-09 13:50:31,3.902s,PASSED
+"verifyTextPresent(""Four Reasons Why Legal Cannabis Costs More"", true)",Chrome 74.0.3729.131,,2019-05-09 13:50:31,2019-05-09 13:50:32,0.512s,PASSED
+"click(findTestObject(""Learn_spy/Page_Ontario Cannabis Store  Ontari/h3_Learn""))",Chrome 74.0.3729.131,,2019-05-09 13:50:32,2019-05-09 13:50:32,0.415s,PASSED
+"click(findTestObject(""Object Repository/Learn_OR/Page_Four Reasons Why Legal Cannabi/span_Shopping Shipping  Delive""))",Chrome 74.0.3729.131,,2019-05-09 13:50:32,2019-05-09 13:50:36,3.733s,PASSED
+"verifyTextPresent(""Shopping, Shipping & Delivery"", true)",Chrome 74.0.3729.131,,2019-05-09 13:50:36,2019-05-09 13:50:36,0.665s,PASSED
+"click(findTestObject(""Learn_spy/Page_Ontario Cannabis Store  Ontari/h3_Learn""))",Chrome 74.0.3729.131,,2019-05-09 13:50:36,2019-05-09 13:50:37,0.511s,PASSED
+"click(findTestObject(""Object Repository/Learn_OR/Page_Shopping Shipping  Delivery  O/span_Privacy at OCS""))",Chrome 74.0.3729.131,,2019-05-09 13:50:37,2019-05-09 13:50:40,3.480s,PASSED
+"verifyTextPresent(""Privacy at OCS"", true)",Chrome 74.0.3729.131,,2019-05-09 13:50:40,2019-05-09 13:50:41,0.693s,PASSED
+"click(findTestObject(""Learn_spy/Page_Ontario Cannabis Store  Ontari/h3_Learn""))",Chrome 74.0.3729.131,,2019-05-09 13:50:41,2019-05-09 13:50:41,0.348s,PASSED
+"click(findTestObject(""Object Repository/Learn_OR/Page_Privacy at OCS  Ontario Cannab/a_Read More""))",Chrome 74.0.3729.131,,2019-05-09 13:50:41,2019-05-09 13:50:45,3.989s,PASSED
+"verifyTextPresent(""How and why to shop with us."", true)",Chrome 74.0.3729.131,,2019-05-09 13:50:45,2019-05-09 13:50:46,0.683s,PASSED
+"click(findTestObject(""Learn_spy/Page_Ontario Cannabis Store  Ontari/h3_Learn""))",Chrome 74.0.3729.131,,2019-05-09 13:50:46,2019-05-09 13:50:47,0.432s,PASSED
+"click(findTestObject(""Object Repository/Learn_OR/Page_Buying Cannabis at OCS  Ontari/span_Whats Legal""))",Chrome 74.0.3729.131,,2019-05-09 13:50:47,2019-05-09 13:50:50,3.788s,PASSED
+"verifyTextPresent(""What's Legal"", true)",Chrome 74.0.3729.131,,2019-05-09 13:50:50,2019-05-09 13:50:51,0.612s,PASSED
+"click(findTestObject(""Learn_spy/Page_Ontario Cannabis Store  Ontari/h3_Learn""))",Chrome 74.0.3729.131,,2019-05-09 13:50:51,2019-05-09 13:50:51,0.410s,PASSED
+"click(findTestObject(""Object Repository/Learn_OR/Page_Whats Legal  Ontario Cannabis/li_LearnLearnHow Cannabis Work""))",Chrome 74.0.3729.131,,2019-05-09 13:50:51,2019-05-09 13:50:51,0.001s,NOT_RUN
+"click(findTestObject(""Object Repository/Learn_OR/Page_Whats Legal  Ontario Cannabis/span_Legal Use of Cannabis in""))",Chrome 74.0.3729.131,,2019-05-09 13:50:51,2019-05-09 13:50:55,3.686s,PASSED
+"verifyTextPresent(""Legal Use of Cannabis in Ontario"", true)",Chrome 74.0.3729.131,,2019-05-09 13:50:55,2019-05-09 13:50:56,0.531s,PASSED
+"click(findTestObject(""Learn_spy/Page_Ontario Cannabis Store  Ontari/h3_Learn""))",Chrome 74.0.3729.131,,2019-05-09 13:50:56,2019-05-09 13:50:56,0.906s,PASSED
+"click(findTestObject(""Object Repository/Learn_OR/Page_Legal Use of Cannabis in Ontar/a_Read More""))",Chrome 74.0.3729.131,,2019-05-09 13:50:56,2019-05-09 13:51:00,3.785s,PASSED
+"verifyTextPresent(""Learn about cannabis laws."", true)",Chrome 74.0.3729.131,,2019-05-09 13:51:00,2019-05-09 13:51:01,0.618s,PASSED
+"click(findTestObject(""Object Repository/Learn_OR/Page_Whats Legal  Ontario Cannabis/h3_Learn""))",Chrome 74.0.3729.131,,2019-05-09 13:51:01,2019-05-09 13:51:01,0.001s,NOT_RUN
+"click(findTestObject(""Object Repository/Learn_OR/Page_Whats Legal  Ontario Cannabis/span_Legal Use of Cannabis in""))",Chrome 74.0.3729.131,,2019-05-09 13:51:01,2019-05-09 13:51:01,0.000s,NOT_RUN
+"click(findTestObject(""Learn_spy/Page_Ontario Cannabis Store  Ontari/h3_Learn""))",Chrome 74.0.3729.131,,2019-05-09 13:51:01,2019-05-09 13:51:01,0.506s,PASSED
+"click(findTestObject(""Object Repository/Learn_OR/Page_Legal Use of Cannabis in Ontar/p_The Value of Legal Cannabis""))",Chrome 74.0.3729.131,,2019-05-09 13:51:01,2019-05-09 13:51:05,3.993s,PASSED
+"verifyTextPresent(""Legal Use of Cannabis in Ontario"", true)",Chrome 74.0.3729.131,,2019-05-09 13:51:05,2019-05-09 13:51:07,1.633s,FAILED
+,,,,,,
+Test Cases/OCS- HOME PAGE/HP-Mega menu - Hover-cannabis,Chrome 74.0.3729.131,,2019-05-09 13:51:07,2019-05-09 13:54:04,2m - 56.905s,FAILED
+"openBrowser("""")",Chrome 74.0.3729.131,,2019-05-09 13:51:07,2019-05-09 13:51:15,7.621s,PASSED
+"navigateToUrl(""https://ocs.ca/?fts=0&preview_theme_id=53373863756"")",Chrome 74.0.3729.131,,2019-05-09 13:51:15,2019-05-09 13:51:21,6.181s,PASSED
+"click(findTestObject(""Object Repository/Theme_oR/Page_Ontario Cannabis Store  Ontari/button_Close preview""))",Chrome 74.0.3729.131,,2019-05-09 13:51:21,2019-05-09 13:51:25,3.972s,PASSED
+maximizeWindow(),Chrome 74.0.3729.131,,2019-05-09 13:51:25,2019-05-09 13:51:26,1.354s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/mega-menu - cannabis/Page_Ontario Cannabis Store  Ontari/select_Select01020304050607080""), ""1"", true)",Chrome 74.0.3729.131,,2019-05-09 13:51:26,2019-05-09 13:51:31,4.901s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/mega-menu - cannabis/Page_Ontario Cannabis Store  Ontari/select_SelectJanuary - 01Febru""), ""0"", true)",Chrome 74.0.3729.131,,2019-05-09 13:51:31,2019-05-09 13:51:34,2.632s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/mega-menu - cannabis/Page_Ontario Cannabis Store  Ontari/select_Select20182017201620152""), ""1968"", true)",Chrome 74.0.3729.131,,2019-05-09 13:51:34,2019-05-09 13:51:49,14.696s,PASSED
+"click(findTestObject(""Object Repository/mega-menu - cannabis/Page_Ontario Cannabis Store  Ontari/button_Verify""))",Chrome 74.0.3729.131,,2019-05-09 13:51:49,2019-05-09 13:51:49,0.508s,PASSED
+"click(findTestObject(""Object Repository/mega-menu - cannabis/Page_Ontario Cannabis Store  Ontari/span_CONFIRM AND ACKNOWLEDGE_c""))",Chrome 74.0.3729.131,,2019-05-09 13:51:49,2019-05-09 13:51:49,0.285s,PASSED
+"click(findTestObject(""Object Repository/mega-menu - cannabis/Page_Ontario Cannabis Store  Ontari/button_CONFIRM""))",Chrome 74.0.3729.131,,2019-05-09 13:51:49,2019-05-09 13:51:50,0.302s,PASSED
+"click(findTestObject(""Object Repository/mega-menu - cannabis/Page_Ontario Cannabis Store  Ontari/button_Start Browsing""))",Chrome 74.0.3729.131,,2019-05-09 13:51:50,2019-05-09 13:51:50,0.268s,PASSED
+delay(2),Chrome 74.0.3729.131,,2019-05-09 13:51:50,2019-05-09 13:51:52,2.002s,PASSED
+"click(findTestObject(""mega-menu - cannabis/Page_Ontario Cannabis Store  Ontari/h3_Cannabis""))",Chrome 74.0.3729.131,,2019-05-09 13:51:52,2019-05-09 13:51:52,0.001s,NOT_RUN
+"mouseOver(findTestObject(""OCS_CRITICAL PATH/cart flyout- price/Page_Ontario Cannabis Store  Ontari/h3_Cannabis""))",Chrome 74.0.3729.131,,2019-05-09 13:51:52,2019-05-09 13:51:52,0.234s,PASSED
+delay(2),Chrome 74.0.3729.131,,2019-05-09 13:51:52,2019-05-09 13:51:54,2.005s,PASSED
+"click(findTestObject(""mega-menu - cannabis/Page_Dried Flower  Ontario Cannabis/span_Indica Dominant""))",Chrome 74.0.3729.131,,2019-05-09 13:51:54,2019-05-09 13:51:58,4.032s,PASSED
+"mouseOver(findTestObject(""mega-menu - cannabis/Page_Ontario Cannabis Store  Ontari/h3_Cannabis""))",Chrome 74.0.3729.131,,2019-05-09 13:51:58,2019-05-09 13:51:58,0.299s,PASSED
+delay(3),Chrome 74.0.3729.131,,2019-05-09 13:51:58,2019-05-09 13:52:01,3.007s,PASSED
+"mouseOver(findTestObject(""mega-menu - cannabis/Page_Ontario Cannabis Store  Ontari/span_Dried Flower""))",Chrome 74.0.3729.131,,2019-05-09 13:52:01,2019-05-09 13:52:02,0.258s,PASSED
+delay(2),Chrome 74.0.3729.131,,2019-05-09 13:52:02,2019-05-09 13:52:04,2.005s,PASSED
+"click(findTestObject(""mega-menu - cannabis/Page_Ontario Cannabis Store  Ontari/span_Dried Flower""))",Chrome 74.0.3729.131,,2019-05-09 13:52:04,2019-05-09 13:52:06,2.112s,PASSED
+"mouseOver(findTestObject(""mega-menu - cannabis/Page_Ontario Cannabis Store  Ontari/h3_Cannabis""))",Chrome 74.0.3729.131,,2019-05-09 13:52:06,2019-05-09 13:52:06,0.292s,PASSED
+delay(2),Chrome 74.0.3729.131,,2019-05-09 13:52:06,2019-05-09 13:52:08,2.006s,PASSED
+"mouseOver(findTestObject(""mega-menu - cannabis/Page_Ontario Cannabis Store  Ontari/h3_Cannabis""))",Chrome 74.0.3729.131,,2019-05-09 13:52:08,2019-05-09 13:52:08,0.164s,PASSED
+delay(2),Chrome 74.0.3729.131,,2019-05-09 13:52:08,2019-05-09 13:52:10,2.004s,PASSED
+"click(findTestObject(""mega-menu - cannabis/Page_Indica Dominant Dried Flower/span_Sativa Dominant""))",Chrome 74.0.3729.131,,2019-05-09 13:52:10,2019-05-09 13:52:12,2.065s,PASSED
+"mouseOver(findTestObject(""mega-menu - cannabis/Page_Ontario Cannabis Store  Ontari/h3_Cannabis""))",Chrome 74.0.3729.131,,2019-05-09 13:52:12,2019-05-09 13:52:13,0.209s,PASSED
+delay(2),Chrome 74.0.3729.131,,2019-05-09 13:52:13,2019-05-09 13:52:15,2.004s,PASSED
+"click(findTestObject(""mega-menu - cannabis/Page_Sativa Dominant Dried Flower/span_Hybrid""), CONTINUE_ON_FAILURE)",Chrome 74.0.3729.131,,2019-05-09 13:52:15,2019-05-09 13:52:51,36.860s,FAILED
+"mouseOver(findTestObject(""mega-menu - cannabis/Page_Ontario Cannabis Store  Ontari/h3_Cannabis""))",Chrome 74.0.3729.131,,2019-05-09 13:52:51,2019-05-09 13:52:52,0.166s,PASSED
+delay(2),Chrome 74.0.3729.131,,2019-05-09 13:52:52,2019-05-09 13:52:54,2.013s,PASSED
+"click(findTestObject(""mega-menu - cannabis/Page_Hybrid Dried Flower  Ontario C/a_Shop AllDried Flower""))",Chrome 74.0.3729.131,,2019-05-09 13:52:54,2019-05-09 13:52:56,2.089s,PASSED
+"mouseOver(findTestObject(""Object Repository/mega-menu - cannabis/Page_Ontario Cannabis Store  Ontari/h3_Cannabis""))",Chrome 74.0.3729.131,,2019-05-09 13:52:56,2019-05-09 13:52:56,0.194s,PASSED
+delay(2),Chrome 74.0.3729.131,,2019-05-09 13:52:56,2019-05-09 13:52:58,2.003s,PASSED
+"click(findTestObject(""Object Repository/mega-menu - cannabis/Page_Dried Flower  Ontario Cannabis/span_Oils""))",Chrome 74.0.3729.131,,2019-05-09 13:52:58,2019-05-09 13:52:58,0.000s,NOT_RUN
+"mouseOver(findTestObject(""Object Repository/mega-menu - cannabis/Page_Ontario Cannabis Store  Ontari/h3_Cannabis""))",Chrome 74.0.3729.131,,2019-05-09 13:52:58,2019-05-09 13:52:58,0.167s,PASSED
+delay(2),Chrome 74.0.3729.131,,2019-05-09 13:52:58,2019-05-09 13:53:00,2.002s,PASSED
+"click(findTestObject(""mega-menu - cannabis/Page_Oils  Ontario Cannabis Store/span_Bottled Oils""))",Chrome 74.0.3729.131,,2019-05-09 13:53:00,2019-05-09 13:53:04,3.976s,PASSED
+"mouseOver(findTestObject(""Object Repository/mega-menu - cannabis/Page_Ontario Cannabis Store  Ontari/h3_Cannabis""))",Chrome 74.0.3729.131,,2019-05-09 13:53:04,2019-05-09 13:53:04,0.239s,PASSED
+delay(2),Chrome 74.0.3729.131,,2019-05-09 13:53:04,2019-05-09 13:53:06,2.001s,PASSED
+"click(findTestObject(""Object Repository/mega-menu - cannabis/Page_Bottled Oils  Ontario Cannabis/span_Oral Sprays""))",Chrome 74.0.3729.131,,2019-05-09 13:53:06,2019-05-09 13:53:09,2.807s,PASSED
+"mouseOver(findTestObject(""Object Repository/mega-menu - cannabis/Page_Ontario Cannabis Store  Ontari/h3_Cannabis""))",Chrome 74.0.3729.131,,2019-05-09 13:53:09,2019-05-09 13:53:09,0.221s,PASSED
+delay(2),Chrome 74.0.3729.131,,2019-05-09 13:53:09,2019-05-09 13:53:11,2.003s,PASSED
+"click(findTestObject(""Object Repository/mega-menu - cannabis/Page_Oral Sprays  Ontario Cannabis/a_Shop AllOils""))",Chrome 74.0.3729.131,,2019-05-09 13:53:11,2019-05-09 13:53:14,2.896s,PASSED
+"mouseOver(findTestObject(""Object Repository/mega-menu - cannabis/Page_Ontario Cannabis Store  Ontari/h3_Cannabis""))",Chrome 74.0.3729.131,,2019-05-09 13:53:14,2019-05-09 13:53:15,0.409s,PASSED
+delay(2),Chrome 74.0.3729.131,,2019-05-09 13:53:15,2019-05-09 13:53:17,2.006s,PASSED
+"click(findTestObject(""Object Repository/mega-menu - cannabis/Page_Oils  Ontario Cannabis Store/span_Pre-Rolled""))",Chrome 74.0.3729.131,,2019-05-09 13:53:17,2019-05-09 13:53:20,3.011s,PASSED
+"mouseOver(findTestObject(""Object Repository/mega-menu - cannabis/Page_Ontario Cannabis Store  Ontari/h3_Cannabis""))",Chrome 74.0.3729.131,,2019-05-09 13:53:20,2019-05-09 13:53:20,0.224s,PASSED
+delay(2),Chrome 74.0.3729.131,,2019-05-09 13:53:20,2019-05-09 13:53:22,2.005s,PASSED
+"click(findTestObject(""mega-menu - cannabis/Page_Pre-Rolled  Ontario Cannabis S/span_Indica Dominant""))",Chrome 74.0.3729.131,,2019-05-09 13:53:22,2019-05-09 13:53:24,2.586s,PASSED
+"mouseOver(findTestObject(""Object Repository/mega-menu - cannabis/Page_Indica Dominant Pre-Rolled Can/h3_Cannabis""))",Chrome 74.0.3729.131,,2019-05-09 13:53:24,2019-05-09 13:54:04,39.476s,FAILED
+,,,,,,
+Test Cases/OCS- HOME PAGE/HP-Mega menu- Hover-Accessories,Chrome 74.0.3729.131,,2019-05-09 13:54:04,2019-05-09 13:55:43,1m - 39.380s,PASSED
+"openBrowser("""")",Chrome 74.0.3729.131,,2019-05-09 13:54:04,2019-05-09 13:54:12,8.433s,PASSED
+"navigateToUrl(""https://ocs.ca/?fts=0&preview_theme_id=53373863756"")",Chrome 74.0.3729.131,,2019-05-09 13:54:12,2019-05-09 13:54:19,6.744s,PASSED
+"click(findTestObject(""Object Repository/Theme_oR/Page_Ontario Cannabis Store  Ontari/button_Close preview""))",Chrome 74.0.3729.131,,2019-05-09 13:54:19,2019-05-09 13:54:23,3.650s,PASSED
+maximizeWindow(),Chrome 74.0.3729.131,,2019-05-09 13:54:23,2019-05-09 13:54:24,1.478s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Accessories_OR/Page_Ontario Cannabis Store  Ontari/select_Select01020304050607080""), ""1"", true)",Chrome 74.0.3729.131,,2019-05-09 13:54:24,2019-05-09 13:54:29,4.200s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Accessories_OR/Page_Ontario Cannabis Store  Ontari/select_SelectJanuary - 01Febru""), ""0"", true)",Chrome 74.0.3729.131,,2019-05-09 13:54:29,2019-05-09 13:54:31,2.665s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Accessories_OR/Page_Ontario Cannabis Store  Ontari/select_Select20182017201620152""), ""1968"", true)",Chrome 74.0.3729.131,,2019-05-09 13:54:31,2019-05-09 13:54:48,17.065s,PASSED
+"click(findTestObject(""Object Repository/Accessories_OR/Page_Ontario Cannabis Store  Ontari/button_Verify""))",Chrome 74.0.3729.131,,2019-05-09 13:54:48,2019-05-09 13:54:49,0.755s,PASSED
+"click(findTestObject(""Object Repository/Accessories_OR/Page_Ontario Cannabis Store  Ontari/span_CONFIRM AND ACKNOWLEDGE_c""))",Chrome 74.0.3729.131,,2019-05-09 13:54:49,2019-05-09 13:54:49,0.414s,PASSED
+"click(findTestObject(""Object Repository/Accessories_OR/Page_Ontario Cannabis Store  Ontari/button_CONFIRM""))",Chrome 74.0.3729.131,,2019-05-09 13:54:49,2019-05-09 13:54:50,0.404s,PASSED
+"click(findTestObject(""Object Repository/Accessories_OR/Page_Ontario Cannabis Store  Ontari/button_Start Browsing""))",Chrome 74.0.3729.131,,2019-05-09 13:54:50,2019-05-09 13:54:50,0.237s,PASSED
+"mouseOver(findTestObject(""Object Repository/Accessories_OR/Page_Ontario Cannabis Store  Ontari/h3_Accessories""))",Chrome 74.0.3729.131,,2019-05-09 13:54:50,2019-05-09 13:54:50,0.377s,PASSED
+"click(findTestObject(""Object Repository/Accessories_OR/Page_Ontario Cannabis Store  Ontari/span_Vaporizers""))",Chrome 74.0.3729.131,,2019-05-09 13:54:50,2019-05-09 13:54:54,3.078s,PASSED
+"click(findTestObject(""Object Repository/Accessories_OR/Page_Vaporizers  Ontario Cannabis S/h3_Accessories""))",Chrome 74.0.3729.131,,2019-05-09 13:54:54,2019-05-09 13:54:54,0.607s,PASSED
+"click(findTestObject(""Object Repository/Accessories_OR/Page_Vaporizers  Ontario Cannabis S/span_Bongs  Water Pipes""))",Chrome 74.0.3729.131,,2019-05-09 13:54:54,2019-05-09 13:54:57,3.175s,PASSED
+"click(findTestObject(""Object Repository/Accessories_OR/Page_Bongs  Water Pipes  Ontario Ca/h3_Accessories""))",Chrome 74.0.3729.131,,2019-05-09 13:54:57,2019-05-09 13:54:58,0.513s,PASSED
+"click(findTestObject(""Object Repository/Accessories_OR/Page_Bongs  Water Pipes  Ontario Ca/span_Handheld Pipes""))",Chrome 74.0.3729.131,,2019-05-09 13:54:58,2019-05-09 13:55:01,3.263s,PASSED
+"click(findTestObject(""Object Repository/Accessories_OR/Page_Handheld Pipes  Ontario Cannab/h3_Accessories""))",Chrome 74.0.3729.131,,2019-05-09 13:55:01,2019-05-09 13:55:02,0.534s,PASSED
+"click(findTestObject(""Object Repository/Accessories_OR/Page_Handheld Pipes  Ontario Cannab/span_Papers  Filters""))",Chrome 74.0.3729.131,,2019-05-09 13:55:02,2019-05-09 13:55:05,3.073s,PASSED
+"click(findTestObject(""Object Repository/Accessories_OR/Page_Papers  Filters  Ontario Canna/h3_Accessories""))",Chrome 74.0.3729.131,,2019-05-09 13:55:05,2019-05-09 13:55:05,0.772s,PASSED
+"click(findTestObject(""Object Repository/Accessories_OR/Page_Papers  Filters  Ontario Canna/span_Grinders""))",Chrome 74.0.3729.131,,2019-05-09 13:55:05,2019-05-09 13:55:09,3.927s,PASSED
+"click(findTestObject(""Object Repository/Accessories_OR/Page_Grinders  Ontario Cannabis Sto/h3_Accessories""))",Chrome 74.0.3729.131,,2019-05-09 13:55:09,2019-05-09 13:55:10,0.646s,PASSED
+"click(findTestObject(""Object Repository/Accessories_OR/Page_Grinders  Ontario Cannabis Sto/span_Tools  Kits""))",Chrome 74.0.3729.131,,2019-05-09 13:55:10,2019-05-09 13:55:13,2.711s,PASSED
+"click(findTestObject(""Object Repository/Accessories_OR/Page_Multi-Tools  Kits  Ontario Can/h3_Accessories""))",Chrome 74.0.3729.131,,2019-05-09 13:55:13,2019-05-09 13:55:13,0.433s,PASSED
+"click(findTestObject(""Object Repository/Accessories_OR/Page_Multi-Tools  Kits  Ontario Can/span_Cleaning Supplies""))",Chrome 74.0.3729.131,,2019-05-09 13:55:13,2019-05-09 13:55:17,3.583s,PASSED
+"click(findTestObject(""Object Repository/Accessories_OR/Page_Cleaning Supplies  Ontario Can/h3_Accessories""))",Chrome 74.0.3729.131,,2019-05-09 13:55:17,2019-05-09 13:55:17,0.491s,PASSED
+"click(findTestObject(""Object Repository/Accessories_OR/Page_Cleaning Supplies  Ontario Can/span_Storage""))",Chrome 74.0.3729.131,,2019-05-09 13:55:17,2019-05-09 13:55:21,3.526s,PASSED
+"click(findTestObject(""Object Repository/Accessories_OR/Page_Storage  Ontario Cannabis Stor/h3_Accessories""))",Chrome 74.0.3729.131,,2019-05-09 13:55:21,2019-05-09 13:55:22,0.731s,PASSED
+"click(findTestObject(""Object Repository/Accessories_OR/Page_Storage  Ontario Cannabis Stor/span_Trays""))",Chrome 74.0.3729.131,,2019-05-09 13:55:22,2019-05-09 13:55:24,2.524s,PASSED
+"click(findTestObject(""Object Repository/Accessories_OR/Page_Trays  Ontario Cannabis Store/h3_Accessories""))",Chrome 74.0.3729.131,,2019-05-09 13:55:24,2019-05-09 13:55:25,0.514s,PASSED
+"click(findTestObject(""Object Repository/Accessories_OR/Page_Trays  Ontario Cannabis Store/span_Infusers""))",Chrome 74.0.3729.131,,2019-05-09 13:55:25,2019-05-09 13:55:27,2.650s,PASSED
+"click(findTestObject(""Object Repository/Accessories_OR/Page_Infusers  Ontario Cannabis Sto/h3_Accessories""))",Chrome 74.0.3729.131,,2019-05-09 13:55:27,2019-05-09 13:55:28,0.402s,PASSED
+"click(findTestObject(""Object Repository/Accessories_OR/Page_Infusers  Ontario Cannabis Sto/p_Bongs  Water Pipes""))",Chrome 74.0.3729.131,,2019-05-09 13:55:28,2019-05-09 13:55:31,3.385s,PASSED
+"click(findTestObject(""Object Repository/Accessories_OR/Page_Bongs  Water Pipes  Ontario Ca/h3_Accessories""))",Chrome 74.0.3729.131,,2019-05-09 13:55:31,2019-05-09 13:55:32,0.615s,PASSED
+"click(findTestObject(""Object Repository/Accessories_OR/Page_Bongs  Water Pipes  Ontario Ca/p_Papers  Filters""))",Chrome 74.0.3729.131,,2019-05-09 13:55:32,2019-05-09 13:55:36,4.606s,PASSED
+"click(findTestObject(""Object Repository/Accessories_OR/Page_Papers  Filters  Ontario Canna/h3_Accessories""))",Chrome 74.0.3729.131,,2019-05-09 13:55:36,2019-05-09 13:55:37,0.618s,PASSED
+"click(findTestObject(""Object Repository/Accessories_OR/Page_Papers  Filters  Ontario Canna/a_SHOP ALL ACCESSORIES""))",Chrome 74.0.3729.131,,2019-05-09 13:55:37,2019-05-09 13:55:41,3.686s,PASSED
+"click(findTestObject(""Object Repository/Accessories_OR/Page_All Accessories  Ontario Canna/h3_Accessories""))",Chrome 74.0.3729.131,,2019-05-09 13:55:41,2019-05-09 13:55:41,0.713s,PASSED
+closeBrowser(),Chrome 74.0.3729.131,,2019-05-09 13:55:41,2019-05-09 13:55:43,2.052s,PASSED
+,,,,,,
+Test Cases/OCS- HOME PAGE/Retail stores link,Chrome 74.0.3729.131,,2019-05-09 13:55:43,2019-05-09 13:58:02,2m - 19.075s,FAILED
+"openBrowser("""")",Chrome 74.0.3729.131,,2019-05-09 13:55:43,2019-05-09 13:55:55,11.431s,PASSED
+delay(10),Chrome 74.0.3729.131,,2019-05-09 13:55:55,2019-05-09 13:56:05,10.006s,PASSED
+"navigateToUrl(""https://ocs.ca/?fts=0&preview_theme_id=53373863756"")",Chrome 74.0.3729.131,,2019-05-09 13:56:05,2019-05-09 13:56:13,7.967s,PASSED
+"click(findTestObject(""Object Repository/Theme_oR/Page_Ontario Cannabis Store  Ontari/button_Close preview""))",Chrome 74.0.3729.131,,2019-05-09 13:56:13,2019-05-09 13:56:18,4.914s,PASSED
+maximizeWindow(),Chrome 74.0.3729.131,,2019-05-09 13:56:18,2019-05-09 13:56:19,1.470s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Retail store_OR/Page_Ontario Cannabis Store  Ontari/select_Select01020304050607080""), ""1"", true)",Chrome 74.0.3729.131,,2019-05-09 13:56:19,2019-05-09 13:56:24,4.328s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Retail store_OR/Page_Ontario Cannabis Store  Ontari/select_SelectJanuary - 01Febru""), ""0"", true)",Chrome 74.0.3729.131,,2019-05-09 13:56:24,2019-05-09 13:56:26,2.271s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Retail store_OR/Page_Ontario Cannabis Store  Ontari/select_Select20182017201620152""), ""1968"", true)",Chrome 74.0.3729.131,,2019-05-09 13:56:26,2019-05-09 13:56:44,18.150s,PASSED
+"click(findTestObject(""Object Repository/Retail store_OR/Page_Ontario Cannabis Store  Ontari/button_Verify""))",Chrome 74.0.3729.131,,2019-05-09 13:56:44,2019-05-09 13:56:44,0.405s,PASSED
+"click(findTestObject(""Object Repository/Retail store_OR/Page_Ontario Cannabis Store  Ontari/span_CONFIRM AND ACKNOWLEDGE_c""))",Chrome 74.0.3729.131,,2019-05-09 13:56:44,2019-05-09 13:56:45,0.299s,PASSED
+"click(findTestObject(""Object Repository/Retail store_OR/Page_Ontario Cannabis Store  Ontari/button_CONFIRM""))",Chrome 74.0.3729.131,,2019-05-09 13:56:45,2019-05-09 13:56:45,0.305s,PASSED
+"click(findTestObject(""Object Repository/Retail store_OR/Page_Ontario Cannabis Store  Ontari/button_Start Browsing""))",Chrome 74.0.3729.131,,2019-05-09 13:56:45,2019-05-09 13:56:45,0.280s,PASSED
+"click(findTestObject(""Retail store_OR/Page_Ontario Cannabis Store  Ontari/a_AGCO authorized cannabis ret""))",Chrome 74.0.3729.131,,2019-05-09 13:56:45,2019-05-09 13:56:49,3.929s,PASSED
+delay(5),Chrome 74.0.3729.131,,2019-05-09 13:56:49,2019-05-09 13:56:54,5.002s,PASSED
+a = getUrl(),Chrome 74.0.3729.131,,2019-05-09 13:56:54,2019-05-09 13:56:54,0.000s,NOT_RUN
+"switchToWindowUrl(""https://www.agco.ca/sites/default/files/map/ONT_CN_ST_E.html"", STOP_ON_FAILURE)",Chrome 74.0.3729.131,,2019-05-09 13:56:54,2019-05-09 13:58:02,1m - 8.237s,FAILED
+,,,,,,
+Test Cases/OCS- HOME PAGE/Toggling language,Chrome 74.0.3729.131,,2019-05-09 13:58:02,2019-05-09 13:59:02,59.173s,FAILED
+"openBrowser("""")",Chrome 74.0.3729.131,,2019-05-09 13:58:02,2019-05-09 13:58:09,6.668s,PASSED
+"navigateToUrl(""https://ocs.ca/?fts=0&preview_theme_id=53373863756"")",Chrome 74.0.3729.131,,2019-05-09 13:58:09,2019-05-09 13:58:15,5.521s,PASSED
+"click(findTestObject(""Object Repository/Theme_oR/Page_Ontario Cannabis Store  Ontari/button_Close preview""))",Chrome 74.0.3729.131,,2019-05-09 13:58:15,2019-05-09 13:58:19,4.623s,PASSED
+maximizeWindow(),Chrome 74.0.3729.131,,2019-05-09 13:58:19,2019-05-09 13:58:21,1.420s,PASSED
+"selectOptionByValue(findTestObject(""language_OR/Page_Ontario Cannabis Store  Ontari/select_Select01020304050607080""), ""1"", true)",Chrome 74.0.3729.131,,2019-05-09 13:58:21,2019-05-09 13:58:24,3.361s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/language_OR/Page_Ontario Cannabis Store  Ontari/select_SelectJanuary - 01Febru""), ""0"", true)",Chrome 74.0.3729.131,,2019-05-09 13:58:24,2019-05-09 13:58:26,1.870s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/language_OR/Page_Ontario Cannabis Store  Ontari/select_Select20182017201620152""), ""1968"", true)",Chrome 74.0.3729.131,,2019-05-09 13:58:26,2019-05-09 13:58:43,16.680s,PASSED
+"click(findTestObject(""Object Repository/language_OR/Page_Ontario Cannabis Store  Ontari/button_Verify""))",Chrome 74.0.3729.131,,2019-05-09 13:58:43,2019-05-09 13:58:43,0.310s,PASSED
+"click(findTestObject(""Object Repository/language_OR/Page_Ontario Cannabis Store  Ontari/span_CONFIRM AND ACKNOWLEDGE_c""))",Chrome 74.0.3729.131,,2019-05-09 13:58:43,2019-05-09 13:58:43,0.257s,PASSED
+"click(findTestObject(""Object Repository/language_OR/Page_Ontario Cannabis Store  Ontari/button_CONFIRM""))",Chrome 74.0.3729.131,,2019-05-09 13:58:43,2019-05-09 13:58:43,0.265s,PASSED
+"click(findTestObject(""Object Repository/language_OR/Page_Ontario Cannabis Store  Ontari/button_Start Browsing""))",Chrome 74.0.3729.131,,2019-05-09 13:58:43,2019-05-09 13:58:44,0.247s,PASSED
+delay(2),Chrome 74.0.3729.131,,2019-05-09 13:58:44,2019-05-09 13:58:46,2.004s,PASSED
+"click(findTestObject(""Object Repository/language_OR/Page_Ontario Cannabis Store  Ontari/p_English""))",Chrome 74.0.3729.131,,2019-05-09 13:58:46,2019-05-09 13:58:46,0.251s,PASSED
+delay(2),Chrome 74.0.3729.131,,2019-05-09 13:58:46,2019-05-09 13:58:48,2.003s,PASSED
+"click(findTestObject(""language_OR/Page_Ontario Cannabis Store  Ontari/a_Franais""))",Chrome 74.0.3729.131,,2019-05-09 13:58:48,2019-05-09 13:58:48,0.278s,PASSED
+delay(2),Chrome 74.0.3729.131,,2019-05-09 13:58:48,2019-05-09 13:58:50,2.001s,PASSED
+"flag = verifyTextPresent(""Découvrez nos variétés de cannabis les plus vendues"", false, CONTINUE_ON_FAILURE)",Chrome 74.0.3729.131,,2019-05-09 13:58:50,2019-05-09 13:58:53,2.633s,FAILED
+"comment(""flag = "" + flag)",Chrome 74.0.3729.131,,2019-05-09 13:58:53,2019-05-09 13:58:53,0.000s,PASSED
+if (flag == true),Chrome 74.0.3729.131,,2019-05-09 13:58:53,2019-05-09 13:58:53,0.001s,PASSED
+else,Chrome 74.0.3729.131,,2019-05-09 13:58:53,2019-05-09 13:58:53,0.001s,PASSED
+"click(findTestObject(""language_OR/Page_Magasin de Cannabis de lOntari/p_Franais""))",Chrome 74.0.3729.131,,2019-05-09 13:58:53,2019-05-09 13:58:53,0.281s,PASSED
+delay(2),Chrome 74.0.3729.131,,2019-05-09 13:58:53,2019-05-09 13:58:55,2.004s,PASSED
+"click(findTestObject(""Object Repository/language_OR/Page_Magasin de Cannabis de lOntari/a_English""))",Chrome 74.0.3729.131,,2019-05-09 13:58:55,2019-05-09 13:58:55,0.296s,PASSED
+delay(2),Chrome 74.0.3729.131,,2019-05-09 13:58:55,2019-05-09 13:58:57,2.004s,PASSED
+"verifyTextPresent(""Shop Our Best-Selling Cannabis Strains"", false, CONTINUE_ON_FAILURE)",Chrome 74.0.3729.131,,2019-05-09 13:58:57,2019-05-09 13:59:02,4.112s,FAILED
+if (true),Chrome 74.0.3729.131,,2019-05-09 13:59:02,2019-05-09 13:59:02,0.002s,FAILED
+,,,,,,
+Test Cases/OCS- HOME PAGE/why trust OCS,Chrome 74.0.3729.131,,2019-05-09 13:59:02,2019-05-09 14:00:00,58.249s,PASSED
+"openBrowser("""")",Chrome 74.0.3729.131,,2019-05-09 13:59:02,2019-05-09 13:59:15,12.890s,PASSED
+"navigateToUrl(""https://ocs.ca/?fts=0&preview_theme_id=53373863756"")",Chrome 74.0.3729.131,,2019-05-09 13:59:15,2019-05-09 13:59:21,6.559s,PASSED
+"click(findTestObject(""Object Repository/Theme_oR/Page_Ontario Cannabis Store  Ontari/button_Close preview""))",Chrome 74.0.3729.131,,2019-05-09 13:59:21,2019-05-09 13:59:25,4.339s,PASSED
+maximizeWindow(),Chrome 74.0.3729.131,,2019-05-09 13:59:25,2019-05-09 13:59:27,1.394s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Why trust OCS_OR/Page_Ontario Cannabis Store  Ontari/select_Select01020304050607080""), ""15"", true)",Chrome 74.0.3729.131,,2019-05-09 13:59:27,2019-05-09 13:59:32,4.805s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Why trust OCS_OR/Page_Ontario Cannabis Store  Ontari/select_SelectJanuary - 01Febru""), ""7"", true)",Chrome 74.0.3729.131,,2019-05-09 13:59:32,2019-05-09 13:59:34,2.746s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Why trust OCS_OR/Page_Ontario Cannabis Store  Ontari/select_Select20182017201620152""), ""1956"", true)",Chrome 74.0.3729.131,,2019-05-09 13:59:34,2019-05-09 13:59:52,18.066s,PASSED
+"click(findTestObject(""Object Repository/Why trust OCS_OR/Page_Ontario Cannabis Store  Ontari/button_Verify""))",Chrome 74.0.3729.131,,2019-05-09 13:59:52,2019-05-09 13:59:53,0.516s,PASSED
+"click(findTestObject(""Object Repository/Why trust OCS_OR/Page_Ontario Cannabis Store  Ontari/span_CONFIRM AND ACKNOWLEDGE_c""))",Chrome 74.0.3729.131,,2019-05-09 13:59:53,2019-05-09 13:59:53,0.390s,PASSED
+"click(findTestObject(""Object Repository/Why trust OCS_OR/Page_Ontario Cannabis Store  Ontari/button_CONFIRM""))",Chrome 74.0.3729.131,,2019-05-09 13:59:53,2019-05-09 13:59:54,0.367s,PASSED
+"click(findTestObject(""Object Repository/Why trust OCS_OR/Page_Ontario Cannabis Store  Ontari/button_Start Browsing""))",Chrome 74.0.3729.131,,2019-05-09 13:59:54,2019-05-09 13:59:54,0.533s,PASSED
+"click(findTestObject(""Object Repository/Why trust OCS_OR/Page_Ontario Cannabis Store  Ontari/img""))",Chrome 74.0.3729.131,,2019-05-09 13:59:54,2019-05-09 13:59:59,4.323s,PASSED
+a = getWindowTitle(),Chrome 74.0.3729.131,,2019-05-09 13:59:59,2019-05-09 13:59:59,0.127s,PASSED
+assert getWindowTitle() == a,Chrome 74.0.3729.131,,2019-05-09 13:59:59,2019-05-09 13:59:59,0.089s,PASSED
+back(),Chrome 74.0.3729.131,,2019-05-09 13:59:59,2019-05-09 14:00:00,1.010s,PASSED

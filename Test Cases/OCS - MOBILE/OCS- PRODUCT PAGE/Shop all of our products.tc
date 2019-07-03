@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Shop all of our products</name>
+   <tag></tag>
+   <comment>WINDOW TITLE: &quot; + a</comment>
+   <testCaseGuid>bf2e2988-fc63-439b-810f-f409bec74113</testCaseGuid>
+</TestCaseEntity>

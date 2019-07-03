@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Show all accessories</name>
+   <tag></tag>
+   <comment>WINDOW TITLE: &quot; + a</comment>
+   <testCaseGuid>439139bb-7b37-4b79-9c0f-c36776d67fbc</testCaseGuid>
+</TestCaseEntity>

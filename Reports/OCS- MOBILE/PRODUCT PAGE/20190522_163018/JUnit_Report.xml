@@ -1,0 +1,2316 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="PRODUCT PAGE" time="581" tests="8" failures="2" errors="0">
+   <testsuite name="PRODUCT PAGE" tests="8" failures="2" errors="0" time="581" timestamp="2019-05-22 16:30:19" hostname="sumankompelly - 10.0.126.233" id="Test Suites/OCS- MOBILE/PRODUCT PAGE">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/sumankompelly/git/Ontario-cannbis-store/Reports/OCS- MOBILE/PRODUCT PAGE/20190522_163018"/>
+         <property name="logFiles" value="/Users/sumankompelly/git/Ontario-cannbis-store/Reports/OCS- MOBILE/PRODUCT PAGE/20190522_163018/execution0.log"/>
+         <property name="attachments" value="/Users/sumankompelly/git/Ontario-cannbis-store/Reports/OCS- MOBILE/PRODUCT PAGE/20190522_163018/1558557149714.png, /Users/sumankompelly/git/Ontario-cannbis-store/Reports/OCS- MOBILE/PRODUCT PAGE/20190522_163018/1558557192518.png, /Users/sumankompelly/git/Ontario-cannbis-store/Reports/OCS- MOBILE/PRODUCT PAGE/20190522_163018/1558557197652.png, /Users/sumankompelly/git/Ontario-cannbis-store/Reports/OCS- MOBILE/PRODUCT PAGE/20190522_163018/1558557203025.png, /Users/sumankompelly/git/Ontario-cannbis-store/Reports/OCS- MOBILE/PRODUCT PAGE/20190522_163018/1558557209512.png, /Users/sumankompelly/git/Ontario-cannbis-store/Reports/OCS- MOBILE/PRODUCT PAGE/20190522_163018/1558557213373.png, /Users/sumankompelly/git/Ontario-cannbis-store/Reports/OCS- MOBILE/PRODUCT PAGE/20190522_163018/1558557220070.png, /Users/sumankompelly/git/Ontario-cannbis-store/Reports/OCS- MOBILE/PRODUCT PAGE/20190522_163018/1558557227674.png, /Users/sumankompelly/git/Ontario-cannbis-store/Reports/OCS- MOBILE/PRODUCT PAGE/20190522_163018/1558557234236.png, /Users/sumankompelly/git/Ontario-cannbis-store/Reports/OCS- MOBILE/PRODUCT PAGE/20190522_163018/1558557320694.png, /Users/sumankompelly/git/Ontario-cannbis-store/Reports/OCS- MOBILE/PRODUCT PAGE/20190522_163018/1558557516174.png, /Users/sumankompelly/git/Ontario-cannbis-store/Reports/OCS- MOBILE/PRODUCT PAGE/20190522_163018/1558557518488.png, /Users/sumankompelly/git/Ontario-cannbis-store/Reports/OCS- MOBILE/PRODUCT PAGE/20190522_163018/1558557520788.png, /Users/sumankompelly/git/Ontario-cannbis-store/Reports/OCS- MOBILE/PRODUCT PAGE/20190522_163018/1558557523135.png, /Users/sumankompelly/git/Ontario-cannbis-store/Reports/OCS- MOBILE/PRODUCT PAGE/20190522_163018/1558557526480.png, /Users/sumankompelly/git/Ontario-cannbis-store/Reports/OCS- MOBILE/PRODUCT PAGE/20190522_163018/1558557530051.png, /Users/sumankompelly/git/Ontario-cannbis-store/Reports/OCS- MOBILE/PRODUCT PAGE/20190522_163018/1558557533585.png, /Users/sumankompelly/git/Ontario-cannbis-store/Reports/OCS- MOBILE/PRODUCT PAGE/20190522_163018/1558557537151.png, /Users/sumankompelly/git/Ontario-cannbis-store/Reports/OCS- MOBILE/PRODUCT PAGE/20190522_163018/1558557540677.png, /Users/sumankompelly/git/Ontario-cannbis-store/Reports/OCS- MOBILE/PRODUCT PAGE/20190522_163018/1558557595138.png, /Users/sumankompelly/git/Ontario-cannbis-store/Reports/OCS- MOBILE/PRODUCT PAGE/20190522_163018/1558557597505.png, /Users/sumankompelly/git/Ontario-cannbis-store/Reports/OCS- MOBILE/PRODUCT PAGE/20190522_163018/1558557598593.png, /Users/sumankompelly/git/Ontario-cannbis-store/Reports/OCS- MOBILE/PRODUCT PAGE/20190522_163018/1558557599649.png"/>
+         <property name="hostName" value="sumankompelly - 10.0.126.233"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="5.10.1.1"/>
+         <property name="browser" value="Firefox 66.0"/>
+         <property name="hostAddress" value="10.0.126.233"/>
+         <property name="sessionId" value="658a5387-34c6-3242-bca2-782bdfdbc739"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/OCS - MOBILE/OCS- PRODUCT PAGE/Add to bag CTA" classname="Test Cases/OCS - MOBILE/OCS- PRODUCT PAGE/Add to bag CTA" status="PASSED">
+         <system-out><![CDATA[2019-05-22 16:30:20 - [TEST_CASE][PASSED] - Test Cases/OCS - MOBILE/OCS- PRODUCT PAGE/Add to bag CTA: Test Cases/OCS - MOBILE/OCS- PRODUCT PAGE/Add to bag CTA
+
+2019-05-22 16:30:20 - [TEST_STEP][PASSED] - callTestCase(findTestCase("OCS - MOBILE/CALL - PDP"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/OCS - MOBILE/CALL - PDP' successfully
+
+2019-05-22 16:30:20 - [TEST_CASE][PASSED] - Test Cases/OCS - MOBILE/CALL - PDP: Test Cases/OCS - MOBILE/CALL - PDP
+
+2019-05-22 16:30:20 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-05-22 16:30:21 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2019-05-22 16:30:21 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-05-22 16:30:25 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-05-22 16:30:25 - [TEST_STEP][PASSED] - navigateToUrl("https://ocs.ca/?fts=0&preview_theme_id=53373863756"): Navigate to 'https://ocs.ca/?fts=0&preview_theme_id=53373863756' successfully
+
+2019-05-22 16:30:32 - [MESSAGE][PASSED] - Navigate to 'https://ocs.ca/?fts=0&preview_theme_id=53373863756' successfully
+
+2019-05-22 16:30:32 - [TEST_STEP][PASSED] - setViewPortSize(360, 800): Viewport is set to new size with width = 360 and height = 800
+
+2019-05-22 16:30:32 - [MESSAGE][PASSED] - Viewport is set to new size with width = 360 and height = 800
+
+2019-05-22 16:30:32 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+2019-05-22 16:30:36 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2019-05-22 16:30:36 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("OCS-MOBILE /Age gate and burger menu/Date"), "12", true): All options with value '12' are selected in object 'Object Repository/OCS-MOBILE /Age gate and burger menu/Date'  using regular expression
+
+2019-05-22 16:30:37 - [MESSAGE][PASSED] - All options with value '12' are selected in object 'Object Repository/OCS-MOBILE /Age gate and burger menu/Date'  using regular expression
+
+2019-05-22 16:30:37 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("OCS-MOBILE /Age gate and burger menu/month"), "6", true): All options with value '6' are selected in object 'Object Repository/OCS-MOBILE /Age gate and burger menu/month'  using regular expression
+
+2019-05-22 16:30:38 - [MESSAGE][PASSED] - All options with value '6' are selected in object 'Object Repository/OCS-MOBILE /Age gate and burger menu/month'  using regular expression
+
+2019-05-22 16:30:38 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-05-22 16:30:40 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-22 16:30:40 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("OCS-MOBILE /Age gate and burger menu/Year Dropdown"), "1990", true): All options with value '1990' are selected in object 'Object Repository/OCS-MOBILE /Age gate and burger menu/Year Dropdown'  using regular expression
+
+2019-05-22 16:30:41 - [MESSAGE][PASSED] - All options with value '1990' are selected in object 'Object Repository/OCS-MOBILE /Age gate and burger menu/Year Dropdown'  using regular expression
+
+2019-05-22 16:30:41 - [TEST_STEP][PASSED] - click(findTestObject("OCS-MOBILE /Age gate and burger menu/button_Verify")): Object: 'Object Repository/OCS-MOBILE /Age gate and burger menu/button_Verify' is clicked on
+
+2019-05-22 16:30:41 - [MESSAGE][PASSED] - Object: 'Object Repository/OCS-MOBILE /Age gate and burger menu/button_Verify' is clicked on
+
+2019-05-22 16:30:41 - [TEST_STEP][PASSED] - click(findTestObject("OCS-MOBILE /Age gate and burger menu/Checkbox_CONFIRM AND ACKNOWLEDGE")): Object: 'Object Repository/OCS-MOBILE /Age gate and burger menu/Checkbox_CONFIRM AND ACKNOWLEDGE' is clicked on
+
+2019-05-22 16:30:42 - [MESSAGE][PASSED] - Object: 'Object Repository/OCS-MOBILE /Age gate and burger menu/Checkbox_CONFIRM AND ACKNOWLEDGE' is clicked on
+
+2019-05-22 16:30:42 - [TEST_STEP][PASSED] - click(findTestObject("OCS-MOBILE /Age gate and burger menu/button_CONFIRM")): Object: 'Object Repository/OCS-MOBILE /Age gate and burger menu/button_CONFIRM' is clicked on
+
+2019-05-22 16:30:42 - [MESSAGE][PASSED] - Object: 'Object Repository/OCS-MOBILE /Age gate and burger menu/button_CONFIRM' is clicked on
+
+2019-05-22 16:30:42 - [TEST_STEP][PASSED] - click(findTestObject("OCS-MOBILE /Age gate and burger menu/button_Start Browsing")): Object: 'Object Repository/OCS-MOBILE /Age gate and burger menu/button_Start Browsing' is clicked on
+
+2019-05-22 16:30:42 - [MESSAGE][PASSED] - Object: 'Object Repository/OCS-MOBILE /Age gate and burger menu/button_Start Browsing' is clicked on
+
+2019-05-22 16:30:42 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-05-22 16:30:44 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-22 16:30:44 - [TEST_STEP][PASSED] - click(findTestObject("OCS-MOBILE /Age gate and burger menu/Burger menu - English")): Object: 'Object Repository/OCS-MOBILE /Age gate and burger menu/Burger menu - English' is clicked on
+
+2019-05-22 16:30:44 - [MESSAGE][PASSED] - Object: 'Object Repository/OCS-MOBILE /Age gate and burger menu/Burger menu - English' is clicked on
+
+2019-05-22 16:30:44 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-05-22 16:30:46 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-22 16:30:46 - [TEST_STEP][PASSED] - click(findTestObject("OCS-MOBILE /Age gate and burger menu/Chevron_Cannabis")): Object: 'Object Repository/OCS-MOBILE /Age gate and burger menu/Chevron_Cannabis' is clicked on
+
+2019-05-22 16:30:47 - [MESSAGE][PASSED] - Object: 'Object Repository/OCS-MOBILE /Age gate and burger menu/Chevron_Cannabis' is clicked on
+
+2019-05-22 16:30:47 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-05-22 16:30:49 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-22 16:30:49 - [TEST_STEP][PASSED] - click(findTestObject("OCS-MOBILE /Age gate and burger menu/Dried Flower_Plus icon")): Object: 'Object Repository/OCS-MOBILE /Age gate and burger menu/Dried Flower_Plus icon' is clicked on
+
+2019-05-22 16:30:49 - [MESSAGE][PASSED] - Object: 'Object Repository/OCS-MOBILE /Age gate and burger menu/Dried Flower_Plus icon' is clicked on
+
+2019-05-22 16:30:49 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-05-22 16:30:51 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-22 16:30:51 - [TEST_STEP][PASSED] - click(findTestObject("OCS-MOBILE /Age gate and burger menu/Indica Dominant_Menu item")): Object: 'Object Repository/OCS-MOBILE /Age gate and burger menu/Indica Dominant_Menu item' is clicked on
+
+2019-05-22 16:30:54 - [MESSAGE][PASSED] - Object: 'Object Repository/OCS-MOBILE /Age gate and burger menu/Indica Dominant_Menu item' is clicked on
+
+2019-05-22 16:30:54 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-05-22 16:30:56 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-22 16:30:56 - [TEST_STEP][PASSED] - click(findTestObject("OCS-MOBILE /Collection page/Product image - 1st one")): Object: 'Object Repository/OCS-MOBILE /Collection page/Product image - 1st one' is clicked on
+
+2019-05-22 16:31:00 - [MESSAGE][PASSED] - Object: 'Object Repository/OCS-MOBILE /Collection page/Product image - 1st one' is clicked on
+
+2019-05-22 16:31:00 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-05-22 16:31:02 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-22 16:31:02 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/OCS - MOBILE/CALL - PDP' successfully
+
+2019-05-22 16:31:02 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("OCS-MOBILE /Product page/Product image"), 1): Scroll to object 'Object Repository/OCS-MOBILE /Product page/Product image' successfully
+
+2019-05-22 16:31:02 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/OCS-MOBILE /Product page/Product image' successfully
+
+2019-05-22 16:31:02 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-05-22 16:31:04 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-22 16:31:04 - [TEST_STEP][PASSED] - click(findTestObject("OCS-MOBILE /Product page/Swatch_1g")): Object: 'Object Repository/OCS-MOBILE /Product page/Swatch_1g' is clicked on
+
+2019-05-22 16:31:04 - [MESSAGE][PASSED] - Object: 'Object Repository/OCS-MOBILE /Product page/Swatch_1g' is clicked on
+
+2019-05-22 16:31:04 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("OCS-MOBILE /Product page/Swatch_3.5g"), 1): Scroll to object 'Object Repository/OCS-MOBILE /Product page/Swatch_3.5g' successfully
+
+2019-05-22 16:31:04 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/OCS-MOBILE /Product page/Swatch_3.5g' successfully
+
+2019-05-22 16:31:04 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-05-22 16:31:06 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-22 16:31:06 - [TEST_STEP][PASSED] - click(findTestObject("OCS-MOBILE /Product page/Add to Bag-button")): Object: 'Object Repository/OCS-MOBILE /Product page/Add to Bag-button' is clicked on
+
+2019-05-22 16:31:06 - [MESSAGE][PASSED] - Object: 'Object Repository/OCS-MOBILE /Product page/Add to Bag-button' is clicked on
+
+2019-05-22 16:31:06 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-05-22 16:31:07 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-05-22 16:31:07 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("OCS-MOBILE /Cart flyout/Cart - 1st item"), 2): Object 'Object Repository/OCS-MOBILE /Cart flyout/Cart - 1st item' is present
+
+2019-05-22 16:31:07 - [MESSAGE][PASSED] - Object 'Object Repository/OCS-MOBILE /Cart flyout/Cart - 1st item' is present
+
+2019-05-22 16:31:07 - [TEST_STEP][PASSED] - click(findTestObject("OCS-MOBILE /Cart flyout/Back icon")): Object: 'Object Repository/OCS-MOBILE /Cart flyout/Back icon' is clicked on
+
+2019-05-22 16:31:08 - [MESSAGE][PASSED] - Object: 'Object Repository/OCS-MOBILE /Cart flyout/Back icon' is clicked on
+
+2019-05-22 16:31:08 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-05-22 16:31:08 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/OCS - MOBILE/OCS- PRODUCT PAGE/How to choose cannbis products" classname="Test Cases/OCS - MOBILE/OCS- PRODUCT PAGE/How to choose cannbis products" status="PASSED">
+         <system-out><![CDATA[2019-05-22 16:31:08 - [TEST_CASE][PASSED] - Test Cases/OCS - MOBILE/OCS- PRODUCT PAGE/How to choose cannbis products: Test Cases/OCS - MOBILE/OCS- PRODUCT PAGE/How to choose cannbis products
+
+2019-05-22 16:31:08 - [TEST_STEP][PASSED] - callTestCase(findTestCase("OCS - MOBILE/CALL - PDP"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/OCS - MOBILE/CALL - PDP' successfully
+
+2019-05-22 16:31:09 - [TEST_CASE][PASSED] - Test Cases/OCS - MOBILE/CALL - PDP: Test Cases/OCS - MOBILE/CALL - PDP
+
+2019-05-22 16:31:09 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-05-22 16:31:09 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2019-05-22 16:31:11 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-05-22 16:31:11 - [TEST_STEP][PASSED] - navigateToUrl("https://ocs.ca/?fts=0&preview_theme_id=53373863756"): Navigate to 'https://ocs.ca/?fts=0&preview_theme_id=53373863756' successfully
+
+2019-05-22 16:31:16 - [MESSAGE][PASSED] - Navigate to 'https://ocs.ca/?fts=0&preview_theme_id=53373863756' successfully
+
+2019-05-22 16:31:16 - [TEST_STEP][PASSED] - setViewPortSize(360, 800): Viewport is set to new size with width = 360 and height = 800
+
+2019-05-22 16:31:16 - [MESSAGE][PASSED] - Viewport is set to new size with width = 360 and height = 800
+
+2019-05-22 16:31:16 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+2019-05-22 16:31:20 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2019-05-22 16:31:20 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("OCS-MOBILE /Age gate and burger menu/Date"), "12", true): All options with value '12' are selected in object 'Object Repository/OCS-MOBILE /Age gate and burger menu/Date'  using regular expression
+
+2019-05-22 16:31:21 - [MESSAGE][PASSED] - All options with value '12' are selected in object 'Object Repository/OCS-MOBILE /Age gate and burger menu/Date'  using regular expression
+
+2019-05-22 16:31:21 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("OCS-MOBILE /Age gate and burger menu/month"), "6", true): All options with value '6' are selected in object 'Object Repository/OCS-MOBILE /Age gate and burger menu/month'  using regular expression
+
+2019-05-22 16:31:21 - [MESSAGE][PASSED] - All options with value '6' are selected in object 'Object Repository/OCS-MOBILE /Age gate and burger menu/month'  using regular expression
+
+2019-05-22 16:31:21 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-05-22 16:31:23 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-22 16:31:23 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("OCS-MOBILE /Age gate and burger menu/Year Dropdown"), "1990", true): All options with value '1990' are selected in object 'Object Repository/OCS-MOBILE /Age gate and burger menu/Year Dropdown'  using regular expression
+
+2019-05-22 16:31:25 - [MESSAGE][PASSED] - All options with value '1990' are selected in object 'Object Repository/OCS-MOBILE /Age gate and burger menu/Year Dropdown'  using regular expression
+
+2019-05-22 16:31:25 - [TEST_STEP][PASSED] - click(findTestObject("OCS-MOBILE /Age gate and burger menu/button_Verify")): Object: 'Object Repository/OCS-MOBILE /Age gate and burger menu/button_Verify' is clicked on
+
+2019-05-22 16:31:25 - [MESSAGE][PASSED] - Object: 'Object Repository/OCS-MOBILE /Age gate and burger menu/button_Verify' is clicked on
+
+2019-05-22 16:31:25 - [TEST_STEP][PASSED] - click(findTestObject("OCS-MOBILE /Age gate and burger menu/Checkbox_CONFIRM AND ACKNOWLEDGE")): Object: 'Object Repository/OCS-MOBILE /Age gate and burger menu/Checkbox_CONFIRM AND ACKNOWLEDGE' is clicked on
+
+2019-05-22 16:31:25 - [MESSAGE][PASSED] - Object: 'Object Repository/OCS-MOBILE /Age gate and burger menu/Checkbox_CONFIRM AND ACKNOWLEDGE' is clicked on
+
+2019-05-22 16:31:25 - [TEST_STEP][PASSED] - click(findTestObject("OCS-MOBILE /Age gate and burger menu/button_CONFIRM")): Object: 'Object Repository/OCS-MOBILE /Age gate and burger menu/button_CONFIRM' is clicked on
+
+2019-05-22 16:31:26 - [MESSAGE][PASSED] - Object: 'Object Repository/OCS-MOBILE /Age gate and burger menu/button_CONFIRM' is clicked on
+
+2019-05-22 16:31:26 - [TEST_STEP][PASSED] - click(findTestObject("OCS-MOBILE /Age gate and burger menu/button_Start Browsing")): Object: 'Object Repository/OCS-MOBILE /Age gate and burger menu/button_Start Browsing' is clicked on
+
+2019-05-22 16:31:26 - [MESSAGE][PASSED] - Object: 'Object Repository/OCS-MOBILE /Age gate and burger menu/button_Start Browsing' is clicked on
+
+2019-05-22 16:31:26 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-05-22 16:31:28 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-22 16:31:28 - [TEST_STEP][PASSED] - click(findTestObject("OCS-MOBILE /Age gate and burger menu/Burger menu - English")): Object: 'Object Repository/OCS-MOBILE /Age gate and burger menu/Burger menu - English' is clicked on
+
+2019-05-22 16:31:28 - [MESSAGE][PASSED] - Object: 'Object Repository/OCS-MOBILE /Age gate and burger menu/Burger menu - English' is clicked on
+
+2019-05-22 16:31:28 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-05-22 16:31:30 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-22 16:31:30 - [TEST_STEP][PASSED] - click(findTestObject("OCS-MOBILE /Age gate and burger menu/Chevron_Cannabis")): Object: 'Object Repository/OCS-MOBILE /Age gate and burger menu/Chevron_Cannabis' is clicked on
+
+2019-05-22 16:31:30 - [MESSAGE][PASSED] - Object: 'Object Repository/OCS-MOBILE /Age gate and burger menu/Chevron_Cannabis' is clicked on
+
+2019-05-22 16:31:30 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-05-22 16:31:32 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-22 16:31:32 - [TEST_STEP][PASSED] - click(findTestObject("OCS-MOBILE /Age gate and burger menu/Dried Flower_Plus icon")): Object: 'Object Repository/OCS-MOBILE /Age gate and burger menu/Dried Flower_Plus icon' is clicked on
+
+2019-05-22 16:31:33 - [MESSAGE][PASSED] - Object: 'Object Repository/OCS-MOBILE /Age gate and burger menu/Dried Flower_Plus icon' is clicked on
+
+2019-05-22 16:31:33 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-05-22 16:31:35 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-22 16:31:35 - [TEST_STEP][PASSED] - click(findTestObject("OCS-MOBILE /Age gate and burger menu/Indica Dominant_Menu item")): Object: 'Object Repository/OCS-MOBILE /Age gate and burger menu/Indica Dominant_Menu item' is clicked on
+
+2019-05-22 16:31:37 - [MESSAGE][PASSED] - Object: 'Object Repository/OCS-MOBILE /Age gate and burger menu/Indica Dominant_Menu item' is clicked on
+
+2019-05-22 16:31:37 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-05-22 16:31:39 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-22 16:31:39 - [TEST_STEP][PASSED] - click(findTestObject("OCS-MOBILE /Collection page/Product image - 1st one")): Object: 'Object Repository/OCS-MOBILE /Collection page/Product image - 1st one' is clicked on
+
+2019-05-22 16:31:41 - [MESSAGE][PASSED] - Object: 'Object Repository/OCS-MOBILE /Collection page/Product image - 1st one' is clicked on
+
+2019-05-22 16:31:41 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-05-22 16:31:43 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-22 16:31:43 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/OCS - MOBILE/CALL - PDP' successfully
+
+2019-05-22 16:31:43 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("OCS-MOBILE /Product page/How to choose cannabis product - Section"), 2): Scroll to object 'Object Repository/OCS-MOBILE /Product page/How to choose cannabis product - Section' successfully
+
+2019-05-22 16:31:43 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/OCS-MOBILE /Product page/How to choose cannabis product - Section' successfully
+
+2019-05-22 16:31:43 - [TEST_STEP][PASSED] - click(findTestObject("OCS-MOBILE /Product page/How to choose cannabis product - Button")): Object: 'Object Repository/OCS-MOBILE /Product page/How to choose cannabis product - Button' is clicked on
+
+2019-05-22 16:31:47 - [MESSAGE][PASSED] - Object: 'Object Repository/OCS-MOBILE /Product page/How to choose cannabis product - Button' is clicked on
+
+2019-05-22 16:31:47 - [TEST_STEP][PASSED] - a = getWindowTitle(): Current window's title is: 'Factors in Choosing Cannabis Products | Ontario Cannabis Store'
+
+2019-05-22 16:31:47 - [MESSAGE][PASSED] - Current window's title is: 'Factors in Choosing Cannabis Products | Ontario Cannabis Store'
+
+2019-05-22 16:31:47 - [TEST_STEP][PASSED] - b = "Factors in Choosing Cannabis Products | Ontario Cannabis Store": null
+
+2019-05-22 16:31:47 - [TEST_STEP][PASSED] - comment("WINDOW TITLE IS: " + a): WINDOW TITLE IS: Factors in Choosing Cannabis Products | Ontario Cannabis Store
+
+2019-05-22 16:31:47 - [MESSAGE][INFO] - WINDOW TITLE IS: Factors in Choosing Cannabis Products | Ontario Cannabis Store
+
+2019-05-22 16:31:47 - [TEST_STEP][PASSED] - if (a == b): TITLE IS SAME
+
+2019-05-22 16:31:47 - [TEST_STEP][PASSED] - comment("TITLE IS SAME"): TITLE IS SAME
+
+2019-05-22 16:31:47 - [MESSAGE][INFO] - TITLE IS SAME
+
+2019-05-22 16:31:47 - [TEST_STEP][PASSED] - back(): Navigate back successfully
+
+2019-05-22 16:31:49 - [MESSAGE][PASSED] - Navigate back successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/OCS - MOBILE/OCS- PRODUCT PAGE/Learn More" classname="Test Cases/OCS - MOBILE/OCS- PRODUCT PAGE/Learn More" status="PASSED">
+         <system-out><![CDATA[2019-05-22 16:31:49 - [TEST_CASE][PASSED] - Test Cases/OCS - MOBILE/OCS- PRODUCT PAGE/Learn More: Test Cases/OCS - MOBILE/OCS- PRODUCT PAGE/Learn More
+
+2019-05-22 16:31:49 - [TEST_STEP][PASSED] - callTestCase(findTestCase("OCS - MOBILE/CALL - PDP"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/OCS - MOBILE/CALL - PDP' successfully
+
+2019-05-22 16:31:49 - [TEST_CASE][PASSED] - Test Cases/OCS - MOBILE/CALL - PDP: Test Cases/OCS - MOBILE/CALL - PDP
+
+2019-05-22 16:31:49 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-05-22 16:31:49 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-05-22 16:31:50 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2019-05-22 16:31:52 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-05-22 16:31:52 - [TEST_STEP][PASSED] - navigateToUrl("https://ocs.ca/?fts=0&preview_theme_id=53373863756"): Navigate to 'https://ocs.ca/?fts=0&preview_theme_id=53373863756' successfully
+
+2019-05-22 16:32:01 - [MESSAGE][PASSED] - Navigate to 'https://ocs.ca/?fts=0&preview_theme_id=53373863756' successfully
+
+2019-05-22 16:32:01 - [TEST_STEP][PASSED] - setViewPortSize(360, 800): Viewport is set to new size with width = 360 and height = 800
+
+2019-05-22 16:32:01 - [MESSAGE][PASSED] - Viewport is set to new size with width = 360 and height = 800
+
+2019-05-22 16:32:01 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+2019-05-22 16:32:05 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2019-05-22 16:32:05 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("OCS-MOBILE /Age gate and burger menu/Date"), "12", true): All options with value '12' are selected in object 'Object Repository/OCS-MOBILE /Age gate and burger menu/Date'  using regular expression
+
+2019-05-22 16:32:05 - [MESSAGE][PASSED] - All options with value '12' are selected in object 'Object Repository/OCS-MOBILE /Age gate and burger menu/Date'  using regular expression
+
+2019-05-22 16:32:05 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("OCS-MOBILE /Age gate and burger menu/month"), "6", true): All options with value '6' are selected in object 'Object Repository/OCS-MOBILE /Age gate and burger menu/month'  using regular expression
+
+2019-05-22 16:32:06 - [MESSAGE][PASSED] - All options with value '6' are selected in object 'Object Repository/OCS-MOBILE /Age gate and burger menu/month'  using regular expression
+
+2019-05-22 16:32:06 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-05-22 16:32:08 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-22 16:32:08 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("OCS-MOBILE /Age gate and burger menu/Year Dropdown"), "1990", true): All options with value '1990' are selected in object 'Object Repository/OCS-MOBILE /Age gate and burger menu/Year Dropdown'  using regular expression
+
+2019-05-22 16:32:10 - [MESSAGE][PASSED] - All options with value '1990' are selected in object 'Object Repository/OCS-MOBILE /Age gate and burger menu/Year Dropdown'  using regular expression
+
+2019-05-22 16:32:10 - [TEST_STEP][PASSED] - click(findTestObject("OCS-MOBILE /Age gate and burger menu/button_Verify")): Object: 'Object Repository/OCS-MOBILE /Age gate and burger menu/button_Verify' is clicked on
+
+2019-05-22 16:32:10 - [MESSAGE][PASSED] - Object: 'Object Repository/OCS-MOBILE /Age gate and burger menu/button_Verify' is clicked on
+
+2019-05-22 16:32:10 - [TEST_STEP][PASSED] - click(findTestObject("OCS-MOBILE /Age gate and burger menu/Checkbox_CONFIRM AND ACKNOWLEDGE")): Object: 'Object Repository/OCS-MOBILE /Age gate and burger menu/Checkbox_CONFIRM AND ACKNOWLEDGE' is clicked on
+
+2019-05-22 16:32:10 - [MESSAGE][PASSED] - Object: 'Object Repository/OCS-MOBILE /Age gate and burger menu/Checkbox_CONFIRM AND ACKNOWLEDGE' is clicked on
+
+2019-05-22 16:32:10 - [TEST_STEP][PASSED] - click(findTestObject("OCS-MOBILE /Age gate and burger menu/button_CONFIRM")): Object: 'Object Repository/OCS-MOBILE /Age gate and burger menu/button_CONFIRM' is clicked on
+
+2019-05-22 16:32:10 - [MESSAGE][PASSED] - Object: 'Object Repository/OCS-MOBILE /Age gate and burger menu/button_CONFIRM' is clicked on
+
+2019-05-22 16:32:10 - [TEST_STEP][PASSED] - click(findTestObject("OCS-MOBILE /Age gate and burger menu/button_Start Browsing")): Object: 'Object Repository/OCS-MOBILE /Age gate and burger menu/button_Start Browsing' is clicked on
+
+2019-05-22 16:32:11 - [MESSAGE][PASSED] - Object: 'Object Repository/OCS-MOBILE /Age gate and burger menu/button_Start Browsing' is clicked on
+
+2019-05-22 16:32:11 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-05-22 16:32:13 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-22 16:32:13 - [TEST_STEP][PASSED] - click(findTestObject("OCS-MOBILE /Age gate and burger menu/Burger menu - English")): Object: 'Object Repository/OCS-MOBILE /Age gate and burger menu/Burger menu - English' is clicked on
+
+2019-05-22 16:32:13 - [MESSAGE][PASSED] - Object: 'Object Repository/OCS-MOBILE /Age gate and burger menu/Burger menu - English' is clicked on
+
+2019-05-22 16:32:13 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-05-22 16:32:15 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-22 16:32:15 - [TEST_STEP][PASSED] - click(findTestObject("OCS-MOBILE /Age gate and burger menu/Chevron_Cannabis")): Object: 'Object Repository/OCS-MOBILE /Age gate and burger menu/Chevron_Cannabis' is clicked on
+
+2019-05-22 16:32:15 - [MESSAGE][PASSED] - Object: 'Object Repository/OCS-MOBILE /Age gate and burger menu/Chevron_Cannabis' is clicked on
+
+2019-05-22 16:32:15 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-05-22 16:32:17 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-22 16:32:17 - [TEST_STEP][PASSED] - click(findTestObject("OCS-MOBILE /Age gate and burger menu/Dried Flower_Plus icon")): Object: 'Object Repository/OCS-MOBILE /Age gate and burger menu/Dried Flower_Plus icon' is clicked on
+
+2019-05-22 16:32:17 - [MESSAGE][PASSED] - Object: 'Object Repository/OCS-MOBILE /Age gate and burger menu/Dried Flower_Plus icon' is clicked on
+
+2019-05-22 16:32:17 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-05-22 16:32:19 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-22 16:32:19 - [TEST_STEP][PASSED] - click(findTestObject("OCS-MOBILE /Age gate and burger menu/Indica Dominant_Menu item")): Object: 'Object Repository/OCS-MOBILE /Age gate and burger menu/Indica Dominant_Menu item' is clicked on
+
+2019-05-22 16:32:22 - [MESSAGE][PASSED] - Object: 'Object Repository/OCS-MOBILE /Age gate and burger menu/Indica Dominant_Menu item' is clicked on
+
+2019-05-22 16:32:22 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-05-22 16:32:24 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-22 16:32:24 - [TEST_STEP][PASSED] - click(findTestObject("OCS-MOBILE /Collection page/Product image - 1st one")): Object: 'Object Repository/OCS-MOBILE /Collection page/Product image - 1st one' is clicked on
+
+2019-05-22 16:32:27 - [MESSAGE][PASSED] - Object: 'Object Repository/OCS-MOBILE /Collection page/Product image - 1st one' is clicked on
+
+2019-05-22 16:32:27 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-05-22 16:32:29 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-22 16:32:29 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/OCS - MOBILE/CALL - PDP' successfully
+
+2019-05-22 16:32:29 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("OCS-MOBILE /Product page/Product image"), 1): Scroll to object 'Object Repository/OCS-MOBILE /Product page/Product image' successfully
+
+2019-05-22 16:32:29 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/OCS-MOBILE /Product page/Product image' successfully
+
+2019-05-22 16:32:29 - [TEST_STEP][PASSED] - click(findTestObject("OCS-MOBILE /Product page/Learn More - Link")): Object: 'Object Repository/OCS-MOBILE /Product page/Learn More - Link' is clicked on
+
+2019-05-22 16:32:29 - [MESSAGE][PASSED] - Object: 'Object Repository/OCS-MOBILE /Product page/Learn More - Link' is clicked on
+
+2019-05-22 16:32:29 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("OCS-MOBILE /Product page/About Product - Table"), 1): Object 'Object Repository/OCS-MOBILE /Product page/About Product - Table' is present
+
+2019-05-22 16:32:29 - [MESSAGE][PASSED] - Object 'Object Repository/OCS-MOBILE /Product page/About Product - Table' is present
+
+2019-05-22 16:32:29 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2019-05-22 16:32:29 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/sumankompelly/git/Ontario-cannbis-store/Reports/OCS- MOBILE/PRODUCT PAGE/20190522_163018/1558557149714.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/OCS - MOBILE/OCS- PRODUCT PAGE/More items to consider" classname="Test Cases/OCS - MOBILE/OCS- PRODUCT PAGE/More items to consider" status="PASSED">
+         <system-out><![CDATA[2019-05-22 16:32:29 - [TEST_CASE][PASSED] - Test Cases/OCS - MOBILE/OCS- PRODUCT PAGE/More items to consider: Test Cases/OCS - MOBILE/OCS- PRODUCT PAGE/More items to consider
+
+2019-05-22 16:32:29 - [TEST_STEP][PASSED] - callTestCase(findTestCase("OCS - MOBILE/CALL - PDP"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/OCS - MOBILE/CALL - PDP' successfully
+
+2019-05-22 16:32:30 - [TEST_CASE][PASSED] - Test Cases/OCS - MOBILE/CALL - PDP: Test Cases/OCS - MOBILE/CALL - PDP
+
+2019-05-22 16:32:30 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-05-22 16:32:30 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-05-22 16:32:30 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2019-05-22 16:32:32 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-05-22 16:32:32 - [TEST_STEP][PASSED] - navigateToUrl("https://ocs.ca/?fts=0&preview_theme_id=53373863756"): Navigate to 'https://ocs.ca/?fts=0&preview_theme_id=53373863756' successfully
+
+2019-05-22 16:32:41 - [MESSAGE][PASSED] - Navigate to 'https://ocs.ca/?fts=0&preview_theme_id=53373863756' successfully
+
+2019-05-22 16:32:41 - [TEST_STEP][PASSED] - setViewPortSize(360, 800): Viewport is set to new size with width = 360 and height = 800
+
+2019-05-22 16:32:41 - [MESSAGE][PASSED] - Viewport is set to new size with width = 360 and height = 800
+
+2019-05-22 16:32:41 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+2019-05-22 16:32:45 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2019-05-22 16:32:45 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("OCS-MOBILE /Age gate and burger menu/Date"), "12", true): All options with value '12' are selected in object 'Object Repository/OCS-MOBILE /Age gate and burger menu/Date'  using regular expression
+
+2019-05-22 16:32:46 - [MESSAGE][PASSED] - All options with value '12' are selected in object 'Object Repository/OCS-MOBILE /Age gate and burger menu/Date'  using regular expression
+
+2019-05-22 16:32:46 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("OCS-MOBILE /Age gate and burger menu/month"), "6", true): All options with value '6' are selected in object 'Object Repository/OCS-MOBILE /Age gate and burger menu/month'  using regular expression
+
+2019-05-22 16:32:46 - [MESSAGE][PASSED] - All options with value '6' are selected in object 'Object Repository/OCS-MOBILE /Age gate and burger menu/month'  using regular expression
+
+2019-05-22 16:32:46 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-05-22 16:32:48 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-22 16:32:48 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("OCS-MOBILE /Age gate and burger menu/Year Dropdown"), "1990", true): All options with value '1990' are selected in object 'Object Repository/OCS-MOBILE /Age gate and burger menu/Year Dropdown'  using regular expression
+
+2019-05-22 16:32:50 - [MESSAGE][PASSED] - All options with value '1990' are selected in object 'Object Repository/OCS-MOBILE /Age gate and burger menu/Year Dropdown'  using regular expression
+
+2019-05-22 16:32:50 - [TEST_STEP][PASSED] - click(findTestObject("OCS-MOBILE /Age gate and burger menu/button_Verify")): Object: 'Object Repository/OCS-MOBILE /Age gate and burger menu/button_Verify' is clicked on
+
+2019-05-22 16:32:50 - [MESSAGE][PASSED] - Object: 'Object Repository/OCS-MOBILE /Age gate and burger menu/button_Verify' is clicked on
+
+2019-05-22 16:32:50 - [TEST_STEP][PASSED] - click(findTestObject("OCS-MOBILE /Age gate and burger menu/Checkbox_CONFIRM AND ACKNOWLEDGE")): Object: 'Object Repository/OCS-MOBILE /Age gate and burger menu/Checkbox_CONFIRM AND ACKNOWLEDGE' is clicked on
+
+2019-05-22 16:32:50 - [MESSAGE][PASSED] - Object: 'Object Repository/OCS-MOBILE /Age gate and burger menu/Checkbox_CONFIRM AND ACKNOWLEDGE' is clicked on
+
+2019-05-22 16:32:50 - [TEST_STEP][PASSED] - click(findTestObject("OCS-MOBILE /Age gate and burger menu/button_CONFIRM")): Object: 'Object Repository/OCS-MOBILE /Age gate and burger menu/button_CONFIRM' is clicked on
+
+2019-05-22 16:32:50 - [MESSAGE][PASSED] - Object: 'Object Repository/OCS-MOBILE /Age gate and burger menu/button_CONFIRM' is clicked on
+
+2019-05-22 16:32:50 - [TEST_STEP][PASSED] - click(findTestObject("OCS-MOBILE /Age gate and burger menu/button_Start Browsing")): Object: 'Object Repository/OCS-MOBILE /Age gate and burger menu/button_Start Browsing' is clicked on
+
+2019-05-22 16:32:51 - [MESSAGE][PASSED] - Object: 'Object Repository/OCS-MOBILE /Age gate and burger menu/button_Start Browsing' is clicked on
+
+2019-05-22 16:32:51 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-05-22 16:32:53 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-22 16:32:53 - [TEST_STEP][PASSED] - click(findTestObject("OCS-MOBILE /Age gate and burger menu/Burger menu - English")): Object: 'Object Repository/OCS-MOBILE /Age gate and burger menu/Burger menu - English' is clicked on
+
+2019-05-22 16:32:53 - [MESSAGE][PASSED] - Object: 'Object Repository/OCS-MOBILE /Age gate and burger menu/Burger menu - English' is clicked on
+
+2019-05-22 16:32:53 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-05-22 16:32:55 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-22 16:32:55 - [TEST_STEP][PASSED] - click(findTestObject("OCS-MOBILE /Age gate and burger menu/Chevron_Cannabis")): Object: 'Object Repository/OCS-MOBILE /Age gate and burger menu/Chevron_Cannabis' is clicked on
+
+2019-05-22 16:32:55 - [MESSAGE][PASSED] - Object: 'Object Repository/OCS-MOBILE /Age gate and burger menu/Chevron_Cannabis' is clicked on
+
+2019-05-22 16:32:55 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-05-22 16:32:57 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-22 16:32:57 - [TEST_STEP][PASSED] - click(findTestObject("OCS-MOBILE /Age gate and burger menu/Dried Flower_Plus icon")): Object: 'Object Repository/OCS-MOBILE /Age gate and burger menu/Dried Flower_Plus icon' is clicked on
+
+2019-05-22 16:32:57 - [MESSAGE][PASSED] - Object: 'Object Repository/OCS-MOBILE /Age gate and burger menu/Dried Flower_Plus icon' is clicked on
+
+2019-05-22 16:32:57 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-05-22 16:32:59 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-22 16:32:59 - [TEST_STEP][PASSED] - click(findTestObject("OCS-MOBILE /Age gate and burger menu/Indica Dominant_Menu item")): Object: 'Object Repository/OCS-MOBILE /Age gate and burger menu/Indica Dominant_Menu item' is clicked on
+
+2019-05-22 16:33:02 - [MESSAGE][PASSED] - Object: 'Object Repository/OCS-MOBILE /Age gate and burger menu/Indica Dominant_Menu item' is clicked on
+
+2019-05-22 16:33:02 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-05-22 16:33:04 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-22 16:33:04 - [TEST_STEP][PASSED] - click(findTestObject("OCS-MOBILE /Collection page/Product image - 1st one")): Object: 'Object Repository/OCS-MOBILE /Collection page/Product image - 1st one' is clicked on
+
+2019-05-22 16:33:09 - [MESSAGE][PASSED] - Object: 'Object Repository/OCS-MOBILE /Collection page/Product image - 1st one' is clicked on
+
+2019-05-22 16:33:09 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-05-22 16:33:11 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-22 16:33:11 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/OCS - MOBILE/CALL - PDP' successfully
+
+2019-05-22 16:33:11 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("OCS-MOBILE /Product page/Product image"), 1): Scroll to object 'Object Repository/OCS-MOBILE /Product page/Product image' successfully
+
+2019-05-22 16:33:11 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/OCS-MOBILE /Product page/Product image' successfully
+
+2019-05-22 16:33:11 - [TEST_STEP][PASSED] - click(findTestObject("OCS-MOBILE /Product page/Learn More - Link")): Object: 'Object Repository/OCS-MOBILE /Product page/Learn More - Link' is clicked on
+
+2019-05-22 16:33:11 - [MESSAGE][PASSED] - Object: 'Object Repository/OCS-MOBILE /Product page/Learn More - Link' is clicked on
+
+2019-05-22 16:33:11 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-05-22 16:33:12 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-05-22 16:33:12 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("OCS-MOBILE /Product page/Last raw of the table"), 0): Scroll to object 'Object Repository/OCS-MOBILE /Product page/Last raw of the table' successfully
+
+2019-05-22 16:33:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-05-22 16:33:12 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/OCS-MOBILE /Product page/Last raw of the table' successfully
+
+2019-05-22 16:33:12 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2019-05-22 16:33:12 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/sumankompelly/git/Ontario-cannbis-store/Reports/OCS- MOBILE/PRODUCT PAGE/20190522_163018/1558557192518.png]]
+
+2019-05-22 16:33:12 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-05-22 16:33:13 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-05-22 16:33:13 - [TEST_STEP][PASSED] - click(findTestObject("OCS-MOBILE /Product page/More items to consider section/1st Product - image - Grinder")): Object: 'Object Repository/OCS-MOBILE /Product page/More items to consider section/1st Product - image - Grinder' is clicked on
+
+2019-05-22 16:33:15 - [MESSAGE][PASSED] - Object: 'Object Repository/OCS-MOBILE /Product page/More items to consider section/1st Product - image - Grinder' is clicked on
+
+2019-05-22 16:33:15 - [TEST_STEP][PASSED] - delay(2, STOP_ON_FAILURE): Delayed 2 second(s)
+
+2019-05-22 16:33:17 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-22 16:33:17 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2019-05-22 16:33:17 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/sumankompelly/git/Ontario-cannbis-store/Reports/OCS- MOBILE/PRODUCT PAGE/20190522_163018/1558557197652.png]]
+
+2019-05-22 16:33:17 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-05-22 16:33:18 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-05-22 16:33:18 - [TEST_STEP][PASSED] - back(): Navigate back successfully
+
+2019-05-22 16:33:20 - [MESSAGE][PASSED] - Navigate back successfully
+
+2019-05-22 16:33:20 - [TEST_STEP][PASSED] - click(findTestObject("OCS-MOBILE /Product page/More items to consider section/Vaporizers - Tab")): Object: 'Object Repository/OCS-MOBILE /Product page/More items to consider section/Vaporizers - Tab' is clicked on
+
+2019-05-22 16:33:21 - [MESSAGE][PASSED] - Object: 'Object Repository/OCS-MOBILE /Product page/More items to consider section/Vaporizers - Tab' is clicked on
+
+2019-05-22 16:33:21 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-05-22 16:33:23 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-22 16:33:23 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2019-05-22 16:33:23 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/sumankompelly/git/Ontario-cannbis-store/Reports/OCS- MOBILE/PRODUCT PAGE/20190522_163018/1558557203025.png]]
+
+2019-05-22 16:33:23 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-05-22 16:33:24 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-05-22 16:33:24 - [TEST_STEP][PASSED] - click(findTestObject("OCS-MOBILE /Product page/More items to consider section/1st Product - image - Vaporizer")): Object: 'Object Repository/OCS-MOBILE /Product page/More items to consider section/1st Product - image - Vaporizer' is clicked on
+
+2019-05-22 16:33:27 - [MESSAGE][PASSED] - Object: 'Object Repository/OCS-MOBILE /Product page/More items to consider section/1st Product - image - Vaporizer' is clicked on
+
+2019-05-22 16:33:27 - [TEST_STEP][PASSED] - delay(2, STOP_ON_FAILURE): Delayed 2 second(s)
+
+2019-05-22 16:33:29 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-22 16:33:29 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2019-05-22 16:33:29 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/sumankompelly/git/Ontario-cannbis-store/Reports/OCS- MOBILE/PRODUCT PAGE/20190522_163018/1558557209512.png]]
+
+2019-05-22 16:33:29 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-05-22 16:33:30 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-05-22 16:33:30 - [TEST_STEP][PASSED] - back(): Navigate back successfully
+
+2019-05-22 16:33:33 - [MESSAGE][PASSED] - Navigate back successfully
+
+2019-05-22 16:33:33 - [TEST_STEP][PASSED] - click(findTestObject("OCS-MOBILE /Product page/More items to consider section/Papers Filters - Tab")): Object: 'Object Repository/OCS-MOBILE /Product page/More items to consider section/Papers Filters - Tab' is clicked on
+
+2019-05-22 16:33:33 - [MESSAGE][PASSED] - Object: 'Object Repository/OCS-MOBILE /Product page/More items to consider section/Papers Filters - Tab' is clicked on
+
+2019-05-22 16:33:33 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2019-05-22 16:33:33 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/sumankompelly/git/Ontario-cannbis-store/Reports/OCS- MOBILE/PRODUCT PAGE/20190522_163018/1558557213373.png]]
+
+2019-05-22 16:33:33 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-05-22 16:33:34 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-05-22 16:33:34 - [TEST_STEP][PASSED] - click(findTestObject("OCS-MOBILE /Product page/More items to consider section/1st Product - image - Paper Filter")): Object: 'Object Repository/OCS-MOBILE /Product page/More items to consider section/1st Product - image - Paper Filter' is clicked on
+
+2019-05-22 16:33:38 - [MESSAGE][PASSED] - Object: 'Object Repository/OCS-MOBILE /Product page/More items to consider section/1st Product - image - Paper Filter' is clicked on
+
+2019-05-22 16:33:38 - [TEST_STEP][PASSED] - delay(2, STOP_ON_FAILURE): Delayed 2 second(s)
+
+2019-05-22 16:33:40 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-22 16:33:40 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2019-05-22 16:33:40 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/sumankompelly/git/Ontario-cannbis-store/Reports/OCS- MOBILE/PRODUCT PAGE/20190522_163018/1558557220070.png]]
+
+2019-05-22 16:33:40 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-05-22 16:33:41 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-05-22 16:33:41 - [TEST_STEP][PASSED] - back(): Navigate back successfully
+
+2019-05-22 16:33:43 - [MESSAGE][PASSED] - Navigate back successfully
+
+2019-05-22 16:33:43 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-05-22 16:33:45 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-22 16:33:45 - [TEST_STEP][PASSED] - click(findTestObject("OCS-MOBILE /Product page/More items to consider section/Bongs Pipes - Tab")): Object: 'Object Repository/OCS-MOBILE /Product page/More items to consider section/Bongs Pipes - Tab' is clicked on
+
+2019-05-22 16:33:45 - [MESSAGE][PASSED] - Object: 'Object Repository/OCS-MOBILE /Product page/More items to consider section/Bongs Pipes - Tab' is clicked on
+
+2019-05-22 16:33:45 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-05-22 16:33:47 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-22 16:33:47 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2019-05-22 16:33:47 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/sumankompelly/git/Ontario-cannbis-store/Reports/OCS- MOBILE/PRODUCT PAGE/20190522_163018/1558557227674.png]]
+
+2019-05-22 16:33:47 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-05-22 16:33:48 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-05-22 16:33:48 - [TEST_STEP][PASSED] - click(findTestObject("OCS-MOBILE /Product page/More items to consider section/1st Product - image - Bongs Pipes")): Object: 'Object Repository/OCS-MOBILE /Product page/More items to consider section/1st Product - image - Bongs Pipes' is clicked on
+
+2019-05-22 16:33:52 - [MESSAGE][PASSED] - Object: 'Object Repository/OCS-MOBILE /Product page/More items to consider section/1st Product - image - Bongs Pipes' is clicked on
+
+2019-05-22 16:33:52 - [TEST_STEP][PASSED] - delay(2, STOP_ON_FAILURE): Delayed 2 second(s)
+
+2019-05-22 16:33:54 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-22 16:33:54 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2019-05-22 16:33:54 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/sumankompelly/git/Ontario-cannbis-store/Reports/OCS- MOBILE/PRODUCT PAGE/20190522_163018/1558557234236.png]]
+
+2019-05-22 16:33:54 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-05-22 16:33:55 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-05-22 16:33:55 - [TEST_STEP][PASSED] - back(): Navigate back successfully
+
+2019-05-22 16:33:58 - [MESSAGE][PASSED] - Navigate back successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/OCS - MOBILE/OCS- PRODUCT PAGE/Price" classname="Test Cases/OCS - MOBILE/OCS- PRODUCT PAGE/Price" status="FAILED">
+         <failure type="FAILED" message="Test Cases/OCS - MOBILE/OCS- PRODUCT PAGE/Price FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/OCS-MOBILE /Product page/Price/Price - Add to cart button' located by 'By.xpath: /html/body/div[3]/section/div[1]/div[2]/div[2]/form/button/span[2]' not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:32)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:21)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1418)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$13.call(Unknown Source)
+	at Price.run(Price:46)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1558557018030.run(TempTestSuite1558557018030.groovy:36)
+"/>
+         <system-out><![CDATA[2019-05-22 16:33:58 - [TEST_CASE][FAILED] - Test Cases/OCS - MOBILE/OCS- PRODUCT PAGE/Price: Test Cases/OCS - MOBILE/OCS- PRODUCT PAGE/Price FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/OCS-MOBILE /Product page/Price/Price - Add to cart button' located by 'By.xpath: /html/body/div[3]/section/div[1]/div[2]/div[2]/form/button/span[2]' not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:32)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:21)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1418)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$13.call(Unknown Source)
+	at Price.run(Price:46)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1558557018030.run(TempTestSuite1558557018030.groovy:36)
+
+
+2019-05-22 16:33:58 - [TEST_STEP][PASSED] - callTestCase(findTestCase("OCS - MOBILE/CALL - PDP"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/OCS - MOBILE/CALL - PDP' successfully
+
+2019-05-22 16:33:58 - [TEST_CASE][PASSED] - Test Cases/OCS - MOBILE/CALL - PDP: Test Cases/OCS - MOBILE/CALL - PDP
+
+2019-05-22 16:33:58 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-05-22 16:33:58 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-05-22 16:33:58 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2019-05-22 16:34:00 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-05-22 16:34:00 - [TEST_STEP][PASSED] - navigateToUrl("https://ocs.ca/?fts=0&preview_theme_id=53373863756"): Navigate to 'https://ocs.ca/?fts=0&preview_theme_id=53373863756' successfully
+
+2019-05-22 16:34:10 - [MESSAGE][PASSED] - Navigate to 'https://ocs.ca/?fts=0&preview_theme_id=53373863756' successfully
+
+2019-05-22 16:34:10 - [TEST_STEP][PASSED] - setViewPortSize(360, 800): Viewport is set to new size with width = 360 and height = 800
+
+2019-05-22 16:34:10 - [MESSAGE][PASSED] - Viewport is set to new size with width = 360 and height = 800
+
+2019-05-22 16:34:10 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+2019-05-22 16:34:14 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2019-05-22 16:34:14 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("OCS-MOBILE /Age gate and burger menu/Date"), "12", true): All options with value '12' are selected in object 'Object Repository/OCS-MOBILE /Age gate and burger menu/Date'  using regular expression
+
+2019-05-22 16:34:15 - [MESSAGE][PASSED] - All options with value '12' are selected in object 'Object Repository/OCS-MOBILE /Age gate and burger menu/Date'  using regular expression
+
+2019-05-22 16:34:15 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("OCS-MOBILE /Age gate and burger menu/month"), "6", true): All options with value '6' are selected in object 'Object Repository/OCS-MOBILE /Age gate and burger menu/month'  using regular expression
+
+2019-05-22 16:34:15 - [MESSAGE][PASSED] - All options with value '6' are selected in object 'Object Repository/OCS-MOBILE /Age gate and burger menu/month'  using regular expression
+
+2019-05-22 16:34:15 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-05-22 16:34:17 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-22 16:34:17 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("OCS-MOBILE /Age gate and burger menu/Year Dropdown"), "1990", true): All options with value '1990' are selected in object 'Object Repository/OCS-MOBILE /Age gate and burger menu/Year Dropdown'  using regular expression
+
+2019-05-22 16:34:19 - [MESSAGE][PASSED] - All options with value '1990' are selected in object 'Object Repository/OCS-MOBILE /Age gate and burger menu/Year Dropdown'  using regular expression
+
+2019-05-22 16:34:19 - [TEST_STEP][PASSED] - click(findTestObject("OCS-MOBILE /Age gate and burger menu/button_Verify")): Object: 'Object Repository/OCS-MOBILE /Age gate and burger menu/button_Verify' is clicked on
+
+2019-05-22 16:34:19 - [MESSAGE][PASSED] - Object: 'Object Repository/OCS-MOBILE /Age gate and burger menu/button_Verify' is clicked on
+
+2019-05-22 16:34:19 - [TEST_STEP][PASSED] - click(findTestObject("OCS-MOBILE /Age gate and burger menu/Checkbox_CONFIRM AND ACKNOWLEDGE")): Object: 'Object Repository/OCS-MOBILE /Age gate and burger menu/Checkbox_CONFIRM AND ACKNOWLEDGE' is clicked on
+
+2019-05-22 16:34:19 - [MESSAGE][PASSED] - Object: 'Object Repository/OCS-MOBILE /Age gate and burger menu/Checkbox_CONFIRM AND ACKNOWLEDGE' is clicked on
+
+2019-05-22 16:34:19 - [TEST_STEP][PASSED] - click(findTestObject("OCS-MOBILE /Age gate and burger menu/button_CONFIRM")): Object: 'Object Repository/OCS-MOBILE /Age gate and burger menu/button_CONFIRM' is clicked on
+
+2019-05-22 16:34:20 - [MESSAGE][PASSED] - Object: 'Object Repository/OCS-MOBILE /Age gate and burger menu/button_CONFIRM' is clicked on
+
+2019-05-22 16:34:20 - [TEST_STEP][PASSED] - click(findTestObject("OCS-MOBILE /Age gate and burger menu/button_Start Browsing")): Object: 'Object Repository/OCS-MOBILE /Age gate and burger menu/button_Start Browsing' is clicked on
+
+2019-05-22 16:34:20 - [MESSAGE][PASSED] - Object: 'Object Repository/OCS-MOBILE /Age gate and burger menu/button_Start Browsing' is clicked on
+
+2019-05-22 16:34:20 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-05-22 16:34:22 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-22 16:34:22 - [TEST_STEP][PASSED] - click(findTestObject("OCS-MOBILE /Age gate and burger menu/Burger menu - English")): Object: 'Object Repository/OCS-MOBILE /Age gate and burger menu/Burger menu - English' is clicked on
+
+2019-05-22 16:34:22 - [MESSAGE][PASSED] - Object: 'Object Repository/OCS-MOBILE /Age gate and burger menu/Burger menu - English' is clicked on
+
+2019-05-22 16:34:22 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-05-22 16:34:24 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-22 16:34:24 - [TEST_STEP][PASSED] - click(findTestObject("OCS-MOBILE /Age gate and burger menu/Chevron_Cannabis")): Object: 'Object Repository/OCS-MOBILE /Age gate and burger menu/Chevron_Cannabis' is clicked on
+
+2019-05-22 16:34:24 - [MESSAGE][PASSED] - Object: 'Object Repository/OCS-MOBILE /Age gate and burger menu/Chevron_Cannabis' is clicked on
+
+2019-05-22 16:34:24 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-05-22 16:34:26 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-22 16:34:26 - [TEST_STEP][PASSED] - click(findTestObject("OCS-MOBILE /Age gate and burger menu/Dried Flower_Plus icon")): Object: 'Object Repository/OCS-MOBILE /Age gate and burger menu/Dried Flower_Plus icon' is clicked on
+
+2019-05-22 16:34:27 - [MESSAGE][PASSED] - Object: 'Object Repository/OCS-MOBILE /Age gate and burger menu/Dried Flower_Plus icon' is clicked on
+
+2019-05-22 16:34:27 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-05-22 16:34:29 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-22 16:34:29 - [TEST_STEP][PASSED] - click(findTestObject("OCS-MOBILE /Age gate and burger menu/Indica Dominant_Menu item")): Object: 'Object Repository/OCS-MOBILE /Age gate and burger menu/Indica Dominant_Menu item' is clicked on
+
+2019-05-22 16:34:31 - [MESSAGE][PASSED] - Object: 'Object Repository/OCS-MOBILE /Age gate and burger menu/Indica Dominant_Menu item' is clicked on
+
+2019-05-22 16:34:31 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-05-22 16:34:33 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-22 16:34:33 - [TEST_STEP][PASSED] - click(findTestObject("OCS-MOBILE /Collection page/Product image - 1st one")): Object: 'Object Repository/OCS-MOBILE /Collection page/Product image - 1st one' is clicked on
+
+2019-05-22 16:34:36 - [MESSAGE][PASSED] - Object: 'Object Repository/OCS-MOBILE /Collection page/Product image - 1st one' is clicked on
+
+2019-05-22 16:34:36 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-05-22 16:34:38 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-22 16:34:38 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/OCS - MOBILE/CALL - PDP' successfully
+
+2019-05-22 16:34:38 - [TEST_STEP][NOT_RUN] - navigateToUrl("https://ocs.ca/?fts=0&preview_theme_id=53373863756"): NOT_RUN: navigateToUrl("https://ocs.ca/?fts=0&preview_theme_id=53373863756")
+
+2019-05-22 16:34:38 - [MESSAGE][NOT_RUN] - NOT_RUN: navigateToUrl("https://ocs.ca/?fts=0&preview_theme_id=53373863756")
+
+2019-05-22 16:34:38 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-05-22 16:34:40 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-22 16:34:40 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("OCS-MOBILE /Product page/Product image"), 1): Scroll to object 'Object Repository/OCS-MOBILE /Product page/Product image' successfully
+
+2019-05-22 16:34:40 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/OCS-MOBILE /Product page/Product image' successfully
+
+2019-05-22 16:34:40 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-05-22 16:34:42 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-22 16:34:42 - [TEST_STEP][PASSED] - click(findTestObject("OCS-MOBILE /Product page/Swatch_1g")): Object: 'Object Repository/OCS-MOBILE /Product page/Swatch_1g' is clicked on
+
+2019-05-22 16:34:42 - [MESSAGE][PASSED] - Object: 'Object Repository/OCS-MOBILE /Product page/Swatch_1g' is clicked on
+
+2019-05-22 16:34:42 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-05-22 16:34:44 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-22 16:34:44 - [TEST_STEP][PASSED] - a = getText(findTestObject("OCS-MOBILE /Product page/Price/1g Price - Swatch")): Text of object 'Object Repository/OCS-MOBILE /Product page/Price/1g Price - Swatch' is: '$9.55'
+
+2019-05-22 16:34:44 - [MESSAGE][PASSED] - Text of object 'Object Repository/OCS-MOBILE /Product page/Price/1g Price - Swatch' is: '$9.55'
+
+2019-05-22 16:34:44 - [TEST_STEP][PASSED] - comment("a =" + a): a =$9.55
+
+2019-05-22 16:34:44 - [MESSAGE][INFO] - a =$9.55
+
+2019-05-22 16:34:44 - [TEST_STEP][PASSED] - setViewPortSize(1000, 800, OPTIONAL): Viewport is set to new size with width = 1000 and height = 800
+
+2019-05-22 16:34:44 - [MESSAGE][PASSED] - Viewport is set to new size with width = 1000 and height = 800
+
+2019-05-22 16:34:44 - [TEST_STEP][PASSED] - delay(2, OPTIONAL): Delayed 2 second(s)
+
+2019-05-22 16:34:46 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-22 16:34:46 - [TEST_STEP][PASSED] - click(findTestObject("Theme_oR/Page_Ontario Cannabis Store  Ontari/button_Hide bar"), OPTIONAL): Object: 'Object Repository/Theme_oR/Page_Ontario Cannabis Store  Ontari/button_Hide bar' is clicked on
+
+2019-05-22 16:34:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Theme_oR/Page_Ontario Cannabis Store  Ontari/button_Hide bar' is clicked on
+
+2019-05-22 16:34:47 - [TEST_STEP][PASSED] - delay(2, OPTIONAL): Delayed 2 second(s)
+
+2019-05-22 16:34:49 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-22 16:34:49 - [TEST_STEP][PASSED] - setViewPortSize(360, 800, OPTIONAL): Viewport is set to new size with width = 360 and height = 800
+
+2019-05-22 16:34:49 - [MESSAGE][PASSED] - Viewport is set to new size with width = 360 and height = 800
+
+2019-05-22 16:34:49 - [TEST_STEP][PASSED] - delay(1, OPTIONAL): Delayed 1 second(s)
+
+2019-05-22 16:34:50 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-05-22 16:34:50 - [TEST_STEP][FAILED] - flag = verifyElementPresent(findTestObject("OCS-MOBILE /Product page/Price/Price - Add to cart button"), 0, CONTINUE_ON_FAILURE): com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/OCS-MOBILE /Product page/Price/Price - Add to cart button' located by 'By.xpath: /html/body/div[3]/section/div[1]/div[2]/div[2]/form/button/span[2]' not found
+
+2019-05-22 16:34:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-05-22 16:35:20 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: /html/body/div[3]/section/div[1]/div[2]/div[2]/form/button/span[2]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2019-05-22 16:35:20 - [MESSAGE][FAILED] - com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/OCS-MOBILE /Product page/Price/Price - Add to cart button' located by 'By.xpath: /html/body/div[3]/section/div[1]/div[2]/div[2]/form/button/span[2]' not found
+[[ATTACHMENT|/Users/sumankompelly/git/Ontario-cannbis-store/Reports/OCS- MOBILE/PRODUCT PAGE/20190522_163018/1558557320694.png]]
+
+2019-05-22 16:35:20 - [TEST_STEP][PASSED] - comment("flag =" + flag): flag =false
+
+2019-05-22 16:35:20 - [MESSAGE][INFO] - flag =false
+
+2019-05-22 16:35:20 - [TEST_STEP][PASSED] - if (flag == true): null
+
+2019-05-22 16:35:20 - [TEST_STEP][FAILED] - else: else FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/OCS-MOBILE /Product page/Price/Price - Add to cart button' located by 'By.xpath: /html/body/div[3]/section/div[1]/div[2]/div[2]/form/button/span[2]' not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:32)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:21)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1418)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$13.call(Unknown Source)
+	at Price.run(Price:46)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1558557018030.run(TempTestSuite1558557018030.groovy:36)
+
+
+2019-05-22 16:35:20 - [TEST_STEP][PASSED] - back(): Navigate back successfully
+
+2019-05-22 16:35:23 - [MESSAGE][PASSED] - Navigate back successfully
+
+2019-05-22 16:35:23 - [TEST_STEP][PASSED] - setViewPortSize(1000, 800, OPTIONAL): Viewport is set to new size with width = 1000 and height = 800
+
+2019-05-22 16:35:23 - [MESSAGE][PASSED] - Viewport is set to new size with width = 1000 and height = 800
+
+2019-05-22 16:35:23 - [TEST_STEP][PASSED] - delay(2, OPTIONAL): Delayed 2 second(s)
+
+2019-05-22 16:35:25 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-22 16:35:25 - [TEST_STEP][PASSED] - click(findTestObject("Theme_oR/Page_Ontario Cannabis Store  Ontari/button_Hide bar"), OPTIONAL): Object: 'Object Repository/Theme_oR/Page_Ontario Cannabis Store  Ontari/button_Hide bar' is clicked on
+
+2019-05-22 16:35:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Theme_oR/Page_Ontario Cannabis Store  Ontari/button_Hide bar' is clicked on
+
+2019-05-22 16:35:25 - [TEST_STEP][PASSED] - delay(2, OPTIONAL): Delayed 2 second(s)
+
+2019-05-22 16:35:27 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-22 16:35:27 - [TEST_STEP][PASSED] - setViewPortSize(360, 800, OPTIONAL): Viewport is set to new size with width = 360 and height = 800
+
+2019-05-22 16:35:27 - [MESSAGE][PASSED] - Viewport is set to new size with width = 360 and height = 800
+
+2019-05-22 16:35:27 - [TEST_STEP][PASSED] - delay(1, OPTIONAL): Delayed 1 second(s)
+
+2019-05-22 16:35:28 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-05-22 16:35:28 - [TEST_STEP][PASSED] - click(findTestObject("OCS-MOBILE /Collection page/Product image - 2nd one")): Object: 'Object Repository/OCS-MOBILE /Collection page/Product image - 2nd one' is clicked on
+
+2019-05-22 16:35:30 - [MESSAGE][PASSED] - Object: 'Object Repository/OCS-MOBILE /Collection page/Product image - 2nd one' is clicked on
+
+2019-05-22 16:35:30 - [TEST_STEP][PASSED] - setViewPortSize(1000, 800, OPTIONAL): Viewport is set to new size with width = 1000 and height = 800
+
+2019-05-22 16:35:30 - [MESSAGE][PASSED] - Viewport is set to new size with width = 1000 and height = 800
+
+2019-05-22 16:35:30 - [TEST_STEP][PASSED] - delay(2, OPTIONAL): Delayed 2 second(s)
+
+2019-05-22 16:35:32 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-22 16:35:32 - [TEST_STEP][PASSED] - click(findTestObject("Theme_oR/Page_Ontario Cannabis Store  Ontari/button_Hide bar"), OPTIONAL): Object: 'Object Repository/Theme_oR/Page_Ontario Cannabis Store  Ontari/button_Hide bar' is clicked on
+
+2019-05-22 16:35:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Theme_oR/Page_Ontario Cannabis Store  Ontari/button_Hide bar' is clicked on
+
+2019-05-22 16:35:32 - [TEST_STEP][PASSED] - delay(2, OPTIONAL): Delayed 2 second(s)
+
+2019-05-22 16:35:34 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-22 16:35:34 - [TEST_STEP][PASSED] - setViewPortSize(360, 800, OPTIONAL): Viewport is set to new size with width = 360 and height = 800
+
+2019-05-22 16:35:35 - [MESSAGE][PASSED] - Viewport is set to new size with width = 360 and height = 800
+
+2019-05-22 16:35:35 - [TEST_STEP][PASSED] - delay(1, OPTIONAL): Delayed 1 second(s)
+
+2019-05-22 16:35:36 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-05-22 16:35:36 - [TEST_STEP][PASSED] - click(findTestObject("OCS-MOBILE /Product page/Swatch_1g")): Object: 'Object Repository/OCS-MOBILE /Product page/Swatch_1g' is clicked on
+
+2019-05-22 16:35:36 - [MESSAGE][PASSED] - Object: 'Object Repository/OCS-MOBILE /Product page/Swatch_1g' is clicked on
+
+2019-05-22 16:35:36 - [TEST_STEP][PASSED] - b = getText(findTestObject("OCS-MOBILE /Product page/Price/Price - Add to cart button")): Text of object 'Object Repository/OCS-MOBILE /Product page/Price/Price - Add to cart button' is: '$9.75'
+
+2019-05-22 16:35:36 - [MESSAGE][PASSED] - Text of object 'Object Repository/OCS-MOBILE /Product page/Price/Price - Add to cart button' is: '$9.75'
+
+2019-05-22 16:35:36 - [TEST_STEP][PASSED] - comment("a =" + a): a =$9.55
+
+2019-05-22 16:35:36 - [MESSAGE][INFO] - a =$9.55
+
+2019-05-22 16:35:36 - [TEST_STEP][PASSED] - a1 = a.substring(1): null
+
+2019-05-22 16:35:36 - [TEST_STEP][PASSED] - comment("a1=" + a1): a1=9.55
+
+2019-05-22 16:35:36 - [MESSAGE][INFO] - a1=9.55
+
+2019-05-22 16:35:36 - [TEST_STEP][PASSED] - comment("b =" + b): b =$9.75
+
+2019-05-22 16:35:36 - [MESSAGE][INFO] - b =$9.75
+
+2019-05-22 16:35:36 - [TEST_STEP][PASSED] - b1 = a.substring(1): null
+
+2019-05-22 16:35:36 - [TEST_STEP][PASSED] - comment("b1 =" + b1): b1 =9.55
+
+2019-05-22 16:35:36 - [MESSAGE][INFO] - b1 =9.55
+
+2019-05-22 16:35:36 - [TEST_STEP][PASSED] - verifyEqual(a1, b1): Actual object '9.55' and expected object '9.55' are equal
+
+2019-05-22 16:35:36 - [MESSAGE][PASSED] - Actual object '9.55' and expected object '9.55' are equal
+
+2019-05-22 16:35:36 - [TEST_STEP][PASSED] - click(findTestObject("OCS-MOBILE /Product page/Swatch_3.5g")): Object: 'Object Repository/OCS-MOBILE /Product page/Swatch_3.5g' is clicked on
+
+2019-05-22 16:35:36 - [MESSAGE][PASSED] - Object: 'Object Repository/OCS-MOBILE /Product page/Swatch_3.5g' is clicked on
+
+2019-05-22 16:35:36 - [TEST_STEP][PASSED] - c = getText(findTestObject("OCS-MOBILE /Product page/Price/3.5g Price - Swatch"), STOP_ON_FAILURE): Text of object 'Object Repository/OCS-MOBILE /Product page/Price/3.5g Price - Swatch' is: '$32.40'
+
+2019-05-22 16:35:36 - [MESSAGE][PASSED] - Text of object 'Object Repository/OCS-MOBILE /Product page/Price/3.5g Price - Swatch' is: '$32.40'
+
+2019-05-22 16:35:36 - [TEST_STEP][PASSED] - comment("c =" + c): c =$32.40
+
+2019-05-22 16:35:36 - [MESSAGE][INFO] - c =$32.40
+
+2019-05-22 16:35:36 - [TEST_STEP][PASSED] - c1 = c.substring(1): null
+
+2019-05-22 16:35:36 - [TEST_STEP][PASSED] - comment("c1 =" + c1): c1 =32.40
+
+2019-05-22 16:35:36 - [MESSAGE][INFO] - c1 =32.40
+
+2019-05-22 16:35:36 - [TEST_STEP][PASSED] - d = getText(findTestObject("OCS-MOBILE /Product page/Price/Price - Add to cart button")): Text of object 'Object Repository/OCS-MOBILE /Product page/Price/Price - Add to cart button' is: '$32.40'
+
+2019-05-22 16:35:36 - [MESSAGE][PASSED] - Text of object 'Object Repository/OCS-MOBILE /Product page/Price/Price - Add to cart button' is: '$32.40'
+
+2019-05-22 16:35:36 - [TEST_STEP][PASSED] - comment("d =" + d): d =$32.40
+
+2019-05-22 16:35:36 - [MESSAGE][INFO] - d =$32.40
+
+2019-05-22 16:35:36 - [TEST_STEP][PASSED] - d1 = d.substring(1): null
+
+2019-05-22 16:35:36 - [TEST_STEP][PASSED] - comment("d1 =" + d1): d1 =32.40
+
+2019-05-22 16:35:36 - [MESSAGE][INFO] - d1 =32.40
+
+2019-05-22 16:35:36 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+2019-05-22 16:35:40 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2019-05-22 16:35:40 - [TEST_STEP][FAILED] - verifyEqual(c1, d1): else FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/OCS-MOBILE /Product page/Price/Price - Add to cart button' located by 'By.xpath: /html/body/div[3]/section/div[1]/div[2]/div[2]/form/button/span[2]' not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:32)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:21)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1418)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$13.call(Unknown Source)
+	at Price.run(Price:46)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1558557018030.run(TempTestSuite1558557018030.groovy:36)
+
+
+2019-05-22 16:35:40 - [MESSAGE][PASSED] - Actual object '32.40' and expected object '32.40' are equal
+
+2019-05-22 16:35:40 - [MESSAGE][FAILED] - else FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/OCS-MOBILE /Product page/Price/Price - Add to cart button' located by 'By.xpath: /html/body/div[3]/section/div[1]/div[2]/div[2]/form/button/span[2]' not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:32)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:21)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1418)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$13.call(Unknown Source)
+	at Price.run(Price:46)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1558557018030.run(TempTestSuite1558557018030.groovy:36)]]></system-out>
+         <system-err><![CDATA[2019-05-22 16:33:58 - [TEST_CASE][FAILED] - Test Cases/OCS - MOBILE/OCS- PRODUCT PAGE/Price: Test Cases/OCS - MOBILE/OCS- PRODUCT PAGE/Price FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/OCS-MOBILE /Product page/Price/Price - Add to cart button' located by 'By.xpath: /html/body/div[3]/section/div[1]/div[2]/div[2]/form/button/span[2]' not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:32)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:21)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1418)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$13.call(Unknown Source)
+	at Price.run(Price:46)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1558557018030.run(TempTestSuite1558557018030.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/OCS - MOBILE/OCS- PRODUCT PAGE/Recently viewed" classname="Test Cases/OCS - MOBILE/OCS- PRODUCT PAGE/Recently viewed" status="PASSED">
+         <system-out><![CDATA[2019-05-22 16:35:40 - [TEST_CASE][PASSED] - Test Cases/OCS - MOBILE/OCS- PRODUCT PAGE/Recently viewed: Test Cases/OCS - MOBILE/OCS- PRODUCT PAGE/Recently viewed
+
+2019-05-22 16:35:40 - [TEST_STEP][PASSED] - callTestCase(findTestCase("OCS - MOBILE/CALL - PDP"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/OCS - MOBILE/CALL - PDP' successfully
+
+2019-05-22 16:35:40 - [TEST_CASE][PASSED] - Test Cases/OCS - MOBILE/CALL - PDP: Test Cases/OCS - MOBILE/CALL - PDP
+
+2019-05-22 16:35:40 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-05-22 16:35:40 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-05-22 16:35:41 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2019-05-22 16:35:43 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-05-22 16:35:43 - [TEST_STEP][PASSED] - navigateToUrl("https://ocs.ca/?fts=0&preview_theme_id=53373863756"): Navigate to 'https://ocs.ca/?fts=0&preview_theme_id=53373863756' successfully
+
+2019-05-22 16:35:50 - [MESSAGE][PASSED] - Navigate to 'https://ocs.ca/?fts=0&preview_theme_id=53373863756' successfully
+
+2019-05-22 16:35:50 - [TEST_STEP][PASSED] - setViewPortSize(360, 800): Viewport is set to new size with width = 360 and height = 800
+
+2019-05-22 16:35:50 - [MESSAGE][PASSED] - Viewport is set to new size with width = 360 and height = 800
+
+2019-05-22 16:35:50 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+2019-05-22 16:35:54 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2019-05-22 16:35:54 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("OCS-MOBILE /Age gate and burger menu/Date"), "12", true): All options with value '12' are selected in object 'Object Repository/OCS-MOBILE /Age gate and burger menu/Date'  using regular expression
+
+2019-05-22 16:35:54 - [MESSAGE][PASSED] - All options with value '12' are selected in object 'Object Repository/OCS-MOBILE /Age gate and burger menu/Date'  using regular expression
+
+2019-05-22 16:35:54 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("OCS-MOBILE /Age gate and burger menu/month"), "6", true): All options with value '6' are selected in object 'Object Repository/OCS-MOBILE /Age gate and burger menu/month'  using regular expression
+
+2019-05-22 16:35:55 - [MESSAGE][PASSED] - All options with value '6' are selected in object 'Object Repository/OCS-MOBILE /Age gate and burger menu/month'  using regular expression
+
+2019-05-22 16:35:55 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-05-22 16:35:57 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-22 16:35:57 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("OCS-MOBILE /Age gate and burger menu/Year Dropdown"), "1990", true): All options with value '1990' are selected in object 'Object Repository/OCS-MOBILE /Age gate and burger menu/Year Dropdown'  using regular expression
+
+2019-05-22 16:35:58 - [MESSAGE][PASSED] - All options with value '1990' are selected in object 'Object Repository/OCS-MOBILE /Age gate and burger menu/Year Dropdown'  using regular expression
+
+2019-05-22 16:35:58 - [TEST_STEP][PASSED] - click(findTestObject("OCS-MOBILE /Age gate and burger menu/button_Verify")): Object: 'Object Repository/OCS-MOBILE /Age gate and burger menu/button_Verify' is clicked on
+
+2019-05-22 16:35:59 - [MESSAGE][PASSED] - Object: 'Object Repository/OCS-MOBILE /Age gate and burger menu/button_Verify' is clicked on
+
+2019-05-22 16:35:59 - [TEST_STEP][PASSED] - click(findTestObject("OCS-MOBILE /Age gate and burger menu/Checkbox_CONFIRM AND ACKNOWLEDGE")): Object: 'Object Repository/OCS-MOBILE /Age gate and burger menu/Checkbox_CONFIRM AND ACKNOWLEDGE' is clicked on
+
+2019-05-22 16:35:59 - [MESSAGE][PASSED] - Object: 'Object Repository/OCS-MOBILE /Age gate and burger menu/Checkbox_CONFIRM AND ACKNOWLEDGE' is clicked on
+
+2019-05-22 16:35:59 - [TEST_STEP][PASSED] - click(findTestObject("OCS-MOBILE /Age gate and burger menu/button_CONFIRM")): Object: 'Object Repository/OCS-MOBILE /Age gate and burger menu/button_CONFIRM' is clicked on
+
+2019-05-22 16:35:59 - [MESSAGE][PASSED] - Object: 'Object Repository/OCS-MOBILE /Age gate and burger menu/button_CONFIRM' is clicked on
+
+2019-05-22 16:35:59 - [TEST_STEP][PASSED] - click(findTestObject("OCS-MOBILE /Age gate and burger menu/button_Start Browsing")): Object: 'Object Repository/OCS-MOBILE /Age gate and burger menu/button_Start Browsing' is clicked on
+
+2019-05-22 16:35:59 - [MESSAGE][PASSED] - Object: 'Object Repository/OCS-MOBILE /Age gate and burger menu/button_Start Browsing' is clicked on
+
+2019-05-22 16:35:59 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-05-22 16:36:01 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-22 16:36:01 - [TEST_STEP][PASSED] - click(findTestObject("OCS-MOBILE /Age gate and burger menu/Burger menu - English")): Object: 'Object Repository/OCS-MOBILE /Age gate and burger menu/Burger menu - English' is clicked on
+
+2019-05-22 16:36:02 - [MESSAGE][PASSED] - Object: 'Object Repository/OCS-MOBILE /Age gate and burger menu/Burger menu - English' is clicked on
+
+2019-05-22 16:36:02 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-05-22 16:36:04 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-22 16:36:04 - [TEST_STEP][PASSED] - click(findTestObject("OCS-MOBILE /Age gate and burger menu/Chevron_Cannabis")): Object: 'Object Repository/OCS-MOBILE /Age gate and burger menu/Chevron_Cannabis' is clicked on
+
+2019-05-22 16:36:04 - [MESSAGE][PASSED] - Object: 'Object Repository/OCS-MOBILE /Age gate and burger menu/Chevron_Cannabis' is clicked on
+
+2019-05-22 16:36:04 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-05-22 16:36:06 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-22 16:36:06 - [TEST_STEP][PASSED] - click(findTestObject("OCS-MOBILE /Age gate and burger menu/Dried Flower_Plus icon")): Object: 'Object Repository/OCS-MOBILE /Age gate and burger menu/Dried Flower_Plus icon' is clicked on
+
+2019-05-22 16:36:06 - [MESSAGE][PASSED] - Object: 'Object Repository/OCS-MOBILE /Age gate and burger menu/Dried Flower_Plus icon' is clicked on
+
+2019-05-22 16:36:06 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-05-22 16:36:08 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-22 16:36:08 - [TEST_STEP][PASSED] - click(findTestObject("OCS-MOBILE /Age gate and burger menu/Indica Dominant_Menu item")): Object: 'Object Repository/OCS-MOBILE /Age gate and burger menu/Indica Dominant_Menu item' is clicked on
+
+2019-05-22 16:36:11 - [MESSAGE][PASSED] - Object: 'Object Repository/OCS-MOBILE /Age gate and burger menu/Indica Dominant_Menu item' is clicked on
+
+2019-05-22 16:36:11 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-05-22 16:36:13 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-22 16:36:13 - [TEST_STEP][PASSED] - click(findTestObject("OCS-MOBILE /Collection page/Product image - 1st one")): Object: 'Object Repository/OCS-MOBILE /Collection page/Product image - 1st one' is clicked on
+
+2019-05-22 16:36:17 - [MESSAGE][PASSED] - Object: 'Object Repository/OCS-MOBILE /Collection page/Product image - 1st one' is clicked on
+
+2019-05-22 16:36:17 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-05-22 16:36:19 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-22 16:36:19 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/OCS - MOBILE/CALL - PDP' successfully
+
+2019-05-22 16:36:19 - [TEST_STEP][PASSED] - a = getWindowTitle(): Current window's title is: 'Subway Scientist | Ontario Cannabis Store'
+
+2019-05-22 16:36:19 - [MESSAGE][PASSED] - Current window's title is: 'Subway Scientist | Ontario Cannabis Store'
+
+2019-05-22 16:36:19 - [TEST_STEP][PASSED] - comment("WINDOW TITLE: " + a): WINDOW TITLE: Subway Scientist | Ontario Cannabis Store
+
+2019-05-22 16:36:19 - [MESSAGE][INFO] - WINDOW TITLE: Subway Scientist | Ontario Cannabis Store
+
+2019-05-22 16:36:19 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("OCS-MOBILE /Product page/How to choose cannabis product - Button"), 2): Scroll to object 'Object Repository/OCS-MOBILE /Product page/How to choose cannabis product - Button' successfully
+
+2019-05-22 16:36:19 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/OCS-MOBILE /Product page/How to choose cannabis product - Button' successfully
+
+2019-05-22 16:36:19 - [TEST_STEP][PASSED] - click(findTestObject("OCS-MOBILE /Product page/Recently Viewed/1st Product - Image")): Object: 'Object Repository/OCS-MOBILE /Product page/Recently Viewed/1st Product - Image' is clicked on
+
+2019-05-22 16:36:23 - [MESSAGE][PASSED] - Object: 'Object Repository/OCS-MOBILE /Product page/Recently Viewed/1st Product - Image' is clicked on
+
+2019-05-22 16:36:23 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-05-22 16:36:25 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-22 16:36:25 - [TEST_STEP][PASSED] - b = getWindowTitle(): Current window's title is: 'Subway Scientist | Ontario Cannabis Store'
+
+2019-05-22 16:36:25 - [MESSAGE][PASSED] - Current window's title is: 'Subway Scientist | Ontario Cannabis Store'
+
+2019-05-22 16:36:25 - [TEST_STEP][PASSED] - comment("WINDOW TITLE:" + b): WINDOW TITLE:Subway Scientist | Ontario Cannabis Store
+
+2019-05-22 16:36:25 - [MESSAGE][INFO] - WINDOW TITLE:Subway Scientist | Ontario Cannabis Store
+
+2019-05-22 16:36:25 - [TEST_STEP][PASSED] - if (a == b): WINDOW TITLES ARE SAME
+
+2019-05-22 16:36:25 - [TEST_STEP][PASSED] - comment("WINDOW TITLES ARE SAME"): WINDOW TITLES ARE SAME
+
+2019-05-22 16:36:25 - [MESSAGE][INFO] - WINDOW TITLES ARE SAME]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/OCS - MOBILE/OCS- PRODUCT PAGE/Shop all of our products" classname="Test Cases/OCS - MOBILE/OCS- PRODUCT PAGE/Shop all of our products" status="PASSED">
+         <system-out><![CDATA[2019-05-22 16:36:25 - [TEST_CASE][PASSED] - Test Cases/OCS - MOBILE/OCS- PRODUCT PAGE/Shop all of our products: Test Cases/OCS - MOBILE/OCS- PRODUCT PAGE/Shop all of our products
+
+2019-05-22 16:36:25 - [TEST_STEP][PASSED] - callTestCase(findTestCase("OCS - MOBILE/CALL - PDP"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/OCS - MOBILE/CALL - PDP' successfully
+
+2019-05-22 16:36:25 - [TEST_CASE][PASSED] - Test Cases/OCS - MOBILE/CALL - PDP: Test Cases/OCS - MOBILE/CALL - PDP
+
+2019-05-22 16:36:25 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-05-22 16:36:25 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-05-22 16:36:26 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2019-05-22 16:36:28 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-05-22 16:36:28 - [TEST_STEP][PASSED] - navigateToUrl("https://ocs.ca/?fts=0&preview_theme_id=53373863756"): Navigate to 'https://ocs.ca/?fts=0&preview_theme_id=53373863756' successfully
+
+2019-05-22 16:36:38 - [MESSAGE][PASSED] - Navigate to 'https://ocs.ca/?fts=0&preview_theme_id=53373863756' successfully
+
+2019-05-22 16:36:38 - [TEST_STEP][PASSED] - setViewPortSize(360, 800): Viewport is set to new size with width = 360 and height = 800
+
+2019-05-22 16:36:38 - [MESSAGE][PASSED] - Viewport is set to new size with width = 360 and height = 800
+
+2019-05-22 16:36:38 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+2019-05-22 16:36:42 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2019-05-22 16:36:42 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("OCS-MOBILE /Age gate and burger menu/Date"), "12", true): All options with value '12' are selected in object 'Object Repository/OCS-MOBILE /Age gate and burger menu/Date'  using regular expression
+
+2019-05-22 16:36:43 - [MESSAGE][PASSED] - All options with value '12' are selected in object 'Object Repository/OCS-MOBILE /Age gate and burger menu/Date'  using regular expression
+
+2019-05-22 16:36:43 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("OCS-MOBILE /Age gate and burger menu/month"), "6", true): All options with value '6' are selected in object 'Object Repository/OCS-MOBILE /Age gate and burger menu/month'  using regular expression
+
+2019-05-22 16:36:43 - [MESSAGE][PASSED] - All options with value '6' are selected in object 'Object Repository/OCS-MOBILE /Age gate and burger menu/month'  using regular expression
+
+2019-05-22 16:36:43 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-05-22 16:36:45 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-22 16:36:45 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("OCS-MOBILE /Age gate and burger menu/Year Dropdown"), "1990", true): All options with value '1990' are selected in object 'Object Repository/OCS-MOBILE /Age gate and burger menu/Year Dropdown'  using regular expression
+
+2019-05-22 16:36:47 - [MESSAGE][PASSED] - All options with value '1990' are selected in object 'Object Repository/OCS-MOBILE /Age gate and burger menu/Year Dropdown'  using regular expression
+
+2019-05-22 16:36:47 - [TEST_STEP][PASSED] - click(findTestObject("OCS-MOBILE /Age gate and burger menu/button_Verify")): Object: 'Object Repository/OCS-MOBILE /Age gate and burger menu/button_Verify' is clicked on
+
+2019-05-22 16:36:47 - [MESSAGE][PASSED] - Object: 'Object Repository/OCS-MOBILE /Age gate and burger menu/button_Verify' is clicked on
+
+2019-05-22 16:36:47 - [TEST_STEP][PASSED] - click(findTestObject("OCS-MOBILE /Age gate and burger menu/Checkbox_CONFIRM AND ACKNOWLEDGE")): Object: 'Object Repository/OCS-MOBILE /Age gate and burger menu/Checkbox_CONFIRM AND ACKNOWLEDGE' is clicked on
+
+2019-05-22 16:36:47 - [MESSAGE][PASSED] - Object: 'Object Repository/OCS-MOBILE /Age gate and burger menu/Checkbox_CONFIRM AND ACKNOWLEDGE' is clicked on
+
+2019-05-22 16:36:47 - [TEST_STEP][PASSED] - click(findTestObject("OCS-MOBILE /Age gate and burger menu/button_CONFIRM")): Object: 'Object Repository/OCS-MOBILE /Age gate and burger menu/button_CONFIRM' is clicked on
+
+2019-05-22 16:36:47 - [MESSAGE][PASSED] - Object: 'Object Repository/OCS-MOBILE /Age gate and burger menu/button_CONFIRM' is clicked on
+
+2019-05-22 16:36:47 - [TEST_STEP][PASSED] - click(findTestObject("OCS-MOBILE /Age gate and burger menu/button_Start Browsing")): Object: 'Object Repository/OCS-MOBILE /Age gate and burger menu/button_Start Browsing' is clicked on
+
+2019-05-22 16:36:48 - [MESSAGE][PASSED] - Object: 'Object Repository/OCS-MOBILE /Age gate and burger menu/button_Start Browsing' is clicked on
+
+2019-05-22 16:36:48 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-05-22 16:36:50 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-22 16:36:50 - [TEST_STEP][PASSED] - click(findTestObject("OCS-MOBILE /Age gate and burger menu/Burger menu - English")): Object: 'Object Repository/OCS-MOBILE /Age gate and burger menu/Burger menu - English' is clicked on
+
+2019-05-22 16:36:50 - [MESSAGE][PASSED] - Object: 'Object Repository/OCS-MOBILE /Age gate and burger menu/Burger menu - English' is clicked on
+
+2019-05-22 16:36:50 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-05-22 16:36:52 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-22 16:36:52 - [TEST_STEP][PASSED] - click(findTestObject("OCS-MOBILE /Age gate and burger menu/Chevron_Cannabis")): Object: 'Object Repository/OCS-MOBILE /Age gate and burger menu/Chevron_Cannabis' is clicked on
+
+2019-05-22 16:36:52 - [MESSAGE][PASSED] - Object: 'Object Repository/OCS-MOBILE /Age gate and burger menu/Chevron_Cannabis' is clicked on
+
+2019-05-22 16:36:52 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-05-22 16:36:54 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-22 16:36:54 - [TEST_STEP][PASSED] - click(findTestObject("OCS-MOBILE /Age gate and burger menu/Dried Flower_Plus icon")): Object: 'Object Repository/OCS-MOBILE /Age gate and burger menu/Dried Flower_Plus icon' is clicked on
+
+2019-05-22 16:36:54 - [MESSAGE][PASSED] - Object: 'Object Repository/OCS-MOBILE /Age gate and burger menu/Dried Flower_Plus icon' is clicked on
+
+2019-05-22 16:36:54 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-05-22 16:36:56 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-22 16:36:56 - [TEST_STEP][PASSED] - click(findTestObject("OCS-MOBILE /Age gate and burger menu/Indica Dominant_Menu item")): Object: 'Object Repository/OCS-MOBILE /Age gate and burger menu/Indica Dominant_Menu item' is clicked on
+
+2019-05-22 16:36:59 - [MESSAGE][PASSED] - Object: 'Object Repository/OCS-MOBILE /Age gate and burger menu/Indica Dominant_Menu item' is clicked on
+
+2019-05-22 16:36:59 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-05-22 16:37:01 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-22 16:37:01 - [TEST_STEP][PASSED] - click(findTestObject("OCS-MOBILE /Collection page/Product image - 1st one")): Object: 'Object Repository/OCS-MOBILE /Collection page/Product image - 1st one' is clicked on
+
+2019-05-22 16:37:03 - [MESSAGE][PASSED] - Object: 'Object Repository/OCS-MOBILE /Collection page/Product image - 1st one' is clicked on
+
+2019-05-22 16:37:03 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-05-22 16:37:05 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-22 16:37:05 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/OCS - MOBILE/CALL - PDP' successfully
+
+2019-05-22 16:37:05 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("OCS-MOBILE /Product page/Recently Viewed/1st Product - Image"), 2): Scroll to object 'Object Repository/OCS-MOBILE /Product page/Recently Viewed/1st Product - Image' successfully
+
+2019-05-22 16:37:05 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/OCS-MOBILE /Product page/Recently Viewed/1st Product - Image' successfully
+
+2019-05-22 16:37:05 - [TEST_STEP][PASSED] - click(findTestObject("OCS-MOBILE /Product page/Shop all of our products - Button")): Object: 'Object Repository/OCS-MOBILE /Product page/Shop all of our products - Button' is clicked on
+
+2019-05-22 16:37:08 - [MESSAGE][PASSED] - Object: 'Object Repository/OCS-MOBILE /Product page/Shop all of our products - Button' is clicked on
+
+2019-05-22 16:37:08 - [TEST_STEP][PASSED] - a = getWindowTitle(): Current window's title is: 'All Products | Ontario Cannabis Store'
+
+2019-05-22 16:37:08 - [MESSAGE][PASSED] - Current window's title is: 'All Products | Ontario Cannabis Store'
+
+2019-05-22 16:37:08 - [TEST_STEP][PASSED] - b = "All Products | Ontario Cannabis Store": null
+
+2019-05-22 16:37:08 - [TEST_STEP][PASSED] - comment("WINDOW TITLE: " + a): WINDOW TITLE: All Products | Ontario Cannabis Store
+
+2019-05-22 16:37:08 - [MESSAGE][INFO] - WINDOW TITLE: All Products | Ontario Cannabis Store
+
+2019-05-22 16:37:08 - [TEST_STEP][PASSED] - verifyEqual(a, b): Actual object 'All Products | Ontario Cannabis Store' and expected object 'All Products | Ontario Cannabis Store' are equal
+
+2019-05-22 16:37:08 - [MESSAGE][PASSED] - Actual object 'All Products | Ontario Cannabis Store' and expected object 'All Products | Ontario Cannabis Store' are equal]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/OCS - MOBILE/OCS- PRODUCT PAGE/Show all accessories" classname="Test Cases/OCS - MOBILE/OCS- PRODUCT PAGE/Show all accessories" status="PASSED">
+         <system-out><![CDATA[2019-05-22 16:37:08 - [TEST_CASE][PASSED] - Test Cases/OCS - MOBILE/OCS- PRODUCT PAGE/Show all accessories: Test Cases/OCS - MOBILE/OCS- PRODUCT PAGE/Show all accessories
+
+2019-05-22 16:37:08 - [TEST_STEP][PASSED] - callTestCase(findTestCase("OCS - MOBILE/CALL - PDP"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/OCS - MOBILE/CALL - PDP' successfully
+
+2019-05-22 16:37:08 - [TEST_CASE][PASSED] - Test Cases/OCS - MOBILE/CALL - PDP: Test Cases/OCS - MOBILE/CALL - PDP
+
+2019-05-22 16:37:08 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-05-22 16:37:08 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-05-22 16:37:09 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2019-05-22 16:37:11 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-05-22 16:37:11 - [TEST_STEP][PASSED] - navigateToUrl("https://ocs.ca/?fts=0&preview_theme_id=53373863756"): Navigate to 'https://ocs.ca/?fts=0&preview_theme_id=53373863756' successfully
+
+2019-05-22 16:37:22 - [MESSAGE][PASSED] - Navigate to 'https://ocs.ca/?fts=0&preview_theme_id=53373863756' successfully
+
+2019-05-22 16:37:22 - [TEST_STEP][PASSED] - setViewPortSize(360, 800): Viewport is set to new size with width = 360 and height = 800
+
+2019-05-22 16:37:22 - [MESSAGE][PASSED] - Viewport is set to new size with width = 360 and height = 800
+
+2019-05-22 16:37:22 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+2019-05-22 16:37:26 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2019-05-22 16:37:26 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("OCS-MOBILE /Age gate and burger menu/Date"), "12", true): All options with value '12' are selected in object 'Object Repository/OCS-MOBILE /Age gate and burger menu/Date'  using regular expression
+
+2019-05-22 16:37:26 - [MESSAGE][PASSED] - All options with value '12' are selected in object 'Object Repository/OCS-MOBILE /Age gate and burger menu/Date'  using regular expression
+
+2019-05-22 16:37:26 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("OCS-MOBILE /Age gate and burger menu/month"), "6", true): All options with value '6' are selected in object 'Object Repository/OCS-MOBILE /Age gate and burger menu/month'  using regular expression
+
+2019-05-22 16:37:27 - [MESSAGE][PASSED] - All options with value '6' are selected in object 'Object Repository/OCS-MOBILE /Age gate and burger menu/month'  using regular expression
+
+2019-05-22 16:37:27 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-05-22 16:37:29 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-22 16:37:29 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("OCS-MOBILE /Age gate and burger menu/Year Dropdown"), "1990", true): All options with value '1990' are selected in object 'Object Repository/OCS-MOBILE /Age gate and burger menu/Year Dropdown'  using regular expression
+
+2019-05-22 16:37:30 - [MESSAGE][PASSED] - All options with value '1990' are selected in object 'Object Repository/OCS-MOBILE /Age gate and burger menu/Year Dropdown'  using regular expression
+
+2019-05-22 16:37:30 - [TEST_STEP][PASSED] - click(findTestObject("OCS-MOBILE /Age gate and burger menu/button_Verify")): Object: 'Object Repository/OCS-MOBILE /Age gate and burger menu/button_Verify' is clicked on
+
+2019-05-22 16:37:31 - [MESSAGE][PASSED] - Object: 'Object Repository/OCS-MOBILE /Age gate and burger menu/button_Verify' is clicked on
+
+2019-05-22 16:37:31 - [TEST_STEP][PASSED] - click(findTestObject("OCS-MOBILE /Age gate and burger menu/Checkbox_CONFIRM AND ACKNOWLEDGE")): Object: 'Object Repository/OCS-MOBILE /Age gate and burger menu/Checkbox_CONFIRM AND ACKNOWLEDGE' is clicked on
+
+2019-05-22 16:37:31 - [MESSAGE][PASSED] - Object: 'Object Repository/OCS-MOBILE /Age gate and burger menu/Checkbox_CONFIRM AND ACKNOWLEDGE' is clicked on
+
+2019-05-22 16:37:31 - [TEST_STEP][PASSED] - click(findTestObject("OCS-MOBILE /Age gate and burger menu/button_CONFIRM")): Object: 'Object Repository/OCS-MOBILE /Age gate and burger menu/button_CONFIRM' is clicked on
+
+2019-05-22 16:37:31 - [MESSAGE][PASSED] - Object: 'Object Repository/OCS-MOBILE /Age gate and burger menu/button_CONFIRM' is clicked on
+
+2019-05-22 16:37:31 - [TEST_STEP][PASSED] - click(findTestObject("OCS-MOBILE /Age gate and burger menu/button_Start Browsing")): Object: 'Object Repository/OCS-MOBILE /Age gate and burger menu/button_Start Browsing' is clicked on
+
+2019-05-22 16:37:31 - [MESSAGE][PASSED] - Object: 'Object Repository/OCS-MOBILE /Age gate and burger menu/button_Start Browsing' is clicked on
+
+2019-05-22 16:37:31 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-05-22 16:37:33 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-22 16:37:33 - [TEST_STEP][PASSED] - click(findTestObject("OCS-MOBILE /Age gate and burger menu/Burger menu - English")): Object: 'Object Repository/OCS-MOBILE /Age gate and burger menu/Burger menu - English' is clicked on
+
+2019-05-22 16:37:34 - [MESSAGE][PASSED] - Object: 'Object Repository/OCS-MOBILE /Age gate and burger menu/Burger menu - English' is clicked on
+
+2019-05-22 16:37:34 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-05-22 16:37:36 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-22 16:37:36 - [TEST_STEP][PASSED] - click(findTestObject("OCS-MOBILE /Age gate and burger menu/Chevron_Cannabis")): Object: 'Object Repository/OCS-MOBILE /Age gate and burger menu/Chevron_Cannabis' is clicked on
+
+2019-05-22 16:37:36 - [MESSAGE][PASSED] - Object: 'Object Repository/OCS-MOBILE /Age gate and burger menu/Chevron_Cannabis' is clicked on
+
+2019-05-22 16:37:36 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-05-22 16:37:38 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-22 16:37:38 - [TEST_STEP][PASSED] - click(findTestObject("OCS-MOBILE /Age gate and burger menu/Dried Flower_Plus icon")): Object: 'Object Repository/OCS-MOBILE /Age gate and burger menu/Dried Flower_Plus icon' is clicked on
+
+2019-05-22 16:37:38 - [MESSAGE][PASSED] - Object: 'Object Repository/OCS-MOBILE /Age gate and burger menu/Dried Flower_Plus icon' is clicked on
+
+2019-05-22 16:37:38 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-05-22 16:37:40 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-22 16:37:40 - [TEST_STEP][PASSED] - click(findTestObject("OCS-MOBILE /Age gate and burger menu/Indica Dominant_Menu item")): Object: 'Object Repository/OCS-MOBILE /Age gate and burger menu/Indica Dominant_Menu item' is clicked on
+
+2019-05-22 16:37:43 - [MESSAGE][PASSED] - Object: 'Object Repository/OCS-MOBILE /Age gate and burger menu/Indica Dominant_Menu item' is clicked on
+
+2019-05-22 16:37:43 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-05-22 16:37:45 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-22 16:37:45 - [TEST_STEP][PASSED] - click(findTestObject("OCS-MOBILE /Collection page/Product image - 1st one")): Object: 'Object Repository/OCS-MOBILE /Collection page/Product image - 1st one' is clicked on
+
+2019-05-22 16:37:47 - [MESSAGE][PASSED] - Object: 'Object Repository/OCS-MOBILE /Collection page/Product image - 1st one' is clicked on
+
+2019-05-22 16:37:47 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-05-22 16:37:49 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-22 16:37:49 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/OCS - MOBILE/CALL - PDP' successfully
+
+2019-05-22 16:37:49 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("OCS-MOBILE /Product page/More items to consider section/Grinders - Tab"), 2): Scroll to object 'Object Repository/OCS-MOBILE /Product page/More items to consider section/Grinders - Tab' successfully
+
+2019-05-22 16:37:49 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/OCS-MOBILE /Product page/More items to consider section/Grinders - Tab' successfully
+
+2019-05-22 16:37:49 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-05-22 16:37:54 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-05-22 16:37:54 - [TEST_STEP][PASSED] - click(findTestObject("OCS-MOBILE /Product page/More items to consider section/Show all accessories - Link")): Object: 'Object Repository/OCS-MOBILE /Product page/More items to consider section/Show all accessories - Link' is clicked on
+
+2019-05-22 16:37:58 - [MESSAGE][PASSED] - Object: 'Object Repository/OCS-MOBILE /Product page/More items to consider section/Show all accessories - Link' is clicked on
+
+2019-05-22 16:37:58 - [TEST_STEP][PASSED] - a = getWindowTitle(): Current window's title is: 'All Accessories | Ontario Cannabis Store'
+
+2019-05-22 16:37:58 - [MESSAGE][PASSED] - Current window's title is: 'All Accessories | Ontario Cannabis Store'
+
+2019-05-22 16:37:58 - [TEST_STEP][PASSED] - b = "All Accessories | Ontario Cannabis Store": null
+
+2019-05-22 16:37:58 - [TEST_STEP][PASSED] - comment("WINDOW TITLE: " + a): WINDOW TITLE: All Accessories | Ontario Cannabis Store
+
+2019-05-22 16:37:58 - [MESSAGE][INFO] - WINDOW TITLE: All Accessories | Ontario Cannabis Store
+
+2019-05-22 16:37:58 - [TEST_STEP][PASSED] - verifyEqual(a, b): Actual object 'All Accessories | Ontario Cannabis Store' and expected object 'All Accessories | Ontario Cannabis Store' are equal
+
+2019-05-22 16:37:58 - [MESSAGE][PASSED] - Actual object 'All Accessories | Ontario Cannabis Store' and expected object 'All Accessories | Ontario Cannabis Store' are equal]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/OCS - MOBILE/OCS- PRODUCT PAGE/Tooltip" classname="Test Cases/OCS - MOBILE/OCS- PRODUCT PAGE/Tooltip" status="PASSED">
+         <system-out><![CDATA[2019-05-22 16:37:58 - [TEST_CASE][PASSED] - Test Cases/OCS - MOBILE/OCS- PRODUCT PAGE/Tooltip: Test Cases/OCS - MOBILE/OCS- PRODUCT PAGE/Tooltip
+
+2019-05-22 16:37:59 - [TEST_STEP][PASSED] - callTestCase(findTestCase("OCS - MOBILE/CALL - PDP"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/OCS - MOBILE/CALL - PDP' successfully
+
+2019-05-22 16:37:59 - [TEST_CASE][PASSED] - Test Cases/OCS - MOBILE/CALL - PDP: Test Cases/OCS - MOBILE/CALL - PDP
+
+2019-05-22 16:37:59 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-05-22 16:37:59 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-05-22 16:37:59 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2019-05-22 16:38:01 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-05-22 16:38:01 - [TEST_STEP][PASSED] - navigateToUrl("https://ocs.ca/?fts=0&preview_theme_id=53373863756"): Navigate to 'https://ocs.ca/?fts=0&preview_theme_id=53373863756' successfully
+
+2019-05-22 16:38:08 - [MESSAGE][PASSED] - Navigate to 'https://ocs.ca/?fts=0&preview_theme_id=53373863756' successfully
+
+2019-05-22 16:38:08 - [TEST_STEP][PASSED] - setViewPortSize(360, 800): Viewport is set to new size with width = 360 and height = 800
+
+2019-05-22 16:38:08 - [MESSAGE][PASSED] - Viewport is set to new size with width = 360 and height = 800
+
+2019-05-22 16:38:08 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+2019-05-22 16:38:12 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2019-05-22 16:38:12 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("OCS-MOBILE /Age gate and burger menu/Date"), "12", true): All options with value '12' are selected in object 'Object Repository/OCS-MOBILE /Age gate and burger menu/Date'  using regular expression
+
+2019-05-22 16:38:13 - [MESSAGE][PASSED] - All options with value '12' are selected in object 'Object Repository/OCS-MOBILE /Age gate and burger menu/Date'  using regular expression
+
+2019-05-22 16:38:13 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("OCS-MOBILE /Age gate and burger menu/month"), "6", true): All options with value '6' are selected in object 'Object Repository/OCS-MOBILE /Age gate and burger menu/month'  using regular expression
+
+2019-05-22 16:38:13 - [MESSAGE][PASSED] - All options with value '6' are selected in object 'Object Repository/OCS-MOBILE /Age gate and burger menu/month'  using regular expression
+
+2019-05-22 16:38:13 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-05-22 16:38:15 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-22 16:38:15 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("OCS-MOBILE /Age gate and burger menu/Year Dropdown"), "1990", true): All options with value '1990' are selected in object 'Object Repository/OCS-MOBILE /Age gate and burger menu/Year Dropdown'  using regular expression
+
+2019-05-22 16:38:17 - [MESSAGE][PASSED] - All options with value '1990' are selected in object 'Object Repository/OCS-MOBILE /Age gate and burger menu/Year Dropdown'  using regular expression
+
+2019-05-22 16:38:17 - [TEST_STEP][PASSED] - click(findTestObject("OCS-MOBILE /Age gate and burger menu/button_Verify")): Object: 'Object Repository/OCS-MOBILE /Age gate and burger menu/button_Verify' is clicked on
+
+2019-05-22 16:38:17 - [MESSAGE][PASSED] - Object: 'Object Repository/OCS-MOBILE /Age gate and burger menu/button_Verify' is clicked on
+
+2019-05-22 16:38:17 - [TEST_STEP][PASSED] - click(findTestObject("OCS-MOBILE /Age gate and burger menu/Checkbox_CONFIRM AND ACKNOWLEDGE")): Object: 'Object Repository/OCS-MOBILE /Age gate and burger menu/Checkbox_CONFIRM AND ACKNOWLEDGE' is clicked on
+
+2019-05-22 16:38:17 - [MESSAGE][PASSED] - Object: 'Object Repository/OCS-MOBILE /Age gate and burger menu/Checkbox_CONFIRM AND ACKNOWLEDGE' is clicked on
+
+2019-05-22 16:38:17 - [TEST_STEP][PASSED] - click(findTestObject("OCS-MOBILE /Age gate and burger menu/button_CONFIRM")): Object: 'Object Repository/OCS-MOBILE /Age gate and burger menu/button_CONFIRM' is clicked on
+
+2019-05-22 16:38:18 - [MESSAGE][PASSED] - Object: 'Object Repository/OCS-MOBILE /Age gate and burger menu/button_CONFIRM' is clicked on
+
+2019-05-22 16:38:18 - [TEST_STEP][PASSED] - click(findTestObject("OCS-MOBILE /Age gate and burger menu/button_Start Browsing")): Object: 'Object Repository/OCS-MOBILE /Age gate and burger menu/button_Start Browsing' is clicked on
+
+2019-05-22 16:38:18 - [MESSAGE][PASSED] - Object: 'Object Repository/OCS-MOBILE /Age gate and burger menu/button_Start Browsing' is clicked on
+
+2019-05-22 16:38:18 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-05-22 16:38:20 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-22 16:38:20 - [TEST_STEP][PASSED] - click(findTestObject("OCS-MOBILE /Age gate and burger menu/Burger menu - English")): Object: 'Object Repository/OCS-MOBILE /Age gate and burger menu/Burger menu - English' is clicked on
+
+2019-05-22 16:38:20 - [MESSAGE][PASSED] - Object: 'Object Repository/OCS-MOBILE /Age gate and burger menu/Burger menu - English' is clicked on
+
+2019-05-22 16:38:20 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-05-22 16:38:22 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-22 16:38:22 - [TEST_STEP][PASSED] - click(findTestObject("OCS-MOBILE /Age gate and burger menu/Chevron_Cannabis")): Object: 'Object Repository/OCS-MOBILE /Age gate and burger menu/Chevron_Cannabis' is clicked on
+
+2019-05-22 16:38:22 - [MESSAGE][PASSED] - Object: 'Object Repository/OCS-MOBILE /Age gate and burger menu/Chevron_Cannabis' is clicked on
+
+2019-05-22 16:38:22 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-05-22 16:38:24 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-22 16:38:24 - [TEST_STEP][PASSED] - click(findTestObject("OCS-MOBILE /Age gate and burger menu/Dried Flower_Plus icon")): Object: 'Object Repository/OCS-MOBILE /Age gate and burger menu/Dried Flower_Plus icon' is clicked on
+
+2019-05-22 16:38:25 - [MESSAGE][PASSED] - Object: 'Object Repository/OCS-MOBILE /Age gate and burger menu/Dried Flower_Plus icon' is clicked on
+
+2019-05-22 16:38:25 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-05-22 16:38:27 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-22 16:38:27 - [TEST_STEP][PASSED] - click(findTestObject("OCS-MOBILE /Age gate and burger menu/Indica Dominant_Menu item")): Object: 'Object Repository/OCS-MOBILE /Age gate and burger menu/Indica Dominant_Menu item' is clicked on
+
+2019-05-22 16:38:29 - [MESSAGE][PASSED] - Object: 'Object Repository/OCS-MOBILE /Age gate and burger menu/Indica Dominant_Menu item' is clicked on
+
+2019-05-22 16:38:29 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-05-22 16:38:31 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-22 16:38:31 - [TEST_STEP][PASSED] - click(findTestObject("OCS-MOBILE /Collection page/Product image - 1st one")): Object: 'Object Repository/OCS-MOBILE /Collection page/Product image - 1st one' is clicked on
+
+2019-05-22 16:38:33 - [MESSAGE][PASSED] - Object: 'Object Repository/OCS-MOBILE /Collection page/Product image - 1st one' is clicked on
+
+2019-05-22 16:38:33 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-05-22 16:38:35 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-22 16:38:35 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/OCS - MOBILE/CALL - PDP' successfully
+
+2019-05-22 16:38:35 - [TEST_STEP][PASSED] - click(findTestObject("OCS-MOBILE /Product page/Tooltips/THC - Tooltip")): Object: 'Object Repository/OCS-MOBILE /Product page/Tooltips/THC - Tooltip' is clicked on
+
+2019-05-22 16:38:36 - [MESSAGE][PASSED] - Object: 'Object Repository/OCS-MOBILE /Product page/Tooltips/THC - Tooltip' is clicked on
+
+2019-05-22 16:38:36 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2019-05-22 16:38:36 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/sumankompelly/git/Ontario-cannbis-store/Reports/OCS- MOBILE/PRODUCT PAGE/20190522_163018/1558557516174.png]]
+
+2019-05-22 16:38:36 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-05-22 16:38:38 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-22 16:38:38 - [TEST_STEP][PASSED] - click(findTestObject("OCS-MOBILE /Product page/Tooltips/CBD - Tooltip")): Object: 'Object Repository/OCS-MOBILE /Product page/Tooltips/CBD - Tooltip' is clicked on
+
+2019-05-22 16:38:38 - [MESSAGE][PASSED] - Object: 'Object Repository/OCS-MOBILE /Product page/Tooltips/CBD - Tooltip' is clicked on
+
+2019-05-22 16:38:38 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2019-05-22 16:38:38 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/sumankompelly/git/Ontario-cannbis-store/Reports/OCS- MOBILE/PRODUCT PAGE/20190522_163018/1558557518488.png]]
+
+2019-05-22 16:38:38 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-05-22 16:38:40 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-22 16:38:40 - [TEST_STEP][PASSED] - click(findTestObject("OCS-MOBILE /Product page/Tooltips/Plant type - Tooltip")): Object: 'Object Repository/OCS-MOBILE /Product page/Tooltips/Plant type - Tooltip' is clicked on
+
+2019-05-22 16:38:40 - [MESSAGE][PASSED] - Object: 'Object Repository/OCS-MOBILE /Product page/Tooltips/Plant type - Tooltip' is clicked on
+
+2019-05-22 16:38:40 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2019-05-22 16:38:40 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/sumankompelly/git/Ontario-cannbis-store/Reports/OCS- MOBILE/PRODUCT PAGE/20190522_163018/1558557520788.png]]
+
+2019-05-22 16:38:40 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-05-22 16:38:42 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-22 16:38:42 - [TEST_STEP][PASSED] - click(findTestObject("OCS-MOBILE /Product page/Tooltips/Terpenes - Tooltip")): Object: 'Object Repository/OCS-MOBILE /Product page/Tooltips/Terpenes - Tooltip' is clicked on
+
+2019-05-22 16:38:43 - [MESSAGE][PASSED] - Object: 'Object Repository/OCS-MOBILE /Product page/Tooltips/Terpenes - Tooltip' is clicked on
+
+2019-05-22 16:38:43 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2019-05-22 16:38:43 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/sumankompelly/git/Ontario-cannbis-store/Reports/OCS- MOBILE/PRODUCT PAGE/20190522_163018/1558557523135.png]]
+
+2019-05-22 16:38:43 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-05-22 16:38:45 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-22 16:38:45 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("OCS-MOBILE /Product page/About Product - Section"), 0): Scroll to object 'Object Repository/OCS-MOBILE /Product page/About Product - Section' successfully
+
+2019-05-22 16:38:45 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-05-22 16:38:45 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/OCS-MOBILE /Product page/About Product - Section' successfully
+
+2019-05-22 16:38:45 - [TEST_STEP][PASSED] - click(findTestObject("OCS-MOBILE /Product page/Tooltips/THC - Tooltip - About this product")): Object: 'Object Repository/OCS-MOBILE /Product page/Tooltips/THC - Tooltip - About this product' is clicked on
+
+2019-05-22 16:38:45 - [MESSAGE][PASSED] - Object: 'Object Repository/OCS-MOBILE /Product page/Tooltips/THC - Tooltip - About this product' is clicked on
+
+2019-05-22 16:38:45 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-05-22 16:38:46 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-05-22 16:38:46 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2019-05-22 16:38:46 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/sumankompelly/git/Ontario-cannbis-store/Reports/OCS- MOBILE/PRODUCT PAGE/20190522_163018/1558557526480.png]]
+
+2019-05-22 16:38:46 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-05-22 16:38:47 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-05-22 16:38:47 - [TEST_STEP][PASSED] - click(findTestObject("OCS-MOBILE /Product page/Tooltips/Close - Tooltip - THC")): Object: 'Object Repository/OCS-MOBILE /Product page/Tooltips/Close - Tooltip - THC' is clicked on
+
+2019-05-22 16:38:47 - [MESSAGE][PASSED] - Object: 'Object Repository/OCS-MOBILE /Product page/Tooltips/Close - Tooltip - THC' is clicked on
+
+2019-05-22 16:38:47 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-05-22 16:38:48 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-05-22 16:38:48 - [TEST_STEP][PASSED] - click(findTestObject("OCS-MOBILE /Product page/Tooltips/CBD - Tooltip - About this product")): Object: 'Object Repository/OCS-MOBILE /Product page/Tooltips/CBD - Tooltip - About this product' is clicked on
+
+2019-05-22 16:38:49 - [MESSAGE][PASSED] - Object: 'Object Repository/OCS-MOBILE /Product page/Tooltips/CBD - Tooltip - About this product' is clicked on
+
+2019-05-22 16:38:49 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-05-22 16:38:50 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-05-22 16:38:50 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2019-05-22 16:38:50 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/sumankompelly/git/Ontario-cannbis-store/Reports/OCS- MOBILE/PRODUCT PAGE/20190522_163018/1558557530051.png]]
+
+2019-05-22 16:38:50 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-05-22 16:38:51 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-05-22 16:38:51 - [TEST_STEP][PASSED] - click(findTestObject("OCS-MOBILE /Product page/Tooltips/Close - Tooltip - CBD")): Object: 'Object Repository/OCS-MOBILE /Product page/Tooltips/Close - Tooltip - CBD' is clicked on
+
+2019-05-22 16:38:51 - [MESSAGE][PASSED] - Object: 'Object Repository/OCS-MOBILE /Product page/Tooltips/Close - Tooltip - CBD' is clicked on
+
+2019-05-22 16:38:51 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-05-22 16:38:52 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-05-22 16:38:52 - [TEST_STEP][PASSED] - click(findTestObject("OCS-MOBILE /Product page/Tooltips/Plant type - Tooltip - About this product")): Object: 'Object Repository/OCS-MOBILE /Product page/Tooltips/Plant type - Tooltip - About this product' is clicked on
+
+2019-05-22 16:38:52 - [MESSAGE][PASSED] - Object: 'Object Repository/OCS-MOBILE /Product page/Tooltips/Plant type - Tooltip - About this product' is clicked on
+
+2019-05-22 16:38:52 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-05-22 16:38:53 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-05-22 16:38:53 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2019-05-22 16:38:53 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/sumankompelly/git/Ontario-cannbis-store/Reports/OCS- MOBILE/PRODUCT PAGE/20190522_163018/1558557533585.png]]
+
+2019-05-22 16:38:53 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-05-22 16:38:54 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-05-22 16:38:54 - [TEST_STEP][PASSED] - click(findTestObject("OCS-MOBILE /Product page/Tooltips/Close - Tooltip - Plant")): Object: 'Object Repository/OCS-MOBILE /Product page/Tooltips/Close - Tooltip - Plant' is clicked on
+
+2019-05-22 16:38:54 - [MESSAGE][PASSED] - Object: 'Object Repository/OCS-MOBILE /Product page/Tooltips/Close - Tooltip - Plant' is clicked on
+
+2019-05-22 16:38:54 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-05-22 16:38:55 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-05-22 16:38:55 - [TEST_STEP][PASSED] - click(findTestObject("OCS-MOBILE /Product page/Tooltips/Terpenes - Tooltip - About this product")): Object: 'Object Repository/OCS-MOBILE /Product page/Tooltips/Terpenes - Tooltip - About this product' is clicked on
+
+2019-05-22 16:38:56 - [MESSAGE][PASSED] - Object: 'Object Repository/OCS-MOBILE /Product page/Tooltips/Terpenes - Tooltip - About this product' is clicked on
+
+2019-05-22 16:38:56 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-05-22 16:38:57 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-05-22 16:38:57 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2019-05-22 16:38:57 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/sumankompelly/git/Ontario-cannbis-store/Reports/OCS- MOBILE/PRODUCT PAGE/20190522_163018/1558557537151.png]]
+
+2019-05-22 16:38:57 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-05-22 16:38:58 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-05-22 16:38:58 - [TEST_STEP][PASSED] - click(findTestObject("OCS-MOBILE /Product page/Tooltips/Close - Tooltip - Terepenes")): Object: 'Object Repository/OCS-MOBILE /Product page/Tooltips/Close - Tooltip - Terepenes' is clicked on
+
+2019-05-22 16:38:58 - [MESSAGE][PASSED] - Object: 'Object Repository/OCS-MOBILE /Product page/Tooltips/Close - Tooltip - Terepenes' is clicked on
+
+2019-05-22 16:38:58 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-05-22 16:38:59 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-05-22 16:38:59 - [TEST_STEP][PASSED] - click(findTestObject("OCS-MOBILE /Product page/Tooltips/GTIN - Tooltip - About this product")): Object: 'Object Repository/OCS-MOBILE /Product page/Tooltips/GTIN - Tooltip - About this product' is clicked on
+
+2019-05-22 16:38:59 - [MESSAGE][PASSED] - Object: 'Object Repository/OCS-MOBILE /Product page/Tooltips/GTIN - Tooltip - About this product' is clicked on
+
+2019-05-22 16:38:59 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-05-22 16:39:00 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-05-22 16:39:00 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2019-05-22 16:39:00 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/sumankompelly/git/Ontario-cannbis-store/Reports/OCS- MOBILE/PRODUCT PAGE/20190522_163018/1558557540677.png]]
+
+2019-05-22 16:39:00 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-05-22 16:39:01 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-05-22 16:39:01 - [TEST_STEP][PASSED] - click(findTestObject("OCS-MOBILE /Product page/Tooltips/Close - Tooltip - GTIN")): Object: 'Object Repository/OCS-MOBILE /Product page/Tooltips/Close - Tooltip - GTIN' is clicked on
+
+2019-05-22 16:39:01 - [MESSAGE][PASSED] - Object: 'Object Repository/OCS-MOBILE /Product page/Tooltips/Close - Tooltip - GTIN' is clicked on
+
+2019-05-22 16:39:01 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-05-22 16:39:02 - [MESSAGE][PASSED] - Delayed 1 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/OCS - MOBILE/OCS- PRODUCT PAGE/variants selector" classname="Test Cases/OCS - MOBILE/OCS- PRODUCT PAGE/variants selector" status="FAILED">
+         <failure type="FAILED" message="Test Cases/OCS - MOBILE/OCS- PRODUCT PAGE/variants selector FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/OCS-MOBILE /Product page/Swatch_7g' (Root cause: org.openqa.selenium.ElementClickInterceptedException: Element &lt;label class=&quot;swatch__label&quot;> is not clickable at point (166,428) because another element &lt;li class=&quot;swatch swatch--weight&quot;> obscures it
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'sumans-MacBook-Pro.local', ip: 'fe80:0:0:0:1460:e60e:6500:d155%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 66.0.5, javascriptEnabled: true, moz:accessibilityChecks: false, moz:geckodriverVersion: 0.23.0, moz:headless: false, moz:processID: 3333, moz:profile: /var/folders/1t/c55l8xzs6gq..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 17.7.0, proxy: Proxy(direct), rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 658a5387-34c6-3242-bca2-782bdfdbc739)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:32)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:604)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$12.call(Unknown Source)
+	at variants selector.run(variants selector:68)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1558557018030.run(TempTestSuite1558557018030.groovy:36)
+"/>
+         <system-out><![CDATA[2019-05-22 16:39:02 - [TEST_CASE][FAILED] - Test Cases/OCS - MOBILE/OCS- PRODUCT PAGE/variants selector: Test Cases/OCS - MOBILE/OCS- PRODUCT PAGE/variants selector FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/OCS-MOBILE /Product page/Swatch_7g' (Root cause: org.openqa.selenium.ElementClickInterceptedException: Element <label class="swatch__label"> is not clickable at point (166,428) because another element <li class="swatch swatch--weight"> obscures it
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'sumans-MacBook-Pro.local', ip: 'fe80:0:0:0:1460:e60e:6500:d155%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 66.0.5, javascriptEnabled: true, moz:accessibilityChecks: false, moz:geckodriverVersion: 0.23.0, moz:headless: false, moz:processID: 3333, moz:profile: /var/folders/1t/c55l8xzs6gq..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 17.7.0, proxy: Proxy(direct), rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 658a5387-34c6-3242-bca2-782bdfdbc739)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:32)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:604)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$12.call(Unknown Source)
+	at variants selector.run(variants selector:68)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1558557018030.run(TempTestSuite1558557018030.groovy:36)
+
+
+2019-05-22 16:39:03 - [TEST_STEP][PASSED] - callTestCase(findTestCase("OCS - MOBILE/CALL - PDP"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/OCS - MOBILE/CALL - PDP' successfully
+
+2019-05-22 16:39:03 - [TEST_CASE][PASSED] - Test Cases/OCS - MOBILE/CALL - PDP: Test Cases/OCS - MOBILE/CALL - PDP
+
+2019-05-22 16:39:03 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-05-22 16:39:03 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-05-22 16:39:03 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2019-05-22 16:39:05 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-05-22 16:39:05 - [TEST_STEP][PASSED] - navigateToUrl("https://ocs.ca/?fts=0&preview_theme_id=53373863756"): Navigate to 'https://ocs.ca/?fts=0&preview_theme_id=53373863756' successfully
+
+2019-05-22 16:39:15 - [MESSAGE][PASSED] - Navigate to 'https://ocs.ca/?fts=0&preview_theme_id=53373863756' successfully
+
+2019-05-22 16:39:15 - [TEST_STEP][PASSED] - setViewPortSize(360, 800): Viewport is set to new size with width = 360 and height = 800
+
+2019-05-22 16:39:15 - [MESSAGE][PASSED] - Viewport is set to new size with width = 360 and height = 800
+
+2019-05-22 16:39:15 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+2019-05-22 16:39:19 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2019-05-22 16:39:19 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("OCS-MOBILE /Age gate and burger menu/Date"), "12", true): All options with value '12' are selected in object 'Object Repository/OCS-MOBILE /Age gate and burger menu/Date'  using regular expression
+
+2019-05-22 16:39:20 - [MESSAGE][PASSED] - All options with value '12' are selected in object 'Object Repository/OCS-MOBILE /Age gate and burger menu/Date'  using regular expression
+
+2019-05-22 16:39:20 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("OCS-MOBILE /Age gate and burger menu/month"), "6", true): All options with value '6' are selected in object 'Object Repository/OCS-MOBILE /Age gate and burger menu/month'  using regular expression
+
+2019-05-22 16:39:20 - [MESSAGE][PASSED] - All options with value '6' are selected in object 'Object Repository/OCS-MOBILE /Age gate and burger menu/month'  using regular expression
+
+2019-05-22 16:39:20 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-05-22 16:39:22 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-22 16:39:22 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("OCS-MOBILE /Age gate and burger menu/Year Dropdown"), "1990", true): All options with value '1990' are selected in object 'Object Repository/OCS-MOBILE /Age gate and burger menu/Year Dropdown'  using regular expression
+
+2019-05-22 16:39:24 - [MESSAGE][PASSED] - All options with value '1990' are selected in object 'Object Repository/OCS-MOBILE /Age gate and burger menu/Year Dropdown'  using regular expression
+
+2019-05-22 16:39:24 - [TEST_STEP][PASSED] - click(findTestObject("OCS-MOBILE /Age gate and burger menu/button_Verify")): Object: 'Object Repository/OCS-MOBILE /Age gate and burger menu/button_Verify' is clicked on
+
+2019-05-22 16:39:24 - [MESSAGE][PASSED] - Object: 'Object Repository/OCS-MOBILE /Age gate and burger menu/button_Verify' is clicked on
+
+2019-05-22 16:39:24 - [TEST_STEP][PASSED] - click(findTestObject("OCS-MOBILE /Age gate and burger menu/Checkbox_CONFIRM AND ACKNOWLEDGE")): Object: 'Object Repository/OCS-MOBILE /Age gate and burger menu/Checkbox_CONFIRM AND ACKNOWLEDGE' is clicked on
+
+2019-05-22 16:39:24 - [MESSAGE][PASSED] - Object: 'Object Repository/OCS-MOBILE /Age gate and burger menu/Checkbox_CONFIRM AND ACKNOWLEDGE' is clicked on
+
+2019-05-22 16:39:24 - [TEST_STEP][PASSED] - click(findTestObject("OCS-MOBILE /Age gate and burger menu/button_CONFIRM")): Object: 'Object Repository/OCS-MOBILE /Age gate and burger menu/button_CONFIRM' is clicked on
+
+2019-05-22 16:39:24 - [MESSAGE][PASSED] - Object: 'Object Repository/OCS-MOBILE /Age gate and burger menu/button_CONFIRM' is clicked on
+
+2019-05-22 16:39:24 - [TEST_STEP][PASSED] - click(findTestObject("OCS-MOBILE /Age gate and burger menu/button_Start Browsing")): Object: 'Object Repository/OCS-MOBILE /Age gate and burger menu/button_Start Browsing' is clicked on
+
+2019-05-22 16:39:25 - [MESSAGE][PASSED] - Object: 'Object Repository/OCS-MOBILE /Age gate and burger menu/button_Start Browsing' is clicked on
+
+2019-05-22 16:39:25 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-05-22 16:39:27 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-22 16:39:27 - [TEST_STEP][PASSED] - click(findTestObject("OCS-MOBILE /Age gate and burger menu/Burger menu - English")): Object: 'Object Repository/OCS-MOBILE /Age gate and burger menu/Burger menu - English' is clicked on
+
+2019-05-22 16:39:27 - [MESSAGE][PASSED] - Object: 'Object Repository/OCS-MOBILE /Age gate and burger menu/Burger menu - English' is clicked on
+
+2019-05-22 16:39:27 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-05-22 16:39:29 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-22 16:39:29 - [TEST_STEP][PASSED] - click(findTestObject("OCS-MOBILE /Age gate and burger menu/Chevron_Cannabis")): Object: 'Object Repository/OCS-MOBILE /Age gate and burger menu/Chevron_Cannabis' is clicked on
+
+2019-05-22 16:39:29 - [MESSAGE][PASSED] - Object: 'Object Repository/OCS-MOBILE /Age gate and burger menu/Chevron_Cannabis' is clicked on
+
+2019-05-22 16:39:29 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-05-22 16:39:31 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-22 16:39:31 - [TEST_STEP][PASSED] - click(findTestObject("OCS-MOBILE /Age gate and burger menu/Dried Flower_Plus icon")): Object: 'Object Repository/OCS-MOBILE /Age gate and burger menu/Dried Flower_Plus icon' is clicked on
+
+2019-05-22 16:39:31 - [MESSAGE][PASSED] - Object: 'Object Repository/OCS-MOBILE /Age gate and burger menu/Dried Flower_Plus icon' is clicked on
+
+2019-05-22 16:39:31 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-05-22 16:39:33 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-22 16:39:33 - [TEST_STEP][PASSED] - click(findTestObject("OCS-MOBILE /Age gate and burger menu/Indica Dominant_Menu item")): Object: 'Object Repository/OCS-MOBILE /Age gate and burger menu/Indica Dominant_Menu item' is clicked on
+
+2019-05-22 16:39:36 - [MESSAGE][PASSED] - Object: 'Object Repository/OCS-MOBILE /Age gate and burger menu/Indica Dominant_Menu item' is clicked on
+
+2019-05-22 16:39:36 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-05-22 16:39:38 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-22 16:39:38 - [TEST_STEP][PASSED] - click(findTestObject("OCS-MOBILE /Collection page/Product image - 1st one")): Object: 'Object Repository/OCS-MOBILE /Collection page/Product image - 1st one' is clicked on
+
+2019-05-22 16:39:40 - [MESSAGE][PASSED] - Object: 'Object Repository/OCS-MOBILE /Collection page/Product image - 1st one' is clicked on
+
+2019-05-22 16:39:40 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-05-22 16:39:42 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-22 16:39:42 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/OCS - MOBILE/CALL - PDP' successfully
+
+2019-05-22 16:39:42 - [TEST_STEP][PASSED] - navigateToUrl("https://ocs.ca/products/shishkaberry-redecan"): Navigate to 'https://ocs.ca/products/shishkaberry-redecan' successfully
+
+2019-05-22 16:39:44 - [MESSAGE][PASSED] - Navigate to 'https://ocs.ca/products/shishkaberry-redecan' successfully
+
+2019-05-22 16:39:44 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-05-22 16:39:46 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-22 16:39:46 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("OCS-MOBILE /Product page/Product image"), 1): Scroll to object 'Object Repository/OCS-MOBILE /Product page/Product image' successfully
+
+2019-05-22 16:39:46 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/OCS-MOBILE /Product page/Product image' successfully
+
+2019-05-22 16:39:46 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-05-22 16:39:48 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-22 16:39:48 - [TEST_STEP][PASSED] - flag1 = verifyElementPresent(findTestObject("OCS-MOBILE /Product page/Swatch_1g"), 0): Object 'Object Repository/OCS-MOBILE /Product page/Swatch_1g' is present
+
+2019-05-22 16:39:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-05-22 16:39:48 - [MESSAGE][PASSED] - Object 'Object Repository/OCS-MOBILE /Product page/Swatch_1g' is present
+
+2019-05-22 16:39:48 - [TEST_STEP][PASSED] - comment("flag1=" + flag1): flag1=true
+
+2019-05-22 16:39:48 - [MESSAGE][INFO] - flag1=true
+
+2019-05-22 16:39:48 - [TEST_STEP][PASSED] - if (flag1 == true): Delayed 1 second(s)
+
+2019-05-22 16:39:48 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-05-22 16:39:50 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-22 16:39:50 - [TEST_STEP][PASSED] - click(findTestObject("OCS-MOBILE /Product page/Swatch_1g"), CONTINUE_ON_FAILURE): Object: 'Object Repository/OCS-MOBILE /Product page/Swatch_1g' is clicked on
+
+2019-05-22 16:39:51 - [MESSAGE][PASSED] - Object: 'Object Repository/OCS-MOBILE /Product page/Swatch_1g' is clicked on
+
+2019-05-22 16:39:51 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-05-22 16:39:54 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-05-22 16:39:54 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-05-22 16:39:55 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-05-22 16:39:55 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2019-05-22 16:39:55 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/sumankompelly/git/Ontario-cannbis-store/Reports/OCS- MOBILE/PRODUCT PAGE/20190522_163018/1558557595138.png]]
+
+2019-05-22 16:39:55 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-05-22 16:39:56 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-05-22 16:39:56 - [TEST_STEP][PASSED] - flag2 = verifyElementPresent(findTestObject("OCS-MOBILE /Product page/Swatch_3.5g"), 0): Object 'Object Repository/OCS-MOBILE /Product page/Swatch_3.5g' is present
+
+2019-05-22 16:39:56 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-05-22 16:39:56 - [MESSAGE][PASSED] - Object 'Object Repository/OCS-MOBILE /Product page/Swatch_3.5g' is present
+
+2019-05-22 16:39:56 - [TEST_STEP][PASSED] - comment("flag2=" + flag2): flag2=true
+
+2019-05-22 16:39:56 - [MESSAGE][INFO] - flag2=true
+
+2019-05-22 16:39:56 - [TEST_STEP][PASSED] - if (flag2 == true): Delayed 1 second(s)
+
+2019-05-22 16:39:56 - [TEST_STEP][PASSED] - click(findTestObject("OCS-MOBILE /Product page/Swatch_3.5g"), CONTINUE_ON_FAILURE): Object: 'Object Repository/OCS-MOBILE /Product page/Swatch_3.5g' is clicked on
+
+2019-05-22 16:39:56 - [MESSAGE][PASSED] - Object: 'Object Repository/OCS-MOBILE /Product page/Swatch_3.5g' is clicked on
+
+2019-05-22 16:39:56 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-05-22 16:39:57 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-05-22 16:39:57 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2019-05-22 16:39:57 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/sumankompelly/git/Ontario-cannbis-store/Reports/OCS- MOBILE/PRODUCT PAGE/20190522_163018/1558557597505.png]]
+
+2019-05-22 16:39:57 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-05-22 16:39:58 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-05-22 16:39:58 - [TEST_STEP][PASSED] - flag3 = verifyElementPresent(findTestObject("OCS-MOBILE /Product page/Swatch_7g"), 0): Object 'Object Repository/OCS-MOBILE /Product page/Swatch_7g' is present
+
+2019-05-22 16:39:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-05-22 16:39:58 - [MESSAGE][PASSED] - Object 'Object Repository/OCS-MOBILE /Product page/Swatch_7g' is present
+
+2019-05-22 16:39:58 - [TEST_STEP][PASSED] - comment("flag3=" + flag3): flag3=true
+
+2019-05-22 16:39:58 - [MESSAGE][INFO] - flag3=true
+
+2019-05-22 16:39:58 - [TEST_STEP][FAILED] - if (flag3 == true): if (flag3 == true) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/OCS-MOBILE /Product page/Swatch_7g' (Root cause: org.openqa.selenium.ElementClickInterceptedException: Element <label class="swatch__label"> is not clickable at point (166,428) because another element <li class="swatch swatch--weight"> obscures it
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'sumans-MacBook-Pro.local', ip: 'fe80:0:0:0:1460:e60e:6500:d155%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 66.0.5, javascriptEnabled: true, moz:accessibilityChecks: false, moz:geckodriverVersion: 0.23.0, moz:headless: false, moz:processID: 3333, moz:profile: /var/folders/1t/c55l8xzs6gq..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 17.7.0, proxy: Proxy(direct), rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 658a5387-34c6-3242-bca2-782bdfdbc739)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:32)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:604)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$12.call(Unknown Source)
+	at variants selector.run(variants selector:68)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1558557018030.run(TempTestSuite1558557018030.groovy:36)
+
+
+2019-05-22 16:39:58 - [TEST_STEP][FAILED] - click(findTestObject("OCS-MOBILE /Product page/Swatch_7g"), CONTINUE_ON_FAILURE): Unable to click on object 'Object Repository/OCS-MOBILE /Product page/Swatch_7g' (Root cause: org.openqa.selenium.ElementClickInterceptedException: Element <label class="swatch__label"> is not clickable at point (166,428) because another element <li class="swatch swatch--weight"> obscures it
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'sumans-MacBook-Pro.local', ip: 'fe80:0:0:0:1460:e60e:6500:d155%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 66.0.5, javascriptEnabled: true, moz:accessibilityChecks: false, moz:geckodriverVersion: 0.23.0, moz:headless: false, moz:processID: 3333, moz:profile: /var/folders/1t/c55l8xzs6gq..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 17.7.0, proxy: Proxy(direct), rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 658a5387-34c6-3242-bca2-782bdfdbc739)
+
+2019-05-22 16:39:58 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/OCS-MOBILE /Product page/Swatch_7g' (Root cause: org.openqa.selenium.ElementClickInterceptedException: Element <label class="swatch__label"> is not clickable at point (166,428) because another element <li class="swatch swatch--weight"> obscures it
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'sumans-MacBook-Pro.local', ip: 'fe80:0:0:0:1460:e60e:6500:d155%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 66.0.5, javascriptEnabled: true, moz:accessibilityChecks: false, moz:geckodriverVersion: 0.23.0, moz:headless: false, moz:processID: 3333, moz:profile: /var/folders/1t/c55l8xzs6gq..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 17.7.0, proxy: Proxy(direct), rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 658a5387-34c6-3242-bca2-782bdfdbc739)
+[[ATTACHMENT|/Users/sumankompelly/git/Ontario-cannbis-store/Reports/OCS- MOBILE/PRODUCT PAGE/20190522_163018/1558557598593.png]]
+
+2019-05-22 16:39:58 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-05-22 16:39:59 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-05-22 16:39:59 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2019-05-22 16:39:59 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/Users/sumankompelly/git/Ontario-cannbis-store/Reports/OCS- MOBILE/PRODUCT PAGE/20190522_163018/1558557599649.png]]
+
+2019-05-22 16:39:59 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-05-22 16:40:00 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-05-22 16:40:00 - [TEST_STEP][FAILED] - closeBrowser(): if (flag3 == true) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/OCS-MOBILE /Product page/Swatch_7g' (Root cause: org.openqa.selenium.ElementClickInterceptedException: Element <label class="swatch__label"> is not clickable at point (166,428) because another element <li class="swatch swatch--weight"> obscures it
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'sumans-MacBook-Pro.local', ip: 'fe80:0:0:0:1460:e60e:6500:d155%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 66.0.5, javascriptEnabled: true, moz:accessibilityChecks: false, moz:geckodriverVersion: 0.23.0, moz:headless: false, moz:processID: 3333, moz:profile: /var/folders/1t/c55l8xzs6gq..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 17.7.0, proxy: Proxy(direct), rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 658a5387-34c6-3242-bca2-782bdfdbc739)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:32)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:604)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$12.call(Unknown Source)
+	at variants selector.run(variants selector:68)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1558557018030.run(TempTestSuite1558557018030.groovy:36)
+
+
+2019-05-22 16:40:00 - [MESSAGE][NOT_RUN] - NOT_RUN: closeBrowser()
+
+2019-05-22 16:40:00 - [MESSAGE][FAILED] - if (flag3 == true) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/OCS-MOBILE /Product page/Swatch_7g' (Root cause: org.openqa.selenium.ElementClickInterceptedException: Element <label class="swatch__label"> is not clickable at point (166,428) because another element <li class="swatch swatch--weight"> obscures it
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'sumans-MacBook-Pro.local', ip: 'fe80:0:0:0:1460:e60e:6500:d155%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 66.0.5, javascriptEnabled: true, moz:accessibilityChecks: false, moz:geckodriverVersion: 0.23.0, moz:headless: false, moz:processID: 3333, moz:profile: /var/folders/1t/c55l8xzs6gq..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 17.7.0, proxy: Proxy(direct), rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 658a5387-34c6-3242-bca2-782bdfdbc739)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:32)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:604)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$12.call(Unknown Source)
+	at variants selector.run(variants selector:68)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1558557018030.run(TempTestSuite1558557018030.groovy:36)]]></system-out>
+         <system-err><![CDATA[2019-05-22 16:39:02 - [TEST_CASE][FAILED] - Test Cases/OCS - MOBILE/OCS- PRODUCT PAGE/variants selector: Test Cases/OCS - MOBILE/OCS- PRODUCT PAGE/variants selector FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/OCS-MOBILE /Product page/Swatch_7g' (Root cause: org.openqa.selenium.ElementClickInterceptedException: Element <label class="swatch__label"> is not clickable at point (166,428) because another element <li class="swatch swatch--weight"> obscures it
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'sumans-MacBook-Pro.local', ip: 'fe80:0:0:0:1460:e60e:6500:d155%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 66.0.5, javascriptEnabled: true, moz:accessibilityChecks: false, moz:geckodriverVersion: 0.23.0, moz:headless: false, moz:processID: 3333, moz:profile: /var/folders/1t/c55l8xzs6gq..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 17.7.0, proxy: Proxy(direct), rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 658a5387-34c6-3242-bca2-782bdfdbc739)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:32)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:604)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$12.call(Unknown Source)
+	at variants selector.run(variants selector:68)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1558557018030.run(TempTestSuite1558557018030.groovy:36)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-05-22 16:30:19 - [TEST_SUITE][FAILED] - PRODUCT PAGE: Test Cases/OCS - MOBILE/OCS- PRODUCT PAGE/Price FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/OCS-MOBILE /Product page/Price/Price - Add to cart button' located by 'By.xpath: /html/body/div[3]/section/div[1]/div[2]/div[2]/form/button/span[2]' not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:32)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:21)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1418)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$13.call(Unknown Source)
+	at Price.run(Price:46)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1558557018030.run(TempTestSuite1558557018030.groovy:36)]]></system-out>
+      <system-err><![CDATA[2019-05-22 16:30:19 - [TEST_SUITE][FAILED] - PRODUCT PAGE: Test Cases/OCS - MOBILE/OCS- PRODUCT PAGE/Price FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/OCS-MOBILE /Product page/Price/Price - Add to cart button' located by 'By.xpath: /html/body/div[3]/section/div[1]/div[2]/div[2]/form/button/span[2]' not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:32)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:21)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1418)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$13.call(Unknown Source)
+	at Price.run(Price:46)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1558557018030.run(TempTestSuite1558557018030.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>

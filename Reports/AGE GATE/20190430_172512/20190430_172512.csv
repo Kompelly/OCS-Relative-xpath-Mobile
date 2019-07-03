@@ -1,0 +1,6 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+AGE GATE,Chrome 74.0.3729.108,,2019-04-30 17:25:14,2019-04-30 17:25:19,5.008s,FAILED
+,,,,,,
+Test Cases/OCS-AGE GATE/AG- Under Age,Chrome 74.0.3729.108,,2019-04-30 17:25:15,2019-04-30 17:25:19,4.644s,FAILED
+"openBrowser("""")",Chrome 74.0.3729.108,,2019-04-30 17:25:15,2019-04-30 17:25:18,2.839s,PASSED
+"navigateToUrl(""https://ocs.ca/?fts=0&preview_theme_id=53370029900"")",Chrome 74.0.3729.108,,2019-04-30 17:25:18,2019-04-30 17:25:19,1.456s,FAILED

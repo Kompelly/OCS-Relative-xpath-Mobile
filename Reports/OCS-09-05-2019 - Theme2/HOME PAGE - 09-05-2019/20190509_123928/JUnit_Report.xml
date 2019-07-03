@@ -1,0 +1,1856 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="HOME PAGE - 09-05-2019" time="352" tests="5" failures="6" errors="0">
+   <testsuite name="HOME PAGE - 09-05-2019" tests="5" failures="6" errors="0" time="352" timestamp="2019-05-09 12:39:30" hostname="sumankompelly - 10.0.126.233" id="Test Suites/OCS-09-05-2019 - Theme2/HOME PAGE - 09-05-2019">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/sumankompelly/git/Sample-OCS/Reports/OCS-09-05-2019 - Theme2/HOME PAGE - 09-05-2019/20190509_123928"/>
+         <property name="logFiles" value="/Users/sumankompelly/git/Sample-OCS/Reports/OCS-09-05-2019 - Theme2/HOME PAGE - 09-05-2019/20190509_123928/execution0.log"/>
+         <property name="attachments" value="/Users/sumankompelly/git/Sample-OCS/Reports/OCS-09-05-2019 - Theme2/HOME PAGE - 09-05-2019/20190509_123928/1557420074111.png, /Users/sumankompelly/git/Sample-OCS/Reports/OCS-09-05-2019 - Theme2/HOME PAGE - 09-05-2019/20190509_123928/1557420141924.png, /Users/sumankompelly/git/Sample-OCS/Reports/OCS-09-05-2019 - Theme2/HOME PAGE - 09-05-2019/20190509_123928/1557420161715.png, /Users/sumankompelly/git/Sample-OCS/Reports/OCS-09-05-2019 - Theme2/HOME PAGE - 09-05-2019/20190509_123928/1557420172723.png, /Users/sumankompelly/git/Sample-OCS/Reports/OCS-09-05-2019 - Theme2/HOME PAGE - 09-05-2019/20190509_123928/1557420276096.png, /Users/sumankompelly/git/Sample-OCS/Reports/OCS-09-05-2019 - Theme2/HOME PAGE - 09-05-2019/20190509_123928/1557420276265.png"/>
+         <property name="hostName" value="sumankompelly - 10.0.126.233"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="5.10.1.1"/>
+         <property name="browser" value="Firefox 66.0"/>
+         <property name="hostAddress" value="10.0.126.233"/>
+         <property name="sessionId" value="4b241ffe-b53f-6044-8b0c-44a7cfad03e3"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/OCS- HOME PAGE/Announcement" classname="Test Cases/OCS- HOME PAGE/Announcement" status="PASSED">
+         <system-out><![CDATA[2019-05-09 12:39:30 - [TEST_CASE][PASSED] - Test Cases/OCS- HOME PAGE/Announcement: Test Cases/OCS- HOME PAGE/Announcement
+
+2019-05-09 12:39:30 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-05-09 12:39:31 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2019-05-09 12:39:31 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-05-09 12:39:34 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-05-09 12:39:34 - [TEST_STEP][PASSED] - navigateToUrl("https://ocs.ca/?fts=0&preview_theme_id=53373863756"): Navigate to 'https://ocs.ca/?fts=0&preview_theme_id=53373863756' successfully
+
+2019-05-09 12:39:37 - [MESSAGE][PASSED] - Navigate to 'https://ocs.ca/?fts=0&preview_theme_id=53373863756' successfully
+
+2019-05-09 12:39:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Theme_oR/Page_Ontario Cannabis Store  Ontari/button_Close preview")): Object: 'Object Repository/Theme_oR/Page_Ontario Cannabis Store  Ontari/button_Close preview' is clicked on
+
+2019-05-09 12:39:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Theme_oR/Page_Ontario Cannabis Store  Ontari/button_Close preview' is clicked on
+
+2019-05-09 12:39:38 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-05-09 12:39:39 - [MESSAGE][PASSED] - Current window maximized
+
+2019-05-09 12:39:39 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Announcement_OR/Page_Ontario Cannabis Store  Ontari/select_Select01020304050607080"), "1", true): All options with value '1' are selected in object 'Object Repository/Announcement_OR/Page_Ontario Cannabis Store  Ontari/select_Select01020304050607080'  using regular expression
+
+2019-05-09 12:39:40 - [MESSAGE][PASSED] - All options with value '1' are selected in object 'Object Repository/Announcement_OR/Page_Ontario Cannabis Store  Ontari/select_Select01020304050607080'  using regular expression
+
+2019-05-09 12:39:40 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Announcement_OR/Page_Ontario Cannabis Store  Ontari/select_SelectJanuary - 01Febru"), "0", true): All options with value '0' are selected in object 'Object Repository/Announcement_OR/Page_Ontario Cannabis Store  Ontari/select_SelectJanuary - 01Febru'  using regular expression
+
+2019-05-09 12:39:40 - [MESSAGE][PASSED] - All options with value '0' are selected in object 'Object Repository/Announcement_OR/Page_Ontario Cannabis Store  Ontari/select_SelectJanuary - 01Febru'  using regular expression
+
+2019-05-09 12:39:40 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Announcement_OR/Page_Ontario Cannabis Store  Ontari/select_Select20182017201620152"), "1968", true): All options with value '1968' are selected in object 'Object Repository/Announcement_OR/Page_Ontario Cannabis Store  Ontari/select_Select20182017201620152'  using regular expression
+
+2019-05-09 12:39:43 - [MESSAGE][PASSED] - All options with value '1968' are selected in object 'Object Repository/Announcement_OR/Page_Ontario Cannabis Store  Ontari/select_Select20182017201620152'  using regular expression
+
+2019-05-09 12:39:43 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-05-09 12:39:45 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-09 12:39:45 - [TEST_STEP][PASSED] - click(findTestObject("Announcement_OR/Page_Ontario Cannabis Store  Ontari/button_Verify")): Object: 'Object Repository/Announcement_OR/Page_Ontario Cannabis Store  Ontari/button_Verify' is clicked on
+
+2019-05-09 12:39:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Announcement_OR/Page_Ontario Cannabis Store  Ontari/button_Verify' is clicked on
+
+2019-05-09 12:39:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Announcement_OR/Page_Ontario Cannabis Store  Ontari/span_CONFIRM AND ACKNOWLEDGE_c")): Object: 'Object Repository/Announcement_OR/Page_Ontario Cannabis Store  Ontari/span_CONFIRM AND ACKNOWLEDGE_c' is clicked on
+
+2019-05-09 12:39:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Announcement_OR/Page_Ontario Cannabis Store  Ontari/span_CONFIRM AND ACKNOWLEDGE_c' is clicked on
+
+2019-05-09 12:39:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Announcement_OR/Page_Ontario Cannabis Store  Ontari/button_CONFIRM")): Object: 'Object Repository/Announcement_OR/Page_Ontario Cannabis Store  Ontari/button_CONFIRM' is clicked on
+
+2019-05-09 12:39:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Announcement_OR/Page_Ontario Cannabis Store  Ontari/button_CONFIRM' is clicked on
+
+2019-05-09 12:39:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Announcement_OR/Page_Ontario Cannabis Store  Ontari/button_Start Browsing")): Object: 'Object Repository/Announcement_OR/Page_Ontario Cannabis Store  Ontari/button_Start Browsing' is clicked on
+
+2019-05-09 12:39:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Announcement_OR/Page_Ontario Cannabis Store  Ontari/button_Start Browsing' is clicked on
+
+2019-05-09 12:39:46 - [TEST_STEP][PASSED] - flag = verifyTextNotPresent("Due to holiday closures within the Canada Post network through Good Friday and Easter Monday, please expect some order delivery delays.", false): Text 'Due to holiday closures within the Canada Post network through Good Friday and Easter Monday, please expect some order delivery delays.' is not present on page
+
+2019-05-09 12:39:47 - [MESSAGE][PASSED] - Text 'Due to holiday closures within the Canada Post network through Good Friday and Easter Monday, please expect some order delivery delays.' is not present on page
+
+2019-05-09 12:39:47 - [TEST_STEP][PASSED] - comment("flag =" + flag): flag =true
+
+2019-05-09 12:39:47 - [MESSAGE][INFO] - flag =true
+
+2019-05-09 12:39:47 - [TEST_STEP][PASSED] - if (flag == false): null
+
+2019-05-09 12:39:47 - [TEST_STEP][PASSED] - else:  there are announcemnts 
+
+2019-05-09 12:39:47 - [TEST_STEP][PASSED] - comment(" there are announcemnts "):  there are announcemnts 
+
+2019-05-09 12:39:47 - [MESSAGE][INFO] -  there are announcemnts 
+
+2019-05-09 12:39:47 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-05-09 12:39:47 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/OCS- HOME PAGE/cart flyout" classname="Test Cases/OCS- HOME PAGE/cart flyout" status="PASSED">
+         <system-out><![CDATA[2019-05-09 12:39:47 - [TEST_CASE][PASSED] - Test Cases/OCS- HOME PAGE/cart flyout: Test Cases/OCS- HOME PAGE/cart flyout
+
+2019-05-09 12:39:48 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-05-09 12:39:48 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2019-05-09 12:39:50 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-05-09 12:39:50 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+2019-05-09 12:39:54 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2019-05-09 12:39:54 - [TEST_STEP][PASSED] - navigateToUrl("https://ocs.ca/?fts=0&preview_theme_id=53373863756"): Navigate to 'https://ocs.ca/?fts=0&preview_theme_id=53373863756' successfully
+
+2019-05-09 12:40:01 - [MESSAGE][PASSED] - Navigate to 'https://ocs.ca/?fts=0&preview_theme_id=53373863756' successfully
+
+2019-05-09 12:40:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Theme_oR/Page_Ontario Cannabis Store  Ontari/button_Close preview")): Object: 'Object Repository/Theme_oR/Page_Ontario Cannabis Store  Ontari/button_Close preview' is clicked on
+
+2019-05-09 12:40:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Theme_oR/Page_Ontario Cannabis Store  Ontari/button_Close preview' is clicked on
+
+2019-05-09 12:40:03 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-05-09 12:40:03 - [MESSAGE][PASSED] - Current window maximized
+
+2019-05-09 12:40:03 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/cart flyout_OR/Page_Ontario Cannabis Store  Ontari/select_Select01020304050607080"), "1", true): All options with value '1' are selected in object 'Object Repository/cart flyout_OR/Page_Ontario Cannabis Store  Ontari/select_Select01020304050607080'  using regular expression
+
+2019-05-09 12:40:04 - [MESSAGE][PASSED] - All options with value '1' are selected in object 'Object Repository/cart flyout_OR/Page_Ontario Cannabis Store  Ontari/select_Select01020304050607080'  using regular expression
+
+2019-05-09 12:40:04 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/cart flyout_OR/Page_Ontario Cannabis Store  Ontari/select_SelectJanuary - 01Febru"), "0", true): All options with value '0' are selected in object 'Object Repository/cart flyout_OR/Page_Ontario Cannabis Store  Ontari/select_SelectJanuary - 01Febru'  using regular expression
+
+2019-05-09 12:40:05 - [MESSAGE][PASSED] - All options with value '0' are selected in object 'Object Repository/cart flyout_OR/Page_Ontario Cannabis Store  Ontari/select_SelectJanuary - 01Febru'  using regular expression
+
+2019-05-09 12:40:05 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/cart flyout_OR/Page_Ontario Cannabis Store  Ontari/select_Select20182017201620152"), "1968", true): All options with value '1968' are selected in object 'Object Repository/cart flyout_OR/Page_Ontario Cannabis Store  Ontari/select_Select20182017201620152'  using regular expression
+
+2019-05-09 12:40:07 - [MESSAGE][PASSED] - All options with value '1968' are selected in object 'Object Repository/cart flyout_OR/Page_Ontario Cannabis Store  Ontari/select_Select20182017201620152'  using regular expression
+
+2019-05-09 12:40:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/cart flyout_OR/Page_Ontario Cannabis Store  Ontari/button_Verify")): Object: 'Object Repository/cart flyout_OR/Page_Ontario Cannabis Store  Ontari/button_Verify' is clicked on
+
+2019-05-09 12:40:07 - [MESSAGE][PASSED] - Object: 'Object Repository/cart flyout_OR/Page_Ontario Cannabis Store  Ontari/button_Verify' is clicked on
+
+2019-05-09 12:40:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/cart flyout_OR/Page_Ontario Cannabis Store  Ontari/span_CONFIRM AND ACKNOWLEDGE_c")): Object: 'Object Repository/cart flyout_OR/Page_Ontario Cannabis Store  Ontari/span_CONFIRM AND ACKNOWLEDGE_c' is clicked on
+
+2019-05-09 12:40:08 - [MESSAGE][PASSED] - Object: 'Object Repository/cart flyout_OR/Page_Ontario Cannabis Store  Ontari/span_CONFIRM AND ACKNOWLEDGE_c' is clicked on
+
+2019-05-09 12:40:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/cart flyout_OR/Page_Ontario Cannabis Store  Ontari/button_CONFIRM")): Object: 'Object Repository/cart flyout_OR/Page_Ontario Cannabis Store  Ontari/button_CONFIRM' is clicked on
+
+2019-05-09 12:40:08 - [MESSAGE][PASSED] - Object: 'Object Repository/cart flyout_OR/Page_Ontario Cannabis Store  Ontari/button_CONFIRM' is clicked on
+
+2019-05-09 12:40:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/cart flyout_OR/Page_Ontario Cannabis Store  Ontari/button_Start Browsing")): Object: 'Object Repository/cart flyout_OR/Page_Ontario Cannabis Store  Ontari/button_Start Browsing' is clicked on
+
+2019-05-09 12:40:08 - [MESSAGE][PASSED] - Object: 'Object Repository/cart flyout_OR/Page_Ontario Cannabis Store  Ontari/button_Start Browsing' is clicked on
+
+2019-05-09 12:40:08 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-05-09 12:40:11 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-05-09 12:40:11 - [TEST_STEP][NOT_RUN] - click(findTestObject("cart flyout_OR/Page_Ontario Cannabis Store  Ontari/div_00.00")): NOT_RUN: click(findTestObject("cart flyout_OR/Page_Ontario Cannabis Store  Ontari/div_00.00"))
+
+2019-05-09 12:40:11 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("cart flyout_OR/Page_Ontario Cannabis Store  Ontari/div_00.00"))
+
+2019-05-09 12:40:11 - [TEST_STEP][PASSED] - click(findTestObject("cart flyout_OR/Page_Ontario Cannabis Store  Ontari/div_00.00")): Object: 'Object Repository/cart flyout_OR/Page_Ontario Cannabis Store  Ontari/div_00.00' is clicked on
+
+2019-05-09 12:40:11 - [MESSAGE][PASSED] - Object: 'Object Repository/cart flyout_OR/Page_Ontario Cannabis Store  Ontari/div_00.00' is clicked on
+
+2019-05-09 12:40:11 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-05-09 12:40:14 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-05-09 12:40:14 - [TEST_STEP][PASSED] - verifyTextPresent("Bag", false): Text 'Bag' is present on page 
+
+2019-05-09 12:40:15 - [MESSAGE][PASSED] - Text 'Bag' is present on page 
+
+2019-05-09 12:40:15 - [TEST_STEP][PASSED] - if (true):  cart flyout opened 
+
+2019-05-09 12:40:15 - [TEST_STEP][PASSED] - comment(" cart flyout opened "):  cart flyout opened 
+
+2019-05-09 12:40:15 - [MESSAGE][INFO] -  cart flyout opened 
+
+2019-05-09 12:40:15 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-05-09 12:40:20 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-05-09 12:40:20 - [TEST_STEP][PASSED] - click(findTestObject("cart flyout_OR/Page_Ontario Cannabis Store  Ontari/i_0.00_icon icon--back js-clos")): Object: 'Object Repository/cart flyout_OR/Page_Ontario Cannabis Store  Ontari/i_0.00_icon icon--back js-clos' is clicked on
+
+2019-05-09 12:40:20 - [MESSAGE][PASSED] - Object: 'Object Repository/cart flyout_OR/Page_Ontario Cannabis Store  Ontari/i_0.00_icon icon--back js-clos' is clicked on
+
+2019-05-09 12:40:20 - [TEST_STEP][PASSED] - verifyTextNotPresent("Bag", false): Text 'Bag' is not present on page
+
+2019-05-09 12:40:20 - [MESSAGE][PASSED] - Text 'Bag' is not present on page
+
+2019-05-09 12:40:20 - [TEST_STEP][PASSED] - if (true):  cart flyout closed 
+
+2019-05-09 12:40:20 - [TEST_STEP][PASSED] - comment(" cart flyout closed "):  cart flyout closed 
+
+2019-05-09 12:40:20 - [MESSAGE][INFO] -  cart flyout closed 
+
+2019-05-09 12:40:20 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-05-09 12:40:21 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/OCS- HOME PAGE/footer" classname="Test Cases/OCS- HOME PAGE/footer" status="FAILED">
+         <failure type="FAILED" message="Test Cases/OCS- HOME PAGE/footer FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Footer_OR/Page_Product Recall  Ontario Cannab/a_Government of Ontario - Cann' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Footer_OR/Page_Product Recall  Ontario Cannab/a_Government of Ontario - Cann' located by 'By.xpath: //div[@id='shopify-section-en-footer']/footer/div/div/section/nav/ul/li[5]/a' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at footer.run(footer:49)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1557419968370.run(TempTestSuite1557419968370.groovy:36)
+"/>
+         <system-out><![CDATA[2019-05-09 12:40:21 - [TEST_CASE][FAILED] - Test Cases/OCS- HOME PAGE/footer: Test Cases/OCS- HOME PAGE/footer FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Footer_OR/Page_Product Recall  Ontario Cannab/a_Government of Ontario - Cann' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Footer_OR/Page_Product Recall  Ontario Cannab/a_Government of Ontario - Cann' located by 'By.xpath: //div[@id='shopify-section-en-footer']/footer/div/div/section/nav/ul/li[5]/a' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at footer.run(footer:49)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1557419968370.run(TempTestSuite1557419968370.groovy:36)
+
+
+2019-05-09 12:40:21 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-05-09 12:40:21 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2019-05-09 12:40:23 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-05-09 12:40:23 - [TEST_STEP][PASSED] - navigateToUrl("https://ocs.ca/?fts=0&preview_theme_id=53373863756"): Navigate to 'https://ocs.ca/?fts=0&preview_theme_id=53373863756' successfully
+
+2019-05-09 12:40:28 - [MESSAGE][PASSED] - Navigate to 'https://ocs.ca/?fts=0&preview_theme_id=53373863756' successfully
+
+2019-05-09 12:40:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Theme_oR/Page_Ontario Cannabis Store  Ontari/button_Close preview")): Object: 'Object Repository/Theme_oR/Page_Ontario Cannabis Store  Ontari/button_Close preview' is clicked on
+
+2019-05-09 12:40:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Theme_oR/Page_Ontario Cannabis Store  Ontari/button_Close preview' is clicked on
+
+2019-05-09 12:40:29 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-05-09 12:40:30 - [MESSAGE][PASSED] - Current window maximized
+
+2019-05-09 12:40:30 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Footer_OR/Page_Ontario Cannabis Store  Ontari/select_Select01020304050607080"), "1", true): All options with value '1' are selected in object 'Object Repository/Footer_OR/Page_Ontario Cannabis Store  Ontari/select_Select01020304050607080'  using regular expression
+
+2019-05-09 12:40:31 - [MESSAGE][PASSED] - All options with value '1' are selected in object 'Object Repository/Footer_OR/Page_Ontario Cannabis Store  Ontari/select_Select01020304050607080'  using regular expression
+
+2019-05-09 12:40:31 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Footer_OR/Page_Ontario Cannabis Store  Ontari/select_SelectJanuary - 01Febru"), "0", true): All options with value '0' are selected in object 'Object Repository/Footer_OR/Page_Ontario Cannabis Store  Ontari/select_SelectJanuary - 01Febru'  using regular expression
+
+2019-05-09 12:40:31 - [MESSAGE][PASSED] - All options with value '0' are selected in object 'Object Repository/Footer_OR/Page_Ontario Cannabis Store  Ontari/select_SelectJanuary - 01Febru'  using regular expression
+
+2019-05-09 12:40:31 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Footer_OR/Page_Ontario Cannabis Store  Ontari/select_Select20182017201620152"), "1968", true): All options with value '1968' are selected in object 'Object Repository/Footer_OR/Page_Ontario Cannabis Store  Ontari/select_Select20182017201620152'  using regular expression
+
+2019-05-09 12:40:33 - [MESSAGE][PASSED] - All options with value '1968' are selected in object 'Object Repository/Footer_OR/Page_Ontario Cannabis Store  Ontari/select_Select20182017201620152'  using regular expression
+
+2019-05-09 12:40:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Footer_OR/Page_Ontario Cannabis Store  Ontari/button_Verify")): Object: 'Object Repository/Footer_OR/Page_Ontario Cannabis Store  Ontari/button_Verify' is clicked on
+
+2019-05-09 12:40:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Footer_OR/Page_Ontario Cannabis Store  Ontari/button_Verify' is clicked on
+
+2019-05-09 12:40:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Footer_OR/Page_Ontario Cannabis Store  Ontari/span_CONFIRM AND ACKNOWLEDGE_c")): Object: 'Object Repository/Footer_OR/Page_Ontario Cannabis Store  Ontari/span_CONFIRM AND ACKNOWLEDGE_c' is clicked on
+
+2019-05-09 12:40:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Footer_OR/Page_Ontario Cannabis Store  Ontari/span_CONFIRM AND ACKNOWLEDGE_c' is clicked on
+
+2019-05-09 12:40:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Footer_OR/Page_Ontario Cannabis Store  Ontari/button_CONFIRM")): Object: 'Object Repository/Footer_OR/Page_Ontario Cannabis Store  Ontari/button_CONFIRM' is clicked on
+
+2019-05-09 12:40:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Footer_OR/Page_Ontario Cannabis Store  Ontari/button_CONFIRM' is clicked on
+
+2019-05-09 12:40:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Footer_OR/Page_Ontario Cannabis Store  Ontari/button_Start Browsing")): Object: 'Object Repository/Footer_OR/Page_Ontario Cannabis Store  Ontari/button_Start Browsing' is clicked on
+
+2019-05-09 12:40:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Footer_OR/Page_Ontario Cannabis Store  Ontari/button_Start Browsing' is clicked on
+
+2019-05-09 12:40:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Footer_OR/Page_Ontario Cannabis Store  Ontari/a_Return Policy")): Object: 'Object Repository/Footer_OR/Page_Ontario Cannabis Store  Ontari/a_Return Policy' is clicked on
+
+2019-05-09 12:40:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Footer_OR/Page_Ontario Cannabis Store  Ontari/a_Return Policy' is clicked on
+
+2019-05-09 12:40:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Footer_OR/Page_Return Policy  Ontario Cannabi/a_Glossary of Terms")): Object: 'Object Repository/Footer_OR/Page_Return Policy  Ontario Cannabi/a_Glossary of Terms' is clicked on
+
+2019-05-09 12:40:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Footer_OR/Page_Return Policy  Ontario Cannabi/a_Glossary of Terms' is clicked on
+
+2019-05-09 12:40:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Footer_OR/Page_Glossary of Terms  Ontario Can/a_Product Recall")): Object: 'Object Repository/Footer_OR/Page_Glossary of Terms  Ontario Can/a_Product Recall' is clicked on
+
+2019-05-09 12:40:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Footer_OR/Page_Glossary of Terms  Ontario Can/a_Product Recall' is clicked on
+
+2019-05-09 12:40:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Footer_OR/Page_Product Recall  Ontario Cannab/a_Government of Canada - Canna")): Object: 'Object Repository/Footer_OR/Page_Product Recall  Ontario Cannab/a_Government of Canada - Canna' is clicked on
+
+2019-05-09 12:40:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Footer_OR/Page_Product Recall  Ontario Cannab/a_Government of Canada - Canna' is clicked on
+
+2019-05-09 12:40:43 - [TEST_STEP][FAILED] - click(findTestObject("Object Repository/Footer_OR/Page_Product Recall  Ontario Cannab/a_Government of Ontario - Cann")): click(findTestObject("Object Repository/Footer_OR/Page_Product Recall  Ontario Cannab/a_Government of Ontario - Cann")) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Footer_OR/Page_Product Recall  Ontario Cannab/a_Government of Ontario - Cann' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Footer_OR/Page_Product Recall  Ontario Cannab/a_Government of Ontario - Cann' located by 'By.xpath: //div[@id='shopify-section-en-footer']/footer/div/div/section/nav/ul/li[5]/a' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at footer.run(footer:49)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1557419968370.run(TempTestSuite1557419968370.groovy:36)
+
+
+2019-05-09 12:41:14 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='shopify-section-en-footer']/footer/div/div/section/nav/ul/li[5]/a'. Please recheck the objects properties to make sure the desired element is located. 
+
+2019-05-09 12:41:14 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Footer_OR/Page_Product Recall  Ontario Cannab/a_Government of Ontario - Cann' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Footer_OR/Page_Product Recall  Ontario Cannab/a_Government of Ontario - Cann' located by 'By.xpath: //div[@id='shopify-section-en-footer']/footer/div/div/section/nav/ul/li[5]/a' not found)
+[[ATTACHMENT|/Users/sumankompelly/git/Sample-OCS/Reports/OCS-09-05-2019 - Theme2/HOME PAGE - 09-05-2019/20190509_123928/1557420074111.png]]
+
+2019-05-09 12:41:14 - [MESSAGE][FAILED] - click(findTestObject("Object Repository/Footer_OR/Page_Product Recall  Ontario Cannab/a_Government of Ontario - Cann")) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Footer_OR/Page_Product Recall  Ontario Cannab/a_Government of Ontario - Cann' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Footer_OR/Page_Product Recall  Ontario Cannab/a_Government of Ontario - Cann' located by 'By.xpath: //div[@id='shopify-section-en-footer']/footer/div/div/section/nav/ul/li[5]/a' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at footer.run(footer:49)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1557419968370.run(TempTestSuite1557419968370.groovy:36)]]></system-out>
+         <system-err><![CDATA[2019-05-09 12:40:21 - [TEST_CASE][FAILED] - Test Cases/OCS- HOME PAGE/footer: Test Cases/OCS- HOME PAGE/footer FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Footer_OR/Page_Product Recall  Ontario Cannab/a_Government of Ontario - Cann' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Footer_OR/Page_Product Recall  Ontario Cannab/a_Government of Ontario - Cann' located by 'By.xpath: //div[@id='shopify-section-en-footer']/footer/div/div/section/nav/ul/li[5]/a' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at footer.run(footer:49)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1557419968370.run(TempTestSuite1557419968370.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/OCS- HOME PAGE/How to choose cannabis-learn more" classname="Test Cases/OCS- HOME PAGE/How to choose cannabis-learn more" status="PASSED">
+         <system-out><![CDATA[2019-05-09 12:41:14 - [TEST_CASE][PASSED] - Test Cases/OCS- HOME PAGE/How to choose cannabis-learn more: Test Cases/OCS- HOME PAGE/How to choose cannabis-learn more
+
+2019-05-09 12:41:14 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-05-09 12:41:14 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-05-09 12:41:14 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2019-05-09 12:41:17 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-05-09 12:41:17 - [TEST_STEP][PASSED] - navigateToUrl("https://ocs.ca/?fts=0&preview_theme_id=53373863756"): Navigate to 'https://ocs.ca/?fts=0&preview_theme_id=53373863756' successfully
+
+2019-05-09 12:41:23 - [MESSAGE][PASSED] - Navigate to 'https://ocs.ca/?fts=0&preview_theme_id=53373863756' successfully
+
+2019-05-09 12:41:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Theme_oR/Page_Ontario Cannabis Store  Ontari/button_Close preview")): Object: 'Object Repository/Theme_oR/Page_Ontario Cannabis Store  Ontari/button_Close preview' is clicked on
+
+2019-05-09 12:41:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Theme_oR/Page_Ontario Cannabis Store  Ontari/button_Close preview' is clicked on
+
+2019-05-09 12:41:24 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Tips and how _OR/Page_Ontario Cannabis Store  Ontari/select_Select01020304050607080"), "16", true): All options with value '16' are selected in object 'Object Repository/Tips and how _OR/Page_Ontario Cannabis Store  Ontari/select_Select01020304050607080'  using regular expression
+
+2019-05-09 12:41:25 - [MESSAGE][PASSED] - All options with value '16' are selected in object 'Object Repository/Tips and how _OR/Page_Ontario Cannabis Store  Ontari/select_Select01020304050607080'  using regular expression
+
+2019-05-09 12:41:25 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Tips and how _OR/Page_Ontario Cannabis Store  Ontari/select_SelectJanuary - 01Febru"), "9", true): All options with value '9' are selected in object 'Object Repository/Tips and how _OR/Page_Ontario Cannabis Store  Ontari/select_SelectJanuary - 01Febru'  using regular expression
+
+2019-05-09 12:41:26 - [MESSAGE][PASSED] - All options with value '9' are selected in object 'Object Repository/Tips and how _OR/Page_Ontario Cannabis Store  Ontari/select_SelectJanuary - 01Febru'  using regular expression
+
+2019-05-09 12:41:26 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Tips and how _OR/Page_Ontario Cannabis Store  Ontari/select_Select20182017201620152"), "1948", true): All options with value '1948' are selected in object 'Object Repository/Tips and how _OR/Page_Ontario Cannabis Store  Ontari/select_Select20182017201620152'  using regular expression
+
+2019-05-09 12:41:28 - [MESSAGE][PASSED] - All options with value '1948' are selected in object 'Object Repository/Tips and how _OR/Page_Ontario Cannabis Store  Ontari/select_Select20182017201620152'  using regular expression
+
+2019-05-09 12:41:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Tips and how _OR/Page_Ontario Cannabis Store  Ontari/button_Verify")): Object: 'Object Repository/Tips and how _OR/Page_Ontario Cannabis Store  Ontari/button_Verify' is clicked on
+
+2019-05-09 12:41:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Tips and how _OR/Page_Ontario Cannabis Store  Ontari/button_Verify' is clicked on
+
+2019-05-09 12:41:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Tips and how _OR/Page_Ontario Cannabis Store  Ontari/span_CONFIRM AND ACKNOWLEDGE_c")): Object: 'Object Repository/Tips and how _OR/Page_Ontario Cannabis Store  Ontari/span_CONFIRM AND ACKNOWLEDGE_c' is clicked on
+
+2019-05-09 12:41:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Tips and how _OR/Page_Ontario Cannabis Store  Ontari/span_CONFIRM AND ACKNOWLEDGE_c' is clicked on
+
+2019-05-09 12:41:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Tips and how _OR/Page_Ontario Cannabis Store  Ontari/button_CONFIRM")): Object: 'Object Repository/Tips and how _OR/Page_Ontario Cannabis Store  Ontari/button_CONFIRM' is clicked on
+
+2019-05-09 12:41:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Tips and how _OR/Page_Ontario Cannabis Store  Ontari/button_CONFIRM' is clicked on
+
+2019-05-09 12:41:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Tips and how _OR/Page_Ontario Cannabis Store  Ontari/button_Start Browsing")): Object: 'Object Repository/Tips and how _OR/Page_Ontario Cannabis Store  Ontari/button_Start Browsing' is clicked on
+
+2019-05-09 12:41:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Tips and how _OR/Page_Ontario Cannabis Store  Ontari/button_Start Browsing' is clicked on
+
+2019-05-09 12:41:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Tips and how _OR/Page_Ontario Cannabis Store  Ontari/a_Learn more")): Object: 'Object Repository/Tips and how _OR/Page_Ontario Cannabis Store  Ontari/a_Learn more' is clicked on
+
+2019-05-09 12:41:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Tips and how _OR/Page_Ontario Cannabis Store  Ontari/a_Learn more' is clicked on
+
+2019-05-09 12:41:30 - [TEST_STEP][PASSED] - a = getWindowTitle(): Current window's title is: 'A Brief History of Cannabis - Part 1 | Ontario Cannabis Store'
+
+2019-05-09 12:41:30 - [MESSAGE][PASSED] - Current window's title is: 'A Brief History of Cannabis - Part 1 | Ontario Cannabis Store'
+
+2019-05-09 12:41:30 - [TEST_STEP][PASSED] - assert a == getWindowTitle(): Current window's title is: 'A Brief History of Cannabis - Part 1 | Ontario Cannabis Store'
+
+2019-05-09 12:41:30 - [MESSAGE][PASSED] - Current window's title is: 'A Brief History of Cannabis - Part 1 | Ontario Cannabis Store'
+
+2019-05-09 12:41:30 - [TEST_STEP][PASSED] - back(): Navigate back successfully
+
+2019-05-09 12:41:31 - [MESSAGE][PASSED] - Navigate back successfully
+
+2019-05-09 12:41:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Tips and how _OR/Page_Ontario Cannabis Store  Ontari/a_Learn more_1")): Object: 'Object Repository/Tips and how _OR/Page_Ontario Cannabis Store  Ontari/a_Learn more_1' is clicked on
+
+2019-05-09 12:41:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Tips and how _OR/Page_Ontario Cannabis Store  Ontari/a_Learn more_1' is clicked on
+
+2019-05-09 12:41:34 - [TEST_STEP][PASSED] - b = getWindowTitle(): Current window's title is: 'Storing Cannabis | Ontario Cannabis Store'
+
+2019-05-09 12:41:34 - [MESSAGE][PASSED] - Current window's title is: 'Storing Cannabis | Ontario Cannabis Store'
+
+2019-05-09 12:41:34 - [TEST_STEP][PASSED] - assert b == getWindowTitle(): Current window's title is: 'Storing Cannabis | Ontario Cannabis Store'
+
+2019-05-09 12:41:34 - [MESSAGE][PASSED] - Current window's title is: 'Storing Cannabis | Ontario Cannabis Store'
+
+2019-05-09 12:41:34 - [TEST_STEP][PASSED] - back(): Navigate back successfully
+
+2019-05-09 12:41:34 - [MESSAGE][PASSED] - Navigate back successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/OCS- HOME PAGE/HP -Mega menu-Hover-FAQ" classname="Test Cases/OCS- HOME PAGE/HP -Mega menu-Hover-FAQ" status="FAILED">
+         <failure type="FAILED" message="Test Cases/OCS- HOME PAGE/HP -Mega menu-Hover-FAQ FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Accessories_OR/Page_Ontario Cannabis Store  Ontari/h3_FAQ (1)' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Accessories_OR/Page_Ontario Cannabis Store  Ontari/h3_FAQ (1)' located by 'By.xpath: id(&quot;shopify-section-en-header&quot;)/div[@class=&quot;header&quot;]/div[@class=&quot;menu-bar&quot;]/div[@class=&quot;menu-bar__content&quot;]/div[@class=&quot;menu-bar__left-wrapper&quot;]/div[@class=&quot;mega-menu js-mega-menu&quot;]/nav[@class=&quot;menu js-menu&quot;]/ul[@class=&quot;menu__list unstyled&quot;]/li[@class=&quot;menu__tier-one js-menu__tier-one no-desktop-hover&quot;]/a[@class=&quot;menu__item--link only-desktop--block js-menu__faq-link&quot;]/h3[@class=&quot;menu__item--title&quot;][count(. | //h3[@class = 'menu__item--title' and (text() = 'FAQ' or . = 'FAQ')]) = count(//h3[@class = 'menu__item--title' and (text() = 'FAQ' or . = 'FAQ')])]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at HP -Mega menu-Hover-FAQ.run(HP -Mega menu-Hover-FAQ:43)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1557419968370.run(TempTestSuite1557419968370.groovy:36)
+"/>
+         <system-out><![CDATA[2019-05-09 12:41:34 - [TEST_CASE][FAILED] - Test Cases/OCS- HOME PAGE/HP -Mega menu-Hover-FAQ: Test Cases/OCS- HOME PAGE/HP -Mega menu-Hover-FAQ FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Accessories_OR/Page_Ontario Cannabis Store  Ontari/h3_FAQ (1)' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Accessories_OR/Page_Ontario Cannabis Store  Ontari/h3_FAQ (1)' located by 'By.xpath: id("shopify-section-en-header")/div[@class="header"]/div[@class="menu-bar"]/div[@class="menu-bar__content"]/div[@class="menu-bar__left-wrapper"]/div[@class="mega-menu js-mega-menu"]/nav[@class="menu js-menu"]/ul[@class="menu__list unstyled"]/li[@class="menu__tier-one js-menu__tier-one no-desktop-hover"]/a[@class="menu__item--link only-desktop--block js-menu__faq-link"]/h3[@class="menu__item--title"][count(. | //h3[@class = 'menu__item--title' and (text() = 'FAQ' or . = 'FAQ')]) = count(//h3[@class = 'menu__item--title' and (text() = 'FAQ' or . = 'FAQ')])]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at HP -Mega menu-Hover-FAQ.run(HP -Mega menu-Hover-FAQ:43)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1557419968370.run(TempTestSuite1557419968370.groovy:36)
+
+
+2019-05-09 12:41:34 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-05-09 12:41:34 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-05-09 12:41:35 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2019-05-09 12:41:37 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-05-09 12:41:37 - [TEST_STEP][PASSED] - navigateToUrl("https://ocs.ca/?fts=0&preview_theme_id=53373863756"): Navigate to 'https://ocs.ca/?fts=0&preview_theme_id=53373863756' successfully
+
+2019-05-09 12:41:41 - [MESSAGE][PASSED] - Navigate to 'https://ocs.ca/?fts=0&preview_theme_id=53373863756' successfully
+
+2019-05-09 12:41:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Theme_oR/Page_Ontario Cannabis Store  Ontari/button_Close preview")): Object: 'Object Repository/Theme_oR/Page_Ontario Cannabis Store  Ontari/button_Close preview' is clicked on
+
+2019-05-09 12:41:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Theme_oR/Page_Ontario Cannabis Store  Ontari/button_Close preview' is clicked on
+
+2019-05-09 12:41:42 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-05-09 12:41:43 - [MESSAGE][PASSED] - Current window maximized
+
+2019-05-09 12:41:43 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Accessories_OR/Page_Ontario Cannabis Store  Ontari/select_Select01020304050607080 (1)"), "1", true): All options with value '1' are selected in object 'Object Repository/Accessories_OR/Page_Ontario Cannabis Store  Ontari/select_Select01020304050607080 (1)'  using regular expression
+
+2019-05-09 12:41:43 - [MESSAGE][PASSED] - All options with value '1' are selected in object 'Object Repository/Accessories_OR/Page_Ontario Cannabis Store  Ontari/select_Select01020304050607080 (1)'  using regular expression
+
+2019-05-09 12:41:43 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Accessories_OR/Page_Ontario Cannabis Store  Ontari/select_SelectJanuary - 01Febru (1)"), "0", true): All options with value '0' are selected in object 'Object Repository/Accessories_OR/Page_Ontario Cannabis Store  Ontari/select_SelectJanuary - 01Febru (1)'  using regular expression
+
+2019-05-09 12:41:44 - [MESSAGE][PASSED] - All options with value '0' are selected in object 'Object Repository/Accessories_OR/Page_Ontario Cannabis Store  Ontari/select_SelectJanuary - 01Febru (1)'  using regular expression
+
+2019-05-09 12:41:44 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Accessories_OR/Page_Ontario Cannabis Store  Ontari/select_Select20182017201620152 (1)"), "1968", true): All options with value '1968' are selected in object 'Object Repository/Accessories_OR/Page_Ontario Cannabis Store  Ontari/select_Select20182017201620152 (1)'  using regular expression
+
+2019-05-09 12:41:46 - [MESSAGE][PASSED] - All options with value '1968' are selected in object 'Object Repository/Accessories_OR/Page_Ontario Cannabis Store  Ontari/select_Select20182017201620152 (1)'  using regular expression
+
+2019-05-09 12:41:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Accessories_OR/Page_Ontario Cannabis Store  Ontari/button_Verify (1)")): Object: 'Object Repository/Accessories_OR/Page_Ontario Cannabis Store  Ontari/button_Verify (1)' is clicked on
+
+2019-05-09 12:41:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Accessories_OR/Page_Ontario Cannabis Store  Ontari/button_Verify (1)' is clicked on
+
+2019-05-09 12:41:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Accessories_OR/Page_Ontario Cannabis Store  Ontari/span_CONFIRM AND ACKNOWLEDGE_c (1)")): Object: 'Object Repository/Accessories_OR/Page_Ontario Cannabis Store  Ontari/span_CONFIRM AND ACKNOWLEDGE_c (1)' is clicked on
+
+2019-05-09 12:41:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Accessories_OR/Page_Ontario Cannabis Store  Ontari/span_CONFIRM AND ACKNOWLEDGE_c (1)' is clicked on
+
+2019-05-09 12:41:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Accessories_OR/Page_Ontario Cannabis Store  Ontari/button_CONFIRM (1)")): Object: 'Object Repository/Accessories_OR/Page_Ontario Cannabis Store  Ontari/button_CONFIRM (1)' is clicked on
+
+2019-05-09 12:41:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Accessories_OR/Page_Ontario Cannabis Store  Ontari/button_CONFIRM (1)' is clicked on
+
+2019-05-09 12:41:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Accessories_OR/Page_Ontario Cannabis Store  Ontari/button_Start Browsing (1)")): Object: 'Object Repository/Accessories_OR/Page_Ontario Cannabis Store  Ontari/button_Start Browsing (1)' is clicked on
+
+2019-05-09 12:41:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Accessories_OR/Page_Ontario Cannabis Store  Ontari/button_Start Browsing (1)' is clicked on
+
+2019-05-09 12:41:47 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+2019-05-09 12:41:51 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2019-05-09 12:41:51 - [TEST_STEP][FAILED] - click(findTestObject("Accessories_OR/Page_Ontario Cannabis Store  Ontari/h3_FAQ (1)")): click(findTestObject("Accessories_OR/Page_Ontario Cannabis Store  Ontari/h3_FAQ (1)")) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Accessories_OR/Page_Ontario Cannabis Store  Ontari/h3_FAQ (1)' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Accessories_OR/Page_Ontario Cannabis Store  Ontari/h3_FAQ (1)' located by 'By.xpath: id("shopify-section-en-header")/div[@class="header"]/div[@class="menu-bar"]/div[@class="menu-bar__content"]/div[@class="menu-bar__left-wrapper"]/div[@class="mega-menu js-mega-menu"]/nav[@class="menu js-menu"]/ul[@class="menu__list unstyled"]/li[@class="menu__tier-one js-menu__tier-one no-desktop-hover"]/a[@class="menu__item--link only-desktop--block js-menu__faq-link"]/h3[@class="menu__item--title"][count(. | //h3[@class = 'menu__item--title' and (text() = 'FAQ' or . = 'FAQ')]) = count(//h3[@class = 'menu__item--title' and (text() = 'FAQ' or . = 'FAQ')])]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at HP -Mega menu-Hover-FAQ.run(HP -Mega menu-Hover-FAQ:43)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1557419968370.run(TempTestSuite1557419968370.groovy:36)
+
+
+2019-05-09 12:42:21 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: id("shopify-section-en-header")/div[@class="header"]/div[@class="menu-bar"]/div[@class="menu-bar__content"]/div[@class="menu-bar__left-wrapper"]/div[@class="mega-menu js-mega-menu"]/nav[@class="menu js-menu"]/ul[@class="menu__list unstyled"]/li[@class="menu__tier-one js-menu__tier-one no-desktop-hover"]/a[@class="menu__item--link only-desktop--block js-menu__faq-link"]/h3[@class="menu__item--title"][count(. | //h3[@class = 'menu__item--title' and (text() = 'FAQ' or . = 'FAQ')]) = count(//h3[@class = 'menu__item--title' and (text() = 'FAQ' or . = 'FAQ')])]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2019-05-09 12:42:22 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Accessories_OR/Page_Ontario Cannabis Store  Ontari/h3_FAQ (1)' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Accessories_OR/Page_Ontario Cannabis Store  Ontari/h3_FAQ (1)' located by 'By.xpath: id("shopify-section-en-header")/div[@class="header"]/div[@class="menu-bar"]/div[@class="menu-bar__content"]/div[@class="menu-bar__left-wrapper"]/div[@class="mega-menu js-mega-menu"]/nav[@class="menu js-menu"]/ul[@class="menu__list unstyled"]/li[@class="menu__tier-one js-menu__tier-one no-desktop-hover"]/a[@class="menu__item--link only-desktop--block js-menu__faq-link"]/h3[@class="menu__item--title"][count(. | //h3[@class = 'menu__item--title' and (text() = 'FAQ' or . = 'FAQ')]) = count(//h3[@class = 'menu__item--title' and (text() = 'FAQ' or . = 'FAQ')])]' not found)
+[[ATTACHMENT|/Users/sumankompelly/git/Sample-OCS/Reports/OCS-09-05-2019 - Theme2/HOME PAGE - 09-05-2019/20190509_123928/1557420141924.png]]
+
+2019-05-09 12:42:22 - [MESSAGE][FAILED] - click(findTestObject("Accessories_OR/Page_Ontario Cannabis Store  Ontari/h3_FAQ (1)")) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Accessories_OR/Page_Ontario Cannabis Store  Ontari/h3_FAQ (1)' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Accessories_OR/Page_Ontario Cannabis Store  Ontari/h3_FAQ (1)' located by 'By.xpath: id("shopify-section-en-header")/div[@class="header"]/div[@class="menu-bar"]/div[@class="menu-bar__content"]/div[@class="menu-bar__left-wrapper"]/div[@class="mega-menu js-mega-menu"]/nav[@class="menu js-menu"]/ul[@class="menu__list unstyled"]/li[@class="menu__tier-one js-menu__tier-one no-desktop-hover"]/a[@class="menu__item--link only-desktop--block js-menu__faq-link"]/h3[@class="menu__item--title"][count(. | //h3[@class = 'menu__item--title' and (text() = 'FAQ' or . = 'FAQ')]) = count(//h3[@class = 'menu__item--title' and (text() = 'FAQ' or . = 'FAQ')])]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at HP -Mega menu-Hover-FAQ.run(HP -Mega menu-Hover-FAQ:43)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1557419968370.run(TempTestSuite1557419968370.groovy:36)]]></system-out>
+         <system-err><![CDATA[2019-05-09 12:41:34 - [TEST_CASE][FAILED] - Test Cases/OCS- HOME PAGE/HP -Mega menu-Hover-FAQ: Test Cases/OCS- HOME PAGE/HP -Mega menu-Hover-FAQ FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Accessories_OR/Page_Ontario Cannabis Store  Ontari/h3_FAQ (1)' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Accessories_OR/Page_Ontario Cannabis Store  Ontari/h3_FAQ (1)' located by 'By.xpath: id("shopify-section-en-header")/div[@class="header"]/div[@class="menu-bar"]/div[@class="menu-bar__content"]/div[@class="menu-bar__left-wrapper"]/div[@class="mega-menu js-mega-menu"]/nav[@class="menu js-menu"]/ul[@class="menu__list unstyled"]/li[@class="menu__tier-one js-menu__tier-one no-desktop-hover"]/a[@class="menu__item--link only-desktop--block js-menu__faq-link"]/h3[@class="menu__item--title"][count(. | //h3[@class = 'menu__item--title' and (text() = 'FAQ' or . = 'FAQ')]) = count(//h3[@class = 'menu__item--title' and (text() = 'FAQ' or . = 'FAQ')])]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at HP -Mega menu-Hover-FAQ.run(HP -Mega menu-Hover-FAQ:43)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1557419968370.run(TempTestSuite1557419968370.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/OCS- HOME PAGE/HP- Mega menu-Hover- Learn" classname="Test Cases/OCS- HOME PAGE/HP- Mega menu-Hover- Learn" status="FAILED">
+         <failure type="FAILED" message="Test Cases/OCS- HOME PAGE/HP- Mega menu-Hover- Learn FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Learn_OR/Page_How Cannabis Works  Ontario Ca/span_Endocannabinoids' (Root cause: org.openqa.selenium.ElementNotInteractableException: Element &lt;span> could not be scrolled into view
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'sumans-MacBook-Pro.local', ip: 'fe80:0:0:0:10eb:5cc2:8353:8144%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 66.0.3, javascriptEnabled: true, moz:accessibilityChecks: false, moz:geckodriverVersion: 0.23.0, moz:headless: false, moz:processID: 2299, moz:profile: /var/folders/1t/c55l8xzs6gq..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 17.7.0, proxy: Proxy(direct), rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 4cf0499f-f7b6-1444-bc40-7763605b78ba)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at HP- Mega menu-Hover- Learn.run(HP- Mega menu-Hover- Learn:51)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1557419968370.run(TempTestSuite1557419968370.groovy:36)
+"/>
+         <system-out><![CDATA[2019-05-09 12:42:22 - [TEST_CASE][FAILED] - Test Cases/OCS- HOME PAGE/HP- Mega menu-Hover- Learn: Test Cases/OCS- HOME PAGE/HP- Mega menu-Hover- Learn FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Learn_OR/Page_How Cannabis Works  Ontario Ca/span_Endocannabinoids' (Root cause: org.openqa.selenium.ElementNotInteractableException: Element <span> could not be scrolled into view
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'sumans-MacBook-Pro.local', ip: 'fe80:0:0:0:10eb:5cc2:8353:8144%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 66.0.3, javascriptEnabled: true, moz:accessibilityChecks: false, moz:geckodriverVersion: 0.23.0, moz:headless: false, moz:processID: 2299, moz:profile: /var/folders/1t/c55l8xzs6gq..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 17.7.0, proxy: Proxy(direct), rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 4cf0499f-f7b6-1444-bc40-7763605b78ba)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at HP- Mega menu-Hover- Learn.run(HP- Mega menu-Hover- Learn:51)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1557419968370.run(TempTestSuite1557419968370.groovy:36)
+
+
+2019-05-09 12:42:22 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-05-09 12:42:22 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-05-09 12:42:23 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2019-05-09 12:42:25 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-05-09 12:42:25 - [TEST_STEP][PASSED] - navigateToUrl("https://ocs.ca/?fts=0&preview_theme_id=53373863756"): Navigate to 'https://ocs.ca/?fts=0&preview_theme_id=53373863756' successfully
+
+2019-05-09 12:42:31 - [MESSAGE][PASSED] - Navigate to 'https://ocs.ca/?fts=0&preview_theme_id=53373863756' successfully
+
+2019-05-09 12:42:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Theme_oR/Page_Ontario Cannabis Store  Ontari/button_Close preview")): Object: 'Object Repository/Theme_oR/Page_Ontario Cannabis Store  Ontari/button_Close preview' is clicked on
+
+2019-05-09 12:42:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Theme_oR/Page_Ontario Cannabis Store  Ontari/button_Close preview' is clicked on
+
+2019-05-09 12:42:32 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-05-09 12:42:33 - [MESSAGE][PASSED] - Current window maximized
+
+2019-05-09 12:42:33 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Learn_OR/Page_Ontario Cannabis Store  Ontari/select_Select01020304050607080"), "1", true): All options with value '1' are selected in object 'Object Repository/Learn_OR/Page_Ontario Cannabis Store  Ontari/select_Select01020304050607080'  using regular expression
+
+2019-05-09 12:42:34 - [MESSAGE][PASSED] - All options with value '1' are selected in object 'Object Repository/Learn_OR/Page_Ontario Cannabis Store  Ontari/select_Select01020304050607080'  using regular expression
+
+2019-05-09 12:42:34 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Learn_OR/Page_Ontario Cannabis Store  Ontari/select_SelectJanuary - 01Febru"), "0", true): All options with value '0' are selected in object 'Object Repository/Learn_OR/Page_Ontario Cannabis Store  Ontari/select_SelectJanuary - 01Febru'  using regular expression
+
+2019-05-09 12:42:34 - [MESSAGE][PASSED] - All options with value '0' are selected in object 'Object Repository/Learn_OR/Page_Ontario Cannabis Store  Ontari/select_SelectJanuary - 01Febru'  using regular expression
+
+2019-05-09 12:42:34 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Learn_OR/Page_Ontario Cannabis Store  Ontari/select_Select20182017201620152"), "1968", true): All options with value '1968' are selected in object 'Object Repository/Learn_OR/Page_Ontario Cannabis Store  Ontari/select_Select20182017201620152'  using regular expression
+
+2019-05-09 12:42:36 - [MESSAGE][PASSED] - All options with value '1968' are selected in object 'Object Repository/Learn_OR/Page_Ontario Cannabis Store  Ontari/select_Select20182017201620152'  using regular expression
+
+2019-05-09 12:42:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Learn_OR/Page_Ontario Cannabis Store  Ontari/button_Verify")): Object: 'Object Repository/Learn_OR/Page_Ontario Cannabis Store  Ontari/button_Verify' is clicked on
+
+2019-05-09 12:42:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Learn_OR/Page_Ontario Cannabis Store  Ontari/button_Verify' is clicked on
+
+2019-05-09 12:42:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Learn_OR/Page_Ontario Cannabis Store  Ontari/span_CONFIRM AND ACKNOWLEDGE_c")): Object: 'Object Repository/Learn_OR/Page_Ontario Cannabis Store  Ontari/span_CONFIRM AND ACKNOWLEDGE_c' is clicked on
+
+2019-05-09 12:42:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Learn_OR/Page_Ontario Cannabis Store  Ontari/span_CONFIRM AND ACKNOWLEDGE_c' is clicked on
+
+2019-05-09 12:42:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Learn_OR/Page_Ontario Cannabis Store  Ontari/button_CONFIRM")): Object: 'Object Repository/Learn_OR/Page_Ontario Cannabis Store  Ontari/button_CONFIRM' is clicked on
+
+2019-05-09 12:42:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Learn_OR/Page_Ontario Cannabis Store  Ontari/button_CONFIRM' is clicked on
+
+2019-05-09 12:42:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Learn_OR/Page_Ontario Cannabis Store  Ontari/button_Start Browsing")): Object: 'Object Repository/Learn_OR/Page_Ontario Cannabis Store  Ontari/button_Start Browsing' is clicked on
+
+2019-05-09 12:42:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Learn_OR/Page_Ontario Cannabis Store  Ontari/button_Start Browsing' is clicked on
+
+2019-05-09 12:42:37 - [TEST_STEP][PASSED] - mouseOver(findTestObject("Learn_spy/Page_Ontario Cannabis Store  Ontari/h3_Learn")): Object: 'Object Repository/Learn_spy/Page_Ontario Cannabis Store  Ontari/h3_Learn' is hovered
+
+2019-05-09 12:42:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Learn_spy/Page_Ontario Cannabis Store  Ontari/h3_Learn' is hovered
+
+2019-05-09 12:42:37 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-05-09 12:42:39 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-09 12:42:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Learn_OR/Page_Ontario Cannabis Store  Ontari/span_How Cannabis Works")): Object: 'Object Repository/Learn_OR/Page_Ontario Cannabis Store  Ontari/span_How Cannabis Works' is clicked on
+
+2019-05-09 12:42:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Learn_OR/Page_Ontario Cannabis Store  Ontari/span_How Cannabis Works' is clicked on
+
+2019-05-09 12:42:41 - [TEST_STEP][PASSED] - verifyTextPresent("The human reaction to cannabis.", false): Text 'The human reaction to cannabis.' is present on page 
+
+2019-05-09 12:42:41 - [MESSAGE][PASSED] - Text 'The human reaction to cannabis.' is present on page 
+
+2019-05-09 12:42:41 - [TEST_STEP][PASSED] - click(findTestObject("Learn_spy/Page_Ontario Cannabis Store  Ontari/h3_Learn")): Object: 'Object Repository/Learn_spy/Page_Ontario Cannabis Store  Ontari/h3_Learn' is clicked on
+
+2019-05-09 12:42:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Learn_spy/Page_Ontario Cannabis Store  Ontari/h3_Learn' is clicked on
+
+2019-05-09 12:42:41 - [TEST_STEP][FAILED] - click(findTestObject("Object Repository/Learn_OR/Page_How Cannabis Works  Ontario Ca/span_Endocannabinoids")): click(findTestObject("Object Repository/Learn_OR/Page_How Cannabis Works  Ontario Ca/span_Endocannabinoids")) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Learn_OR/Page_How Cannabis Works  Ontario Ca/span_Endocannabinoids' (Root cause: org.openqa.selenium.ElementNotInteractableException: Element <span> could not be scrolled into view
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'sumans-MacBook-Pro.local', ip: 'fe80:0:0:0:10eb:5cc2:8353:8144%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 66.0.3, javascriptEnabled: true, moz:accessibilityChecks: false, moz:geckodriverVersion: 0.23.0, moz:headless: false, moz:processID: 2299, moz:profile: /var/folders/1t/c55l8xzs6gq..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 17.7.0, proxy: Proxy(direct), rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 4cf0499f-f7b6-1444-bc40-7763605b78ba)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at HP- Mega menu-Hover- Learn.run(HP- Mega menu-Hover- Learn:51)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1557419968370.run(TempTestSuite1557419968370.groovy:36)
+
+
+2019-05-09 12:42:41 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Learn_OR/Page_How Cannabis Works  Ontario Ca/span_Endocannabinoids' (Root cause: org.openqa.selenium.ElementNotInteractableException: Element <span> could not be scrolled into view
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'sumans-MacBook-Pro.local', ip: 'fe80:0:0:0:10eb:5cc2:8353:8144%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 66.0.3, javascriptEnabled: true, moz:accessibilityChecks: false, moz:geckodriverVersion: 0.23.0, moz:headless: false, moz:processID: 2299, moz:profile: /var/folders/1t/c55l8xzs6gq..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 17.7.0, proxy: Proxy(direct), rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 4cf0499f-f7b6-1444-bc40-7763605b78ba)
+[[ATTACHMENT|/Users/sumankompelly/git/Sample-OCS/Reports/OCS-09-05-2019 - Theme2/HOME PAGE - 09-05-2019/20190509_123928/1557420161715.png]]
+
+2019-05-09 12:42:41 - [MESSAGE][FAILED] - click(findTestObject("Object Repository/Learn_OR/Page_How Cannabis Works  Ontario Ca/span_Endocannabinoids")) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Learn_OR/Page_How Cannabis Works  Ontario Ca/span_Endocannabinoids' (Root cause: org.openqa.selenium.ElementNotInteractableException: Element <span> could not be scrolled into view
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'sumans-MacBook-Pro.local', ip: 'fe80:0:0:0:10eb:5cc2:8353:8144%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 66.0.3, javascriptEnabled: true, moz:accessibilityChecks: false, moz:geckodriverVersion: 0.23.0, moz:headless: false, moz:processID: 2299, moz:profile: /var/folders/1t/c55l8xzs6gq..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 17.7.0, proxy: Proxy(direct), rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 4cf0499f-f7b6-1444-bc40-7763605b78ba)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at HP- Mega menu-Hover- Learn.run(HP- Mega menu-Hover- Learn:51)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1557419968370.run(TempTestSuite1557419968370.groovy:36)]]></system-out>
+         <system-err><![CDATA[2019-05-09 12:42:22 - [TEST_CASE][FAILED] - Test Cases/OCS- HOME PAGE/HP- Mega menu-Hover- Learn: Test Cases/OCS- HOME PAGE/HP- Mega menu-Hover- Learn FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Learn_OR/Page_How Cannabis Works  Ontario Ca/span_Endocannabinoids' (Root cause: org.openqa.selenium.ElementNotInteractableException: Element <span> could not be scrolled into view
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'sumans-MacBook-Pro.local', ip: 'fe80:0:0:0:10eb:5cc2:8353:8144%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 66.0.3, javascriptEnabled: true, moz:accessibilityChecks: false, moz:geckodriverVersion: 0.23.0, moz:headless: false, moz:processID: 2299, moz:profile: /var/folders/1t/c55l8xzs6gq..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 17.7.0, proxy: Proxy(direct), rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 4cf0499f-f7b6-1444-bc40-7763605b78ba)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at HP- Mega menu-Hover- Learn.run(HP- Mega menu-Hover- Learn:51)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1557419968370.run(TempTestSuite1557419968370.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/OCS- HOME PAGE/HP-Mega menu - Hover-cannabis" classname="Test Cases/OCS- HOME PAGE/HP-Mega menu - Hover-cannabis" status="FAILED">
+         <failure type="FAILED" message="Test Cases/OCS- HOME PAGE/HP-Mega menu - Hover-cannabis FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/mega-menu - cannabis/Page_Ontario Cannabis Store  Ontari/button_Verify' (Root cause: org.openqa.selenium.ElementClickInterceptedException: Element &lt;button class=&quot;btn btn--outline&quot; type=&quot;submit&quot;> is not clickable at point (705,689) because another element &lt;iframe id=&quot;preview-bar-iframe&quot; src=&quot;https://ocs.ca/preview_bar&quot;> obscures it
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'sumans-MacBook-Pro.local', ip: 'fe80:0:0:0:10eb:5cc2:8353:8144%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 66.0.3, javascriptEnabled: true, moz:accessibilityChecks: false, moz:geckodriverVersion: 0.23.0, moz:headless: false, moz:processID: 2306, moz:profile: /var/folders/1t/c55l8xzs6gq..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 17.7.0, proxy: Proxy(direct), rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: b4c33494-c03e-034f-a528-8a31410d0bb6)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at HP-Mega menu - Hover-cannabis.run(HP-Mega menu - Hover-cannabis:33)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1557419968370.run(TempTestSuite1557419968370.groovy:36)
+"/>
+         <system-out><![CDATA[2019-05-09 12:42:42 - [TEST_CASE][FAILED] - Test Cases/OCS- HOME PAGE/HP-Mega menu - Hover-cannabis: Test Cases/OCS- HOME PAGE/HP-Mega menu - Hover-cannabis FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/mega-menu - cannabis/Page_Ontario Cannabis Store  Ontari/button_Verify' (Root cause: org.openqa.selenium.ElementClickInterceptedException: Element <button class="btn btn--outline" type="submit"> is not clickable at point (705,689) because another element <iframe id="preview-bar-iframe" src="https://ocs.ca/preview_bar"> obscures it
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'sumans-MacBook-Pro.local', ip: 'fe80:0:0:0:10eb:5cc2:8353:8144%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 66.0.3, javascriptEnabled: true, moz:accessibilityChecks: false, moz:geckodriverVersion: 0.23.0, moz:headless: false, moz:processID: 2306, moz:profile: /var/folders/1t/c55l8xzs6gq..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 17.7.0, proxy: Proxy(direct), rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: b4c33494-c03e-034f-a528-8a31410d0bb6)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at HP-Mega menu - Hover-cannabis.run(HP-Mega menu - Hover-cannabis:33)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1557419968370.run(TempTestSuite1557419968370.groovy:36)
+
+
+2019-05-09 12:42:42 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-05-09 12:42:42 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-05-09 12:42:42 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2019-05-09 12:42:44 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-05-09 12:42:44 - [TEST_STEP][PASSED] - navigateToUrl("https://ocs.ca/?fts=0&preview_theme_id=53373863756"): Navigate to 'https://ocs.ca/?fts=0&preview_theme_id=53373863756' successfully
+
+2019-05-09 12:42:48 - [MESSAGE][PASSED] - Navigate to 'https://ocs.ca/?fts=0&preview_theme_id=53373863756' successfully
+
+2019-05-09 12:42:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Theme_oR/Page_Ontario Cannabis Store  Ontari/button_Close preview")): Object: 'Object Repository/Theme_oR/Page_Ontario Cannabis Store  Ontari/button_Close preview' is clicked on
+
+2019-05-09 12:42:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Theme_oR/Page_Ontario Cannabis Store  Ontari/button_Close preview' is clicked on
+
+2019-05-09 12:42:49 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-05-09 12:42:49 - [MESSAGE][PASSED] - Current window maximized
+
+2019-05-09 12:42:49 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/mega-menu - cannabis/Page_Ontario Cannabis Store  Ontari/select_Select01020304050607080"), "1", true): All options with value '1' are selected in object 'Object Repository/mega-menu - cannabis/Page_Ontario Cannabis Store  Ontari/select_Select01020304050607080'  using regular expression
+
+2019-05-09 12:42:50 - [MESSAGE][PASSED] - All options with value '1' are selected in object 'Object Repository/mega-menu - cannabis/Page_Ontario Cannabis Store  Ontari/select_Select01020304050607080'  using regular expression
+
+2019-05-09 12:42:50 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/mega-menu - cannabis/Page_Ontario Cannabis Store  Ontari/select_SelectJanuary - 01Febru"), "0", true): All options with value '0' are selected in object 'Object Repository/mega-menu - cannabis/Page_Ontario Cannabis Store  Ontari/select_SelectJanuary - 01Febru'  using regular expression
+
+2019-05-09 12:42:50 - [MESSAGE][PASSED] - All options with value '0' are selected in object 'Object Repository/mega-menu - cannabis/Page_Ontario Cannabis Store  Ontari/select_SelectJanuary - 01Febru'  using regular expression
+
+2019-05-09 12:42:50 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/mega-menu - cannabis/Page_Ontario Cannabis Store  Ontari/select_Select20182017201620152"), "1968", true): All options with value '1968' are selected in object 'Object Repository/mega-menu - cannabis/Page_Ontario Cannabis Store  Ontari/select_Select20182017201620152'  using regular expression
+
+2019-05-09 12:42:52 - [MESSAGE][PASSED] - All options with value '1968' are selected in object 'Object Repository/mega-menu - cannabis/Page_Ontario Cannabis Store  Ontari/select_Select20182017201620152'  using regular expression
+
+2019-05-09 12:42:52 - [TEST_STEP][FAILED] - click(findTestObject("Object Repository/mega-menu - cannabis/Page_Ontario Cannabis Store  Ontari/button_Verify")): click(findTestObject("Object Repository/mega-menu - cannabis/Page_Ontario Cannabis Store  Ontari/button_Verify")) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/mega-menu - cannabis/Page_Ontario Cannabis Store  Ontari/button_Verify' (Root cause: org.openqa.selenium.ElementClickInterceptedException: Element <button class="btn btn--outline" type="submit"> is not clickable at point (705,689) because another element <iframe id="preview-bar-iframe" src="https://ocs.ca/preview_bar"> obscures it
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'sumans-MacBook-Pro.local', ip: 'fe80:0:0:0:10eb:5cc2:8353:8144%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 66.0.3, javascriptEnabled: true, moz:accessibilityChecks: false, moz:geckodriverVersion: 0.23.0, moz:headless: false, moz:processID: 2306, moz:profile: /var/folders/1t/c55l8xzs6gq..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 17.7.0, proxy: Proxy(direct), rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: b4c33494-c03e-034f-a528-8a31410d0bb6)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at HP-Mega menu - Hover-cannabis.run(HP-Mega menu - Hover-cannabis:33)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1557419968370.run(TempTestSuite1557419968370.groovy:36)
+
+
+2019-05-09 12:42:52 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/mega-menu - cannabis/Page_Ontario Cannabis Store  Ontari/button_Verify' (Root cause: org.openqa.selenium.ElementClickInterceptedException: Element <button class="btn btn--outline" type="submit"> is not clickable at point (705,689) because another element <iframe id="preview-bar-iframe" src="https://ocs.ca/preview_bar"> obscures it
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'sumans-MacBook-Pro.local', ip: 'fe80:0:0:0:10eb:5cc2:8353:8144%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 66.0.3, javascriptEnabled: true, moz:accessibilityChecks: false, moz:geckodriverVersion: 0.23.0, moz:headless: false, moz:processID: 2306, moz:profile: /var/folders/1t/c55l8xzs6gq..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 17.7.0, proxy: Proxy(direct), rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: b4c33494-c03e-034f-a528-8a31410d0bb6)
+[[ATTACHMENT|/Users/sumankompelly/git/Sample-OCS/Reports/OCS-09-05-2019 - Theme2/HOME PAGE - 09-05-2019/20190509_123928/1557420172723.png]]
+
+2019-05-09 12:42:52 - [MESSAGE][FAILED] - click(findTestObject("Object Repository/mega-menu - cannabis/Page_Ontario Cannabis Store  Ontari/button_Verify")) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/mega-menu - cannabis/Page_Ontario Cannabis Store  Ontari/button_Verify' (Root cause: org.openqa.selenium.ElementClickInterceptedException: Element <button class="btn btn--outline" type="submit"> is not clickable at point (705,689) because another element <iframe id="preview-bar-iframe" src="https://ocs.ca/preview_bar"> obscures it
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'sumans-MacBook-Pro.local', ip: 'fe80:0:0:0:10eb:5cc2:8353:8144%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 66.0.3, javascriptEnabled: true, moz:accessibilityChecks: false, moz:geckodriverVersion: 0.23.0, moz:headless: false, moz:processID: 2306, moz:profile: /var/folders/1t/c55l8xzs6gq..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 17.7.0, proxy: Proxy(direct), rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: b4c33494-c03e-034f-a528-8a31410d0bb6)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at HP-Mega menu - Hover-cannabis.run(HP-Mega menu - Hover-cannabis:33)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1557419968370.run(TempTestSuite1557419968370.groovy:36)]]></system-out>
+         <system-err><![CDATA[2019-05-09 12:42:42 - [TEST_CASE][FAILED] - Test Cases/OCS- HOME PAGE/HP-Mega menu - Hover-cannabis: Test Cases/OCS- HOME PAGE/HP-Mega menu - Hover-cannabis FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/mega-menu - cannabis/Page_Ontario Cannabis Store  Ontari/button_Verify' (Root cause: org.openqa.selenium.ElementClickInterceptedException: Element <button class="btn btn--outline" type="submit"> is not clickable at point (705,689) because another element <iframe id="preview-bar-iframe" src="https://ocs.ca/preview_bar"> obscures it
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'sumans-MacBook-Pro.local', ip: 'fe80:0:0:0:10eb:5cc2:8353:8144%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 66.0.3, javascriptEnabled: true, moz:accessibilityChecks: false, moz:geckodriverVersion: 0.23.0, moz:headless: false, moz:processID: 2306, moz:profile: /var/folders/1t/c55l8xzs6gq..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 17.7.0, proxy: Proxy(direct), rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: b4c33494-c03e-034f-a528-8a31410d0bb6)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at HP-Mega menu - Hover-cannabis.run(HP-Mega menu - Hover-cannabis:33)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1557419968370.run(TempTestSuite1557419968370.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/OCS- HOME PAGE/HP-Mega menu- Hover-Accessories" classname="Test Cases/OCS- HOME PAGE/HP-Mega menu- Hover-Accessories" status="PASSED">
+         <system-out><![CDATA[2019-05-09 12:42:52 - [TEST_CASE][PASSED] - Test Cases/OCS- HOME PAGE/HP-Mega menu- Hover-Accessories: Test Cases/OCS- HOME PAGE/HP-Mega menu- Hover-Accessories
+
+2019-05-09 12:42:53 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-05-09 12:42:53 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-05-09 12:42:53 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2019-05-09 12:42:55 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-05-09 12:42:55 - [TEST_STEP][PASSED] - navigateToUrl("https://ocs.ca/?fts=0&preview_theme_id=53373863756"): Navigate to 'https://ocs.ca/?fts=0&preview_theme_id=53373863756' successfully
+
+2019-05-09 12:43:00 - [MESSAGE][PASSED] - Navigate to 'https://ocs.ca/?fts=0&preview_theme_id=53373863756' successfully
+
+2019-05-09 12:43:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Theme_oR/Page_Ontario Cannabis Store  Ontari/button_Close preview")): Object: 'Object Repository/Theme_oR/Page_Ontario Cannabis Store  Ontari/button_Close preview' is clicked on
+
+2019-05-09 12:43:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Theme_oR/Page_Ontario Cannabis Store  Ontari/button_Close preview' is clicked on
+
+2019-05-09 12:43:00 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-05-09 12:43:01 - [MESSAGE][PASSED] - Current window maximized
+
+2019-05-09 12:43:01 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Accessories_OR/Page_Ontario Cannabis Store  Ontari/select_Select01020304050607080"), "1", true): All options with value '1' are selected in object 'Object Repository/Accessories_OR/Page_Ontario Cannabis Store  Ontari/select_Select01020304050607080'  using regular expression
+
+2019-05-09 12:43:01 - [MESSAGE][PASSED] - All options with value '1' are selected in object 'Object Repository/Accessories_OR/Page_Ontario Cannabis Store  Ontari/select_Select01020304050607080'  using regular expression
+
+2019-05-09 12:43:01 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Accessories_OR/Page_Ontario Cannabis Store  Ontari/select_SelectJanuary - 01Febru"), "0", true): All options with value '0' are selected in object 'Object Repository/Accessories_OR/Page_Ontario Cannabis Store  Ontari/select_SelectJanuary - 01Febru'  using regular expression
+
+2019-05-09 12:43:02 - [MESSAGE][PASSED] - All options with value '0' are selected in object 'Object Repository/Accessories_OR/Page_Ontario Cannabis Store  Ontari/select_SelectJanuary - 01Febru'  using regular expression
+
+2019-05-09 12:43:02 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Accessories_OR/Page_Ontario Cannabis Store  Ontari/select_Select20182017201620152"), "1968", true): All options with value '1968' are selected in object 'Object Repository/Accessories_OR/Page_Ontario Cannabis Store  Ontari/select_Select20182017201620152'  using regular expression
+
+2019-05-09 12:43:04 - [MESSAGE][PASSED] - All options with value '1968' are selected in object 'Object Repository/Accessories_OR/Page_Ontario Cannabis Store  Ontari/select_Select20182017201620152'  using regular expression
+
+2019-05-09 12:43:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Accessories_OR/Page_Ontario Cannabis Store  Ontari/button_Verify")): Object: 'Object Repository/Accessories_OR/Page_Ontario Cannabis Store  Ontari/button_Verify' is clicked on
+
+2019-05-09 12:43:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Accessories_OR/Page_Ontario Cannabis Store  Ontari/button_Verify' is clicked on
+
+2019-05-09 12:43:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Accessories_OR/Page_Ontario Cannabis Store  Ontari/span_CONFIRM AND ACKNOWLEDGE_c")): Object: 'Object Repository/Accessories_OR/Page_Ontario Cannabis Store  Ontari/span_CONFIRM AND ACKNOWLEDGE_c' is clicked on
+
+2019-05-09 12:43:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Accessories_OR/Page_Ontario Cannabis Store  Ontari/span_CONFIRM AND ACKNOWLEDGE_c' is clicked on
+
+2019-05-09 12:43:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Accessories_OR/Page_Ontario Cannabis Store  Ontari/button_CONFIRM")): Object: 'Object Repository/Accessories_OR/Page_Ontario Cannabis Store  Ontari/button_CONFIRM' is clicked on
+
+2019-05-09 12:43:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Accessories_OR/Page_Ontario Cannabis Store  Ontari/button_CONFIRM' is clicked on
+
+2019-05-09 12:43:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Accessories_OR/Page_Ontario Cannabis Store  Ontari/button_Start Browsing")): Object: 'Object Repository/Accessories_OR/Page_Ontario Cannabis Store  Ontari/button_Start Browsing' is clicked on
+
+2019-05-09 12:43:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Accessories_OR/Page_Ontario Cannabis Store  Ontari/button_Start Browsing' is clicked on
+
+2019-05-09 12:43:05 - [TEST_STEP][PASSED] - mouseOver(findTestObject("Object Repository/Accessories_OR/Page_Ontario Cannabis Store  Ontari/h3_Accessories")): Object: 'Object Repository/Accessories_OR/Page_Ontario Cannabis Store  Ontari/h3_Accessories' is hovered
+
+2019-05-09 12:43:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Accessories_OR/Page_Ontario Cannabis Store  Ontari/h3_Accessories' is hovered
+
+2019-05-09 12:43:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Accessories_OR/Page_Ontario Cannabis Store  Ontari/span_Vaporizers")): Object: 'Object Repository/Accessories_OR/Page_Ontario Cannabis Store  Ontari/span_Vaporizers' is clicked on
+
+2019-05-09 12:43:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Accessories_OR/Page_Ontario Cannabis Store  Ontari/span_Vaporizers' is clicked on
+
+2019-05-09 12:43:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Accessories_OR/Page_Vaporizers  Ontario Cannabis S/h3_Accessories")): Object: 'Object Repository/Accessories_OR/Page_Vaporizers  Ontario Cannabis S/h3_Accessories' is clicked on
+
+2019-05-09 12:43:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Accessories_OR/Page_Vaporizers  Ontario Cannabis S/h3_Accessories' is clicked on
+
+2019-05-09 12:43:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Accessories_OR/Page_Vaporizers  Ontario Cannabis S/span_Bongs  Water Pipes")): Object: 'Object Repository/Accessories_OR/Page_Vaporizers  Ontario Cannabis S/span_Bongs  Water Pipes' is clicked on
+
+2019-05-09 12:43:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Accessories_OR/Page_Vaporizers  Ontario Cannabis S/span_Bongs  Water Pipes' is clicked on
+
+2019-05-09 12:43:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Accessories_OR/Page_Bongs  Water Pipes  Ontario Ca/h3_Accessories")): Object: 'Object Repository/Accessories_OR/Page_Bongs  Water Pipes  Ontario Ca/h3_Accessories' is clicked on
+
+2019-05-09 12:43:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Accessories_OR/Page_Bongs  Water Pipes  Ontario Ca/h3_Accessories' is clicked on
+
+2019-05-09 12:43:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Accessories_OR/Page_Bongs  Water Pipes  Ontario Ca/span_Handheld Pipes")): Object: 'Object Repository/Accessories_OR/Page_Bongs  Water Pipes  Ontario Ca/span_Handheld Pipes' is clicked on
+
+2019-05-09 12:43:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Accessories_OR/Page_Bongs  Water Pipes  Ontario Ca/span_Handheld Pipes' is clicked on
+
+2019-05-09 12:43:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Accessories_OR/Page_Handheld Pipes  Ontario Cannab/h3_Accessories")): Object: 'Object Repository/Accessories_OR/Page_Handheld Pipes  Ontario Cannab/h3_Accessories' is clicked on
+
+2019-05-09 12:43:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Accessories_OR/Page_Handheld Pipes  Ontario Cannab/h3_Accessories' is clicked on
+
+2019-05-09 12:43:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Accessories_OR/Page_Handheld Pipes  Ontario Cannab/span_Papers  Filters")): Object: 'Object Repository/Accessories_OR/Page_Handheld Pipes  Ontario Cannab/span_Papers  Filters' is clicked on
+
+2019-05-09 12:43:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Accessories_OR/Page_Handheld Pipes  Ontario Cannab/span_Papers  Filters' is clicked on
+
+2019-05-09 12:43:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Accessories_OR/Page_Papers  Filters  Ontario Canna/h3_Accessories")): Object: 'Object Repository/Accessories_OR/Page_Papers  Filters  Ontario Canna/h3_Accessories' is clicked on
+
+2019-05-09 12:43:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Accessories_OR/Page_Papers  Filters  Ontario Canna/h3_Accessories' is clicked on
+
+2019-05-09 12:43:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Accessories_OR/Page_Papers  Filters  Ontario Canna/span_Grinders")): Object: 'Object Repository/Accessories_OR/Page_Papers  Filters  Ontario Canna/span_Grinders' is clicked on
+
+2019-05-09 12:43:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Accessories_OR/Page_Papers  Filters  Ontario Canna/span_Grinders' is clicked on
+
+2019-05-09 12:43:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Accessories_OR/Page_Grinders  Ontario Cannabis Sto/h3_Accessories")): Object: 'Object Repository/Accessories_OR/Page_Grinders  Ontario Cannabis Sto/h3_Accessories' is clicked on
+
+2019-05-09 12:43:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Accessories_OR/Page_Grinders  Ontario Cannabis Sto/h3_Accessories' is clicked on
+
+2019-05-09 12:43:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Accessories_OR/Page_Grinders  Ontario Cannabis Sto/span_Tools  Kits")): Object: 'Object Repository/Accessories_OR/Page_Grinders  Ontario Cannabis Sto/span_Tools  Kits' is clicked on
+
+2019-05-09 12:43:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Accessories_OR/Page_Grinders  Ontario Cannabis Sto/span_Tools  Kits' is clicked on
+
+2019-05-09 12:43:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Accessories_OR/Page_Multi-Tools  Kits  Ontario Can/h3_Accessories")): Object: 'Object Repository/Accessories_OR/Page_Multi-Tools  Kits  Ontario Can/h3_Accessories' is clicked on
+
+2019-05-09 12:43:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Accessories_OR/Page_Multi-Tools  Kits  Ontario Can/h3_Accessories' is clicked on
+
+2019-05-09 12:43:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Accessories_OR/Page_Multi-Tools  Kits  Ontario Can/span_Cleaning Supplies")): Object: 'Object Repository/Accessories_OR/Page_Multi-Tools  Kits  Ontario Can/span_Cleaning Supplies' is clicked on
+
+2019-05-09 12:43:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Accessories_OR/Page_Multi-Tools  Kits  Ontario Can/span_Cleaning Supplies' is clicked on
+
+2019-05-09 12:43:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Accessories_OR/Page_Cleaning Supplies  Ontario Can/h3_Accessories")): Object: 'Object Repository/Accessories_OR/Page_Cleaning Supplies  Ontario Can/h3_Accessories' is clicked on
+
+2019-05-09 12:43:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Accessories_OR/Page_Cleaning Supplies  Ontario Can/h3_Accessories' is clicked on
+
+2019-05-09 12:43:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Accessories_OR/Page_Cleaning Supplies  Ontario Can/span_Storage")): Object: 'Object Repository/Accessories_OR/Page_Cleaning Supplies  Ontario Can/span_Storage' is clicked on
+
+2019-05-09 12:43:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Accessories_OR/Page_Cleaning Supplies  Ontario Can/span_Storage' is clicked on
+
+2019-05-09 12:43:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Accessories_OR/Page_Storage  Ontario Cannabis Stor/h3_Accessories")): Object: 'Object Repository/Accessories_OR/Page_Storage  Ontario Cannabis Stor/h3_Accessories' is clicked on
+
+2019-05-09 12:43:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Accessories_OR/Page_Storage  Ontario Cannabis Stor/h3_Accessories' is clicked on
+
+2019-05-09 12:43:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Accessories_OR/Page_Storage  Ontario Cannabis Stor/span_Trays")): Object: 'Object Repository/Accessories_OR/Page_Storage  Ontario Cannabis Stor/span_Trays' is clicked on
+
+2019-05-09 12:43:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Accessories_OR/Page_Storage  Ontario Cannabis Stor/span_Trays' is clicked on
+
+2019-05-09 12:43:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Accessories_OR/Page_Trays  Ontario Cannabis Store/h3_Accessories")): Object: 'Object Repository/Accessories_OR/Page_Trays  Ontario Cannabis Store/h3_Accessories' is clicked on
+
+2019-05-09 12:43:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Accessories_OR/Page_Trays  Ontario Cannabis Store/h3_Accessories' is clicked on
+
+2019-05-09 12:43:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Accessories_OR/Page_Trays  Ontario Cannabis Store/span_Infusers")): Object: 'Object Repository/Accessories_OR/Page_Trays  Ontario Cannabis Store/span_Infusers' is clicked on
+
+2019-05-09 12:43:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Accessories_OR/Page_Trays  Ontario Cannabis Store/span_Infusers' is clicked on
+
+2019-05-09 12:43:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Accessories_OR/Page_Infusers  Ontario Cannabis Sto/h3_Accessories")): Object: 'Object Repository/Accessories_OR/Page_Infusers  Ontario Cannabis Sto/h3_Accessories' is clicked on
+
+2019-05-09 12:43:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Accessories_OR/Page_Infusers  Ontario Cannabis Sto/h3_Accessories' is clicked on
+
+2019-05-09 12:43:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Accessories_OR/Page_Infusers  Ontario Cannabis Sto/p_Bongs  Water Pipes")): Object: 'Object Repository/Accessories_OR/Page_Infusers  Ontario Cannabis Sto/p_Bongs  Water Pipes' is clicked on
+
+2019-05-09 12:43:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Accessories_OR/Page_Infusers  Ontario Cannabis Sto/p_Bongs  Water Pipes' is clicked on
+
+2019-05-09 12:43:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Accessories_OR/Page_Bongs  Water Pipes  Ontario Ca/h3_Accessories")): Object: 'Object Repository/Accessories_OR/Page_Bongs  Water Pipes  Ontario Ca/h3_Accessories' is clicked on
+
+2019-05-09 12:43:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Accessories_OR/Page_Bongs  Water Pipes  Ontario Ca/h3_Accessories' is clicked on
+
+2019-05-09 12:43:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Accessories_OR/Page_Bongs  Water Pipes  Ontario Ca/p_Papers  Filters")): Object: 'Object Repository/Accessories_OR/Page_Bongs  Water Pipes  Ontario Ca/p_Papers  Filters' is clicked on
+
+2019-05-09 12:43:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Accessories_OR/Page_Bongs  Water Pipes  Ontario Ca/p_Papers  Filters' is clicked on
+
+2019-05-09 12:43:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Accessories_OR/Page_Papers  Filters  Ontario Canna/h3_Accessories")): Object: 'Object Repository/Accessories_OR/Page_Papers  Filters  Ontario Canna/h3_Accessories' is clicked on
+
+2019-05-09 12:43:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Accessories_OR/Page_Papers  Filters  Ontario Canna/h3_Accessories' is clicked on
+
+2019-05-09 12:43:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Accessories_OR/Page_Papers  Filters  Ontario Canna/a_SHOP ALL ACCESSORIES")): Object: 'Object Repository/Accessories_OR/Page_Papers  Filters  Ontario Canna/a_SHOP ALL ACCESSORIES' is clicked on
+
+2019-05-09 12:43:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Accessories_OR/Page_Papers  Filters  Ontario Canna/a_SHOP ALL ACCESSORIES' is clicked on
+
+2019-05-09 12:43:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Accessories_OR/Page_All Accessories  Ontario Canna/h3_Accessories")): Object: 'Object Repository/Accessories_OR/Page_All Accessories  Ontario Canna/h3_Accessories' is clicked on
+
+2019-05-09 12:43:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Accessories_OR/Page_All Accessories  Ontario Canna/h3_Accessories' is clicked on
+
+2019-05-09 12:43:31 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-05-09 12:43:32 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/OCS- HOME PAGE/Retail stores link" classname="Test Cases/OCS- HOME PAGE/Retail stores link" status="FAILED">
+         <failure type="FAILED" message="Test Cases/OCS- HOME PAGE/Retail stores link FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to switch to window with url: 'https://www.agco.ca/sites/default/files/map/ONT_CN_ST_E.html' (Root cause: com.kms.katalon.core.exception.StepFailedException: Cannot find window with url: 'https://www.agco.ca/sites/default/files/map/ONT_CN_ST_E.html')
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToWindowUrlKeyword.switchToWindowUrl(SwitchToWindowUrlKeyword.groovy:84)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToWindowUrlKeyword.execute(SwitchToWindowUrlKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.switchToWindowUrl(WebUiBuiltInKeywords.groovy:1794)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$switchToWindowUrl$10.call(Unknown Source)
+	at Retail stores link.run(Retail stores link:49)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1557419968370.run(TempTestSuite1557419968370.groovy:36)
+"/>
+         <system-out><![CDATA[2019-05-09 12:43:32 - [TEST_CASE][FAILED] - Test Cases/OCS- HOME PAGE/Retail stores link: Test Cases/OCS- HOME PAGE/Retail stores link FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to switch to window with url: 'https://www.agco.ca/sites/default/files/map/ONT_CN_ST_E.html' (Root cause: com.kms.katalon.core.exception.StepFailedException: Cannot find window with url: 'https://www.agco.ca/sites/default/files/map/ONT_CN_ST_E.html')
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToWindowUrlKeyword.switchToWindowUrl(SwitchToWindowUrlKeyword.groovy:84)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToWindowUrlKeyword.execute(SwitchToWindowUrlKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.switchToWindowUrl(WebUiBuiltInKeywords.groovy:1794)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$switchToWindowUrl$10.call(Unknown Source)
+	at Retail stores link.run(Retail stores link:49)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1557419968370.run(TempTestSuite1557419968370.groovy:36)
+
+
+2019-05-09 12:43:33 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-05-09 12:43:33 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2019-05-09 12:43:35 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-05-09 12:43:35 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2019-05-09 12:43:45 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-05-09 12:43:45 - [TEST_STEP][PASSED] - navigateToUrl("https://ocs.ca/?fts=0&preview_theme_id=53373863756"): Navigate to 'https://ocs.ca/?fts=0&preview_theme_id=53373863756' successfully
+
+2019-05-09 12:43:52 - [MESSAGE][PASSED] - Navigate to 'https://ocs.ca/?fts=0&preview_theme_id=53373863756' successfully
+
+2019-05-09 12:43:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Theme_oR/Page_Ontario Cannabis Store  Ontari/button_Close preview")): Object: 'Object Repository/Theme_oR/Page_Ontario Cannabis Store  Ontari/button_Close preview' is clicked on
+
+2019-05-09 12:43:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Theme_oR/Page_Ontario Cannabis Store  Ontari/button_Close preview' is clicked on
+
+2019-05-09 12:43:53 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-05-09 12:43:53 - [MESSAGE][PASSED] - Current window maximized
+
+2019-05-09 12:43:53 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Retail store_OR/Page_Ontario Cannabis Store  Ontari/select_Select01020304050607080"), "1", true): All options with value '1' are selected in object 'Object Repository/Retail store_OR/Page_Ontario Cannabis Store  Ontari/select_Select01020304050607080'  using regular expression
+
+2019-05-09 12:43:54 - [MESSAGE][PASSED] - All options with value '1' are selected in object 'Object Repository/Retail store_OR/Page_Ontario Cannabis Store  Ontari/select_Select01020304050607080'  using regular expression
+
+2019-05-09 12:43:54 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Retail store_OR/Page_Ontario Cannabis Store  Ontari/select_SelectJanuary - 01Febru"), "0", true): All options with value '0' are selected in object 'Object Repository/Retail store_OR/Page_Ontario Cannabis Store  Ontari/select_SelectJanuary - 01Febru'  using regular expression
+
+2019-05-09 12:43:55 - [MESSAGE][PASSED] - All options with value '0' are selected in object 'Object Repository/Retail store_OR/Page_Ontario Cannabis Store  Ontari/select_SelectJanuary - 01Febru'  using regular expression
+
+2019-05-09 12:43:55 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Retail store_OR/Page_Ontario Cannabis Store  Ontari/select_Select20182017201620152"), "1968", true): All options with value '1968' are selected in object 'Object Repository/Retail store_OR/Page_Ontario Cannabis Store  Ontari/select_Select20182017201620152'  using regular expression
+
+2019-05-09 12:43:56 - [MESSAGE][PASSED] - All options with value '1968' are selected in object 'Object Repository/Retail store_OR/Page_Ontario Cannabis Store  Ontari/select_Select20182017201620152'  using regular expression
+
+2019-05-09 12:43:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Retail store_OR/Page_Ontario Cannabis Store  Ontari/button_Verify")): Object: 'Object Repository/Retail store_OR/Page_Ontario Cannabis Store  Ontari/button_Verify' is clicked on
+
+2019-05-09 12:43:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Retail store_OR/Page_Ontario Cannabis Store  Ontari/button_Verify' is clicked on
+
+2019-05-09 12:43:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Retail store_OR/Page_Ontario Cannabis Store  Ontari/span_CONFIRM AND ACKNOWLEDGE_c")): Object: 'Object Repository/Retail store_OR/Page_Ontario Cannabis Store  Ontari/span_CONFIRM AND ACKNOWLEDGE_c' is clicked on
+
+2019-05-09 12:43:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Retail store_OR/Page_Ontario Cannabis Store  Ontari/span_CONFIRM AND ACKNOWLEDGE_c' is clicked on
+
+2019-05-09 12:43:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Retail store_OR/Page_Ontario Cannabis Store  Ontari/button_CONFIRM")): Object: 'Object Repository/Retail store_OR/Page_Ontario Cannabis Store  Ontari/button_CONFIRM' is clicked on
+
+2019-05-09 12:43:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Retail store_OR/Page_Ontario Cannabis Store  Ontari/button_CONFIRM' is clicked on
+
+2019-05-09 12:43:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Retail store_OR/Page_Ontario Cannabis Store  Ontari/button_Start Browsing")): Object: 'Object Repository/Retail store_OR/Page_Ontario Cannabis Store  Ontari/button_Start Browsing' is clicked on
+
+2019-05-09 12:43:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Retail store_OR/Page_Ontario Cannabis Store  Ontari/button_Start Browsing' is clicked on
+
+2019-05-09 12:43:57 - [TEST_STEP][PASSED] - click(findTestObject("Retail store_OR/Page_Ontario Cannabis Store  Ontari/a_AGCO authorized cannabis ret")): Object: 'Object Repository/Retail store_OR/Page_Ontario Cannabis Store  Ontari/a_AGCO authorized cannabis ret' is clicked on
+
+2019-05-09 12:43:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Retail store_OR/Page_Ontario Cannabis Store  Ontari/a_AGCO authorized cannabis ret' is clicked on
+
+2019-05-09 12:43:58 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-05-09 12:44:03 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-05-09 12:44:03 - [TEST_STEP][NOT_RUN] - a = getUrl(): NOT_RUN: a = getUrl()
+
+2019-05-09 12:44:03 - [MESSAGE][NOT_RUN] - NOT_RUN: a = getUrl()
+
+2019-05-09 12:44:03 - [TEST_STEP][FAILED] - switchToWindowUrl("https://www.agco.ca/sites/default/files/map/ONT_CN_ST_E.html", STOP_ON_FAILURE): switchToWindowUrl("https://www.agco.ca/sites/default/files/map/ONT_CN_ST_E.html", STOP_ON_FAILURE) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to switch to window with url: 'https://www.agco.ca/sites/default/files/map/ONT_CN_ST_E.html' (Root cause: com.kms.katalon.core.exception.StepFailedException: Cannot find window with url: 'https://www.agco.ca/sites/default/files/map/ONT_CN_ST_E.html')
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToWindowUrlKeyword.switchToWindowUrl(SwitchToWindowUrlKeyword.groovy:84)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToWindowUrlKeyword.execute(SwitchToWindowUrlKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.switchToWindowUrl(WebUiBuiltInKeywords.groovy:1794)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$switchToWindowUrl$10.call(Unknown Source)
+	at Retail stores link.run(Retail stores link:49)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1557419968370.run(TempTestSuite1557419968370.groovy:36)
+
+
+2019-05-09 12:44:36 - [MESSAGE][FAILED] - Cannot find window with url: 'https://www.agco.ca/sites/default/files/map/ONT_CN_ST_E.html'
+[[ATTACHMENT|/Users/sumankompelly/git/Sample-OCS/Reports/OCS-09-05-2019 - Theme2/HOME PAGE - 09-05-2019/20190509_123928/1557420276096.png]]
+
+2019-05-09 12:44:36 - [MESSAGE][FAILED] - Unable to switch to window with url: 'https://www.agco.ca/sites/default/files/map/ONT_CN_ST_E.html' (Root cause: com.kms.katalon.core.exception.StepFailedException: Cannot find window with url: 'https://www.agco.ca/sites/default/files/map/ONT_CN_ST_E.html')
+[[ATTACHMENT|/Users/sumankompelly/git/Sample-OCS/Reports/OCS-09-05-2019 - Theme2/HOME PAGE - 09-05-2019/20190509_123928/1557420276265.png]]
+
+2019-05-09 12:44:36 - [MESSAGE][FAILED] - switchToWindowUrl("https://www.agco.ca/sites/default/files/map/ONT_CN_ST_E.html", STOP_ON_FAILURE) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to switch to window with url: 'https://www.agco.ca/sites/default/files/map/ONT_CN_ST_E.html' (Root cause: com.kms.katalon.core.exception.StepFailedException: Cannot find window with url: 'https://www.agco.ca/sites/default/files/map/ONT_CN_ST_E.html')
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToWindowUrlKeyword.switchToWindowUrl(SwitchToWindowUrlKeyword.groovy:84)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToWindowUrlKeyword.execute(SwitchToWindowUrlKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.switchToWindowUrl(WebUiBuiltInKeywords.groovy:1794)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$switchToWindowUrl$10.call(Unknown Source)
+	at Retail stores link.run(Retail stores link:49)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1557419968370.run(TempTestSuite1557419968370.groovy:36)]]></system-out>
+         <system-err><![CDATA[2019-05-09 12:43:32 - [TEST_CASE][FAILED] - Test Cases/OCS- HOME PAGE/Retail stores link: Test Cases/OCS- HOME PAGE/Retail stores link FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to switch to window with url: 'https://www.agco.ca/sites/default/files/map/ONT_CN_ST_E.html' (Root cause: com.kms.katalon.core.exception.StepFailedException: Cannot find window with url: 'https://www.agco.ca/sites/default/files/map/ONT_CN_ST_E.html')
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToWindowUrlKeyword.switchToWindowUrl(SwitchToWindowUrlKeyword.groovy:84)
+	at com.kms.katalon.core.webui.keyword.builtin.SwitchToWindowUrlKeyword.execute(SwitchToWindowUrlKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.switchToWindowUrl(WebUiBuiltInKeywords.groovy:1794)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$switchToWindowUrl$10.call(Unknown Source)
+	at Retail stores link.run(Retail stores link:49)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1557419968370.run(TempTestSuite1557419968370.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/OCS- HOME PAGE/Toggling language" classname="Test Cases/OCS- HOME PAGE/Toggling language" status="FAILED">
+         <failure type="FAILED" message="Test Cases/OCS- HOME PAGE/Toggling language FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Text 'Découvrez nos variétés de cannabis les plus vendues' is not present on page 
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:32)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:21)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1677)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$11.call(Unknown Source)
+	at Toggling language.run(Toggling language:51)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1557419968370.run(TempTestSuite1557419968370.groovy:36)
+"/>
+         <system-out><![CDATA[2019-05-09 12:44:36 - [TEST_CASE][FAILED] - Test Cases/OCS- HOME PAGE/Toggling language: Test Cases/OCS- HOME PAGE/Toggling language FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Text 'Découvrez nos variétés de cannabis les plus vendues' is not present on page 
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:32)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:21)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1677)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$11.call(Unknown Source)
+	at Toggling language.run(Toggling language:51)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1557419968370.run(TempTestSuite1557419968370.groovy:36)
+
+
+2019-05-09 12:44:36 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-05-09 12:44:36 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-05-09 12:44:36 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2019-05-09 12:44:39 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-05-09 12:44:39 - [TEST_STEP][PASSED] - navigateToUrl("https://ocs.ca/?fts=0&preview_theme_id=53373863756"): Navigate to 'https://ocs.ca/?fts=0&preview_theme_id=53373863756' successfully
+
+2019-05-09 12:44:45 - [MESSAGE][PASSED] - Navigate to 'https://ocs.ca/?fts=0&preview_theme_id=53373863756' successfully
+
+2019-05-09 12:44:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Theme_oR/Page_Ontario Cannabis Store  Ontari/button_Close preview")): Object: 'Object Repository/Theme_oR/Page_Ontario Cannabis Store  Ontari/button_Close preview' is clicked on
+
+2019-05-09 12:44:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Theme_oR/Page_Ontario Cannabis Store  Ontari/button_Close preview' is clicked on
+
+2019-05-09 12:44:46 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-05-09 12:44:47 - [MESSAGE][PASSED] - Current window maximized
+
+2019-05-09 12:44:47 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("language_OR/Page_Ontario Cannabis Store  Ontari/select_Select01020304050607080"), "1", true): All options with value '1' are selected in object 'Object Repository/language_OR/Page_Ontario Cannabis Store  Ontari/select_Select01020304050607080'  using regular expression
+
+2019-05-09 12:44:48 - [MESSAGE][PASSED] - All options with value '1' are selected in object 'Object Repository/language_OR/Page_Ontario Cannabis Store  Ontari/select_Select01020304050607080'  using regular expression
+
+2019-05-09 12:44:48 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/language_OR/Page_Ontario Cannabis Store  Ontari/select_SelectJanuary - 01Febru"), "0", true): All options with value '0' are selected in object 'Object Repository/language_OR/Page_Ontario Cannabis Store  Ontari/select_SelectJanuary - 01Febru'  using regular expression
+
+2019-05-09 12:44:48 - [MESSAGE][PASSED] - All options with value '0' are selected in object 'Object Repository/language_OR/Page_Ontario Cannabis Store  Ontari/select_SelectJanuary - 01Febru'  using regular expression
+
+2019-05-09 12:44:48 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/language_OR/Page_Ontario Cannabis Store  Ontari/select_Select20182017201620152"), "1968", true): All options with value '1968' are selected in object 'Object Repository/language_OR/Page_Ontario Cannabis Store  Ontari/select_Select20182017201620152'  using regular expression
+
+2019-05-09 12:44:50 - [MESSAGE][PASSED] - All options with value '1968' are selected in object 'Object Repository/language_OR/Page_Ontario Cannabis Store  Ontari/select_Select20182017201620152'  using regular expression
+
+2019-05-09 12:44:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/language_OR/Page_Ontario Cannabis Store  Ontari/button_Verify")): Object: 'Object Repository/language_OR/Page_Ontario Cannabis Store  Ontari/button_Verify' is clicked on
+
+2019-05-09 12:44:50 - [MESSAGE][PASSED] - Object: 'Object Repository/language_OR/Page_Ontario Cannabis Store  Ontari/button_Verify' is clicked on
+
+2019-05-09 12:44:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/language_OR/Page_Ontario Cannabis Store  Ontari/span_CONFIRM AND ACKNOWLEDGE_c")): Object: 'Object Repository/language_OR/Page_Ontario Cannabis Store  Ontari/span_CONFIRM AND ACKNOWLEDGE_c' is clicked on
+
+2019-05-09 12:44:50 - [MESSAGE][PASSED] - Object: 'Object Repository/language_OR/Page_Ontario Cannabis Store  Ontari/span_CONFIRM AND ACKNOWLEDGE_c' is clicked on
+
+2019-05-09 12:44:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/language_OR/Page_Ontario Cannabis Store  Ontari/button_CONFIRM")): Object: 'Object Repository/language_OR/Page_Ontario Cannabis Store  Ontari/button_CONFIRM' is clicked on
+
+2019-05-09 12:44:51 - [MESSAGE][PASSED] - Object: 'Object Repository/language_OR/Page_Ontario Cannabis Store  Ontari/button_CONFIRM' is clicked on
+
+2019-05-09 12:44:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/language_OR/Page_Ontario Cannabis Store  Ontari/button_Start Browsing")): Object: 'Object Repository/language_OR/Page_Ontario Cannabis Store  Ontari/button_Start Browsing' is clicked on
+
+2019-05-09 12:44:51 - [MESSAGE][PASSED] - Object: 'Object Repository/language_OR/Page_Ontario Cannabis Store  Ontari/button_Start Browsing' is clicked on
+
+2019-05-09 12:44:51 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-05-09 12:44:53 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-09 12:44:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/language_OR/Page_Ontario Cannabis Store  Ontari/p_English")): Object: 'Object Repository/language_OR/Page_Ontario Cannabis Store  Ontari/p_English' is clicked on
+
+2019-05-09 12:44:53 - [MESSAGE][PASSED] - Object: 'Object Repository/language_OR/Page_Ontario Cannabis Store  Ontari/p_English' is clicked on
+
+2019-05-09 12:44:53 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-05-09 12:44:55 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-09 12:44:55 - [TEST_STEP][PASSED] - click(findTestObject("language_OR/Page_Ontario Cannabis Store  Ontari/a_Franais")): Object: 'Object Repository/language_OR/Page_Ontario Cannabis Store  Ontari/a_Franais' is clicked on
+
+2019-05-09 12:44:55 - [MESSAGE][PASSED] - Object: 'Object Repository/language_OR/Page_Ontario Cannabis Store  Ontari/a_Franais' is clicked on
+
+2019-05-09 12:44:55 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-05-09 12:44:57 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-09 12:44:57 - [TEST_STEP][FAILED] - flag = verifyTextPresent("Découvrez nos variétés de cannabis les plus vendues", false, CONTINUE_ON_FAILURE): Text 'Découvrez nos variétés de cannabis les plus vendues' is not present on page 
+
+2019-05-09 12:44:58 - [MESSAGE][FAILED] - Text 'Découvrez nos variétés de cannabis les plus vendues' is not present on page 
+
+2019-05-09 12:44:58 - [TEST_STEP][PASSED] - comment("flag = " + flag): flag = false
+
+2019-05-09 12:44:58 - [MESSAGE][INFO] - flag = false
+
+2019-05-09 12:44:58 - [TEST_STEP][PASSED] - if (flag == true): null
+
+2019-05-09 12:44:58 - [TEST_STEP][PASSED] - else:  French text not  found 
+
+2019-05-09 12:44:58 - [TEST_STEP][PASSED] - comment(" French text not  found "):  French text not  found 
+
+2019-05-09 12:44:58 - [MESSAGE][INFO] -  French text not  found 
+
+2019-05-09 12:44:58 - [TEST_STEP][PASSED] - click(findTestObject("language_OR/Page_Magasin de Cannabis de lOntari/p_Franais")): Object: 'Object Repository/language_OR/Page_Magasin de Cannabis de lOntari/p_Franais' is clicked on
+
+2019-05-09 12:44:58 - [MESSAGE][PASSED] - Object: 'Object Repository/language_OR/Page_Magasin de Cannabis de lOntari/p_Franais' is clicked on
+
+2019-05-09 12:44:58 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-05-09 12:45:00 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-09 12:45:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/language_OR/Page_Magasin de Cannabis de lOntari/a_English")): Object: 'Object Repository/language_OR/Page_Magasin de Cannabis de lOntari/a_English' is clicked on
+
+2019-05-09 12:45:00 - [MESSAGE][PASSED] - Object: 'Object Repository/language_OR/Page_Magasin de Cannabis de lOntari/a_English' is clicked on
+
+2019-05-09 12:45:00 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-05-09 12:45:02 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-09 12:45:02 - [TEST_STEP][FAILED] - verifyTextPresent("Shop Our Best-Selling Cannabis Strains", false, CONTINUE_ON_FAILURE): Text 'Shop Our Best-Selling Cannabis Strains' is not present on page 
+
+2019-05-09 12:45:03 - [MESSAGE][FAILED] - Text 'Shop Our Best-Selling Cannabis Strains' is not present on page 
+
+2019-05-09 12:45:03 - [TEST_STEP][FAILED] - if (true): if (true) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Text 'Découvrez nos variétés de cannabis les plus vendues' is not present on page 
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:32)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:21)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1677)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$11.call(Unknown Source)
+	at Toggling language.run(Toggling language:51)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1557419968370.run(TempTestSuite1557419968370.groovy:36)
+
+
+2019-05-09 12:45:03 - [TEST_STEP][FAILED] - comment(" Language changing is successful"): if (true) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Text 'Découvrez nos variétés de cannabis les plus vendues' is not present on page 
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:32)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:21)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1677)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$11.call(Unknown Source)
+	at Toggling language.run(Toggling language:51)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1557419968370.run(TempTestSuite1557419968370.groovy:36)
+
+
+2019-05-09 12:45:03 - [MESSAGE][INFO] -  Language changing is successful
+
+2019-05-09 12:45:03 - [MESSAGE][FAILED] - if (true) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Text 'Découvrez nos variétés de cannabis les plus vendues' is not present on page 
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:32)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:21)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1677)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$11.call(Unknown Source)
+	at Toggling language.run(Toggling language:51)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1557419968370.run(TempTestSuite1557419968370.groovy:36)]]></system-out>
+         <system-err><![CDATA[2019-05-09 12:44:36 - [TEST_CASE][FAILED] - Test Cases/OCS- HOME PAGE/Toggling language: Test Cases/OCS- HOME PAGE/Toggling language FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Text 'Découvrez nos variétés de cannabis les plus vendues' is not present on page 
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:32)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:21)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1677)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$11.call(Unknown Source)
+	at Toggling language.run(Toggling language:51)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1557419968370.run(TempTestSuite1557419968370.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/OCS- HOME PAGE/why trust OCS" classname="Test Cases/OCS- HOME PAGE/why trust OCS" status="PASSED">
+         <system-out><![CDATA[2019-05-09 12:45:03 - [TEST_CASE][PASSED] - Test Cases/OCS- HOME PAGE/why trust OCS: Test Cases/OCS- HOME PAGE/why trust OCS
+
+2019-05-09 12:45:03 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-05-09 12:45:03 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-05-09 12:45:03 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2019-05-09 12:45:05 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-05-09 12:45:05 - [TEST_STEP][PASSED] - navigateToUrl("https://ocs.ca/?fts=0&preview_theme_id=53373863756"): Navigate to 'https://ocs.ca/?fts=0&preview_theme_id=53373863756' successfully
+
+2019-05-09 12:45:13 - [MESSAGE][PASSED] - Navigate to 'https://ocs.ca/?fts=0&preview_theme_id=53373863756' successfully
+
+2019-05-09 12:45:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Theme_oR/Page_Ontario Cannabis Store  Ontari/button_Close preview")): Object: 'Object Repository/Theme_oR/Page_Ontario Cannabis Store  Ontari/button_Close preview' is clicked on
+
+2019-05-09 12:45:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Theme_oR/Page_Ontario Cannabis Store  Ontari/button_Close preview' is clicked on
+
+2019-05-09 12:45:14 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-05-09 12:45:14 - [MESSAGE][PASSED] - Current window maximized
+
+2019-05-09 12:45:14 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Why trust OCS_OR/Page_Ontario Cannabis Store  Ontari/select_Select01020304050607080"), "15", true): All options with value '15' are selected in object 'Object Repository/Why trust OCS_OR/Page_Ontario Cannabis Store  Ontari/select_Select01020304050607080'  using regular expression
+
+2019-05-09 12:45:15 - [MESSAGE][PASSED] - All options with value '15' are selected in object 'Object Repository/Why trust OCS_OR/Page_Ontario Cannabis Store  Ontari/select_Select01020304050607080'  using regular expression
+
+2019-05-09 12:45:15 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Why trust OCS_OR/Page_Ontario Cannabis Store  Ontari/select_SelectJanuary - 01Febru"), "7", true): All options with value '7' are selected in object 'Object Repository/Why trust OCS_OR/Page_Ontario Cannabis Store  Ontari/select_SelectJanuary - 01Febru'  using regular expression
+
+2019-05-09 12:45:16 - [MESSAGE][PASSED] - All options with value '7' are selected in object 'Object Repository/Why trust OCS_OR/Page_Ontario Cannabis Store  Ontari/select_SelectJanuary - 01Febru'  using regular expression
+
+2019-05-09 12:45:16 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Why trust OCS_OR/Page_Ontario Cannabis Store  Ontari/select_Select20182017201620152"), "1956", true): All options with value '1956' are selected in object 'Object Repository/Why trust OCS_OR/Page_Ontario Cannabis Store  Ontari/select_Select20182017201620152'  using regular expression
+
+2019-05-09 12:45:18 - [MESSAGE][PASSED] - All options with value '1956' are selected in object 'Object Repository/Why trust OCS_OR/Page_Ontario Cannabis Store  Ontari/select_Select20182017201620152'  using regular expression
+
+2019-05-09 12:45:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Why trust OCS_OR/Page_Ontario Cannabis Store  Ontari/button_Verify")): Object: 'Object Repository/Why trust OCS_OR/Page_Ontario Cannabis Store  Ontari/button_Verify' is clicked on
+
+2019-05-09 12:45:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Why trust OCS_OR/Page_Ontario Cannabis Store  Ontari/button_Verify' is clicked on
+
+2019-05-09 12:45:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Why trust OCS_OR/Page_Ontario Cannabis Store  Ontari/span_CONFIRM AND ACKNOWLEDGE_c")): Object: 'Object Repository/Why trust OCS_OR/Page_Ontario Cannabis Store  Ontari/span_CONFIRM AND ACKNOWLEDGE_c' is clicked on
+
+2019-05-09 12:45:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Why trust OCS_OR/Page_Ontario Cannabis Store  Ontari/span_CONFIRM AND ACKNOWLEDGE_c' is clicked on
+
+2019-05-09 12:45:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Why trust OCS_OR/Page_Ontario Cannabis Store  Ontari/button_CONFIRM")): Object: 'Object Repository/Why trust OCS_OR/Page_Ontario Cannabis Store  Ontari/button_CONFIRM' is clicked on
+
+2019-05-09 12:45:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Why trust OCS_OR/Page_Ontario Cannabis Store  Ontari/button_CONFIRM' is clicked on
+
+2019-05-09 12:45:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Why trust OCS_OR/Page_Ontario Cannabis Store  Ontari/button_Start Browsing")): Object: 'Object Repository/Why trust OCS_OR/Page_Ontario Cannabis Store  Ontari/button_Start Browsing' is clicked on
+
+2019-05-09 12:45:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Why trust OCS_OR/Page_Ontario Cannabis Store  Ontari/button_Start Browsing' is clicked on
+
+2019-05-09 12:45:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Why trust OCS_OR/Page_Ontario Cannabis Store  Ontari/img")): Object: 'Object Repository/Why trust OCS_OR/Page_Ontario Cannabis Store  Ontari/img' is clicked on
+
+2019-05-09 12:45:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Why trust OCS_OR/Page_Ontario Cannabis Store  Ontari/img' is clicked on
+
+2019-05-09 12:45:22 - [TEST_STEP][PASSED] - a = getWindowTitle(): Current window's title is: 'Why Trust Us? | Ontario Cannabis Store'
+
+2019-05-09 12:45:22 - [MESSAGE][PASSED] - Current window's title is: 'Why Trust Us? | Ontario Cannabis Store'
+
+2019-05-09 12:45:22 - [TEST_STEP][PASSED] - assert getWindowTitle() == a: Current window's title is: 'Why Trust Us? | Ontario Cannabis Store'
+
+2019-05-09 12:45:22 - [MESSAGE][PASSED] - Current window's title is: 'Why Trust Us? | Ontario Cannabis Store'
+
+2019-05-09 12:45:22 - [TEST_STEP][PASSED] - back(): Navigate back successfully
+
+2019-05-09 12:45:22 - [MESSAGE][PASSED] - Navigate back successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-05-09 12:39:30 - [TEST_SUITE][FAILED] - HOME PAGE - 09-05-2019: Test Cases/OCS- HOME PAGE/footer FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Footer_OR/Page_Product Recall  Ontario Cannab/a_Government of Ontario - Cann' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Footer_OR/Page_Product Recall  Ontario Cannab/a_Government of Ontario - Cann' located by 'By.xpath: //div[@id='shopify-section-en-footer']/footer/div/div/section/nav/ul/li[5]/a' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at footer.run(footer:49)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1557419968370.run(TempTestSuite1557419968370.groovy:36)]]></system-out>
+      <system-err><![CDATA[2019-05-09 12:39:30 - [TEST_SUITE][FAILED] - HOME PAGE - 09-05-2019: Test Cases/OCS- HOME PAGE/footer FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Footer_OR/Page_Product Recall  Ontario Cannab/a_Government of Ontario - Cann' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Footer_OR/Page_Product Recall  Ontario Cannab/a_Government of Ontario - Cann' located by 'By.xpath: //div[@id='shopify-section-en-footer']/footer/div/div/section/nav/ul/li[5]/a' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at footer.run(footer:49)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1557419968370.run(TempTestSuite1557419968370.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>

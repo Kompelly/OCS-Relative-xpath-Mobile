@@ -1,0 +1,1506 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="COLLECTION PAGE-09-05-2019" time="529" tests="1" failures="5" errors="0">
+   <testsuite name="COLLECTION PAGE-09-05-2019" tests="1" failures="5" errors="0" time="529" timestamp="2019-05-09 13:06:35" hostname="sumankompelly - 10.0.126.233" id="Test Suites/OCS-09-05-2019 - Theme2/COLLECTION PAGE-09-05-2019">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/sumankompelly/git/Sample-OCS/Reports/OCS-09-05-2019 - Theme2/COLLECTION PAGE-09-05-2019/20190509_130633"/>
+         <property name="logFiles" value="/Users/sumankompelly/git/Sample-OCS/Reports/OCS-09-05-2019 - Theme2/COLLECTION PAGE-09-05-2019/20190509_130633/execution0.log"/>
+         <property name="attachments" value="/Users/sumankompelly/git/Sample-OCS/Reports/OCS-09-05-2019 - Theme2/COLLECTION PAGE-09-05-2019/20190509_130633/1557421644499.png, /Users/sumankompelly/git/Sample-OCS/Reports/OCS-09-05-2019 - Theme2/COLLECTION PAGE-09-05-2019/20190509_130633/1557421749073.png, /Users/sumankompelly/git/Sample-OCS/Reports/OCS-09-05-2019 - Theme2/COLLECTION PAGE-09-05-2019/20190509_130633/1557421840123.png, /Users/sumankompelly/git/Sample-OCS/Reports/OCS-09-05-2019 - Theme2/COLLECTION PAGE-09-05-2019/20190509_130633/1557422025334.png, /Users/sumankompelly/git/Sample-OCS/Reports/OCS-09-05-2019 - Theme2/COLLECTION PAGE-09-05-2019/20190509_130633/1557422121791.png"/>
+         <property name="hostName" value="sumankompelly - 10.0.126.233"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="5.10.1.1"/>
+         <property name="browser" value="Chrome 74.0.3729.131"/>
+         <property name="hostAddress" value="10.0.126.233"/>
+         <property name="sessionId" value="651654e84b70f75c7ec1a575b2b19f3928180b9a"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/OCS-COLLECTION PAGE/breadcrumbs" classname="Test Cases/OCS-COLLECTION PAGE/breadcrumbs" status="FAILED">
+         <failure type="FAILED" message="Test Cases/OCS-COLLECTION PAGE/breadcrumbs FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/COLLECTION PAGE _OR/breadcrumbs_OR/Page_Dried Flower  Ontario Cannabis/a_Cannabis' (Root cause: org.openqa.selenium.WebDriverException: element click intercepted: Element &lt;a href=&quot;https://www.canada.ca/en/services/health/campaigns/cannabis.html&quot; target=&quot;_blank&quot;>...&lt;/a> is not clickable at point (135, 600). Other element would receive the click: &lt;ul class=&quot;unstyled no-margin menu__tier-two__menu-primary&quot;>...&lt;/ul>
+  (Session info: chrome=74.0.3729.131)
+  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.17763 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 189 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: '207-254-7-161', ip: '207.254.7.161', os.name: 'windows', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:1717}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}), userDataDir=C:\Windows\proxy\scoped_dir9208_32620}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=74.0.3729.131, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: a42ea51057955570108e19fa3e9ea302
+Command duration or timeout: 0 milliseconds)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at breadcrumbs.run(breadcrumbs:45)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1557421593354.run(TempTestSuite1557421593354.groovy:36)
+"/>
+         <system-out><![CDATA[2019-05-09 13:06:35 - [TEST_CASE][FAILED] - Test Cases/OCS-COLLECTION PAGE/breadcrumbs: Test Cases/OCS-COLLECTION PAGE/breadcrumbs FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/COLLECTION PAGE _OR/breadcrumbs_OR/Page_Dried Flower  Ontario Cannabis/a_Cannabis' (Root cause: org.openqa.selenium.WebDriverException: element click intercepted: Element <a href="https://www.canada.ca/en/services/health/campaigns/cannabis.html" target="_blank">...</a> is not clickable at point (135, 600). Other element would receive the click: <ul class="unstyled no-margin menu__tier-two__menu-primary">...</ul>
+  (Session info: chrome=74.0.3729.131)
+  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.17763 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 189 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: '207-254-7-161', ip: '207.254.7.161', os.name: 'windows', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:1717}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}), userDataDir=C:\Windows\proxy\scoped_dir9208_32620}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=74.0.3729.131, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: a42ea51057955570108e19fa3e9ea302
+Command duration or timeout: 0 milliseconds)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at breadcrumbs.run(breadcrumbs:45)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1557421593354.run(TempTestSuite1557421593354.groovy:36)
+
+
+2019-05-09 13:06:35 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-05-09 13:06:36 - [MESSAGE][INFO] - Starting 'Remote' driver
+
+2019-05-09 13:06:36 - [MESSAGE][INFO] - User set preference: ['os', 'windows']
+
+2019-05-09 13:06:36 - [MESSAGE][INFO] - User set preference: ['os_version', '10']
+
+2019-05-09 13:06:36 - [MESSAGE][INFO] - User set preference: ['browser', 'Chrome']
+
+2019-05-09 13:06:36 - [MESSAGE][INFO] - User set preference: ['browser_version', '74']
+
+2019-05-09 13:06:36 - [MESSAGE][INFO] - User set preference: ['resolution', '1280x800']
+
+2019-05-09 13:06:36 - [MESSAGE][INFO] - Connecting to remote web server 'https://dianatest3:Z3oqw9ysqTeRQJq5wFCp@hub-cloud.browserstack.com/wd/hub' with type 'Selenium'
+
+2019-05-09 13:06:36 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-05-09 13:06:43 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-05-09 13:06:43 - [TEST_STEP][PASSED] - navigateToUrl("https://ocs.ca/?fts=0&preview_theme_id=53373863756"): Navigate to 'https://ocs.ca/?fts=0&preview_theme_id=53373863756' successfully
+
+2019-05-09 13:06:50 - [MESSAGE][PASSED] - Navigate to 'https://ocs.ca/?fts=0&preview_theme_id=53373863756' successfully
+
+2019-05-09 13:06:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Theme_oR/Page_Ontario Cannabis Store  Ontari/button_Close preview")): Object: 'Object Repository/Theme_oR/Page_Ontario Cannabis Store  Ontari/button_Close preview' is clicked on
+
+2019-05-09 13:06:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Theme_oR/Page_Ontario Cannabis Store  Ontari/button_Close preview' is clicked on
+
+2019-05-09 13:06:54 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("COLLECTION PAGE _OR/breadcrumbs_OR/Page_Ontario Cannabis Store  Ontari/select_Select01020304050607080"), "19", true): All options with value '19' are selected in object 'Object Repository/COLLECTION PAGE _OR/breadcrumbs_OR/Page_Ontario Cannabis Store  Ontari/select_Select01020304050607080'  using regular expression
+
+2019-05-09 13:07:00 - [MESSAGE][PASSED] - All options with value '19' are selected in object 'Object Repository/COLLECTION PAGE _OR/breadcrumbs_OR/Page_Ontario Cannabis Store  Ontari/select_Select01020304050607080'  using regular expression
+
+2019-05-09 13:07:00 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("COLLECTION PAGE _OR/breadcrumbs_OR/Page_Ontario Cannabis Store  Ontari/select_SelectJanuary - 01Febru"), "9", true): All options with value '9' are selected in object 'Object Repository/COLLECTION PAGE _OR/breadcrumbs_OR/Page_Ontario Cannabis Store  Ontari/select_SelectJanuary - 01Febru'  using regular expression
+
+2019-05-09 13:07:03 - [MESSAGE][PASSED] - All options with value '9' are selected in object 'Object Repository/COLLECTION PAGE _OR/breadcrumbs_OR/Page_Ontario Cannabis Store  Ontari/select_SelectJanuary - 01Febru'  using regular expression
+
+2019-05-09 13:07:03 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("COLLECTION PAGE _OR/breadcrumbs_OR/Page_Ontario Cannabis Store  Ontari/select_Select20182017201620152"), "1949", true): All options with value '1949' are selected in object 'Object Repository/COLLECTION PAGE _OR/breadcrumbs_OR/Page_Ontario Cannabis Store  Ontari/select_Select20182017201620152'  using regular expression
+
+2019-05-09 13:07:20 - [MESSAGE][PASSED] - All options with value '1949' are selected in object 'Object Repository/COLLECTION PAGE _OR/breadcrumbs_OR/Page_Ontario Cannabis Store  Ontari/select_Select20182017201620152'  using regular expression
+
+2019-05-09 13:07:20 - [TEST_STEP][PASSED] - click(findTestObject("COLLECTION PAGE _OR/breadcrumbs_OR/Page_Ontario Cannabis Store  Ontari/button_Verify")): Object: 'Object Repository/COLLECTION PAGE _OR/breadcrumbs_OR/Page_Ontario Cannabis Store  Ontari/button_Verify' is clicked on
+
+2019-05-09 13:07:21 - [MESSAGE][PASSED] - Object: 'Object Repository/COLLECTION PAGE _OR/breadcrumbs_OR/Page_Ontario Cannabis Store  Ontari/button_Verify' is clicked on
+
+2019-05-09 13:07:21 - [TEST_STEP][PASSED] - click(findTestObject("COLLECTION PAGE _OR/breadcrumbs_OR/Page_Ontario Cannabis Store  Ontari/span_CONFIRM AND ACKNOWLEDGE_c")): Object: 'Object Repository/COLLECTION PAGE _OR/breadcrumbs_OR/Page_Ontario Cannabis Store  Ontari/span_CONFIRM AND ACKNOWLEDGE_c' is clicked on
+
+2019-05-09 13:07:21 - [MESSAGE][PASSED] - Object: 'Object Repository/COLLECTION PAGE _OR/breadcrumbs_OR/Page_Ontario Cannabis Store  Ontari/span_CONFIRM AND ACKNOWLEDGE_c' is clicked on
+
+2019-05-09 13:07:21 - [TEST_STEP][PASSED] - click(findTestObject("COLLECTION PAGE _OR/breadcrumbs_OR/Page_Ontario Cannabis Store  Ontari/button_CONFIRM")): Object: 'Object Repository/COLLECTION PAGE _OR/breadcrumbs_OR/Page_Ontario Cannabis Store  Ontari/button_CONFIRM' is clicked on
+
+2019-05-09 13:07:21 - [MESSAGE][PASSED] - Object: 'Object Repository/COLLECTION PAGE _OR/breadcrumbs_OR/Page_Ontario Cannabis Store  Ontari/button_CONFIRM' is clicked on
+
+2019-05-09 13:07:21 - [TEST_STEP][PASSED] - click(findTestObject("COLLECTION PAGE _OR/breadcrumbs_OR/Page_Ontario Cannabis Store  Ontari/button_Start Browsing")): Object: 'Object Repository/COLLECTION PAGE _OR/breadcrumbs_OR/Page_Ontario Cannabis Store  Ontari/button_Start Browsing' is clicked on
+
+2019-05-09 13:07:21 - [MESSAGE][PASSED] - Object: 'Object Repository/COLLECTION PAGE _OR/breadcrumbs_OR/Page_Ontario Cannabis Store  Ontari/button_Start Browsing' is clicked on
+
+2019-05-09 13:07:21 - [TEST_STEP][NOT_RUN] - click(findTestObject("COLLECTION PAGE _OR/breadcrumbs_OR/Page_Ontario Cannabis Store  Ontari/h3_Cannabis")): NOT_RUN: click(findTestObject("COLLECTION PAGE _OR/breadcrumbs_OR/Page_Ontario Cannabis Store  Ontari/h3_Cannabis"))
+
+2019-05-09 13:07:21 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("COLLECTION PAGE _OR/breadcrumbs_OR/Page_Ontario Cannabis Store  Ontari/h3_Cannabis"))
+
+2019-05-09 13:07:21 - [TEST_STEP][PASSED] - mouseOver(findTestObject("OCS_CRITICAL PATH/cart flyout- price/Page_Ontario Cannabis Store  Ontari/h3_Cannabis")): Object: 'Object Repository/OCS_CRITICAL PATH/cart flyout- price/Page_Ontario Cannabis Store  Ontari/h3_Cannabis' is hovered
+
+2019-05-09 13:07:22 - [MESSAGE][PASSED] - Object: 'Object Repository/OCS_CRITICAL PATH/cart flyout- price/Page_Ontario Cannabis Store  Ontari/h3_Cannabis' is hovered
+
+2019-05-09 13:07:22 - [TEST_STEP][PASSED] - click(findTestObject("COLLECTION PAGE _OR/breadcrumbs_OR/Page_Ontario Cannabis Store  Ontari/span_Dried Flower")): Object: 'Object Repository/COLLECTION PAGE _OR/breadcrumbs_OR/Page_Ontario Cannabis Store  Ontari/span_Dried Flower' is clicked on
+
+2019-05-09 13:07:22 - [MESSAGE][PASSED] - Object: 'Object Repository/COLLECTION PAGE _OR/breadcrumbs_OR/Page_Ontario Cannabis Store  Ontari/span_Dried Flower' is clicked on
+
+2019-05-09 13:07:22 - [TEST_STEP][FAILED] - click(findTestObject("COLLECTION PAGE _OR/breadcrumbs_OR/Page_Dried Flower  Ontario Cannabis/a_Cannabis")): click(findTestObject("COLLECTION PAGE _OR/breadcrumbs_OR/Page_Dried Flower  Ontario Cannabis/a_Cannabis")) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/COLLECTION PAGE _OR/breadcrumbs_OR/Page_Dried Flower  Ontario Cannabis/a_Cannabis' (Root cause: org.openqa.selenium.WebDriverException: element click intercepted: Element <a href="https://www.canada.ca/en/services/health/campaigns/cannabis.html" target="_blank">...</a> is not clickable at point (135, 600). Other element would receive the click: <ul class="unstyled no-margin menu__tier-two__menu-primary">...</ul>
+  (Session info: chrome=74.0.3729.131)
+  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.17763 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 189 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: '207-254-7-161', ip: '207.254.7.161', os.name: 'windows', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:1717}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}), userDataDir=C:\Windows\proxy\scoped_dir9208_32620}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=74.0.3729.131, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: a42ea51057955570108e19fa3e9ea302
+Command duration or timeout: 0 milliseconds)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at breadcrumbs.run(breadcrumbs:45)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1557421593354.run(TempTestSuite1557421593354.groovy:36)
+
+
+2019-05-09 13:07:26 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/COLLECTION PAGE _OR/breadcrumbs_OR/Page_Dried Flower  Ontario Cannabis/a_Cannabis' (Root cause: org.openqa.selenium.WebDriverException: element click intercepted: Element <a href="https://www.canada.ca/en/services/health/campaigns/cannabis.html" target="_blank">...</a> is not clickable at point (135, 600). Other element would receive the click: <ul class="unstyled no-margin menu__tier-two__menu-primary">...</ul>
+  (Session info: chrome=74.0.3729.131)
+  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.17763 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 189 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: '207-254-7-161', ip: '207.254.7.161', os.name: 'windows', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:1717}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}), userDataDir=C:\Windows\proxy\scoped_dir9208_32620}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=74.0.3729.131, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: a42ea51057955570108e19fa3e9ea302
+Command duration or timeout: 0 milliseconds)
+[[ATTACHMENT|/Users/sumankompelly/git/Sample-OCS/Reports/OCS-09-05-2019 - Theme2/COLLECTION PAGE-09-05-2019/20190509_130633/1557421644499.png]]
+
+2019-05-09 13:07:26 - [MESSAGE][FAILED] - click(findTestObject("COLLECTION PAGE _OR/breadcrumbs_OR/Page_Dried Flower  Ontario Cannabis/a_Cannabis")) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/COLLECTION PAGE _OR/breadcrumbs_OR/Page_Dried Flower  Ontario Cannabis/a_Cannabis' (Root cause: org.openqa.selenium.WebDriverException: element click intercepted: Element <a href="https://www.canada.ca/en/services/health/campaigns/cannabis.html" target="_blank">...</a> is not clickable at point (135, 600). Other element would receive the click: <ul class="unstyled no-margin menu__tier-two__menu-primary">...</ul>
+  (Session info: chrome=74.0.3729.131)
+  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.17763 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 189 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: '207-254-7-161', ip: '207.254.7.161', os.name: 'windows', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:1717}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}), userDataDir=C:\Windows\proxy\scoped_dir9208_32620}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=74.0.3729.131, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: a42ea51057955570108e19fa3e9ea302
+Command duration or timeout: 0 milliseconds)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at breadcrumbs.run(breadcrumbs:45)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1557421593354.run(TempTestSuite1557421593354.groovy:36)]]></system-out>
+         <system-err><![CDATA[2019-05-09 13:06:35 - [TEST_CASE][FAILED] - Test Cases/OCS-COLLECTION PAGE/breadcrumbs: Test Cases/OCS-COLLECTION PAGE/breadcrumbs FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/COLLECTION PAGE _OR/breadcrumbs_OR/Page_Dried Flower  Ontario Cannabis/a_Cannabis' (Root cause: org.openqa.selenium.WebDriverException: element click intercepted: Element <a href="https://www.canada.ca/en/services/health/campaigns/cannabis.html" target="_blank">...</a> is not clickable at point (135, 600). Other element would receive the click: <ul class="unstyled no-margin menu__tier-two__menu-primary">...</ul>
+  (Session info: chrome=74.0.3729.131)
+  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.17763 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 189 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: '207-254-7-161', ip: '207.254.7.161', os.name: 'windows', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:1717}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}), userDataDir=C:\Windows\proxy\scoped_dir9208_32620}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=74.0.3729.131, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: a42ea51057955570108e19fa3e9ea302
+Command duration or timeout: 0 milliseconds)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at breadcrumbs.run(breadcrumbs:45)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1557421593354.run(TempTestSuite1557421593354.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/OCS-COLLECTION PAGE/Chevron dropdown" classname="Test Cases/OCS-COLLECTION PAGE/Chevron dropdown" status="FAILED">
+         <failure type="FAILED" message="Test Cases/OCS-COLLECTION PAGE/Chevron dropdown FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/COLLECTION PAGE _OR/Chevron_OR/Page_Pre-Rolled  Ontario Cannabis S/i_Pre-Rolled_icon--forward' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/COLLECTION PAGE _OR/Chevron_OR/Page_Pre-Rolled  Ontario Cannabis S/i_Pre-Rolled_icon--forward' located by 'By.xpath: (.//*[normalize-space(text()) and normalize-space(.)='Pre-Rolled'])[4]/following::i[1]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at Chevron dropdown.run(Chevron dropdown:51)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1557421593354.run(TempTestSuite1557421593354.groovy:36)
+"/>
+         <system-out><![CDATA[2019-05-09 13:07:26 - [TEST_CASE][FAILED] - Test Cases/OCS-COLLECTION PAGE/Chevron dropdown: Test Cases/OCS-COLLECTION PAGE/Chevron dropdown FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/COLLECTION PAGE _OR/Chevron_OR/Page_Pre-Rolled  Ontario Cannabis S/i_Pre-Rolled_icon--forward' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/COLLECTION PAGE _OR/Chevron_OR/Page_Pre-Rolled  Ontario Cannabis S/i_Pre-Rolled_icon--forward' located by 'By.xpath: (.//*[normalize-space(text()) and normalize-space(.)='Pre-Rolled'])[4]/following::i[1]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at Chevron dropdown.run(Chevron dropdown:51)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1557421593354.run(TempTestSuite1557421593354.groovy:36)
+
+
+2019-05-09 13:07:26 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-05-09 13:07:26 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-05-09 13:07:27 - [MESSAGE][INFO] - Starting 'Remote' driver
+
+2019-05-09 13:07:27 - [MESSAGE][INFO] - User set preference: ['os', 'windows']
+
+2019-05-09 13:07:27 - [MESSAGE][INFO] - User set preference: ['os_version', '10']
+
+2019-05-09 13:07:27 - [MESSAGE][INFO] - User set preference: ['browser', 'Chrome']
+
+2019-05-09 13:07:27 - [MESSAGE][INFO] - User set preference: ['browser_version', '74']
+
+2019-05-09 13:07:27 - [MESSAGE][INFO] - User set preference: ['resolution', '1280x800']
+
+2019-05-09 13:07:27 - [MESSAGE][INFO] - Connecting to remote web server 'https://dianatest3:Z3oqw9ysqTeRQJq5wFCp@hub-cloud.browserstack.com/wd/hub' with type 'Selenium'
+
+2019-05-09 13:07:37 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-05-09 13:07:37 - [TEST_STEP][PASSED] - navigateToUrl("https://ocs.ca/?fts=0&preview_theme_id=53373863756"): Navigate to 'https://ocs.ca/?fts=0&preview_theme_id=53373863756' successfully
+
+2019-05-09 13:07:46 - [MESSAGE][PASSED] - Navigate to 'https://ocs.ca/?fts=0&preview_theme_id=53373863756' successfully
+
+2019-05-09 13:07:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Theme_oR/Page_Ontario Cannabis Store  Ontari/button_Close preview")): Object: 'Object Repository/Theme_oR/Page_Ontario Cannabis Store  Ontari/button_Close preview' is clicked on
+
+2019-05-09 13:07:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Theme_oR/Page_Ontario Cannabis Store  Ontari/button_Close preview' is clicked on
+
+2019-05-09 13:07:52 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("COLLECTION PAGE _OR/Chevron_OR/Page_Ontario Cannabis Store  Ontari/select_Select01020304050607080"), "18", true): All options with value '18' are selected in object 'Object Repository/COLLECTION PAGE _OR/Chevron_OR/Page_Ontario Cannabis Store  Ontari/select_Select01020304050607080'  using regular expression
+
+2019-05-09 13:08:02 - [MESSAGE][PASSED] - All options with value '18' are selected in object 'Object Repository/COLLECTION PAGE _OR/Chevron_OR/Page_Ontario Cannabis Store  Ontari/select_Select01020304050607080'  using regular expression
+
+2019-05-09 13:08:02 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("COLLECTION PAGE _OR/Chevron_OR/Page_Ontario Cannabis Store  Ontari/select_SelectJanuary - 01Febru"), "9", true): All options with value '9' are selected in object 'Object Repository/COLLECTION PAGE _OR/Chevron_OR/Page_Ontario Cannabis Store  Ontari/select_SelectJanuary - 01Febru'  using regular expression
+
+2019-05-09 13:08:05 - [MESSAGE][PASSED] - All options with value '9' are selected in object 'Object Repository/COLLECTION PAGE _OR/Chevron_OR/Page_Ontario Cannabis Store  Ontari/select_SelectJanuary - 01Febru'  using regular expression
+
+2019-05-09 13:08:05 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("COLLECTION PAGE _OR/Chevron_OR/Page_Ontario Cannabis Store  Ontari/select_Select20182017201620152"), "1949", true): All options with value '1949' are selected in object 'Object Repository/COLLECTION PAGE _OR/Chevron_OR/Page_Ontario Cannabis Store  Ontari/select_Select20182017201620152'  using regular expression
+
+2019-05-09 13:08:23 - [MESSAGE][PASSED] - All options with value '1949' are selected in object 'Object Repository/COLLECTION PAGE _OR/Chevron_OR/Page_Ontario Cannabis Store  Ontari/select_Select20182017201620152'  using regular expression
+
+2019-05-09 13:08:23 - [TEST_STEP][PASSED] - click(findTestObject("COLLECTION PAGE _OR/Chevron_OR/Page_Ontario Cannabis Store  Ontari/button_Verify")): Object: 'Object Repository/COLLECTION PAGE _OR/Chevron_OR/Page_Ontario Cannabis Store  Ontari/button_Verify' is clicked on
+
+2019-05-09 13:08:23 - [MESSAGE][PASSED] - Object: 'Object Repository/COLLECTION PAGE _OR/Chevron_OR/Page_Ontario Cannabis Store  Ontari/button_Verify' is clicked on
+
+2019-05-09 13:08:23 - [TEST_STEP][PASSED] - click(findTestObject("COLLECTION PAGE _OR/Chevron_OR/Page_Ontario Cannabis Store  Ontari/span_CONFIRM AND ACKNOWLEDGE_c")): Object: 'Object Repository/COLLECTION PAGE _OR/Chevron_OR/Page_Ontario Cannabis Store  Ontari/span_CONFIRM AND ACKNOWLEDGE_c' is clicked on
+
+2019-05-09 13:08:23 - [MESSAGE][PASSED] - Object: 'Object Repository/COLLECTION PAGE _OR/Chevron_OR/Page_Ontario Cannabis Store  Ontari/span_CONFIRM AND ACKNOWLEDGE_c' is clicked on
+
+2019-05-09 13:08:23 - [TEST_STEP][PASSED] - click(findTestObject("COLLECTION PAGE _OR/Chevron_OR/Page_Ontario Cannabis Store  Ontari/button_CONFIRM")): Object: 'Object Repository/COLLECTION PAGE _OR/Chevron_OR/Page_Ontario Cannabis Store  Ontari/button_CONFIRM' is clicked on
+
+2019-05-09 13:08:24 - [MESSAGE][PASSED] - Object: 'Object Repository/COLLECTION PAGE _OR/Chevron_OR/Page_Ontario Cannabis Store  Ontari/button_CONFIRM' is clicked on
+
+2019-05-09 13:08:24 - [TEST_STEP][PASSED] - click(findTestObject("COLLECTION PAGE _OR/Chevron_OR/Page_Ontario Cannabis Store  Ontari/button_Start Browsing")): Object: 'Object Repository/COLLECTION PAGE _OR/Chevron_OR/Page_Ontario Cannabis Store  Ontari/button_Start Browsing' is clicked on
+
+2019-05-09 13:08:24 - [MESSAGE][PASSED] - Object: 'Object Repository/COLLECTION PAGE _OR/Chevron_OR/Page_Ontario Cannabis Store  Ontari/button_Start Browsing' is clicked on
+
+2019-05-09 13:08:24 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-05-09 13:08:26 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-09 13:08:26 - [TEST_STEP][NOT_RUN] - click(findTestObject("COLLECTION PAGE _OR/Chevron_OR/Page_Ontario Cannabis Store  Ontari/h3_Cannabis")): NOT_RUN: click(findTestObject("COLLECTION PAGE _OR/Chevron_OR/Page_Ontario Cannabis Store  Ontari/h3_Cannabis"))
+
+2019-05-09 13:08:26 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("COLLECTION PAGE _OR/Chevron_OR/Page_Ontario Cannabis Store  Ontari/h3_Cannabis"))
+
+2019-05-09 13:08:26 - [TEST_STEP][PASSED] - mouseOver(findTestObject("OCS_CRITICAL PATH/cart flyout- price/Page_Ontario Cannabis Store  Ontari/h3_Cannabis")): Object: 'Object Repository/OCS_CRITICAL PATH/cart flyout- price/Page_Ontario Cannabis Store  Ontari/h3_Cannabis' is hovered
+
+2019-05-09 13:08:27 - [MESSAGE][PASSED] - Object: 'Object Repository/OCS_CRITICAL PATH/cart flyout- price/Page_Ontario Cannabis Store  Ontari/h3_Cannabis' is hovered
+
+2019-05-09 13:08:27 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-05-09 13:08:29 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-09 13:08:29 - [TEST_STEP][PASSED] - click(findTestObject("COLLECTION PAGE _OR/Chevron_OR/Page_Ontario Cannabis Store  Ontari/span_Pre-Rolled")): Object: 'Object Repository/COLLECTION PAGE _OR/Chevron_OR/Page_Ontario Cannabis Store  Ontari/span_Pre-Rolled' is clicked on
+
+2019-05-09 13:08:29 - [MESSAGE][PASSED] - Object: 'Object Repository/COLLECTION PAGE _OR/Chevron_OR/Page_Ontario Cannabis Store  Ontari/span_Pre-Rolled' is clicked on
+
+2019-05-09 13:08:29 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-05-09 13:08:31 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-09 13:08:31 - [TEST_STEP][FAILED] - click(findTestObject("COLLECTION PAGE _OR/Chevron_OR/Page_Pre-Rolled  Ontario Cannabis S/i_Pre-Rolled_icon--forward")): click(findTestObject("COLLECTION PAGE _OR/Chevron_OR/Page_Pre-Rolled  Ontario Cannabis S/i_Pre-Rolled_icon--forward")) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/COLLECTION PAGE _OR/Chevron_OR/Page_Pre-Rolled  Ontario Cannabis S/i_Pre-Rolled_icon--forward' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/COLLECTION PAGE _OR/Chevron_OR/Page_Pre-Rolled  Ontario Cannabis S/i_Pre-Rolled_icon--forward' located by 'By.xpath: (.//*[normalize-space(text()) and normalize-space(.)='Pre-Rolled'])[4]/following::i[1]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at Chevron dropdown.run(Chevron dropdown:51)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1557421593354.run(TempTestSuite1557421593354.groovy:36)
+
+
+2019-05-09 13:09:09 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: (.//*[normalize-space(text()) and normalize-space(.)='Pre-Rolled'])[4]/following::i[1]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2019-05-09 13:09:09 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/COLLECTION PAGE _OR/Chevron_OR/Page_Pre-Rolled  Ontario Cannabis S/i_Pre-Rolled_icon--forward' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/COLLECTION PAGE _OR/Chevron_OR/Page_Pre-Rolled  Ontario Cannabis S/i_Pre-Rolled_icon--forward' located by 'By.xpath: (.//*[normalize-space(text()) and normalize-space(.)='Pre-Rolled'])[4]/following::i[1]' not found)
+[[ATTACHMENT|/Users/sumankompelly/git/Sample-OCS/Reports/OCS-09-05-2019 - Theme2/COLLECTION PAGE-09-05-2019/20190509_130633/1557421749073.png]]
+
+2019-05-09 13:09:09 - [MESSAGE][FAILED] - click(findTestObject("COLLECTION PAGE _OR/Chevron_OR/Page_Pre-Rolled  Ontario Cannabis S/i_Pre-Rolled_icon--forward")) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/COLLECTION PAGE _OR/Chevron_OR/Page_Pre-Rolled  Ontario Cannabis S/i_Pre-Rolled_icon--forward' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/COLLECTION PAGE _OR/Chevron_OR/Page_Pre-Rolled  Ontario Cannabis S/i_Pre-Rolled_icon--forward' located by 'By.xpath: (.//*[normalize-space(text()) and normalize-space(.)='Pre-Rolled'])[4]/following::i[1]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at Chevron dropdown.run(Chevron dropdown:51)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1557421593354.run(TempTestSuite1557421593354.groovy:36)]]></system-out>
+         <system-err><![CDATA[2019-05-09 13:07:26 - [TEST_CASE][FAILED] - Test Cases/OCS-COLLECTION PAGE/Chevron dropdown: Test Cases/OCS-COLLECTION PAGE/Chevron dropdown FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/COLLECTION PAGE _OR/Chevron_OR/Page_Pre-Rolled  Ontario Cannabis S/i_Pre-Rolled_icon--forward' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/COLLECTION PAGE _OR/Chevron_OR/Page_Pre-Rolled  Ontario Cannabis S/i_Pre-Rolled_icon--forward' located by 'By.xpath: (.//*[normalize-space(text()) and normalize-space(.)='Pre-Rolled'])[4]/following::i[1]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at Chevron dropdown.run(Chevron dropdown:51)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1557421593354.run(TempTestSuite1557421593354.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/OCS-COLLECTION PAGE/Filter" classname="Test Cases/OCS-COLLECTION PAGE/Filter" status="FAILED">
+         <failure type="FAILED" message="Test Cases/OCS-COLLECTION PAGE/Filter FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/COLLECTION PAGE _OR/Filter_OR/Page_Pre-Rolled  Ontario Cannabis S/i_CBD  High to Low_icon--filte' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/COLLECTION PAGE _OR/Filter_OR/Page_Pre-Rolled  Ontario Cannabis S/i_CBD  High to Low_icon--filte' located by 'By.xpath: (.//*[normalize-space(text()) and normalize-space(.)='CBD %: High to Low'])[1]/following::i[1]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at Filter.run(Filter:49)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1557421593354.run(TempTestSuite1557421593354.groovy:36)
+"/>
+         <system-out><![CDATA[2019-05-09 13:09:09 - [TEST_CASE][FAILED] - Test Cases/OCS-COLLECTION PAGE/Filter: Test Cases/OCS-COLLECTION PAGE/Filter FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/COLLECTION PAGE _OR/Filter_OR/Page_Pre-Rolled  Ontario Cannabis S/i_CBD  High to Low_icon--filte' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/COLLECTION PAGE _OR/Filter_OR/Page_Pre-Rolled  Ontario Cannabis S/i_CBD  High to Low_icon--filte' located by 'By.xpath: (.//*[normalize-space(text()) and normalize-space(.)='CBD %: High to Low'])[1]/following::i[1]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at Filter.run(Filter:49)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1557421593354.run(TempTestSuite1557421593354.groovy:36)
+
+
+2019-05-09 13:09:10 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-05-09 13:09:10 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-05-09 13:09:14 - [MESSAGE][INFO] - Starting 'Remote' driver
+
+2019-05-09 13:09:14 - [MESSAGE][INFO] - User set preference: ['os', 'windows']
+
+2019-05-09 13:09:14 - [MESSAGE][INFO] - User set preference: ['os_version', '10']
+
+2019-05-09 13:09:14 - [MESSAGE][INFO] - User set preference: ['browser', 'Chrome']
+
+2019-05-09 13:09:14 - [MESSAGE][INFO] - User set preference: ['browser_version', '74']
+
+2019-05-09 13:09:14 - [MESSAGE][INFO] - User set preference: ['resolution', '1280x800']
+
+2019-05-09 13:09:14 - [MESSAGE][INFO] - Connecting to remote web server 'https://dianatest3:Z3oqw9ysqTeRQJq5wFCp@hub-cloud.browserstack.com/wd/hub' with type 'Selenium'
+
+2019-05-09 13:09:20 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-05-09 13:09:20 - [TEST_STEP][PASSED] - navigateToUrl("https://ocs.ca/?fts=0&preview_theme_id=53373863756"): Navigate to 'https://ocs.ca/?fts=0&preview_theme_id=53373863756' successfully
+
+2019-05-09 13:09:26 - [MESSAGE][PASSED] - Navigate to 'https://ocs.ca/?fts=0&preview_theme_id=53373863756' successfully
+
+2019-05-09 13:09:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Theme_oR/Page_Ontario Cannabis Store  Ontari/button_Close preview")): Object: 'Object Repository/Theme_oR/Page_Ontario Cannabis Store  Ontari/button_Close preview' is clicked on
+
+2019-05-09 13:09:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Theme_oR/Page_Ontario Cannabis Store  Ontari/button_Close preview' is clicked on
+
+2019-05-09 13:09:29 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/COLLECTION PAGE _OR/Filter_OR/Page_Ontario Cannabis Store  Ontari/select_Select01020304050607080"), "17", true): All options with value '17' are selected in object 'Object Repository/COLLECTION PAGE _OR/Filter_OR/Page_Ontario Cannabis Store  Ontari/select_Select01020304050607080'  using regular expression
+
+2019-05-09 13:09:35 - [MESSAGE][PASSED] - All options with value '17' are selected in object 'Object Repository/COLLECTION PAGE _OR/Filter_OR/Page_Ontario Cannabis Store  Ontari/select_Select01020304050607080'  using regular expression
+
+2019-05-09 13:09:35 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/COLLECTION PAGE _OR/Filter_OR/Page_Ontario Cannabis Store  Ontari/select_SelectJanuary - 01Febru"), "9", true): All options with value '9' are selected in object 'Object Repository/COLLECTION PAGE _OR/Filter_OR/Page_Ontario Cannabis Store  Ontari/select_SelectJanuary - 01Febru'  using regular expression
+
+2019-05-09 13:09:39 - [MESSAGE][PASSED] - All options with value '9' are selected in object 'Object Repository/COLLECTION PAGE _OR/Filter_OR/Page_Ontario Cannabis Store  Ontari/select_SelectJanuary - 01Febru'  using regular expression
+
+2019-05-09 13:09:39 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/COLLECTION PAGE _OR/Filter_OR/Page_Ontario Cannabis Store  Ontari/select_Select20182017201620152"), "1949", true): All options with value '1949' are selected in object 'Object Repository/COLLECTION PAGE _OR/Filter_OR/Page_Ontario Cannabis Store  Ontari/select_Select20182017201620152'  using regular expression
+
+2019-05-09 13:09:57 - [MESSAGE][PASSED] - All options with value '1949' are selected in object 'Object Repository/COLLECTION PAGE _OR/Filter_OR/Page_Ontario Cannabis Store  Ontari/select_Select20182017201620152'  using regular expression
+
+2019-05-09 13:09:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/COLLECTION PAGE _OR/Filter_OR/Page_Ontario Cannabis Store  Ontari/button_Verify")): Object: 'Object Repository/COLLECTION PAGE _OR/Filter_OR/Page_Ontario Cannabis Store  Ontari/button_Verify' is clicked on
+
+2019-05-09 13:09:58 - [MESSAGE][PASSED] - Object: 'Object Repository/COLLECTION PAGE _OR/Filter_OR/Page_Ontario Cannabis Store  Ontari/button_Verify' is clicked on
+
+2019-05-09 13:09:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/COLLECTION PAGE _OR/Filter_OR/Page_Ontario Cannabis Store  Ontari/span_CONFIRM AND ACKNOWLEDGE_c")): Object: 'Object Repository/COLLECTION PAGE _OR/Filter_OR/Page_Ontario Cannabis Store  Ontari/span_CONFIRM AND ACKNOWLEDGE_c' is clicked on
+
+2019-05-09 13:09:58 - [MESSAGE][PASSED] - Object: 'Object Repository/COLLECTION PAGE _OR/Filter_OR/Page_Ontario Cannabis Store  Ontari/span_CONFIRM AND ACKNOWLEDGE_c' is clicked on
+
+2019-05-09 13:09:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/COLLECTION PAGE _OR/Filter_OR/Page_Ontario Cannabis Store  Ontari/button_CONFIRM")): Object: 'Object Repository/COLLECTION PAGE _OR/Filter_OR/Page_Ontario Cannabis Store  Ontari/button_CONFIRM' is clicked on
+
+2019-05-09 13:09:58 - [MESSAGE][PASSED] - Object: 'Object Repository/COLLECTION PAGE _OR/Filter_OR/Page_Ontario Cannabis Store  Ontari/button_CONFIRM' is clicked on
+
+2019-05-09 13:09:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/COLLECTION PAGE _OR/Filter_OR/Page_Ontario Cannabis Store  Ontari/button_Start Browsing")): Object: 'Object Repository/COLLECTION PAGE _OR/Filter_OR/Page_Ontario Cannabis Store  Ontari/button_Start Browsing' is clicked on
+
+2019-05-09 13:09:59 - [MESSAGE][PASSED] - Object: 'Object Repository/COLLECTION PAGE _OR/Filter_OR/Page_Ontario Cannabis Store  Ontari/button_Start Browsing' is clicked on
+
+2019-05-09 13:09:59 - [TEST_STEP][NOT_RUN] - click(findTestObject("COLLECTION PAGE _OR/Filter_OR/Page_Ontario Cannabis Store  Ontari/h3_Cannabis")): NOT_RUN: click(findTestObject("COLLECTION PAGE _OR/Filter_OR/Page_Ontario Cannabis Store  Ontari/h3_Cannabis"))
+
+2019-05-09 13:09:59 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("COLLECTION PAGE _OR/Filter_OR/Page_Ontario Cannabis Store  Ontari/h3_Cannabis"))
+
+2019-05-09 13:09:59 - [TEST_STEP][PASSED] - mouseOver(findTestObject("OCS_CRITICAL PATH/cart flyout- price/Page_Ontario Cannabis Store  Ontari/h3_Cannabis")): Object: 'Object Repository/OCS_CRITICAL PATH/cart flyout- price/Page_Ontario Cannabis Store  Ontari/h3_Cannabis' is hovered
+
+2019-05-09 13:09:59 - [MESSAGE][PASSED] - Object: 'Object Repository/OCS_CRITICAL PATH/cart flyout- price/Page_Ontario Cannabis Store  Ontari/h3_Cannabis' is hovered
+
+2019-05-09 13:09:59 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-05-09 13:10:01 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-09 13:10:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/COLLECTION PAGE _OR/Filter_OR/Page_Ontario Cannabis Store  Ontari/span_Pre-Rolled")): Object: 'Object Repository/COLLECTION PAGE _OR/Filter_OR/Page_Ontario Cannabis Store  Ontari/span_Pre-Rolled' is clicked on
+
+2019-05-09 13:10:01 - [MESSAGE][PASSED] - Object: 'Object Repository/COLLECTION PAGE _OR/Filter_OR/Page_Ontario Cannabis Store  Ontari/span_Pre-Rolled' is clicked on
+
+2019-05-09 13:10:01 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-05-09 13:10:03 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-09 13:10:03 - [TEST_STEP][FAILED] - click(findTestObject("Object Repository/COLLECTION PAGE _OR/Filter_OR/Page_Pre-Rolled  Ontario Cannabis S/i_CBD  High to Low_icon--filte")): click(findTestObject("Object Repository/COLLECTION PAGE _OR/Filter_OR/Page_Pre-Rolled  Ontario Cannabis S/i_CBD  High to Low_icon--filte")) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/COLLECTION PAGE _OR/Filter_OR/Page_Pre-Rolled  Ontario Cannabis S/i_CBD  High to Low_icon--filte' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/COLLECTION PAGE _OR/Filter_OR/Page_Pre-Rolled  Ontario Cannabis S/i_CBD  High to Low_icon--filte' located by 'By.xpath: (.//*[normalize-space(text()) and normalize-space(.)='CBD %: High to Low'])[1]/following::i[1]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at Filter.run(Filter:49)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1557421593354.run(TempTestSuite1557421593354.groovy:36)
+
+
+2019-05-09 13:10:40 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: (.//*[normalize-space(text()) and normalize-space(.)='CBD %: High to Low'])[1]/following::i[1]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2019-05-09 13:10:41 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/COLLECTION PAGE _OR/Filter_OR/Page_Pre-Rolled  Ontario Cannabis S/i_CBD  High to Low_icon--filte' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/COLLECTION PAGE _OR/Filter_OR/Page_Pre-Rolled  Ontario Cannabis S/i_CBD  High to Low_icon--filte' located by 'By.xpath: (.//*[normalize-space(text()) and normalize-space(.)='CBD %: High to Low'])[1]/following::i[1]' not found)
+[[ATTACHMENT|/Users/sumankompelly/git/Sample-OCS/Reports/OCS-09-05-2019 - Theme2/COLLECTION PAGE-09-05-2019/20190509_130633/1557421840123.png]]
+
+2019-05-09 13:10:41 - [MESSAGE][FAILED] - click(findTestObject("Object Repository/COLLECTION PAGE _OR/Filter_OR/Page_Pre-Rolled  Ontario Cannabis S/i_CBD  High to Low_icon--filte")) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/COLLECTION PAGE _OR/Filter_OR/Page_Pre-Rolled  Ontario Cannabis S/i_CBD  High to Low_icon--filte' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/COLLECTION PAGE _OR/Filter_OR/Page_Pre-Rolled  Ontario Cannabis S/i_CBD  High to Low_icon--filte' located by 'By.xpath: (.//*[normalize-space(text()) and normalize-space(.)='CBD %: High to Low'])[1]/following::i[1]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at Filter.run(Filter:49)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1557421593354.run(TempTestSuite1557421593354.groovy:36)]]></system-out>
+         <system-err><![CDATA[2019-05-09 13:09:09 - [TEST_CASE][FAILED] - Test Cases/OCS-COLLECTION PAGE/Filter: Test Cases/OCS-COLLECTION PAGE/Filter FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/COLLECTION PAGE _OR/Filter_OR/Page_Pre-Rolled  Ontario Cannabis S/i_CBD  High to Low_icon--filte' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/COLLECTION PAGE _OR/Filter_OR/Page_Pre-Rolled  Ontario Cannabis S/i_CBD  High to Low_icon--filte' located by 'By.xpath: (.//*[normalize-space(text()) and normalize-space(.)='CBD %: High to Low'])[1]/following::i[1]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at Filter.run(Filter:49)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1557421593354.run(TempTestSuite1557421593354.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/OCS-COLLECTION PAGE/Pagination" classname="Test Cases/OCS-COLLECTION PAGE/Pagination" status="PASSED">
+         <system-out><![CDATA[2019-05-09 13:10:41 - [TEST_CASE][PASSED] - Test Cases/OCS-COLLECTION PAGE/Pagination: Test Cases/OCS-COLLECTION PAGE/Pagination
+
+2019-05-09 13:10:41 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-05-09 13:10:41 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-05-09 13:10:42 - [MESSAGE][INFO] - Starting 'Remote' driver
+
+2019-05-09 13:10:42 - [MESSAGE][INFO] - User set preference: ['os', 'windows']
+
+2019-05-09 13:10:42 - [MESSAGE][INFO] - User set preference: ['os_version', '10']
+
+2019-05-09 13:10:42 - [MESSAGE][INFO] - User set preference: ['browser', 'Chrome']
+
+2019-05-09 13:10:42 - [MESSAGE][INFO] - User set preference: ['browser_version', '74']
+
+2019-05-09 13:10:42 - [MESSAGE][INFO] - User set preference: ['resolution', '1280x800']
+
+2019-05-09 13:10:42 - [MESSAGE][INFO] - Connecting to remote web server 'https://dianatest3:Z3oqw9ysqTeRQJq5wFCp@hub-cloud.browserstack.com/wd/hub' with type 'Selenium'
+
+2019-05-09 13:10:52 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-05-09 13:10:52 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-05-09 13:10:54 - [MESSAGE][PASSED] - Current window maximized
+
+2019-05-09 13:10:54 - [TEST_STEP][PASSED] - navigateToUrl("https://ocs.ca/?fts=0&preview_theme_id=53373863756"): Navigate to 'https://ocs.ca/?fts=0&preview_theme_id=53373863756' successfully
+
+2019-05-09 13:11:01 - [MESSAGE][PASSED] - Navigate to 'https://ocs.ca/?fts=0&preview_theme_id=53373863756' successfully
+
+2019-05-09 13:11:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Theme_oR/Page_Ontario Cannabis Store  Ontari/button_Close preview")): Object: 'Object Repository/Theme_oR/Page_Ontario Cannabis Store  Ontari/button_Close preview' is clicked on
+
+2019-05-09 13:11:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Theme_oR/Page_Ontario Cannabis Store  Ontari/button_Close preview' is clicked on
+
+2019-05-09 13:11:05 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("COLLECTION PAGE _OR/Pagination_OR/Page_Ontario Cannabis Store  Ontari/select_Select01020304050607080"), "18", true): All options with value '18' are selected in object 'Object Repository/COLLECTION PAGE _OR/Pagination_OR/Page_Ontario Cannabis Store  Ontari/select_Select01020304050607080'  using regular expression
+
+2019-05-09 13:11:11 - [MESSAGE][PASSED] - All options with value '18' are selected in object 'Object Repository/COLLECTION PAGE _OR/Pagination_OR/Page_Ontario Cannabis Store  Ontari/select_Select01020304050607080'  using regular expression
+
+2019-05-09 13:11:11 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("COLLECTION PAGE _OR/Pagination_OR/Page_Ontario Cannabis Store  Ontari/select_SelectJanuary - 01Febru"), "9", true): All options with value '9' are selected in object 'Object Repository/COLLECTION PAGE _OR/Pagination_OR/Page_Ontario Cannabis Store  Ontari/select_SelectJanuary - 01Febru'  using regular expression
+
+2019-05-09 13:11:14 - [MESSAGE][PASSED] - All options with value '9' are selected in object 'Object Repository/COLLECTION PAGE _OR/Pagination_OR/Page_Ontario Cannabis Store  Ontari/select_SelectJanuary - 01Febru'  using regular expression
+
+2019-05-09 13:11:14 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("COLLECTION PAGE _OR/Pagination_OR/Page_Ontario Cannabis Store  Ontari/select_Select20182017201620152"), "1956", true): All options with value '1956' are selected in object 'Object Repository/COLLECTION PAGE _OR/Pagination_OR/Page_Ontario Cannabis Store  Ontari/select_Select20182017201620152'  using regular expression
+
+2019-05-09 13:11:34 - [MESSAGE][PASSED] - All options with value '1956' are selected in object 'Object Repository/COLLECTION PAGE _OR/Pagination_OR/Page_Ontario Cannabis Store  Ontari/select_Select20182017201620152'  using regular expression
+
+2019-05-09 13:11:34 - [TEST_STEP][PASSED] - click(findTestObject("COLLECTION PAGE _OR/Pagination_OR/Page_Ontario Cannabis Store  Ontari/button_Verify")): Object: 'Object Repository/COLLECTION PAGE _OR/Pagination_OR/Page_Ontario Cannabis Store  Ontari/button_Verify' is clicked on
+
+2019-05-09 13:11:35 - [MESSAGE][PASSED] - Object: 'Object Repository/COLLECTION PAGE _OR/Pagination_OR/Page_Ontario Cannabis Store  Ontari/button_Verify' is clicked on
+
+2019-05-09 13:11:35 - [TEST_STEP][PASSED] - click(findTestObject("COLLECTION PAGE _OR/Pagination_OR/Page_Ontario Cannabis Store  Ontari/span_CONFIRM AND ACKNOWLEDGE_c")): Object: 'Object Repository/COLLECTION PAGE _OR/Pagination_OR/Page_Ontario Cannabis Store  Ontari/span_CONFIRM AND ACKNOWLEDGE_c' is clicked on
+
+2019-05-09 13:11:35 - [MESSAGE][PASSED] - Object: 'Object Repository/COLLECTION PAGE _OR/Pagination_OR/Page_Ontario Cannabis Store  Ontari/span_CONFIRM AND ACKNOWLEDGE_c' is clicked on
+
+2019-05-09 13:11:35 - [TEST_STEP][PASSED] - click(findTestObject("COLLECTION PAGE _OR/Pagination_OR/Page_Ontario Cannabis Store  Ontari/button_CONFIRM")): Object: 'Object Repository/COLLECTION PAGE _OR/Pagination_OR/Page_Ontario Cannabis Store  Ontari/button_CONFIRM' is clicked on
+
+2019-05-09 13:11:36 - [MESSAGE][PASSED] - Object: 'Object Repository/COLLECTION PAGE _OR/Pagination_OR/Page_Ontario Cannabis Store  Ontari/button_CONFIRM' is clicked on
+
+2019-05-09 13:11:36 - [TEST_STEP][PASSED] - click(findTestObject("COLLECTION PAGE _OR/Pagination_OR/Page_Ontario Cannabis Store  Ontari/button_Start Browsing")): Object: 'Object Repository/COLLECTION PAGE _OR/Pagination_OR/Page_Ontario Cannabis Store  Ontari/button_Start Browsing' is clicked on
+
+2019-05-09 13:11:36 - [MESSAGE][PASSED] - Object: 'Object Repository/COLLECTION PAGE _OR/Pagination_OR/Page_Ontario Cannabis Store  Ontari/button_Start Browsing' is clicked on
+
+2019-05-09 13:11:36 - [TEST_STEP][NOT_RUN] - click(findTestObject("COLLECTION PAGE _OR/Pagination_OR/Page_Ontario Cannabis Store  Ontari/h3_Cannabis")): NOT_RUN: click(findTestObject("COLLECTION PAGE _OR/Pagination_OR/Page_Ontario Cannabis Store  Ontari/h3_Cannabis"))
+
+2019-05-09 13:11:36 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("COLLECTION PAGE _OR/Pagination_OR/Page_Ontario Cannabis Store  Ontari/h3_Cannabis"))
+
+2019-05-09 13:11:36 - [TEST_STEP][PASSED] - mouseOver(findTestObject("OCS_CRITICAL PATH/cart flyout- price/Page_Ontario Cannabis Store  Ontari/h3_Cannabis")): Object: 'Object Repository/OCS_CRITICAL PATH/cart flyout- price/Page_Ontario Cannabis Store  Ontari/h3_Cannabis' is hovered
+
+2019-05-09 13:11:36 - [MESSAGE][PASSED] - Object: 'Object Repository/OCS_CRITICAL PATH/cart flyout- price/Page_Ontario Cannabis Store  Ontari/h3_Cannabis' is hovered
+
+2019-05-09 13:11:36 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-05-09 13:11:38 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-09 13:11:38 - [TEST_STEP][PASSED] - click(findTestObject("COLLECTION PAGE _OR/Pagination_OR/Page_Ontario Cannabis Store  Ontari/span_Pre-Rolled")): Object: 'Object Repository/COLLECTION PAGE _OR/Pagination_OR/Page_Ontario Cannabis Store  Ontari/span_Pre-Rolled' is clicked on
+
+2019-05-09 13:11:43 - [MESSAGE][PASSED] - Object: 'Object Repository/COLLECTION PAGE _OR/Pagination_OR/Page_Ontario Cannabis Store  Ontari/span_Pre-Rolled' is clicked on
+
+2019-05-09 13:11:43 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-05-09 13:11:45 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-09 13:11:45 - [TEST_STEP][PASSED] - click(findTestObject("COLLECTION PAGE _OR/Pagination_OR/Page_Pre-Rolled  Ontario Cannabis S/a_2")): Object: 'Object Repository/COLLECTION PAGE _OR/Pagination_OR/Page_Pre-Rolled  Ontario Cannabis S/a_2' is clicked on
+
+2019-05-09 13:11:45 - [MESSAGE][PASSED] - Object: 'Object Repository/COLLECTION PAGE _OR/Pagination_OR/Page_Pre-Rolled  Ontario Cannabis S/a_2' is clicked on
+
+2019-05-09 13:11:45 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-05-09 13:11:47 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-09 13:11:47 - [TEST_STEP][PASSED] - scrollToPosition(570, 49): Browser is scrolled to position x = 570, y = 49
+
+2019-05-09 13:11:47 - [MESSAGE][PASSED] - Browser is scrolled to position x = 570, y = 49
+
+2019-05-09 13:11:47 - [TEST_STEP][PASSED] - click(findTestObject("COLLECTION PAGE _OR/Pagination_OR/Page_Pre-Rolled  Ontario Cannabis S/a_3"), STOP_ON_FAILURE): Object: 'Object Repository/COLLECTION PAGE _OR/Pagination_OR/Page_Pre-Rolled  Ontario Cannabis S/a_3' is clicked on
+
+2019-05-09 13:11:47 - [MESSAGE][PASSED] - Object: 'Object Repository/COLLECTION PAGE _OR/Pagination_OR/Page_Pre-Rolled  Ontario Cannabis S/a_3' is clicked on
+
+2019-05-09 13:11:47 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-05-09 13:11:49 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-09 13:11:49 - [TEST_STEP][PASSED] - scrollToPosition(570, 49): Browser is scrolled to position x = 570, y = 49
+
+2019-05-09 13:11:50 - [MESSAGE][PASSED] - Browser is scrolled to position x = 570, y = 49
+
+2019-05-09 13:11:50 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-05-09 13:11:52 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-09 13:11:52 - [TEST_STEP][PASSED] - click(findTestObject("COLLECTION PAGE _OR/Pagination_OR/Page_Pre-Rolled  Ontario Cannabis S/a_Previous")): Object: 'Object Repository/COLLECTION PAGE _OR/Pagination_OR/Page_Pre-Rolled  Ontario Cannabis S/a_Previous' is clicked on
+
+2019-05-09 13:11:52 - [MESSAGE][PASSED] - Object: 'Object Repository/COLLECTION PAGE _OR/Pagination_OR/Page_Pre-Rolled  Ontario Cannabis S/a_Previous' is clicked on
+
+2019-05-09 13:11:52 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-05-09 13:11:54 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-09 13:11:54 - [TEST_STEP][PASSED] - scrollToPosition(570, 49): Browser is scrolled to position x = 570, y = 49
+
+2019-05-09 13:11:54 - [MESSAGE][PASSED] - Browser is scrolled to position x = 570, y = 49
+
+2019-05-09 13:11:54 - [TEST_STEP][PASSED] - click(findTestObject("COLLECTION PAGE _OR/Pagination_OR/Page_Pre-Rolled  Ontario Cannabis S/a_Next")): Object: 'Object Repository/COLLECTION PAGE _OR/Pagination_OR/Page_Pre-Rolled  Ontario Cannabis S/a_Next' is clicked on
+
+2019-05-09 13:11:55 - [MESSAGE][PASSED] - Object: 'Object Repository/COLLECTION PAGE _OR/Pagination_OR/Page_Pre-Rolled  Ontario Cannabis S/a_Next' is clicked on
+
+2019-05-09 13:11:55 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-05-09 13:11:57 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-09 13:11:57 - [TEST_STEP][PASSED] - click(findTestObject("COLLECTION PAGE _OR/Pagination_OR/Page_Pre-Rolled  Ontario Cannabis S/a_What to consider")): Object: 'Object Repository/COLLECTION PAGE _OR/Pagination_OR/Page_Pre-Rolled  Ontario Cannabis S/a_What to consider' is clicked on
+
+2019-05-09 13:12:01 - [MESSAGE][PASSED] - Object: 'Object Repository/COLLECTION PAGE _OR/Pagination_OR/Page_Pre-Rolled  Ontario Cannabis S/a_What to consider' is clicked on
+
+2019-05-09 13:12:01 - [TEST_STEP][PASSED] - back(): Navigate back successfully
+
+2019-05-09 13:12:05 - [MESSAGE][PASSED] - Navigate back successfully
+
+2019-05-09 13:12:05 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+2019-05-09 13:12:09 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2019-05-09 13:12:09 - [TEST_STEP][PASSED] - click(findTestObject("COLLECTION PAGE _OR/Pagination_OR/pagination_OR/Page_Pre-Rolled  Ontario Cannabis S/a_Previous")): Object: 'Object Repository/COLLECTION PAGE _OR/Pagination_OR/pagination_OR/Page_Pre-Rolled  Ontario Cannabis S/a_Previous' is clicked on
+
+2019-05-09 13:12:09 - [MESSAGE][PASSED] - Object: 'Object Repository/COLLECTION PAGE _OR/Pagination_OR/pagination_OR/Page_Pre-Rolled  Ontario Cannabis S/a_Previous' is clicked on
+
+2019-05-09 13:12:09 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-05-09 13:12:11 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-09 13:12:11 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-05-09 13:12:13 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-09 13:12:13 - [TEST_STEP][PASSED] - click(findTestObject("COLLECTION PAGE _OR/Pagination_OR/pagination_OR/Page_Pre-Rolled  Ontario Cannabis S/span_1")): Object: 'Object Repository/COLLECTION PAGE _OR/Pagination_OR/pagination_OR/Page_Pre-Rolled  Ontario Cannabis S/span_1' is clicked on
+
+2019-05-09 13:12:13 - [MESSAGE][PASSED] - Object: 'Object Repository/COLLECTION PAGE _OR/Pagination_OR/pagination_OR/Page_Pre-Rolled  Ontario Cannabis S/span_1' is clicked on
+
+2019-05-09 13:12:13 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-05-09 13:12:15 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-09 13:12:15 - [TEST_STEP][PASSED] - click(findTestObject("COLLECTION PAGE _OR/Pagination_OR/pagination_OR/Page_Pre-Rolled  Ontario Cannabis S/span_3")): Object: 'Object Repository/COLLECTION PAGE _OR/Pagination_OR/pagination_OR/Page_Pre-Rolled  Ontario Cannabis S/span_3' is clicked on
+
+2019-05-09 13:12:16 - [MESSAGE][PASSED] - Object: 'Object Repository/COLLECTION PAGE _OR/Pagination_OR/pagination_OR/Page_Pre-Rolled  Ontario Cannabis S/span_3' is clicked on
+
+2019-05-09 13:12:16 - [TEST_STEP][PASSED] - scrollToPosition(570, 40): Browser is scrolled to position x = 570, y = 40
+
+2019-05-09 13:12:16 - [MESSAGE][PASSED] - Browser is scrolled to position x = 570, y = 40
+
+2019-05-09 13:12:16 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-05-09 13:12:18 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-09 13:12:18 - [TEST_STEP][PASSED] - click(findTestObject("COLLECTION PAGE _OR/Pagination_OR/pagination_OR/Page_Pre-Rolled  Ontario Cannabis S/a_4")): Object: 'Object Repository/COLLECTION PAGE _OR/Pagination_OR/pagination_OR/Page_Pre-Rolled  Ontario Cannabis S/a_4' is clicked on
+
+2019-05-09 13:12:18 - [MESSAGE][PASSED] - Object: 'Object Repository/COLLECTION PAGE _OR/Pagination_OR/pagination_OR/Page_Pre-Rolled  Ontario Cannabis S/a_4' is clicked on
+
+2019-05-09 13:12:18 - [TEST_STEP][PASSED] - scrollToPosition(570, 40): Browser is scrolled to position x = 570, y = 40
+
+2019-05-09 13:12:19 - [MESSAGE][PASSED] - Browser is scrolled to position x = 570, y = 40
+
+2019-05-09 13:12:19 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-05-09 13:12:21 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-09 13:12:21 - [TEST_STEP][NOT_RUN] - click(findTestObject("COLLECTION PAGE _OR/Pagination_OR/pagination_OR/Page_Pre-Rolled  Ontario Cannabis S/a_Previous")): NOT_RUN: click(findTestObject("COLLECTION PAGE _OR/Pagination_OR/pagination_OR/Page_Pre-Rolled  Ontario Cannabis S/a_Previous"))
+
+2019-05-09 13:12:21 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("COLLECTION PAGE _OR/Pagination_OR/pagination_OR/Page_Pre-Rolled  Ontario Cannabis S/a_Previous"))
+
+2019-05-09 13:12:21 - [TEST_STEP][NOT_RUN] - scrollToPosition(570, 40): NOT_RUN: scrollToPosition(570, 40)
+
+2019-05-09 13:12:21 - [MESSAGE][NOT_RUN] - NOT_RUN: scrollToPosition(570, 40)
+
+2019-05-09 13:12:21 - [TEST_STEP][NOT_RUN] - delay(2): NOT_RUN: delay(2)
+
+2019-05-09 13:12:21 - [MESSAGE][NOT_RUN] - NOT_RUN: delay(2)
+
+2019-05-09 13:12:21 - [TEST_STEP][NOT_RUN] - scrollToPosition(570, 40): NOT_RUN: scrollToPosition(570, 40)
+
+2019-05-09 13:12:21 - [MESSAGE][NOT_RUN] - NOT_RUN: scrollToPosition(570, 40)
+
+2019-05-09 13:12:21 - [TEST_STEP][NOT_RUN] - delay(2): NOT_RUN: delay(2)
+
+2019-05-09 13:12:21 - [MESSAGE][NOT_RUN] - NOT_RUN: delay(2)
+
+2019-05-09 13:12:21 - [TEST_STEP][NOT_RUN] - click(findTestObject("COLLECTION PAGE _OR/Pagination_OR/pagination_OR/Page_Pre-Rolled  Ontario Cannabis S/a_Next")): NOT_RUN: click(findTestObject("COLLECTION PAGE _OR/Pagination_OR/pagination_OR/Page_Pre-Rolled  Ontario Cannabis S/a_Next"))
+
+2019-05-09 13:12:21 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("COLLECTION PAGE _OR/Pagination_OR/pagination_OR/Page_Pre-Rolled  Ontario Cannabis S/a_Next"))]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/OCS-COLLECTION PAGE/Sort1" classname="Test Cases/OCS-COLLECTION PAGE/Sort1" status="FAILED">
+         <failure type="FAILED" message="Test Cases/OCS-COLLECTION PAGE/Sort1 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/SORT_OR/Page_Pre-Rolled  Ontario Cannabis S/i_Pre-Rolled_icon--sort_1' (Root cause: org.openqa.selenium.WebDriverException: element click intercepted: Element &lt;i class=&quot;icon--sort&quot;>&lt;/i> is not clickable at point (1202, 34). Other element would receive the click: &lt;div class=&quot;gram-widget__pricing&quot; tabindex=&quot;0&quot;>...&lt;/div>
+  (Session info: chrome=74.0.3729.131)
+  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 76 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: '199-7-164-50', ip: '199.7.164.50', os.name: 'windows', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:1630}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}), userDataDir=C:\Windows\proxy\scoped_dir7684_15545}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=74.0.3729.131, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: ab2a8142935fa156c02534d0ae0463e9
+Command duration or timeout: 0 milliseconds)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at Sort1.run(Sort1:74)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1557421593354.run(TempTestSuite1557421593354.groovy:36)
+"/>
+         <system-out><![CDATA[2019-05-09 13:12:21 - [TEST_CASE][FAILED] - Test Cases/OCS-COLLECTION PAGE/Sort1: Test Cases/OCS-COLLECTION PAGE/Sort1 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/SORT_OR/Page_Pre-Rolled  Ontario Cannabis S/i_Pre-Rolled_icon--sort_1' (Root cause: org.openqa.selenium.WebDriverException: element click intercepted: Element <i class="icon--sort"></i> is not clickable at point (1202, 34). Other element would receive the click: <div class="gram-widget__pricing" tabindex="0">...</div>
+  (Session info: chrome=74.0.3729.131)
+  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 76 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: '199-7-164-50', ip: '199.7.164.50', os.name: 'windows', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:1630}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}), userDataDir=C:\Windows\proxy\scoped_dir7684_15545}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=74.0.3729.131, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: ab2a8142935fa156c02534d0ae0463e9
+Command duration or timeout: 0 milliseconds)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at Sort1.run(Sort1:74)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1557421593354.run(TempTestSuite1557421593354.groovy:36)
+
+
+2019-05-09 13:12:22 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-05-09 13:12:22 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-05-09 13:12:23 - [MESSAGE][INFO] - Starting 'Remote' driver
+
+2019-05-09 13:12:23 - [MESSAGE][INFO] - User set preference: ['os', 'windows']
+
+2019-05-09 13:12:23 - [MESSAGE][INFO] - User set preference: ['os_version', '10']
+
+2019-05-09 13:12:23 - [MESSAGE][INFO] - User set preference: ['browser', 'Chrome']
+
+2019-05-09 13:12:23 - [MESSAGE][INFO] - User set preference: ['browser_version', '74']
+
+2019-05-09 13:12:23 - [MESSAGE][INFO] - User set preference: ['resolution', '1280x800']
+
+2019-05-09 13:12:23 - [MESSAGE][INFO] - Connecting to remote web server 'https://dianatest3:Z3oqw9ysqTeRQJq5wFCp@hub-cloud.browserstack.com/wd/hub' with type 'Selenium'
+
+2019-05-09 13:12:35 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-05-09 13:12:35 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-05-09 13:12:36 - [MESSAGE][PASSED] - Current window maximized
+
+2019-05-09 13:12:36 - [TEST_STEP][PASSED] - navigateToUrl("https://ocs.ca/?fts=0&preview_theme_id=53373863756"): Navigate to 'https://ocs.ca/?fts=0&preview_theme_id=53373863756' successfully
+
+2019-05-09 13:12:42 - [MESSAGE][PASSED] - Navigate to 'https://ocs.ca/?fts=0&preview_theme_id=53373863756' successfully
+
+2019-05-09 13:12:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Theme_oR/Page_Ontario Cannabis Store  Ontari/button_Close preview")): Object: 'Object Repository/Theme_oR/Page_Ontario Cannabis Store  Ontari/button_Close preview' is clicked on
+
+2019-05-09 13:12:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Theme_oR/Page_Ontario Cannabis Store  Ontari/button_Close preview' is clicked on
+
+2019-05-09 13:12:47 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/SORT_OR/Page_Ontario Cannabis Store  Ontari/select_Select01020304050607080"), "2", true): All options with value '2' are selected in object 'Object Repository/SORT_OR/Page_Ontario Cannabis Store  Ontari/select_Select01020304050607080'  using regular expression
+
+2019-05-09 13:12:52 - [MESSAGE][PASSED] - All options with value '2' are selected in object 'Object Repository/SORT_OR/Page_Ontario Cannabis Store  Ontari/select_Select01020304050607080'  using regular expression
+
+2019-05-09 13:12:52 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/SORT_OR/Page_Ontario Cannabis Store  Ontari/select_SelectJanuary - 01Febru"), "2", true): All options with value '2' are selected in object 'Object Repository/SORT_OR/Page_Ontario Cannabis Store  Ontari/select_SelectJanuary - 01Febru'  using regular expression
+
+2019-05-09 13:12:54 - [MESSAGE][PASSED] - All options with value '2' are selected in object 'Object Repository/SORT_OR/Page_Ontario Cannabis Store  Ontari/select_SelectJanuary - 01Febru'  using regular expression
+
+2019-05-09 13:12:54 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/SORT_OR/Page_Ontario Cannabis Store  Ontari/select_Select20182017201620152"), "2013", true): All options with value '2013' are selected in object 'Object Repository/SORT_OR/Page_Ontario Cannabis Store  Ontari/select_Select20182017201620152'  using regular expression
+
+2019-05-09 13:13:07 - [MESSAGE][PASSED] - All options with value '2013' are selected in object 'Object Repository/SORT_OR/Page_Ontario Cannabis Store  Ontari/select_Select20182017201620152'  using regular expression
+
+2019-05-09 13:13:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/SORT_OR/Page_Ontario Cannabis Store  Ontari/button_Verify")): Object: 'Object Repository/SORT_OR/Page_Ontario Cannabis Store  Ontari/button_Verify' is clicked on
+
+2019-05-09 13:13:08 - [MESSAGE][PASSED] - Object: 'Object Repository/SORT_OR/Page_Ontario Cannabis Store  Ontari/button_Verify' is clicked on
+
+2019-05-09 13:13:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/SORT_OR/Page_Ontario Cannabis Store  Ontari/span_CONFIRM AND ACKNOWLEDGE_c")): Object: 'Object Repository/SORT_OR/Page_Ontario Cannabis Store  Ontari/span_CONFIRM AND ACKNOWLEDGE_c' is clicked on
+
+2019-05-09 13:13:09 - [MESSAGE][PASSED] - Object: 'Object Repository/SORT_OR/Page_Ontario Cannabis Store  Ontari/span_CONFIRM AND ACKNOWLEDGE_c' is clicked on
+
+2019-05-09 13:13:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/SORT_OR/Page_Ontario Cannabis Store  Ontari/button_CONFIRM")): Object: 'Object Repository/SORT_OR/Page_Ontario Cannabis Store  Ontari/button_CONFIRM' is clicked on
+
+2019-05-09 13:13:09 - [MESSAGE][PASSED] - Object: 'Object Repository/SORT_OR/Page_Ontario Cannabis Store  Ontari/button_CONFIRM' is clicked on
+
+2019-05-09 13:13:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/SORT_OR/Page_Ontario Cannabis Store  Ontari/a_Oops Im actually 19 or older")): Object: 'Object Repository/SORT_OR/Page_Ontario Cannabis Store  Ontari/a_Oops Im actually 19 or older' is clicked on
+
+2019-05-09 13:13:10 - [MESSAGE][PASSED] - Object: 'Object Repository/SORT_OR/Page_Ontario Cannabis Store  Ontari/a_Oops Im actually 19 or older' is clicked on
+
+2019-05-09 13:13:10 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/SORT_OR/Page_Ontario Cannabis Store  Ontari/select_Select01020304050607080"), "4", true): All options with value '4' are selected in object 'Object Repository/SORT_OR/Page_Ontario Cannabis Store  Ontari/select_Select01020304050607080'  using regular expression
+
+2019-05-09 13:13:15 - [MESSAGE][PASSED] - All options with value '4' are selected in object 'Object Repository/SORT_OR/Page_Ontario Cannabis Store  Ontari/select_Select01020304050607080'  using regular expression
+
+2019-05-09 13:13:15 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/SORT_OR/Page_Ontario Cannabis Store  Ontari/select_SelectJanuary - 01Febru"), "9", true): All options with value '9' are selected in object 'Object Repository/SORT_OR/Page_Ontario Cannabis Store  Ontari/select_SelectJanuary - 01Febru'  using regular expression
+
+2019-05-09 13:13:18 - [MESSAGE][PASSED] - All options with value '9' are selected in object 'Object Repository/SORT_OR/Page_Ontario Cannabis Store  Ontari/select_SelectJanuary - 01Febru'  using regular expression
+
+2019-05-09 13:13:18 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/SORT_OR/Page_Ontario Cannabis Store  Ontari/select_Select20182017201620152"), "1987", true): All options with value '1987' are selected in object 'Object Repository/SORT_OR/Page_Ontario Cannabis Store  Ontari/select_Select20182017201620152'  using regular expression
+
+2019-05-09 13:13:33 - [MESSAGE][PASSED] - All options with value '1987' are selected in object 'Object Repository/SORT_OR/Page_Ontario Cannabis Store  Ontari/select_Select20182017201620152'  using regular expression
+
+2019-05-09 13:13:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/SORT_OR/Page_Ontario Cannabis Store  Ontari/button_Verify")): Object: 'Object Repository/SORT_OR/Page_Ontario Cannabis Store  Ontari/button_Verify' is clicked on
+
+2019-05-09 13:13:33 - [MESSAGE][PASSED] - Object: 'Object Repository/SORT_OR/Page_Ontario Cannabis Store  Ontari/button_Verify' is clicked on
+
+2019-05-09 13:13:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/SORT_OR/Page_Ontario Cannabis Store  Ontari/span_CONFIRM AND ACKNOWLEDGE_c")): Object: 'Object Repository/SORT_OR/Page_Ontario Cannabis Store  Ontari/span_CONFIRM AND ACKNOWLEDGE_c' is clicked on
+
+2019-05-09 13:13:34 - [MESSAGE][PASSED] - Object: 'Object Repository/SORT_OR/Page_Ontario Cannabis Store  Ontari/span_CONFIRM AND ACKNOWLEDGE_c' is clicked on
+
+2019-05-09 13:13:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/SORT_OR/Page_Ontario Cannabis Store  Ontari/button_CONFIRM")): Object: 'Object Repository/SORT_OR/Page_Ontario Cannabis Store  Ontari/button_CONFIRM' is clicked on
+
+2019-05-09 13:13:34 - [MESSAGE][PASSED] - Object: 'Object Repository/SORT_OR/Page_Ontario Cannabis Store  Ontari/button_CONFIRM' is clicked on
+
+2019-05-09 13:13:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/SORT_OR/Page_Ontario Cannabis Store  Ontari/button_Start Browsing")): Object: 'Object Repository/SORT_OR/Page_Ontario Cannabis Store  Ontari/button_Start Browsing' is clicked on
+
+2019-05-09 13:13:35 - [MESSAGE][PASSED] - Object: 'Object Repository/SORT_OR/Page_Ontario Cannabis Store  Ontari/button_Start Browsing' is clicked on
+
+2019-05-09 13:13:35 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-05-09 13:13:37 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-09 13:13:37 - [TEST_STEP][NOT_RUN] - mouseOver(findTestObject("Object Repository/SORT_OR/Page_Ontario Cannabis Store  Ontari/h3_Cannabis")): NOT_RUN: mouseOver(findTestObject("Object Repository/SORT_OR/Page_Ontario Cannabis Store  Ontari/h3_Cannabis"))
+
+2019-05-09 13:13:37 - [MESSAGE][NOT_RUN] - NOT_RUN: mouseOver(findTestObject("Object Repository/SORT_OR/Page_Ontario Cannabis Store  Ontari/h3_Cannabis"))
+
+2019-05-09 13:13:37 - [TEST_STEP][PASSED] - mouseOver(findTestObject("OCS_CRITICAL PATH/cart flyout- price/Page_Ontario Cannabis Store  Ontari/h3_Cannabis")): Object: 'Object Repository/OCS_CRITICAL PATH/cart flyout- price/Page_Ontario Cannabis Store  Ontari/h3_Cannabis' is hovered
+
+2019-05-09 13:13:37 - [MESSAGE][PASSED] - Object: 'Object Repository/OCS_CRITICAL PATH/cart flyout- price/Page_Ontario Cannabis Store  Ontari/h3_Cannabis' is hovered
+
+2019-05-09 13:13:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/SORT_OR/Page_Ontario Cannabis Store  Ontari/span_Pre-Rolled")): Object: 'Object Repository/SORT_OR/Page_Ontario Cannabis Store  Ontari/span_Pre-Rolled' is clicked on
+
+2019-05-09 13:13:41 - [MESSAGE][PASSED] - Object: 'Object Repository/SORT_OR/Page_Ontario Cannabis Store  Ontari/span_Pre-Rolled' is clicked on
+
+2019-05-09 13:13:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/SORT_OR/Page_Pre-Rolled  Ontario Cannabis S/i_Pre-Rolled_icon--sort")): Object: 'Object Repository/SORT_OR/Page_Pre-Rolled  Ontario Cannabis S/i_Pre-Rolled_icon--sort' is clicked on
+
+2019-05-09 13:13:41 - [MESSAGE][PASSED] - Object: 'Object Repository/SORT_OR/Page_Pre-Rolled  Ontario Cannabis S/i_Pre-Rolled_icon--sort' is clicked on
+
+2019-05-09 13:13:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/SORT_OR/Page_Pre-Rolled  Ontario Cannabis S/label_Price Low to High")): Object: 'Object Repository/SORT_OR/Page_Pre-Rolled  Ontario Cannabis S/label_Price Low to High' is clicked on
+
+2019-05-09 13:13:41 - [MESSAGE][PASSED] - Object: 'Object Repository/SORT_OR/Page_Pre-Rolled  Ontario Cannabis S/label_Price Low to High' is clicked on
+
+2019-05-09 13:13:41 - [TEST_STEP][PASSED] - scrollToPosition(1200, 93): Browser is scrolled to position x = 1200, y = 93
+
+2019-05-09 13:13:41 - [MESSAGE][PASSED] - Browser is scrolled to position x = 1200, y = 93
+
+2019-05-09 13:13:41 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-05-09 13:13:43 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-09 13:13:43 - [TEST_STEP][FAILED] - click(findTestObject("SORT_OR/Page_Pre-Rolled  Ontario Cannabis S/i_Pre-Rolled_icon--sort_1")): click(findTestObject("SORT_OR/Page_Pre-Rolled  Ontario Cannabis S/i_Pre-Rolled_icon--sort_1")) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/SORT_OR/Page_Pre-Rolled  Ontario Cannabis S/i_Pre-Rolled_icon--sort_1' (Root cause: org.openqa.selenium.WebDriverException: element click intercepted: Element <i class="icon--sort"></i> is not clickable at point (1202, 34). Other element would receive the click: <div class="gram-widget__pricing" tabindex="0">...</div>
+  (Session info: chrome=74.0.3729.131)
+  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 76 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: '199-7-164-50', ip: '199.7.164.50', os.name: 'windows', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:1630}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}), userDataDir=C:\Windows\proxy\scoped_dir7684_15545}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=74.0.3729.131, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: ab2a8142935fa156c02534d0ae0463e9
+Command duration or timeout: 0 milliseconds)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at Sort1.run(Sort1:74)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1557421593354.run(TempTestSuite1557421593354.groovy:36)
+
+
+2019-05-09 13:13:46 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/SORT_OR/Page_Pre-Rolled  Ontario Cannabis S/i_Pre-Rolled_icon--sort_1' (Root cause: org.openqa.selenium.WebDriverException: element click intercepted: Element <i class="icon--sort"></i> is not clickable at point (1202, 34). Other element would receive the click: <div class="gram-widget__pricing" tabindex="0">...</div>
+  (Session info: chrome=74.0.3729.131)
+  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 76 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: '199-7-164-50', ip: '199.7.164.50', os.name: 'windows', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:1630}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}), userDataDir=C:\Windows\proxy\scoped_dir7684_15545}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=74.0.3729.131, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: ab2a8142935fa156c02534d0ae0463e9
+Command duration or timeout: 0 milliseconds)
+[[ATTACHMENT|/Users/sumankompelly/git/Sample-OCS/Reports/OCS-09-05-2019 - Theme2/COLLECTION PAGE-09-05-2019/20190509_130633/1557422025334.png]]
+
+2019-05-09 13:13:46 - [MESSAGE][FAILED] - click(findTestObject("SORT_OR/Page_Pre-Rolled  Ontario Cannabis S/i_Pre-Rolled_icon--sort_1")) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/SORT_OR/Page_Pre-Rolled  Ontario Cannabis S/i_Pre-Rolled_icon--sort_1' (Root cause: org.openqa.selenium.WebDriverException: element click intercepted: Element <i class="icon--sort"></i> is not clickable at point (1202, 34). Other element would receive the click: <div class="gram-widget__pricing" tabindex="0">...</div>
+  (Session info: chrome=74.0.3729.131)
+  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 76 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: '199-7-164-50', ip: '199.7.164.50', os.name: 'windows', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:1630}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}), userDataDir=C:\Windows\proxy\scoped_dir7684_15545}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=74.0.3729.131, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: ab2a8142935fa156c02534d0ae0463e9
+Command duration or timeout: 0 milliseconds)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at Sort1.run(Sort1:74)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1557421593354.run(TempTestSuite1557421593354.groovy:36)]]></system-out>
+         <system-err><![CDATA[2019-05-09 13:12:21 - [TEST_CASE][FAILED] - Test Cases/OCS-COLLECTION PAGE/Sort1: Test Cases/OCS-COLLECTION PAGE/Sort1 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/SORT_OR/Page_Pre-Rolled  Ontario Cannabis S/i_Pre-Rolled_icon--sort_1' (Root cause: org.openqa.selenium.WebDriverException: element click intercepted: Element <i class="icon--sort"></i> is not clickable at point (1202, 34). Other element would receive the click: <div class="gram-widget__pricing" tabindex="0">...</div>
+  (Session info: chrome=74.0.3729.131)
+  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 76 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: '199-7-164-50', ip: '199.7.164.50', os.name: 'windows', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:1630}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}), userDataDir=C:\Windows\proxy\scoped_dir7684_15545}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=74.0.3729.131, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: ab2a8142935fa156c02534d0ae0463e9
+Command duration or timeout: 0 milliseconds)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at Sort1.run(Sort1:74)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1557421593354.run(TempTestSuite1557421593354.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/OCS-COLLECTION PAGE/What to consider" classname="Test Cases/OCS-COLLECTION PAGE/What to consider" status="FAILED">
+         <failure type="FAILED" message="Test Cases/OCS-COLLECTION PAGE/What to consider FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/What to consider_OR/Page_Pre-Rolled  Ontario Cannabis S/a_What to consider' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/What to consider_OR/Page_Pre-Rolled  Ontario Cannabis S/a_What to consider' located by 'By.xpath: //div[@id='shopify-section-en-collections-banner']/div/a' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at What to consider.run(What to consider:47)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1557421593354.run(TempTestSuite1557421593354.groovy:36)
+"/>
+         <system-out><![CDATA[2019-05-09 13:13:46 - [TEST_CASE][FAILED] - Test Cases/OCS-COLLECTION PAGE/What to consider: Test Cases/OCS-COLLECTION PAGE/What to consider FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/What to consider_OR/Page_Pre-Rolled  Ontario Cannabis S/a_What to consider' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/What to consider_OR/Page_Pre-Rolled  Ontario Cannabis S/a_What to consider' located by 'By.xpath: //div[@id='shopify-section-en-collections-banner']/div/a' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at What to consider.run(What to consider:47)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1557421593354.run(TempTestSuite1557421593354.groovy:36)
+
+
+2019-05-09 13:13:46 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-05-09 13:13:46 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-05-09 13:13:48 - [MESSAGE][INFO] - Starting 'Remote' driver
+
+2019-05-09 13:13:48 - [MESSAGE][INFO] - User set preference: ['os', 'windows']
+
+2019-05-09 13:13:48 - [MESSAGE][INFO] - User set preference: ['os_version', '10']
+
+2019-05-09 13:13:48 - [MESSAGE][INFO] - User set preference: ['browser', 'Chrome']
+
+2019-05-09 13:13:48 - [MESSAGE][INFO] - User set preference: ['browser_version', '74']
+
+2019-05-09 13:13:48 - [MESSAGE][INFO] - User set preference: ['resolution', '1280x800']
+
+2019-05-09 13:13:48 - [MESSAGE][INFO] - Connecting to remote web server 'https://dianatest3:Z3oqw9ysqTeRQJq5wFCp@hub-cloud.browserstack.com/wd/hub' with type 'Selenium'
+
+2019-05-09 13:13:54 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-05-09 13:13:54 - [TEST_STEP][PASSED] - navigateToUrl("https://ocs.ca/?fts=0&preview_theme_id=53373863756"): Navigate to 'https://ocs.ca/?fts=0&preview_theme_id=53373863756' successfully
+
+2019-05-09 13:14:02 - [MESSAGE][PASSED] - Navigate to 'https://ocs.ca/?fts=0&preview_theme_id=53373863756' successfully
+
+2019-05-09 13:14:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Theme_oR/Page_Ontario Cannabis Store  Ontari/button_Close preview")): Object: 'Object Repository/Theme_oR/Page_Ontario Cannabis Store  Ontari/button_Close preview' is clicked on
+
+2019-05-09 13:14:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Theme_oR/Page_Ontario Cannabis Store  Ontari/button_Close preview' is clicked on
+
+2019-05-09 13:14:08 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/What to consider_OR/Page_Ontario Cannabis Store  Ontari/select_Select01020304050607080"), "18", true): All options with value '18' are selected in object 'Object Repository/What to consider_OR/Page_Ontario Cannabis Store  Ontari/select_Select01020304050607080'  using regular expression
+
+2019-05-09 13:14:13 - [MESSAGE][PASSED] - All options with value '18' are selected in object 'Object Repository/What to consider_OR/Page_Ontario Cannabis Store  Ontari/select_Select01020304050607080'  using regular expression
+
+2019-05-09 13:14:13 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/What to consider_OR/Page_Ontario Cannabis Store  Ontari/select_SelectJanuary - 01Febru"), "9", true): All options with value '9' are selected in object 'Object Repository/What to consider_OR/Page_Ontario Cannabis Store  Ontari/select_SelectJanuary - 01Febru'  using regular expression
+
+2019-05-09 13:14:17 - [MESSAGE][PASSED] - All options with value '9' are selected in object 'Object Repository/What to consider_OR/Page_Ontario Cannabis Store  Ontari/select_SelectJanuary - 01Febru'  using regular expression
+
+2019-05-09 13:14:17 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/What to consider_OR/Page_Ontario Cannabis Store  Ontari/select_Select20182017201620152"), "1955", true): All options with value '1955' are selected in object 'Object Repository/What to consider_OR/Page_Ontario Cannabis Store  Ontari/select_Select20182017201620152'  using regular expression
+
+2019-05-09 13:14:39 - [MESSAGE][PASSED] - All options with value '1955' are selected in object 'Object Repository/What to consider_OR/Page_Ontario Cannabis Store  Ontari/select_Select20182017201620152'  using regular expression
+
+2019-05-09 13:14:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/What to consider_OR/Page_Ontario Cannabis Store  Ontari/button_Verify")): Object: 'Object Repository/What to consider_OR/Page_Ontario Cannabis Store  Ontari/button_Verify' is clicked on
+
+2019-05-09 13:14:39 - [MESSAGE][PASSED] - Object: 'Object Repository/What to consider_OR/Page_Ontario Cannabis Store  Ontari/button_Verify' is clicked on
+
+2019-05-09 13:14:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/What to consider_OR/Page_Ontario Cannabis Store  Ontari/span_CONFIRM AND ACKNOWLEDGE_c")): Object: 'Object Repository/What to consider_OR/Page_Ontario Cannabis Store  Ontari/span_CONFIRM AND ACKNOWLEDGE_c' is clicked on
+
+2019-05-09 13:14:40 - [MESSAGE][PASSED] - Object: 'Object Repository/What to consider_OR/Page_Ontario Cannabis Store  Ontari/span_CONFIRM AND ACKNOWLEDGE_c' is clicked on
+
+2019-05-09 13:14:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/What to consider_OR/Page_Ontario Cannabis Store  Ontari/button_CONFIRM")): Object: 'Object Repository/What to consider_OR/Page_Ontario Cannabis Store  Ontari/button_CONFIRM' is clicked on
+
+2019-05-09 13:14:40 - [MESSAGE][PASSED] - Object: 'Object Repository/What to consider_OR/Page_Ontario Cannabis Store  Ontari/button_CONFIRM' is clicked on
+
+2019-05-09 13:14:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/What to consider_OR/Page_Ontario Cannabis Store  Ontari/button_Start Browsing")): Object: 'Object Repository/What to consider_OR/Page_Ontario Cannabis Store  Ontari/button_Start Browsing' is clicked on
+
+2019-05-09 13:14:41 - [MESSAGE][PASSED] - Object: 'Object Repository/What to consider_OR/Page_Ontario Cannabis Store  Ontari/button_Start Browsing' is clicked on
+
+2019-05-09 13:14:41 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-05-09 13:14:43 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-05-09 13:14:43 - [TEST_STEP][NOT_RUN] - mouseOver(findTestObject("What to consider_OR/Page_Ontario Cannabis Store  Ontari/h3_Cannabis")): NOT_RUN: mouseOver(findTestObject("What to consider_OR/Page_Ontario Cannabis Store  Ontari/h3_Cannabis"))
+
+2019-05-09 13:14:43 - [MESSAGE][NOT_RUN] - NOT_RUN: mouseOver(findTestObject("What to consider_OR/Page_Ontario Cannabis Store  Ontari/h3_Cannabis"))
+
+2019-05-09 13:14:43 - [TEST_STEP][PASSED] - mouseOver(findTestObject("OCS_CRITICAL PATH/cart flyout- price/Page_Ontario Cannabis Store  Ontari/h3_Cannabis")): Object: 'Object Repository/OCS_CRITICAL PATH/cart flyout- price/Page_Ontario Cannabis Store  Ontari/h3_Cannabis' is hovered
+
+2019-05-09 13:14:43 - [MESSAGE][PASSED] - Object: 'Object Repository/OCS_CRITICAL PATH/cart flyout- price/Page_Ontario Cannabis Store  Ontari/h3_Cannabis' is hovered
+
+2019-05-09 13:14:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/What to consider_OR/Page_Ontario Cannabis Store  Ontari/span_Pre-Rolled")): Object: 'Object Repository/What to consider_OR/Page_Ontario Cannabis Store  Ontari/span_Pre-Rolled' is clicked on
+
+2019-05-09 13:14:44 - [MESSAGE][PASSED] - Object: 'Object Repository/What to consider_OR/Page_Ontario Cannabis Store  Ontari/span_Pre-Rolled' is clicked on
+
+2019-05-09 13:14:44 - [TEST_STEP][FAILED] - click(findTestObject("Object Repository/What to consider_OR/Page_Pre-Rolled  Ontario Cannabis S/a_What to consider")): click(findTestObject("Object Repository/What to consider_OR/Page_Pre-Rolled  Ontario Cannabis S/a_What to consider")) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/What to consider_OR/Page_Pre-Rolled  Ontario Cannabis S/a_What to consider' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/What to consider_OR/Page_Pre-Rolled  Ontario Cannabis S/a_What to consider' located by 'By.xpath: //div[@id='shopify-section-en-collections-banner']/div/a' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at What to consider.run(What to consider:47)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1557421593354.run(TempTestSuite1557421593354.groovy:36)
+
+
+2019-05-09 13:15:21 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='shopify-section-en-collections-banner']/div/a'. Please recheck the objects properties to make sure the desired element is located. 
+
+2019-05-09 13:15:23 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/What to consider_OR/Page_Pre-Rolled  Ontario Cannabis S/a_What to consider' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/What to consider_OR/Page_Pre-Rolled  Ontario Cannabis S/a_What to consider' located by 'By.xpath: //div[@id='shopify-section-en-collections-banner']/div/a' not found)
+[[ATTACHMENT|/Users/sumankompelly/git/Sample-OCS/Reports/OCS-09-05-2019 - Theme2/COLLECTION PAGE-09-05-2019/20190509_130633/1557422121791.png]]
+
+2019-05-09 13:15:23 - [MESSAGE][FAILED] - click(findTestObject("Object Repository/What to consider_OR/Page_Pre-Rolled  Ontario Cannabis S/a_What to consider")) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/What to consider_OR/Page_Pre-Rolled  Ontario Cannabis S/a_What to consider' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/What to consider_OR/Page_Pre-Rolled  Ontario Cannabis S/a_What to consider' located by 'By.xpath: //div[@id='shopify-section-en-collections-banner']/div/a' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at What to consider.run(What to consider:47)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1557421593354.run(TempTestSuite1557421593354.groovy:36)]]></system-out>
+         <system-err><![CDATA[2019-05-09 13:13:46 - [TEST_CASE][FAILED] - Test Cases/OCS-COLLECTION PAGE/What to consider: Test Cases/OCS-COLLECTION PAGE/What to consider FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/What to consider_OR/Page_Pre-Rolled  Ontario Cannabis S/a_What to consider' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/What to consider_OR/Page_Pre-Rolled  Ontario Cannabis S/a_What to consider' located by 'By.xpath: //div[@id='shopify-section-en-collections-banner']/div/a' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at What to consider.run(What to consider:47)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1557421593354.run(TempTestSuite1557421593354.groovy:36)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-05-09 13:06:35 - [TEST_SUITE][FAILED] - COLLECTION PAGE-09-05-2019: Test Cases/OCS-COLLECTION PAGE/breadcrumbs FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/COLLECTION PAGE _OR/breadcrumbs_OR/Page_Dried Flower  Ontario Cannabis/a_Cannabis' (Root cause: org.openqa.selenium.WebDriverException: element click intercepted: Element <a href="https://www.canada.ca/en/services/health/campaigns/cannabis.html" target="_blank">...</a> is not clickable at point (135, 600). Other element would receive the click: <ul class="unstyled no-margin menu__tier-two__menu-primary">...</ul>
+  (Session info: chrome=74.0.3729.131)
+  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.17763 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 189 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: '207-254-7-161', ip: '207.254.7.161', os.name: 'windows', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:1717}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}), userDataDir=C:\Windows\proxy\scoped_dir9208_32620}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=74.0.3729.131, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: a42ea51057955570108e19fa3e9ea302
+Command duration or timeout: 0 milliseconds)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at breadcrumbs.run(breadcrumbs:45)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1557421593354.run(TempTestSuite1557421593354.groovy:36)]]></system-out>
+      <system-err><![CDATA[2019-05-09 13:06:35 - [TEST_SUITE][FAILED] - COLLECTION PAGE-09-05-2019: Test Cases/OCS-COLLECTION PAGE/breadcrumbs FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/COLLECTION PAGE _OR/breadcrumbs_OR/Page_Dried Flower  Ontario Cannabis/a_Cannabis' (Root cause: org.openqa.selenium.WebDriverException: element click intercepted: Element <a href="https://www.canada.ca/en/services/health/campaigns/cannabis.html" target="_blank">...</a> is not clickable at point (135, 600). Other element would receive the click: <ul class="unstyled no-margin menu__tier-two__menu-primary">...</ul>
+  (Session info: chrome=74.0.3729.131)
+  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.17763 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 189 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: '207-254-7-161', ip: '207.254.7.161', os.name: 'windows', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:1717}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}), userDataDir=C:\Windows\proxy\scoped_dir9208_32620}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=74.0.3729.131, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: a42ea51057955570108e19fa3e9ea302
+Command duration or timeout: 0 milliseconds)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at breadcrumbs.run(breadcrumbs:45)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1557421593354.run(TempTestSuite1557421593354.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>

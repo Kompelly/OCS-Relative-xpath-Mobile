@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Cart flyout- increase qty</name>
+   <tag></tag>
+   <comment> flag =&quot; + flag
+a
+b
+c
+d
+ price changed . Quantity selector is working</comment>
+   <testCaseGuid>3e8a5198-a20a-4b61-b528-c454aff62696</testCaseGuid>
+</TestCaseEntity>

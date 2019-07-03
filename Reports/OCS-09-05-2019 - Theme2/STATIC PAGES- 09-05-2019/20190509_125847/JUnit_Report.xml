@@ -1,0 +1,1051 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="STATIC PAGES- 09-05-2019" time="56" tests="2" failures="2" errors="0">
+   <testsuite name="STATIC PAGES- 09-05-2019" tests="2" failures="2" errors="0" time="56" timestamp="2019-05-09 12:58:48" hostname="sumankompelly - 10.0.126.233" id="Test Suites/OCS-09-05-2019 - Theme2/STATIC PAGES- 09-05-2019">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/sumankompelly/git/Sample-OCS/Reports/OCS-09-05-2019 - Theme2/STATIC PAGES- 09-05-2019/20190509_125847"/>
+         <property name="logFiles" value="/Users/sumankompelly/git/Sample-OCS/Reports/OCS-09-05-2019 - Theme2/STATIC PAGES- 09-05-2019/20190509_125847/execution0.log"/>
+         <property name="attachments" value="/Users/sumankompelly/git/Sample-OCS/Reports/OCS-09-05-2019 - Theme2/STATIC PAGES- 09-05-2019/20190509_125847/1557421174229.png, /Users/sumankompelly/git/Sample-OCS/Reports/OCS-09-05-2019 - Theme2/STATIC PAGES- 09-05-2019/20190509_125847/1557421184297.png"/>
+         <property name="hostName" value="sumankompelly - 10.0.126.233"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="5.10.1.1"/>
+         <property name="browser" value="Firefox 66.0"/>
+         <property name="hostAddress" value="10.0.126.233"/>
+         <property name="sessionId" value="5512bcf0-9361-6847-804a-952b042e7e6a"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/OCS- STATIC PAGE/About" classname="Test Cases/OCS- STATIC PAGE/About" status="PASSED">
+         <system-out><![CDATA[2019-05-09 12:58:49 - [TEST_CASE][PASSED] - Test Cases/OCS- STATIC PAGE/About: Test Cases/OCS- STATIC PAGE/About
+
+2019-05-09 12:58:49 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-05-09 12:58:50 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2019-05-09 12:58:50 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-05-09 12:58:53 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-05-09 12:58:53 - [TEST_STEP][PASSED] - navigateToUrl("https://ocs.ca/?fts=0&preview_theme_id=53373863756"): Navigate to 'https://ocs.ca/?fts=0&preview_theme_id=53373863756' successfully
+
+2019-05-09 12:58:58 - [MESSAGE][PASSED] - Navigate to 'https://ocs.ca/?fts=0&preview_theme_id=53373863756' successfully
+
+2019-05-09 12:58:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Theme_oR/Page_Ontario Cannabis Store  Ontari/button_Close preview")): Object: 'Object Repository/Theme_oR/Page_Ontario Cannabis Store  Ontari/button_Close preview' is clicked on
+
+2019-05-09 12:58:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Theme_oR/Page_Ontario Cannabis Store  Ontari/button_Close preview' is clicked on
+
+2019-05-09 12:58:59 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/About static_OR/Page_Ontario Cannabis Store  Ontari/select_Select01020304050607080"), "3", true): All options with value '3' are selected in object 'Object Repository/About static_OR/Page_Ontario Cannabis Store  Ontari/select_Select01020304050607080'  using regular expression
+
+2019-05-09 12:59:01 - [MESSAGE][PASSED] - All options with value '3' are selected in object 'Object Repository/About static_OR/Page_Ontario Cannabis Store  Ontari/select_Select01020304050607080'  using regular expression
+
+2019-05-09 12:59:01 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/About static_OR/Page_Ontario Cannabis Store  Ontari/select_SelectJanuary - 01Febru"), "2", true): All options with value '2' are selected in object 'Object Repository/About static_OR/Page_Ontario Cannabis Store  Ontari/select_SelectJanuary - 01Febru'  using regular expression
+
+2019-05-09 12:59:01 - [MESSAGE][PASSED] - All options with value '2' are selected in object 'Object Repository/About static_OR/Page_Ontario Cannabis Store  Ontari/select_SelectJanuary - 01Febru'  using regular expression
+
+2019-05-09 12:59:01 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/About static_OR/Page_Ontario Cannabis Store  Ontari/select_Select20182017201620152"), "1958", true): All options with value '1958' are selected in object 'Object Repository/About static_OR/Page_Ontario Cannabis Store  Ontari/select_Select20182017201620152'  using regular expression
+
+2019-05-09 12:59:03 - [MESSAGE][PASSED] - All options with value '1958' are selected in object 'Object Repository/About static_OR/Page_Ontario Cannabis Store  Ontari/select_Select20182017201620152'  using regular expression
+
+2019-05-09 12:59:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/About static_OR/Page_Ontario Cannabis Store  Ontari/button_Verify")): Object: 'Object Repository/About static_OR/Page_Ontario Cannabis Store  Ontari/button_Verify' is clicked on
+
+2019-05-09 12:59:03 - [MESSAGE][PASSED] - Object: 'Object Repository/About static_OR/Page_Ontario Cannabis Store  Ontari/button_Verify' is clicked on
+
+2019-05-09 12:59:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/About static_OR/Page_Ontario Cannabis Store  Ontari/span_CONFIRM AND ACKNOWLEDGE_c")): Object: 'Object Repository/About static_OR/Page_Ontario Cannabis Store  Ontari/span_CONFIRM AND ACKNOWLEDGE_c' is clicked on
+
+2019-05-09 12:59:04 - [MESSAGE][PASSED] - Object: 'Object Repository/About static_OR/Page_Ontario Cannabis Store  Ontari/span_CONFIRM AND ACKNOWLEDGE_c' is clicked on
+
+2019-05-09 12:59:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/About static_OR/Page_Ontario Cannabis Store  Ontari/button_CONFIRM")): Object: 'Object Repository/About static_OR/Page_Ontario Cannabis Store  Ontari/button_CONFIRM' is clicked on
+
+2019-05-09 12:59:04 - [MESSAGE][PASSED] - Object: 'Object Repository/About static_OR/Page_Ontario Cannabis Store  Ontari/button_CONFIRM' is clicked on
+
+2019-05-09 12:59:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/About static_OR/Page_Ontario Cannabis Store  Ontari/button_Start Browsing")): Object: 'Object Repository/About static_OR/Page_Ontario Cannabis Store  Ontari/button_Start Browsing' is clicked on
+
+2019-05-09 12:59:04 - [MESSAGE][PASSED] - Object: 'Object Repository/About static_OR/Page_Ontario Cannabis Store  Ontari/button_Start Browsing' is clicked on
+
+2019-05-09 12:59:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/About static_OR/Page_Ontario Cannabis Store  Ontari/a_About the OCS")): Object: 'Object Repository/About static_OR/Page_Ontario Cannabis Store  Ontari/a_About the OCS' is clicked on
+
+2019-05-09 12:59:05 - [MESSAGE][PASSED] - Object: 'Object Repository/About static_OR/Page_Ontario Cannabis Store  Ontari/a_About the OCS' is clicked on
+
+2019-05-09 12:59:05 - [TEST_STEP][PASSED] - click(findTestObject("About static_OR/Page_About Us  Ontario Cannabis Sto/article_About Us"), STOP_ON_FAILURE): Object: 'Object Repository/About static_OR/Page_About Us  Ontario Cannabis Sto/article_About Us' is clicked on
+
+2019-05-09 12:59:06 - [MESSAGE][PASSED] - Object: 'Object Repository/About static_OR/Page_About Us  Ontario Cannabis Sto/article_About Us' is clicked on
+
+2019-05-09 12:59:06 - [TEST_STEP][NOT_RUN] - switchToDefaultContent(): NOT_RUN: switchToDefaultContent()
+
+2019-05-09 12:59:06 - [MESSAGE][NOT_RUN] - NOT_RUN: switchToDefaultContent()
+
+2019-05-09 12:59:06 - [TEST_STEP][PASSED] - a = getText(findTestObject("About static_OR/Page_About Us  Ontario Cannabis Sto/article_About Us"), STOP_ON_FAILURE): Text of object 'Object Repository/About static_OR/Page_About Us  Ontario Cannabis Sto/article_About Us' is: 'About Us
+About Ontario Cannabis Store
+The Ontario Cannabis Store provides safe, responsible access to recreational cannabis for adults 19 and older. We are Ontario’s only online cannabis retailer and wholesaler of legal recreational cannabis in Ontario.
+We make sure our customers only receive safe, clearly labelled cannabis products by working closely with a diverse group of licensed producers authorized by Health Canada. Our online store prioritizes education and provides many opportunities for both new and experienced consumers to learn more about cannabis and responsible use. We put customer privacy first by making sure that all personal information is stored in Canada, allowing guest checkout and deleting customer data as soon as legally allowed.
+Our customer-care centre is staffed by knowledgeable, helpful product specialists who provide the information our customers need to make the right choices. Social responsibility is something we take seriously and making every purchase a responsible one is a top priority.
+  Media Centre
+For media updates and contact information, start here.
+Annual Report
+The report for the 2017-2018 Fiscal Year can be found here.'
+
+2019-05-09 12:59:06 - [MESSAGE][PASSED] - Text of object 'Object Repository/About static_OR/Page_About Us  Ontario Cannabis Sto/article_About Us' is: 'About Us
+About Ontario Cannabis Store
+The Ontario Cannabis Store provides safe, responsible access to recreational cannabis for adults 19 and older. We are Ontario’s only online cannabis retailer and wholesaler of legal recreational cannabis in Ontario.
+We make sure our customers only receive safe, clearly labelled cannabis products by working closely with a diverse group of licensed producers authorized by Health Canada. Our online store prioritizes education and provides many opportunities for both new and experienced consumers to learn more about cannabis and responsible use. We put customer privacy first by making sure that all personal information is stored in Canada, allowing guest checkout and deleting customer data as soon as legally allowed.
+Our customer-care centre is staffed by knowledgeable, helpful product specialists who provide the information our customers need to make the right choices. Social responsibility is something we take seriously and making every purchase a responsible one is a top priority.
+  Media Centre
+For media updates and contact information, start here.
+Annual Report
+The report for the 2017-2018 Fiscal Year can be found here.'
+
+2019-05-09 12:59:06 - [TEST_STEP][PASSED] - comment("a =" + a): a =About Us
+About Ontario Cannabis Store
+The Ontario Cannabis Store provides safe, responsible access to recreational cannabis for adults 19 and older. We are Ontario’s only online cannabis retailer and wholesaler of legal recreational cannabis in Ontario.
+We make sure our customers only receive safe, clearly labelled cannabis products by working closely with a diverse group of licensed producers authorized by Health Canada. Our online store prioritizes education and provides many opportunities for both new and experienced consumers to learn more about cannabis and responsible use. We put customer privacy first by making sure that all personal information is stored in Canada, allowing guest checkout and deleting customer data as soon as legally allowed.
+Our customer-care centre is staffed by knowledgeable, helpful product specialists who provide the information our customers need to make the right choices. Social responsibility is something we take seriously and making every purchase a responsible one is a top priority.
+  Media Centre
+For media updates and contact information, start here.
+Annual Report
+The report for the 2017-2018 Fiscal Year can be found here.
+
+2019-05-09 12:59:06 - [MESSAGE][INFO] - a =About Us
+About Ontario Cannabis Store
+The Ontario Cannabis Store provides safe, responsible access to recreational cannabis for adults 19 and older. We are Ontario’s only online cannabis retailer and wholesaler of legal recreational cannabis in Ontario.
+We make sure our customers only receive safe, clearly labelled cannabis products by working closely with a diverse group of licensed producers authorized by Health Canada. Our online store prioritizes education and provides many opportunities for both new and experienced consumers to learn more about cannabis and responsible use. We put customer privacy first by making sure that all personal information is stored in Canada, allowing guest checkout and deleting customer data as soon as legally allowed.
+Our customer-care centre is staffed by knowledgeable, helpful product specialists who provide the information our customers need to make the right choices. Social responsibility is something we take seriously and making every purchase a responsible one is a top priority.
+  Media Centre
+For media updates and contact information, start here.
+Annual Report
+The report for the 2017-2018 Fiscal Year can be found here.
+
+2019-05-09 12:59:06 - [TEST_STEP][PASSED] - verifyTextPresent(a, false, STOP_ON_FAILURE): Text 'About Us
+About Ontario Cannabis Store
+The Ontario Cannabis Store provides safe, responsible access to recreational cannabis for adults 19 and older. We are Ontario’s only online cannabis retailer and wholesaler of legal recreational cannabis in Ontario.
+We make sure our customers only receive safe, clearly labelled cannabis products by working closely with a diverse group of licensed producers authorized by Health Canada. Our online store prioritizes education and provides many opportunities for both new and experienced consumers to learn more about cannabis and responsible use. We put customer privacy first by making sure that all personal information is stored in Canada, allowing guest checkout and deleting customer data as soon as legally allowed.
+Our customer-care centre is staffed by knowledgeable, helpful product specialists who provide the information our customers need to make the right choices. Social responsibility is something we take seriously and making every purchase a responsible one is a top priority.
+  Media Centre
+For media updates and contact information, start here.
+Annual Report
+The report for the 2017-2018 Fiscal Year can be found here.' is present on page 
+
+2019-05-09 12:59:06 - [MESSAGE][PASSED] - Text 'About Us
+About Ontario Cannabis Store
+The Ontario Cannabis Store provides safe, responsible access to recreational cannabis for adults 19 and older. We are Ontario’s only online cannabis retailer and wholesaler of legal recreational cannabis in Ontario.
+We make sure our customers only receive safe, clearly labelled cannabis products by working closely with a diverse group of licensed producers authorized by Health Canada. Our online store prioritizes education and provides many opportunities for both new and experienced consumers to learn more about cannabis and responsible use. We put customer privacy first by making sure that all personal information is stored in Canada, allowing guest checkout and deleting customer data as soon as legally allowed.
+Our customer-care centre is staffed by knowledgeable, helpful product specialists who provide the information our customers need to make the right choices. Social responsibility is something we take seriously and making every purchase a responsible one is a top priority.
+  Media Centre
+For media updates and contact information, start here.
+Annual Report
+The report for the 2017-2018 Fiscal Year can be found here.' is present on page 
+
+2019-05-09 12:59:06 - [TEST_STEP][NOT_RUN] - click(findTestObject("Object Repository/About static_OR/Page_About Us  Ontario Cannabis Sto/h1_About Us")): NOT_RUN: click(findTestObject("Object Repository/About static_OR/Page_About Us  Ontario Cannabis Sto/h1_About Us"))
+
+2019-05-09 12:59:06 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("Object Repository/About static_OR/Page_About Us  Ontario Cannabis Sto/h1_About Us"))
+
+2019-05-09 12:59:06 - [TEST_STEP][NOT_RUN] - click(findTestObject("Object Repository/About static_OR/Page_About Us  Ontario Cannabis Sto/p_The Ontario Cannabis Store p")): NOT_RUN: click(findTestObject("Object Repository/About static_OR/Page_About Us  Ontario Cannabis Sto/p_The Ontario Cannabis Store p"))
+
+2019-05-09 12:59:06 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("Object Repository/About static_OR/Page_About Us  Ontario Cannabis Sto/p_The Ontario Cannabis Store p"))]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/OCS- STATIC PAGE/Accessibility" classname="Test Cases/OCS- STATIC PAGE/Accessibility" status="PASSED">
+         <system-out><![CDATA[2019-05-09 12:59:06 - [TEST_CASE][PASSED] - Test Cases/OCS- STATIC PAGE/Accessibility: Test Cases/OCS- STATIC PAGE/Accessibility
+
+2019-05-09 12:59:06 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-05-09 12:59:06 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-05-09 12:59:07 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2019-05-09 12:59:09 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-05-09 12:59:09 - [TEST_STEP][PASSED] - navigateToUrl("https://ocs.ca/?fts=0&preview_theme_id=53373863756"): Navigate to 'https://ocs.ca/?fts=0&preview_theme_id=53373863756' successfully
+
+2019-05-09 12:59:14 - [MESSAGE][PASSED] - Navigate to 'https://ocs.ca/?fts=0&preview_theme_id=53373863756' successfully
+
+2019-05-09 12:59:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Theme_oR/Page_Ontario Cannabis Store  Ontari/button_Close preview")): Object: 'Object Repository/Theme_oR/Page_Ontario Cannabis Store  Ontari/button_Close preview' is clicked on
+
+2019-05-09 12:59:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Theme_oR/Page_Ontario Cannabis Store  Ontari/button_Close preview' is clicked on
+
+2019-05-09 12:59:14 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/accessibility_OR/Page_Ontario Cannabis Store  Ontari/select_Select01020304050607080"), "4", true): All options with value '4' are selected in object 'Object Repository/accessibility_OR/Page_Ontario Cannabis Store  Ontari/select_Select01020304050607080'  using regular expression
+
+2019-05-09 12:59:15 - [MESSAGE][PASSED] - All options with value '4' are selected in object 'Object Repository/accessibility_OR/Page_Ontario Cannabis Store  Ontari/select_Select01020304050607080'  using regular expression
+
+2019-05-09 12:59:15 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/accessibility_OR/Page_Ontario Cannabis Store  Ontari/select_SelectJanuary - 01Febru"), "5", true): All options with value '5' are selected in object 'Object Repository/accessibility_OR/Page_Ontario Cannabis Store  Ontari/select_SelectJanuary - 01Febru'  using regular expression
+
+2019-05-09 12:59:16 - [MESSAGE][PASSED] - All options with value '5' are selected in object 'Object Repository/accessibility_OR/Page_Ontario Cannabis Store  Ontari/select_SelectJanuary - 01Febru'  using regular expression
+
+2019-05-09 12:59:16 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/accessibility_OR/Page_Ontario Cannabis Store  Ontari/select_Select20182017201620152"), "1996", true): All options with value '1996' are selected in object 'Object Repository/accessibility_OR/Page_Ontario Cannabis Store  Ontari/select_Select20182017201620152'  using regular expression
+
+2019-05-09 12:59:18 - [MESSAGE][PASSED] - All options with value '1996' are selected in object 'Object Repository/accessibility_OR/Page_Ontario Cannabis Store  Ontari/select_Select20182017201620152'  using regular expression
+
+2019-05-09 12:59:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/accessibility_OR/Page_Ontario Cannabis Store  Ontari/button_Verify")): Object: 'Object Repository/accessibility_OR/Page_Ontario Cannabis Store  Ontari/button_Verify' is clicked on
+
+2019-05-09 12:59:18 - [MESSAGE][PASSED] - Object: 'Object Repository/accessibility_OR/Page_Ontario Cannabis Store  Ontari/button_Verify' is clicked on
+
+2019-05-09 12:59:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/accessibility_OR/Page_Ontario Cannabis Store  Ontari/span_CONFIRM AND ACKNOWLEDGE_c")): Object: 'Object Repository/accessibility_OR/Page_Ontario Cannabis Store  Ontari/span_CONFIRM AND ACKNOWLEDGE_c' is clicked on
+
+2019-05-09 12:59:18 - [MESSAGE][PASSED] - Object: 'Object Repository/accessibility_OR/Page_Ontario Cannabis Store  Ontari/span_CONFIRM AND ACKNOWLEDGE_c' is clicked on
+
+2019-05-09 12:59:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/accessibility_OR/Page_Ontario Cannabis Store  Ontari/button_CONFIRM")): Object: 'Object Repository/accessibility_OR/Page_Ontario Cannabis Store  Ontari/button_CONFIRM' is clicked on
+
+2019-05-09 12:59:19 - [MESSAGE][PASSED] - Object: 'Object Repository/accessibility_OR/Page_Ontario Cannabis Store  Ontari/button_CONFIRM' is clicked on
+
+2019-05-09 12:59:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/accessibility_OR/Page_Ontario Cannabis Store  Ontari/button_Start Browsing")): Object: 'Object Repository/accessibility_OR/Page_Ontario Cannabis Store  Ontari/button_Start Browsing' is clicked on
+
+2019-05-09 12:59:19 - [MESSAGE][PASSED] - Object: 'Object Repository/accessibility_OR/Page_Ontario Cannabis Store  Ontari/button_Start Browsing' is clicked on
+
+2019-05-09 12:59:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/accessibility_OR/Page_Ontario Cannabis Store  Ontari/a_Accessibility")): Object: 'Object Repository/accessibility_OR/Page_Ontario Cannabis Store  Ontari/a_Accessibility' is clicked on
+
+2019-05-09 12:59:21 - [MESSAGE][PASSED] - Object: 'Object Repository/accessibility_OR/Page_Ontario Cannabis Store  Ontari/a_Accessibility' is clicked on
+
+2019-05-09 12:59:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/accessibility_OR/Page_Accessibility  Ontario Cannabi/article_Accessibility")): Object: 'Object Repository/accessibility_OR/Page_Accessibility  Ontario Cannabi/article_Accessibility' is clicked on
+
+2019-05-09 12:59:21 - [MESSAGE][PASSED] - Object: 'Object Repository/accessibility_OR/Page_Accessibility  Ontario Cannabi/article_Accessibility' is clicked on
+
+2019-05-09 12:59:21 - [TEST_STEP][PASSED] - a = getText(findTestObject("accessibility_OR/Page_Accessibility  Ontario Cannabi/article_Accessibility")): Text of object 'Object Repository/accessibility_OR/Page_Accessibility  Ontario Cannabi/article_Accessibility' is: 'Accessibility
+Accessibility at the Ontario Cannabis Store (OCS)
+Communication
+We take initiative to communicate with individuals with disabilities in ways that account for their disability while remaining accommodating and respectful.
+Notice of temporary disruption of service
+In the event of a planned or unexpected disruption to our services, we will promptly notify customers. The notice will be posted on our website and will include information about the reason for the disruption, its anticipated duration and a description of alternative services if available.
+Customers using screen readers may experience issues navigating OCS.ca. Until we can correct this problem, customers can contact our Accessibility Support Line at1-844-627-1112 for assistance with their orders. We are committed to promptly fixing these issues and continually working to improve the website experience for people with disabilities.
+Our commitment to accessibility
+At the OCS we are committed to meeting the accessibility needs of people with disabilities in a manner that is consistent with the principles of independence, dignity, integration and equal opportunity.  
+We are committed to meeting accessibility requirements set out in the Accessibility for Ontarians with Disabilities Act, 2005 (AODA), by providing an inclusive, accessible and barrier-free experience for people with disabilities across the following Integrated Accessibility Standards Regulation (IASR):
+
+Customer Service
+Information and communication
+Design of Public Spaces
+Employment
+Multi-year accessibility plan
+Our multi-year accessibility plan outlines what we are doing to meet the accessibility requirements of the AODA. 
+You can download our plan to learn more.  
+Accessibility of our public spaces
+We are committed to ensuring that our public spaces are designed to be accessible and provide barrier-free access for people with disabilities. We incorporate accessibility criteria in the design and procurement of our goods, services and facilities. 
+Customer service
+We are committed to delivering an accessible, welcoming and inclusive customer experience.   As part of our commitment to accessibility and our customers with disabilities, all OCS employees and individuals who provide goods, services or facilities on our behalf participate in customer service training specific to the IASRs of the AODA and the Ontario Human Rights Code. 
+Service animals and support persons
+At all OCS locations we welcome people with disabilities who are accompanied by a service animal or support person. 
+Use of assistive devices
+People with disabilities may use their personal assistive devices when accessing our goods and services and our facilities.
+Alternate formats
+An accessible or alternate format for a document is a method of arranging information in a specific format in order to remove potential barriers to accessing and understanding information.
+We are committed to providing accessible information and communication to our customers and we recognize that people with disabilities may use methods other than standard print to access information. Some methods that we offer include audio format, large text, accessible PDF and Braille.
+While we strive to provide an accessible experience wherever possible, there are exceptions under the Information and Communication Standard that do not apply to:
+Products and product labels;
+Unconvertible information or communications; and
+Information that the OCS does not control either directly or indirectly through a contractual relationship.
+You can request alternate format documents by:
+Web-form: www.helloocs.ca
+Phone: 1-888-910-0627
+Accessibility Support Line: 1-844-627-1112
+For Accessibility Relay Service: dial 711
+ 
+Mailing Address:
+Ontario Cannabis Store
+P.O.Box 4029, STN “A”
+Toronto, ON, M5W 1K3
+  Once we receive your request, your documents will be sent to you within 10 business days.
+Website accessibility
+Website accessibility refers to the inclusive practice of designing websites so that people with disabilities and those with different or diverse abilities can understand content, navigate and interact online and have equal access to information and functionality.
+We are committed to making our websites (OCS.ca and HelloOCS.com) accessible by conforming to the World Wide Web Consortium Web Content Accessibility Guidelines (WCAG) 2.0 and usable with assistive technology.
+Providing feedback
+We welcome your feedback about accessibility at the OCS.  When it comes to meeting accessibility standards for our goods and services, we’re always looking to improve. Whether we’re doing something you like, or if there’s something you think we can do better, we’d love to hear from you.
+You can provide feedback in the following ways:
+Web-form: www.helloocs.ca
+Phone: 1-888-910-0627
+Accessibility Support Line: 1-844-627-1112
+For Accessibility Relay Service: dial 711
+Mailing Address:
+Ontario Cannabis Store
+P.O.Box 4029, STN “A”
+Toronto, ON, M5W 1K3
+
+
+Last Updated: November 1, 2018
+You’ll receive a confirmation message indicating that we received your communication within one business day. Your feedback will then be reviewed by our accessibility team, where we will consider possible action and reasonable accommodations that can be taken to improve our services. You will receive an update within 10 business days. If requested, we will provide accessible formats and communication supports in the feedback process.
+Employment and career opportunities
+We are committed to providing an accessible, equitable and inclusive candidate and employee experience.
+We are an equal opportunity employer and are committed to providing reasonable accommodation throughout the recruitment process and in employment. We encourage candidates and employees to identify and discuss any potential accommodation requirements and we will work with you to meet your needs.   '
+
+2019-05-09 12:59:21 - [MESSAGE][PASSED] - Text of object 'Object Repository/accessibility_OR/Page_Accessibility  Ontario Cannabi/article_Accessibility' is: 'Accessibility
+Accessibility at the Ontario Cannabis Store (OCS)
+Communication
+We take initiative to communicate with individuals with disabilities in ways that account for their disability while remaining accommodating and respectful.
+Notice of temporary disruption of service
+In the event of a planned or unexpected disruption to our services, we will promptly notify customers. The notice will be posted on our website and will include information about the reason for the disruption, its anticipated duration and a description of alternative services if available.
+Customers using screen readers may experience issues navigating OCS.ca. Until we can correct this problem, customers can contact our Accessibility Support Line at1-844-627-1112 for assistance with their orders. We are committed to promptly fixing these issues and continually working to improve the website experience for people with disabilities.
+Our commitment to accessibility
+At the OCS we are committed to meeting the accessibility needs of people with disabilities in a manner that is consistent with the principles of independence, dignity, integration and equal opportunity.  
+We are committed to meeting accessibility requirements set out in the Accessibility for Ontarians with Disabilities Act, 2005 (AODA), by providing an inclusive, accessible and barrier-free experience for people with disabilities across the following Integrated Accessibility Standards Regulation (IASR):
+
+Customer Service
+Information and communication
+Design of Public Spaces
+Employment
+Multi-year accessibility plan
+Our multi-year accessibility plan outlines what we are doing to meet the accessibility requirements of the AODA. 
+You can download our plan to learn more.  
+Accessibility of our public spaces
+We are committed to ensuring that our public spaces are designed to be accessible and provide barrier-free access for people with disabilities. We incorporate accessibility criteria in the design and procurement of our goods, services and facilities. 
+Customer service
+We are committed to delivering an accessible, welcoming and inclusive customer experience.   As part of our commitment to accessibility and our customers with disabilities, all OCS employees and individuals who provide goods, services or facilities on our behalf participate in customer service training specific to the IASRs of the AODA and the Ontario Human Rights Code. 
+Service animals and support persons
+At all OCS locations we welcome people with disabilities who are accompanied by a service animal or support person. 
+Use of assistive devices
+People with disabilities may use their personal assistive devices when accessing our goods and services and our facilities.
+Alternate formats
+An accessible or alternate format for a document is a method of arranging information in a specific format in order to remove potential barriers to accessing and understanding information.
+We are committed to providing accessible information and communication to our customers and we recognize that people with disabilities may use methods other than standard print to access information. Some methods that we offer include audio format, large text, accessible PDF and Braille.
+While we strive to provide an accessible experience wherever possible, there are exceptions under the Information and Communication Standard that do not apply to:
+Products and product labels;
+Unconvertible information or communications; and
+Information that the OCS does not control either directly or indirectly through a contractual relationship.
+You can request alternate format documents by:
+Web-form: www.helloocs.ca
+Phone: 1-888-910-0627
+Accessibility Support Line: 1-844-627-1112
+For Accessibility Relay Service: dial 711
+ 
+Mailing Address:
+Ontario Cannabis Store
+P.O.Box 4029, STN “A”
+Toronto, ON, M5W 1K3
+  Once we receive your request, your documents will be sent to you within 10 business days.
+Website accessibility
+Website accessibility refers to the inclusive practice of designing websites so that people with disabilities and those with different or diverse abilities can understand content, navigate and interact online and have equal access to information and functionality.
+We are committed to making our websites (OCS.ca and HelloOCS.com) accessible by conforming to the World Wide Web Consortium Web Content Accessibility Guidelines (WCAG) 2.0 and usable with assistive technology.
+Providing feedback
+We welcome your feedback about accessibility at the OCS.  When it comes to meeting accessibility standards for our goods and services, we’re always looking to improve. Whether we’re doing something you like, or if there’s something you think we can do better, we’d love to hear from you.
+You can provide feedback in the following ways:
+Web-form: www.helloocs.ca
+Phone: 1-888-910-0627
+Accessibility Support Line: 1-844-627-1112
+For Accessibility Relay Service: dial 711
+Mailing Address:
+Ontario Cannabis Store
+P.O.Box 4029, STN “A”
+Toronto, ON, M5W 1K3
+
+
+Last Updated: November 1, 2018
+You’ll receive a confirmation message indicating that we received your communication within one business day. Your feedback will then be reviewed by our accessibility team, where we will consider possible action and reasonable accommodations that can be taken to improve our services. You will receive an update within 10 business days. If requested, we will provide accessible formats and communication supports in the feedback process.
+Employment and career opportunities
+We are committed to providing an accessible, equitable and inclusive candidate and employee experience.
+We are an equal opportunity employer and are committed to providing reasonable accommodation throughout the recruitment process and in employment. We encourage candidates and employees to identify and discuss any potential accommodation requirements and we will work with you to meet your needs.   '
+
+2019-05-09 12:59:21 - [TEST_STEP][PASSED] - comment(" a = " + a):  a = Accessibility
+Accessibility at the Ontario Cannabis Store (OCS)
+Communication
+We take initiative to communicate with individuals with disabilities in ways that account for their disability while remaining accommodating and respectful.
+Notice of temporary disruption of service
+In the event of a planned or unexpected disruption to our services, we will promptly notify customers. The notice will be posted on our website and will include information about the reason for the disruption, its anticipated duration and a description of alternative services if available.
+Customers using screen readers may experience issues navigating OCS.ca. Until we can correct this problem, customers can contact our Accessibility Support Line at1-844-627-1112 for assistance with their orders. We are committed to promptly fixing these issues and continually working to improve the website experience for people with disabilities.
+Our commitment to accessibility
+At the OCS we are committed to meeting the accessibility needs of people with disabilities in a manner that is consistent with the principles of independence, dignity, integration and equal opportunity.  
+We are committed to meeting accessibility requirements set out in the Accessibility for Ontarians with Disabilities Act, 2005 (AODA), by providing an inclusive, accessible and barrier-free experience for people with disabilities across the following Integrated Accessibility Standards Regulation (IASR):
+
+Customer Service
+Information and communication
+Design of Public Spaces
+Employment
+Multi-year accessibility plan
+Our multi-year accessibility plan outlines what we are doing to meet the accessibility requirements of the AODA. 
+You can download our plan to learn more.  
+Accessibility of our public spaces
+We are committed to ensuring that our public spaces are designed to be accessible and provide barrier-free access for people with disabilities. We incorporate accessibility criteria in the design and procurement of our goods, services and facilities. 
+Customer service
+We are committed to delivering an accessible, welcoming and inclusive customer experience.   As part of our commitment to accessibility and our customers with disabilities, all OCS employees and individuals who provide goods, services or facilities on our behalf participate in customer service training specific to the IASRs of the AODA and the Ontario Human Rights Code. 
+Service animals and support persons
+At all OCS locations we welcome people with disabilities who are accompanied by a service animal or support person. 
+Use of assistive devices
+People with disabilities may use their personal assistive devices when accessing our goods and services and our facilities.
+Alternate formats
+An accessible or alternate format for a document is a method of arranging information in a specific format in order to remove potential barriers to accessing and understanding information.
+We are committed to providing accessible information and communication to our customers and we recognize that people with disabilities may use methods other than standard print to access information. Some methods that we offer include audio format, large text, accessible PDF and Braille.
+While we strive to provide an accessible experience wherever possible, there are exceptions under the Information and Communication Standard that do not apply to:
+Products and product labels;
+Unconvertible information or communications; and
+Information that the OCS does not control either directly or indirectly through a contractual relationship.
+You can request alternate format documents by:
+Web-form: www.helloocs.ca
+Phone: 1-888-910-0627
+Accessibility Support Line: 1-844-627-1112
+For Accessibility Relay Service: dial 711
+ 
+Mailing Address:
+Ontario Cannabis Store
+P.O.Box 4029, STN “A”
+Toronto, ON, M5W 1K3
+  Once we receive your request, your documents will be sent to you within 10 business days.
+Website accessibility
+Website accessibility refers to the inclusive practice of designing websites so that people with disabilities and those with different or diverse abilities can understand content, navigate and interact online and have equal access to information and functionality.
+We are committed to making our websites (OCS.ca and HelloOCS.com) accessible by conforming to the World Wide Web Consortium Web Content Accessibility Guidelines (WCAG) 2.0 and usable with assistive technology.
+Providing feedback
+We welcome your feedback about accessibility at the OCS.  When it comes to meeting accessibility standards for our goods and services, we’re always looking to improve. Whether we’re doing something you like, or if there’s something you think we can do better, we’d love to hear from you.
+You can provide feedback in the following ways:
+Web-form: www.helloocs.ca
+Phone: 1-888-910-0627
+Accessibility Support Line: 1-844-627-1112
+For Accessibility Relay Service: dial 711
+Mailing Address:
+Ontario Cannabis Store
+P.O.Box 4029, STN “A”
+Toronto, ON, M5W 1K3
+
+
+Last Updated: November 1, 2018
+You’ll receive a confirmation message indicating that we received your communication within one business day. Your feedback will then be reviewed by our accessibility team, where we will consider possible action and reasonable accommodations that can be taken to improve our services. You will receive an update within 10 business days. If requested, we will provide accessible formats and communication supports in the feedback process.
+Employment and career opportunities
+We are committed to providing an accessible, equitable and inclusive candidate and employee experience.
+We are an equal opportunity employer and are committed to providing reasonable accommodation throughout the recruitment process and in employment. We encourage candidates and employees to identify and discuss any potential accommodation requirements and we will work with you to meet your needs.   
+
+2019-05-09 12:59:21 - [MESSAGE][INFO] -  a = Accessibility
+Accessibility at the Ontario Cannabis Store (OCS)
+Communication
+We take initiative to communicate with individuals with disabilities in ways that account for their disability while remaining accommodating and respectful.
+Notice of temporary disruption of service
+In the event of a planned or unexpected disruption to our services, we will promptly notify customers. The notice will be posted on our website and will include information about the reason for the disruption, its anticipated duration and a description of alternative services if available.
+Customers using screen readers may experience issues navigating OCS.ca. Until we can correct this problem, customers can contact our Accessibility Support Line at1-844-627-1112 for assistance with their orders. We are committed to promptly fixing these issues and continually working to improve the website experience for people with disabilities.
+Our commitment to accessibility
+At the OCS we are committed to meeting the accessibility needs of people with disabilities in a manner that is consistent with the principles of independence, dignity, integration and equal opportunity.  
+We are committed to meeting accessibility requirements set out in the Accessibility for Ontarians with Disabilities Act, 2005 (AODA), by providing an inclusive, accessible and barrier-free experience for people with disabilities across the following Integrated Accessibility Standards Regulation (IASR):
+
+Customer Service
+Information and communication
+Design of Public Spaces
+Employment
+Multi-year accessibility plan
+Our multi-year accessibility plan outlines what we are doing to meet the accessibility requirements of the AODA. 
+You can download our plan to learn more.  
+Accessibility of our public spaces
+We are committed to ensuring that our public spaces are designed to be accessible and provide barrier-free access for people with disabilities. We incorporate accessibility criteria in the design and procurement of our goods, services and facilities. 
+Customer service
+We are committed to delivering an accessible, welcoming and inclusive customer experience.   As part of our commitment to accessibility and our customers with disabilities, all OCS employees and individuals who provide goods, services or facilities on our behalf participate in customer service training specific to the IASRs of the AODA and the Ontario Human Rights Code. 
+Service animals and support persons
+At all OCS locations we welcome people with disabilities who are accompanied by a service animal or support person. 
+Use of assistive devices
+People with disabilities may use their personal assistive devices when accessing our goods and services and our facilities.
+Alternate formats
+An accessible or alternate format for a document is a method of arranging information in a specific format in order to remove potential barriers to accessing and understanding information.
+We are committed to providing accessible information and communication to our customers and we recognize that people with disabilities may use methods other than standard print to access information. Some methods that we offer include audio format, large text, accessible PDF and Braille.
+While we strive to provide an accessible experience wherever possible, there are exceptions under the Information and Communication Standard that do not apply to:
+Products and product labels;
+Unconvertible information or communications; and
+Information that the OCS does not control either directly or indirectly through a contractual relationship.
+You can request alternate format documents by:
+Web-form: www.helloocs.ca
+Phone: 1-888-910-0627
+Accessibility Support Line: 1-844-627-1112
+For Accessibility Relay Service: dial 711
+ 
+Mailing Address:
+Ontario Cannabis Store
+P.O.Box 4029, STN “A”
+Toronto, ON, M5W 1K3
+  Once we receive your request, your documents will be sent to you within 10 business days.
+Website accessibility
+Website accessibility refers to the inclusive practice of designing websites so that people with disabilities and those with different or diverse abilities can understand content, navigate and interact online and have equal access to information and functionality.
+We are committed to making our websites (OCS.ca and HelloOCS.com) accessible by conforming to the World Wide Web Consortium Web Content Accessibility Guidelines (WCAG) 2.0 and usable with assistive technology.
+Providing feedback
+We welcome your feedback about accessibility at the OCS.  When it comes to meeting accessibility standards for our goods and services, we’re always looking to improve. Whether we’re doing something you like, or if there’s something you think we can do better, we’d love to hear from you.
+You can provide feedback in the following ways:
+Web-form: www.helloocs.ca
+Phone: 1-888-910-0627
+Accessibility Support Line: 1-844-627-1112
+For Accessibility Relay Service: dial 711
+Mailing Address:
+Ontario Cannabis Store
+P.O.Box 4029, STN “A”
+Toronto, ON, M5W 1K3
+
+
+Last Updated: November 1, 2018
+You’ll receive a confirmation message indicating that we received your communication within one business day. Your feedback will then be reviewed by our accessibility team, where we will consider possible action and reasonable accommodations that can be taken to improve our services. You will receive an update within 10 business days. If requested, we will provide accessible formats and communication supports in the feedback process.
+Employment and career opportunities
+We are committed to providing an accessible, equitable and inclusive candidate and employee experience.
+We are an equal opportunity employer and are committed to providing reasonable accommodation throughout the recruitment process and in employment. We encourage candidates and employees to identify and discuss any potential accommodation requirements and we will work with you to meet your needs.   
+
+2019-05-09 12:59:21 - [TEST_STEP][PASSED] - verifyTextPresent(a, false): Text 'Accessibility
+Accessibility at the Ontario Cannabis Store (OCS)
+Communication
+We take initiative to communicate with individuals with disabilities in ways that account for their disability while remaining accommodating and respectful.
+Notice of temporary disruption of service
+In the event of a planned or unexpected disruption to our services, we will promptly notify customers. The notice will be posted on our website and will include information about the reason for the disruption, its anticipated duration and a description of alternative services if available.
+Customers using screen readers may experience issues navigating OCS.ca. Until we can correct this problem, customers can contact our Accessibility Support Line at1-844-627-1112 for assistance with their orders. We are committed to promptly fixing these issues and continually working to improve the website experience for people with disabilities.
+Our commitment to accessibility
+At the OCS we are committed to meeting the accessibility needs of people with disabilities in a manner that is consistent with the principles of independence, dignity, integration and equal opportunity.  
+We are committed to meeting accessibility requirements set out in the Accessibility for Ontarians with Disabilities Act, 2005 (AODA), by providing an inclusive, accessible and barrier-free experience for people with disabilities across the following Integrated Accessibility Standards Regulation (IASR):
+
+Customer Service
+Information and communication
+Design of Public Spaces
+Employment
+Multi-year accessibility plan
+Our multi-year accessibility plan outlines what we are doing to meet the accessibility requirements of the AODA. 
+You can download our plan to learn more.  
+Accessibility of our public spaces
+We are committed to ensuring that our public spaces are designed to be accessible and provide barrier-free access for people with disabilities. We incorporate accessibility criteria in the design and procurement of our goods, services and facilities. 
+Customer service
+We are committed to delivering an accessible, welcoming and inclusive customer experience.   As part of our commitment to accessibility and our customers with disabilities, all OCS employees and individuals who provide goods, services or facilities on our behalf participate in customer service training specific to the IASRs of the AODA and the Ontario Human Rights Code. 
+Service animals and support persons
+At all OCS locations we welcome people with disabilities who are accompanied by a service animal or support person. 
+Use of assistive devices
+People with disabilities may use their personal assistive devices when accessing our goods and services and our facilities.
+Alternate formats
+An accessible or alternate format for a document is a method of arranging information in a specific format in order to remove potential barriers to accessing and understanding information.
+We are committed to providing accessible information and communication to our customers and we recognize that people with disabilities may use methods other than standard print to access information. Some methods that we offer include audio format, large text, accessible PDF and Braille.
+While we strive to provide an accessible experience wherever possible, there are exceptions under the Information and Communication Standard that do not apply to:
+Products and product labels;
+Unconvertible information or communications; and
+Information that the OCS does not control either directly or indirectly through a contractual relationship.
+You can request alternate format documents by:
+Web-form: www.helloocs.ca
+Phone: 1-888-910-0627
+Accessibility Support Line: 1-844-627-1112
+For Accessibility Relay Service: dial 711
+ 
+Mailing Address:
+Ontario Cannabis Store
+P.O.Box 4029, STN “A”
+Toronto, ON, M5W 1K3
+  Once we receive your request, your documents will be sent to you within 10 business days.
+Website accessibility
+Website accessibility refers to the inclusive practice of designing websites so that people with disabilities and those with different or diverse abilities can understand content, navigate and interact online and have equal access to information and functionality.
+We are committed to making our websites (OCS.ca and HelloOCS.com) accessible by conforming to the World Wide Web Consortium Web Content Accessibility Guidelines (WCAG) 2.0 and usable with assistive technology.
+Providing feedback
+We welcome your feedback about accessibility at the OCS.  When it comes to meeting accessibility standards for our goods and services, we’re always looking to improve. Whether we’re doing something you like, or if there’s something you think we can do better, we’d love to hear from you.
+You can provide feedback in the following ways:
+Web-form: www.helloocs.ca
+Phone: 1-888-910-0627
+Accessibility Support Line: 1-844-627-1112
+For Accessibility Relay Service: dial 711
+Mailing Address:
+Ontario Cannabis Store
+P.O.Box 4029, STN “A”
+Toronto, ON, M5W 1K3
+
+
+Last Updated: November 1, 2018
+You’ll receive a confirmation message indicating that we received your communication within one business day. Your feedback will then be reviewed by our accessibility team, where we will consider possible action and reasonable accommodations that can be taken to improve our services. You will receive an update within 10 business days. If requested, we will provide accessible formats and communication supports in the feedback process.
+Employment and career opportunities
+We are committed to providing an accessible, equitable and inclusive candidate and employee experience.
+We are an equal opportunity employer and are committed to providing reasonable accommodation throughout the recruitment process and in employment. We encourage candidates and employees to identify and discuss any potential accommodation requirements and we will work with you to meet your needs.   ' is present on page 
+
+2019-05-09 12:59:22 - [MESSAGE][PASSED] - Text 'Accessibility
+Accessibility at the Ontario Cannabis Store (OCS)
+Communication
+We take initiative to communicate with individuals with disabilities in ways that account for their disability while remaining accommodating and respectful.
+Notice of temporary disruption of service
+In the event of a planned or unexpected disruption to our services, we will promptly notify customers. The notice will be posted on our website and will include information about the reason for the disruption, its anticipated duration and a description of alternative services if available.
+Customers using screen readers may experience issues navigating OCS.ca. Until we can correct this problem, customers can contact our Accessibility Support Line at1-844-627-1112 for assistance with their orders. We are committed to promptly fixing these issues and continually working to improve the website experience for people with disabilities.
+Our commitment to accessibility
+At the OCS we are committed to meeting the accessibility needs of people with disabilities in a manner that is consistent with the principles of independence, dignity, integration and equal opportunity.  
+We are committed to meeting accessibility requirements set out in the Accessibility for Ontarians with Disabilities Act, 2005 (AODA), by providing an inclusive, accessible and barrier-free experience for people with disabilities across the following Integrated Accessibility Standards Regulation (IASR):
+
+Customer Service
+Information and communication
+Design of Public Spaces
+Employment
+Multi-year accessibility plan
+Our multi-year accessibility plan outlines what we are doing to meet the accessibility requirements of the AODA. 
+You can download our plan to learn more.  
+Accessibility of our public spaces
+We are committed to ensuring that our public spaces are designed to be accessible and provide barrier-free access for people with disabilities. We incorporate accessibility criteria in the design and procurement of our goods, services and facilities. 
+Customer service
+We are committed to delivering an accessible, welcoming and inclusive customer experience.   As part of our commitment to accessibility and our customers with disabilities, all OCS employees and individuals who provide goods, services or facilities on our behalf participate in customer service training specific to the IASRs of the AODA and the Ontario Human Rights Code. 
+Service animals and support persons
+At all OCS locations we welcome people with disabilities who are accompanied by a service animal or support person. 
+Use of assistive devices
+People with disabilities may use their personal assistive devices when accessing our goods and services and our facilities.
+Alternate formats
+An accessible or alternate format for a document is a method of arranging information in a specific format in order to remove potential barriers to accessing and understanding information.
+We are committed to providing accessible information and communication to our customers and we recognize that people with disabilities may use methods other than standard print to access information. Some methods that we offer include audio format, large text, accessible PDF and Braille.
+While we strive to provide an accessible experience wherever possible, there are exceptions under the Information and Communication Standard that do not apply to:
+Products and product labels;
+Unconvertible information or communications; and
+Information that the OCS does not control either directly or indirectly through a contractual relationship.
+You can request alternate format documents by:
+Web-form: www.helloocs.ca
+Phone: 1-888-910-0627
+Accessibility Support Line: 1-844-627-1112
+For Accessibility Relay Service: dial 711
+ 
+Mailing Address:
+Ontario Cannabis Store
+P.O.Box 4029, STN “A”
+Toronto, ON, M5W 1K3
+  Once we receive your request, your documents will be sent to you within 10 business days.
+Website accessibility
+Website accessibility refers to the inclusive practice of designing websites so that people with disabilities and those with different or diverse abilities can understand content, navigate and interact online and have equal access to information and functionality.
+We are committed to making our websites (OCS.ca and HelloOCS.com) accessible by conforming to the World Wide Web Consortium Web Content Accessibility Guidelines (WCAG) 2.0 and usable with assistive technology.
+Providing feedback
+We welcome your feedback about accessibility at the OCS.  When it comes to meeting accessibility standards for our goods and services, we’re always looking to improve. Whether we’re doing something you like, or if there’s something you think we can do better, we’d love to hear from you.
+You can provide feedback in the following ways:
+Web-form: www.helloocs.ca
+Phone: 1-888-910-0627
+Accessibility Support Line: 1-844-627-1112
+For Accessibility Relay Service: dial 711
+Mailing Address:
+Ontario Cannabis Store
+P.O.Box 4029, STN “A”
+Toronto, ON, M5W 1K3
+
+
+Last Updated: November 1, 2018
+You’ll receive a confirmation message indicating that we received your communication within one business day. Your feedback will then be reviewed by our accessibility team, where we will consider possible action and reasonable accommodations that can be taken to improve our services. You will receive an update within 10 business days. If requested, we will provide accessible formats and communication supports in the feedback process.
+Employment and career opportunities
+We are committed to providing an accessible, equitable and inclusive candidate and employee experience.
+We are an equal opportunity employer and are committed to providing reasonable accommodation throughout the recruitment process and in employment. We encourage candidates and employees to identify and discuss any potential accommodation requirements and we will work with you to meet your needs.   ' is present on page]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/OCS- STATIC PAGE/Policy" classname="Test Cases/OCS- STATIC PAGE/Policy" status="FAILED">
+         <failure type="FAILED" message="Test Cases/OCS- STATIC PAGE/Policy FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/STATIC PAGES _OR/Page_Ontario Cannabis Store  Ontari/button_Verify' (Root cause: org.openqa.selenium.ElementClickInterceptedException: Element &lt;button class=&quot;btn btn--outline&quot; type=&quot;submit&quot;> is not clickable at point (625,674) because another element &lt;iframe id=&quot;preview-bar-iframe&quot; src=&quot;https://ocs.ca/preview_bar&quot;> obscures it
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'sumans-MacBook-Pro.local', ip: 'fe80:0:0:0:10eb:5cc2:8353:8144%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 66.0.3, javascriptEnabled: true, moz:accessibilityChecks: false, moz:geckodriverVersion: 0.23.0, moz:headless: false, moz:processID: 2429, moz:profile: /var/folders/1t/c55l8xzs6gq..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 17.7.0, proxy: Proxy(direct), rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: d5c1d31e-6bd6-154c-ae2e-96e7bb9d7bfb)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at Policy.run(Policy:31)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1557421127108.run(TempTestSuite1557421127108.groovy:36)
+"/>
+         <system-out><![CDATA[2019-05-09 12:59:22 - [TEST_CASE][FAILED] - Test Cases/OCS- STATIC PAGE/Policy: Test Cases/OCS- STATIC PAGE/Policy FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/STATIC PAGES _OR/Page_Ontario Cannabis Store  Ontari/button_Verify' (Root cause: org.openqa.selenium.ElementClickInterceptedException: Element <button class="btn btn--outline" type="submit"> is not clickable at point (625,674) because another element <iframe id="preview-bar-iframe" src="https://ocs.ca/preview_bar"> obscures it
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'sumans-MacBook-Pro.local', ip: 'fe80:0:0:0:10eb:5cc2:8353:8144%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 66.0.3, javascriptEnabled: true, moz:accessibilityChecks: false, moz:geckodriverVersion: 0.23.0, moz:headless: false, moz:processID: 2429, moz:profile: /var/folders/1t/c55l8xzs6gq..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 17.7.0, proxy: Proxy(direct), rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: d5c1d31e-6bd6-154c-ae2e-96e7bb9d7bfb)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at Policy.run(Policy:31)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1557421127108.run(TempTestSuite1557421127108.groovy:36)
+
+
+2019-05-09 12:59:22 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-05-09 12:59:22 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-05-09 12:59:23 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2019-05-09 12:59:25 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-05-09 12:59:25 - [TEST_STEP][PASSED] - navigateToUrl("https://ocs.ca/?fts=0&preview_theme_id=53373863756"): Navigate to 'https://ocs.ca/?fts=0&preview_theme_id=53373863756' successfully
+
+2019-05-09 12:59:30 - [MESSAGE][PASSED] - Navigate to 'https://ocs.ca/?fts=0&preview_theme_id=53373863756' successfully
+
+2019-05-09 12:59:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Theme_oR/Page_Ontario Cannabis Store  Ontari/button_Close preview")): Object: 'Object Repository/Theme_oR/Page_Ontario Cannabis Store  Ontari/button_Close preview' is clicked on
+
+2019-05-09 12:59:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Theme_oR/Page_Ontario Cannabis Store  Ontari/button_Close preview' is clicked on
+
+2019-05-09 12:59:31 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("STATIC PAGES _OR/Page_Ontario Cannabis Store  Ontari/select_Select01020304050607080"), "3", true): All options with value '3' are selected in object 'Object Repository/STATIC PAGES _OR/Page_Ontario Cannabis Store  Ontari/select_Select01020304050607080'  using regular expression
+
+2019-05-09 12:59:31 - [MESSAGE][PASSED] - All options with value '3' are selected in object 'Object Repository/STATIC PAGES _OR/Page_Ontario Cannabis Store  Ontari/select_Select01020304050607080'  using regular expression
+
+2019-05-09 12:59:31 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("STATIC PAGES _OR/Page_Ontario Cannabis Store  Ontari/select_SelectJanuary - 01Febru"), "3", true): All options with value '3' are selected in object 'Object Repository/STATIC PAGES _OR/Page_Ontario Cannabis Store  Ontari/select_SelectJanuary - 01Febru'  using regular expression
+
+2019-05-09 12:59:32 - [MESSAGE][PASSED] - All options with value '3' are selected in object 'Object Repository/STATIC PAGES _OR/Page_Ontario Cannabis Store  Ontari/select_SelectJanuary - 01Febru'  using regular expression
+
+2019-05-09 12:59:32 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("STATIC PAGES _OR/Page_Ontario Cannabis Store  Ontari/select_Select20182017201620152"), "1979", true): All options with value '1979' are selected in object 'Object Repository/STATIC PAGES _OR/Page_Ontario Cannabis Store  Ontari/select_Select20182017201620152'  using regular expression
+
+2019-05-09 12:59:34 - [MESSAGE][PASSED] - All options with value '1979' are selected in object 'Object Repository/STATIC PAGES _OR/Page_Ontario Cannabis Store  Ontari/select_Select20182017201620152'  using regular expression
+
+2019-05-09 12:59:34 - [TEST_STEP][FAILED] - click(findTestObject("STATIC PAGES _OR/Page_Ontario Cannabis Store  Ontari/button_Verify")): click(findTestObject("STATIC PAGES _OR/Page_Ontario Cannabis Store  Ontari/button_Verify")) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/STATIC PAGES _OR/Page_Ontario Cannabis Store  Ontari/button_Verify' (Root cause: org.openqa.selenium.ElementClickInterceptedException: Element <button class="btn btn--outline" type="submit"> is not clickable at point (625,674) because another element <iframe id="preview-bar-iframe" src="https://ocs.ca/preview_bar"> obscures it
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'sumans-MacBook-Pro.local', ip: 'fe80:0:0:0:10eb:5cc2:8353:8144%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 66.0.3, javascriptEnabled: true, moz:accessibilityChecks: false, moz:geckodriverVersion: 0.23.0, moz:headless: false, moz:processID: 2429, moz:profile: /var/folders/1t/c55l8xzs6gq..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 17.7.0, proxy: Proxy(direct), rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: d5c1d31e-6bd6-154c-ae2e-96e7bb9d7bfb)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at Policy.run(Policy:31)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1557421127108.run(TempTestSuite1557421127108.groovy:36)
+
+
+2019-05-09 12:59:34 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/STATIC PAGES _OR/Page_Ontario Cannabis Store  Ontari/button_Verify' (Root cause: org.openqa.selenium.ElementClickInterceptedException: Element <button class="btn btn--outline" type="submit"> is not clickable at point (625,674) because another element <iframe id="preview-bar-iframe" src="https://ocs.ca/preview_bar"> obscures it
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'sumans-MacBook-Pro.local', ip: 'fe80:0:0:0:10eb:5cc2:8353:8144%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 66.0.3, javascriptEnabled: true, moz:accessibilityChecks: false, moz:geckodriverVersion: 0.23.0, moz:headless: false, moz:processID: 2429, moz:profile: /var/folders/1t/c55l8xzs6gq..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 17.7.0, proxy: Proxy(direct), rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: d5c1d31e-6bd6-154c-ae2e-96e7bb9d7bfb)
+[[ATTACHMENT|/Users/sumankompelly/git/Sample-OCS/Reports/OCS-09-05-2019 - Theme2/STATIC PAGES- 09-05-2019/20190509_125847/1557421174229.png]]
+
+2019-05-09 12:59:34 - [MESSAGE][FAILED] - click(findTestObject("STATIC PAGES _OR/Page_Ontario Cannabis Store  Ontari/button_Verify")) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/STATIC PAGES _OR/Page_Ontario Cannabis Store  Ontari/button_Verify' (Root cause: org.openqa.selenium.ElementClickInterceptedException: Element <button class="btn btn--outline" type="submit"> is not clickable at point (625,674) because another element <iframe id="preview-bar-iframe" src="https://ocs.ca/preview_bar"> obscures it
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'sumans-MacBook-Pro.local', ip: 'fe80:0:0:0:10eb:5cc2:8353:8144%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 66.0.3, javascriptEnabled: true, moz:accessibilityChecks: false, moz:geckodriverVersion: 0.23.0, moz:headless: false, moz:processID: 2429, moz:profile: /var/folders/1t/c55l8xzs6gq..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 17.7.0, proxy: Proxy(direct), rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: d5c1d31e-6bd6-154c-ae2e-96e7bb9d7bfb)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at Policy.run(Policy:31)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1557421127108.run(TempTestSuite1557421127108.groovy:36)]]></system-out>
+         <system-err><![CDATA[2019-05-09 12:59:22 - [TEST_CASE][FAILED] - Test Cases/OCS- STATIC PAGE/Policy: Test Cases/OCS- STATIC PAGE/Policy FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/STATIC PAGES _OR/Page_Ontario Cannabis Store  Ontari/button_Verify' (Root cause: org.openqa.selenium.ElementClickInterceptedException: Element <button class="btn btn--outline" type="submit"> is not clickable at point (625,674) because another element <iframe id="preview-bar-iframe" src="https://ocs.ca/preview_bar"> obscures it
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'sumans-MacBook-Pro.local', ip: 'fe80:0:0:0:10eb:5cc2:8353:8144%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 66.0.3, javascriptEnabled: true, moz:accessibilityChecks: false, moz:geckodriverVersion: 0.23.0, moz:headless: false, moz:processID: 2429, moz:profile: /var/folders/1t/c55l8xzs6gq..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 17.7.0, proxy: Proxy(direct), rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: d5c1d31e-6bd6-154c-ae2e-96e7bb9d7bfb)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at Policy.run(Policy:31)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1557421127108.run(TempTestSuite1557421127108.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/OCS- STATIC PAGE/Privacy" classname="Test Cases/OCS- STATIC PAGE/Privacy" status="FAILED">
+         <failure type="FAILED" message="Test Cases/OCS- STATIC PAGE/Privacy FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/privacy static_OR/Page_Ontario Cannabis Store  Ontari/button_Verify' (Root cause: org.openqa.selenium.ElementClickInterceptedException: Element &lt;button class=&quot;btn btn--outline&quot; type=&quot;submit&quot;> is not clickable at point (705,689) because another element &lt;iframe id=&quot;preview-bar-iframe&quot; src=&quot;https://ocs.ca/preview_bar&quot;> obscures it
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'sumans-MacBook-Pro.local', ip: 'fe80:0:0:0:10eb:5cc2:8353:8144%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 66.0.3, javascriptEnabled: true, moz:accessibilityChecks: false, moz:geckodriverVersion: 0.23.0, moz:headless: false, moz:processID: 2438, moz:profile: /var/folders/1t/c55l8xzs6gq..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 17.7.0, proxy: Proxy(direct), rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 5512bcf0-9361-6847-804a-952b042e7e6a)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at Privacy.run(Privacy:33)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1557421127108.run(TempTestSuite1557421127108.groovy:36)
+"/>
+         <system-out><![CDATA[2019-05-09 12:59:34 - [TEST_CASE][FAILED] - Test Cases/OCS- STATIC PAGE/Privacy: Test Cases/OCS- STATIC PAGE/Privacy FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/privacy static_OR/Page_Ontario Cannabis Store  Ontari/button_Verify' (Root cause: org.openqa.selenium.ElementClickInterceptedException: Element <button class="btn btn--outline" type="submit"> is not clickable at point (705,689) because another element <iframe id="preview-bar-iframe" src="https://ocs.ca/preview_bar"> obscures it
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'sumans-MacBook-Pro.local', ip: 'fe80:0:0:0:10eb:5cc2:8353:8144%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 66.0.3, javascriptEnabled: true, moz:accessibilityChecks: false, moz:geckodriverVersion: 0.23.0, moz:headless: false, moz:processID: 2438, moz:profile: /var/folders/1t/c55l8xzs6gq..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 17.7.0, proxy: Proxy(direct), rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 5512bcf0-9361-6847-804a-952b042e7e6a)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at Privacy.run(Privacy:33)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1557421127108.run(TempTestSuite1557421127108.groovy:36)
+
+
+2019-05-09 12:59:34 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-05-09 12:59:34 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-05-09 12:59:35 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2019-05-09 12:59:37 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-05-09 12:59:37 - [TEST_STEP][PASSED] - navigateToUrl("https://ocs.ca/?fts=0&preview_theme_id=53373863756"): Navigate to 'https://ocs.ca/?fts=0&preview_theme_id=53373863756' successfully
+
+2019-05-09 12:59:40 - [MESSAGE][PASSED] - Navigate to 'https://ocs.ca/?fts=0&preview_theme_id=53373863756' successfully
+
+2019-05-09 12:59:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Theme_oR/Page_Ontario Cannabis Store  Ontari/button_Close preview")): Object: 'Object Repository/Theme_oR/Page_Ontario Cannabis Store  Ontari/button_Close preview' is clicked on
+
+2019-05-09 12:59:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Theme_oR/Page_Ontario Cannabis Store  Ontari/button_Close preview' is clicked on
+
+2019-05-09 12:59:40 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-05-09 12:59:41 - [MESSAGE][PASSED] - Current window maximized
+
+2019-05-09 12:59:41 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/privacy static_OR/Page_Ontario Cannabis Store  Ontari/select_Select01020304050607080"), "3", true): All options with value '3' are selected in object 'Object Repository/privacy static_OR/Page_Ontario Cannabis Store  Ontari/select_Select01020304050607080'  using regular expression
+
+2019-05-09 12:59:42 - [MESSAGE][PASSED] - All options with value '3' are selected in object 'Object Repository/privacy static_OR/Page_Ontario Cannabis Store  Ontari/select_Select01020304050607080'  using regular expression
+
+2019-05-09 12:59:42 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/privacy static_OR/Page_Ontario Cannabis Store  Ontari/select_SelectJanuary - 01Febru"), "2", true): All options with value '2' are selected in object 'Object Repository/privacy static_OR/Page_Ontario Cannabis Store  Ontari/select_SelectJanuary - 01Febru'  using regular expression
+
+2019-05-09 12:59:42 - [MESSAGE][PASSED] - All options with value '2' are selected in object 'Object Repository/privacy static_OR/Page_Ontario Cannabis Store  Ontari/select_SelectJanuary - 01Febru'  using regular expression
+
+2019-05-09 12:59:42 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/privacy static_OR/Page_Ontario Cannabis Store  Ontari/select_Select20182017201620152"), "1973", true): All options with value '1973' are selected in object 'Object Repository/privacy static_OR/Page_Ontario Cannabis Store  Ontari/select_Select20182017201620152'  using regular expression
+
+2019-05-09 12:59:44 - [MESSAGE][PASSED] - All options with value '1973' are selected in object 'Object Repository/privacy static_OR/Page_Ontario Cannabis Store  Ontari/select_Select20182017201620152'  using regular expression
+
+2019-05-09 12:59:44 - [TEST_STEP][FAILED] - click(findTestObject("Object Repository/privacy static_OR/Page_Ontario Cannabis Store  Ontari/button_Verify")): click(findTestObject("Object Repository/privacy static_OR/Page_Ontario Cannabis Store  Ontari/button_Verify")) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/privacy static_OR/Page_Ontario Cannabis Store  Ontari/button_Verify' (Root cause: org.openqa.selenium.ElementClickInterceptedException: Element <button class="btn btn--outline" type="submit"> is not clickable at point (705,689) because another element <iframe id="preview-bar-iframe" src="https://ocs.ca/preview_bar"> obscures it
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'sumans-MacBook-Pro.local', ip: 'fe80:0:0:0:10eb:5cc2:8353:8144%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 66.0.3, javascriptEnabled: true, moz:accessibilityChecks: false, moz:geckodriverVersion: 0.23.0, moz:headless: false, moz:processID: 2438, moz:profile: /var/folders/1t/c55l8xzs6gq..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 17.7.0, proxy: Proxy(direct), rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 5512bcf0-9361-6847-804a-952b042e7e6a)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at Privacy.run(Privacy:33)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1557421127108.run(TempTestSuite1557421127108.groovy:36)
+
+
+2019-05-09 12:59:44 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/privacy static_OR/Page_Ontario Cannabis Store  Ontari/button_Verify' (Root cause: org.openqa.selenium.ElementClickInterceptedException: Element <button class="btn btn--outline" type="submit"> is not clickable at point (705,689) because another element <iframe id="preview-bar-iframe" src="https://ocs.ca/preview_bar"> obscures it
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'sumans-MacBook-Pro.local', ip: 'fe80:0:0:0:10eb:5cc2:8353:8144%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 66.0.3, javascriptEnabled: true, moz:accessibilityChecks: false, moz:geckodriverVersion: 0.23.0, moz:headless: false, moz:processID: 2438, moz:profile: /var/folders/1t/c55l8xzs6gq..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 17.7.0, proxy: Proxy(direct), rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 5512bcf0-9361-6847-804a-952b042e7e6a)
+[[ATTACHMENT|/Users/sumankompelly/git/Sample-OCS/Reports/OCS-09-05-2019 - Theme2/STATIC PAGES- 09-05-2019/20190509_125847/1557421184297.png]]
+
+2019-05-09 12:59:44 - [MESSAGE][FAILED] - click(findTestObject("Object Repository/privacy static_OR/Page_Ontario Cannabis Store  Ontari/button_Verify")) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/privacy static_OR/Page_Ontario Cannabis Store  Ontari/button_Verify' (Root cause: org.openqa.selenium.ElementClickInterceptedException: Element <button class="btn btn--outline" type="submit"> is not clickable at point (705,689) because another element <iframe id="preview-bar-iframe" src="https://ocs.ca/preview_bar"> obscures it
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'sumans-MacBook-Pro.local', ip: 'fe80:0:0:0:10eb:5cc2:8353:8144%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 66.0.3, javascriptEnabled: true, moz:accessibilityChecks: false, moz:geckodriverVersion: 0.23.0, moz:headless: false, moz:processID: 2438, moz:profile: /var/folders/1t/c55l8xzs6gq..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 17.7.0, proxy: Proxy(direct), rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 5512bcf0-9361-6847-804a-952b042e7e6a)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at Privacy.run(Privacy:33)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1557421127108.run(TempTestSuite1557421127108.groovy:36)]]></system-out>
+         <system-err><![CDATA[2019-05-09 12:59:34 - [TEST_CASE][FAILED] - Test Cases/OCS- STATIC PAGE/Privacy: Test Cases/OCS- STATIC PAGE/Privacy FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/privacy static_OR/Page_Ontario Cannabis Store  Ontari/button_Verify' (Root cause: org.openqa.selenium.ElementClickInterceptedException: Element <button class="btn btn--outline" type="submit"> is not clickable at point (705,689) because another element <iframe id="preview-bar-iframe" src="https://ocs.ca/preview_bar"> obscures it
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'sumans-MacBook-Pro.local', ip: 'fe80:0:0:0:10eb:5cc2:8353:8144%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 66.0.3, javascriptEnabled: true, moz:accessibilityChecks: false, moz:geckodriverVersion: 0.23.0, moz:headless: false, moz:processID: 2438, moz:profile: /var/folders/1t/c55l8xzs6gq..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 17.7.0, proxy: Proxy(direct), rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 5512bcf0-9361-6847-804a-952b042e7e6a)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at Privacy.run(Privacy:33)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1557421127108.run(TempTestSuite1557421127108.groovy:36)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-05-09 12:58:48 - [TEST_SUITE][FAILED] - STATIC PAGES- 09-05-2019: Test Cases/OCS- STATIC PAGE/Policy FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/STATIC PAGES _OR/Page_Ontario Cannabis Store  Ontari/button_Verify' (Root cause: org.openqa.selenium.ElementClickInterceptedException: Element <button class="btn btn--outline" type="submit"> is not clickable at point (625,674) because another element <iframe id="preview-bar-iframe" src="https://ocs.ca/preview_bar"> obscures it
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'sumans-MacBook-Pro.local', ip: 'fe80:0:0:0:10eb:5cc2:8353:8144%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 66.0.3, javascriptEnabled: true, moz:accessibilityChecks: false, moz:geckodriverVersion: 0.23.0, moz:headless: false, moz:processID: 2429, moz:profile: /var/folders/1t/c55l8xzs6gq..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 17.7.0, proxy: Proxy(direct), rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: d5c1d31e-6bd6-154c-ae2e-96e7bb9d7bfb)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at Policy.run(Policy:31)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1557421127108.run(TempTestSuite1557421127108.groovy:36)]]></system-out>
+      <system-err><![CDATA[2019-05-09 12:58:48 - [TEST_SUITE][FAILED] - STATIC PAGES- 09-05-2019: Test Cases/OCS- STATIC PAGE/Policy FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/STATIC PAGES _OR/Page_Ontario Cannabis Store  Ontari/button_Verify' (Root cause: org.openqa.selenium.ElementClickInterceptedException: Element <button class="btn btn--outline" type="submit"> is not clickable at point (625,674) because another element <iframe id="preview-bar-iframe" src="https://ocs.ca/preview_bar"> obscures it
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'sumans-MacBook-Pro.local', ip: 'fe80:0:0:0:10eb:5cc2:8353:8144%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 66.0.3, javascriptEnabled: true, moz:accessibilityChecks: false, moz:geckodriverVersion: 0.23.0, moz:headless: false, moz:processID: 2429, moz:profile: /var/folders/1t/c55l8xzs6gq..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 17.7.0, proxy: Proxy(direct), rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: d5c1d31e-6bd6-154c-ae2e-96e7bb9d7bfb)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at Policy.run(Policy:31)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1557421127108.run(TempTestSuite1557421127108.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>

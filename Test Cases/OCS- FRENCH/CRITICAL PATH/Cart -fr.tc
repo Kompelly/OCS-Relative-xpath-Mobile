@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Cart -fr</name>
+   <tag></tag>
+   <comment>a
+a1 = &quot; + a1
+x1 = &quot; + x1
+x2 = &quot; + x2
+x3 = &quot; + x3
+x6 = &quot; + x6
+b
+a2 = &quot; + a2
+y1 = &quot; + y1
+y2 = &quot; + y2
+y3 = &quot; + y3
+y4 = &quot; + y4
+c
+a3 = &quot; + a3
+z1 = &quot; + z1
+z2 = &quot; + z2
+z3 = &quot; + z3
+z4 = &quot; + z4
+p2=&quot; + p2
+p3=&quot; + p3
+total=&quot; + total
+c23
+a4= &quot; + a4
+v1= &quot; + v1
+v2= &quot; + v2
+v3= &quot; + v3
+v7= &quot; + v7
+b25
+a25 = &quot; + a25
+v4= &quot; + v4
+v5= &quot; + v5
+v6= &quot; + v6
+v8= &quot; + v8</comment>
+   <testCaseGuid>694e1015-5658-4c20-9cd1-ea3048d23c57</testCaseGuid>
+</TestCaseEntity>

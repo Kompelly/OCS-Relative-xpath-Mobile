@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>cart page - decrease qty - fr</name>
+   <tag></tag>
+   <comment>a
+a1 = &quot; + a1
+x1 = &quot; + x1
+x2 = &quot; + x2
+x3 = &quot; + x3
+x6 = &quot; + x6
+b
+a2 = &quot; + a2
+y1 = &quot; + y1
+y2 = &quot; + y2
+y3 = &quot; + y3
+y4 = &quot; + y4
+ price changed . Quantity selector is working</comment>
+   <testCaseGuid>ef3286a4-ff9b-47d8-b18f-341e9d71538d</testCaseGuid>
+</TestCaseEntity>

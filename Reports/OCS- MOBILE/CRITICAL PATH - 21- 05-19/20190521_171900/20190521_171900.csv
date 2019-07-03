@@ -1,0 +1,608 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+CRITICAL PATH - 21- 05-19,Firefox 66.0,,2019-05-21 17:19:02,2019-05-21 17:32:40,13m - 37.681s,FAILED
+,,,,,,
+Test Cases/OCS - MOBILE/OCS- CRITICAL PATH/Cart,Firefox 66.0,,2019-05-21 17:19:03,2019-05-21 17:20:29,1m - 26.849s,PASSED
+"openBrowser("""")",Firefox 66.0,,2019-05-21 17:19:03,2019-05-21 17:19:06,3.340s,PASSED
+"navigateToUrl(""https://ocs.ca/?fts=0&preview_theme_id=53373863756"")",Firefox 66.0,,2019-05-21 17:19:06,2019-05-21 17:19:12,5.610s,PASSED
+"setViewPortSize(360, 800)",Firefox 66.0,,2019-05-21 17:19:12,2019-05-21 17:19:12,0.117s,PASSED
+delay(4),Firefox 66.0,,2019-05-21 17:19:12,2019-05-21 17:19:16,4.032s,PASSED
+"selectOptionByValue(findTestObject(""OCS-MOBILE /Age gate and burger menu/Date""), ""12"", true)",Firefox 66.0,,2019-05-21 17:19:16,2019-05-21 17:19:17,0.786s,PASSED
+"selectOptionByValue(findTestObject(""OCS-MOBILE /Age gate and burger menu/month""), ""6"", true)",Firefox 66.0,,2019-05-21 17:19:17,2019-05-21 17:19:17,0.446s,PASSED
+delay(2),Firefox 66.0,,2019-05-21 17:19:17,2019-05-21 17:19:19,2.004s,PASSED
+"selectOptionByValue(findTestObject(""OCS-MOBILE /Age gate and burger menu/Year Dropdown""), ""1990"", true)",Firefox 66.0,,2019-05-21 17:19:19,2019-05-21 17:19:21,1.486s,PASSED
+"click(findTestObject(""OCS-MOBILE /Age gate and burger menu/button_Verify""))",Firefox 66.0,,2019-05-21 17:19:21,2019-05-21 17:19:21,0.255s,PASSED
+"click(findTestObject(""OCS-MOBILE /Age gate and burger menu/Checkbox_CONFIRM AND ACKNOWLEDGE""))",Firefox 66.0,,2019-05-21 17:19:21,2019-05-21 17:19:21,0.242s,PASSED
+"click(findTestObject(""OCS-MOBILE /Age gate and burger menu/button_CONFIRM""))",Firefox 66.0,,2019-05-21 17:19:21,2019-05-21 17:19:22,0.238s,PASSED
+"click(findTestObject(""OCS-MOBILE /Age gate and burger menu/button_Start Browsing""))",Firefox 66.0,,2019-05-21 17:19:22,2019-05-21 17:19:22,0.235s,PASSED
+delay(2),Firefox 66.0,,2019-05-21 17:19:22,2019-05-21 17:19:24,2.003s,PASSED
+"click(findTestObject(""OCS-MOBILE /Age gate and burger menu/Burger menu - English""))",Firefox 66.0,,2019-05-21 17:19:24,2019-05-21 17:19:24,0.238s,PASSED
+delay(2),Firefox 66.0,,2019-05-21 17:19:24,2019-05-21 17:19:26,2.002s,PASSED
+"click(findTestObject(""OCS-MOBILE /Age gate and burger menu/Chevron_Cannabis""))",Firefox 66.0,,2019-05-21 17:19:26,2019-05-21 17:19:26,0.284s,PASSED
+delay(2),Firefox 66.0,,2019-05-21 17:19:26,2019-05-21 17:19:28,2.002s,PASSED
+"click(findTestObject(""OCS-MOBILE /Age gate and burger menu/Dried Flower_Plus icon""))",Firefox 66.0,,2019-05-21 17:19:28,2019-05-21 17:19:29,0.249s,PASSED
+delay(2),Firefox 66.0,,2019-05-21 17:19:29,2019-05-21 17:19:31,2.002s,PASSED
+"click(findTestObject(""OCS-MOBILE /Age gate and burger menu/Indica Dominant_Menu item""))",Firefox 66.0,,2019-05-21 17:19:31,2019-05-21 17:19:33,2.523s,PASSED
+delay(2),Firefox 66.0,,2019-05-21 17:19:33,2019-05-21 17:19:35,2.007s,PASSED
+"click(findTestObject(""OCS-MOBILE /Collection page/Product image - 1st one""))",Firefox 66.0,,2019-05-21 17:19:35,2019-05-21 17:19:38,2.617s,PASSED
+"scrollToElement(findTestObject(""OCS-MOBILE /Product page/Product image""), 1)",Firefox 66.0,,2019-05-21 17:19:38,2019-05-21 17:19:38,0.092s,PASSED
+delay(2),Firefox 66.0,,2019-05-21 17:19:38,2019-05-21 17:19:40,2.005s,PASSED
+"click(findTestObject(""OCS-MOBILE /Product page/Swatch_1g""))",Firefox 66.0,,2019-05-21 17:19:40,2019-05-21 17:19:40,0.266s,PASSED
+"scrollToElement(findTestObject(""OCS-MOBILE /Product page/Swatch_3.5g""), 1)",Firefox 66.0,,2019-05-21 17:19:40,2019-05-21 17:19:40,0.019s,PASSED
+delay(2),Firefox 66.0,,2019-05-21 17:19:40,2019-05-21 17:19:42,2.006s,PASSED
+"click(findTestObject(""OCS-MOBILE /Product page/Add to Bag-button""))",Firefox 66.0,,2019-05-21 17:19:42,2019-05-21 17:19:42,0.291s,PASSED
+delay(2),Firefox 66.0,,2019-05-21 17:19:42,2019-05-21 17:19:45,2.002s,PASSED
+"setViewPortSize(1000, 800, OPTIONAL)",Firefox 66.0,,2019-05-21 17:19:45,2019-05-21 17:19:45,0.060s,PASSED
+"delay(2, OPTIONAL)",Firefox 66.0,,2019-05-21 17:19:45,2019-05-21 17:19:47,2.007s,PASSED
+"click(findTestObject(""Theme_oR/Page_Ontario Cannabis Store  Ontari/button_Hide bar""), OPTIONAL)",Firefox 66.0,,2019-05-21 17:19:47,2019-05-21 17:19:47,0.295s,PASSED
+"delay(2, OPTIONAL)",Firefox 66.0,,2019-05-21 17:19:47,2019-05-21 17:19:49,2.006s,PASSED
+"setViewPortSize(360, 800, OPTIONAL)",Firefox 66.0,,2019-05-21 17:19:49,2019-05-21 17:19:49,0.059s,PASSED
+delay(2),Firefox 66.0,,2019-05-21 17:19:49,2019-05-21 17:19:51,2.002s,PASSED
+"click(findTestObject(""OCS-MOBILE /Cart flyout/Back icon""))",Firefox 66.0,,2019-05-21 17:19:51,2019-05-21 17:19:51,0.265s,PASSED
+delay(2),Firefox 66.0,,2019-05-21 17:19:51,2019-05-21 17:19:53,2.002s,PASSED
+"scrollToElement(findTestObject(""OCS-MOBILE /Product page/Product image""), 1)",Firefox 66.0,,2019-05-21 17:19:53,2019-05-21 17:19:53,0.021s,PASSED
+delay(2),Firefox 66.0,,2019-05-21 17:19:53,2019-05-21 17:19:55,2.007s,PASSED
+"flag = verifyElementPresent(findTestObject(""OCS-MOBILE /Product page/Swatch_3.5g""), 0)",Firefox 66.0,,2019-05-21 17:19:55,2019-05-21 17:19:55,0.019s,PASSED
+"comment("" flag="" + flag)",Firefox 66.0,,2019-05-21 17:19:55,2019-05-21 17:19:55,0.005s,PASSED
+takeScreenshot(),Firefox 66.0,,2019-05-21 17:19:55,2019-05-21 17:19:55,0.083s,PASSED
+if (flag == true),Firefox 66.0,,2019-05-21 17:19:55,2019-05-21 17:20:29,34.072s,PASSED
+,,,,,,
+Test Cases/OCS - MOBILE/OCS- CRITICAL PATH/cart flyout- accessories,Firefox 66.0,,2019-05-21 17:20:29,2019-05-21 17:21:27,57.491s,PASSED
+"openBrowser("""")",Firefox 66.0,,2019-05-21 17:20:30,2019-05-21 17:20:32,2.396s,PASSED
+"navigateToUrl(""https://ocs.ca/?fts=0&preview_theme_id=53373863756"")",Firefox 66.0,,2019-05-21 17:20:32,2019-05-21 17:20:40,7.860s,PASSED
+"setViewPortSize(360, 800)",Firefox 66.0,,2019-05-21 17:20:40,2019-05-21 17:20:40,0.090s,PASSED
+delay(4),Firefox 66.0,,2019-05-21 17:20:40,2019-05-21 17:20:44,4.002s,PASSED
+"selectOptionByValue(findTestObject(""OCS-MOBILE /Age gate and burger menu/Date""), ""12"", true)",Firefox 66.0,,2019-05-21 17:20:44,2019-05-21 17:20:45,0.677s,PASSED
+"selectOptionByValue(findTestObject(""OCS-MOBILE /Age gate and burger menu/month""), ""6"", true)",Firefox 66.0,,2019-05-21 17:20:45,2019-05-21 17:20:45,0.430s,PASSED
+delay(2),Firefox 66.0,,2019-05-21 17:20:45,2019-05-21 17:20:47,2.001s,PASSED
+"selectOptionByValue(findTestObject(""OCS-MOBILE /Age gate and burger menu/Year Dropdown""), ""1990"", true)",Firefox 66.0,,2019-05-21 17:20:47,2019-05-21 17:20:48,1.412s,PASSED
+"click(findTestObject(""OCS-MOBILE /Age gate and burger menu/button_Verify""))",Firefox 66.0,,2019-05-21 17:20:48,2019-05-21 17:20:49,0.240s,PASSED
+"click(findTestObject(""OCS-MOBILE /Age gate and burger menu/Checkbox_CONFIRM AND ACKNOWLEDGE""))",Firefox 66.0,,2019-05-21 17:20:49,2019-05-21 17:20:49,0.237s,PASSED
+"click(findTestObject(""OCS-MOBILE /Age gate and burger menu/button_CONFIRM""))",Firefox 66.0,,2019-05-21 17:20:49,2019-05-21 17:20:49,0.242s,PASSED
+"click(findTestObject(""OCS-MOBILE /Age gate and burger menu/button_Start Browsing""))",Firefox 66.0,,2019-05-21 17:20:49,2019-05-21 17:20:49,0.234s,PASSED
+delay(2),Firefox 66.0,,2019-05-21 17:20:49,2019-05-21 17:20:51,2.005s,PASSED
+"click(findTestObject(""OCS-MOBILE /Age gate and burger menu/Burger menu - English""))",Firefox 66.0,,2019-05-21 17:20:51,2019-05-21 17:20:52,0.248s,PASSED
+delay(2),Firefox 66.0,,2019-05-21 17:20:52,2019-05-21 17:20:54,2.002s,PASSED
+"click(findTestObject(""OCS-MOBILE /Age gate and burger menu/Chevron_Cannabis""))",Firefox 66.0,,2019-05-21 17:20:54,2019-05-21 17:20:54,0.271s,PASSED
+delay(2),Firefox 66.0,,2019-05-21 17:20:54,2019-05-21 17:20:56,2.006s,PASSED
+"click(findTestObject(""OCS-MOBILE /Age gate and burger menu/Dried Flower_Plus icon""))",Firefox 66.0,,2019-05-21 17:20:56,2019-05-21 17:20:56,0.243s,PASSED
+delay(2),Firefox 66.0,,2019-05-21 17:20:56,2019-05-21 17:20:58,2.005s,PASSED
+"click(findTestObject(""OCS-MOBILE /Age gate and burger menu/Indica Dominant_Menu item""))",Firefox 66.0,,2019-05-21 17:20:58,2019-05-21 17:21:02,3.496s,PASSED
+delay(2),Firefox 66.0,,2019-05-21 17:21:02,2019-05-21 17:21:04,2.003s,PASSED
+"click(findTestObject(""OCS-MOBILE /Collection page/Product image - 1st one""))",Firefox 66.0,,2019-05-21 17:21:04,2019-05-21 17:21:09,5.721s,PASSED
+"scrollToElement(findTestObject(""OCS-MOBILE /Product page/Product image""), 1)",Firefox 66.0,,2019-05-21 17:21:09,2019-05-21 17:21:09,0.056s,PASSED
+delay(2),Firefox 66.0,,2019-05-21 17:21:09,2019-05-21 17:21:11,2.002s,PASSED
+"click(findTestObject(""OCS-MOBILE /Product page/Swatch_1g""))",Firefox 66.0,,2019-05-21 17:21:11,2019-05-21 17:21:12,0.280s,PASSED
+"scrollToElement(findTestObject(""OCS-MOBILE /Product page/Swatch_3.5g""), 1)",Firefox 66.0,,2019-05-21 17:21:12,2019-05-21 17:21:12,0.014s,PASSED
+delay(2),Firefox 66.0,,2019-05-21 17:21:12,2019-05-21 17:21:14,2.003s,PASSED
+"click(findTestObject(""OCS-MOBILE /Product page/Add to Bag-button""))",Firefox 66.0,,2019-05-21 17:21:14,2019-05-21 17:21:14,0.279s,PASSED
+delay(1),Firefox 66.0,,2019-05-21 17:21:14,2019-05-21 17:21:15,1.004s,PASSED
+maximizeWindow(),Firefox 66.0,,2019-05-21 17:21:15,2019-05-21 17:21:16,0.685s,PASSED
+delay(2),Firefox 66.0,,2019-05-21 17:21:16,2019-05-21 17:21:18,2.003s,PASSED
+"click(findTestObject(""Theme_oR/Page_Ontario Cannabis Store  Ontari/button_Hide bar""))",Firefox 66.0,,2019-05-21 17:21:18,2019-05-21 17:21:18,0.255s,PASSED
+delay(2),Firefox 66.0,,2019-05-21 17:21:18,2019-05-21 17:21:20,2.006s,PASSED
+"setViewPortSize(360, 800)",Firefox 66.0,,2019-05-21 17:21:20,2019-05-21 17:21:20,0.388s,PASSED
+delay(2),Firefox 66.0,,2019-05-21 17:21:20,2019-05-21 17:21:22,2.006s,PASSED
+"click(findTestObject(""OCS-MOBILE /Cart flyout/Up Chevron - Accessories you might need""))",Firefox 66.0,,2019-05-21 17:21:22,2019-05-21 17:21:23,0.236s,PASSED
+delay(4),Firefox 66.0,,2019-05-21 17:21:23,2019-05-21 17:21:27,4.002s,PASSED
+"click(findTestObject(""OCS-MOBILE /Cart flyout/Down Chevron - Accessories you might need""))",Firefox 66.0,,2019-05-21 17:21:27,2019-05-21 17:21:27,0.275s,PASSED
+,,,,,,
+Test Cases/OCS - MOBILE/OCS- CRITICAL PATH/Cart flyout- decrease qty,Firefox 66.0,,2019-05-21 17:21:27,2019-05-21 17:22:43,1m - 16.465s,PASSED
+"openBrowser("""")",Firefox 66.0,,2019-05-21 17:21:27,2019-05-21 17:21:30,2.492s,PASSED
+"navigateToUrl(""https://ocs.ca/?fts=0&preview_theme_id=53373863756"")",Firefox 66.0,,2019-05-21 17:21:30,2019-05-21 17:21:34,4.325s,PASSED
+"setViewPortSize(360, 800)",Firefox 66.0,,2019-05-21 17:21:34,2019-05-21 17:21:34,0.082s,PASSED
+delay(4),Firefox 66.0,,2019-05-21 17:21:34,2019-05-21 17:21:38,4.001s,PASSED
+"selectOptionByValue(findTestObject(""OCS-MOBILE /Age gate and burger menu/Date""), ""12"", true)",Firefox 66.0,,2019-05-21 17:21:38,2019-05-21 17:21:39,0.668s,PASSED
+"selectOptionByValue(findTestObject(""OCS-MOBILE /Age gate and burger menu/month""), ""6"", true)",Firefox 66.0,,2019-05-21 17:21:39,2019-05-21 17:21:39,0.433s,PASSED
+delay(2),Firefox 66.0,,2019-05-21 17:21:39,2019-05-21 17:21:41,2.017s,PASSED
+"selectOptionByValue(findTestObject(""OCS-MOBILE /Age gate and burger menu/Year Dropdown""), ""1990"", true)",Firefox 66.0,,2019-05-21 17:21:41,2019-05-21 17:21:43,1.525s,PASSED
+"click(findTestObject(""OCS-MOBILE /Age gate and burger menu/button_Verify""))",Firefox 66.0,,2019-05-21 17:21:43,2019-05-21 17:21:43,0.240s,PASSED
+"click(findTestObject(""OCS-MOBILE /Age gate and burger menu/Checkbox_CONFIRM AND ACKNOWLEDGE""))",Firefox 66.0,,2019-05-21 17:21:43,2019-05-21 17:21:43,0.242s,PASSED
+"click(findTestObject(""OCS-MOBILE /Age gate and burger menu/button_CONFIRM""))",Firefox 66.0,,2019-05-21 17:21:43,2019-05-21 17:21:43,0.245s,PASSED
+"click(findTestObject(""OCS-MOBILE /Age gate and burger menu/button_Start Browsing""))",Firefox 66.0,,2019-05-21 17:21:43,2019-05-21 17:21:44,0.231s,PASSED
+delay(2),Firefox 66.0,,2019-05-21 17:21:44,2019-05-21 17:21:46,2.002s,PASSED
+"click(findTestObject(""OCS-MOBILE /Age gate and burger menu/Burger menu - English""))",Firefox 66.0,,2019-05-21 17:21:46,2019-05-21 17:21:46,0.234s,PASSED
+delay(2),Firefox 66.0,,2019-05-21 17:21:46,2019-05-21 17:21:48,2.001s,PASSED
+"click(findTestObject(""OCS-MOBILE /Age gate and burger menu/Chevron_Cannabis""))",Firefox 66.0,,2019-05-21 17:21:48,2019-05-21 17:21:48,0.268s,PASSED
+delay(2),Firefox 66.0,,2019-05-21 17:21:48,2019-05-21 17:21:50,2.005s,PASSED
+"click(findTestObject(""OCS-MOBILE /Age gate and burger menu/Dried Flower_Plus icon""))",Firefox 66.0,,2019-05-21 17:21:50,2019-05-21 17:21:50,0.256s,PASSED
+delay(2),Firefox 66.0,,2019-05-21 17:21:50,2019-05-21 17:21:52,2.005s,PASSED
+"click(findTestObject(""OCS-MOBILE /Age gate and burger menu/Indica Dominant_Menu item""))",Firefox 66.0,,2019-05-21 17:21:52,2019-05-21 17:21:55,2.581s,PASSED
+delay(2),Firefox 66.0,,2019-05-21 17:21:55,2019-05-21 17:21:57,2.003s,PASSED
+"click(findTestObject(""OCS-MOBILE /Collection page/Product image - 1st one""))",Firefox 66.0,,2019-05-21 17:21:57,2019-05-21 17:22:00,3.419s,PASSED
+"scrollToElement(findTestObject(""OCS-MOBILE /Product page/Product image""), 1)",Firefox 66.0,,2019-05-21 17:22:00,2019-05-21 17:22:00,0.057s,PASSED
+delay(2),Firefox 66.0,,2019-05-21 17:22:00,2019-05-21 17:22:02,2.004s,PASSED
+"flag = click(findTestObject(""OCS-MOBILE /Product page/Swatch_3.5g""), CONTINUE_ON_FAILURE)",Firefox 66.0,,2019-05-21 17:22:02,2019-05-21 17:22:03,0.311s,PASSED
+takeScreenshot(),Firefox 66.0,,2019-05-21 17:22:03,2019-05-21 17:22:03,0.101s,PASSED
+"comment("" flag ="" + flag)",Firefox 66.0,,2019-05-21 17:22:03,2019-05-21 17:22:03,0.000s,PASSED
+if (flag == true),Firefox 66.0,,2019-05-21 17:22:03,2019-05-21 17:22:03,0.001s,PASSED
+else,Firefox 66.0,,2019-05-21 17:22:03,2019-05-21 17:22:43,40.485s,PASSED
+,,,,,,
+Test Cases/OCS - MOBILE/OCS- CRITICAL PATH/Cart flyout- increase qty,Firefox 66.0,,2019-05-21 17:22:43,2019-05-21 17:24:01,1m - 17.851s,PASSED
+"openBrowser("""")",Firefox 66.0,,2019-05-21 17:22:44,2019-05-21 17:22:46,2.613s,PASSED
+"navigateToUrl(""https://ocs.ca/?fts=0&preview_theme_id=53373863756"")",Firefox 66.0,,2019-05-21 17:22:46,2019-05-21 17:22:51,5.314s,PASSED
+"setViewPortSize(360, 800)",Firefox 66.0,,2019-05-21 17:22:51,2019-05-21 17:22:52,0.079s,PASSED
+delay(4),Firefox 66.0,,2019-05-21 17:22:52,2019-05-21 17:22:56,4.001s,PASSED
+"selectOptionByValue(findTestObject(""OCS-MOBILE /Age gate and burger menu/Date""), ""12"", true)",Firefox 66.0,,2019-05-21 17:22:56,2019-05-21 17:22:56,0.646s,PASSED
+"selectOptionByValue(findTestObject(""OCS-MOBILE /Age gate and burger menu/month""), ""6"", true)",Firefox 66.0,,2019-05-21 17:22:56,2019-05-21 17:22:57,0.411s,PASSED
+delay(2),Firefox 66.0,,2019-05-21 17:22:57,2019-05-21 17:22:59,2.002s,PASSED
+"selectOptionByValue(findTestObject(""OCS-MOBILE /Age gate and burger menu/Year Dropdown""), ""1990"", true)",Firefox 66.0,,2019-05-21 17:22:59,2019-05-21 17:23:00,1.435s,PASSED
+"click(findTestObject(""OCS-MOBILE /Age gate and burger menu/button_Verify""))",Firefox 66.0,,2019-05-21 17:23:00,2019-05-21 17:23:00,0.233s,PASSED
+"click(findTestObject(""OCS-MOBILE /Age gate and burger menu/Checkbox_CONFIRM AND ACKNOWLEDGE""))",Firefox 66.0,,2019-05-21 17:23:00,2019-05-21 17:23:01,0.238s,PASSED
+"click(findTestObject(""OCS-MOBILE /Age gate and burger menu/button_CONFIRM""))",Firefox 66.0,,2019-05-21 17:23:01,2019-05-21 17:23:01,0.235s,PASSED
+"click(findTestObject(""OCS-MOBILE /Age gate and burger menu/button_Start Browsing""))",Firefox 66.0,,2019-05-21 17:23:01,2019-05-21 17:23:01,0.225s,PASSED
+delay(2),Firefox 66.0,,2019-05-21 17:23:01,2019-05-21 17:23:03,2.006s,PASSED
+"click(findTestObject(""OCS-MOBILE /Age gate and burger menu/Burger menu - English""))",Firefox 66.0,,2019-05-21 17:23:03,2019-05-21 17:23:03,0.230s,PASSED
+delay(2),Firefox 66.0,,2019-05-21 17:23:03,2019-05-21 17:23:05,2.006s,PASSED
+"click(findTestObject(""OCS-MOBILE /Age gate and burger menu/Chevron_Cannabis""))",Firefox 66.0,,2019-05-21 17:23:05,2019-05-21 17:23:05,0.283s,PASSED
+delay(2),Firefox 66.0,,2019-05-21 17:23:05,2019-05-21 17:23:07,2.001s,PASSED
+"click(findTestObject(""OCS-MOBILE /Age gate and burger menu/Dried Flower_Plus icon""))",Firefox 66.0,,2019-05-21 17:23:07,2019-05-21 17:23:08,0.236s,PASSED
+delay(2),Firefox 66.0,,2019-05-21 17:23:08,2019-05-21 17:23:10,2.005s,PASSED
+"click(findTestObject(""OCS-MOBILE /Age gate and burger menu/Indica Dominant_Menu item""))",Firefox 66.0,,2019-05-21 17:23:10,2019-05-21 17:23:12,2.522s,PASSED
+delay(2),Firefox 66.0,,2019-05-21 17:23:12,2019-05-21 17:23:14,2.001s,PASSED
+"click(findTestObject(""OCS-MOBILE /Collection page/Product image - 1st one""))",Firefox 66.0,,2019-05-21 17:23:14,2019-05-21 17:23:19,4.362s,PASSED
+"scrollToElement(findTestObject(""OCS-MOBILE /Product page/Product image""), 1)",Firefox 66.0,,2019-05-21 17:23:19,2019-05-21 17:23:19,0.056s,PASSED
+delay(2),Firefox 66.0,,2019-05-21 17:23:19,2019-05-21 17:23:21,2.005s,PASSED
+"flag = click(findTestObject(""OCS-MOBILE /Product page/Swatch_3.5g""), CONTINUE_ON_FAILURE)",Firefox 66.0,,2019-05-21 17:23:21,2019-05-21 17:23:21,0.279s,PASSED
+"comment("" flag ="" + flag)",Firefox 66.0,,2019-05-21 17:23:21,2019-05-21 17:23:21,0.000s,PASSED
+if (flag == true),Firefox 66.0,,2019-05-21 17:23:21,2019-05-21 17:23:21,0.001s,PASSED
+else,Firefox 66.0,,2019-05-21 17:23:21,2019-05-21 17:24:01,40.267s,PASSED
+,,,,,,
+Test Cases/OCS - MOBILE/OCS- CRITICAL PATH/Cart flyout-price comparison,Firefox 66.0,,2019-05-21 17:24:01,2019-05-21 17:25:55,1m - 53.741s,PASSED
+"openBrowser("""")",Firefox 66.0,,2019-05-21 17:24:01,2019-05-21 17:24:04,2.625s,PASSED
+"navigateToUrl(""https://ocs.ca/?fts=0&preview_theme_id=53373863756"")",Firefox 66.0,,2019-05-21 17:24:04,2019-05-21 17:24:10,6.347s,PASSED
+"setViewPortSize(360, 800)",Firefox 66.0,,2019-05-21 17:24:10,2019-05-21 17:24:11,0.102s,PASSED
+delay(4),Firefox 66.0,,2019-05-21 17:24:11,2019-05-21 17:24:15,4.005s,PASSED
+"selectOptionByValue(findTestObject(""OCS-MOBILE /Age gate and burger menu/Date""), ""12"", true)",Firefox 66.0,,2019-05-21 17:24:15,2019-05-21 17:24:15,0.637s,PASSED
+"selectOptionByValue(findTestObject(""OCS-MOBILE /Age gate and burger menu/month""), ""6"", true)",Firefox 66.0,,2019-05-21 17:24:15,2019-05-21 17:24:16,0.434s,PASSED
+delay(2),Firefox 66.0,,2019-05-21 17:24:16,2019-05-21 17:24:18,2.015s,PASSED
+"selectOptionByValue(findTestObject(""OCS-MOBILE /Age gate and burger menu/Year Dropdown""), ""1990"", true)",Firefox 66.0,,2019-05-21 17:24:18,2019-05-21 17:24:19,1.442s,PASSED
+"click(findTestObject(""OCS-MOBILE /Age gate and burger menu/button_Verify""))",Firefox 66.0,,2019-05-21 17:24:19,2019-05-21 17:24:19,0.246s,PASSED
+"click(findTestObject(""OCS-MOBILE /Age gate and burger menu/Checkbox_CONFIRM AND ACKNOWLEDGE""))",Firefox 66.0,,2019-05-21 17:24:19,2019-05-21 17:24:20,0.243s,PASSED
+"click(findTestObject(""OCS-MOBILE /Age gate and burger menu/button_CONFIRM""))",Firefox 66.0,,2019-05-21 17:24:20,2019-05-21 17:24:20,0.229s,PASSED
+"click(findTestObject(""OCS-MOBILE /Age gate and burger menu/button_Start Browsing""))",Firefox 66.0,,2019-05-21 17:24:20,2019-05-21 17:24:20,0.227s,PASSED
+delay(2),Firefox 66.0,,2019-05-21 17:24:20,2019-05-21 17:24:22,2.005s,PASSED
+"click(findTestObject(""OCS-MOBILE /Age gate and burger menu/Burger menu - English""))",Firefox 66.0,,2019-05-21 17:24:22,2019-05-21 17:24:22,0.234s,PASSED
+delay(2),Firefox 66.0,,2019-05-21 17:24:22,2019-05-21 17:24:24,2.003s,PASSED
+"click(findTestObject(""OCS-MOBILE /Age gate and burger menu/Chevron_Cannabis""))",Firefox 66.0,,2019-05-21 17:24:24,2019-05-21 17:24:25,0.276s,PASSED
+delay(2),Firefox 66.0,,2019-05-21 17:24:25,2019-05-21 17:24:27,2.003s,PASSED
+"click(findTestObject(""OCS-MOBILE /Age gate and burger menu/Dried Flower_Plus icon""))",Firefox 66.0,,2019-05-21 17:24:27,2019-05-21 17:24:27,0.247s,PASSED
+delay(2),Firefox 66.0,,2019-05-21 17:24:27,2019-05-21 17:24:29,2.002s,PASSED
+"click(findTestObject(""OCS-MOBILE /Age gate and burger menu/Indica Dominant_Menu item""))",Firefox 66.0,,2019-05-21 17:24:29,2019-05-21 17:24:32,3.530s,PASSED
+delay(2),Firefox 66.0,,2019-05-21 17:24:32,2019-05-21 17:24:34,2.005s,PASSED
+"click(findTestObject(""OCS-MOBILE /Collection page/Product image - 1st one""))",Firefox 66.0,,2019-05-21 17:24:34,2019-05-21 17:24:38,3.971s,PASSED
+"scrollToElement(findTestObject(""OCS-MOBILE /Product page/Product image""), 1)",Firefox 66.0,,2019-05-21 17:24:38,2019-05-21 17:24:38,0.031s,PASSED
+delay(2),Firefox 66.0,,2019-05-21 17:24:38,2019-05-21 17:24:40,2.011s,PASSED
+"flag = verifyElementPresent(findTestObject(""OCS-MOBILE /Product page/Swatch_3.5g""), 0)",Firefox 66.0,,2019-05-21 17:24:40,2019-05-21 17:24:40,0.010s,PASSED
+"comment("" flag="" + flag)",Firefox 66.0,,2019-05-21 17:24:40,2019-05-21 17:24:40,0.001s,PASSED
+takeScreenshot(),Firefox 66.0,,2019-05-21 17:24:40,2019-05-21 17:24:40,0.068s,PASSED
+if (flag == true),Firefox 66.0,,2019-05-21 17:24:40,2019-05-21 17:25:55,1m - 14.563s,PASSED
+,,,,,,
+Test Cases/OCS - MOBILE/OCS- CRITICAL PATH/Cart flyout-tooltips,Firefox 66.0,,2019-05-21 17:25:55,2019-05-21 17:26:38,42.817s,PASSED
+"openBrowser("""")",Firefox 66.0,,2019-05-21 17:25:55,2019-05-21 17:25:58,2.637s,PASSED
+"navigateToUrl(""https://ocs.ca/?fts=0&preview_theme_id=53373863756"")",Firefox 66.0,,2019-05-21 17:25:58,2019-05-21 17:26:00,2.655s,PASSED
+delay(4),Firefox 66.0,,2019-05-21 17:26:00,2019-05-21 17:26:04,4.006s,PASSED
+"setViewPortSize(360, 1000)",Firefox 66.0,,2019-05-21 17:26:04,2019-05-21 17:26:04,0.095s,PASSED
+"click(findTestObject(""Theme_oR/Page_Ontario Cannabis Store  Ontari/button_Hide bar""))",Firefox 66.0,,2019-05-21 17:26:04,2019-05-21 17:26:04,0.001s,NOT_RUN
+"selectOptionByValue(findTestObject(""OCS-MOBILE /Age gate and burger menu/Date""), ""17"", true)",Firefox 66.0,,2019-05-21 17:26:04,2019-05-21 17:26:05,0.802s,PASSED
+"selectOptionByValue(findTestObject(""OCS-MOBILE /Age gate and burger menu/month""), ""7"", true)",Firefox 66.0,,2019-05-21 17:26:05,2019-05-21 17:26:06,0.460s,PASSED
+"selectOptionByValue(findTestObject(""OCS-MOBILE /Age gate and burger menu/Year Dropdown""), ""1949"", true)",Firefox 66.0,,2019-05-21 17:26:06,2019-05-21 17:26:07,1.688s,PASSED
+"click(findTestObject(""OCS-MOBILE /Age gate and burger menu/button_Verify""))",Firefox 66.0,,2019-05-21 17:26:07,2019-05-21 17:26:08,0.247s,PASSED
+"click(findTestObject(""OCS-MOBILE /Age gate and burger menu/Checkbox_CONFIRM AND ACKNOWLEDGE""))",Firefox 66.0,,2019-05-21 17:26:08,2019-05-21 17:26:08,0.241s,PASSED
+"click(findTestObject(""OCS-MOBILE /Age gate and burger menu/button_CONFIRM""))",Firefox 66.0,,2019-05-21 17:26:08,2019-05-21 17:26:08,0.236s,PASSED
+"click(findTestObject(""OCS-MOBILE /Age gate and burger menu/button_Start Browsing""))",Firefox 66.0,,2019-05-21 17:26:08,2019-05-21 17:26:08,0.233s,PASSED
+delay(2),Firefox 66.0,,2019-05-21 17:26:08,2019-05-21 17:26:10,2.000s,PASSED
+"click(findTestObject(""OCS-MOBILE /Age gate and burger menu/Burger menu - English""))",Firefox 66.0,,2019-05-21 17:26:10,2019-05-21 17:26:11,0.233s,PASSED
+delay(2),Firefox 66.0,,2019-05-21 17:26:11,2019-05-21 17:26:13,2.003s,PASSED
+"click(findTestObject(""OCS-MOBILE /Age gate and burger menu/Chevron_Cannabis""))",Firefox 66.0,,2019-05-21 17:26:13,2019-05-21 17:26:13,0.258s,PASSED
+delay(2),Firefox 66.0,,2019-05-21 17:26:13,2019-05-21 17:26:15,2.006s,PASSED
+"click(findTestObject(""OCS-MOBILE /Age gate and burger menu/Dried Flower_Plus icon""))",Firefox 66.0,,2019-05-21 17:26:15,2019-05-21 17:26:15,0.257s,PASSED
+delay(2),Firefox 66.0,,2019-05-21 17:26:15,2019-05-21 17:26:17,2.001s,PASSED
+"click(findTestObject(""OCS-MOBILE /Age gate and burger menu/Indica Dominant_Menu item""))",Firefox 66.0,,2019-05-21 17:26:17,2019-05-21 17:26:23,5.467s,PASSED
+delay(2),Firefox 66.0,,2019-05-21 17:26:23,2019-05-21 17:26:25,2.004s,PASSED
+"click(findTestObject(""OCS-MOBILE /Collection page/Product image - 1st one""))",Firefox 66.0,,2019-05-21 17:26:25,2019-05-21 17:26:27,2.604s,PASSED
+"click(findTestObject(""Object Repository/Cart flyout-tooltips_OR/Page_Ontario Cannabis Store  Ontari/h3_Cannabis""))",Firefox 66.0,,2019-05-21 17:26:27,2019-05-21 17:26:27,0.000s,NOT_RUN
+"click(findTestObject(""Object Repository/Cart flyout-tooltips_OR/Page_Ontario Cannabis Store  Ontari/span_Indica Dominant""))",Firefox 66.0,,2019-05-21 17:26:27,2019-05-21 17:26:27,0.001s,NOT_RUN
+"click(findTestObject(""Object Repository/Cart flyout-tooltips_OR/Page_Indica Dominant Dried Flower/h3_Shishkaberry""))",Firefox 66.0,,2019-05-21 17:26:27,2019-05-21 17:26:27,0.001s,NOT_RUN
+"click(findTestObject(""Object Repository/Cart flyout-tooltips_OR/Page_Shishkaberry  Ontario Cannabis/label_1g""))",Firefox 66.0,,2019-05-21 17:26:27,2019-05-21 17:26:27,0.001s,NOT_RUN
+"click(findTestObject(""Object Repository/Cart flyout-tooltips_OR/Page_Shishkaberry  Ontario Cannabis/button_Add to Bag9.75""))",Firefox 66.0,,2019-05-21 17:26:27,2019-05-21 17:26:27,0.001s,NOT_RUN
+delay(3),Firefox 66.0,,2019-05-21 17:26:27,2019-05-21 17:26:30,3.002s,PASSED
+"scrollToElement(findTestObject(""OCS-MOBILE /Product page/Product image""), 1)",Firefox 66.0,,2019-05-21 17:26:30,2019-05-21 17:26:30,0.036s,PASSED
+"click(findTestObject(""OCS-MOBILE /Product page/Swatch_3.5g""))",Firefox 66.0,,2019-05-21 17:26:30,2019-05-21 17:26:31,0.268s,PASSED
+delay(2),Firefox 66.0,,2019-05-21 17:26:31,2019-05-21 17:26:33,2.006s,PASSED
+"click(findTestObject(""OCS-MOBILE /Product page/Add to Bag-button""))",Firefox 66.0,,2019-05-21 17:26:33,2019-05-21 17:26:33,0.253s,PASSED
+delay(1),Firefox 66.0,,2019-05-21 17:26:33,2019-05-21 17:26:34,1.003s,PASSED
+"click(findTestObject(""OCS-MOBILE /Cart flyout/tool tip - TOP""))",Firefox 66.0,,2019-05-21 17:26:34,2019-05-21 17:26:34,0.240s,PASSED
+delay(3),Firefox 66.0,,2019-05-21 17:26:34,2019-05-21 17:26:37,3.004s,PASSED
+"click(findTestObject(""OCS-MOBILE /Cart flyout/tool tip -DOWN""))",Firefox 66.0,,2019-05-21 17:26:37,2019-05-21 17:26:37,0.257s,PASSED
+closeBrowser(),Firefox 66.0,,2019-05-21 17:26:37,2019-05-21 17:26:38,0.518s,PASSED
+,,,,,,
+Test Cases/OCS - MOBILE/OCS- CRITICAL PATH/Cart page- decrease qty,Firefox 66.0,,2019-05-21 17:26:38,2019-05-21 17:28:18,1m - 40.381s,PASSED
+"openBrowser("""")",Firefox 66.0,,2019-05-21 17:26:38,2019-05-21 17:26:40,1.960s,PASSED
+"navigateToUrl(""https://ocs.ca/?fts=0&preview_theme_id=53373863756"")",Firefox 66.0,,2019-05-21 17:26:40,2019-05-21 17:26:50,9.894s,PASSED
+"setViewPortSize(360, 800)",Firefox 66.0,,2019-05-21 17:26:50,2019-05-21 17:26:50,0.094s,PASSED
+delay(4),Firefox 66.0,,2019-05-21 17:26:50,2019-05-21 17:26:54,4.005s,PASSED
+"selectOptionByValue(findTestObject(""OCS-MOBILE /Age gate and burger menu/Date""), ""12"", true)",Firefox 66.0,,2019-05-21 17:26:54,2019-05-21 17:26:55,0.640s,PASSED
+"selectOptionByValue(findTestObject(""OCS-MOBILE /Age gate and burger menu/month""), ""6"", true)",Firefox 66.0,,2019-05-21 17:26:55,2019-05-21 17:26:55,0.414s,PASSED
+delay(2),Firefox 66.0,,2019-05-21 17:26:55,2019-05-21 17:26:57,2.004s,PASSED
+"selectOptionByValue(findTestObject(""OCS-MOBILE /Age gate and burger menu/Year Dropdown""), ""1990"", true)",Firefox 66.0,,2019-05-21 17:26:57,2019-05-21 17:26:58,1.406s,PASSED
+"click(findTestObject(""OCS-MOBILE /Age gate and burger menu/button_Verify""))",Firefox 66.0,,2019-05-21 17:26:58,2019-05-21 17:26:59,0.232s,PASSED
+"click(findTestObject(""OCS-MOBILE /Age gate and burger menu/Checkbox_CONFIRM AND ACKNOWLEDGE""))",Firefox 66.0,,2019-05-21 17:26:59,2019-05-21 17:26:59,0.232s,PASSED
+"click(findTestObject(""OCS-MOBILE /Age gate and burger menu/button_CONFIRM""))",Firefox 66.0,,2019-05-21 17:26:59,2019-05-21 17:26:59,0.227s,PASSED
+"click(findTestObject(""OCS-MOBILE /Age gate and burger menu/button_Start Browsing""))",Firefox 66.0,,2019-05-21 17:26:59,2019-05-21 17:26:59,0.225s,PASSED
+delay(2),Firefox 66.0,,2019-05-21 17:26:59,2019-05-21 17:27:01,2.004s,PASSED
+"click(findTestObject(""OCS-MOBILE /Age gate and burger menu/Burger menu - English""))",Firefox 66.0,,2019-05-21 17:27:01,2019-05-21 17:27:02,0.229s,PASSED
+delay(2),Firefox 66.0,,2019-05-21 17:27:02,2019-05-21 17:27:04,2.004s,PASSED
+"click(findTestObject(""OCS-MOBILE /Age gate and burger menu/Chevron_Cannabis""))",Firefox 66.0,,2019-05-21 17:27:04,2019-05-21 17:27:04,0.258s,PASSED
+delay(2),Firefox 66.0,,2019-05-21 17:27:04,2019-05-21 17:27:06,2.003s,PASSED
+"click(findTestObject(""OCS-MOBILE /Age gate and burger menu/Dried Flower_Plus icon""))",Firefox 66.0,,2019-05-21 17:27:06,2019-05-21 17:27:06,0.232s,PASSED
+delay(2),Firefox 66.0,,2019-05-21 17:27:06,2019-05-21 17:27:08,2.003s,PASSED
+"click(findTestObject(""OCS-MOBILE /Age gate and burger menu/Indica Dominant_Menu item""))",Firefox 66.0,,2019-05-21 17:27:08,2019-05-21 17:27:12,4.078s,PASSED
+delay(2),Firefox 66.0,,2019-05-21 17:27:12,2019-05-21 17:27:14,2.003s,PASSED
+"click(findTestObject(""OCS-MOBILE /Collection page/Product image - 1st one""))",Firefox 66.0,,2019-05-21 17:27:14,2019-05-21 17:27:16,2.256s,PASSED
+"scrollToElement(findTestObject(""OCS-MOBILE /Product page/Product image""), 1)",Firefox 66.0,,2019-05-21 17:27:16,2019-05-21 17:27:16,0.061s,PASSED
+delay(2),Firefox 66.0,,2019-05-21 17:27:16,2019-05-21 17:27:18,2.006s,PASSED
+"click(findTestObject(""OCS-MOBILE /Product page/Swatch_3.5g""))",Firefox 66.0,,2019-05-21 17:27:18,2019-05-21 17:27:19,0.265s,PASSED
+"scrollToElement(findTestObject(""OCS-MOBILE /Product page/Swatch_3.5g""), 1)",Firefox 66.0,,2019-05-21 17:27:19,2019-05-21 17:27:19,0.012s,PASSED
+delay(2),Firefox 66.0,,2019-05-21 17:27:19,2019-05-21 17:27:21,2.003s,PASSED
+"click(findTestObject(""OCS-MOBILE /Product page/Quantity Increase - Button""))",Firefox 66.0,,2019-05-21 17:27:21,2019-05-21 17:27:21,0.300s,PASSED
+delay(1),Firefox 66.0,,2019-05-21 17:27:21,2019-05-21 17:27:22,1.002s,PASSED
+"click(findTestObject(""OCS-MOBILE /Product page/Quantity Increase - Button""))",Firefox 66.0,,2019-05-21 17:27:22,2019-05-21 17:27:22,0.232s,PASSED
+delay(1),Firefox 66.0,,2019-05-21 17:27:22,2019-05-21 17:27:23,1.002s,PASSED
+"click(findTestObject(""OCS-MOBILE /Product page/Quantity Increase - Button""))",Firefox 66.0,,2019-05-21 17:27:23,2019-05-21 17:27:23,0.227s,PASSED
+delay(1),Firefox 66.0,,2019-05-21 17:27:23,2019-05-21 17:27:24,1.002s,PASSED
+"click(findTestObject(""OCS-MOBILE /Product page/Quantity Increase - Button""))",Firefox 66.0,,2019-05-21 17:27:24,2019-05-21 17:27:25,0.231s,PASSED
+delay(1),Firefox 66.0,,2019-05-21 17:27:25,2019-05-21 17:27:26,1.004s,PASSED
+"click(findTestObject(""OCS-MOBILE /Product page/Quantity Increase - Button""))",Firefox 66.0,,2019-05-21 17:27:26,2019-05-21 17:27:26,0.227s,PASSED
+delay(2),Firefox 66.0,,2019-05-21 17:27:26,2019-05-21 17:27:28,2.004s,PASSED
+"click(findTestObject(""OCS-MOBILE /Product page/Add to Bag-button""))",Firefox 66.0,,2019-05-21 17:27:28,2019-05-21 17:27:28,0.236s,PASSED
+delay(1),Firefox 66.0,,2019-05-21 17:27:28,2019-05-21 17:27:29,1.003s,PASSED
+maximizeWindow(),Firefox 66.0,,2019-05-21 17:27:29,2019-05-21 17:27:30,0.729s,PASSED
+delay(2),Firefox 66.0,,2019-05-21 17:27:30,2019-05-21 17:27:32,2.004s,PASSED
+"click(findTestObject(""Theme_oR/Page_Ontario Cannabis Store  Ontari/button_Hide bar""))",Firefox 66.0,,2019-05-21 17:27:32,2019-05-21 17:27:32,0.287s,PASSED
+delay(2),Firefox 66.0,,2019-05-21 17:27:32,2019-05-21 17:27:34,2.004s,PASSED
+"setViewPortSize(360, 800)",Firefox 66.0,,2019-05-21 17:27:34,2019-05-21 17:27:35,0.390s,PASSED
+delay(1),Firefox 66.0,,2019-05-21 17:27:35,2019-05-21 17:27:36,1.003s,PASSED
+"click(findTestObject(""OCS-MOBILE /Cart flyout/Checkbox_I confirm that""))",Firefox 66.0,,2019-05-21 17:27:36,2019-05-21 17:27:36,0.245s,PASSED
+"click(findTestObject(""OCS-MOBILE /Cart flyout/Checkbox_Accept the Terms Condition""))",Firefox 66.0,,2019-05-21 17:27:36,2019-05-21 17:27:36,0.246s,PASSED
+delay(1),Firefox 66.0,,2019-05-21 17:27:36,2019-05-21 17:27:37,1.003s,PASSED
+"click(findTestObject(""OCS-MOBILE /Cart flyout/Checkout - Button""))",Firefox 66.0,,2019-05-21 17:27:37,2019-05-21 17:27:45,7.499s,PASSED
+delay(2),Firefox 66.0,,2019-05-21 17:27:45,2019-05-21 17:27:47,2.002s,PASSED
+"scrollToElement(findTestObject(""OCS-MOBILE /Customer info page/Return to Cart - Link""), 1)",Firefox 66.0,,2019-05-21 17:27:47,2019-05-21 17:27:47,0.107s,PASSED
+delay(1),Firefox 66.0,,2019-05-21 17:27:47,2019-05-21 17:27:48,1.001s,PASSED
+maximizeWindow(),Firefox 66.0,,2019-05-21 17:27:48,2019-05-21 17:27:48,0.666s,PASSED
+delay(2),Firefox 66.0,,2019-05-21 17:27:48,2019-05-21 17:27:50,2.006s,PASSED
+"click(findTestObject(""Theme_oR/Page_Ontario Cannabis Store  Ontari/button_Hide bar""))",Firefox 66.0,,2019-05-21 17:27:50,2019-05-21 17:27:51,0.248s,PASSED
+delay(2),Firefox 66.0,,2019-05-21 17:27:51,2019-05-21 17:27:53,2.005s,PASSED
+"setViewPortSize(360, 800)",Firefox 66.0,,2019-05-21 17:27:53,2019-05-21 17:27:53,0.387s,PASSED
+delay(1),Firefox 66.0,,2019-05-21 17:27:53,2019-05-21 17:27:54,1.003s,PASSED
+"click(findTestObject(""OCS-MOBILE /Customer info page/Return to Cart - Link""))",Firefox 66.0,,2019-05-21 17:27:54,2019-05-21 17:27:56,1.667s,PASSED
+delay(1),Firefox 66.0,,2019-05-21 17:27:56,2019-05-21 17:27:57,1.006s,PASSED
+maximizeWindow(),Firefox 66.0,,2019-05-21 17:27:57,2019-05-21 17:27:57,0.658s,PASSED
+delay(2),Firefox 66.0,,2019-05-21 17:27:57,2019-05-21 17:27:59,2.004s,PASSED
+"click(findTestObject(""Theme_oR/Page_Ontario Cannabis Store  Ontari/button_Hide bar""))",Firefox 66.0,,2019-05-21 17:27:59,2019-05-21 17:28:00,0.271s,PASSED
+delay(2),Firefox 66.0,,2019-05-21 17:28:00,2019-05-21 17:28:02,2.002s,PASSED
+"setViewPortSize(360, 800)",Firefox 66.0,,2019-05-21 17:28:02,2019-05-21 17:28:02,0.383s,PASSED
+delay(1),Firefox 66.0,,2019-05-21 17:28:02,2019-05-21 17:28:03,1.005s,PASSED
+"a = getText(findTestObject(""OCS-MOBILE /Cart page/Unit price - product - price in cart page""))",Firefox 66.0,,2019-05-21 17:28:03,2019-05-21 17:28:03,0.025s,PASSED
+comment(a),Firefox 66.0,,2019-05-21 17:28:03,2019-05-21 17:28:03,0.001s,PASSED
+"click(findTestObject(""OCS-MOBILE /Cart page/Quantity Input field""))",Firefox 66.0,,2019-05-21 17:28:03,2019-05-21 17:28:03,0.242s,PASSED
+"sendKeys(findTestObject(""OCS-MOBILE /Cart page/Quantity Input field""), Keys.chord(CLEAR))",Firefox 66.0,,2019-05-21 17:28:03,2019-05-21 17:28:03,0.036s,PASSED
+"setText(findTestObject(""OCS-MOBILE /Cart page/Quantity Input field""), ""10"")",Firefox 66.0,,2019-05-21 17:28:03,2019-05-21 17:28:03,0.039s,PASSED
+delay(2),Firefox 66.0,,2019-05-21 17:28:03,2019-05-21 17:28:05,2.006s,PASSED
+"sendKeys(findTestObject(""OCS-MOBILE /Cart page/Quantity Input field""), Keys.chord(CLEAR))",Firefox 66.0,,2019-05-21 17:28:05,2019-05-21 17:28:05,0.025s,PASSED
+"click(findTestObject(""OCS-MOBILE /Cart page/enter quantity""))",Firefox 66.0,,2019-05-21 17:28:05,2019-05-21 17:28:05,0.000s,NOT_RUN
+delay(2),Firefox 66.0,,2019-05-21 17:28:05,2019-05-21 17:28:07,2.001s,PASSED
+"setText(findTestObject(""OCS-MOBILE /Cart page/Quantity Input field""), ""7"")",Firefox 66.0,,2019-05-21 17:28:07,2019-05-21 17:28:07,0.039s,PASSED
+delay(2),Firefox 66.0,,2019-05-21 17:28:07,2019-05-21 17:28:09,2.004s,PASSED
+"click(findTestObject(""OCS-MOBILE /Cart page/Unit price - product""))",Firefox 66.0,,2019-05-21 17:28:09,2019-05-21 17:28:09,0.001s,NOT_RUN
+delay(2),Firefox 66.0,,2019-05-21 17:28:09,2019-05-21 17:28:11,2.014s,PASSED
+"click(findTestObject(""OCS-MOBILE /Cart page/Qty Decrease icon""))",Firefox 66.0,,2019-05-21 17:28:11,2019-05-21 17:28:12,0.229s,PASSED
+delay(2),Firefox 66.0,,2019-05-21 17:28:12,2019-05-21 17:28:14,2.006s,PASSED
+"click(findTestObject(""OCS-MOBILE /Cart page/Qty Decrease icon""))",Firefox 66.0,,2019-05-21 17:28:14,2019-05-21 17:28:14,0.227s,PASSED
+delay(2),Firefox 66.0,,2019-05-21 17:28:14,2019-05-21 17:28:16,2.003s,PASSED
+"click(findTestObject(""OCS-MOBILE /Cart page/Qty Decrease icon""))",Firefox 66.0,,2019-05-21 17:28:16,2019-05-21 17:28:16,0.228s,PASSED
+delay(2),Firefox 66.0,,2019-05-21 17:28:16,2019-05-21 17:28:18,2.002s,PASSED
+"b = getText(findTestObject(""OCS_CRITICAL PATH/cartpage- decrease qty _OR/Page_Your Shopping Cart  Ontario Ca/p_194.40""))",Firefox 66.0,,2019-05-21 17:28:18,2019-05-21 17:28:18,0.023s,PASSED
+comment(b),Firefox 66.0,,2019-05-21 17:28:18,2019-05-21 17:28:18,0.000s,PASSED
+"verifyNotEqual(""a"", ""b"")",Firefox 66.0,,2019-05-21 17:28:18,2019-05-21 17:28:18,0.000s,PASSED
+"comment("" price changed . Quantity selector is working"")",Firefox 66.0,,2019-05-21 17:28:18,2019-05-21 17:28:18,0.001s,PASSED
+,,,,,,
+Test Cases/OCS - MOBILE/OCS- CRITICAL PATH/cart page-increase qty,Firefox 66.0,,2019-05-21 17:28:18,2019-05-21 17:29:44,1m - 25.656s,PASSED
+delay(2),Firefox 66.0,,2019-05-21 17:28:18,2019-05-21 17:28:20,2.005s,PASSED
+"openBrowser("""")",Firefox 66.0,,2019-05-21 17:28:20,2019-05-21 17:28:23,2.564s,PASSED
+"navigateToUrl(""https://ocs.ca/?fts=0&preview_theme_id=53373863756"")",Firefox 66.0,,2019-05-21 17:28:23,2019-05-21 17:28:27,4.030s,PASSED
+"setViewPortSize(360, 800)",Firefox 66.0,,2019-05-21 17:28:27,2019-05-21 17:28:27,0.085s,PASSED
+delay(4),Firefox 66.0,,2019-05-21 17:28:27,2019-05-21 17:28:31,4.006s,PASSED
+"selectOptionByValue(findTestObject(""OCS-MOBILE /Age gate and burger menu/Date""), ""12"", true)",Firefox 66.0,,2019-05-21 17:28:31,2019-05-21 17:28:32,0.696s,PASSED
+"selectOptionByValue(findTestObject(""OCS-MOBILE /Age gate and burger menu/month""), ""6"", true)",Firefox 66.0,,2019-05-21 17:28:32,2019-05-21 17:28:32,0.425s,PASSED
+delay(2),Firefox 66.0,,2019-05-21 17:28:32,2019-05-21 17:28:34,2.000s,PASSED
+"selectOptionByValue(findTestObject(""OCS-MOBILE /Age gate and burger menu/Year Dropdown""), ""1990"", true)",Firefox 66.0,,2019-05-21 17:28:34,2019-05-21 17:28:36,1.467s,PASSED
+"click(findTestObject(""OCS-MOBILE /Age gate and burger menu/button_Verify""))",Firefox 66.0,,2019-05-21 17:28:36,2019-05-21 17:28:36,0.236s,PASSED
+"click(findTestObject(""OCS-MOBILE /Age gate and burger menu/Checkbox_CONFIRM AND ACKNOWLEDGE""))",Firefox 66.0,,2019-05-21 17:28:36,2019-05-21 17:28:36,0.239s,PASSED
+"click(findTestObject(""OCS-MOBILE /Age gate and burger menu/button_CONFIRM""))",Firefox 66.0,,2019-05-21 17:28:36,2019-05-21 17:28:36,0.237s,PASSED
+"click(findTestObject(""OCS-MOBILE /Age gate and burger menu/button_Start Browsing""))",Firefox 66.0,,2019-05-21 17:28:36,2019-05-21 17:28:37,0.234s,PASSED
+delay(2),Firefox 66.0,,2019-05-21 17:28:37,2019-05-21 17:28:39,2.004s,PASSED
+"click(findTestObject(""OCS-MOBILE /Age gate and burger menu/Burger menu - English""))",Firefox 66.0,,2019-05-21 17:28:39,2019-05-21 17:28:39,0.235s,PASSED
+delay(2),Firefox 66.0,,2019-05-21 17:28:39,2019-05-21 17:28:41,2.002s,PASSED
+"click(findTestObject(""OCS-MOBILE /Age gate and burger menu/Chevron_Cannabis""))",Firefox 66.0,,2019-05-21 17:28:41,2019-05-21 17:28:41,0.281s,PASSED
+delay(2),Firefox 66.0,,2019-05-21 17:28:41,2019-05-21 17:28:43,2.001s,PASSED
+"click(findTestObject(""OCS-MOBILE /Age gate and burger menu/Dried Flower_Plus icon""))",Firefox 66.0,,2019-05-21 17:28:43,2019-05-21 17:28:43,0.246s,PASSED
+delay(2),Firefox 66.0,,2019-05-21 17:28:43,2019-05-21 17:28:45,2.004s,PASSED
+"click(findTestObject(""OCS-MOBILE /Age gate and burger menu/Indica Dominant_Menu item""))",Firefox 66.0,,2019-05-21 17:28:45,2019-05-21 17:28:48,2.442s,PASSED
+delay(2),Firefox 66.0,,2019-05-21 17:28:48,2019-05-21 17:28:50,2.004s,PASSED
+"click(findTestObject(""OCS-MOBILE /Collection page/Product image - 1st one""))",Firefox 66.0,,2019-05-21 17:28:50,2019-05-21 17:28:53,3.667s,PASSED
+"scrollToElement(findTestObject(""OCS-MOBILE /Product page/Product image""), 1)",Firefox 66.0,,2019-05-21 17:28:53,2019-05-21 17:28:53,0.061s,PASSED
+delay(2),Firefox 66.0,,2019-05-21 17:28:53,2019-05-21 17:28:55,2.005s,PASSED
+"click(findTestObject(""OCS-MOBILE /Product page/Swatch_3.5g""))",Firefox 66.0,,2019-05-21 17:28:55,2019-05-21 17:28:56,0.279s,PASSED
+"scrollToElement(findTestObject(""OCS-MOBILE /Product page/Swatch_3.5g""), 1)",Firefox 66.0,,2019-05-21 17:28:56,2019-05-21 17:28:56,0.016s,PASSED
+delay(2),Firefox 66.0,,2019-05-21 17:28:56,2019-05-21 17:28:58,2.004s,PASSED
+"click(findTestObject(""OCS-MOBILE /Product page/Add to Bag-button""))",Firefox 66.0,,2019-05-21 17:28:58,2019-05-21 17:28:58,0.252s,PASSED
+delay(1),Firefox 66.0,,2019-05-21 17:28:58,2019-05-21 17:28:59,1.005s,PASSED
+maximizeWindow(),Firefox 66.0,,2019-05-21 17:28:59,2019-05-21 17:29:00,0.690s,PASSED
+delay(2),Firefox 66.0,,2019-05-21 17:29:00,2019-05-21 17:29:02,2.009s,PASSED
+"click(findTestObject(""Theme_oR/Page_Ontario Cannabis Store  Ontari/button_Hide bar""))",Firefox 66.0,,2019-05-21 17:29:02,2019-05-21 17:29:02,0.278s,PASSED
+delay(2),Firefox 66.0,,2019-05-21 17:29:02,2019-05-21 17:29:04,2.003s,PASSED
+"setViewPortSize(360, 800)",Firefox 66.0,,2019-05-21 17:29:04,2019-05-21 17:29:04,0.416s,PASSED
+delay(1),Firefox 66.0,,2019-05-21 17:29:04,2019-05-21 17:29:05,1.004s,PASSED
+"click(findTestObject(""OCS-MOBILE /Cart flyout/Checkbox_I confirm that""))",Firefox 66.0,,2019-05-21 17:29:05,2019-05-21 17:29:06,0.249s,PASSED
+"click(findTestObject(""OCS-MOBILE /Cart flyout/Checkbox_Accept the Terms Condition""))",Firefox 66.0,,2019-05-21 17:29:06,2019-05-21 17:29:06,0.248s,PASSED
+delay(1),Firefox 66.0,,2019-05-21 17:29:06,2019-05-21 17:29:07,1.002s,PASSED
+"click(findTestObject(""OCS-MOBILE /Cart flyout/Checkout - Button""))",Firefox 66.0,,2019-05-21 17:29:07,2019-05-21 17:29:14,7.408s,PASSED
+delay(2),Firefox 66.0,,2019-05-21 17:29:14,2019-05-21 17:29:16,2.006s,PASSED
+"scrollToElement(findTestObject(""OCS-MOBILE /Customer info page/Return to Cart - Link""), 1)",Firefox 66.0,,2019-05-21 17:29:16,2019-05-21 17:29:16,0.022s,PASSED
+delay(1),Firefox 66.0,,2019-05-21 17:29:16,2019-05-21 17:29:17,1.003s,PASSED
+maximizeWindow(),Firefox 66.0,,2019-05-21 17:29:17,2019-05-21 17:29:18,0.653s,PASSED
+delay(2),Firefox 66.0,,2019-05-21 17:29:18,2019-05-21 17:29:20,2.003s,PASSED
+"click(findTestObject(""Theme_oR/Page_Ontario Cannabis Store  Ontari/button_Hide bar""))",Firefox 66.0,,2019-05-21 17:29:20,2019-05-21 17:29:20,0.254s,PASSED
+delay(2),Firefox 66.0,,2019-05-21 17:29:20,2019-05-21 17:29:22,2.005s,PASSED
+"setViewPortSize(360, 800)",Firefox 66.0,,2019-05-21 17:29:22,2019-05-21 17:29:23,0.393s,PASSED
+delay(1),Firefox 66.0,,2019-05-21 17:29:23,2019-05-21 17:29:24,1.002s,PASSED
+"click(findTestObject(""OCS-MOBILE /Customer info page/Return to Cart - Link""))",Firefox 66.0,,2019-05-21 17:29:24,2019-05-21 17:29:25,1.632s,PASSED
+delay(1),Firefox 66.0,,2019-05-21 17:29:25,2019-05-21 17:29:26,1.003s,PASSED
+maximizeWindow(),Firefox 66.0,,2019-05-21 17:29:26,2019-05-21 17:29:27,0.676s,PASSED
+delay(2),Firefox 66.0,,2019-05-21 17:29:27,2019-05-21 17:29:29,2.005s,PASSED
+"click(findTestObject(""Theme_oR/Page_Ontario Cannabis Store  Ontari/button_Hide bar""))",Firefox 66.0,,2019-05-21 17:29:29,2019-05-21 17:29:29,0.254s,PASSED
+delay(2),Firefox 66.0,,2019-05-21 17:29:29,2019-05-21 17:29:31,2.002s,PASSED
+"setViewPortSize(360, 800)",Firefox 66.0,,2019-05-21 17:29:31,2019-05-21 17:29:32,0.388s,PASSED
+delay(1),Firefox 66.0,,2019-05-21 17:29:32,2019-05-21 17:29:33,1.006s,PASSED
+"a = getText(findTestObject(""OCS_CRITICAL PATH/cartpage- decrease qty _OR/Page_Your Shopping Cart  Ontario Ca/p_194.40 (1)""))",Firefox 66.0,,2019-05-21 17:29:33,2019-05-21 17:29:33,0.026s,PASSED
+comment(a),Firefox 66.0,,2019-05-21 17:29:33,2019-05-21 17:29:33,0.000s,PASSED
+"click(findTestObject(""OCS-MOBILE /Cart page/Quantity Input field""))",Firefox 66.0,,2019-05-21 17:29:33,2019-05-21 17:29:33,0.247s,PASSED
+"sendKeys(findTestObject(""OCS-MOBILE /Cart page/Quantity Input field""), Keys.chord(CLEAR))",Firefox 66.0,,2019-05-21 17:29:33,2019-05-21 17:29:33,0.028s,PASSED
+"setText(findTestObject(""OCS-MOBILE /Cart page/Quantity Input field""), ""5"")",Firefox 66.0,,2019-05-21 17:29:33,2019-05-21 17:29:33,0.035s,PASSED
+"click(findTestObject(""OCS-MOBILE /Cart page/Unit price - product""))",Firefox 66.0,,2019-05-21 17:29:33,2019-05-21 17:29:33,0.001s,NOT_RUN
+delay(2),Firefox 66.0,,2019-05-21 17:29:33,2019-05-21 17:29:35,2.006s,PASSED
+"sendKeys(findTestObject(""OCS-MOBILE /Cart page/Quantity Input field""), Keys.chord(CLEAR))",Firefox 66.0,,2019-05-21 17:29:35,2019-05-21 17:29:35,0.045s,PASSED
+"setText(findTestObject(""OCS-MOBILE /Cart page/Quantity Input field""), ""7"")",Firefox 66.0,,2019-05-21 17:29:35,2019-05-21 17:29:35,0.040s,PASSED
+"click(findTestObject(""OCS-MOBILE /Cart page/Unit price - product""))",Firefox 66.0,,2019-05-21 17:29:35,2019-05-21 17:29:35,0.000s,NOT_RUN
+delay(2),Firefox 66.0,,2019-05-21 17:29:35,2019-05-21 17:29:37,2.007s,PASSED
+"click(findTestObject(""OCS-MOBILE /Cart page/Qty Increase icon""))",Firefox 66.0,,2019-05-21 17:29:37,2019-05-21 17:29:37,0.239s,PASSED
+delay(2),Firefox 66.0,,2019-05-21 17:29:37,2019-05-21 17:29:39,2.003s,PASSED
+"click(findTestObject(""OCS-MOBILE /Cart page/Qty Increase icon""))",Firefox 66.0,,2019-05-21 17:29:39,2019-05-21 17:29:40,0.236s,PASSED
+delay(2),Firefox 66.0,,2019-05-21 17:29:40,2019-05-21 17:29:42,2.008s,PASSED
+"click(findTestObject(""OCS-MOBILE /Cart page/Qty Increase icon""))",Firefox 66.0,,2019-05-21 17:29:42,2019-05-21 17:29:42,0.236s,PASSED
+delay(2),Firefox 66.0,,2019-05-21 17:29:42,2019-05-21 17:29:44,2.004s,PASSED
+"b = getText(findTestObject(""OCS_CRITICAL PATH/cartpage- decrease qty _OR/Page_Your Shopping Cart  Ontario Ca/p_194.40 (1)""))",Firefox 66.0,,2019-05-21 17:29:44,2019-05-21 17:29:44,0.021s,PASSED
+comment(b),Firefox 66.0,,2019-05-21 17:29:44,2019-05-21 17:29:44,0.001s,PASSED
+"verifyNotEqual(""a"", ""b"")",Firefox 66.0,,2019-05-21 17:29:44,2019-05-21 17:29:44,0.000s,PASSED
+"comment("" price changed . Quantity selector is working"")",Firefox 66.0,,2019-05-21 17:29:44,2019-05-21 17:29:44,0.000s,PASSED
+,,,,,,
+Test Cases/OCS - MOBILE/OCS- CRITICAL PATH/Checkout - customer information page,Firefox 66.0,,2019-05-21 17:29:44,2019-05-21 17:31:08,1m - 24.146s,PASSED
+"openBrowser("""")",Firefox 66.0,,2019-05-21 17:29:44,2019-05-21 17:29:47,2.627s,PASSED
+"navigateToUrl(""https://ocs.ca/?fts=0&preview_theme_id=53373863756"")",Firefox 66.0,,2019-05-21 17:29:47,2019-05-21 17:29:53,6.350s,PASSED
+delay(4),Firefox 66.0,,2019-05-21 17:29:53,2019-05-21 17:29:57,4.006s,PASSED
+"setViewPortSize(360, 1000)",Firefox 66.0,,2019-05-21 17:29:57,2019-05-21 17:29:57,0.094s,PASSED
+"selectOptionByValue(findTestObject(""OCS-MOBILE /Age gate and burger menu/Date""), ""17"", true)",Firefox 66.0,,2019-05-21 17:29:57,2019-05-21 17:29:58,0.738s,PASSED
+"selectOptionByValue(findTestObject(""OCS-MOBILE /Age gate and burger menu/month""), ""7"", true)",Firefox 66.0,,2019-05-21 17:29:58,2019-05-21 17:29:58,0.442s,PASSED
+"selectOptionByValue(findTestObject(""OCS-MOBILE /Age gate and burger menu/Year Dropdown""), ""1949"", true)",Firefox 66.0,,2019-05-21 17:29:58,2019-05-21 17:30:00,1.785s,PASSED
+"click(findTestObject(""OCS-MOBILE /Age gate and burger menu/button_Verify""))",Firefox 66.0,,2019-05-21 17:30:00,2019-05-21 17:30:00,0.245s,PASSED
+"click(findTestObject(""OCS-MOBILE /Age gate and burger menu/Checkbox_CONFIRM AND ACKNOWLEDGE""))",Firefox 66.0,,2019-05-21 17:30:00,2019-05-21 17:30:00,0.245s,PASSED
+"click(findTestObject(""OCS-MOBILE /Age gate and burger menu/button_CONFIRM""))",Firefox 66.0,,2019-05-21 17:30:00,2019-05-21 17:30:01,0.242s,PASSED
+"click(findTestObject(""OCS-MOBILE /Age gate and burger menu/button_Start Browsing""))",Firefox 66.0,,2019-05-21 17:30:01,2019-05-21 17:30:01,0.236s,PASSED
+delay(2),Firefox 66.0,,2019-05-21 17:30:01,2019-05-21 17:30:03,2.004s,PASSED
+refresh(),Firefox 66.0,,2019-05-21 17:30:03,2019-05-21 17:30:08,5.032s,PASSED
+"click(findTestObject(""OCS-MOBILE /Age gate and burger menu/Burger menu - English""))",Firefox 66.0,,2019-05-21 17:30:08,2019-05-21 17:30:08,0.250s,PASSED
+delay(2),Firefox 66.0,,2019-05-21 17:30:08,2019-05-21 17:30:10,2.013s,PASSED
+"click(findTestObject(""OCS-MOBILE /Age gate and burger menu/Chevron_Cannabis""))",Firefox 66.0,,2019-05-21 17:30:10,2019-05-21 17:30:11,0.281s,PASSED
+delay(2),Firefox 66.0,,2019-05-21 17:30:11,2019-05-21 17:30:13,2.010s,PASSED
+"click(findTestObject(""OCS-MOBILE /Age gate and burger menu/Dried Flower_Plus icon""))",Firefox 66.0,,2019-05-21 17:30:13,2019-05-21 17:30:13,0.250s,PASSED
+delay(2),Firefox 66.0,,2019-05-21 17:30:13,2019-05-21 17:30:15,2.005s,PASSED
+"click(findTestObject(""OCS-MOBILE /Age gate and burger menu/Indica Dominant_Menu item""))",Firefox 66.0,,2019-05-21 17:30:15,2019-05-21 17:30:19,4.339s,PASSED
+delay(2),Firefox 66.0,,2019-05-21 17:30:19,2019-05-21 17:30:21,2.010s,PASSED
+"click(findTestObject(""OCS-MOBILE /Collection page/Product image - 1st one""))",Firefox 66.0,,2019-05-21 17:30:21,2019-05-21 17:30:23,2.183s,PASSED
+delay(1),Firefox 66.0,,2019-05-21 17:30:23,2019-05-21 17:30:24,1.005s,PASSED
+delay(3),Firefox 66.0,,2019-05-21 17:30:24,2019-05-21 17:30:27,3.011s,PASSED
+"scrollToElement(findTestObject(""OCS-MOBILE /Product page/Product image""), 1)",Firefox 66.0,,2019-05-21 17:30:27,2019-05-21 17:30:27,0.063s,PASSED
+"click(findTestObject(""OCS-MOBILE /Product page/Swatch_3.5g""))",Firefox 66.0,,2019-05-21 17:30:27,2019-05-21 17:30:28,0.280s,PASSED
+delay(2),Firefox 66.0,,2019-05-21 17:30:28,2019-05-21 17:30:30,2.008s,PASSED
+"click(findTestObject(""OCS-MOBILE /Product page/Add to Bag-button""))",Firefox 66.0,,2019-05-21 17:30:30,2019-05-21 17:30:30,0.288s,PASSED
+"setViewPortSize(1000, 1000)",Firefox 66.0,,2019-05-21 17:30:30,2019-05-21 17:30:30,0.047s,PASSED
+delay(2),Firefox 66.0,,2019-05-21 17:30:30,2019-05-21 17:30:32,2.007s,PASSED
+"click(findTestObject(""Theme_oR/Page_Ontario Cannabis Store  Ontari/button_Hide bar""))",Firefox 66.0,,2019-05-21 17:30:32,2019-05-21 17:30:32,0.252s,PASSED
+"setViewPortSize(360, 1000)",Firefox 66.0,,2019-05-21 17:30:32,2019-05-21 17:30:32,0.060s,PASSED
+"click(findTestObject(""OCS-MOBILE /Cart flyout/Checkbox_I confirm that""))",Firefox 66.0,,2019-05-21 17:30:32,2019-05-21 17:30:33,0.271s,PASSED
+"click(findTestObject(""OCS-MOBILE /Cart flyout/Checkbox_Accept the Terms Condition""))",Firefox 66.0,,2019-05-21 17:30:33,2019-05-21 17:30:33,0.244s,PASSED
+delay(1),Firefox 66.0,,2019-05-21 17:30:33,2019-05-21 17:30:34,1.007s,PASSED
+"click(findTestObject(""OCS-MOBILE /Cart flyout/Checkout - Button""))",Firefox 66.0,,2019-05-21 17:30:34,2019-05-21 17:30:41,6.973s,PASSED
+delay(1),Firefox 66.0,,2019-05-21 17:30:41,2019-05-21 17:30:42,1.008s,PASSED
+"click(findTestObject(""OCS-MOBILE /Customer info page/Chevron_OrderSummary""))",Firefox 66.0,,2019-05-21 17:30:42,2019-05-21 17:30:42,0.262s,PASSED
+delay(2),Firefox 66.0,,2019-05-21 17:30:42,2019-05-21 17:30:44,2.008s,PASSED
+"scrollToElement(findTestObject(""OCS-MOBILE /Customer info page/input_Email""), 0)",Firefox 66.0,,2019-05-21 17:30:44,2019-05-21 17:30:44,0.061s,PASSED
+"setText(findTestObject(""OCS-MOBILE /Customer info page/input_Email""), ""suman.kompelly@diffagency.com"")",Firefox 66.0,,2019-05-21 17:30:44,2019-05-21 17:30:44,0.104s,PASSED
+"setText(findTestObject(""OCS-MOBILE /Customer info page/input_First name""), ""suman"")",Firefox 66.0,,2019-05-21 17:30:44,2019-05-21 17:30:44,0.065s,PASSED
+"setText(findTestObject(""OCS-MOBILE /Customer info page/input_Last name""), ""kompelly"")",Firefox 66.0,,2019-05-21 17:30:44,2019-05-21 17:30:44,0.072s,PASSED
+"setText(findTestObject(""OCS-MOBILE /Customer info page/input_Address""), ""300 saint alxendre"")",Firefox 66.0,,2019-05-21 17:30:44,2019-05-21 17:30:45,0.084s,PASSED
+"setText(findTestObject(""OCS-MOBILE /Customer info page/input_Apartment suite etc. (op""), ""199"")",Firefox 66.0,,2019-05-21 17:30:45,2019-05-21 17:30:45,0.044s,PASSED
+"setText(findTestObject(""OCS-MOBILE /Customer info page/input_City""), ""montreal"")",Firefox 66.0,,2019-05-21 17:30:45,2019-05-21 17:30:45,0.093s,PASSED
+"setText(findTestObject(""OCS-MOBILE /Customer info page/input_Postal code""), ""n0R1K0"")",Firefox 66.0,,2019-05-21 17:30:45,2019-05-21 17:30:45,0.050s,PASSED
+"setText(findTestObject(""OCS-MOBILE /Customer info page/input_Phone""), ""(514) 449-3882"")",Firefox 66.0,,2019-05-21 17:30:45,2019-05-21 17:30:45,0.105s,PASSED
+delay(1),Firefox 66.0,,2019-05-21 17:30:45,2019-05-21 17:30:46,1.009s,PASSED
+"setViewPortSize(1000, 1000)",Firefox 66.0,,2019-05-21 17:30:46,2019-05-21 17:30:46,0.061s,PASSED
+"click(findTestObject(""Theme_oR/Page_Ontario Cannabis Store  Ontari/button_Hide bar""))",Firefox 66.0,,2019-05-21 17:30:46,2019-05-21 17:30:46,0.270s,PASSED
+"setViewPortSize(360, 1000)",Firefox 66.0,,2019-05-21 17:30:46,2019-05-21 17:30:46,0.047s,PASSED
+"click(findTestObject(""OCS-MOBILE /Customer info page/Return to Cart - Link""))",Firefox 66.0,,2019-05-21 17:30:46,2019-05-21 17:30:49,3.287s,PASSED
+delay(2),Firefox 66.0,,2019-05-21 17:30:49,2019-05-21 17:30:51,2.009s,PASSED
+"click(findTestObject(""OCS-MOBILE /Cart page/cart page-Checkbox_I confirm that""))",Firefox 66.0,,2019-05-21 17:30:51,2019-05-21 17:30:52,0.246s,PASSED
+"click(findTestObject(""OCS-MOBILE /Cart page/cart page - Checkbox_Accept the Terms Condition""))",Firefox 66.0,,2019-05-21 17:30:52,2019-05-21 17:30:52,0.247s,PASSED
+delay(1),Firefox 66.0,,2019-05-21 17:30:52,2019-05-21 17:30:53,1.004s,PASSED
+"setViewPortSize(1000, 1000, CONTINUE_ON_FAILURE)",Firefox 66.0,,2019-05-21 17:30:53,2019-05-21 17:30:53,0.058s,PASSED
+"click(findTestObject(""Theme_oR/Page_Ontario Cannabis Store  Ontari/button_Hide bar""), CONTINUE_ON_FAILURE)",Firefox 66.0,,2019-05-21 17:30:53,2019-05-21 17:30:53,0.269s,PASSED
+"setViewPortSize(360, 1000, CONTINUE_ON_FAILURE)",Firefox 66.0,,2019-05-21 17:30:53,2019-05-21 17:30:53,0.049s,PASSED
+delay(1),Firefox 66.0,,2019-05-21 17:30:53,2019-05-21 17:30:54,1.007s,PASSED
+"click(findTestObject(""OCS-MOBILE /Cart page/Cart page -checkout button""))",Firefox 66.0,,2019-05-21 17:30:54,2019-05-21 17:31:01,7.077s,PASSED
+"setText(findTestObject(""OCS-MOBILE /Customer info page/input_Email""), ""suman.kompelly@diffagency.com"")",Firefox 66.0,,2019-05-21 17:31:01,2019-05-21 17:31:02,0.251s,PASSED
+"setText(findTestObject(""OCS-MOBILE /Customer info page/input_First name""), ""suman"")",Firefox 66.0,,2019-05-21 17:31:02,2019-05-21 17:31:02,0.063s,PASSED
+"setText(findTestObject(""OCS-MOBILE /Customer info page/input_Last name""), ""kompelly"")",Firefox 66.0,,2019-05-21 17:31:02,2019-05-21 17:31:02,0.067s,PASSED
+"setText(findTestObject(""OCS-MOBILE /Customer info page/input_Address""), ""300 saint alxendre"")",Firefox 66.0,,2019-05-21 17:31:02,2019-05-21 17:31:02,0.082s,PASSED
+"setText(findTestObject(""OCS-MOBILE /Customer info page/input_Apartment suite etc. (op""), ""199"")",Firefox 66.0,,2019-05-21 17:31:02,2019-05-21 17:31:02,0.046s,PASSED
+"setText(findTestObject(""OCS-MOBILE /Customer info page/input_City""), ""montreal"")",Firefox 66.0,,2019-05-21 17:31:02,2019-05-21 17:31:02,0.063s,PASSED
+"setText(findTestObject(""OCS-MOBILE /Customer info page/input_Postal code""), ""n0R1K0"")",Firefox 66.0,,2019-05-21 17:31:02,2019-05-21 17:31:02,0.061s,PASSED
+"setText(findTestObject(""OCS-MOBILE /Customer info page/input_Phone""), ""(514) 449-3882"")",Firefox 66.0,,2019-05-21 17:31:02,2019-05-21 17:31:02,0.110s,PASSED
+delay(1),Firefox 66.0,,2019-05-21 17:31:02,2019-05-21 17:31:03,1.006s,PASSED
+"setViewPortSize(1000, 1000)",Firefox 66.0,,2019-05-21 17:31:03,2019-05-21 17:31:03,0.062s,PASSED
+delay(1),Firefox 66.0,,2019-05-21 17:31:03,2019-05-21 17:31:04,1.005s,PASSED
+"click(findTestObject(""Theme_oR/Page_Ontario Cannabis Store  Ontari/button_Hide bar""))",Firefox 66.0,,2019-05-21 17:31:04,2019-05-21 17:31:05,0.256s,PASSED
+"setViewPortSize(360, 1000)",Firefox 66.0,,2019-05-21 17:31:05,2019-05-21 17:31:05,0.041s,PASSED
+"click(findTestObject(""OCS-MOBILE /Customer info page/Continue to shipping method - Button""))",Firefox 66.0,,2019-05-21 17:31:05,2019-05-21 17:31:07,2.837s,PASSED
+closeBrowser(),Firefox 66.0,,2019-05-21 17:31:07,2019-05-21 17:31:08,0.591s,PASSED
+,,,,,,
+Test Cases/OCS - MOBILE/OCS- CRITICAL PATH/Checkout - Shipping,Firefox 66.0,,2019-05-21 17:31:08,2019-05-21 17:31:18,9.511s,FAILED
+"openBrowser("""")",Firefox 66.0,,2019-05-21 17:31:08,2019-05-21 17:31:10,1.910s,PASSED
+"navigateToUrl(""https://ocs.ca/?fts=0&preview_theme_id=53373863756"")",Firefox 66.0,,2019-05-21 17:31:10,2019-05-21 17:31:13,2.499s,PASSED
+delay(4),Firefox 66.0,,2019-05-21 17:31:13,2019-05-21 17:31:17,4.011s,PASSED
+"setViewPortSize(360, 1000)",Firefox 66.0,,2019-05-21 17:31:17,2019-05-21 17:31:17,0.065s,PASSED
+"selectOptionByValue(findTestObject(""OCS-MOBILE /Age gate and burger menu/Date""), ""17"", true)",Firefox 66.0,,2019-05-21 17:31:17,2019-05-21 17:31:17,0.814s,PASSED
+"selectOptionByValue(findTestObject(""OCS-MOBILE/Age gate and burger menu/month""), ""7"", true)",Firefox 66.0,,2019-05-21 17:31:17,2019-05-21 17:31:18,0.079s,FAILED
+,,,,,,
+Test Cases/OCS - MOBILE/OCS- CRITICAL PATH/Checkout- Payment,Firefox 66.0,,2019-05-21 17:31:18,2019-05-21 17:32:39,1m - 21.785s,PASSED
+"openBrowser("""")",Firefox 66.0,,2019-05-21 17:31:18,2019-05-21 17:31:20,2.532s,PASSED
+"navigateToUrl(""https://ocs.ca/?fts=0&preview_theme_id=53373863756"")",Firefox 66.0,,2019-05-21 17:31:20,2019-05-21 17:31:26,5.174s,PASSED
+delay(4),Firefox 66.0,,2019-05-21 17:31:26,2019-05-21 17:31:30,4.002s,PASSED
+"setViewPortSize(360, 1000)",Firefox 66.0,,2019-05-21 17:31:30,2019-05-21 17:31:30,0.095s,PASSED
+"selectOptionByValue(findTestObject(""OCS-MOBILE /Age gate and burger menu/Date""), ""17"", true)",Firefox 66.0,,2019-05-21 17:31:30,2019-05-21 17:31:30,0.755s,PASSED
+"selectOptionByValue(findTestObject(""OCS-MOBILE /Age gate and burger menu/month""), ""7"", true)",Firefox 66.0,,2019-05-21 17:31:30,2019-05-21 17:31:31,0.428s,PASSED
+"selectOptionByValue(findTestObject(""OCS-MOBILE /Age gate and burger menu/Year Dropdown""), ""1949"", true)",Firefox 66.0,,2019-05-21 17:31:31,2019-05-21 17:31:33,1.728s,PASSED
+"click(findTestObject(""OCS-MOBILE /Age gate and burger menu/button_Verify""))",Firefox 66.0,,2019-05-21 17:31:33,2019-05-21 17:31:33,0.242s,PASSED
+"click(findTestObject(""OCS-MOBILE /Age gate and burger menu/Checkbox_CONFIRM AND ACKNOWLEDGE""))",Firefox 66.0,,2019-05-21 17:31:33,2019-05-21 17:31:33,0.241s,PASSED
+"click(findTestObject(""OCS-MOBILE /Age gate and burger menu/button_CONFIRM""))",Firefox 66.0,,2019-05-21 17:31:33,2019-05-21 17:31:33,0.236s,PASSED
+"click(findTestObject(""OCS-MOBILE /Age gate and burger menu/button_Start Browsing""))",Firefox 66.0,,2019-05-21 17:31:33,2019-05-21 17:31:33,0.224s,PASSED
+delay(2),Firefox 66.0,,2019-05-21 17:31:33,2019-05-21 17:31:35,2.003s,PASSED
+refresh(),Firefox 66.0,,2019-05-21 17:31:35,2019-05-21 17:31:39,3.285s,PASSED
+"click(findTestObject(""OCS-MOBILE /Age gate and burger menu/Burger menu - English""))",Firefox 66.0,,2019-05-21 17:31:39,2019-05-21 17:31:39,0.263s,PASSED
+delay(2),Firefox 66.0,,2019-05-21 17:31:39,2019-05-21 17:31:41,2.001s,PASSED
+"click(findTestObject(""OCS-MOBILE /Age gate and burger menu/Chevron_Cannabis""))",Firefox 66.0,,2019-05-21 17:31:41,2019-05-21 17:31:41,0.286s,PASSED
+delay(2),Firefox 66.0,,2019-05-21 17:31:41,2019-05-21 17:31:43,2.008s,PASSED
+"click(findTestObject(""OCS-MOBILE /Age gate and burger menu/Dried Flower_Plus icon""))",Firefox 66.0,,2019-05-21 17:31:43,2019-05-21 17:31:44,0.244s,PASSED
+delay(2),Firefox 66.0,,2019-05-21 17:31:44,2019-05-21 17:31:46,2.004s,PASSED
+"click(findTestObject(""OCS-MOBILE /Age gate and burger menu/Indica Dominant_Menu item""))",Firefox 66.0,,2019-05-21 17:31:46,2019-05-21 17:31:48,2.379s,PASSED
+delay(2),Firefox 66.0,,2019-05-21 17:31:48,2019-05-21 17:31:50,2.009s,PASSED
+"click(findTestObject(""OCS-MOBILE /Collection page/Product image - 1st one""))",Firefox 66.0,,2019-05-21 17:31:50,2019-05-21 17:31:55,4.636s,PASSED
+delay(1),Firefox 66.0,,2019-05-21 17:31:55,2019-05-21 17:31:56,1.005s,PASSED
+delay(3),Firefox 66.0,,2019-05-21 17:31:56,2019-05-21 17:31:59,3.005s,PASSED
+"scrollToElement(findTestObject(""OCS-MOBILE /Product page/Product image""), 1)",Firefox 66.0,,2019-05-21 17:31:59,2019-05-21 17:31:59,0.043s,PASSED
+"click(findTestObject(""OCS-MOBILE /Product page/Swatch_3.5g""))",Firefox 66.0,,2019-05-21 17:31:59,2019-05-21 17:31:59,0.282s,PASSED
+delay(2),Firefox 66.0,,2019-05-21 17:31:59,2019-05-21 17:32:01,2.004s,PASSED
+"click(findTestObject(""OCS-MOBILE /Product page/Add to Bag-button""))",Firefox 66.0,,2019-05-21 17:32:01,2019-05-21 17:32:01,0.257s,PASSED
+"setViewPortSize(1000, 1000, CONTINUE_ON_FAILURE)",Firefox 66.0,,2019-05-21 17:32:01,2019-05-21 17:32:01,0.051s,PASSED
+delay(2),Firefox 66.0,,2019-05-21 17:32:01,2019-05-21 17:32:03,2.003s,PASSED
+"click(findTestObject(""Theme_oR/Page_Ontario Cannabis Store  Ontari/button_Hide bar""), CONTINUE_ON_FAILURE)",Firefox 66.0,,2019-05-21 17:32:03,2019-05-21 17:32:03,0.252s,PASSED
+"setViewPortSize(360, 1000, CONTINUE_ON_FAILURE)",Firefox 66.0,,2019-05-21 17:32:03,2019-05-21 17:32:04,0.063s,PASSED
+"click(findTestObject(""OCS-MOBILE /Cart flyout/Checkbox_I confirm that""))",Firefox 66.0,,2019-05-21 17:32:04,2019-05-21 17:32:04,0.260s,PASSED
+"click(findTestObject(""OCS-MOBILE /Cart flyout/Checkbox_Accept the Terms Condition""))",Firefox 66.0,,2019-05-21 17:32:04,2019-05-21 17:32:04,0.252s,PASSED
+delay(1),Firefox 66.0,,2019-05-21 17:32:04,2019-05-21 17:32:05,1.008s,PASSED
+"click(findTestObject(""OCS-MOBILE /Cart flyout/Checkout - Button""))",Firefox 66.0,,2019-05-21 17:32:05,2019-05-21 17:32:07,2.219s,PASSED
+delay(1),Firefox 66.0,,2019-05-21 17:32:07,2019-05-21 17:32:08,1.009s,PASSED
+"click(findTestObject(""OCS-MOBILE/Customer info page/Chevron_OrderSummary""))",Firefox 66.0,,2019-05-21 17:32:08,2019-05-21 17:32:08,0.001s,NOT_RUN
+delay(2),Firefox 66.0,,2019-05-21 17:32:08,2019-05-21 17:32:10,2.019s,PASSED
+"scrollToElement(findTestObject(""OCS-MOBILE /Customer info page/input_Email""), 0)",Firefox 66.0,,2019-05-21 17:32:10,2019-05-21 17:32:10,0.036s,PASSED
+"setText(findTestObject(""OCS-MOBILE /Customer info page/input_Email""), ""suman.kompelly@diffagency.com"")",Firefox 66.0,,2019-05-21 17:32:10,2019-05-21 17:32:10,0.116s,PASSED
+"setText(findTestObject(""OCS-MOBILE /Customer info page/input_First name""), ""suman"")",Firefox 66.0,,2019-05-21 17:32:10,2019-05-21 17:32:11,0.080s,PASSED
+"setText(findTestObject(""OCS-MOBILE /Customer info page/input_Last name""), ""kompelly"")",Firefox 66.0,,2019-05-21 17:32:11,2019-05-21 17:32:11,0.060s,PASSED
+"setText(findTestObject(""OCS-MOBILE /Customer info page/input_Address""), ""300 saint alxendre"")",Firefox 66.0,,2019-05-21 17:32:11,2019-05-21 17:32:11,0.080s,PASSED
+"setText(findTestObject(""OCS-MOBILE /Customer info page/input_Apartment suite etc. (op""), ""199"")",Firefox 66.0,,2019-05-21 17:32:11,2019-05-21 17:32:11,0.047s,PASSED
+"setText(findTestObject(""OCS-MOBILE /Customer info page/input_City""), ""montreal"")",Firefox 66.0,,2019-05-21 17:32:11,2019-05-21 17:32:11,0.096s,PASSED
+"setText(findTestObject(""OCS-MOBILE /Customer info page/input_Postal code""), ""n0R1K0"")",Firefox 66.0,,2019-05-21 17:32:11,2019-05-21 17:32:11,0.056s,PASSED
+"setText(findTestObject(""OCS-MOBILE /Customer info page/input_Phone""), ""(514) 449-3882"")",Firefox 66.0,,2019-05-21 17:32:11,2019-05-21 17:32:11,0.103s,PASSED
+delay(1),Firefox 66.0,,2019-05-21 17:32:11,2019-05-21 17:32:12,1.009s,PASSED
+"setViewPortSize(1000, 1000)",Firefox 66.0,,2019-05-21 17:32:12,2019-05-21 17:32:12,0.001s,NOT_RUN
+"click(findTestObject(""Theme_oR/Page_Ontario Cannabis Store  Ontari/button_Hide bar""))",Firefox 66.0,,2019-05-21 17:32:12,2019-05-21 17:32:12,0.000s,NOT_RUN
+"setViewPortSize(360, 1000)",Firefox 66.0,,2019-05-21 17:32:12,2019-05-21 17:32:12,0.000s,NOT_RUN
+"click(findTestObject(""OCS-MOBILE/Customer info page/Return to Cart - Link""))",Firefox 66.0,,2019-05-21 17:32:12,2019-05-21 17:32:12,0.001s,NOT_RUN
+delay(2),Firefox 66.0,,2019-05-21 17:32:12,2019-05-21 17:32:12,0.000s,NOT_RUN
+"click(findTestObject(""OCS-MOBILE/Cart page/Cart page - Checkbox_I confirm that""))",Firefox 66.0,,2019-05-21 17:32:12,2019-05-21 17:32:12,0.001s,NOT_RUN
+"click(findTestObject(""OCS-MOBILE/Cart page/Cart page- Checkbox_Accept the Terms Condition""))",Firefox 66.0,,2019-05-21 17:32:12,2019-05-21 17:32:12,0.000s,NOT_RUN
+delay(1),Firefox 66.0,,2019-05-21 17:32:12,2019-05-21 17:32:12,0.000s,NOT_RUN
+"setViewPortSize(1000, 1000, CONTINUE_ON_FAILURE)",Firefox 66.0,,2019-05-21 17:32:12,2019-05-21 17:32:12,0.000s,NOT_RUN
+"click(findTestObject(""Theme_oR/Page_Ontario Cannabis Store  Ontari/button_Hide bar""), CONTINUE_ON_FAILURE)",Firefox 66.0,,2019-05-21 17:32:12,2019-05-21 17:32:12,0.000s,NOT_RUN
+"setViewPortSize(360, 1000, CONTINUE_ON_FAILURE)",Firefox 66.0,,2019-05-21 17:32:12,2019-05-21 17:32:12,0.001s,NOT_RUN
+delay(1),Firefox 66.0,,2019-05-21 17:32:12,2019-05-21 17:32:12,0.000s,NOT_RUN
+"click(findTestObject(""OCS-MOBILE/Cart page/cart page- Checkout - Button""))",Firefox 66.0,,2019-05-21 17:32:12,2019-05-21 17:32:12,0.000s,NOT_RUN
+"setText(findTestObject(""OCS-MOBILE/Customer info page/input_Email""), ""suman.kompelly@diffagency.com"")",Firefox 66.0,,2019-05-21 17:32:12,2019-05-21 17:32:12,0.001s,NOT_RUN
+"setText(findTestObject(""OCS-MOBILE/Customer info page/input_First name""), ""suman"")",Firefox 66.0,,2019-05-21 17:32:12,2019-05-21 17:32:12,0.000s,NOT_RUN
+"setText(findTestObject(""OCS-MOBILE/Customer info page/input_Last name""), ""kompelly"")",Firefox 66.0,,2019-05-21 17:32:12,2019-05-21 17:32:12,0.000s,NOT_RUN
+"setText(findTestObject(""OCS-MOBILE/Customer info page/input_Address""), ""300 saint alxendre"")",Firefox 66.0,,2019-05-21 17:32:12,2019-05-21 17:32:12,0.001s,NOT_RUN
+"setText(findTestObject(""OCS-MOBILE/Customer info page/input_Apartment suite etc. (op""), ""199"")",Firefox 66.0,,2019-05-21 17:32:12,2019-05-21 17:32:12,0.000s,NOT_RUN
+"setText(findTestObject(""OCS-MOBILE/Customer info page/input_City""), ""montreal"")",Firefox 66.0,,2019-05-21 17:32:12,2019-05-21 17:32:12,0.000s,NOT_RUN
+"setText(findTestObject(""OCS-MOBILE/Customer info page/input_Postal code""), ""n0R1K0"")",Firefox 66.0,,2019-05-21 17:32:12,2019-05-21 17:32:12,0.000s,NOT_RUN
+"setText(findTestObject(""OCS-MOBILE/Customer info page/input_Phone""), ""(514) 449-3882"")",Firefox 66.0,,2019-05-21 17:32:12,2019-05-21 17:32:12,0.001s,NOT_RUN
+delay(1),Firefox 66.0,,2019-05-21 17:32:12,2019-05-21 17:32:12,0.000s,NOT_RUN
+"setViewPortSize(1000, 1000)",Firefox 66.0,,2019-05-21 17:32:12,2019-05-21 17:32:12,0.038s,PASSED
+delay(1),Firefox 66.0,,2019-05-21 17:32:12,2019-05-21 17:32:13,1.010s,PASSED
+"click(findTestObject(""Theme_oR/Page_Ontario Cannabis Store  Ontari/button_Hide bar""), CONTINUE_ON_FAILURE)",Firefox 66.0,,2019-05-21 17:32:13,2019-05-21 17:32:13,0.245s,PASSED
+"setViewPortSize(360, 1000)",Firefox 66.0,,2019-05-21 17:32:13,2019-05-21 17:32:13,0.043s,PASSED
+"click(findTestObject(""OCS-MOBILE /Customer info page/Continue to shipping method - Button""))",Firefox 66.0,,2019-05-21 17:32:13,2019-05-21 17:32:15,2.031s,PASSED
+delay(1),Firefox 66.0,,2019-05-21 17:32:15,2019-05-21 17:32:16,1.010s,PASSED
+"click(findTestObject(""OCS-MOBILE/Customer info page/Chevron_OrderSummary""))",Firefox 66.0,,2019-05-21 17:32:16,2019-05-21 17:32:16,0.000s,NOT_RUN
+delay(1),Firefox 66.0,,2019-05-21 17:32:16,2019-05-21 17:32:16,0.000s,NOT_RUN
+"click(findTestObject(""OCS-MOBILE/Payment -page/Change link span 1""))",Firefox 66.0,,2019-05-21 17:32:16,2019-05-21 17:32:16,0.001s,NOT_RUN
+delay(1),Firefox 66.0,,2019-05-21 17:32:16,2019-05-21 17:32:16,0.000s,NOT_RUN
+delay(1),Firefox 66.0,,2019-05-21 17:32:16,2019-05-21 17:32:16,0.000s,NOT_RUN
+"setViewPortSize(1000, 1000, CONTINUE_ON_FAILURE)",Firefox 66.0,,2019-05-21 17:32:16,2019-05-21 17:32:16,0.000s,NOT_RUN
+delay(1),Firefox 66.0,,2019-05-21 17:32:16,2019-05-21 17:32:16,0.001s,NOT_RUN
+"click(findTestObject(""Theme_oR/Page_Ontario Cannabis Store  Ontari/button_Hide bar""), CONTINUE_ON_FAILURE)",Firefox 66.0,,2019-05-21 17:32:16,2019-05-21 17:32:16,0.000s,NOT_RUN
+"setViewPortSize(360, 1000, CONTINUE_ON_FAILURE)",Firefox 66.0,,2019-05-21 17:32:16,2019-05-21 17:32:16,0.000s,NOT_RUN
+"click(findTestObject(""OCS-MOBILE/Customer info page/Continue to shipping method - Button""))",Firefox 66.0,,2019-05-21 17:32:16,2019-05-21 17:32:16,0.000s,NOT_RUN
+delay(1),Firefox 66.0,,2019-05-21 17:32:16,2019-05-21 17:32:16,0.001s,NOT_RUN
+"click(findTestObject(""OCS-MOBILE/Payment -page/Change link 2""))",Firefox 66.0,,2019-05-21 17:32:16,2019-05-21 17:32:16,0.000s,NOT_RUN
+delay(1),Firefox 66.0,,2019-05-21 17:32:16,2019-05-21 17:32:16,0.000s,NOT_RUN
+delay(1),Firefox 66.0,,2019-05-21 17:32:16,2019-05-21 17:32:16,0.001s,NOT_RUN
+"setViewPortSize(1000, 1000, CONTINUE_ON_FAILURE)",Firefox 66.0,,2019-05-21 17:32:16,2019-05-21 17:32:16,0.000s,NOT_RUN
+delay(1),Firefox 66.0,,2019-05-21 17:32:16,2019-05-21 17:32:16,0.001s,NOT_RUN
+"click(findTestObject(""Theme_oR/Page_Ontario Cannabis Store  Ontari/button_Hide bar""), CONTINUE_ON_FAILURE)",Firefox 66.0,,2019-05-21 17:32:16,2019-05-21 17:32:16,0.000s,NOT_RUN
+"setViewPortSize(360, 1000, CONTINUE_ON_FAILURE)",Firefox 66.0,,2019-05-21 17:32:16,2019-05-21 17:32:16,0.001s,NOT_RUN
+"click(findTestObject(""OCS-MOBILE/Customer info page/Continue to shipping method - Button""), CONTINUE_ON_FAILURE)",Firefox 66.0,,2019-05-21 17:32:16,2019-05-21 17:32:16,0.000s,NOT_RUN
+delay(1),Firefox 66.0,,2019-05-21 17:32:16,2019-05-21 17:32:16,0.000s,NOT_RUN
+"click(findTestObject(""OCS-MOBILE/Payment -page/Return to customer info""))",Firefox 66.0,,2019-05-21 17:32:16,2019-05-21 17:32:16,0.001s,NOT_RUN
+delay(1),Firefox 66.0,,2019-05-21 17:32:16,2019-05-21 17:32:16,0.000s,NOT_RUN
+delay(1),Firefox 66.0,,2019-05-21 17:32:16,2019-05-21 17:32:16,0.000s,NOT_RUN
+"setViewPortSize(1000, 1000, CONTINUE_ON_FAILURE)",Firefox 66.0,,2019-05-21 17:32:16,2019-05-21 17:32:16,0.001s,NOT_RUN
+"delay(1, CONTINUE_ON_FAILURE)",Firefox 66.0,,2019-05-21 17:32:16,2019-05-21 17:32:16,0.000s,NOT_RUN
+"click(findTestObject(""Theme_oR/Page_Ontario Cannabis Store  Ontari/button_Hide bar""), CONTINUE_ON_FAILURE)",Firefox 66.0,,2019-05-21 17:32:16,2019-05-21 17:32:16,0.000s,NOT_RUN
+"setViewPortSize(360, 1000, CONTINUE_ON_FAILURE)",Firefox 66.0,,2019-05-21 17:32:16,2019-05-21 17:32:16,0.000s,NOT_RUN
+"click(findTestObject(""OCS-MOBILE/Customer info page/Continue to shipping method - Button""))",Firefox 66.0,,2019-05-21 17:32:16,2019-05-21 17:32:16,0.001s,NOT_RUN
+delay(1),Firefox 66.0,,2019-05-21 17:32:16,2019-05-21 17:32:17,1.007s,PASSED
+"click(findTestObject(""OCS-MOBILE /Shipping page/Continue to payment method - Button""))",Firefox 66.0,,2019-05-21 17:32:17,2019-05-21 17:32:20,2.218s,PASSED
+delay(1),Firefox 66.0,,2019-05-21 17:32:20,2019-05-21 17:32:21,1.008s,PASSED
+"click(findTestObject(""OCS-MOBILE /Payment -page/Change link span 1""))",Firefox 66.0,,2019-05-21 17:32:21,2019-05-21 17:32:22,1.601s,PASSED
+delay(1),Firefox 66.0,,2019-05-21 17:32:22,2019-05-21 17:32:23,1.006s,PASSED
+delay(1),Firefox 66.0,,2019-05-21 17:32:23,2019-05-21 17:32:24,1.001s,PASSED
+"setViewPortSize(1000, 1000, CONTINUE_ON_FAILURE)",Firefox 66.0,,2019-05-21 17:32:24,2019-05-21 17:32:24,0.056s,PASSED
+delay(1),Firefox 66.0,,2019-05-21 17:32:24,2019-05-21 17:32:25,1.009s,PASSED
+"click(findTestObject(""Theme_oR/Page_Ontario Cannabis Store  Ontari/button_Hide bar""), CONTINUE_ON_FAILURE)",Firefox 66.0,,2019-05-21 17:32:25,2019-05-21 17:32:26,0.250s,PASSED
+"setViewPortSize(360, 1000, CONTINUE_ON_FAILURE)",Firefox 66.0,,2019-05-21 17:32:26,2019-05-21 17:32:26,0.060s,PASSED
+"click(findTestObject(""OCS-MOBILE /Shipping page/Continue to payment method - Button""))",Firefox 66.0,,2019-05-21 17:32:26,2019-05-21 17:32:28,2.504s,PASSED
+delay(1),Firefox 66.0,,2019-05-21 17:32:28,2019-05-21 17:32:28,0.001s,NOT_RUN
+"setViewPortSize(1000, 1000, CONTINUE_ON_FAILURE)",Firefox 66.0,,2019-05-21 17:32:28,2019-05-21 17:32:28,0.060s,PASSED
+delay(1),Firefox 66.0,,2019-05-21 17:32:28,2019-05-21 17:32:29,1.005s,PASSED
+"click(findTestObject(""Theme_oR/Page_Ontario Cannabis Store  Ontari/button_Hide bar""), CONTINUE_ON_FAILURE)",Firefox 66.0,,2019-05-21 17:32:29,2019-05-21 17:32:29,0.252s,PASSED
+"setViewPortSize(360, 1000, CONTINUE_ON_FAILURE)",Firefox 66.0,,2019-05-21 17:32:29,2019-05-21 17:32:29,0.061s,PASSED
+"click(findTestObject(""OCS-MOBILE /Shipping page/Continue to payment method - Button""))",Firefox 66.0,,2019-05-21 17:32:29,2019-05-21 17:32:31,1.746s,PASSED
+"click(findTestObject(""OCS-MOBILE /Payment -page/Change link span 2""))",Firefox 66.0,,2019-05-21 17:32:31,2019-05-21 17:32:33,1.726s,PASSED
+delay(1),Firefox 66.0,,2019-05-21 17:32:33,2019-05-21 17:32:34,1.008s,PASSED
+delay(1),Firefox 66.0,,2019-05-21 17:32:34,2019-05-21 17:32:35,1.006s,PASSED
+"setViewPortSize(1000, 1000, CONTINUE_ON_FAILURE)",Firefox 66.0,,2019-05-21 17:32:35,2019-05-21 17:32:35,0.063s,PASSED
+delay(1),Firefox 66.0,,2019-05-21 17:32:35,2019-05-21 17:32:36,1.007s,PASSED
+"click(findTestObject(""Theme_oR/Page_Ontario Cannabis Store  Ontari/button_Hide bar""), CONTINUE_ON_FAILURE)",Firefox 66.0,,2019-05-21 17:32:36,2019-05-21 17:32:36,0.340s,PASSED
+"setViewPortSize(360, 1000, CONTINUE_ON_FAILURE)",Firefox 66.0,,2019-05-21 17:32:36,2019-05-21 17:32:36,0.054s,PASSED
+delay(1),Firefox 66.0,,2019-05-21 17:32:36,2019-05-21 17:32:37,1.007s,PASSED
+"click(findTestObject(""OCS-MOBILE /Shipping page/Continue to payment method - Button""))",Firefox 66.0,,2019-05-21 17:32:37,2019-05-21 17:32:39,1.848s,PASSED

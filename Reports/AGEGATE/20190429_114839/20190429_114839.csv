@@ -1,0 +1,37 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+AGEGATE,Chrome 74.0.3729.108,,2019-04-29 11:48:41,2019-04-29 11:53:56,5m - 15.580s,FAILED
+,,,,,,
+Test Cases/OCS-AGE GATE/AG- Under Age,Chrome 74.0.3729.108,,2019-04-29 11:48:41,2019-04-29 11:52:15,3m - 34.351s,FAILED
+"openBrowser("""")",Chrome 74.0.3729.108,,2019-04-29 11:48:41,2019-04-29 11:48:48,6.846s,PASSED
+"navigateToUrl(""https://ocs.ca/?fts=0&preview_theme_id=53370029900"")",Chrome 74.0.3729.108,,2019-04-29 11:48:48,2019-04-29 11:48:56,8.083s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/OCS_OR/UNDER AGE_OR/Page_Ontario Cannabis Store  Ontari/select_Select01020304050607080""), ""2"", true)",Chrome 74.0.3729.108,,2019-04-29 11:48:56,2019-04-29 11:49:00,4.092s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/OCS_OR/UNDER AGE_OR/Page_Ontario Cannabis Store  Ontari/select_SelectJanuary - 01Febru""), ""4"", true)",Chrome 74.0.3729.108,,2019-04-29 11:49:00,2019-04-29 11:49:03,2.990s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/OCS_OR/UNDER AGE_OR/Page_Ontario Cannabis Store  Ontari/select_Select20182017201620152""), ""2017"", true)",Chrome 74.0.3729.108,,2019-04-29 11:49:03,2019-04-29 11:49:16,12.635s,PASSED
+"click(findTestObject(""Object Repository/OCS_OR/UNDER AGE_OR/Page_Ontario Cannabis Store  Ontari/button_Verify""))",Chrome 74.0.3729.108,,2019-04-29 11:49:16,2019-04-29 11:49:18,1.886s,FAILED
+"click(findTestObject(""Object Repository/OCS_OR/UNDER AGE_OR/Page_Ontario Cannabis Store  Ontari/span_CONFIRM AND ACKNOWLEDGE_c""))",Chrome 74.0.3729.108,,2019-04-29 11:49:18,2019-04-29 11:49:55,37.198s,FAILED
+"click(findTestObject(""Object Repository/OCS_OR/UNDER AGE_OR/Page_Ontario Cannabis Store  Ontari/button_CONFIRM""))",Chrome 74.0.3729.108,,2019-04-29 11:49:55,2019-04-29 11:49:57,1.875s,FAILED
+"click(findTestObject(""Object Repository/OCS_OR/UNDER AGE_OR/Page_Ontario Cannabis Store  Ontari/a_Oops Im actually 19 or older""))",Chrome 74.0.3729.108,,2019-04-29 11:49:57,2019-04-29 11:50:34,36.830s,FAILED
+"selectOptionByValue(findTestObject(""Object Repository/OCS_OR/UNDER AGE_OR/Page_Ontario Cannabis Store  Ontari/select_Select01020304050607080""), ""5"", true)",Chrome 74.0.3729.108,,2019-04-29 11:50:34,2019-04-29 11:50:38,3.815s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/OCS_OR/UNDER AGE_OR/Page_Ontario Cannabis Store  Ontari/select_SelectJanuary - 01Febru""), ""6"", true)",Chrome 74.0.3729.108,,2019-04-29 11:50:38,2019-04-29 11:50:41,3.103s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/OCS_OR/UNDER AGE_OR/Page_Ontario Cannabis Store  Ontari/select_Select20182017201620152""), ""1970"", true)",Chrome 74.0.3729.108,,2019-04-29 11:50:41,2019-04-29 11:50:57,16.275s,PASSED
+"click(findTestObject(""Object Repository/OCS_OR/UNDER AGE_OR/Page_Ontario Cannabis Store  Ontari/button_Verify""))",Chrome 74.0.3729.108,,2019-04-29 11:50:57,2019-04-29 11:50:59,1.582s,FAILED
+"click(findTestObject(""Object Repository/OCS_OR/UNDER AGE_OR/Page_Ontario Cannabis Store  Ontari/span_CONFIRM AND ACKNOWLEDGE_c""))",Chrome 74.0.3729.108,,2019-04-29 11:50:59,2019-04-29 11:51:35,36.829s,FAILED
+"click(findTestObject(""Object Repository/OCS_OR/UNDER AGE_OR/Page_Ontario Cannabis Store  Ontari/button_CONFIRM""))",Chrome 74.0.3729.108,,2019-04-29 11:51:35,2019-04-29 11:51:37,1.604s,FAILED
+"click(findTestObject(""Object Repository/OCS_OR/UNDER AGE_OR/Page_Ontario Cannabis Store  Ontari/button_Start Browsing""))",Chrome 74.0.3729.108,,2019-04-29 11:51:37,2019-04-29 11:52:14,37.008s,FAILED
+closeBrowser(),Chrome 74.0.3729.108,,2019-04-29 11:52:14,2019-04-29 11:52:15,1.393s,FAILED
+,,,,,,
+Test Cases/OCS-AGE GATE/AG - Date correction,Chrome 74.0.3729.108,,2019-04-29 11:52:15,2019-04-29 11:53:56,1m - 40.923s,FAILED
+"openBrowser("""")",Chrome 74.0.3729.108,,2019-04-29 11:52:16,2019-04-29 11:52:22,5.713s,PASSED
+"navigateToUrl(""https://ocs.ca/?fts=0&preview_theme_id=53370029900"")",Chrome 74.0.3729.108,,2019-04-29 11:52:22,2019-04-29 11:52:29,7.210s,PASSED
+maximizeWindow(),Chrome 74.0.3729.108,,2019-04-29 11:52:29,2019-04-29 11:52:31,1.605s,PASSED
+"selectOptionByValue(findTestObject(""OCS_OR/Page_Ontario Cannabis Store  Ontari/select_Select01020304050607080 (1)""), ""2"", true)",Chrome 74.0.3729.108,,2019-04-29 11:52:31,2019-04-29 11:52:34,3.698s,PASSED
+"selectOptionByValue(findTestObject(""OCS_OR/Page_Ontario Cannabis Store  Ontari/select_SelectJanuary - 01Febru (1)""), ""0"", true)",Chrome 74.0.3729.108,,2019-04-29 11:52:34,2019-04-29 11:52:36,1.900s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/OCS_OR/Page_Ontario Cannabis Store  Ontari/select_Select20182017201620152 (1)""), ""1982"", true)",Chrome 74.0.3729.108,,2019-04-29 11:52:36,2019-04-29 11:52:50,14.115s,PASSED
+delay(4),Chrome 74.0.3729.108,,2019-04-29 11:52:50,2019-04-29 11:52:54,4.032s,PASSED
+"click(findTestObject(""OCS_OR/Page_Ontario Cannabis Store  Ontari/button_Verify (1)""))",Chrome 74.0.3729.108,,2019-04-29 11:52:54,2019-04-29 11:52:56,1.943s,FAILED
+"click(findTestObject(""OCS_OR/Page_Ontario Cannabis Store  Ontari/a_Correct Your Date of Birth""))",Chrome 74.0.3729.108,,2019-04-29 11:52:56,2019-04-29 11:53:34,37.389s,FAILED
+"selectOptionByValue(findTestObject(""Object Repository/OCS_OR/Page_Ontario Cannabis Store  Ontari/select_Select01020304050607080 (1)""), ""1"", true)",Chrome 74.0.3729.108,,2019-04-29 11:53:34,2019-04-29 11:53:37,3.904s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/OCS_OR/Page_Ontario Cannabis Store  Ontari/select_SelectJanuary - 01Febru (1)""), ""5"", true)",Chrome 74.0.3729.108,,2019-04-29 11:53:37,2019-04-29 11:53:40,2.764s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/OCS_OR/Page_Ontario Cannabis Store  Ontari/select_Select20182017201620152 (1)""), ""1980"", true)",Chrome 74.0.3729.108,,2019-04-29 11:53:40,2019-04-29 11:53:54,13.479s,PASSED
+"click(findTestObject(""OCS_OR/Page_Ontario Cannabis Store  Ontari/button_Verify (1)""))",Chrome 74.0.3729.108,,2019-04-29 11:53:54,2019-04-29 11:53:55,1.342s,FAILED
+closeBrowser(),Chrome 74.0.3729.108,,2019-04-29 11:53:55,2019-04-29 11:53:56,1.298s,FAILED

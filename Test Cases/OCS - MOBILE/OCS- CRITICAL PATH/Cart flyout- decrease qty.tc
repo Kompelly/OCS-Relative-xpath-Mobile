@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Cart flyout- decrease qty</name>
+   <tag></tag>
+   <comment> flag =&quot; + flag</comment>
+   <testCaseGuid>bc450bf1-ddb6-4290-bfed-eeed1e661e0e</testCaseGuid>
+</TestCaseEntity>

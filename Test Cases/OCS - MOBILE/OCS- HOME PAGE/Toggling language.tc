@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Toggling language</name>
+   <tag></tag>
+   <comment>a = &quot; + a
+flag = &quot; + flag1
+c =&quot; + c
+d =&quot; + d
+ flag = &quot; + flag</comment>
+   <testCaseGuid>4f800c04-f36d-4ee9-a72e-fd658480667a</testCaseGuid>
+</TestCaseEntity>

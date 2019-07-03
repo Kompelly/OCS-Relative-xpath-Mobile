@@ -1,0 +1,702 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="AGEGATE" time="315" tests="0" failures="2" errors="0">
+   <testsuite name="AGEGATE" tests="0" failures="2" errors="0" time="315" timestamp="2019-04-29 11:48:41" hostname="sumankompelly - 10.0.126.233" id="Test Suites/AGEGATE">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/sumankompelly/git/Sample-OCS/Reports/AGEGATE/20190429_114839"/>
+         <property name="logFiles" value="/Users/sumankompelly/git/Sample-OCS/Reports/AGEGATE/20190429_114839/execution0.log"/>
+         <property name="attachments" value="/Users/sumankompelly/git/Sample-OCS/Reports/AGEGATE/20190429_114839/1556552957637.png, /Users/sumankompelly/git/Sample-OCS/Reports/AGEGATE/20190429_114839/1556552994910.png, /Users/sumankompelly/git/Sample-OCS/Reports/AGEGATE/20190429_114839/1556552996626.png, /Users/sumankompelly/git/Sample-OCS/Reports/AGEGATE/20190429_114839/1556553033694.png, /Users/sumankompelly/git/Sample-OCS/Reports/AGEGATE/20190429_114839/1556553058401.png, /Users/sumankompelly/git/Sample-OCS/Reports/AGEGATE/20190429_114839/1556553095196.png, /Users/sumankompelly/git/Sample-OCS/Reports/AGEGATE/20190429_114839/1556553096792.png, /Users/sumankompelly/git/Sample-OCS/Reports/AGEGATE/20190429_114839/1556553133848.png, /Users/sumankompelly/git/Sample-OCS/Reports/AGEGATE/20190429_114839/1556553176002.png, /Users/sumankompelly/git/Sample-OCS/Reports/AGEGATE/20190429_114839/1556553213395.png, /Users/sumankompelly/git/Sample-OCS/Reports/AGEGATE/20190429_114839/1556553234872.png"/>
+         <property name="hostName" value="sumankompelly - 10.0.126.233"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="5.10.1.1"/>
+         <property name="browser" value="Chrome 74.0.3729.108"/>
+         <property name="hostAddress" value="10.0.126.233"/>
+         <property name="sessionId" value="2756c322d245d6dc05915778f1a4fd85c461ad73"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/OCS-AGE GATE/AG- Under Age" classname="Test Cases/OCS-AGE GATE/AG- Under Age" status="FAILED">
+         <failure type="FAILED" message="Test Cases/OCS-AGE GATE/AG- Under Age FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/OCS_OR/UNDER AGE_OR/Page_Ontario Cannabis Store  Ontari/button_Verify' (Root cause: org.openqa.selenium.WebDriverException: element click intercepted: Element &lt;button type=&quot;submit&quot; data-hover=&quot;fade&quot; aria-pressed=&quot;false&quot; class=&quot;btn btn--outline&quot;>...&lt;/button> is not clickable at point (477, 594). Other element would receive the click: &lt;iframe title=&quot;Preview Bar&quot; id=&quot;preview-bar-iframe&quot; src=&quot;https://ocs.ca/preview_bar&quot; sandbox=&quot;allow-same-origin allow-scripts&quot; style=&quot;position: fixed; bottom: 0px; left: 0px; z-index: 2147483647; width: 100%; border: none; box-shadow: rgba(0, 0, 0, 0.2) 0px -1px 3px; overflow: hidden; transform: translateY(0px); transition: transform 300ms ease 0s; height: 60px;&quot;>&lt;/iframe>
+  (Session info: chrome=74.0.3729.108)
+  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 6.2.9200 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 166 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: '207-254-76-73', ip: '207.254.76.73', os.name: 'windows', os.arch: 'x86', os.version: '6.2', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=WIN8, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:1084}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}), userDataDir=C:\Windows\proxy\scoped_dir612_13060}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=74.0.3729.108, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 3c4c783d6a5797dadbb2d39cd1b8154d
+Command duration or timeout: 0 milliseconds)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:32)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at AG- Under Age.run(AG- Under Age:29)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1556552919314.run(TempTestSuite1556552919314.groovy:36)
+"/>
+         <system-out><![CDATA[2019-04-29 11:48:41 - [TEST_CASE][FAILED] - Test Cases/OCS-AGE GATE/AG- Under Age: Test Cases/OCS-AGE GATE/AG- Under Age FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/OCS_OR/UNDER AGE_OR/Page_Ontario Cannabis Store  Ontari/button_Verify' (Root cause: org.openqa.selenium.WebDriverException: element click intercepted: Element <button type="submit" data-hover="fade" aria-pressed="false" class="btn btn--outline">...</button> is not clickable at point (477, 594). Other element would receive the click: <iframe title="Preview Bar" id="preview-bar-iframe" src="https://ocs.ca/preview_bar" sandbox="allow-same-origin allow-scripts" style="position: fixed; bottom: 0px; left: 0px; z-index: 2147483647; width: 100%; border: none; box-shadow: rgba(0, 0, 0, 0.2) 0px -1px 3px; overflow: hidden; transform: translateY(0px); transition: transform 300ms ease 0s; height: 60px;"></iframe>
+  (Session info: chrome=74.0.3729.108)
+  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 6.2.9200 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 166 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: '207-254-76-73', ip: '207.254.76.73', os.name: 'windows', os.arch: 'x86', os.version: '6.2', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=WIN8, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:1084}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}), userDataDir=C:\Windows\proxy\scoped_dir612_13060}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=74.0.3729.108, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 3c4c783d6a5797dadbb2d39cd1b8154d
+Command duration or timeout: 0 milliseconds)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:32)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at AG- Under Age.run(AG- Under Age:29)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1556552919314.run(TempTestSuite1556552919314.groovy:36)
+
+
+2019-04-29 11:48:41 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-04-29 11:48:42 - [MESSAGE][INFO] - Starting 'Remote' driver
+
+2019-04-29 11:48:42 - [MESSAGE][INFO] - Connecting to remote web server 'https://dianatest3:Z3oqw9ysqTeRQJq5wFCp@hub-cloud.browserstack.com/wd/hub' with type 'Selenium'
+
+2019-04-29 11:48:42 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-04-29 11:48:48 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-04-29 11:48:48 - [TEST_STEP][PASSED] - navigateToUrl("https://ocs.ca/?fts=0&preview_theme_id=53370029900"): Navigate to 'https://ocs.ca/?fts=0&preview_theme_id=53370029900' successfully
+
+2019-04-29 11:48:56 - [MESSAGE][PASSED] - Navigate to 'https://ocs.ca/?fts=0&preview_theme_id=53370029900' successfully
+
+2019-04-29 11:48:56 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/OCS_OR/UNDER AGE_OR/Page_Ontario Cannabis Store  Ontari/select_Select01020304050607080"), "2", true): All options with value '2' are selected in object 'Object Repository/OCS_OR/UNDER AGE_OR/Page_Ontario Cannabis Store  Ontari/select_Select01020304050607080'  using regular expression
+
+2019-04-29 11:49:00 - [MESSAGE][PASSED] - All options with value '2' are selected in object 'Object Repository/OCS_OR/UNDER AGE_OR/Page_Ontario Cannabis Store  Ontari/select_Select01020304050607080'  using regular expression
+
+2019-04-29 11:49:00 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/OCS_OR/UNDER AGE_OR/Page_Ontario Cannabis Store  Ontari/select_SelectJanuary - 01Febru"), "4", true): All options with value '4' are selected in object 'Object Repository/OCS_OR/UNDER AGE_OR/Page_Ontario Cannabis Store  Ontari/select_SelectJanuary - 01Febru'  using regular expression
+
+2019-04-29 11:49:03 - [MESSAGE][PASSED] - All options with value '4' are selected in object 'Object Repository/OCS_OR/UNDER AGE_OR/Page_Ontario Cannabis Store  Ontari/select_SelectJanuary - 01Febru'  using regular expression
+
+2019-04-29 11:49:03 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/OCS_OR/UNDER AGE_OR/Page_Ontario Cannabis Store  Ontari/select_Select20182017201620152"), "2017", true): All options with value '2017' are selected in object 'Object Repository/OCS_OR/UNDER AGE_OR/Page_Ontario Cannabis Store  Ontari/select_Select20182017201620152'  using regular expression
+
+2019-04-29 11:49:16 - [MESSAGE][PASSED] - All options with value '2017' are selected in object 'Object Repository/OCS_OR/UNDER AGE_OR/Page_Ontario Cannabis Store  Ontari/select_Select20182017201620152'  using regular expression
+
+2019-04-29 11:49:16 - [TEST_STEP][FAILED] - click(findTestObject("Object Repository/OCS_OR/UNDER AGE_OR/Page_Ontario Cannabis Store  Ontari/button_Verify")): Unable to click on object 'Object Repository/OCS_OR/UNDER AGE_OR/Page_Ontario Cannabis Store  Ontari/button_Verify' (Root cause: org.openqa.selenium.WebDriverException: element click intercepted: Element <button type="submit" data-hover="fade" aria-pressed="false" class="btn btn--outline">...</button> is not clickable at point (477, 594). Other element would receive the click: <iframe title="Preview Bar" id="preview-bar-iframe" src="https://ocs.ca/preview_bar" sandbox="allow-same-origin allow-scripts" style="position: fixed; bottom: 0px; left: 0px; z-index: 2147483647; width: 100%; border: none; box-shadow: rgba(0, 0, 0, 0.2) 0px -1px 3px; overflow: hidden; transform: translateY(0px); transition: transform 300ms ease 0s; height: 60px;"></iframe>
+  (Session info: chrome=74.0.3729.108)
+  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 6.2.9200 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 166 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: '207-254-76-73', ip: '207.254.76.73', os.name: 'windows', os.arch: 'x86', os.version: '6.2', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=WIN8, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:1084}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}), userDataDir=C:\Windows\proxy\scoped_dir612_13060}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=74.0.3729.108, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 3c4c783d6a5797dadbb2d39cd1b8154d
+Command duration or timeout: 0 milliseconds)
+
+2019-04-29 11:49:18 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/OCS_OR/UNDER AGE_OR/Page_Ontario Cannabis Store  Ontari/button_Verify' (Root cause: org.openqa.selenium.WebDriverException: element click intercepted: Element <button type="submit" data-hover="fade" aria-pressed="false" class="btn btn--outline">...</button> is not clickable at point (477, 594). Other element would receive the click: <iframe title="Preview Bar" id="preview-bar-iframe" src="https://ocs.ca/preview_bar" sandbox="allow-same-origin allow-scripts" style="position: fixed; bottom: 0px; left: 0px; z-index: 2147483647; width: 100%; border: none; box-shadow: rgba(0, 0, 0, 0.2) 0px -1px 3px; overflow: hidden; transform: translateY(0px); transition: transform 300ms ease 0s; height: 60px;"></iframe>
+  (Session info: chrome=74.0.3729.108)
+  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 6.2.9200 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 166 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: '207-254-76-73', ip: '207.254.76.73', os.name: 'windows', os.arch: 'x86', os.version: '6.2', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=WIN8, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:1084}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}), userDataDir=C:\Windows\proxy\scoped_dir612_13060}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=74.0.3729.108, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 3c4c783d6a5797dadbb2d39cd1b8154d
+Command duration or timeout: 0 milliseconds)
+[[ATTACHMENT|/Users/sumankompelly/git/Sample-OCS/Reports/AGEGATE/20190429_114839/1556552957637.png]]
+
+2019-04-29 11:49:18 - [TEST_STEP][FAILED] - click(findTestObject("Object Repository/OCS_OR/UNDER AGE_OR/Page_Ontario Cannabis Store  Ontari/span_CONFIRM AND ACKNOWLEDGE_c")): Unable to click on object 'Object Repository/OCS_OR/UNDER AGE_OR/Page_Ontario Cannabis Store  Ontari/span_CONFIRM AND ACKNOWLEDGE_c' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/OCS_OR/UNDER AGE_OR/Page_Ontario Cannabis Store  Ontari/span_CONFIRM AND ACKNOWLEDGE_c' located by 'By.xpath: //section[@id='app']/div/section/div/form/div/div/p[3]/label/span' not found)
+
+2019-04-29 11:49:54 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //section[@id='app']/div/section/div/form/div/div/p[3]/label/span'. Please recheck the objects properties to make sure the desired element is located. 
+
+2019-04-29 11:49:55 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/OCS_OR/UNDER AGE_OR/Page_Ontario Cannabis Store  Ontari/span_CONFIRM AND ACKNOWLEDGE_c' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/OCS_OR/UNDER AGE_OR/Page_Ontario Cannabis Store  Ontari/span_CONFIRM AND ACKNOWLEDGE_c' located by 'By.xpath: //section[@id='app']/div/section/div/form/div/div/p[3]/label/span' not found)
+[[ATTACHMENT|/Users/sumankompelly/git/Sample-OCS/Reports/AGEGATE/20190429_114839/1556552994910.png]]
+
+2019-04-29 11:49:55 - [TEST_STEP][FAILED] - click(findTestObject("Object Repository/OCS_OR/UNDER AGE_OR/Page_Ontario Cannabis Store  Ontari/button_CONFIRM")): Unable to click on object 'Object Repository/OCS_OR/UNDER AGE_OR/Page_Ontario Cannabis Store  Ontari/button_CONFIRM' (Root cause: org.openqa.selenium.WebDriverException: element click intercepted: Element <button type="submit" data-hover="fade" aria-pressed="false" class="btn btn--outline">...</button> is not clickable at point (477, 594). Other element would receive the click: <iframe title="Preview Bar" id="preview-bar-iframe" src="https://ocs.ca/preview_bar" sandbox="allow-same-origin allow-scripts" style="position: fixed; bottom: 0px; left: 0px; z-index: 2147483647; width: 100%; border: none; box-shadow: rgba(0, 0, 0, 0.2) 0px -1px 3px; overflow: hidden; transform: translateY(0px); transition: transform 300ms ease 0s; height: 60px;"></iframe>
+  (Session info: chrome=74.0.3729.108)
+  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 6.2.9200 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 120 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: '207-254-76-73', ip: '207.254.76.73', os.name: 'windows', os.arch: 'x86', os.version: '6.2', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=WIN8, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:1084}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}), userDataDir=C:\Windows\proxy\scoped_dir612_13060}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=74.0.3729.108, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 3c4c783d6a5797dadbb2d39cd1b8154d
+Command duration or timeout: 0 milliseconds)
+
+2019-04-29 11:49:57 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/OCS_OR/UNDER AGE_OR/Page_Ontario Cannabis Store  Ontari/button_CONFIRM' (Root cause: org.openqa.selenium.WebDriverException: element click intercepted: Element <button type="submit" data-hover="fade" aria-pressed="false" class="btn btn--outline">...</button> is not clickable at point (477, 594). Other element would receive the click: <iframe title="Preview Bar" id="preview-bar-iframe" src="https://ocs.ca/preview_bar" sandbox="allow-same-origin allow-scripts" style="position: fixed; bottom: 0px; left: 0px; z-index: 2147483647; width: 100%; border: none; box-shadow: rgba(0, 0, 0, 0.2) 0px -1px 3px; overflow: hidden; transform: translateY(0px); transition: transform 300ms ease 0s; height: 60px;"></iframe>
+  (Session info: chrome=74.0.3729.108)
+  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 6.2.9200 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 120 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: '207-254-76-73', ip: '207.254.76.73', os.name: 'windows', os.arch: 'x86', os.version: '6.2', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=WIN8, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:1084}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}), userDataDir=C:\Windows\proxy\scoped_dir612_13060}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=74.0.3729.108, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 3c4c783d6a5797dadbb2d39cd1b8154d
+Command duration or timeout: 0 milliseconds)
+[[ATTACHMENT|/Users/sumankompelly/git/Sample-OCS/Reports/AGEGATE/20190429_114839/1556552996626.png]]
+
+2019-04-29 11:49:57 - [TEST_STEP][FAILED] - click(findTestObject("Object Repository/OCS_OR/UNDER AGE_OR/Page_Ontario Cannabis Store  Ontari/a_Oops Im actually 19 or older")): Unable to click on object 'Object Repository/OCS_OR/UNDER AGE_OR/Page_Ontario Cannabis Store  Ontari/a_Oops Im actually 19 or older' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/OCS_OR/UNDER AGE_OR/Page_Ontario Cannabis Store  Ontari/a_Oops Im actually 19 or older' located by 'By.xpath: //a[@onclick='event.preventDefault();']' not found)
+
+2019-04-29 11:50:33 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //a[@onclick='event.preventDefault();']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2019-04-29 11:50:34 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/OCS_OR/UNDER AGE_OR/Page_Ontario Cannabis Store  Ontari/a_Oops Im actually 19 or older' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/OCS_OR/UNDER AGE_OR/Page_Ontario Cannabis Store  Ontari/a_Oops Im actually 19 or older' located by 'By.xpath: //a[@onclick='event.preventDefault();']' not found)
+[[ATTACHMENT|/Users/sumankompelly/git/Sample-OCS/Reports/AGEGATE/20190429_114839/1556553033694.png]]
+
+2019-04-29 11:50:34 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/OCS_OR/UNDER AGE_OR/Page_Ontario Cannabis Store  Ontari/select_Select01020304050607080"), "5", true): All options with value '5' are selected in object 'Object Repository/OCS_OR/UNDER AGE_OR/Page_Ontario Cannabis Store  Ontari/select_Select01020304050607080'  using regular expression
+
+2019-04-29 11:50:38 - [MESSAGE][PASSED] - All options with value '5' are selected in object 'Object Repository/OCS_OR/UNDER AGE_OR/Page_Ontario Cannabis Store  Ontari/select_Select01020304050607080'  using regular expression
+
+2019-04-29 11:50:38 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/OCS_OR/UNDER AGE_OR/Page_Ontario Cannabis Store  Ontari/select_SelectJanuary - 01Febru"), "6", true): All options with value '6' are selected in object 'Object Repository/OCS_OR/UNDER AGE_OR/Page_Ontario Cannabis Store  Ontari/select_SelectJanuary - 01Febru'  using regular expression
+
+2019-04-29 11:50:41 - [MESSAGE][PASSED] - All options with value '6' are selected in object 'Object Repository/OCS_OR/UNDER AGE_OR/Page_Ontario Cannabis Store  Ontari/select_SelectJanuary - 01Febru'  using regular expression
+
+2019-04-29 11:50:41 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/OCS_OR/UNDER AGE_OR/Page_Ontario Cannabis Store  Ontari/select_Select20182017201620152"), "1970", true): All options with value '1970' are selected in object 'Object Repository/OCS_OR/UNDER AGE_OR/Page_Ontario Cannabis Store  Ontari/select_Select20182017201620152'  using regular expression
+
+2019-04-29 11:50:57 - [MESSAGE][PASSED] - All options with value '1970' are selected in object 'Object Repository/OCS_OR/UNDER AGE_OR/Page_Ontario Cannabis Store  Ontari/select_Select20182017201620152'  using regular expression
+
+2019-04-29 11:50:57 - [TEST_STEP][FAILED] - click(findTestObject("Object Repository/OCS_OR/UNDER AGE_OR/Page_Ontario Cannabis Store  Ontari/button_Verify")): Unable to click on object 'Object Repository/OCS_OR/UNDER AGE_OR/Page_Ontario Cannabis Store  Ontari/button_Verify' (Root cause: org.openqa.selenium.WebDriverException: element click intercepted: Element <button type="submit" data-hover="fade" aria-pressed="false" class="btn btn--outline">...</button> is not clickable at point (477, 594). Other element would receive the click: <iframe title="Preview Bar" id="preview-bar-iframe" src="https://ocs.ca/preview_bar" sandbox="allow-same-origin allow-scripts" style="position: fixed; bottom: 0px; left: 0px; z-index: 2147483647; width: 100%; border: none; box-shadow: rgba(0, 0, 0, 0.2) 0px -1px 3px; overflow: hidden; transform: translateY(0px); transition: transform 300ms ease 0s; height: 60px;"></iframe>
+  (Session info: chrome=74.0.3729.108)
+  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 6.2.9200 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 73 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: '207-254-76-73', ip: '207.254.76.73', os.name: 'windows', os.arch: 'x86', os.version: '6.2', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=WIN8, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:1084}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}), userDataDir=C:\Windows\proxy\scoped_dir612_13060}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=74.0.3729.108, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 3c4c783d6a5797dadbb2d39cd1b8154d
+Command duration or timeout: 0 milliseconds)
+
+2019-04-29 11:50:59 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/OCS_OR/UNDER AGE_OR/Page_Ontario Cannabis Store  Ontari/button_Verify' (Root cause: org.openqa.selenium.WebDriverException: element click intercepted: Element <button type="submit" data-hover="fade" aria-pressed="false" class="btn btn--outline">...</button> is not clickable at point (477, 594). Other element would receive the click: <iframe title="Preview Bar" id="preview-bar-iframe" src="https://ocs.ca/preview_bar" sandbox="allow-same-origin allow-scripts" style="position: fixed; bottom: 0px; left: 0px; z-index: 2147483647; width: 100%; border: none; box-shadow: rgba(0, 0, 0, 0.2) 0px -1px 3px; overflow: hidden; transform: translateY(0px); transition: transform 300ms ease 0s; height: 60px;"></iframe>
+  (Session info: chrome=74.0.3729.108)
+  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 6.2.9200 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 73 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: '207-254-76-73', ip: '207.254.76.73', os.name: 'windows', os.arch: 'x86', os.version: '6.2', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=WIN8, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:1084}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}), userDataDir=C:\Windows\proxy\scoped_dir612_13060}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=74.0.3729.108, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 3c4c783d6a5797dadbb2d39cd1b8154d
+Command duration or timeout: 0 milliseconds)
+[[ATTACHMENT|/Users/sumankompelly/git/Sample-OCS/Reports/AGEGATE/20190429_114839/1556553058401.png]]
+
+2019-04-29 11:50:59 - [TEST_STEP][FAILED] - click(findTestObject("Object Repository/OCS_OR/UNDER AGE_OR/Page_Ontario Cannabis Store  Ontari/span_CONFIRM AND ACKNOWLEDGE_c")): Unable to click on object 'Object Repository/OCS_OR/UNDER AGE_OR/Page_Ontario Cannabis Store  Ontari/span_CONFIRM AND ACKNOWLEDGE_c' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/OCS_OR/UNDER AGE_OR/Page_Ontario Cannabis Store  Ontari/span_CONFIRM AND ACKNOWLEDGE_c' located by 'By.xpath: //section[@id='app']/div/section/div/form/div/div/p[3]/label/span' not found)
+
+2019-04-29 11:51:35 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //section[@id='app']/div/section/div/form/div/div/p[3]/label/span'. Please recheck the objects properties to make sure the desired element is located. 
+
+2019-04-29 11:51:35 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/OCS_OR/UNDER AGE_OR/Page_Ontario Cannabis Store  Ontari/span_CONFIRM AND ACKNOWLEDGE_c' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/OCS_OR/UNDER AGE_OR/Page_Ontario Cannabis Store  Ontari/span_CONFIRM AND ACKNOWLEDGE_c' located by 'By.xpath: //section[@id='app']/div/section/div/form/div/div/p[3]/label/span' not found)
+[[ATTACHMENT|/Users/sumankompelly/git/Sample-OCS/Reports/AGEGATE/20190429_114839/1556553095196.png]]
+
+2019-04-29 11:51:35 - [TEST_STEP][FAILED] - click(findTestObject("Object Repository/OCS_OR/UNDER AGE_OR/Page_Ontario Cannabis Store  Ontari/button_CONFIRM")): Unable to click on object 'Object Repository/OCS_OR/UNDER AGE_OR/Page_Ontario Cannabis Store  Ontari/button_CONFIRM' (Root cause: org.openqa.selenium.WebDriverException: element click intercepted: Element <button type="submit" data-hover="fade" aria-pressed="false" class="btn btn--outline">...</button> is not clickable at point (477, 594). Other element would receive the click: <iframe title="Preview Bar" id="preview-bar-iframe" src="https://ocs.ca/preview_bar" sandbox="allow-same-origin allow-scripts" style="position: fixed; bottom: 0px; left: 0px; z-index: 2147483647; width: 100%; border: none; box-shadow: rgba(0, 0, 0, 0.2) 0px -1px 3px; overflow: hidden; transform: translateY(0px); transition: transform 300ms ease 0s; height: 60px;"></iframe>
+  (Session info: chrome=74.0.3729.108)
+  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 6.2.9200 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 92 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: '207-254-76-73', ip: '207.254.76.73', os.name: 'windows', os.arch: 'x86', os.version: '6.2', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=WIN8, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:1084}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}), userDataDir=C:\Windows\proxy\scoped_dir612_13060}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=74.0.3729.108, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 3c4c783d6a5797dadbb2d39cd1b8154d
+Command duration or timeout: 0 milliseconds)
+
+2019-04-29 11:51:37 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/OCS_OR/UNDER AGE_OR/Page_Ontario Cannabis Store  Ontari/button_CONFIRM' (Root cause: org.openqa.selenium.WebDriverException: element click intercepted: Element <button type="submit" data-hover="fade" aria-pressed="false" class="btn btn--outline">...</button> is not clickable at point (477, 594). Other element would receive the click: <iframe title="Preview Bar" id="preview-bar-iframe" src="https://ocs.ca/preview_bar" sandbox="allow-same-origin allow-scripts" style="position: fixed; bottom: 0px; left: 0px; z-index: 2147483647; width: 100%; border: none; box-shadow: rgba(0, 0, 0, 0.2) 0px -1px 3px; overflow: hidden; transform: translateY(0px); transition: transform 300ms ease 0s; height: 60px;"></iframe>
+  (Session info: chrome=74.0.3729.108)
+  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 6.2.9200 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 92 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: '207-254-76-73', ip: '207.254.76.73', os.name: 'windows', os.arch: 'x86', os.version: '6.2', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=WIN8, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:1084}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}), userDataDir=C:\Windows\proxy\scoped_dir612_13060}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=74.0.3729.108, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 3c4c783d6a5797dadbb2d39cd1b8154d
+Command duration or timeout: 0 milliseconds)
+[[ATTACHMENT|/Users/sumankompelly/git/Sample-OCS/Reports/AGEGATE/20190429_114839/1556553096792.png]]
+
+2019-04-29 11:51:37 - [TEST_STEP][FAILED] - click(findTestObject("Object Repository/OCS_OR/UNDER AGE_OR/Page_Ontario Cannabis Store  Ontari/button_Start Browsing")): Unable to click on object 'Object Repository/OCS_OR/UNDER AGE_OR/Page_Ontario Cannabis Store  Ontari/button_Start Browsing' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/OCS_OR/UNDER AGE_OR/Page_Ontario Cannabis Store  Ontari/button_Start Browsing' located by 'By.xpath: //section[@id='app']/div/section/div/div[2]/button' not found)
+
+2019-04-29 11:52:13 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //section[@id='app']/div/section/div/div[2]/button'. Please recheck the objects properties to make sure the desired element is located. 
+
+2019-04-29 11:52:14 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/OCS_OR/UNDER AGE_OR/Page_Ontario Cannabis Store  Ontari/button_Start Browsing' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/OCS_OR/UNDER AGE_OR/Page_Ontario Cannabis Store  Ontari/button_Start Browsing' located by 'By.xpath: //section[@id='app']/div/section/div/div[2]/button' not found)
+[[ATTACHMENT|/Users/sumankompelly/git/Sample-OCS/Reports/AGEGATE/20190429_114839/1556553133848.png]]
+
+2019-04-29 11:52:14 - [TEST_STEP][FAILED] - closeBrowser(): closeBrowser() FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/OCS_OR/UNDER AGE_OR/Page_Ontario Cannabis Store  Ontari/button_Verify' (Root cause: org.openqa.selenium.WebDriverException: element click intercepted: Element <button type="submit" data-hover="fade" aria-pressed="false" class="btn btn--outline">...</button> is not clickable at point (477, 594). Other element would receive the click: <iframe title="Preview Bar" id="preview-bar-iframe" src="https://ocs.ca/preview_bar" sandbox="allow-same-origin allow-scripts" style="position: fixed; bottom: 0px; left: 0px; z-index: 2147483647; width: 100%; border: none; box-shadow: rgba(0, 0, 0, 0.2) 0px -1px 3px; overflow: hidden; transform: translateY(0px); transition: transform 300ms ease 0s; height: 60px;"></iframe>
+  (Session info: chrome=74.0.3729.108)
+  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 6.2.9200 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 166 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: '207-254-76-73', ip: '207.254.76.73', os.name: 'windows', os.arch: 'x86', os.version: '6.2', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=WIN8, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:1084}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}), userDataDir=C:\Windows\proxy\scoped_dir612_13060}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=74.0.3729.108, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 3c4c783d6a5797dadbb2d39cd1b8154d
+Command duration or timeout: 0 milliseconds)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:32)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at AG- Under Age.run(AG- Under Age:29)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1556552919314.run(TempTestSuite1556552919314.groovy:36)
+
+
+2019-04-29 11:52:15 - [MESSAGE][PASSED] - Browser is closed
+
+2019-04-29 11:52:15 - [MESSAGE][FAILED] - closeBrowser() FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/OCS_OR/UNDER AGE_OR/Page_Ontario Cannabis Store  Ontari/button_Verify' (Root cause: org.openqa.selenium.WebDriverException: element click intercepted: Element <button type="submit" data-hover="fade" aria-pressed="false" class="btn btn--outline">...</button> is not clickable at point (477, 594). Other element would receive the click: <iframe title="Preview Bar" id="preview-bar-iframe" src="https://ocs.ca/preview_bar" sandbox="allow-same-origin allow-scripts" style="position: fixed; bottom: 0px; left: 0px; z-index: 2147483647; width: 100%; border: none; box-shadow: rgba(0, 0, 0, 0.2) 0px -1px 3px; overflow: hidden; transform: translateY(0px); transition: transform 300ms ease 0s; height: 60px;"></iframe>
+  (Session info: chrome=74.0.3729.108)
+  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 6.2.9200 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 166 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: '207-254-76-73', ip: '207.254.76.73', os.name: 'windows', os.arch: 'x86', os.version: '6.2', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=WIN8, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:1084}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}), userDataDir=C:\Windows\proxy\scoped_dir612_13060}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=74.0.3729.108, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 3c4c783d6a5797dadbb2d39cd1b8154d
+Command duration or timeout: 0 milliseconds)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:32)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at AG- Under Age.run(AG- Under Age:29)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1556552919314.run(TempTestSuite1556552919314.groovy:36)]]></system-out>
+         <system-err><![CDATA[2019-04-29 11:48:41 - [TEST_CASE][FAILED] - Test Cases/OCS-AGE GATE/AG- Under Age: Test Cases/OCS-AGE GATE/AG- Under Age FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/OCS_OR/UNDER AGE_OR/Page_Ontario Cannabis Store  Ontari/button_Verify' (Root cause: org.openqa.selenium.WebDriverException: element click intercepted: Element <button type="submit" data-hover="fade" aria-pressed="false" class="btn btn--outline">...</button> is not clickable at point (477, 594). Other element would receive the click: <iframe title="Preview Bar" id="preview-bar-iframe" src="https://ocs.ca/preview_bar" sandbox="allow-same-origin allow-scripts" style="position: fixed; bottom: 0px; left: 0px; z-index: 2147483647; width: 100%; border: none; box-shadow: rgba(0, 0, 0, 0.2) 0px -1px 3px; overflow: hidden; transform: translateY(0px); transition: transform 300ms ease 0s; height: 60px;"></iframe>
+  (Session info: chrome=74.0.3729.108)
+  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 6.2.9200 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 166 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: '207-254-76-73', ip: '207.254.76.73', os.name: 'windows', os.arch: 'x86', os.version: '6.2', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=WIN8, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:1084}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}), userDataDir=C:\Windows\proxy\scoped_dir612_13060}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=74.0.3729.108, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 3c4c783d6a5797dadbb2d39cd1b8154d
+Command duration or timeout: 0 milliseconds)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:32)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at AG- Under Age.run(AG- Under Age:29)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1556552919314.run(TempTestSuite1556552919314.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/OCS-AGE GATE/AG - Date correction" classname="Test Cases/OCS-AGE GATE/AG - Date correction" status="FAILED">
+         <failure type="FAILED" message="Test Cases/OCS-AGE GATE/AG - Date correction FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/OCS_OR/Page_Ontario Cannabis Store  Ontari/button_Verify (1)' (Root cause: org.openqa.selenium.WebDriverException: element click intercepted: Element &lt;button type=&quot;submit&quot; data-hover=&quot;fade&quot; aria-pressed=&quot;false&quot; class=&quot;btn btn--outline&quot;>...&lt;/button> is not clickable at point (495, 629). Other element would receive the click: &lt;iframe title=&quot;Preview Bar&quot; id=&quot;preview-bar-iframe&quot; src=&quot;https://ocs.ca/preview_bar&quot; sandbox=&quot;allow-same-origin allow-scripts&quot; style=&quot;position: fixed; bottom: 0px; left: 0px; z-index: 2147483647; width: 100%; border: none; box-shadow: rgba(0, 0, 0, 0.2) 0px -1px 3px; overflow: hidden; transform: translateY(0px); transition: transform 300ms ease 0s; height: 60px;&quot;>&lt;/iframe>
+  (Session info: chrome=74.0.3729.108)
+  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 66 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: '208-52-164-41', ip: '208.52.164.41', os.name: 'windows', os.arch: 'x86', os.version: '6.3', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=WIN8_1, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:1136}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}), userDataDir=C:\Windows\proxy\scoped_dir3328_830}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=74.0.3729.108, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 4ba84c6d229525b759539134549afc67
+Command duration or timeout: 0 milliseconds)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:32)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at AG - Date correction.run(AG - Date correction:33)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1556552919314.run(TempTestSuite1556552919314.groovy:36)
+"/>
+         <system-out><![CDATA[2019-04-29 11:52:15 - [TEST_CASE][FAILED] - Test Cases/OCS-AGE GATE/AG - Date correction: Test Cases/OCS-AGE GATE/AG - Date correction FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/OCS_OR/Page_Ontario Cannabis Store  Ontari/button_Verify (1)' (Root cause: org.openqa.selenium.WebDriverException: element click intercepted: Element <button type="submit" data-hover="fade" aria-pressed="false" class="btn btn--outline">...</button> is not clickable at point (495, 629). Other element would receive the click: <iframe title="Preview Bar" id="preview-bar-iframe" src="https://ocs.ca/preview_bar" sandbox="allow-same-origin allow-scripts" style="position: fixed; bottom: 0px; left: 0px; z-index: 2147483647; width: 100%; border: none; box-shadow: rgba(0, 0, 0, 0.2) 0px -1px 3px; overflow: hidden; transform: translateY(0px); transition: transform 300ms ease 0s; height: 60px;"></iframe>
+  (Session info: chrome=74.0.3729.108)
+  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 66 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: '208-52-164-41', ip: '208.52.164.41', os.name: 'windows', os.arch: 'x86', os.version: '6.3', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=WIN8_1, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:1136}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}), userDataDir=C:\Windows\proxy\scoped_dir3328_830}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=74.0.3729.108, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 4ba84c6d229525b759539134549afc67
+Command duration or timeout: 0 milliseconds)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:32)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at AG - Date correction.run(AG - Date correction:33)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1556552919314.run(TempTestSuite1556552919314.groovy:36)
+
+
+2019-04-29 11:52:16 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-04-29 11:52:16 - [MESSAGE][INFO] - Starting 'Remote' driver
+
+2019-04-29 11:52:16 - [MESSAGE][INFO] - Connecting to remote web server 'https://dianatest3:Z3oqw9ysqTeRQJq5wFCp@hub-cloud.browserstack.com/wd/hub' with type 'Selenium'
+
+2019-04-29 11:52:22 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-04-29 11:52:22 - [TEST_STEP][PASSED] - navigateToUrl("https://ocs.ca/?fts=0&preview_theme_id=53370029900"): Navigate to 'https://ocs.ca/?fts=0&preview_theme_id=53370029900' successfully
+
+2019-04-29 11:52:29 - [MESSAGE][PASSED] - Navigate to 'https://ocs.ca/?fts=0&preview_theme_id=53370029900' successfully
+
+2019-04-29 11:52:29 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-04-29 11:52:31 - [MESSAGE][PASSED] - Current window maximized
+
+2019-04-29 11:52:31 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("OCS_OR/Page_Ontario Cannabis Store  Ontari/select_Select01020304050607080 (1)"), "2", true): All options with value '2' are selected in object 'Object Repository/OCS_OR/Page_Ontario Cannabis Store  Ontari/select_Select01020304050607080 (1)'  using regular expression
+
+2019-04-29 11:52:34 - [MESSAGE][PASSED] - All options with value '2' are selected in object 'Object Repository/OCS_OR/Page_Ontario Cannabis Store  Ontari/select_Select01020304050607080 (1)'  using regular expression
+
+2019-04-29 11:52:34 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("OCS_OR/Page_Ontario Cannabis Store  Ontari/select_SelectJanuary - 01Febru (1)"), "0", true): All options with value '0' are selected in object 'Object Repository/OCS_OR/Page_Ontario Cannabis Store  Ontari/select_SelectJanuary - 01Febru (1)'  using regular expression
+
+2019-04-29 11:52:36 - [MESSAGE][PASSED] - All options with value '0' are selected in object 'Object Repository/OCS_OR/Page_Ontario Cannabis Store  Ontari/select_SelectJanuary - 01Febru (1)'  using regular expression
+
+2019-04-29 11:52:36 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/OCS_OR/Page_Ontario Cannabis Store  Ontari/select_Select20182017201620152 (1)"), "1982", true): All options with value '1982' are selected in object 'Object Repository/OCS_OR/Page_Ontario Cannabis Store  Ontari/select_Select20182017201620152 (1)'  using regular expression
+
+2019-04-29 11:52:50 - [MESSAGE][PASSED] - All options with value '1982' are selected in object 'Object Repository/OCS_OR/Page_Ontario Cannabis Store  Ontari/select_Select20182017201620152 (1)'  using regular expression
+
+2019-04-29 11:52:50 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+2019-04-29 11:52:54 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2019-04-29 11:52:54 - [TEST_STEP][FAILED] - click(findTestObject("OCS_OR/Page_Ontario Cannabis Store  Ontari/button_Verify (1)")): Unable to click on object 'Object Repository/OCS_OR/Page_Ontario Cannabis Store  Ontari/button_Verify (1)' (Root cause: org.openqa.selenium.WebDriverException: element click intercepted: Element <button type="submit" data-hover="fade" aria-pressed="false" class="btn btn--outline">...</button> is not clickable at point (495, 629). Other element would receive the click: <iframe title="Preview Bar" id="preview-bar-iframe" src="https://ocs.ca/preview_bar" sandbox="allow-same-origin allow-scripts" style="position: fixed; bottom: 0px; left: 0px; z-index: 2147483647; width: 100%; border: none; box-shadow: rgba(0, 0, 0, 0.2) 0px -1px 3px; overflow: hidden; transform: translateY(0px); transition: transform 300ms ease 0s; height: 60px;"></iframe>
+  (Session info: chrome=74.0.3729.108)
+  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 66 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: '208-52-164-41', ip: '208.52.164.41', os.name: 'windows', os.arch: 'x86', os.version: '6.3', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=WIN8_1, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:1136}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}), userDataDir=C:\Windows\proxy\scoped_dir3328_830}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=74.0.3729.108, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 4ba84c6d229525b759539134549afc67
+Command duration or timeout: 0 milliseconds)
+
+2019-04-29 11:52:56 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/OCS_OR/Page_Ontario Cannabis Store  Ontari/button_Verify (1)' (Root cause: org.openqa.selenium.WebDriverException: element click intercepted: Element <button type="submit" data-hover="fade" aria-pressed="false" class="btn btn--outline">...</button> is not clickable at point (495, 629). Other element would receive the click: <iframe title="Preview Bar" id="preview-bar-iframe" src="https://ocs.ca/preview_bar" sandbox="allow-same-origin allow-scripts" style="position: fixed; bottom: 0px; left: 0px; z-index: 2147483647; width: 100%; border: none; box-shadow: rgba(0, 0, 0, 0.2) 0px -1px 3px; overflow: hidden; transform: translateY(0px); transition: transform 300ms ease 0s; height: 60px;"></iframe>
+  (Session info: chrome=74.0.3729.108)
+  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 66 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: '208-52-164-41', ip: '208.52.164.41', os.name: 'windows', os.arch: 'x86', os.version: '6.3', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=WIN8_1, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:1136}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}), userDataDir=C:\Windows\proxy\scoped_dir3328_830}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=74.0.3729.108, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 4ba84c6d229525b759539134549afc67
+Command duration or timeout: 0 milliseconds)
+[[ATTACHMENT|/Users/sumankompelly/git/Sample-OCS/Reports/AGEGATE/20190429_114839/1556553176002.png]]
+
+2019-04-29 11:52:56 - [TEST_STEP][FAILED] - click(findTestObject("OCS_OR/Page_Ontario Cannabis Store  Ontari/a_Correct Your Date of Birth")): Unable to click on object 'Object Repository/OCS_OR/Page_Ontario Cannabis Store  Ontari/a_Correct Your Date of Birth' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/OCS_OR/Page_Ontario Cannabis Store  Ontari/a_Correct Your Date of Birth' located by 'By.xpath: id("app")/div[@class="overlay overlay--agewall show"]/section[@class="overlay__inner"]/div[@class="screen screen--confirm"]/form[1]/div[@class="overlay__navigation"]/p[2]/a[1][count(. | //a[@href = '#']) = count(//a[@href = '#'])]' not found)
+
+2019-04-29 11:53:33 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: id("app")/div[@class="overlay overlay--agewall show"]/section[@class="overlay__inner"]/div[@class="screen screen--confirm"]/form[1]/div[@class="overlay__navigation"]/p[2]/a[1][count(. | //a[@href = '#']) = count(//a[@href = '#'])]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2019-04-29 11:53:34 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/OCS_OR/Page_Ontario Cannabis Store  Ontari/a_Correct Your Date of Birth' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/OCS_OR/Page_Ontario Cannabis Store  Ontari/a_Correct Your Date of Birth' located by 'By.xpath: id("app")/div[@class="overlay overlay--agewall show"]/section[@class="overlay__inner"]/div[@class="screen screen--confirm"]/form[1]/div[@class="overlay__navigation"]/p[2]/a[1][count(. | //a[@href = '#']) = count(//a[@href = '#'])]' not found)
+[[ATTACHMENT|/Users/sumankompelly/git/Sample-OCS/Reports/AGEGATE/20190429_114839/1556553213395.png]]
+
+2019-04-29 11:53:34 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/OCS_OR/Page_Ontario Cannabis Store  Ontari/select_Select01020304050607080 (1)"), "1", true): All options with value '1' are selected in object 'Object Repository/OCS_OR/Page_Ontario Cannabis Store  Ontari/select_Select01020304050607080 (1)'  using regular expression
+
+2019-04-29 11:53:37 - [MESSAGE][PASSED] - All options with value '1' are selected in object 'Object Repository/OCS_OR/Page_Ontario Cannabis Store  Ontari/select_Select01020304050607080 (1)'  using regular expression
+
+2019-04-29 11:53:37 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/OCS_OR/Page_Ontario Cannabis Store  Ontari/select_SelectJanuary - 01Febru (1)"), "5", true): All options with value '5' are selected in object 'Object Repository/OCS_OR/Page_Ontario Cannabis Store  Ontari/select_SelectJanuary - 01Febru (1)'  using regular expression
+
+2019-04-29 11:53:40 - [MESSAGE][PASSED] - All options with value '5' are selected in object 'Object Repository/OCS_OR/Page_Ontario Cannabis Store  Ontari/select_SelectJanuary - 01Febru (1)'  using regular expression
+
+2019-04-29 11:53:40 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/OCS_OR/Page_Ontario Cannabis Store  Ontari/select_Select20182017201620152 (1)"), "1980", true): All options with value '1980' are selected in object 'Object Repository/OCS_OR/Page_Ontario Cannabis Store  Ontari/select_Select20182017201620152 (1)'  using regular expression
+
+2019-04-29 11:53:54 - [MESSAGE][PASSED] - All options with value '1980' are selected in object 'Object Repository/OCS_OR/Page_Ontario Cannabis Store  Ontari/select_Select20182017201620152 (1)'  using regular expression
+
+2019-04-29 11:53:54 - [TEST_STEP][FAILED] - click(findTestObject("OCS_OR/Page_Ontario Cannabis Store  Ontari/button_Verify (1)")): Unable to click on object 'Object Repository/OCS_OR/Page_Ontario Cannabis Store  Ontari/button_Verify (1)' (Root cause: org.openqa.selenium.WebDriverException: element click intercepted: Element <button type="submit" data-hover="fade" aria-pressed="false" class="btn btn--outline">...</button> is not clickable at point (495, 629). Other element would receive the click: <iframe title="Preview Bar" id="preview-bar-iframe" src="https://ocs.ca/preview_bar" sandbox="allow-same-origin allow-scripts" style="position: fixed; bottom: 0px; left: 0px; z-index: 2147483647; width: 100%; border: none; box-shadow: rgba(0, 0, 0, 0.2) 0px -1px 3px; overflow: hidden; transform: translateY(0px); transition: transform 300ms ease 0s; height: 60px;"></iframe>
+  (Session info: chrome=74.0.3729.108)
+  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 44 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: '208-52-164-41', ip: '208.52.164.41', os.name: 'windows', os.arch: 'x86', os.version: '6.3', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=WIN8_1, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:1136}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}), userDataDir=C:\Windows\proxy\scoped_dir3328_830}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=74.0.3729.108, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 4ba84c6d229525b759539134549afc67
+Command duration or timeout: 0 milliseconds)
+
+2019-04-29 11:53:55 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/OCS_OR/Page_Ontario Cannabis Store  Ontari/button_Verify (1)' (Root cause: org.openqa.selenium.WebDriverException: element click intercepted: Element <button type="submit" data-hover="fade" aria-pressed="false" class="btn btn--outline">...</button> is not clickable at point (495, 629). Other element would receive the click: <iframe title="Preview Bar" id="preview-bar-iframe" src="https://ocs.ca/preview_bar" sandbox="allow-same-origin allow-scripts" style="position: fixed; bottom: 0px; left: 0px; z-index: 2147483647; width: 100%; border: none; box-shadow: rgba(0, 0, 0, 0.2) 0px -1px 3px; overflow: hidden; transform: translateY(0px); transition: transform 300ms ease 0s; height: 60px;"></iframe>
+  (Session info: chrome=74.0.3729.108)
+  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 44 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: '208-52-164-41', ip: '208.52.164.41', os.name: 'windows', os.arch: 'x86', os.version: '6.3', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=WIN8_1, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:1136}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}), userDataDir=C:\Windows\proxy\scoped_dir3328_830}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=74.0.3729.108, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 4ba84c6d229525b759539134549afc67
+Command duration or timeout: 0 milliseconds)
+[[ATTACHMENT|/Users/sumankompelly/git/Sample-OCS/Reports/AGEGATE/20190429_114839/1556553234872.png]]
+
+2019-04-29 11:53:55 - [TEST_STEP][FAILED] - closeBrowser(): closeBrowser() FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/OCS_OR/Page_Ontario Cannabis Store  Ontari/button_Verify (1)' (Root cause: org.openqa.selenium.WebDriverException: element click intercepted: Element <button type="submit" data-hover="fade" aria-pressed="false" class="btn btn--outline">...</button> is not clickable at point (495, 629). Other element would receive the click: <iframe title="Preview Bar" id="preview-bar-iframe" src="https://ocs.ca/preview_bar" sandbox="allow-same-origin allow-scripts" style="position: fixed; bottom: 0px; left: 0px; z-index: 2147483647; width: 100%; border: none; box-shadow: rgba(0, 0, 0, 0.2) 0px -1px 3px; overflow: hidden; transform: translateY(0px); transition: transform 300ms ease 0s; height: 60px;"></iframe>
+  (Session info: chrome=74.0.3729.108)
+  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 66 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: '208-52-164-41', ip: '208.52.164.41', os.name: 'windows', os.arch: 'x86', os.version: '6.3', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=WIN8_1, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:1136}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}), userDataDir=C:\Windows\proxy\scoped_dir3328_830}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=74.0.3729.108, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 4ba84c6d229525b759539134549afc67
+Command duration or timeout: 0 milliseconds)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:32)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at AG - Date correction.run(AG - Date correction:33)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1556552919314.run(TempTestSuite1556552919314.groovy:36)
+
+
+2019-04-29 11:53:56 - [MESSAGE][PASSED] - Browser is closed
+
+2019-04-29 11:53:56 - [MESSAGE][FAILED] - closeBrowser() FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/OCS_OR/Page_Ontario Cannabis Store  Ontari/button_Verify (1)' (Root cause: org.openqa.selenium.WebDriverException: element click intercepted: Element <button type="submit" data-hover="fade" aria-pressed="false" class="btn btn--outline">...</button> is not clickable at point (495, 629). Other element would receive the click: <iframe title="Preview Bar" id="preview-bar-iframe" src="https://ocs.ca/preview_bar" sandbox="allow-same-origin allow-scripts" style="position: fixed; bottom: 0px; left: 0px; z-index: 2147483647; width: 100%; border: none; box-shadow: rgba(0, 0, 0, 0.2) 0px -1px 3px; overflow: hidden; transform: translateY(0px); transition: transform 300ms ease 0s; height: 60px;"></iframe>
+  (Session info: chrome=74.0.3729.108)
+  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 66 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: '208-52-164-41', ip: '208.52.164.41', os.name: 'windows', os.arch: 'x86', os.version: '6.3', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=WIN8_1, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:1136}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}), userDataDir=C:\Windows\proxy\scoped_dir3328_830}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=74.0.3729.108, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 4ba84c6d229525b759539134549afc67
+Command duration or timeout: 0 milliseconds)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:32)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at AG - Date correction.run(AG - Date correction:33)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1556552919314.run(TempTestSuite1556552919314.groovy:36)]]></system-out>
+         <system-err><![CDATA[2019-04-29 11:52:15 - [TEST_CASE][FAILED] - Test Cases/OCS-AGE GATE/AG - Date correction: Test Cases/OCS-AGE GATE/AG - Date correction FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/OCS_OR/Page_Ontario Cannabis Store  Ontari/button_Verify (1)' (Root cause: org.openqa.selenium.WebDriverException: element click intercepted: Element <button type="submit" data-hover="fade" aria-pressed="false" class="btn btn--outline">...</button> is not clickable at point (495, 629). Other element would receive the click: <iframe title="Preview Bar" id="preview-bar-iframe" src="https://ocs.ca/preview_bar" sandbox="allow-same-origin allow-scripts" style="position: fixed; bottom: 0px; left: 0px; z-index: 2147483647; width: 100%; border: none; box-shadow: rgba(0, 0, 0, 0.2) 0px -1px 3px; overflow: hidden; transform: translateY(0px); transition: transform 300ms ease 0s; height: 60px;"></iframe>
+  (Session info: chrome=74.0.3729.108)
+  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 66 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: '208-52-164-41', ip: '208.52.164.41', os.name: 'windows', os.arch: 'x86', os.version: '6.3', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=WIN8_1, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:1136}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}), userDataDir=C:\Windows\proxy\scoped_dir3328_830}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=74.0.3729.108, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 4ba84c6d229525b759539134549afc67
+Command duration or timeout: 0 milliseconds)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:32)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at AG - Date correction.run(AG - Date correction:33)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1556552919314.run(TempTestSuite1556552919314.groovy:36)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-04-29 11:48:41 - [TEST_SUITE][FAILED] - AGEGATE: Test Cases/OCS-AGE GATE/AG- Under Age FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/OCS_OR/UNDER AGE_OR/Page_Ontario Cannabis Store  Ontari/button_Verify' (Root cause: org.openqa.selenium.WebDriverException: element click intercepted: Element <button type="submit" data-hover="fade" aria-pressed="false" class="btn btn--outline">...</button> is not clickable at point (477, 594). Other element would receive the click: <iframe title="Preview Bar" id="preview-bar-iframe" src="https://ocs.ca/preview_bar" sandbox="allow-same-origin allow-scripts" style="position: fixed; bottom: 0px; left: 0px; z-index: 2147483647; width: 100%; border: none; box-shadow: rgba(0, 0, 0, 0.2) 0px -1px 3px; overflow: hidden; transform: translateY(0px); transition: transform 300ms ease 0s; height: 60px;"></iframe>
+  (Session info: chrome=74.0.3729.108)
+  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 6.2.9200 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 166 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: '207-254-76-73', ip: '207.254.76.73', os.name: 'windows', os.arch: 'x86', os.version: '6.2', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=WIN8, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:1084}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}), userDataDir=C:\Windows\proxy\scoped_dir612_13060}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=74.0.3729.108, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 3c4c783d6a5797dadbb2d39cd1b8154d
+Command duration or timeout: 0 milliseconds)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:32)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at AG- Under Age.run(AG- Under Age:29)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1556552919314.run(TempTestSuite1556552919314.groovy:36)]]></system-out>
+      <system-err><![CDATA[2019-04-29 11:48:41 - [TEST_SUITE][FAILED] - AGEGATE: Test Cases/OCS-AGE GATE/AG- Under Age FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/OCS_OR/UNDER AGE_OR/Page_Ontario Cannabis Store  Ontari/button_Verify' (Root cause: org.openqa.selenium.WebDriverException: element click intercepted: Element <button type="submit" data-hover="fade" aria-pressed="false" class="btn btn--outline">...</button> is not clickable at point (477, 594). Other element would receive the click: <iframe title="Preview Bar" id="preview-bar-iframe" src="https://ocs.ca/preview_bar" sandbox="allow-same-origin allow-scripts" style="position: fixed; bottom: 0px; left: 0px; z-index: 2147483647; width: 100%; border: none; box-shadow: rgba(0, 0, 0, 0.2) 0px -1px 3px; overflow: hidden; transform: translateY(0px); transition: transform 300ms ease 0s; height: 60px;"></iframe>
+  (Session info: chrome=74.0.3729.108)
+  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 6.2.9200 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 166 milliseconds
+Build info: version: '2.53.0', revision: '35ae25b', time: '2016-03-15 17:00:58'
+System info: host: '207-254-76-73', ip: '207.254.76.73', os.name: 'windows', os.arch: 'x86', os.version: '6.2', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=WIN8, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:1084}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}), userDataDir=C:\Windows\proxy\scoped_dir612_13060}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=74.0.3729.108, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 3c4c783d6a5797dadbb2d39cd1b8154d
+Command duration or timeout: 0 milliseconds)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:32)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at AG- Under Age.run(AG- Under Age:29)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1556552919314.run(TempTestSuite1556552919314.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>

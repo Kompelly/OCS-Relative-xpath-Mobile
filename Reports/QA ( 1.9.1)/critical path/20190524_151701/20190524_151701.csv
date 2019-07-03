@@ -1,0 +1,428 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+critical path,Firefox 67.0,,2019-05-24 15:17:03,2019-05-24 15:28:55,11m - 51.852s,FAILED
+,,,,,,
+Test Cases/OCS - MOBILE/OCS- CRITICAL PATH/Cart,Firefox 67.0,,2019-05-24 15:17:03,2019-05-24 15:18:34,1m - 30.460s,PASSED
+"callTestCase(findTestCase(""OCS - MOBILE/CALL- SWATCH- NO INVENTORY""), [:], STOP_ON_FAILURE)",Firefox 67.0,,2019-05-24 15:17:04,2019-05-24 15:17:28,24.030s,PASSED
+delay(2),Firefox 67.0,,2019-05-24 15:17:28,2019-05-24 15:17:30,2.003s,PASSED
+"click(findTestObject(""OCS-MOBILE /Age gate and burger menu/Burger menu - English""))",Firefox 67.0,,2019-05-24 15:17:30,2019-05-24 15:17:30,0.003s,NOT_RUN
+delay(2),Firefox 67.0,,2019-05-24 15:17:30,2019-05-24 15:17:30,0.001s,NOT_RUN
+"click(findTestObject(""OCS-MOBILE /Cannabis page/Cannabis chevron""))",Firefox 67.0,,2019-05-24 15:17:30,2019-05-24 15:17:30,0.001s,NOT_RUN
+delay(2),Firefox 67.0,,2019-05-24 15:17:30,2019-05-24 15:17:30,0.000s,NOT_RUN
+"click(findTestObject(""OCS-MOBILE /Cannabis page/Dried flower - plus accordian""))",Firefox 67.0,,2019-05-24 15:17:30,2019-05-24 15:17:30,0.000s,NOT_RUN
+delay(2),Firefox 67.0,,2019-05-24 15:17:30,2019-05-24 15:17:30,0.001s,NOT_RUN
+"click(findTestObject(""OCS-MOBILE /Cannabis page/Dried flower - Indica dominant""))",Firefox 67.0,,2019-05-24 15:17:30,2019-05-24 15:17:30,0.001s,NOT_RUN
+delay(2),Firefox 67.0,,2019-05-24 15:17:30,2019-05-24 15:17:30,0.001s,NOT_RUN
+"click(findTestObject(""OCS-MOBILE /Collection page/Product image - 1st one""))",Firefox 67.0,,2019-05-24 15:17:30,2019-05-24 15:17:30,0.001s,NOT_RUN
+"scrollToElement(findTestObject(""OCS-MOBILE /Product page/Product image""), 1)",Firefox 67.0,,2019-05-24 15:17:30,2019-05-24 15:17:30,0.025s,PASSED
+delay(2),Firefox 67.0,,2019-05-24 15:17:30,2019-05-24 15:17:32,2.005s,PASSED
+"click(findTestObject(""OCS-MOBILE /Product page/Swatch_1g""), STOP_ON_FAILURE)",Firefox 67.0,,2019-05-24 15:17:32,2019-05-24 15:17:32,0.290s,PASSED
+takeScreenshot(),Firefox 67.0,,2019-05-24 15:17:32,2019-05-24 15:17:32,0.096s,PASSED
+"scrollToElement(findTestObject(""OCS-MOBILE /Product page/Swatch_3.5g""), 1)",Firefox 67.0,,2019-05-24 15:17:32,2019-05-24 15:17:32,0.019s,PASSED
+delay(2),Firefox 67.0,,2019-05-24 15:17:32,2019-05-24 15:17:34,2.001s,PASSED
+"click(findTestObject(""OCS-MOBILE /Product page/Add to Bag-button""))",Firefox 67.0,,2019-05-24 15:17:34,2019-05-24 15:17:34,0.245s,PASSED
+delay(4),Firefox 67.0,,2019-05-24 15:17:34,2019-05-24 15:17:38,4.005s,PASSED
+"click(findTestObject(""OCS-MOBILE /Cart flyout/Back icon - new model""))",Firefox 67.0,,2019-05-24 15:17:38,2019-05-24 15:17:38,0.001s,NOT_RUN
+"delay(4, OPTIONAL)",Firefox 67.0,,2019-05-24 15:17:38,2019-05-24 15:17:42,4.005s,PASSED
+"click(findTestObject(""OCS-MOBILE /Age gate and burger menu/button_Hide bar""), OPTIONAL)",Firefox 67.0,,2019-05-24 15:17:42,2019-05-24 15:17:42,0.001s,NOT_RUN
+"delay(2, OPTIONAL)",Firefox 67.0,,2019-05-24 15:17:42,2019-05-24 15:17:44,2.006s,PASSED
+"setViewPortSize(360, 800, OPTIONAL)",Firefox 67.0,,2019-05-24 15:17:44,2019-05-24 15:17:44,0.011s,PASSED
+delay(2),Firefox 67.0,,2019-05-24 15:17:44,2019-05-24 15:17:46,2.005s,PASSED
+"click(findTestObject(""OCS-MOBILE /Cart flyout/Back icon""))",Firefox 67.0,,2019-05-24 15:17:46,2019-05-24 15:17:46,0.001s,NOT_RUN
+delay(2),Firefox 67.0,,2019-05-24 15:17:46,2019-05-24 15:17:48,2.005s,PASSED
+"scrollToElement(findTestObject(""OCS-MOBILE /Product page/Product image""), 1)",Firefox 67.0,,2019-05-24 15:17:48,2019-05-24 15:17:48,0.017s,PASSED
+delay(2),Firefox 67.0,,2019-05-24 15:17:48,2019-05-24 15:17:50,2.005s,PASSED
+"flag = verifyElementPresent(findTestObject(""OCS-MOBILE /Product page/Swatch_3.5g""), 0)",Firefox 67.0,,2019-05-24 15:17:50,2019-05-24 15:17:50,0.029s,PASSED
+"comment("" flag="" + flag)",Firefox 67.0,,2019-05-24 15:17:50,2019-05-24 15:17:50,0.007s,PASSED
+takeScreenshot(),Firefox 67.0,,2019-05-24 15:17:50,2019-05-24 15:17:51,0.052s,PASSED
+if (flag == true),Firefox 67.0,,2019-05-24 15:17:51,2019-05-24 15:18:34,43.018s,PASSED
+,,,,,,
+Test Cases/OCS - MOBILE/OCS- CRITICAL PATH/cart flyout- accessories,Firefox 67.0,,2019-05-24 15:18:34,2019-05-24 15:19:25,51.220s,PASSED
+"callTestCase(findTestCase(""OCS - MOBILE/CALL - AGE GATE""), [:], STOP_ON_FAILURE)",Firefox 67.0,,2019-05-24 15:18:34,2019-05-24 15:18:56,22.165s,PASSED
+delay(2),Firefox 67.0,,2019-05-24 15:18:56,2019-05-24 15:18:58,2.003s,PASSED
+"click(findTestObject(""OCS-MOBILE /Age gate and burger menu/Burger menu - English""))",Firefox 67.0,,2019-05-24 15:18:58,2019-05-24 15:18:58,0.249s,PASSED
+delay(2),Firefox 67.0,,2019-05-24 15:18:58,2019-05-24 15:19:00,2.003s,PASSED
+"click(findTestObject(""OCS-MOBILE /Age gate and burger menu/Chevron_Cannabis""))",Firefox 67.0,,2019-05-24 15:19:00,2019-05-24 15:19:00,0.255s,PASSED
+delay(2),Firefox 67.0,,2019-05-24 15:19:00,2019-05-24 15:19:02,2.003s,PASSED
+"click(findTestObject(""OCS-MOBILE /Age gate and burger menu/Dried Flower_Plus icon""))",Firefox 67.0,,2019-05-24 15:19:02,2019-05-24 15:19:03,0.238s,PASSED
+delay(2),Firefox 67.0,,2019-05-24 15:19:03,2019-05-24 15:19:05,2.004s,PASSED
+"click(findTestObject(""OCS-MOBILE /Age gate and burger menu/Indica Dominant_Menu item""))",Firefox 67.0,,2019-05-24 15:19:05,2019-05-24 15:19:07,2.456s,PASSED
+delay(2),Firefox 67.0,,2019-05-24 15:19:07,2019-05-24 15:19:09,2.002s,PASSED
+"click(findTestObject(""OCS-MOBILE /Collection page/Product image - 1st one""))",Firefox 67.0,,2019-05-24 15:19:09,2019-05-24 15:19:11,2.402s,PASSED
+"scrollToElement(findTestObject(""OCS-MOBILE /Product page/Product image""), 1)",Firefox 67.0,,2019-05-24 15:19:11,2019-05-24 15:19:11,0.037s,PASSED
+delay(2),Firefox 67.0,,2019-05-24 15:19:11,2019-05-24 15:19:13,2.003s,PASSED
+"click(findTestObject(""OCS-MOBILE /Product page/Swatch_1g""))",Firefox 67.0,,2019-05-24 15:19:13,2019-05-24 15:19:14,0.258s,PASSED
+"scrollToElement(findTestObject(""OCS-MOBILE /Product page/Swatch_3.5g""), 1)",Firefox 67.0,,2019-05-24 15:19:14,2019-05-24 15:19:14,0.014s,PASSED
+delay(2),Firefox 67.0,,2019-05-24 15:19:14,2019-05-24 15:19:16,2.002s,PASSED
+"click(findTestObject(""OCS-MOBILE /Product page/Add to Bag-button""))",Firefox 67.0,,2019-05-24 15:19:16,2019-05-24 15:19:16,0.253s,PASSED
+delay(2),Firefox 67.0,,2019-05-24 15:19:16,2019-05-24 15:19:18,2.001s,PASSED
+"click(findTestObject(""OCS-MOBILE /Home - page/Cart icon -bag""))",Firefox 67.0,,2019-05-24 15:19:18,2019-05-24 15:19:18,0.231s,PASSED
+delay(2),Firefox 67.0,,2019-05-24 15:19:18,2019-05-24 15:19:20,2.007s,PASSED
+"click(findTestObject(""OCS-MOBILE /Cart flyout/Up Chevron - Accessories you might need""))",Firefox 67.0,,2019-05-24 15:19:20,2019-05-24 15:19:20,0.236s,PASSED
+delay(4),Firefox 67.0,,2019-05-24 15:19:20,2019-05-24 15:19:24,4.002s,PASSED
+"click(findTestObject(""OCS-MOBILE /Cart flyout/Down Chevron - Accessories you might need""))",Firefox 67.0,,2019-05-24 15:19:24,2019-05-24 15:19:25,0.262s,PASSED
+,,,,,,
+Test Cases/OCS - MOBILE/OCS- CRITICAL PATH/Cart flyout- decrease qty,Firefox 67.0,,2019-05-24 15:19:25,2019-05-24 15:20:22,57.543s,FAILED
+"callTestCase(findTestCase(""OCS - MOBILE/CALL - AGE GATE""), [:], STOP_ON_FAILURE)",Firefox 67.0,,2019-05-24 15:19:25,2019-05-24 15:19:44,18.534s,PASSED
+delay(2),Firefox 67.0,,2019-05-24 15:19:44,2019-05-24 15:19:46,2.002s,PASSED
+"click(findTestObject(""OCS-MOBILE /Age gate and burger menu/Burger menu - English""))",Firefox 67.0,,2019-05-24 15:19:46,2019-05-24 15:19:46,0.234s,PASSED
+delay(2),Firefox 67.0,,2019-05-24 15:19:46,2019-05-24 15:19:48,2.002s,PASSED
+"click(findTestObject(""OCS-MOBILE /Age gate and burger menu/Chevron_Cannabis""))",Firefox 67.0,,2019-05-24 15:19:48,2019-05-24 15:19:48,0.267s,PASSED
+delay(2),Firefox 67.0,,2019-05-24 15:19:48,2019-05-24 15:19:50,2.003s,PASSED
+"click(findTestObject(""OCS-MOBILE /Age gate and burger menu/Dried Flower_Plus icon""))",Firefox 67.0,,2019-05-24 15:19:50,2019-05-24 15:19:50,0.246s,PASSED
+delay(2),Firefox 67.0,,2019-05-24 15:19:50,2019-05-24 15:19:52,2.002s,PASSED
+"click(findTestObject(""OCS-MOBILE /Age gate and burger menu/Indica Dominant_Menu item""))",Firefox 67.0,,2019-05-24 15:19:52,2019-05-24 15:19:55,2.635s,PASSED
+delay(2),Firefox 67.0,,2019-05-24 15:19:55,2019-05-24 15:19:57,2.005s,PASSED
+"click(findTestObject(""OCS-MOBILE /Collection page/Product image - 1st one""))",Firefox 67.0,,2019-05-24 15:19:57,2019-05-24 15:19:59,2.229s,PASSED
+"executeJavaScript(""var previewBar = document.getElementById(""preview-bar-iframe""); previewBar.style.display = ""none"";"", [])",Firefox 67.0,,2019-05-24 15:19:59,2019-05-24 15:19:59,0.060s,PASSED
+"scrollToElement(findTestObject(""OCS-MOBILE /Product page/Product image""), 1)",Firefox 67.0,,2019-05-24 15:19:59,2019-05-24 15:19:59,0.036s,PASSED
+delay(2),Firefox 67.0,,2019-05-24 15:19:59,2019-05-24 15:20:01,2.006s,PASSED
+"flag = verifyElementClickable(findTestObject(""OCS-MOBILE /Product page/Swatch_3.5g""))",Firefox 67.0,,2019-05-24 15:20:01,2019-05-24 15:20:01,0.025s,PASSED
+takeScreenshot(),Firefox 67.0,,2019-05-24 15:20:01,2019-05-24 15:20:01,0.059s,PASSED
+"comment("" flag ="" + flag)",Firefox 67.0,,2019-05-24 15:20:01,2019-05-24 15:20:01,0.001s,PASSED
+if (flag == true),Firefox 67.0,,2019-05-24 15:20:01,2019-05-24 15:20:22,20.963s,FAILED
+,,,,,,
+Test Cases/OCS - MOBILE/OCS- CRITICAL PATH/Cart flyout- increase qty,Firefox 67.0,,2019-05-24 15:20:22,2019-05-24 15:21:00,37.358s,FAILED
+"callTestCase(findTestCase(""OCS - MOBILE/CALL - AGE GATE""), [:], STOP_ON_FAILURE)",Firefox 67.0,,2019-05-24 15:20:22,2019-05-24 15:20:41,18.870s,PASSED
+delay(2),Firefox 67.0,,2019-05-24 15:20:41,2019-05-24 15:20:43,2.002s,PASSED
+"click(findTestObject(""OCS-MOBILE /Age gate and burger menu/Burger menu - English""))",Firefox 67.0,,2019-05-24 15:20:43,2019-05-24 15:20:44,0.240s,PASSED
+delay(2),Firefox 67.0,,2019-05-24 15:20:44,2019-05-24 15:20:46,2.005s,PASSED
+"click(findTestObject(""OCS-MOBILE /Age gate and burger menu/Chevron_Cannabis""))",Firefox 67.0,,2019-05-24 15:20:46,2019-05-24 15:20:46,0.266s,PASSED
+delay(2),Firefox 67.0,,2019-05-24 15:20:46,2019-05-24 15:20:48,2.006s,PASSED
+"click(findTestObject(""OCS-MOBILE /Age gate and burger menu/Dried Flower_Plus icon""))",Firefox 67.0,,2019-05-24 15:20:48,2019-05-24 15:20:48,0.245s,PASSED
+delay(2),Firefox 67.0,,2019-05-24 15:20:48,2019-05-24 15:20:50,2.002s,PASSED
+"click(findTestObject(""OCS-MOBILE /Age gate and burger menu/Indica Dominant_Menu item""))",Firefox 67.0,,2019-05-24 15:20:50,2019-05-24 15:20:53,2.878s,PASSED
+delay(2),Firefox 67.0,,2019-05-24 15:20:53,2019-05-24 15:20:55,2.006s,PASSED
+"click(findTestObject(""OCS-MOBILE /Collection page/Product image - 1st one""))",Firefox 67.0,,2019-05-24 15:20:55,2019-05-24 15:20:58,2.589s,PASSED
+"executeJavaScript(""var previewBar = document.getElementById(""preview-bar-iframe""); previewBar.style.display = ""none"";"", [])",Firefox 67.0,,2019-05-24 15:20:58,2019-05-24 15:20:58,0.027s,PASSED
+"scrollToElement(findTestObject(""OCS-MOBILE /Product page/Product image""), 1)",Firefox 67.0,,2019-05-24 15:20:58,2019-05-24 15:20:58,0.024s,PASSED
+delay(2),Firefox 67.0,,2019-05-24 15:20:58,2019-05-24 15:21:00,2.001s,PASSED
+"flag = verifyElementClickable(findTestObject(""OCS-MOBILE /Product page/Swatch_3.5g""))",Firefox 67.0,,2019-05-24 15:21:00,2019-05-24 15:21:00,0.019s,PASSED
+"comment("" flag ="" + flag)",Firefox 67.0,,2019-05-24 15:21:00,2019-05-24 15:21:00,0.000s,PASSED
+if (flag == true),Firefox 67.0,,2019-05-24 15:21:00,2019-05-24 15:21:00,0.081s,FAILED
+,,,,,,
+Test Cases/OCS - MOBILE/OCS- CRITICAL PATH/Cart flyout-price comparison,Firefox 67.0,,2019-05-24 15:21:00,2019-05-24 15:22:15,1m - 15.480s,FAILED
+"callTestCase(findTestCase(""OCS - MOBILE/CALL - AGE GATE""), [:], STOP_ON_FAILURE)",Firefox 67.0,,2019-05-24 15:21:00,2019-05-24 15:21:20,20.565s,PASSED
+delay(2),Firefox 67.0,,2019-05-24 15:21:20,2019-05-24 15:21:22,2.004s,PASSED
+"click(findTestObject(""OCS-MOBILE /Age gate and burger menu/Burger menu - English""))",Firefox 67.0,,2019-05-24 15:21:22,2019-05-24 15:21:23,0.244s,PASSED
+delay(2),Firefox 67.0,,2019-05-24 15:21:23,2019-05-24 15:21:25,2.003s,PASSED
+"click(findTestObject(""OCS-MOBILE /Age gate and burger menu/Chevron_Cannabis""))",Firefox 67.0,,2019-05-24 15:21:25,2019-05-24 15:21:25,0.259s,PASSED
+delay(2),Firefox 67.0,,2019-05-24 15:21:25,2019-05-24 15:21:27,2.006s,PASSED
+"click(findTestObject(""OCS-MOBILE /Age gate and burger menu/Dried Flower_Plus icon""))",Firefox 67.0,,2019-05-24 15:21:27,2019-05-24 15:21:27,0.239s,PASSED
+delay(2),Firefox 67.0,,2019-05-24 15:21:27,2019-05-24 15:21:29,2.006s,PASSED
+"click(findTestObject(""OCS-MOBILE /Age gate and burger menu/Indica Dominant_Menu item""))",Firefox 67.0,,2019-05-24 15:21:29,2019-05-24 15:21:32,2.643s,PASSED
+delay(2),Firefox 67.0,,2019-05-24 15:21:32,2019-05-24 15:21:34,2.004s,PASSED
+"click(findTestObject(""OCS-MOBILE /Collection page/Product image - 1st one""))",Firefox 67.0,,2019-05-24 15:21:34,2019-05-24 15:21:36,2.414s,PASSED
+"executeJavaScript(""var previewBar = document.getElementById(""preview-bar-iframe""); previewBar.style.display = ""none"";"", [])",Firefox 67.0,,2019-05-24 15:21:36,2019-05-24 15:21:36,0.059s,PASSED
+"scrollToElement(findTestObject(""OCS-MOBILE /Product page/Product image""), 1)",Firefox 67.0,,2019-05-24 15:21:36,2019-05-24 15:21:36,0.031s,PASSED
+delay(2),Firefox 67.0,,2019-05-24 15:21:36,2019-05-24 15:21:38,2.003s,PASSED
+"flag = verifyElementPresent(findTestObject(""OCS-MOBILE /Product page/Swatch_3.5g""), 0)",Firefox 67.0,,2019-05-24 15:21:38,2019-05-24 15:21:38,0.010s,PASSED
+"comment("" flag="" + flag)",Firefox 67.0,,2019-05-24 15:21:38,2019-05-24 15:21:38,0.000s,PASSED
+takeScreenshot(),Firefox 67.0,,2019-05-24 15:21:38,2019-05-24 15:21:38,0.065s,PASSED
+if (flag == true),Firefox 67.0,,2019-05-24 15:21:38,2019-05-24 15:21:40,2.085s,FAILED
+"delay(1, OPTIONAL)",Firefox 67.0,,2019-05-24 15:21:40,2019-05-24 15:21:41,1.002s,PASSED
+"click(findTestObject(""OCS-MOBILE /Product page/Add to Bag-button""))",Firefox 67.0,,2019-05-24 15:21:41,2019-05-24 15:21:42,0.251s,PASSED
+delay(1),Firefox 67.0,,2019-05-24 15:21:42,2019-05-24 15:21:43,1.002s,PASSED
+"click(findTestObject(""OCS-MOBILE /Cart flyout/Back icon""))",Firefox 67.0,,2019-05-24 15:21:43,2019-05-24 15:21:43,0.001s,NOT_RUN
+delay(2),Firefox 67.0,,2019-05-24 15:21:43,2019-05-24 15:21:45,2.006s,PASSED
+"click(findTestObject(""OCS-MOBILE /Age gate and burger menu/Burger menu - English""))",Firefox 67.0,,2019-05-24 15:21:45,2019-05-24 15:21:45,0.234s,PASSED
+delay(2),Firefox 67.0,,2019-05-24 15:21:45,2019-05-24 15:21:47,2.001s,PASSED
+"click(findTestObject(""OCS-MOBILE /Age gate and burger menu/Chevron_Cannabis""))",Firefox 67.0,,2019-05-24 15:21:47,2019-05-24 15:21:47,0.262s,PASSED
+delay(2),Firefox 67.0,,2019-05-24 15:21:47,2019-05-24 15:21:49,2.004s,PASSED
+"click(findTestObject(""OCS-MOBILE /Age gate and burger menu/Dried Flower_Plus icon""))",Firefox 67.0,,2019-05-24 15:21:49,2019-05-24 15:21:49,0.279s,PASSED
+delay(2),Firefox 67.0,,2019-05-24 15:21:49,2019-05-24 15:21:51,2.001s,PASSED
+"click(findTestObject(""OCS-MOBILE /Age gate and burger menu/Indica Dominant_Menu item""))",Firefox 67.0,,2019-05-24 15:21:51,2019-05-24 15:21:54,2.514s,PASSED
+delay(2),Firefox 67.0,,2019-05-24 15:21:54,2019-05-24 15:21:56,2.005s,PASSED
+"scrollToElement(findTestObject(""OCS-MOBILE /Collection page/Product image - 1st one""), 1)",Firefox 67.0,,2019-05-24 15:21:56,2019-05-24 15:21:56,0.089s,PASSED
+delay(1),Firefox 67.0,,2019-05-24 15:21:56,2019-05-24 15:21:57,1.002s,PASSED
+"navigateToUrl(""https://ocs.ca/products/dream-weaver"")",Firefox 67.0,,2019-05-24 15:21:57,2019-05-24 15:21:59,2.076s,PASSED
+"click(findTestObject(""OCS-MOBILE /Collection page/Product image - 2nd one""))",Firefox 67.0,,2019-05-24 15:21:59,2019-05-24 15:21:59,0.000s,NOT_RUN
+delay(2),Firefox 67.0,,2019-05-24 15:21:59,2019-05-24 15:22:01,2.003s,PASSED
+"scrollToElement(findTestObject(""OCS-MOBILE /Product page/Product image""), 1)",Firefox 67.0,,2019-05-24 15:22:01,2019-05-24 15:22:01,0.015s,PASSED
+delay(2),Firefox 67.0,,2019-05-24 15:22:01,2019-05-24 15:22:03,2.004s,PASSED
+"click(findTestObject(""OCS-MOBILE /Product page/Swatch_3.5g""))",Firefox 67.0,,2019-05-24 15:22:03,2019-05-24 15:22:04,0.322s,PASSED
+"scrollToElement(findTestObject(""OCS-MOBILE /Product page/Swatch_3.5g""), 1)",Firefox 67.0,,2019-05-24 15:22:04,2019-05-24 15:22:04,0.017s,PASSED
+delay(2),Firefox 67.0,,2019-05-24 15:22:04,2019-05-24 15:22:06,2.004s,PASSED
+"click(findTestObject(""OCS-MOBILE /Product page/Add to Bag-button""))",Firefox 67.0,,2019-05-24 15:22:06,2019-05-24 15:22:06,0.238s,PASSED
+delay(1),Firefox 67.0,,2019-05-24 15:22:06,2019-05-24 15:22:07,1.005s,PASSED
+"click(findTestObject(""OCS-MOBILE /Home - page/Cart icon -bag""))",Firefox 67.0,,2019-05-24 15:22:07,2019-05-24 15:22:07,0.233s,PASSED
+delay(2),Firefox 67.0,,2019-05-24 15:22:07,2019-05-24 15:22:09,2.005s,PASSED
+"k = getText(findTestObject(""OCS-MOBILE /Cart flyout/Unit price - 1st Product""))",Firefox 67.0,,2019-05-24 15:22:09,2019-05-24 15:22:09,0.042s,PASSED
+delay(2),Firefox 67.0,,2019-05-24 15:22:09,2019-05-24 15:22:11,2.002s,PASSED
+"a = getText(findTestObject(""OCS-MOBILE /Cart flyout/Unit price - 2nd Product""))",Firefox 67.0,,2019-05-24 15:22:11,2019-05-24 15:22:11,0.022s,PASSED
+delay(2),Firefox 67.0,,2019-05-24 15:22:11,2019-05-24 15:22:13,2.001s,PASSED
+"comment(""a="" + a)",Firefox 67.0,,2019-05-24 15:22:13,2019-05-24 15:22:13,0.001s,PASSED
+without = a.substring(1),Firefox 67.0,,2019-05-24 15:22:13,2019-05-24 15:22:13,0.000s,PASSED
+"comment(""without = "" + without)",Firefox 67.0,,2019-05-24 15:22:13,2019-05-24 15:22:13,0.001s,PASSED
+"last = without.substring(0, without.length() - 1)",Firefox 67.0,,2019-05-24 15:22:13,2019-05-24 15:22:13,0.006s,PASSED
+"comment(""last="" + last)",Firefox 67.0,,2019-05-24 15:22:13,2019-05-24 15:22:13,0.000s,PASSED
+"comment(""k="" + k)",Firefox 67.0,,2019-05-24 15:22:13,2019-05-24 15:22:13,0.000s,PASSED
+without1 = k.substring(1),Firefox 67.0,,2019-05-24 15:22:13,2019-05-24 15:22:13,0.001s,PASSED
+"comment(""without1 = "" + without1)",Firefox 67.0,,2019-05-24 15:22:13,2019-05-24 15:22:13,0.000s,PASSED
+p1 = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Firefox 67.0,,2019-05-24 15:22:13,2019-05-24 15:22:13,0.000s,PASSED
+p2 = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Firefox 67.0,,2019-05-24 15:22:13,2019-05-24 15:22:13,0.000s,PASSED
+try,Firefox 67.0,,2019-05-24 15:22:13,2019-05-24 15:22:13,0.003s,PASSED
+try,Firefox 67.0,,2019-05-24 15:22:13,2019-05-24 15:22:13,0.002s,PASSED
+total = p1 + p2,Firefox 67.0,,2019-05-24 15:22:13,2019-05-24 15:22:13,0.000s,PASSED
+"comment(""total ="" + total)",Firefox 67.0,,2019-05-24 15:22:13,2019-05-24 15:22:13,0.000s,PASSED
+"executeJavaScript(""var previewBar = document.getElementById(""preview-bar-iframe""); previewBar.style.display = ""none"";"", [])",Firefox 67.0,,2019-05-24 15:22:13,2019-05-24 15:22:13,0.009s,PASSED
+"amount = getText(findTestObject(""OCS-MOBILE /Cart flyout/Sub-total Price""))",Firefox 67.0,,2019-05-24 15:22:13,2019-05-24 15:22:13,0.021s,PASSED
+delay(2),Firefox 67.0,,2019-05-24 15:22:13,2019-05-24 15:22:15,2.002s,PASSED
+"comment(""amount ="" + amount)",Firefox 67.0,,2019-05-24 15:22:15,2019-05-24 15:22:15,0.000s,PASSED
+soustotal = amount.substring(1),Firefox 67.0,,2019-05-24 15:22:15,2019-05-24 15:22:15,0.000s,PASSED
+"comment(""soustotal= "" + soustotal)",Firefox 67.0,,2019-05-24 15:22:15,2019-05-24 15:22:15,0.000s,PASSED
+p = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Firefox 67.0,,2019-05-24 15:22:15,2019-05-24 15:22:15,0.000s,PASSED
+try,Firefox 67.0,,2019-05-24 15:22:15,2019-05-24 15:22:15,0.003s,PASSED
+finalprice = soustotal,Firefox 67.0,,2019-05-24 15:22:15,2019-05-24 15:22:15,0.000s,PASSED
+"comment(""finalprice="" + finalprice)",Firefox 67.0,,2019-05-24 15:22:15,2019-05-24 15:22:15,0.000s,PASSED
+p = Double.valueOf(finalprice),Firefox 67.0,,2019-05-24 15:22:15,2019-05-24 15:22:15,0.000s,PASSED
+"comment(""p="" + p)",Firefox 67.0,,2019-05-24 15:22:15,2019-05-24 15:22:15,0.000s,PASSED
+"verifyEqual(total, p)",Firefox 67.0,,2019-05-24 15:22:15,2019-05-24 15:22:15,0.002s,FAILED
+,,,,,,
+Test Cases/OCS - MOBILE/OCS- CRITICAL PATH/Cart flyout-tooltips,Firefox 67.0,,2019-05-24 15:22:15,2019-05-24 15:22:56,40.644s,FAILED
+"callTestCase(findTestCase(""OCS - MOBILE/CALL - AGE GATE""), [:], STOP_ON_FAILURE)",Firefox 67.0,,2019-05-24 15:22:15,2019-05-24 15:22:37,21.338s,PASSED
+delay(2),Firefox 67.0,,2019-05-24 15:22:37,2019-05-24 15:22:39,2.002s,PASSED
+"click(findTestObject(""OCS-MOBILE /Age gate and burger menu/Burger menu - English""))",Firefox 67.0,,2019-05-24 15:22:39,2019-05-24 15:22:39,0.249s,PASSED
+delay(2),Firefox 67.0,,2019-05-24 15:22:39,2019-05-24 15:22:41,2.005s,PASSED
+"click(findTestObject(""OCS-MOBILE /Age gate and burger menu/Chevron_Cannabis""))",Firefox 67.0,,2019-05-24 15:22:41,2019-05-24 15:22:41,0.257s,PASSED
+delay(2),Firefox 67.0,,2019-05-24 15:22:41,2019-05-24 15:22:43,2.005s,PASSED
+"click(findTestObject(""OCS-MOBILE /Age gate and burger menu/Dried Flower_Plus icon""))",Firefox 67.0,,2019-05-24 15:22:43,2019-05-24 15:22:43,0.240s,PASSED
+delay(2),Firefox 67.0,,2019-05-24 15:22:43,2019-05-24 15:22:45,2.003s,PASSED
+"click(findTestObject(""OCS-MOBILE /Age gate and burger menu/Indica Dominant_Menu item""))",Firefox 67.0,,2019-05-24 15:22:45,2019-05-24 15:22:48,2.744s,PASSED
+delay(2),Firefox 67.0,,2019-05-24 15:22:48,2019-05-24 15:22:50,2.001s,PASSED
+"click(findTestObject(""OCS-MOBILE /Collection page/Product image - 1st one""))",Firefox 67.0,,2019-05-24 15:22:50,2019-05-24 15:22:53,2.593s,PASSED
+"click(findTestObject(""Object Repository/Cart flyout-tooltips_OR/Page_Ontario Cannabis Store  Ontari/h3_Cannabis""))",Firefox 67.0,,2019-05-24 15:22:53,2019-05-24 15:22:53,0.001s,NOT_RUN
+"click(findTestObject(""Object Repository/Cart flyout-tooltips_OR/Page_Ontario Cannabis Store  Ontari/span_Indica Dominant""))",Firefox 67.0,,2019-05-24 15:22:53,2019-05-24 15:22:53,0.000s,NOT_RUN
+"click(findTestObject(""Object Repository/Cart flyout-tooltips_OR/Page_Indica Dominant Dried Flower/h3_Shishkaberry""))",Firefox 67.0,,2019-05-24 15:22:53,2019-05-24 15:22:53,0.000s,NOT_RUN
+"click(findTestObject(""Object Repository/Cart flyout-tooltips_OR/Page_Shishkaberry  Ontario Cannabis/label_1g""))",Firefox 67.0,,2019-05-24 15:22:53,2019-05-24 15:22:53,0.000s,NOT_RUN
+"click(findTestObject(""Object Repository/Cart flyout-tooltips_OR/Page_Shishkaberry  Ontario Cannabis/button_Add to Bag9.75""))",Firefox 67.0,,2019-05-24 15:22:53,2019-05-24 15:22:53,0.001s,NOT_RUN
+delay(3),Firefox 67.0,,2019-05-24 15:22:53,2019-05-24 15:22:56,3.003s,PASSED
+"executeJavaScript(""var previewBar = document.getElementById(""preview-bar-iframe""); previewBar.style.display = ""none"";"", [])",Firefox 67.0,,2019-05-24 15:22:56,2019-05-24 15:22:56,0.008s,PASSED
+"scrollToElement(findTestObject(""OCS-MOBILE /Product page/Product image""), 1)",Firefox 67.0,,2019-05-24 15:22:56,2019-05-24 15:22:56,0.025s,PASSED
+"click(findTestObject(""OCS-MOBILE /Product page/Swatch_3.5g""))",Firefox 67.0,,2019-05-24 15:22:56,2019-05-24 15:22:56,0.088s,FAILED
+,,,,,,
+Test Cases/OCS - MOBILE/OCS- CRITICAL PATH/Cart page- decrease qty,Firefox 67.0,,2019-05-24 15:22:56,2019-05-24 15:23:36,40.511s,FAILED
+"callTestCase(findTestCase(""OCS - MOBILE/CALL - AGE GATE""), [:], STOP_ON_FAILURE)",Firefox 67.0,,2019-05-24 15:22:56,2019-05-24 15:23:19,22.921s,PASSED
+delay(2),Firefox 67.0,,2019-05-24 15:23:19,2019-05-24 15:23:21,2.002s,PASSED
+"click(findTestObject(""OCS-MOBILE /Age gate and burger menu/Burger menu - English""))",Firefox 67.0,,2019-05-24 15:23:21,2019-05-24 15:23:21,0.248s,PASSED
+delay(2),Firefox 67.0,,2019-05-24 15:23:21,2019-05-24 15:23:23,2.003s,PASSED
+"click(findTestObject(""OCS-MOBILE /Age gate and burger menu/Chevron_Cannabis""))",Firefox 67.0,,2019-05-24 15:23:23,2019-05-24 15:23:23,0.260s,PASSED
+delay(2),Firefox 67.0,,2019-05-24 15:23:23,2019-05-24 15:23:25,2.004s,PASSED
+"click(findTestObject(""OCS-MOBILE /Age gate and burger menu/Dried Flower_Plus icon""))",Firefox 67.0,,2019-05-24 15:23:25,2019-05-24 15:23:26,0.253s,PASSED
+delay(2),Firefox 67.0,,2019-05-24 15:23:26,2019-05-24 15:23:28,2.006s,PASSED
+"click(findTestObject(""OCS-MOBILE /Age gate and burger menu/Indica Dominant_Menu item""))",Firefox 67.0,,2019-05-24 15:23:28,2019-05-24 15:23:30,2.186s,PASSED
+delay(2),Firefox 67.0,,2019-05-24 15:23:30,2019-05-24 15:23:32,2.002s,PASSED
+"click(findTestObject(""OCS-MOBILE /Collection page/Product image - 1st one""))",Firefox 67.0,,2019-05-24 15:23:32,2019-05-24 15:23:34,2.376s,PASSED
+"executeJavaScript(""var previewBar = document.getElementById(""preview-bar-iframe""); previewBar.style.display = ""none"";"", [])",Firefox 67.0,,2019-05-24 15:23:34,2019-05-24 15:23:34,0.052s,PASSED
+"scrollToElement(findTestObject(""OCS-MOBILE /Product page/Product image""), 1)",Firefox 67.0,,2019-05-24 15:23:34,2019-05-24 15:23:34,0.028s,PASSED
+delay(2),Firefox 67.0,,2019-05-24 15:23:34,2019-05-24 15:23:36,2.002s,PASSED
+"click(findTestObject(""OCS-MOBILE /Product page/Swatch_3.5g""))",Firefox 67.0,,2019-05-24 15:23:36,2019-05-24 15:23:36,0.075s,FAILED
+,,,,,,
+Test Cases/OCS - MOBILE/OCS- CRITICAL PATH/cart page-increase qty,Firefox 67.0,,2019-05-24 15:23:36,2019-05-24 15:24:13,36.566s,FAILED
+"callTestCase(findTestCase(""OCS - MOBILE/CALL - AGE GATE""), [:], STOP_ON_FAILURE)",Firefox 67.0,,2019-05-24 15:23:36,2019-05-24 15:23:55,18.610s,PASSED
+delay(2),Firefox 67.0,,2019-05-24 15:23:55,2019-05-24 15:23:57,2.004s,PASSED
+"click(findTestObject(""OCS-MOBILE /Age gate and burger menu/Burger menu - English""))",Firefox 67.0,,2019-05-24 15:23:57,2019-05-24 15:23:57,0.236s,PASSED
+delay(2),Firefox 67.0,,2019-05-24 15:23:57,2019-05-24 15:23:59,2.003s,PASSED
+"click(findTestObject(""OCS-MOBILE /Age gate and burger menu/Chevron_Cannabis""))",Firefox 67.0,,2019-05-24 15:23:59,2019-05-24 15:24:00,0.271s,PASSED
+delay(2),Firefox 67.0,,2019-05-24 15:24:00,2019-05-24 15:24:02,2.001s,PASSED
+"click(findTestObject(""OCS-MOBILE /Age gate and burger menu/Dried Flower_Plus icon""))",Firefox 67.0,,2019-05-24 15:24:02,2019-05-24 15:24:02,0.246s,PASSED
+delay(2),Firefox 67.0,,2019-05-24 15:24:02,2019-05-24 15:24:04,2.005s,PASSED
+"click(findTestObject(""OCS-MOBILE /Age gate and burger menu/Indica Dominant_Menu item""))",Firefox 67.0,,2019-05-24 15:24:04,2019-05-24 15:24:07,2.880s,PASSED
+delay(2),Firefox 67.0,,2019-05-24 15:24:07,2019-05-24 15:24:09,2.002s,PASSED
+"click(findTestObject(""OCS-MOBILE /Collection page/Product image - 1st one""))",Firefox 67.0,,2019-05-24 15:24:09,2019-05-24 15:24:11,1.963s,PASSED
+"executeJavaScript(""var previewBar = document.getElementById(""preview-bar-iframe""); previewBar.style.display = ""none"";"", [])",Firefox 67.0,,2019-05-24 15:24:11,2019-05-24 15:24:11,0.045s,PASSED
+"scrollToElement(findTestObject(""OCS-MOBILE /Product page/Product image""), 1)",Firefox 67.0,,2019-05-24 15:24:11,2019-05-24 15:24:11,0.073s,PASSED
+delay(2),Firefox 67.0,,2019-05-24 15:24:11,2019-05-24 15:24:13,2.002s,PASSED
+"click(findTestObject(""OCS-MOBILE /Product page/Swatch_3.5g""))",Firefox 67.0,,2019-05-24 15:24:13,2019-05-24 15:24:13,0.081s,FAILED
+,,,,,,
+Test Cases/OCS - MOBILE/OCS- CRITICAL PATH/Checkout - customer information page,Firefox 67.0,,2019-05-24 15:24:13,2019-05-24 15:25:41,1m - 28.043s,PASSED
+"callTestCase(findTestCase(""OCS - MOBILE/CALL - AGE GATE""), [:], STOP_ON_FAILURE)",Firefox 67.0,,2019-05-24 15:24:13,2019-05-24 15:24:32,19.004s,PASSED
+delay(2),Firefox 67.0,,2019-05-24 15:24:32,2019-05-24 15:24:34,2.004s,PASSED
+refresh(),Firefox 67.0,,2019-05-24 15:24:34,2019-05-24 15:24:39,4.630s,PASSED
+"click(findTestObject(""OCS-MOBILE /Age gate and burger menu/Burger menu - English""))",Firefox 67.0,,2019-05-24 15:24:39,2019-05-24 15:24:39,0.259s,PASSED
+delay(2),Firefox 67.0,,2019-05-24 15:24:39,2019-05-24 15:24:41,2.002s,PASSED
+"click(findTestObject(""OCS-MOBILE /Age gate and burger menu/Chevron_Cannabis""))",Firefox 67.0,,2019-05-24 15:24:41,2019-05-24 15:24:41,0.282s,PASSED
+delay(2),Firefox 67.0,,2019-05-24 15:24:41,2019-05-24 15:24:43,2.006s,PASSED
+"click(findTestObject(""OCS-MOBILE /Age gate and burger menu/Dried Flower_Plus icon""))",Firefox 67.0,,2019-05-24 15:24:43,2019-05-24 15:24:43,0.242s,PASSED
+delay(2),Firefox 67.0,,2019-05-24 15:24:43,2019-05-24 15:24:45,2.003s,PASSED
+"click(findTestObject(""OCS-MOBILE /Age gate and burger menu/Indica Dominant_Menu item""))",Firefox 67.0,,2019-05-24 15:24:45,2019-05-24 15:24:48,2.139s,PASSED
+delay(2),Firefox 67.0,,2019-05-24 15:24:48,2019-05-24 15:24:50,2.005s,PASSED
+"click(findTestObject(""OCS-MOBILE /Collection page/Product image - 1st one""))",Firefox 67.0,,2019-05-24 15:24:50,2019-05-24 15:24:52,2.191s,PASSED
+delay(1),Firefox 67.0,,2019-05-24 15:24:52,2019-05-24 15:24:53,1.004s,PASSED
+delay(3),Firefox 67.0,,2019-05-24 15:24:53,2019-05-24 15:24:56,3.005s,PASSED
+"scrollToElement(findTestObject(""OCS-MOBILE /Product page/Product image""), 1)",Firefox 67.0,,2019-05-24 15:24:56,2019-05-24 15:24:56,0.044s,PASSED
+"navigateToUrl(""https://ocs.ca/products/dream-weaver"")",Firefox 67.0,,2019-05-24 15:24:56,2019-05-24 15:25:01,4.739s,PASSED
+"executeJavaScript(""var previewBar = document.getElementById(""preview-bar-iframe""); previewBar.style.display = ""none"";"", [])",Firefox 67.0,,2019-05-24 15:25:01,2019-05-24 15:25:01,0.044s,PASSED
+"click(findTestObject(""OCS-MOBILE /Product page/Swatch_3.5g""))",Firefox 67.0,,2019-05-24 15:25:01,2019-05-24 15:25:01,0.378s,PASSED
+delay(2),Firefox 67.0,,2019-05-24 15:25:01,2019-05-24 15:25:03,2.005s,PASSED
+"click(findTestObject(""OCS-MOBILE /Product page/Add to Bag-button""))",Firefox 67.0,,2019-05-24 15:25:03,2019-05-24 15:25:03,0.279s,PASSED
+delay(2),Firefox 67.0,,2019-05-24 15:25:03,2019-05-24 15:25:05,2.003s,PASSED
+"click(findTestObject(""OCS-MOBILE /Home - page/Cart icon -bag""))",Firefox 67.0,,2019-05-24 15:25:05,2019-05-24 15:25:05,0.231s,PASSED
+delay(2),Firefox 67.0,,2019-05-24 15:25:05,2019-05-24 15:25:07,2.018s,PASSED
+"click(findTestObject(""OCS-MOBILE /Cart flyout/Checkbox_I confirm that""))",Firefox 67.0,,2019-05-24 15:25:07,2019-05-24 15:25:08,0.248s,PASSED
+delay(2),Firefox 67.0,,2019-05-24 15:25:08,2019-05-24 15:25:10,2.003s,PASSED
+"click(findTestObject(""OCS-MOBILE /Cart flyout/Checkbox_Accept the Terms Condition""))",Firefox 67.0,,2019-05-24 15:25:10,2019-05-24 15:25:10,0.269s,PASSED
+delay(1),Firefox 67.0,,2019-05-24 15:25:10,2019-05-24 15:25:11,1.002s,PASSED
+"click(findTestObject(""OCS-MOBILE /Cart flyout/Checkout - Button""))",Firefox 67.0,,2019-05-24 15:25:11,2019-05-24 15:25:20,9.094s,PASSED
+delay(2),Firefox 67.0,,2019-05-24 15:25:20,2019-05-24 15:25:22,2.004s,PASSED
+"executeJavaScript(""var previewBar = document.getElementById(""preview-bar-iframe""); previewBar.style.display = ""none"";"", [])",Firefox 67.0,,2019-05-24 15:25:22,2019-05-24 15:25:22,0.008s,PASSED
+delay(1),Firefox 67.0,,2019-05-24 15:25:22,2019-05-24 15:25:23,1.002s,PASSED
+"click(findTestObject(""OCS-MOBILE /Customer info page/Chevron_OrderSummary""))",Firefox 67.0,,2019-05-24 15:25:23,2019-05-24 15:25:23,0.261s,PASSED
+delay(2),Firefox 67.0,,2019-05-24 15:25:23,2019-05-24 15:25:25,2.002s,PASSED
+"scrollToElement(findTestObject(""OCS-MOBILE /Customer info page/input_Email""), 0)",Firefox 67.0,,2019-05-24 15:25:25,2019-05-24 15:25:25,0.016s,PASSED
+"setText(findTestObject(""OCS-MOBILE /Customer info page/input_Email""), ""suman.kompelly@diffagency.com"")",Firefox 67.0,,2019-05-24 15:25:25,2019-05-24 15:25:26,0.106s,PASSED
+"setText(findTestObject(""OCS-MOBILE /Customer info page/input_First name""), ""suman"")",Firefox 67.0,,2019-05-24 15:25:26,2019-05-24 15:25:26,0.086s,PASSED
+"setText(findTestObject(""OCS-MOBILE /Customer info page/input_Last name""), ""kompelly"")",Firefox 67.0,,2019-05-24 15:25:26,2019-05-24 15:25:26,0.053s,PASSED
+"setText(findTestObject(""OCS-MOBILE /Customer info page/input_Address""), ""300 saint alxendre"")",Firefox 67.0,,2019-05-24 15:25:26,2019-05-24 15:25:26,0.091s,PASSED
+"setText(findTestObject(""OCS-MOBILE /Customer info page/input_Apartment suite etc. (op""), ""199"")",Firefox 67.0,,2019-05-24 15:25:26,2019-05-24 15:25:26,0.065s,PASSED
+"setText(findTestObject(""OCS-MOBILE /Customer info page/input_City""), ""montreal"")",Firefox 67.0,,2019-05-24 15:25:26,2019-05-24 15:25:26,0.079s,PASSED
+"setText(findTestObject(""OCS-MOBILE /Customer info page/input_Postal code""), ""n0R1K0"")",Firefox 67.0,,2019-05-24 15:25:26,2019-05-24 15:25:26,0.063s,PASSED
+"setText(findTestObject(""OCS-MOBILE /Customer info page/input_Phone""), ""(514) 449-3882"")",Firefox 67.0,,2019-05-24 15:25:26,2019-05-24 15:25:26,0.106s,PASSED
+delay(1),Firefox 67.0,,2019-05-24 15:25:26,2019-05-24 15:25:27,1.006s,PASSED
+"scrollToElement(findTestObject(""OCS-MOBILE /Customer info page/Return to Cart - Link""), 1)",Firefox 67.0,,2019-05-24 15:25:27,2019-05-24 15:25:27,0.014s,PASSED
+delay(1),Firefox 67.0,,2019-05-24 15:25:27,2019-05-24 15:25:28,1.006s,PASSED
+"click(findTestObject(""OCS-MOBILE /Customer info page/Return to Cart - Link""))",Firefox 67.0,,2019-05-24 15:25:28,2019-05-24 15:25:31,2.601s,PASSED
+delay(1),Firefox 67.0,,2019-05-24 15:25:31,2019-05-24 15:25:32,1.005s,PASSED
+"click(findTestObject(""OCS-MOBILE /Cart page/cart page-Checkbox_I confirm that""))",Firefox 67.0,,2019-05-24 15:25:32,2019-05-24 15:25:32,0.251s,PASSED
+delay(1),Firefox 67.0,,2019-05-24 15:25:32,2019-05-24 15:25:33,1.006s,PASSED
+"click(findTestObject(""OCS-MOBILE /Cart page/cart page - Checkbox_Accept the Terms Condition""))",Firefox 67.0,,2019-05-24 15:25:33,2019-05-24 15:25:33,0.240s,PASSED
+delay(1),Firefox 67.0,,2019-05-24 15:25:33,2019-05-24 15:25:34,1.002s,PASSED
+"click(findTestObject(""OCS-MOBILE /Cart page/Cart page -checkout button""))",Firefox 67.0,,2019-05-24 15:25:34,2019-05-24 15:25:36,2.121s,PASSED
+delay(1),Firefox 67.0,,2019-05-24 15:25:36,2019-05-24 15:25:37,1.017s,PASSED
+"executeJavaScript(""var previewBar = document.getElementById(""preview-bar-iframe""); previewBar.style.display = ""none"";"", [])",Firefox 67.0,,2019-05-24 15:25:37,2019-05-24 15:25:37,0.007s,PASSED
+"setText(findTestObject(""OCS-MOBILE /Customer info page/input_Email""), ""suman.kompelly@diffagency.com"")",Firefox 67.0,,2019-05-24 15:25:37,2019-05-24 15:25:37,0.136s,PASSED
+"setText(findTestObject(""OCS-MOBILE /Customer info page/input_First name""), ""suman"")",Firefox 67.0,,2019-05-24 15:25:37,2019-05-24 15:25:38,0.080s,PASSED
+"setText(findTestObject(""OCS-MOBILE /Customer info page/input_Last name""), ""kompelly"")",Firefox 67.0,,2019-05-24 15:25:38,2019-05-24 15:25:38,0.090s,PASSED
+"setText(findTestObject(""OCS-MOBILE /Customer info page/input_Address""), ""300 saint alxendre"")",Firefox 67.0,,2019-05-24 15:25:38,2019-05-24 15:25:38,0.078s,PASSED
+"setText(findTestObject(""OCS-MOBILE /Customer info page/input_Apartment suite etc. (op""), ""199"")",Firefox 67.0,,2019-05-24 15:25:38,2019-05-24 15:25:38,0.054s,PASSED
+"setText(findTestObject(""OCS-MOBILE /Customer info page/input_City""), ""montreal"")",Firefox 67.0,,2019-05-24 15:25:38,2019-05-24 15:25:38,0.062s,PASSED
+"setText(findTestObject(""OCS-MOBILE /Customer info page/input_Postal code""), ""n0R1K0"")",Firefox 67.0,,2019-05-24 15:25:38,2019-05-24 15:25:38,0.049s,PASSED
+"setText(findTestObject(""OCS-MOBILE /Customer info page/input_Phone""), ""(514) 449-3882"")",Firefox 67.0,,2019-05-24 15:25:38,2019-05-24 15:25:38,0.078s,PASSED
+delay(1),Firefox 67.0,,2019-05-24 15:25:38,2019-05-24 15:25:39,1.005s,PASSED
+"click(findTestObject(""OCS-MOBILE /Customer info page/Continue to shipping method - Button""))",Firefox 67.0,,2019-05-24 15:25:39,2019-05-24 15:25:41,1.964s,PASSED
+,,,,,,
+Test Cases/OCS - MOBILE/OCS- CRITICAL PATH/Checkout - Shipping,Firefox 67.0,,2019-05-24 15:25:41,2019-05-24 15:27:13,1m - 32.525s,PASSED
+"callTestCase(findTestCase(""OCS - MOBILE/CALL - AGE GATE""), [:], STOP_ON_FAILURE)",Firefox 67.0,,2019-05-24 15:25:41,2019-05-24 15:26:04,22.694s,PASSED
+delay(2),Firefox 67.0,,2019-05-24 15:26:04,2019-05-24 15:26:06,2.003s,PASSED
+refresh(),Firefox 67.0,,2019-05-24 15:26:06,2019-05-24 15:26:11,5.327s,PASSED
+"click(findTestObject(""OCS-MOBILE /Age gate and burger menu/Burger menu - English""))",Firefox 67.0,,2019-05-24 15:26:11,2019-05-24 15:26:11,0.271s,PASSED
+delay(2),Firefox 67.0,,2019-05-24 15:26:11,2019-05-24 15:26:13,2.002s,PASSED
+"click(findTestObject(""OCS-MOBILE /Age gate and burger menu/Chevron_Cannabis""))",Firefox 67.0,,2019-05-24 15:26:13,2019-05-24 15:26:14,0.259s,PASSED
+delay(2),Firefox 67.0,,2019-05-24 15:26:14,2019-05-24 15:26:16,2.002s,PASSED
+"click(findTestObject(""OCS-MOBILE /Age gate and burger menu/Dried Flower_Plus icon""))",Firefox 67.0,,2019-05-24 15:26:16,2019-05-24 15:26:16,0.263s,PASSED
+delay(2),Firefox 67.0,,2019-05-24 15:26:16,2019-05-24 15:26:18,2.005s,PASSED
+"click(findTestObject(""OCS-MOBILE /Age gate and burger menu/Indica Dominant_Menu item""))",Firefox 67.0,,2019-05-24 15:26:18,2019-05-24 15:26:20,2.572s,PASSED
+delay(2),Firefox 67.0,,2019-05-24 15:26:20,2019-05-24 15:26:22,2.001s,PASSED
+"click(findTestObject(""OCS-MOBILE /Collection page/Product image - 1st one""))",Firefox 67.0,,2019-05-24 15:26:22,2019-05-24 15:26:27,4.489s,PASSED
+delay(1),Firefox 67.0,,2019-05-24 15:26:27,2019-05-24 15:26:28,1.002s,PASSED
+"executeJavaScript(""var previewBar = document.getElementById(""preview-bar-iframe""); previewBar.style.display = ""none"";"", [])",Firefox 67.0,,2019-05-24 15:26:28,2019-05-24 15:26:28,0.007s,PASSED
+delay(3),Firefox 67.0,,2019-05-24 15:26:28,2019-05-24 15:26:31,3.002s,PASSED
+"navigateToUrl(""https://ocs.ca/products/dream-weaver"")",Firefox 67.0,,2019-05-24 15:26:31,2019-05-24 15:26:33,1.854s,PASSED
+"executeJavaScript(""var previewBar = document.getElementById(""preview-bar-iframe""); previewBar.style.display = ""none"";"", [])",Firefox 67.0,,2019-05-24 15:26:33,2019-05-24 15:26:33,0.043s,PASSED
+"scrollToElement(findTestObject(""OCS-MOBILE /Product page/Product image""), 1)",Firefox 67.0,,2019-05-24 15:26:33,2019-05-24 15:26:33,0.114s,PASSED
+"click(findTestObject(""OCS-MOBILE /Product page/Swatch_3.5g""))",Firefox 67.0,,2019-05-24 15:26:33,2019-05-24 15:26:33,0.297s,PASSED
+delay(2),Firefox 67.0,,2019-05-24 15:26:33,2019-05-24 15:26:35,2.003s,PASSED
+"click(findTestObject(""OCS-MOBILE /Product page/Add to Bag-button""))",Firefox 67.0,,2019-05-24 15:26:35,2019-05-24 15:26:36,0.237s,PASSED
+delay(2),Firefox 67.0,,2019-05-24 15:26:36,2019-05-24 15:26:38,2.002s,PASSED
+"click(findTestObject(""OCS-MOBILE /Home - page/Cart icon -bag""))",Firefox 67.0,,2019-05-24 15:26:38,2019-05-24 15:26:38,0.230s,PASSED
+delay(1),Firefox 67.0,,2019-05-24 15:26:38,2019-05-24 15:26:39,1.001s,PASSED
+"click(findTestObject(""OCS-MOBILE /Cart flyout/Checkbox_I confirm that""))",Firefox 67.0,,2019-05-24 15:26:39,2019-05-24 15:26:39,0.241s,PASSED
+delay(2),Firefox 67.0,,2019-05-24 15:26:39,2019-05-24 15:26:41,2.005s,PASSED
+"click(findTestObject(""OCS-MOBILE /Cart flyout/Checkbox_Accept the Terms Condition""))",Firefox 67.0,,2019-05-24 15:26:41,2019-05-24 15:26:41,0.264s,PASSED
+delay(1),Firefox 67.0,,2019-05-24 15:26:41,2019-05-24 15:26:42,1.006s,PASSED
+"click(findTestObject(""OCS-MOBILE /Cart flyout/Checkout - Button""))",Firefox 67.0,,2019-05-24 15:26:42,2019-05-24 15:26:45,2.808s,PASSED
+delay(1),Firefox 67.0,,2019-05-24 15:26:45,2019-05-24 15:26:46,1.003s,PASSED
+"executeJavaScript(""var previewBar = document.getElementById(""preview-bar-iframe""); previewBar.style.display = ""none"";"", [])",Firefox 67.0,,2019-05-24 15:26:46,2019-05-24 15:26:46,0.006s,PASSED
+delay(2),Firefox 67.0,,2019-05-24 15:26:46,2019-05-24 15:26:48,2.002s,PASSED
+"scrollToElement(findTestObject(""OCS-MOBILE /Customer info page/input_Email""), 0)",Firefox 67.0,,2019-05-24 15:26:48,2019-05-24 15:26:48,0.032s,PASSED
+"setText(findTestObject(""OCS-MOBILE /Customer info page/input_Email""), ""suman.kompelly@diffagency.com"")",Firefox 67.0,,2019-05-24 15:26:48,2019-05-24 15:26:48,0.112s,PASSED
+"setText(findTestObject(""OCS-MOBILE /Customer info page/input_First name""), ""suman"")",Firefox 67.0,,2019-05-24 15:26:48,2019-05-24 15:26:48,0.096s,PASSED
+"setText(findTestObject(""OCS-MOBILE /Customer info page/input_Last name""), ""kompelly"")",Firefox 67.0,,2019-05-24 15:26:48,2019-05-24 15:26:48,0.058s,PASSED
+"setText(findTestObject(""OCS-MOBILE /Customer info page/input_Address""), ""300 saint alxendre"")",Firefox 67.0,,2019-05-24 15:26:48,2019-05-24 15:26:48,0.102s,PASSED
+"setText(findTestObject(""OCS-MOBILE /Customer info page/input_Apartment suite etc. (op""), ""199"")",Firefox 67.0,,2019-05-24 15:26:48,2019-05-24 15:26:49,0.053s,PASSED
+"setText(findTestObject(""OCS-MOBILE /Customer info page/input_City""), ""montreal"")",Firefox 67.0,,2019-05-24 15:26:49,2019-05-24 15:26:49,0.062s,PASSED
+"setText(findTestObject(""OCS-MOBILE /Customer info page/input_Postal code""), ""n0R1K0"")",Firefox 67.0,,2019-05-24 15:26:49,2019-05-24 15:26:49,0.072s,PASSED
+"setText(findTestObject(""OCS-MOBILE /Customer info page/input_Phone""), ""(514) 449-3882"")",Firefox 67.0,,2019-05-24 15:26:49,2019-05-24 15:26:49,0.100s,PASSED
+delay(2),Firefox 67.0,,2019-05-24 15:26:49,2019-05-24 15:26:51,2.002s,PASSED
+"click(findTestObject(""OCS-MOBILE /Customer info page/Continue to shipping method - Button""))",Firefox 67.0,,2019-05-24 15:26:51,2019-05-24 15:26:53,2.665s,PASSED
+delay(1),Firefox 67.0,,2019-05-24 15:26:53,2019-05-24 15:26:54,1.004s,PASSED
+"click(findTestObject(""OCS-MOBILE /Customer info page/Chevron_OrderSummary""))",Firefox 67.0,,2019-05-24 15:26:54,2019-05-24 15:26:55,0.260s,PASSED
+delay(1),Firefox 67.0,,2019-05-24 15:26:55,2019-05-24 15:26:56,1.006s,PASSED
+"click(findTestObject(""OCS-MOBILE /Shipping page/Change link""))",Firefox 67.0,,2019-05-24 15:26:56,2019-05-24 15:26:58,1.870s,PASSED
+delay(1),Firefox 67.0,,2019-05-24 15:26:58,2019-05-24 15:26:59,1.002s,PASSED
+"executeJavaScript(""var previewBar = document.getElementById(""preview-bar-iframe""); previewBar.style.display = ""none"";"", [])",Firefox 67.0,,2019-05-24 15:26:59,2019-05-24 15:26:59,0.008s,PASSED
+delay(1),Firefox 67.0,,2019-05-24 15:26:59,2019-05-24 15:26:59,0.000s,NOT_RUN
+"click(findTestObject(""OCS-MOBILE /Customer info page/Continue to shipping method - Button""))",Firefox 67.0,,2019-05-24 15:26:59,2019-05-24 15:27:01,2.220s,PASSED
+delay(1),Firefox 67.0,,2019-05-24 15:27:01,2019-05-24 15:27:02,1.001s,PASSED
+"click(findTestObject(""OCS-MOBILE /Shipping page/Change link 2""))",Firefox 67.0,,2019-05-24 15:27:02,2019-05-24 15:27:04,1.765s,PASSED
+delay(1),Firefox 67.0,,2019-05-24 15:27:04,2019-05-24 15:27:05,1.005s,PASSED
+"executeJavaScript(""var previewBar = document.getElementById(""preview-bar-iframe""); previewBar.style.display = ""none"";"", [])",Firefox 67.0,,2019-05-24 15:27:05,2019-05-24 15:27:05,0.007s,PASSED
+delay(1),Firefox 67.0,,2019-05-24 15:27:05,2019-05-24 15:27:05,0.001s,NOT_RUN
+"click(findTestObject(""OCS-MOBILE /Customer info page/Continue to shipping method - Button""), CONTINUE_ON_FAILURE)",Firefox 67.0,,2019-05-24 15:27:05,2019-05-24 15:27:07,1.984s,PASSED
+delay(1),Firefox 67.0,,2019-05-24 15:27:07,2019-05-24 15:27:08,1.003s,PASSED
+"click(findTestObject(""OCS-MOBILE /Shipping page/Return to customer info""))",Firefox 67.0,,2019-05-24 15:27:08,2019-05-24 15:27:10,2.150s,PASSED
+"executeJavaScript(""var previewBar = document.getElementById(""preview-bar-iframe""); previewBar.style.display = ""none"";"", [])",Firefox 67.0,,2019-05-24 15:27:10,2019-05-24 15:27:10,0.140s,PASSED
+delay(1),Firefox 67.0,,2019-05-24 15:27:10,2019-05-24 15:27:11,1.004s,PASSED
+delay(1),Firefox 67.0,,2019-05-24 15:27:11,2019-05-24 15:27:11,0.001s,NOT_RUN
+"click(findTestObject(""OCS-MOBILE /Customer info page/Continue to shipping method - Button""))",Firefox 67.0,,2019-05-24 15:27:11,2019-05-24 15:27:13,2.003s,PASSED
+closeBrowser(),Firefox 67.0,,2019-05-24 15:27:13,2019-05-24 15:27:13,0.591s,PASSED
+,,,,,,
+Test Cases/OCS - MOBILE/OCS- CRITICAL PATH/Checkout- Payment,Firefox 67.0,,2019-05-24 15:27:13,2019-05-24 15:28:54,1m - 40.482s,PASSED
+"callTestCase(findTestCase(""OCS - MOBILE/CALL - AGE GATE""), [:], STOP_ON_FAILURE)",Firefox 67.0,,2019-05-24 15:27:14,2019-05-24 15:27:34,19.991s,PASSED
+delay(2),Firefox 67.0,,2019-05-24 15:27:34,2019-05-24 15:27:36,2.004s,PASSED
+refresh(),Firefox 67.0,,2019-05-24 15:27:36,2019-05-24 15:27:44,8.454s,PASSED
+"click(findTestObject(""OCS-MOBILE /Age gate and burger menu/Burger menu - English""))",Firefox 67.0,,2019-05-24 15:27:44,2019-05-24 15:27:44,0.281s,PASSED
+delay(2),Firefox 67.0,,2019-05-24 15:27:44,2019-05-24 15:27:46,2.005s,PASSED
+"click(findTestObject(""OCS-MOBILE /Age gate and burger menu/Chevron_Cannabis""))",Firefox 67.0,,2019-05-24 15:27:46,2019-05-24 15:27:47,0.256s,PASSED
+delay(2),Firefox 67.0,,2019-05-24 15:27:47,2019-05-24 15:27:49,2.004s,PASSED
+"click(findTestObject(""OCS-MOBILE /Age gate and burger menu/Dried Flower_Plus icon""))",Firefox 67.0,,2019-05-24 15:27:49,2019-05-24 15:27:49,0.268s,PASSED
+delay(2),Firefox 67.0,,2019-05-24 15:27:49,2019-05-24 15:27:51,2.005s,PASSED
+"click(findTestObject(""OCS-MOBILE /Age gate and burger menu/Indica Dominant_Menu item""))",Firefox 67.0,,2019-05-24 15:27:51,2019-05-24 15:27:54,3.036s,PASSED
+delay(2),Firefox 67.0,,2019-05-24 15:27:54,2019-05-24 15:27:56,2.001s,PASSED
+"click(findTestObject(""OCS-MOBILE /Collection page/Product image - 1st one""))",Firefox 67.0,,2019-05-24 15:27:56,2019-05-24 15:27:59,2.739s,PASSED
+delay(1),Firefox 67.0,,2019-05-24 15:27:59,2019-05-24 15:28:00,1.001s,PASSED
+delay(3),Firefox 67.0,,2019-05-24 15:28:00,2019-05-24 15:28:03,3.009s,PASSED
+"navigateToUrl(""https://ocs.ca/products/dream-weaver"")",Firefox 67.0,,2019-05-24 15:28:03,2019-05-24 15:28:05,2.355s,PASSED
+"executeJavaScript(""var previewBar = document.getElementById(""preview-bar-iframe""); previewBar.style.display = ""none"";"", [])",Firefox 67.0,,2019-05-24 15:28:05,2019-05-24 15:28:05,0.030s,PASSED
+"scrollToElement(findTestObject(""OCS-MOBILE /Product page/Product image""), 1)",Firefox 67.0,,2019-05-24 15:28:05,2019-05-24 15:28:05,0.274s,PASSED
+delay(2),Firefox 67.0,,2019-05-24 15:28:05,2019-05-24 15:28:07,2.001s,PASSED
+"click(findTestObject(""OCS-MOBILE /Product page/Swatch_3.5g""))",Firefox 67.0,,2019-05-24 15:28:07,2019-05-24 15:28:08,0.376s,PASSED
+"click(findTestObject(""OCS-MOBILE /Product page/Add to Bag-button""))",Firefox 67.0,,2019-05-24 15:28:08,2019-05-24 15:28:08,0.255s,PASSED
+delay(2),Firefox 67.0,,2019-05-24 15:28:08,2019-05-24 15:28:10,2.003s,PASSED
+"click(findTestObject(""OCS-MOBILE /Home - page/Cart icon -bag""))",Firefox 67.0,,2019-05-24 15:28:10,2019-05-24 15:28:10,0.275s,PASSED
+delay(1),Firefox 67.0,,2019-05-24 15:28:10,2019-05-24 15:28:11,1.007s,PASSED
+"click(findTestObject(""OCS-MOBILE /Cart flyout/Checkbox_I confirm that""))",Firefox 67.0,,2019-05-24 15:28:11,2019-05-24 15:28:11,0.239s,PASSED
+delay(2),Firefox 67.0,,2019-05-24 15:28:11,2019-05-24 15:28:13,2.002s,PASSED
+"click(findTestObject(""OCS-MOBILE /Cart flyout/Checkbox_Accept the Terms Condition""))",Firefox 67.0,,2019-05-24 15:28:13,2019-05-24 15:28:14,0.235s,PASSED
+delay(1),Firefox 67.0,,2019-05-24 15:28:14,2019-05-24 15:28:15,1.002s,PASSED
+"click(findTestObject(""OCS-MOBILE /Cart flyout/Checkout - Button""))",Firefox 67.0,,2019-05-24 15:28:15,2019-05-24 15:28:23,8.473s,PASSED
+"executeJavaScript(""var previewBar = document.getElementById(""preview-bar-iframe""); previewBar.style.display = ""none"";"", [])",Firefox 67.0,,2019-05-24 15:28:23,2019-05-24 15:28:23,0.205s,PASSED
+delay(1),Firefox 67.0,,2019-05-24 15:28:23,2019-05-24 15:28:24,1.006s,PASSED
+delay(2),Firefox 67.0,,2019-05-24 15:28:24,2019-05-24 15:28:26,2.004s,PASSED
+"scrollToElement(findTestObject(""OCS-MOBILE /Customer info page/input_Email""), 0)",Firefox 67.0,,2019-05-24 15:28:26,2019-05-24 15:28:26,0.030s,PASSED
+"setText(findTestObject(""OCS-MOBILE /Customer info page/input_Email""), ""suman.kompelly@diffagency.com"")",Firefox 67.0,,2019-05-24 15:28:26,2019-05-24 15:28:27,0.113s,PASSED
+"setText(findTestObject(""OCS-MOBILE /Customer info page/input_First name""), ""suman"")",Firefox 67.0,,2019-05-24 15:28:27,2019-05-24 15:28:27,0.102s,PASSED
+"setText(findTestObject(""OCS-MOBILE /Customer info page/input_Last name""), ""kompelly"")",Firefox 67.0,,2019-05-24 15:28:27,2019-05-24 15:28:27,0.065s,PASSED
+"setText(findTestObject(""OCS-MOBILE /Customer info page/input_Address""), ""300 saint alxendre"")",Firefox 67.0,,2019-05-24 15:28:27,2019-05-24 15:28:27,0.074s,PASSED
+"setText(findTestObject(""OCS-MOBILE /Customer info page/input_Apartment suite etc. (op""), ""199"")",Firefox 67.0,,2019-05-24 15:28:27,2019-05-24 15:28:27,0.045s,PASSED
+"setText(findTestObject(""OCS-MOBILE /Customer info page/input_City""), ""montreal"")",Firefox 67.0,,2019-05-24 15:28:27,2019-05-24 15:28:27,0.059s,PASSED
+"setText(findTestObject(""OCS-MOBILE /Customer info page/input_Postal code""), ""n0R1K0"")",Firefox 67.0,,2019-05-24 15:28:27,2019-05-24 15:28:27,0.046s,PASSED
+"setText(findTestObject(""OCS-MOBILE /Customer info page/input_Phone""), ""(514) 449-3882"")",Firefox 67.0,,2019-05-24 15:28:27,2019-05-24 15:28:27,0.093s,PASSED
+delay(1),Firefox 67.0,,2019-05-24 15:28:27,2019-05-24 15:28:28,1.006s,PASSED
+"executeJavaScript(""var previewBar = document.getElementById(""preview-bar-iframe""); previewBar.style.display = ""none"";"", [])",Firefox 67.0,,2019-05-24 15:28:28,2019-05-24 15:28:28,0.009s,PASSED
+"click(findTestObject(""OCS-MOBILE /Customer info page/Continue to shipping method - Button""))",Firefox 67.0,,2019-05-24 15:28:28,2019-05-24 15:28:32,3.946s,PASSED
+delay(1),Firefox 67.0,,2019-05-24 15:28:32,2019-05-24 15:28:33,1.005s,PASSED
+delay(1),Firefox 67.0,,2019-05-24 15:28:33,2019-05-24 15:28:34,1.006s,PASSED
+"click(findTestObject(""OCS-MOBILE /Shipping page/Continue to payment method - Button""))",Firefox 67.0,,2019-05-24 15:28:34,2019-05-24 15:28:36,2.435s,PASSED
+delay(1),Firefox 67.0,,2019-05-24 15:28:36,2019-05-24 15:28:37,1.001s,PASSED
+"click(findTestObject(""OCS-MOBILE /Payment -page/Change link span 1""))",Firefox 67.0,,2019-05-24 15:28:37,2019-05-24 15:28:40,2.937s,PASSED
+"executeJavaScript(""var previewBar = document.getElementById(""preview-bar-iframe""); previewBar.style.display = ""none"";"", [])",Firefox 67.0,,2019-05-24 15:28:40,2019-05-24 15:28:40,0.101s,PASSED
+"setViewPortSize(360, 1000, CONTINUE_ON_FAILURE)",Firefox 67.0,,2019-05-24 15:28:40,2019-05-24 15:28:41,0.037s,PASSED
+"click(findTestObject(""OCS-MOBILE /Shipping page/Continue to payment method - Button""))",Firefox 67.0,,2019-05-24 15:28:41,2019-05-24 15:28:43,2.722s,PASSED
+delay(1),Firefox 67.0,,2019-05-24 15:28:43,2019-05-24 15:28:43,0.000s,NOT_RUN
+delay(1),Firefox 67.0,,2019-05-24 15:28:43,2019-05-24 15:28:44,1.002s,PASSED
+"click(findTestObject(""OCS-MOBILE /Shipping page/Continue to payment method - Button""))",Firefox 67.0,,2019-05-24 15:28:44,2019-05-24 15:28:46,2.168s,PASSED
+"click(findTestObject(""OCS-MOBILE /Payment -page/Change link span 2""))",Firefox 67.0,,2019-05-24 15:28:46,2019-05-24 15:28:49,2.408s,PASSED
+"executeJavaScript(""var previewBar = document.getElementById(""preview-bar-iframe""); previewBar.style.display = ""none"";"", [])",Firefox 67.0,,2019-05-24 15:28:49,2019-05-24 15:28:49,0.116s,PASSED
+delay(1),Firefox 67.0,,2019-05-24 15:28:49,2019-05-24 15:28:50,1.001s,PASSED
+delay(1),Firefox 67.0,,2019-05-24 15:28:50,2019-05-24 15:28:51,1.002s,PASSED
+"click(findTestObject(""OCS-MOBILE /Shipping page/Continue to payment method - Button""))",Firefox 67.0,,2019-05-24 15:28:51,2019-05-24 15:28:54,2.994s,PASSED

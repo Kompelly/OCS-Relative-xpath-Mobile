@@ -1,0 +1,1074 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="STATIC PAGES- 09-05-2019" time="53" tests="3" failures="1" errors="0">
+   <testsuite name="STATIC PAGES- 09-05-2019" tests="3" failures="1" errors="0" time="53" timestamp="2019-05-09 11:44:09" hostname="sumankompelly - 10.0.126.233" id="Test Suites/STATIC PAGES- 09-05-2019">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/sumankompelly/git/Sample-OCS/Reports/STATIC PAGES- 09-05-2019/20190509_114407"/>
+         <property name="logFiles" value="/Users/sumankompelly/git/Sample-OCS/Reports/STATIC PAGES- 09-05-2019/20190509_114407/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="sumankompelly - 10.0.126.233"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="5.10.1.1"/>
+         <property name="browser" value="Chrome 74.0.3729.131"/>
+         <property name="hostAddress" value="10.0.126.233"/>
+         <property name="sessionId" value="ec2b2759cca8e7512bc6c92cb635303e"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/OCS- STATIC PAGE/About" classname="Test Cases/OCS- STATIC PAGE/About" status="PASSED">
+         <system-out><![CDATA[2019-05-09 11:44:09 - [TEST_CASE][PASSED] - Test Cases/OCS- STATIC PAGE/About: Test Cases/OCS- STATIC PAGE/About
+
+2019-05-09 11:44:09 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-05-09 11:44:10 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-05-09 11:44:10 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-05-09 11:44:12 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-05-09 11:44:12 - [TEST_STEP][PASSED] - navigateToUrl("https://ocs.ca/?fts=0&preview_theme_id=53373863756"): Navigate to 'https://ocs.ca/?fts=0&preview_theme_id=53373863756' successfully
+
+2019-05-09 11:44:17 - [MESSAGE][PASSED] - Navigate to 'https://ocs.ca/?fts=0&preview_theme_id=53373863756' successfully
+
+2019-05-09 11:44:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Theme_oR/Page_Ontario Cannabis Store  Ontari/button_Close preview")): Object: 'Object Repository/Theme_oR/Page_Ontario Cannabis Store  Ontari/button_Close preview' is clicked on
+
+2019-05-09 11:44:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Theme_oR/Page_Ontario Cannabis Store  Ontari/button_Close preview' is clicked on
+
+2019-05-09 11:44:18 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/About static_OR/Page_Ontario Cannabis Store  Ontari/select_Select01020304050607080"), "3", true): All options with value '3' are selected in object 'Object Repository/About static_OR/Page_Ontario Cannabis Store  Ontari/select_Select01020304050607080'  using regular expression
+
+2019-05-09 11:44:18 - [MESSAGE][PASSED] - All options with value '3' are selected in object 'Object Repository/About static_OR/Page_Ontario Cannabis Store  Ontari/select_Select01020304050607080'  using regular expression
+
+2019-05-09 11:44:18 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/About static_OR/Page_Ontario Cannabis Store  Ontari/select_SelectJanuary - 01Febru"), "2", true): All options with value '2' are selected in object 'Object Repository/About static_OR/Page_Ontario Cannabis Store  Ontari/select_SelectJanuary - 01Febru'  using regular expression
+
+2019-05-09 11:44:18 - [MESSAGE][PASSED] - All options with value '2' are selected in object 'Object Repository/About static_OR/Page_Ontario Cannabis Store  Ontari/select_SelectJanuary - 01Febru'  using regular expression
+
+2019-05-09 11:44:18 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/About static_OR/Page_Ontario Cannabis Store  Ontari/select_Select20182017201620152"), "1958", true): All options with value '1958' are selected in object 'Object Repository/About static_OR/Page_Ontario Cannabis Store  Ontari/select_Select20182017201620152'  using regular expression
+
+2019-05-09 11:44:20 - [MESSAGE][PASSED] - All options with value '1958' are selected in object 'Object Repository/About static_OR/Page_Ontario Cannabis Store  Ontari/select_Select20182017201620152'  using regular expression
+
+2019-05-09 11:44:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/About static_OR/Page_Ontario Cannabis Store  Ontari/button_Verify")): Object: 'Object Repository/About static_OR/Page_Ontario Cannabis Store  Ontari/button_Verify' is clicked on
+
+2019-05-09 11:44:20 - [MESSAGE][PASSED] - Object: 'Object Repository/About static_OR/Page_Ontario Cannabis Store  Ontari/button_Verify' is clicked on
+
+2019-05-09 11:44:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/About static_OR/Page_Ontario Cannabis Store  Ontari/span_CONFIRM AND ACKNOWLEDGE_c")): Object: 'Object Repository/About static_OR/Page_Ontario Cannabis Store  Ontari/span_CONFIRM AND ACKNOWLEDGE_c' is clicked on
+
+2019-05-09 11:44:20 - [MESSAGE][PASSED] - Object: 'Object Repository/About static_OR/Page_Ontario Cannabis Store  Ontari/span_CONFIRM AND ACKNOWLEDGE_c' is clicked on
+
+2019-05-09 11:44:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/About static_OR/Page_Ontario Cannabis Store  Ontari/button_CONFIRM")): Object: 'Object Repository/About static_OR/Page_Ontario Cannabis Store  Ontari/button_CONFIRM' is clicked on
+
+2019-05-09 11:44:20 - [MESSAGE][PASSED] - Object: 'Object Repository/About static_OR/Page_Ontario Cannabis Store  Ontari/button_CONFIRM' is clicked on
+
+2019-05-09 11:44:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/About static_OR/Page_Ontario Cannabis Store  Ontari/button_Start Browsing")): Object: 'Object Repository/About static_OR/Page_Ontario Cannabis Store  Ontari/button_Start Browsing' is clicked on
+
+2019-05-09 11:44:20 - [MESSAGE][PASSED] - Object: 'Object Repository/About static_OR/Page_Ontario Cannabis Store  Ontari/button_Start Browsing' is clicked on
+
+2019-05-09 11:44:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/About static_OR/Page_Ontario Cannabis Store  Ontari/a_About the OCS")): Object: 'Object Repository/About static_OR/Page_Ontario Cannabis Store  Ontari/a_About the OCS' is clicked on
+
+2019-05-09 11:44:23 - [MESSAGE][PASSED] - Object: 'Object Repository/About static_OR/Page_Ontario Cannabis Store  Ontari/a_About the OCS' is clicked on
+
+2019-05-09 11:44:23 - [TEST_STEP][PASSED] - click(findTestObject("About static_OR/Page_About Us  Ontario Cannabis Sto/article_About Us"), STOP_ON_FAILURE): Object: 'Object Repository/About static_OR/Page_About Us  Ontario Cannabis Sto/article_About Us' is clicked on
+
+2019-05-09 11:44:23 - [MESSAGE][PASSED] - Object: 'Object Repository/About static_OR/Page_About Us  Ontario Cannabis Sto/article_About Us' is clicked on
+
+2019-05-09 11:44:23 - [TEST_STEP][NOT_RUN] - switchToDefaultContent(): NOT_RUN: switchToDefaultContent()
+
+2019-05-09 11:44:23 - [MESSAGE][NOT_RUN] - NOT_RUN: switchToDefaultContent()
+
+2019-05-09 11:44:23 - [TEST_STEP][PASSED] - a = getText(findTestObject("About static_OR/Page_About Us  Ontario Cannabis Sto/article_About Us"), STOP_ON_FAILURE): Text of object 'Object Repository/About static_OR/Page_About Us  Ontario Cannabis Sto/article_About Us' is: 'About Us
+About Ontario Cannabis Store
+The Ontario Cannabis Store provides safe, responsible access to recreational cannabis for adults 19 and older. We are Ontario’s only online cannabis retailer and wholesaler of legal recreational cannabis in Ontario.
+We make sure our customers only receive safe, clearly labelled cannabis products by working closely with a diverse group of licensed producers authorized by Health Canada. Our online store prioritizes education and provides many opportunities for both new and experienced consumers to learn more about cannabis and responsible use. We put customer privacy first by making sure that all personal information is stored in Canada, allowing guest checkout and deleting customer data as soon as legally allowed.
+Our customer-care centre is staffed by knowledgeable, helpful product specialists who provide the information our customers need to make the right choices. Social responsibility is something we take seriously and making every purchase a responsible one is a top priority.
+  Media Centre
+For media updates and contact information, start here.
+Annual Report
+The report for the 2017-2018 Fiscal Year can be found here.'
+
+2019-05-09 11:44:23 - [MESSAGE][PASSED] - Text of object 'Object Repository/About static_OR/Page_About Us  Ontario Cannabis Sto/article_About Us' is: 'About Us
+About Ontario Cannabis Store
+The Ontario Cannabis Store provides safe, responsible access to recreational cannabis for adults 19 and older. We are Ontario’s only online cannabis retailer and wholesaler of legal recreational cannabis in Ontario.
+We make sure our customers only receive safe, clearly labelled cannabis products by working closely with a diverse group of licensed producers authorized by Health Canada. Our online store prioritizes education and provides many opportunities for both new and experienced consumers to learn more about cannabis and responsible use. We put customer privacy first by making sure that all personal information is stored in Canada, allowing guest checkout and deleting customer data as soon as legally allowed.
+Our customer-care centre is staffed by knowledgeable, helpful product specialists who provide the information our customers need to make the right choices. Social responsibility is something we take seriously and making every purchase a responsible one is a top priority.
+  Media Centre
+For media updates and contact information, start here.
+Annual Report
+The report for the 2017-2018 Fiscal Year can be found here.'
+
+2019-05-09 11:44:23 - [TEST_STEP][PASSED] - comment("a =" + a): a =About Us
+About Ontario Cannabis Store
+The Ontario Cannabis Store provides safe, responsible access to recreational cannabis for adults 19 and older. We are Ontario’s only online cannabis retailer and wholesaler of legal recreational cannabis in Ontario.
+We make sure our customers only receive safe, clearly labelled cannabis products by working closely with a diverse group of licensed producers authorized by Health Canada. Our online store prioritizes education and provides many opportunities for both new and experienced consumers to learn more about cannabis and responsible use. We put customer privacy first by making sure that all personal information is stored in Canada, allowing guest checkout and deleting customer data as soon as legally allowed.
+Our customer-care centre is staffed by knowledgeable, helpful product specialists who provide the information our customers need to make the right choices. Social responsibility is something we take seriously and making every purchase a responsible one is a top priority.
+  Media Centre
+For media updates and contact information, start here.
+Annual Report
+The report for the 2017-2018 Fiscal Year can be found here.
+
+2019-05-09 11:44:23 - [MESSAGE][INFO] - a =About Us
+About Ontario Cannabis Store
+The Ontario Cannabis Store provides safe, responsible access to recreational cannabis for adults 19 and older. We are Ontario’s only online cannabis retailer and wholesaler of legal recreational cannabis in Ontario.
+We make sure our customers only receive safe, clearly labelled cannabis products by working closely with a diverse group of licensed producers authorized by Health Canada. Our online store prioritizes education and provides many opportunities for both new and experienced consumers to learn more about cannabis and responsible use. We put customer privacy first by making sure that all personal information is stored in Canada, allowing guest checkout and deleting customer data as soon as legally allowed.
+Our customer-care centre is staffed by knowledgeable, helpful product specialists who provide the information our customers need to make the right choices. Social responsibility is something we take seriously and making every purchase a responsible one is a top priority.
+  Media Centre
+For media updates and contact information, start here.
+Annual Report
+The report for the 2017-2018 Fiscal Year can be found here.
+
+2019-05-09 11:44:23 - [TEST_STEP][PASSED] - verifyTextPresent(a, false, STOP_ON_FAILURE): Text 'About Us
+About Ontario Cannabis Store
+The Ontario Cannabis Store provides safe, responsible access to recreational cannabis for adults 19 and older. We are Ontario’s only online cannabis retailer and wholesaler of legal recreational cannabis in Ontario.
+We make sure our customers only receive safe, clearly labelled cannabis products by working closely with a diverse group of licensed producers authorized by Health Canada. Our online store prioritizes education and provides many opportunities for both new and experienced consumers to learn more about cannabis and responsible use. We put customer privacy first by making sure that all personal information is stored in Canada, allowing guest checkout and deleting customer data as soon as legally allowed.
+Our customer-care centre is staffed by knowledgeable, helpful product specialists who provide the information our customers need to make the right choices. Social responsibility is something we take seriously and making every purchase a responsible one is a top priority.
+  Media Centre
+For media updates and contact information, start here.
+Annual Report
+The report for the 2017-2018 Fiscal Year can be found here.' is present on page 
+
+2019-05-09 11:44:23 - [MESSAGE][PASSED] - Text 'About Us
+About Ontario Cannabis Store
+The Ontario Cannabis Store provides safe, responsible access to recreational cannabis for adults 19 and older. We are Ontario’s only online cannabis retailer and wholesaler of legal recreational cannabis in Ontario.
+We make sure our customers only receive safe, clearly labelled cannabis products by working closely with a diverse group of licensed producers authorized by Health Canada. Our online store prioritizes education and provides many opportunities for both new and experienced consumers to learn more about cannabis and responsible use. We put customer privacy first by making sure that all personal information is stored in Canada, allowing guest checkout and deleting customer data as soon as legally allowed.
+Our customer-care centre is staffed by knowledgeable, helpful product specialists who provide the information our customers need to make the right choices. Social responsibility is something we take seriously and making every purchase a responsible one is a top priority.
+  Media Centre
+For media updates and contact information, start here.
+Annual Report
+The report for the 2017-2018 Fiscal Year can be found here.' is present on page 
+
+2019-05-09 11:44:23 - [TEST_STEP][NOT_RUN] - click(findTestObject("Object Repository/About static_OR/Page_About Us  Ontario Cannabis Sto/h1_About Us")): NOT_RUN: click(findTestObject("Object Repository/About static_OR/Page_About Us  Ontario Cannabis Sto/h1_About Us"))
+
+2019-05-09 11:44:23 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("Object Repository/About static_OR/Page_About Us  Ontario Cannabis Sto/h1_About Us"))
+
+2019-05-09 11:44:23 - [TEST_STEP][NOT_RUN] - click(findTestObject("Object Repository/About static_OR/Page_About Us  Ontario Cannabis Sto/p_The Ontario Cannabis Store p")): NOT_RUN: click(findTestObject("Object Repository/About static_OR/Page_About Us  Ontario Cannabis Sto/p_The Ontario Cannabis Store p"))
+
+2019-05-09 11:44:23 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("Object Repository/About static_OR/Page_About Us  Ontario Cannabis Sto/p_The Ontario Cannabis Store p"))]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/OCS- STATIC PAGE/Accessibility" classname="Test Cases/OCS- STATIC PAGE/Accessibility" status="PASSED">
+         <system-out><![CDATA[2019-05-09 11:44:23 - [TEST_CASE][PASSED] - Test Cases/OCS- STATIC PAGE/Accessibility: Test Cases/OCS- STATIC PAGE/Accessibility
+
+2019-05-09 11:44:24 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-05-09 11:44:24 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-05-09 11:44:24 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-05-09 11:44:25 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-05-09 11:44:25 - [TEST_STEP][PASSED] - navigateToUrl("https://ocs.ca/?fts=0&preview_theme_id=53373863756"): Navigate to 'https://ocs.ca/?fts=0&preview_theme_id=53373863756' successfully
+
+2019-05-09 11:44:29 - [MESSAGE][PASSED] - Navigate to 'https://ocs.ca/?fts=0&preview_theme_id=53373863756' successfully
+
+2019-05-09 11:44:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Theme_oR/Page_Ontario Cannabis Store  Ontari/button_Close preview")): Object: 'Object Repository/Theme_oR/Page_Ontario Cannabis Store  Ontari/button_Close preview' is clicked on
+
+2019-05-09 11:44:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Theme_oR/Page_Ontario Cannabis Store  Ontari/button_Close preview' is clicked on
+
+2019-05-09 11:44:30 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/accessibility_OR/Page_Ontario Cannabis Store  Ontari/select_Select01020304050607080"), "4", true): All options with value '4' are selected in object 'Object Repository/accessibility_OR/Page_Ontario Cannabis Store  Ontari/select_Select01020304050607080'  using regular expression
+
+2019-05-09 11:44:31 - [MESSAGE][PASSED] - All options with value '4' are selected in object 'Object Repository/accessibility_OR/Page_Ontario Cannabis Store  Ontari/select_Select01020304050607080'  using regular expression
+
+2019-05-09 11:44:31 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/accessibility_OR/Page_Ontario Cannabis Store  Ontari/select_SelectJanuary - 01Febru"), "5", true): All options with value '5' are selected in object 'Object Repository/accessibility_OR/Page_Ontario Cannabis Store  Ontari/select_SelectJanuary - 01Febru'  using regular expression
+
+2019-05-09 11:44:31 - [MESSAGE][PASSED] - All options with value '5' are selected in object 'Object Repository/accessibility_OR/Page_Ontario Cannabis Store  Ontari/select_SelectJanuary - 01Febru'  using regular expression
+
+2019-05-09 11:44:31 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/accessibility_OR/Page_Ontario Cannabis Store  Ontari/select_Select20182017201620152"), "1996", true): All options with value '1996' are selected in object 'Object Repository/accessibility_OR/Page_Ontario Cannabis Store  Ontari/select_Select20182017201620152'  using regular expression
+
+2019-05-09 11:44:32 - [MESSAGE][PASSED] - All options with value '1996' are selected in object 'Object Repository/accessibility_OR/Page_Ontario Cannabis Store  Ontari/select_Select20182017201620152'  using regular expression
+
+2019-05-09 11:44:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/accessibility_OR/Page_Ontario Cannabis Store  Ontari/button_Verify")): Object: 'Object Repository/accessibility_OR/Page_Ontario Cannabis Store  Ontari/button_Verify' is clicked on
+
+2019-05-09 11:44:32 - [MESSAGE][PASSED] - Object: 'Object Repository/accessibility_OR/Page_Ontario Cannabis Store  Ontari/button_Verify' is clicked on
+
+2019-05-09 11:44:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/accessibility_OR/Page_Ontario Cannabis Store  Ontari/span_CONFIRM AND ACKNOWLEDGE_c")): Object: 'Object Repository/accessibility_OR/Page_Ontario Cannabis Store  Ontari/span_CONFIRM AND ACKNOWLEDGE_c' is clicked on
+
+2019-05-09 11:44:32 - [MESSAGE][PASSED] - Object: 'Object Repository/accessibility_OR/Page_Ontario Cannabis Store  Ontari/span_CONFIRM AND ACKNOWLEDGE_c' is clicked on
+
+2019-05-09 11:44:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/accessibility_OR/Page_Ontario Cannabis Store  Ontari/button_CONFIRM")): Object: 'Object Repository/accessibility_OR/Page_Ontario Cannabis Store  Ontari/button_CONFIRM' is clicked on
+
+2019-05-09 11:44:32 - [MESSAGE][PASSED] - Object: 'Object Repository/accessibility_OR/Page_Ontario Cannabis Store  Ontari/button_CONFIRM' is clicked on
+
+2019-05-09 11:44:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/accessibility_OR/Page_Ontario Cannabis Store  Ontari/button_Start Browsing")): Object: 'Object Repository/accessibility_OR/Page_Ontario Cannabis Store  Ontari/button_Start Browsing' is clicked on
+
+2019-05-09 11:44:32 - [MESSAGE][PASSED] - Object: 'Object Repository/accessibility_OR/Page_Ontario Cannabis Store  Ontari/button_Start Browsing' is clicked on
+
+2019-05-09 11:44:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/accessibility_OR/Page_Ontario Cannabis Store  Ontari/a_Accessibility")): Object: 'Object Repository/accessibility_OR/Page_Ontario Cannabis Store  Ontari/a_Accessibility' is clicked on
+
+2019-05-09 11:44:35 - [MESSAGE][PASSED] - Object: 'Object Repository/accessibility_OR/Page_Ontario Cannabis Store  Ontari/a_Accessibility' is clicked on
+
+2019-05-09 11:44:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/accessibility_OR/Page_Accessibility  Ontario Cannabi/article_Accessibility")): Object: 'Object Repository/accessibility_OR/Page_Accessibility  Ontario Cannabi/article_Accessibility' is clicked on
+
+2019-05-09 11:44:35 - [MESSAGE][PASSED] - Object: 'Object Repository/accessibility_OR/Page_Accessibility  Ontario Cannabi/article_Accessibility' is clicked on
+
+2019-05-09 11:44:35 - [TEST_STEP][PASSED] - a = getText(findTestObject("accessibility_OR/Page_Accessibility  Ontario Cannabi/article_Accessibility")): Text of object 'Object Repository/accessibility_OR/Page_Accessibility  Ontario Cannabi/article_Accessibility' is: 'Accessibility
+Accessibility at the Ontario Cannabis Store (OCS)
+Communication
+We take initiative to communicate with individuals with disabilities in ways that account for their disability while remaining accommodating and respectful.
+Notice of temporary disruption of service
+In the event of a planned or unexpected disruption to our services, we will promptly notify customers. The notice will be posted on our website and will include information about the reason for the disruption, its anticipated duration and a description of alternative services if available.
+Customers using screen readers may experience issues navigating OCS.ca. Until we can correct this problem, customers can contact our Accessibility Support Line at1-844-627-1112 for assistance with their orders. We are committed to promptly fixing these issues and continually working to improve the website experience for people with disabilities.
+Our commitment to accessibility
+At the OCS we are committed to meeting the accessibility needs of people with disabilities in a manner that is consistent with the principles of independence, dignity, integration and equal opportunity.  
+We are committed to meeting accessibility requirements set out in the Accessibility for Ontarians with Disabilities Act, 2005 (AODA), by providing an inclusive, accessible and barrier-free experience for people with disabilities across the following Integrated Accessibility Standards Regulation (IASR):
+
+Customer Service
+Information and communication
+Design of Public Spaces
+Employment
+Multi-year accessibility plan
+Our multi-year accessibility plan outlines what we are doing to meet the accessibility requirements of the AODA. 
+You can download our plan to learn more.  
+Accessibility of our public spaces
+We are committed to ensuring that our public spaces are designed to be accessible and provide barrier-free access for people with disabilities. We incorporate accessibility criteria in the design and procurement of our goods, services and facilities. 
+Customer service
+We are committed to delivering an accessible, welcoming and inclusive customer experience.   As part of our commitment to accessibility and our customers with disabilities, all OCS employees and individuals who provide goods, services or facilities on our behalf participate in customer service training specific to the IASRs of the AODA and the Ontario Human Rights Code. 
+Service animals and support persons
+At all OCS locations we welcome people with disabilities who are accompanied by a service animal or support person. 
+Use of assistive devices
+People with disabilities may use their personal assistive devices when accessing our goods and services and our facilities.
+Alternate formats
+An accessible or alternate format for a document is a method of arranging information in a specific format in order to remove potential barriers to accessing and understanding information.
+We are committed to providing accessible information and communication to our customers and we recognize that people with disabilities may use methods other than standard print to access information. Some methods that we offer include audio format, large text, accessible PDF and Braille.
+While we strive to provide an accessible experience wherever possible, there are exceptions under the Information and Communication Standard that do not apply to:
+Products and product labels;
+Unconvertible information or communications; and
+Information that the OCS does not control either directly or indirectly through a contractual relationship.
+You can request alternate format documents by:
+Web-form: www.helloocs.ca
+Phone: 1-888-910-0627
+Accessibility Support Line: 1-844-627-1112
+For Accessibility Relay Service: dial 711
+ 
+Mailing Address:
+Ontario Cannabis Store
+P.O.Box 4029, STN “A”
+Toronto, ON, M5W 1K3
+  Once we receive your request, your documents will be sent to you within 10 business days.
+Website accessibility
+Website accessibility refers to the inclusive practice of designing websites so that people with disabilities and those with different or diverse abilities can understand content, navigate and interact online and have equal access to information and functionality.
+We are committed to making our websites (OCS.ca and HelloOCS.com) accessible by conforming to the World Wide Web Consortium Web Content Accessibility Guidelines (WCAG) 2.0 and usable with assistive technology.
+Providing feedback
+We welcome your feedback about accessibility at the OCS.  When it comes to meeting accessibility standards for our goods and services, we’re always looking to improve. Whether we’re doing something you like, or if there’s something you think we can do better, we’d love to hear from you.
+You can provide feedback in the following ways:
+Web-form: www.helloocs.ca
+Phone: 1-888-910-0627
+Accessibility Support Line: 1-844-627-1112
+For Accessibility Relay Service: dial 711
+Mailing Address:
+Ontario Cannabis Store
+P.O.Box 4029, STN “A”
+Toronto, ON, M5W 1K3
+
+
+Last Updated: November 1, 2018
+You’ll receive a confirmation message indicating that we received your communication within one business day. Your feedback will then be reviewed by our accessibility team, where we will consider possible action and reasonable accommodations that can be taken to improve our services. You will receive an update within 10 business days. If requested, we will provide accessible formats and communication supports in the feedback process.
+Employment and career opportunities
+We are committed to providing an accessible, equitable and inclusive candidate and employee experience.
+We are an equal opportunity employer and are committed to providing reasonable accommodation throughout the recruitment process and in employment. We encourage candidates and employees to identify and discuss any potential accommodation requirements and we will work with you to meet your needs.   '
+
+2019-05-09 11:44:35 - [MESSAGE][PASSED] - Text of object 'Object Repository/accessibility_OR/Page_Accessibility  Ontario Cannabi/article_Accessibility' is: 'Accessibility
+Accessibility at the Ontario Cannabis Store (OCS)
+Communication
+We take initiative to communicate with individuals with disabilities in ways that account for their disability while remaining accommodating and respectful.
+Notice of temporary disruption of service
+In the event of a planned or unexpected disruption to our services, we will promptly notify customers. The notice will be posted on our website and will include information about the reason for the disruption, its anticipated duration and a description of alternative services if available.
+Customers using screen readers may experience issues navigating OCS.ca. Until we can correct this problem, customers can contact our Accessibility Support Line at1-844-627-1112 for assistance with their orders. We are committed to promptly fixing these issues and continually working to improve the website experience for people with disabilities.
+Our commitment to accessibility
+At the OCS we are committed to meeting the accessibility needs of people with disabilities in a manner that is consistent with the principles of independence, dignity, integration and equal opportunity.  
+We are committed to meeting accessibility requirements set out in the Accessibility for Ontarians with Disabilities Act, 2005 (AODA), by providing an inclusive, accessible and barrier-free experience for people with disabilities across the following Integrated Accessibility Standards Regulation (IASR):
+
+Customer Service
+Information and communication
+Design of Public Spaces
+Employment
+Multi-year accessibility plan
+Our multi-year accessibility plan outlines what we are doing to meet the accessibility requirements of the AODA. 
+You can download our plan to learn more.  
+Accessibility of our public spaces
+We are committed to ensuring that our public spaces are designed to be accessible and provide barrier-free access for people with disabilities. We incorporate accessibility criteria in the design and procurement of our goods, services and facilities. 
+Customer service
+We are committed to delivering an accessible, welcoming and inclusive customer experience.   As part of our commitment to accessibility and our customers with disabilities, all OCS employees and individuals who provide goods, services or facilities on our behalf participate in customer service training specific to the IASRs of the AODA and the Ontario Human Rights Code. 
+Service animals and support persons
+At all OCS locations we welcome people with disabilities who are accompanied by a service animal or support person. 
+Use of assistive devices
+People with disabilities may use their personal assistive devices when accessing our goods and services and our facilities.
+Alternate formats
+An accessible or alternate format for a document is a method of arranging information in a specific format in order to remove potential barriers to accessing and understanding information.
+We are committed to providing accessible information and communication to our customers and we recognize that people with disabilities may use methods other than standard print to access information. Some methods that we offer include audio format, large text, accessible PDF and Braille.
+While we strive to provide an accessible experience wherever possible, there are exceptions under the Information and Communication Standard that do not apply to:
+Products and product labels;
+Unconvertible information or communications; and
+Information that the OCS does not control either directly or indirectly through a contractual relationship.
+You can request alternate format documents by:
+Web-form: www.helloocs.ca
+Phone: 1-888-910-0627
+Accessibility Support Line: 1-844-627-1112
+For Accessibility Relay Service: dial 711
+ 
+Mailing Address:
+Ontario Cannabis Store
+P.O.Box 4029, STN “A”
+Toronto, ON, M5W 1K3
+  Once we receive your request, your documents will be sent to you within 10 business days.
+Website accessibility
+Website accessibility refers to the inclusive practice of designing websites so that people with disabilities and those with different or diverse abilities can understand content, navigate and interact online and have equal access to information and functionality.
+We are committed to making our websites (OCS.ca and HelloOCS.com) accessible by conforming to the World Wide Web Consortium Web Content Accessibility Guidelines (WCAG) 2.0 and usable with assistive technology.
+Providing feedback
+We welcome your feedback about accessibility at the OCS.  When it comes to meeting accessibility standards for our goods and services, we’re always looking to improve. Whether we’re doing something you like, or if there’s something you think we can do better, we’d love to hear from you.
+You can provide feedback in the following ways:
+Web-form: www.helloocs.ca
+Phone: 1-888-910-0627
+Accessibility Support Line: 1-844-627-1112
+For Accessibility Relay Service: dial 711
+Mailing Address:
+Ontario Cannabis Store
+P.O.Box 4029, STN “A”
+Toronto, ON, M5W 1K3
+
+
+Last Updated: November 1, 2018
+You’ll receive a confirmation message indicating that we received your communication within one business day. Your feedback will then be reviewed by our accessibility team, where we will consider possible action and reasonable accommodations that can be taken to improve our services. You will receive an update within 10 business days. If requested, we will provide accessible formats and communication supports in the feedback process.
+Employment and career opportunities
+We are committed to providing an accessible, equitable and inclusive candidate and employee experience.
+We are an equal opportunity employer and are committed to providing reasonable accommodation throughout the recruitment process and in employment. We encourage candidates and employees to identify and discuss any potential accommodation requirements and we will work with you to meet your needs.   '
+
+2019-05-09 11:44:35 - [TEST_STEP][PASSED] - comment(" a = " + a):  a = Accessibility
+Accessibility at the Ontario Cannabis Store (OCS)
+Communication
+We take initiative to communicate with individuals with disabilities in ways that account for their disability while remaining accommodating and respectful.
+Notice of temporary disruption of service
+In the event of a planned or unexpected disruption to our services, we will promptly notify customers. The notice will be posted on our website and will include information about the reason for the disruption, its anticipated duration and a description of alternative services if available.
+Customers using screen readers may experience issues navigating OCS.ca. Until we can correct this problem, customers can contact our Accessibility Support Line at1-844-627-1112 for assistance with their orders. We are committed to promptly fixing these issues and continually working to improve the website experience for people with disabilities.
+Our commitment to accessibility
+At the OCS we are committed to meeting the accessibility needs of people with disabilities in a manner that is consistent with the principles of independence, dignity, integration and equal opportunity.  
+We are committed to meeting accessibility requirements set out in the Accessibility for Ontarians with Disabilities Act, 2005 (AODA), by providing an inclusive, accessible and barrier-free experience for people with disabilities across the following Integrated Accessibility Standards Regulation (IASR):
+
+Customer Service
+Information and communication
+Design of Public Spaces
+Employment
+Multi-year accessibility plan
+Our multi-year accessibility plan outlines what we are doing to meet the accessibility requirements of the AODA. 
+You can download our plan to learn more.  
+Accessibility of our public spaces
+We are committed to ensuring that our public spaces are designed to be accessible and provide barrier-free access for people with disabilities. We incorporate accessibility criteria in the design and procurement of our goods, services and facilities. 
+Customer service
+We are committed to delivering an accessible, welcoming and inclusive customer experience.   As part of our commitment to accessibility and our customers with disabilities, all OCS employees and individuals who provide goods, services or facilities on our behalf participate in customer service training specific to the IASRs of the AODA and the Ontario Human Rights Code. 
+Service animals and support persons
+At all OCS locations we welcome people with disabilities who are accompanied by a service animal or support person. 
+Use of assistive devices
+People with disabilities may use their personal assistive devices when accessing our goods and services and our facilities.
+Alternate formats
+An accessible or alternate format for a document is a method of arranging information in a specific format in order to remove potential barriers to accessing and understanding information.
+We are committed to providing accessible information and communication to our customers and we recognize that people with disabilities may use methods other than standard print to access information. Some methods that we offer include audio format, large text, accessible PDF and Braille.
+While we strive to provide an accessible experience wherever possible, there are exceptions under the Information and Communication Standard that do not apply to:
+Products and product labels;
+Unconvertible information or communications; and
+Information that the OCS does not control either directly or indirectly through a contractual relationship.
+You can request alternate format documents by:
+Web-form: www.helloocs.ca
+Phone: 1-888-910-0627
+Accessibility Support Line: 1-844-627-1112
+For Accessibility Relay Service: dial 711
+ 
+Mailing Address:
+Ontario Cannabis Store
+P.O.Box 4029, STN “A”
+Toronto, ON, M5W 1K3
+  Once we receive your request, your documents will be sent to you within 10 business days.
+Website accessibility
+Website accessibility refers to the inclusive practice of designing websites so that people with disabilities and those with different or diverse abilities can understand content, navigate and interact online and have equal access to information and functionality.
+We are committed to making our websites (OCS.ca and HelloOCS.com) accessible by conforming to the World Wide Web Consortium Web Content Accessibility Guidelines (WCAG) 2.0 and usable with assistive technology.
+Providing feedback
+We welcome your feedback about accessibility at the OCS.  When it comes to meeting accessibility standards for our goods and services, we’re always looking to improve. Whether we’re doing something you like, or if there’s something you think we can do better, we’d love to hear from you.
+You can provide feedback in the following ways:
+Web-form: www.helloocs.ca
+Phone: 1-888-910-0627
+Accessibility Support Line: 1-844-627-1112
+For Accessibility Relay Service: dial 711
+Mailing Address:
+Ontario Cannabis Store
+P.O.Box 4029, STN “A”
+Toronto, ON, M5W 1K3
+
+
+Last Updated: November 1, 2018
+You’ll receive a confirmation message indicating that we received your communication within one business day. Your feedback will then be reviewed by our accessibility team, where we will consider possible action and reasonable accommodations that can be taken to improve our services. You will receive an update within 10 business days. If requested, we will provide accessible formats and communication supports in the feedback process.
+Employment and career opportunities
+We are committed to providing an accessible, equitable and inclusive candidate and employee experience.
+We are an equal opportunity employer and are committed to providing reasonable accommodation throughout the recruitment process and in employment. We encourage candidates and employees to identify and discuss any potential accommodation requirements and we will work with you to meet your needs.   
+
+2019-05-09 11:44:35 - [MESSAGE][INFO] -  a = Accessibility
+Accessibility at the Ontario Cannabis Store (OCS)
+Communication
+We take initiative to communicate with individuals with disabilities in ways that account for their disability while remaining accommodating and respectful.
+Notice of temporary disruption of service
+In the event of a planned or unexpected disruption to our services, we will promptly notify customers. The notice will be posted on our website and will include information about the reason for the disruption, its anticipated duration and a description of alternative services if available.
+Customers using screen readers may experience issues navigating OCS.ca. Until we can correct this problem, customers can contact our Accessibility Support Line at1-844-627-1112 for assistance with their orders. We are committed to promptly fixing these issues and continually working to improve the website experience for people with disabilities.
+Our commitment to accessibility
+At the OCS we are committed to meeting the accessibility needs of people with disabilities in a manner that is consistent with the principles of independence, dignity, integration and equal opportunity.  
+We are committed to meeting accessibility requirements set out in the Accessibility for Ontarians with Disabilities Act, 2005 (AODA), by providing an inclusive, accessible and barrier-free experience for people with disabilities across the following Integrated Accessibility Standards Regulation (IASR):
+
+Customer Service
+Information and communication
+Design of Public Spaces
+Employment
+Multi-year accessibility plan
+Our multi-year accessibility plan outlines what we are doing to meet the accessibility requirements of the AODA. 
+You can download our plan to learn more.  
+Accessibility of our public spaces
+We are committed to ensuring that our public spaces are designed to be accessible and provide barrier-free access for people with disabilities. We incorporate accessibility criteria in the design and procurement of our goods, services and facilities. 
+Customer service
+We are committed to delivering an accessible, welcoming and inclusive customer experience.   As part of our commitment to accessibility and our customers with disabilities, all OCS employees and individuals who provide goods, services or facilities on our behalf participate in customer service training specific to the IASRs of the AODA and the Ontario Human Rights Code. 
+Service animals and support persons
+At all OCS locations we welcome people with disabilities who are accompanied by a service animal or support person. 
+Use of assistive devices
+People with disabilities may use their personal assistive devices when accessing our goods and services and our facilities.
+Alternate formats
+An accessible or alternate format for a document is a method of arranging information in a specific format in order to remove potential barriers to accessing and understanding information.
+We are committed to providing accessible information and communication to our customers and we recognize that people with disabilities may use methods other than standard print to access information. Some methods that we offer include audio format, large text, accessible PDF and Braille.
+While we strive to provide an accessible experience wherever possible, there are exceptions under the Information and Communication Standard that do not apply to:
+Products and product labels;
+Unconvertible information or communications; and
+Information that the OCS does not control either directly or indirectly through a contractual relationship.
+You can request alternate format documents by:
+Web-form: www.helloocs.ca
+Phone: 1-888-910-0627
+Accessibility Support Line: 1-844-627-1112
+For Accessibility Relay Service: dial 711
+ 
+Mailing Address:
+Ontario Cannabis Store
+P.O.Box 4029, STN “A”
+Toronto, ON, M5W 1K3
+  Once we receive your request, your documents will be sent to you within 10 business days.
+Website accessibility
+Website accessibility refers to the inclusive practice of designing websites so that people with disabilities and those with different or diverse abilities can understand content, navigate and interact online and have equal access to information and functionality.
+We are committed to making our websites (OCS.ca and HelloOCS.com) accessible by conforming to the World Wide Web Consortium Web Content Accessibility Guidelines (WCAG) 2.0 and usable with assistive technology.
+Providing feedback
+We welcome your feedback about accessibility at the OCS.  When it comes to meeting accessibility standards for our goods and services, we’re always looking to improve. Whether we’re doing something you like, or if there’s something you think we can do better, we’d love to hear from you.
+You can provide feedback in the following ways:
+Web-form: www.helloocs.ca
+Phone: 1-888-910-0627
+Accessibility Support Line: 1-844-627-1112
+For Accessibility Relay Service: dial 711
+Mailing Address:
+Ontario Cannabis Store
+P.O.Box 4029, STN “A”
+Toronto, ON, M5W 1K3
+
+
+Last Updated: November 1, 2018
+You’ll receive a confirmation message indicating that we received your communication within one business day. Your feedback will then be reviewed by our accessibility team, where we will consider possible action and reasonable accommodations that can be taken to improve our services. You will receive an update within 10 business days. If requested, we will provide accessible formats and communication supports in the feedback process.
+Employment and career opportunities
+We are committed to providing an accessible, equitable and inclusive candidate and employee experience.
+We are an equal opportunity employer and are committed to providing reasonable accommodation throughout the recruitment process and in employment. We encourage candidates and employees to identify and discuss any potential accommodation requirements and we will work with you to meet your needs.   
+
+2019-05-09 11:44:35 - [TEST_STEP][PASSED] - verifyTextPresent(a, false): Text 'Accessibility
+Accessibility at the Ontario Cannabis Store (OCS)
+Communication
+We take initiative to communicate with individuals with disabilities in ways that account for their disability while remaining accommodating and respectful.
+Notice of temporary disruption of service
+In the event of a planned or unexpected disruption to our services, we will promptly notify customers. The notice will be posted on our website and will include information about the reason for the disruption, its anticipated duration and a description of alternative services if available.
+Customers using screen readers may experience issues navigating OCS.ca. Until we can correct this problem, customers can contact our Accessibility Support Line at1-844-627-1112 for assistance with their orders. We are committed to promptly fixing these issues and continually working to improve the website experience for people with disabilities.
+Our commitment to accessibility
+At the OCS we are committed to meeting the accessibility needs of people with disabilities in a manner that is consistent with the principles of independence, dignity, integration and equal opportunity.  
+We are committed to meeting accessibility requirements set out in the Accessibility for Ontarians with Disabilities Act, 2005 (AODA), by providing an inclusive, accessible and barrier-free experience for people with disabilities across the following Integrated Accessibility Standards Regulation (IASR):
+
+Customer Service
+Information and communication
+Design of Public Spaces
+Employment
+Multi-year accessibility plan
+Our multi-year accessibility plan outlines what we are doing to meet the accessibility requirements of the AODA. 
+You can download our plan to learn more.  
+Accessibility of our public spaces
+We are committed to ensuring that our public spaces are designed to be accessible and provide barrier-free access for people with disabilities. We incorporate accessibility criteria in the design and procurement of our goods, services and facilities. 
+Customer service
+We are committed to delivering an accessible, welcoming and inclusive customer experience.   As part of our commitment to accessibility and our customers with disabilities, all OCS employees and individuals who provide goods, services or facilities on our behalf participate in customer service training specific to the IASRs of the AODA and the Ontario Human Rights Code. 
+Service animals and support persons
+At all OCS locations we welcome people with disabilities who are accompanied by a service animal or support person. 
+Use of assistive devices
+People with disabilities may use their personal assistive devices when accessing our goods and services and our facilities.
+Alternate formats
+An accessible or alternate format for a document is a method of arranging information in a specific format in order to remove potential barriers to accessing and understanding information.
+We are committed to providing accessible information and communication to our customers and we recognize that people with disabilities may use methods other than standard print to access information. Some methods that we offer include audio format, large text, accessible PDF and Braille.
+While we strive to provide an accessible experience wherever possible, there are exceptions under the Information and Communication Standard that do not apply to:
+Products and product labels;
+Unconvertible information or communications; and
+Information that the OCS does not control either directly or indirectly through a contractual relationship.
+You can request alternate format documents by:
+Web-form: www.helloocs.ca
+Phone: 1-888-910-0627
+Accessibility Support Line: 1-844-627-1112
+For Accessibility Relay Service: dial 711
+ 
+Mailing Address:
+Ontario Cannabis Store
+P.O.Box 4029, STN “A”
+Toronto, ON, M5W 1K3
+  Once we receive your request, your documents will be sent to you within 10 business days.
+Website accessibility
+Website accessibility refers to the inclusive practice of designing websites so that people with disabilities and those with different or diverse abilities can understand content, navigate and interact online and have equal access to information and functionality.
+We are committed to making our websites (OCS.ca and HelloOCS.com) accessible by conforming to the World Wide Web Consortium Web Content Accessibility Guidelines (WCAG) 2.0 and usable with assistive technology.
+Providing feedback
+We welcome your feedback about accessibility at the OCS.  When it comes to meeting accessibility standards for our goods and services, we’re always looking to improve. Whether we’re doing something you like, or if there’s something you think we can do better, we’d love to hear from you.
+You can provide feedback in the following ways:
+Web-form: www.helloocs.ca
+Phone: 1-888-910-0627
+Accessibility Support Line: 1-844-627-1112
+For Accessibility Relay Service: dial 711
+Mailing Address:
+Ontario Cannabis Store
+P.O.Box 4029, STN “A”
+Toronto, ON, M5W 1K3
+
+
+Last Updated: November 1, 2018
+You’ll receive a confirmation message indicating that we received your communication within one business day. Your feedback will then be reviewed by our accessibility team, where we will consider possible action and reasonable accommodations that can be taken to improve our services. You will receive an update within 10 business days. If requested, we will provide accessible formats and communication supports in the feedback process.
+Employment and career opportunities
+We are committed to providing an accessible, equitable and inclusive candidate and employee experience.
+We are an equal opportunity employer and are committed to providing reasonable accommodation throughout the recruitment process and in employment. We encourage candidates and employees to identify and discuss any potential accommodation requirements and we will work with you to meet your needs.   ' is present on page 
+
+2019-05-09 11:44:35 - [MESSAGE][PASSED] - Text 'Accessibility
+Accessibility at the Ontario Cannabis Store (OCS)
+Communication
+We take initiative to communicate with individuals with disabilities in ways that account for their disability while remaining accommodating and respectful.
+Notice of temporary disruption of service
+In the event of a planned or unexpected disruption to our services, we will promptly notify customers. The notice will be posted on our website and will include information about the reason for the disruption, its anticipated duration and a description of alternative services if available.
+Customers using screen readers may experience issues navigating OCS.ca. Until we can correct this problem, customers can contact our Accessibility Support Line at1-844-627-1112 for assistance with their orders. We are committed to promptly fixing these issues and continually working to improve the website experience for people with disabilities.
+Our commitment to accessibility
+At the OCS we are committed to meeting the accessibility needs of people with disabilities in a manner that is consistent with the principles of independence, dignity, integration and equal opportunity.  
+We are committed to meeting accessibility requirements set out in the Accessibility for Ontarians with Disabilities Act, 2005 (AODA), by providing an inclusive, accessible and barrier-free experience for people with disabilities across the following Integrated Accessibility Standards Regulation (IASR):
+
+Customer Service
+Information and communication
+Design of Public Spaces
+Employment
+Multi-year accessibility plan
+Our multi-year accessibility plan outlines what we are doing to meet the accessibility requirements of the AODA. 
+You can download our plan to learn more.  
+Accessibility of our public spaces
+We are committed to ensuring that our public spaces are designed to be accessible and provide barrier-free access for people with disabilities. We incorporate accessibility criteria in the design and procurement of our goods, services and facilities. 
+Customer service
+We are committed to delivering an accessible, welcoming and inclusive customer experience.   As part of our commitment to accessibility and our customers with disabilities, all OCS employees and individuals who provide goods, services or facilities on our behalf participate in customer service training specific to the IASRs of the AODA and the Ontario Human Rights Code. 
+Service animals and support persons
+At all OCS locations we welcome people with disabilities who are accompanied by a service animal or support person. 
+Use of assistive devices
+People with disabilities may use their personal assistive devices when accessing our goods and services and our facilities.
+Alternate formats
+An accessible or alternate format for a document is a method of arranging information in a specific format in order to remove potential barriers to accessing and understanding information.
+We are committed to providing accessible information and communication to our customers and we recognize that people with disabilities may use methods other than standard print to access information. Some methods that we offer include audio format, large text, accessible PDF and Braille.
+While we strive to provide an accessible experience wherever possible, there are exceptions under the Information and Communication Standard that do not apply to:
+Products and product labels;
+Unconvertible information or communications; and
+Information that the OCS does not control either directly or indirectly through a contractual relationship.
+You can request alternate format documents by:
+Web-form: www.helloocs.ca
+Phone: 1-888-910-0627
+Accessibility Support Line: 1-844-627-1112
+For Accessibility Relay Service: dial 711
+ 
+Mailing Address:
+Ontario Cannabis Store
+P.O.Box 4029, STN “A”
+Toronto, ON, M5W 1K3
+  Once we receive your request, your documents will be sent to you within 10 business days.
+Website accessibility
+Website accessibility refers to the inclusive practice of designing websites so that people with disabilities and those with different or diverse abilities can understand content, navigate and interact online and have equal access to information and functionality.
+We are committed to making our websites (OCS.ca and HelloOCS.com) accessible by conforming to the World Wide Web Consortium Web Content Accessibility Guidelines (WCAG) 2.0 and usable with assistive technology.
+Providing feedback
+We welcome your feedback about accessibility at the OCS.  When it comes to meeting accessibility standards for our goods and services, we’re always looking to improve. Whether we’re doing something you like, or if there’s something you think we can do better, we’d love to hear from you.
+You can provide feedback in the following ways:
+Web-form: www.helloocs.ca
+Phone: 1-888-910-0627
+Accessibility Support Line: 1-844-627-1112
+For Accessibility Relay Service: dial 711
+Mailing Address:
+Ontario Cannabis Store
+P.O.Box 4029, STN “A”
+Toronto, ON, M5W 1K3
+
+
+Last Updated: November 1, 2018
+You’ll receive a confirmation message indicating that we received your communication within one business day. Your feedback will then be reviewed by our accessibility team, where we will consider possible action and reasonable accommodations that can be taken to improve our services. You will receive an update within 10 business days. If requested, we will provide accessible formats and communication supports in the feedback process.
+Employment and career opportunities
+We are committed to providing an accessible, equitable and inclusive candidate and employee experience.
+We are an equal opportunity employer and are committed to providing reasonable accommodation throughout the recruitment process and in employment. We encourage candidates and employees to identify and discuss any potential accommodation requirements and we will work with you to meet your needs.   ' is present on page]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/OCS- STATIC PAGE/Policy" classname="Test Cases/OCS- STATIC PAGE/Policy" status="PASSED">
+         <system-out><![CDATA[2019-05-09 11:44:35 - [TEST_CASE][PASSED] - Test Cases/OCS- STATIC PAGE/Policy: Test Cases/OCS- STATIC PAGE/Policy
+
+2019-05-09 11:44:35 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-05-09 11:44:35 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-05-09 11:44:35 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-05-09 11:44:36 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-05-09 11:44:36 - [TEST_STEP][PASSED] - navigateToUrl("https://ocs.ca/?fts=0&preview_theme_id=53373863756"): Navigate to 'https://ocs.ca/?fts=0&preview_theme_id=53373863756' successfully
+
+2019-05-09 11:44:40 - [MESSAGE][PASSED] - Navigate to 'https://ocs.ca/?fts=0&preview_theme_id=53373863756' successfully
+
+2019-05-09 11:44:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Theme_oR/Page_Ontario Cannabis Store  Ontari/button_Close preview")): Object: 'Object Repository/Theme_oR/Page_Ontario Cannabis Store  Ontari/button_Close preview' is clicked on
+
+2019-05-09 11:44:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Theme_oR/Page_Ontario Cannabis Store  Ontari/button_Close preview' is clicked on
+
+2019-05-09 11:44:41 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("STATIC PAGES _OR/Page_Ontario Cannabis Store  Ontari/select_Select01020304050607080"), "3", true): All options with value '3' are selected in object 'Object Repository/STATIC PAGES _OR/Page_Ontario Cannabis Store  Ontari/select_Select01020304050607080'  using regular expression
+
+2019-05-09 11:44:41 - [MESSAGE][PASSED] - All options with value '3' are selected in object 'Object Repository/STATIC PAGES _OR/Page_Ontario Cannabis Store  Ontari/select_Select01020304050607080'  using regular expression
+
+2019-05-09 11:44:41 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("STATIC PAGES _OR/Page_Ontario Cannabis Store  Ontari/select_SelectJanuary - 01Febru"), "3", true): All options with value '3' are selected in object 'Object Repository/STATIC PAGES _OR/Page_Ontario Cannabis Store  Ontari/select_SelectJanuary - 01Febru'  using regular expression
+
+2019-05-09 11:44:41 - [MESSAGE][PASSED] - All options with value '3' are selected in object 'Object Repository/STATIC PAGES _OR/Page_Ontario Cannabis Store  Ontari/select_SelectJanuary - 01Febru'  using regular expression
+
+2019-05-09 11:44:41 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("STATIC PAGES _OR/Page_Ontario Cannabis Store  Ontari/select_Select20182017201620152"), "1979", true): All options with value '1979' are selected in object 'Object Repository/STATIC PAGES _OR/Page_Ontario Cannabis Store  Ontari/select_Select20182017201620152'  using regular expression
+
+2019-05-09 11:44:43 - [MESSAGE][PASSED] - All options with value '1979' are selected in object 'Object Repository/STATIC PAGES _OR/Page_Ontario Cannabis Store  Ontari/select_Select20182017201620152'  using regular expression
+
+2019-05-09 11:44:43 - [TEST_STEP][PASSED] - click(findTestObject("STATIC PAGES _OR/Page_Ontario Cannabis Store  Ontari/button_Verify")): Object: 'Object Repository/STATIC PAGES _OR/Page_Ontario Cannabis Store  Ontari/button_Verify' is clicked on
+
+2019-05-09 11:44:43 - [MESSAGE][PASSED] - Object: 'Object Repository/STATIC PAGES _OR/Page_Ontario Cannabis Store  Ontari/button_Verify' is clicked on
+
+2019-05-09 11:44:43 - [TEST_STEP][PASSED] - click(findTestObject("STATIC PAGES _OR/Page_Ontario Cannabis Store  Ontari/span_CONFIRM AND ACKNOWLEDGE_c")): Object: 'Object Repository/STATIC PAGES _OR/Page_Ontario Cannabis Store  Ontari/span_CONFIRM AND ACKNOWLEDGE_c' is clicked on
+
+2019-05-09 11:44:43 - [MESSAGE][PASSED] - Object: 'Object Repository/STATIC PAGES _OR/Page_Ontario Cannabis Store  Ontari/span_CONFIRM AND ACKNOWLEDGE_c' is clicked on
+
+2019-05-09 11:44:43 - [TEST_STEP][PASSED] - click(findTestObject("STATIC PAGES _OR/Page_Ontario Cannabis Store  Ontari/button_CONFIRM")): Object: 'Object Repository/STATIC PAGES _OR/Page_Ontario Cannabis Store  Ontari/button_CONFIRM' is clicked on
+
+2019-05-09 11:44:43 - [MESSAGE][PASSED] - Object: 'Object Repository/STATIC PAGES _OR/Page_Ontario Cannabis Store  Ontari/button_CONFIRM' is clicked on
+
+2019-05-09 11:44:43 - [TEST_STEP][PASSED] - click(findTestObject("STATIC PAGES _OR/Page_Ontario Cannabis Store  Ontari/button_Start Browsing")): Object: 'Object Repository/STATIC PAGES _OR/Page_Ontario Cannabis Store  Ontari/button_Start Browsing' is clicked on
+
+2019-05-09 11:44:43 - [MESSAGE][PASSED] - Object: 'Object Repository/STATIC PAGES _OR/Page_Ontario Cannabis Store  Ontari/button_Start Browsing' is clicked on
+
+2019-05-09 11:44:43 - [TEST_STEP][PASSED] - click(findTestObject("STATIC PAGES _OR/Page_Ontario Cannabis Store  Ontari/a_Return Policy")): Object: 'Object Repository/STATIC PAGES _OR/Page_Ontario Cannabis Store  Ontari/a_Return Policy' is clicked on
+
+2019-05-09 11:44:46 - [MESSAGE][PASSED] - Object: 'Object Repository/STATIC PAGES _OR/Page_Ontario Cannabis Store  Ontari/a_Return Policy' is clicked on
+
+2019-05-09 11:44:46 - [TEST_STEP][PASSED] - a = getText(findTestObject("STATIC PAGES _OR/Page_Return Policy  Ontario Cannabi/article_Return Policy")): Text of object 'Object Repository/STATIC PAGES _OR/Page_Return Policy  Ontario Cannabi/article_Return Policy' is: 'Return Policy
+Return Policy
+OCS offers a 14 day Return Policy on all orders of cannabis products. Customers may return any cannabis product in original condition for a refund within 14 days of delivery. The Customer will be refunded via the original payment method used for the purchase. Accessories are final sale and cannot be returned.
+
+For further information please call the OCS customer contact centre at 1-888-910-0627.
+What does original condition mean?
+The product must be in the original, sealed condition in which it was received by the customer.
+  Do I need a receipt?
+You will be required to validate your order information.
+  Will I get back what I originally paid for the product?
+You will receive a refund for any product(s) returned within 14 days of receipt. A return shipping cost of $10 will be deducted from any amount refunded. Original shipping fees may be refunded under certain circumstances, subject to our discretion.
+  How will I receive my refund?
+The refund will be issued via the original payment method used for the purchase.
+  How do I return a product?
+To return a product, please call 1-888-910-0627 and speak with a customer contact centre agent.'
+
+2019-05-09 11:44:46 - [MESSAGE][PASSED] - Text of object 'Object Repository/STATIC PAGES _OR/Page_Return Policy  Ontario Cannabi/article_Return Policy' is: 'Return Policy
+Return Policy
+OCS offers a 14 day Return Policy on all orders of cannabis products. Customers may return any cannabis product in original condition for a refund within 14 days of delivery. The Customer will be refunded via the original payment method used for the purchase. Accessories are final sale and cannot be returned.
+
+For further information please call the OCS customer contact centre at 1-888-910-0627.
+What does original condition mean?
+The product must be in the original, sealed condition in which it was received by the customer.
+  Do I need a receipt?
+You will be required to validate your order information.
+  Will I get back what I originally paid for the product?
+You will receive a refund for any product(s) returned within 14 days of receipt. A return shipping cost of $10 will be deducted from any amount refunded. Original shipping fees may be refunded under certain circumstances, subject to our discretion.
+  How will I receive my refund?
+The refund will be issued via the original payment method used for the purchase.
+  How do I return a product?
+To return a product, please call 1-888-910-0627 and speak with a customer contact centre agent.'
+
+2019-05-09 11:44:46 - [TEST_STEP][PASSED] - comment("a =" + a): a =Return Policy
+Return Policy
+OCS offers a 14 day Return Policy on all orders of cannabis products. Customers may return any cannabis product in original condition for a refund within 14 days of delivery. The Customer will be refunded via the original payment method used for the purchase. Accessories are final sale and cannot be returned.
+
+For further information please call the OCS customer contact centre at 1-888-910-0627.
+What does original condition mean?
+The product must be in the original, sealed condition in which it was received by the customer.
+  Do I need a receipt?
+You will be required to validate your order information.
+  Will I get back what I originally paid for the product?
+You will receive a refund for any product(s) returned within 14 days of receipt. A return shipping cost of $10 will be deducted from any amount refunded. Original shipping fees may be refunded under certain circumstances, subject to our discretion.
+  How will I receive my refund?
+The refund will be issued via the original payment method used for the purchase.
+  How do I return a product?
+To return a product, please call 1-888-910-0627 and speak with a customer contact centre agent.
+
+2019-05-09 11:44:46 - [MESSAGE][INFO] - a =Return Policy
+Return Policy
+OCS offers a 14 day Return Policy on all orders of cannabis products. Customers may return any cannabis product in original condition for a refund within 14 days of delivery. The Customer will be refunded via the original payment method used for the purchase. Accessories are final sale and cannot be returned.
+
+For further information please call the OCS customer contact centre at 1-888-910-0627.
+What does original condition mean?
+The product must be in the original, sealed condition in which it was received by the customer.
+  Do I need a receipt?
+You will be required to validate your order information.
+  Will I get back what I originally paid for the product?
+You will receive a refund for any product(s) returned within 14 days of receipt. A return shipping cost of $10 will be deducted from any amount refunded. Original shipping fees may be refunded under certain circumstances, subject to our discretion.
+  How will I receive my refund?
+The refund will be issued via the original payment method used for the purchase.
+  How do I return a product?
+To return a product, please call 1-888-910-0627 and speak with a customer contact centre agent.
+
+2019-05-09 11:44:46 - [TEST_STEP][PASSED] - flag = verifyTextPresent(a, false, CONTINUE_ON_FAILURE): Text 'Return Policy
+Return Policy
+OCS offers a 14 day Return Policy on all orders of cannabis products. Customers may return any cannabis product in original condition for a refund within 14 days of delivery. The Customer will be refunded via the original payment method used for the purchase. Accessories are final sale and cannot be returned.
+
+For further information please call the OCS customer contact centre at 1-888-910-0627.
+What does original condition mean?
+The product must be in the original, sealed condition in which it was received by the customer.
+  Do I need a receipt?
+You will be required to validate your order information.
+  Will I get back what I originally paid for the product?
+You will receive a refund for any product(s) returned within 14 days of receipt. A return shipping cost of $10 will be deducted from any amount refunded. Original shipping fees may be refunded under certain circumstances, subject to our discretion.
+  How will I receive my refund?
+The refund will be issued via the original payment method used for the purchase.
+  How do I return a product?
+To return a product, please call 1-888-910-0627 and speak with a customer contact centre agent.' is present on page 
+
+2019-05-09 11:44:46 - [MESSAGE][PASSED] - Text 'Return Policy
+Return Policy
+OCS offers a 14 day Return Policy on all orders of cannabis products. Customers may return any cannabis product in original condition for a refund within 14 days of delivery. The Customer will be refunded via the original payment method used for the purchase. Accessories are final sale and cannot be returned.
+
+For further information please call the OCS customer contact centre at 1-888-910-0627.
+What does original condition mean?
+The product must be in the original, sealed condition in which it was received by the customer.
+  Do I need a receipt?
+You will be required to validate your order information.
+  Will I get back what I originally paid for the product?
+You will receive a refund for any product(s) returned within 14 days of receipt. A return shipping cost of $10 will be deducted from any amount refunded. Original shipping fees may be refunded under certain circumstances, subject to our discretion.
+  How will I receive my refund?
+The refund will be issued via the original payment method used for the purchase.
+  How do I return a product?
+To return a product, please call 1-888-910-0627 and speak with a customer contact centre agent.' is present on page 
+
+2019-05-09 11:44:46 - [TEST_STEP][PASSED] - if (flag == true): text is present 
+
+2019-05-09 11:44:46 - [TEST_STEP][PASSED] - comment("text is present "): text is present 
+
+2019-05-09 11:44:46 - [MESSAGE][INFO] - text is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/OCS- STATIC PAGE/Privacy" classname="Test Cases/OCS- STATIC PAGE/Privacy" status="FAILED">
+         <failure type="FAILED" message="Test Cases/OCS- STATIC PAGE/Privacy FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Text 'The Ontario Cannabis Retail Corporation, doing business as the Ontario Cannabis Store “OCS” is committed to protecting the privacy of its customers, in accordance with Ontario’s Freedom of Information and Protection of Privacy Act (FIPPA).We understand that our customers expect us to keep their purchases confidential, and so we have made a deliberate choice to protect personal information.
+
+We only collect information that is necessary for each transaction. We won’t use or share it for any other purposes, and it will never be sold to third parties. All information will be kept for only the minimum length of time required by law and then deleted as soon as possible. Visitors to the site will not be required to create an online account or profile in order to purchase products.' is not present on page 
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:32)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:21)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1677)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$5.call(Unknown Source)
+	at Privacy.run(Privacy:45)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1557416647525.run(TempTestSuite1557416647525.groovy:36)
+"/>
+         <system-out><![CDATA[2019-05-09 11:44:46 - [TEST_CASE][FAILED] - Test Cases/OCS- STATIC PAGE/Privacy: Test Cases/OCS- STATIC PAGE/Privacy FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Text 'The Ontario Cannabis Retail Corporation, doing business as the Ontario Cannabis Store “OCS” is committed to protecting the privacy of its customers, in accordance with Ontario’s Freedom of Information and Protection of Privacy Act (FIPPA).We understand that our customers expect us to keep their purchases confidential, and so we have made a deliberate choice to protect personal information.
+
+We only collect information that is necessary for each transaction. We won’t use or share it for any other purposes, and it will never be sold to third parties. All information will be kept for only the minimum length of time required by law and then deleted as soon as possible. Visitors to the site will not be required to create an online account or profile in order to purchase products.' is not present on page 
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:32)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:21)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1677)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$5.call(Unknown Source)
+	at Privacy.run(Privacy:45)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1557416647525.run(TempTestSuite1557416647525.groovy:36)
+
+
+2019-05-09 11:44:46 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-05-09 11:44:46 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-05-09 11:44:46 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-05-09 11:44:47 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-05-09 11:44:47 - [TEST_STEP][PASSED] - navigateToUrl("https://ocs.ca/?fts=0&preview_theme_id=53373863756"): Navigate to 'https://ocs.ca/?fts=0&preview_theme_id=53373863756' successfully
+
+2019-05-09 11:44:51 - [MESSAGE][PASSED] - Navigate to 'https://ocs.ca/?fts=0&preview_theme_id=53373863756' successfully
+
+2019-05-09 11:44:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Theme_oR/Page_Ontario Cannabis Store  Ontari/button_Close preview")): Object: 'Object Repository/Theme_oR/Page_Ontario Cannabis Store  Ontari/button_Close preview' is clicked on
+
+2019-05-09 11:44:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Theme_oR/Page_Ontario Cannabis Store  Ontari/button_Close preview' is clicked on
+
+2019-05-09 11:44:52 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-05-09 11:44:52 - [MESSAGE][PASSED] - Current window maximized
+
+2019-05-09 11:44:52 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/privacy static_OR/Page_Ontario Cannabis Store  Ontari/select_Select01020304050607080"), "3", true): All options with value '3' are selected in object 'Object Repository/privacy static_OR/Page_Ontario Cannabis Store  Ontari/select_Select01020304050607080'  using regular expression
+
+2019-05-09 11:44:52 - [MESSAGE][PASSED] - All options with value '3' are selected in object 'Object Repository/privacy static_OR/Page_Ontario Cannabis Store  Ontari/select_Select01020304050607080'  using regular expression
+
+2019-05-09 11:44:52 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/privacy static_OR/Page_Ontario Cannabis Store  Ontari/select_SelectJanuary - 01Febru"), "2", true): All options with value '2' are selected in object 'Object Repository/privacy static_OR/Page_Ontario Cannabis Store  Ontari/select_SelectJanuary - 01Febru'  using regular expression
+
+2019-05-09 11:44:52 - [MESSAGE][PASSED] - All options with value '2' are selected in object 'Object Repository/privacy static_OR/Page_Ontario Cannabis Store  Ontari/select_SelectJanuary - 01Febru'  using regular expression
+
+2019-05-09 11:44:52 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/privacy static_OR/Page_Ontario Cannabis Store  Ontari/select_Select20182017201620152"), "1973", true): All options with value '1973' are selected in object 'Object Repository/privacy static_OR/Page_Ontario Cannabis Store  Ontari/select_Select20182017201620152'  using regular expression
+
+2019-05-09 11:44:54 - [MESSAGE][PASSED] - All options with value '1973' are selected in object 'Object Repository/privacy static_OR/Page_Ontario Cannabis Store  Ontari/select_Select20182017201620152'  using regular expression
+
+2019-05-09 11:44:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/privacy static_OR/Page_Ontario Cannabis Store  Ontari/button_Verify")): Object: 'Object Repository/privacy static_OR/Page_Ontario Cannabis Store  Ontari/button_Verify' is clicked on
+
+2019-05-09 11:44:54 - [MESSAGE][PASSED] - Object: 'Object Repository/privacy static_OR/Page_Ontario Cannabis Store  Ontari/button_Verify' is clicked on
+
+2019-05-09 11:44:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/privacy static_OR/Page_Ontario Cannabis Store  Ontari/span_CONFIRM AND ACKNOWLEDGE_c")): Object: 'Object Repository/privacy static_OR/Page_Ontario Cannabis Store  Ontari/span_CONFIRM AND ACKNOWLEDGE_c' is clicked on
+
+2019-05-09 11:44:54 - [MESSAGE][PASSED] - Object: 'Object Repository/privacy static_OR/Page_Ontario Cannabis Store  Ontari/span_CONFIRM AND ACKNOWLEDGE_c' is clicked on
+
+2019-05-09 11:44:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/privacy static_OR/Page_Ontario Cannabis Store  Ontari/button_CONFIRM")): Object: 'Object Repository/privacy static_OR/Page_Ontario Cannabis Store  Ontari/button_CONFIRM' is clicked on
+
+2019-05-09 11:44:54 - [MESSAGE][PASSED] - Object: 'Object Repository/privacy static_OR/Page_Ontario Cannabis Store  Ontari/button_CONFIRM' is clicked on
+
+2019-05-09 11:44:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/privacy static_OR/Page_Ontario Cannabis Store  Ontari/button_Start Browsing")): Object: 'Object Repository/privacy static_OR/Page_Ontario Cannabis Store  Ontari/button_Start Browsing' is clicked on
+
+2019-05-09 11:44:54 - [MESSAGE][PASSED] - Object: 'Object Repository/privacy static_OR/Page_Ontario Cannabis Store  Ontari/button_Start Browsing' is clicked on
+
+2019-05-09 11:44:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/privacy static_OR/Page_Ontario Cannabis Store  Ontari/a_Privacy")): Object: 'Object Repository/privacy static_OR/Page_Ontario Cannabis Store  Ontari/a_Privacy' is clicked on
+
+2019-05-09 11:44:57 - [MESSAGE][PASSED] - Object: 'Object Repository/privacy static_OR/Page_Ontario Cannabis Store  Ontari/a_Privacy' is clicked on
+
+2019-05-09 11:44:57 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-05-09 11:45:00 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-05-09 11:45:00 - [TEST_STEP][FAILED] - flag = verifyTextPresent("The Ontario Cannabis Retail Corporation, doing business as the Ontario Cannabis Store “OCS” is committed to protecting the privacy of its customers, in accordance with Ontario’s Freedom of Information and Protection of Privacy Act (FIPPA).We understand that our customers expect us to keep their purchases confidential, and so we have made a deliberate choice to protect personal information.
+
+We only collect information that is necessary for each transaction. We won’t use or share it for any other purposes, and it will never be sold to third parties. All information will be kept for only the minimum length of time required by law and then deleted as soon as possible. Visitors to the site will not be required to create an online account or profile in order to purchase products.", false, CONTINUE_ON_FAILURE): Text 'The Ontario Cannabis Retail Corporation, doing business as the Ontario Cannabis Store “OCS” is committed to protecting the privacy of its customers, in accordance with Ontario’s Freedom of Information and Protection of Privacy Act (FIPPA).We understand that our customers expect us to keep their purchases confidential, and so we have made a deliberate choice to protect personal information.
+
+We only collect information that is necessary for each transaction. We won’t use or share it for any other purposes, and it will never be sold to third parties. All information will be kept for only the minimum length of time required by law and then deleted as soon as possible. Visitors to the site will not be required to create an online account or profile in order to purchase products.' is not present on page 
+
+2019-05-09 11:45:00 - [MESSAGE][FAILED] - Text 'The Ontario Cannabis Retail Corporation, doing business as the Ontario Cannabis Store “OCS” is committed to protecting the privacy of its customers, in accordance with Ontario’s Freedom of Information and Protection of Privacy Act (FIPPA).We understand that our customers expect us to keep their purchases confidential, and so we have made a deliberate choice to protect personal information.
+
+We only collect information that is necessary for each transaction. We won’t use or share it for any other purposes, and it will never be sold to third parties. All information will be kept for only the minimum length of time required by law and then deleted as soon as possible. Visitors to the site will not be required to create an online account or profile in order to purchase products.' is not present on page 
+
+2019-05-09 11:45:00 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-05-09 11:45:03 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-05-09 11:45:03 - [TEST_STEP][PASSED] - comment("flag =" + flag): flag =false
+
+2019-05-09 11:45:03 - [MESSAGE][INFO] - flag =false
+
+2019-05-09 11:45:03 - [TEST_STEP][PASSED] - if (flag == true): null
+
+2019-05-09 11:45:03 - [TEST_STEP][FAILED] - else: else FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Text 'The Ontario Cannabis Retail Corporation, doing business as the Ontario Cannabis Store “OCS” is committed to protecting the privacy of its customers, in accordance with Ontario’s Freedom of Information and Protection of Privacy Act (FIPPA).We understand that our customers expect us to keep their purchases confidential, and so we have made a deliberate choice to protect personal information.
+
+We only collect information that is necessary for each transaction. We won’t use or share it for any other purposes, and it will never be sold to third parties. All information will be kept for only the minimum length of time required by law and then deleted as soon as possible. Visitors to the site will not be required to create an online account or profile in order to purchase products.' is not present on page 
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:32)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:21)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1677)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$5.call(Unknown Source)
+	at Privacy.run(Privacy:45)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1557416647525.run(TempTestSuite1557416647525.groovy:36)
+
+
+2019-05-09 11:45:03 - [TEST_STEP][FAILED] - comment(" text is not present"): else FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Text 'The Ontario Cannabis Retail Corporation, doing business as the Ontario Cannabis Store “OCS” is committed to protecting the privacy of its customers, in accordance with Ontario’s Freedom of Information and Protection of Privacy Act (FIPPA).We understand that our customers expect us to keep their purchases confidential, and so we have made a deliberate choice to protect personal information.
+
+We only collect information that is necessary for each transaction. We won’t use or share it for any other purposes, and it will never be sold to third parties. All information will be kept for only the minimum length of time required by law and then deleted as soon as possible. Visitors to the site will not be required to create an online account or profile in order to purchase products.' is not present on page 
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:32)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:21)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1677)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$5.call(Unknown Source)
+	at Privacy.run(Privacy:45)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1557416647525.run(TempTestSuite1557416647525.groovy:36)
+
+
+2019-05-09 11:45:03 - [MESSAGE][INFO] -  text is not present
+
+2019-05-09 11:45:03 - [MESSAGE][FAILED] - else FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Text 'The Ontario Cannabis Retail Corporation, doing business as the Ontario Cannabis Store “OCS” is committed to protecting the privacy of its customers, in accordance with Ontario’s Freedom of Information and Protection of Privacy Act (FIPPA).We understand that our customers expect us to keep their purchases confidential, and so we have made a deliberate choice to protect personal information.
+
+We only collect information that is necessary for each transaction. We won’t use or share it for any other purposes, and it will never be sold to third parties. All information will be kept for only the minimum length of time required by law and then deleted as soon as possible. Visitors to the site will not be required to create an online account or profile in order to purchase products.' is not present on page 
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:32)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:21)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1677)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$5.call(Unknown Source)
+	at Privacy.run(Privacy:45)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1557416647525.run(TempTestSuite1557416647525.groovy:36)]]></system-out>
+         <system-err><![CDATA[2019-05-09 11:44:46 - [TEST_CASE][FAILED] - Test Cases/OCS- STATIC PAGE/Privacy: Test Cases/OCS- STATIC PAGE/Privacy FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Text 'The Ontario Cannabis Retail Corporation, doing business as the Ontario Cannabis Store “OCS” is committed to protecting the privacy of its customers, in accordance with Ontario’s Freedom of Information and Protection of Privacy Act (FIPPA).We understand that our customers expect us to keep their purchases confidential, and so we have made a deliberate choice to protect personal information.
+
+We only collect information that is necessary for each transaction. We won’t use or share it for any other purposes, and it will never be sold to third parties. All information will be kept for only the minimum length of time required by law and then deleted as soon as possible. Visitors to the site will not be required to create an online account or profile in order to purchase products.' is not present on page 
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:32)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:21)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1677)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$5.call(Unknown Source)
+	at Privacy.run(Privacy:45)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1557416647525.run(TempTestSuite1557416647525.groovy:36)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-05-09 11:44:09 - [TEST_SUITE][FAILED] - STATIC PAGES- 09-05-2019: Test Cases/OCS- STATIC PAGE/Privacy FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Text 'The Ontario Cannabis Retail Corporation, doing business as the Ontario Cannabis Store “OCS” is committed to protecting the privacy of its customers, in accordance with Ontario’s Freedom of Information and Protection of Privacy Act (FIPPA).We understand that our customers expect us to keep their purchases confidential, and so we have made a deliberate choice to protect personal information.
+
+We only collect information that is necessary for each transaction. We won’t use or share it for any other purposes, and it will never be sold to third parties. All information will be kept for only the minimum length of time required by law and then deleted as soon as possible. Visitors to the site will not be required to create an online account or profile in order to purchase products.' is not present on page 
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:32)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:21)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1677)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$5.call(Unknown Source)
+	at Privacy.run(Privacy:45)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1557416647525.run(TempTestSuite1557416647525.groovy:36)]]></system-out>
+      <system-err><![CDATA[2019-05-09 11:44:09 - [TEST_SUITE][FAILED] - STATIC PAGES- 09-05-2019: Test Cases/OCS- STATIC PAGE/Privacy FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Text 'The Ontario Cannabis Retail Corporation, doing business as the Ontario Cannabis Store “OCS” is committed to protecting the privacy of its customers, in accordance with Ontario’s Freedom of Information and Protection of Privacy Act (FIPPA).We understand that our customers expect us to keep their purchases confidential, and so we have made a deliberate choice to protect personal information.
+
+We only collect information that is necessary for each transaction. We won’t use or share it for any other purposes, and it will never be sold to third parties. All information will be kept for only the minimum length of time required by law and then deleted as soon as possible. Visitors to the site will not be required to create an online account or profile in order to purchase products.' is not present on page 
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:32)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:21)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1677)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$5.call(Unknown Source)
+	at Privacy.run(Privacy:45)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1557416647525.run(TempTestSuite1557416647525.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>

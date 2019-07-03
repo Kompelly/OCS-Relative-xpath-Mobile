@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Announcement</name>
+   <tag></tag>
+   <comment>flag =&quot; + flag</comment>
+   <testCaseGuid>b8979b52-f657-4462-939c-acc35e2aad86</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Cart flyout - Increase qty -fr</name>
+   <tag></tag>
+   <comment>a
+a1 = &quot; + a1
+x1 = &quot; + x1
+x2 = &quot; + x2
+x3 = &quot; + x3
+x6 = &quot; + x6
+c
+a2 = &quot; + a2
+y1 = &quot; + y1
+y2 = &quot; + y2
+y3 = &quot; + y3
+y4 = &quot; + y4
+ price changed . Quantity selector is working</comment>
+   <testCaseGuid>bc4274e1-eff3-4e67-b926-4f5f6c423c72</testCaseGuid>
+</TestCaseEntity>

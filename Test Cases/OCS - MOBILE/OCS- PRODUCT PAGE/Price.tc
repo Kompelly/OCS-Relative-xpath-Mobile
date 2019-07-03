@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Price</name>
+   <tag></tag>
+   <comment>a =&quot; + a
+flag =&quot; + flag</comment>
+   <testCaseGuid>2a1b86dc-28d9-485b-8d73-abfb4b43f23d</testCaseGuid>
+</TestCaseEntity>

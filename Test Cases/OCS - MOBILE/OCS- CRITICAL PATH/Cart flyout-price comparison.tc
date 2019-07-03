@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Cart flyout-price comparison</name>
+   <tag></tag>
+   <comment> flag=&quot; + flag
+a=&quot; + a
+without = &quot; + without
+k=&quot; + k
+without1 = &quot; + without1
+total =&quot; + total
+amount =&quot; + amount
+soustotal= &quot; + soustotal
+finalprice=&quot; + finalprice
+p=&quot; + p
+cart items price equal</comment>
+   <testCaseGuid>8e7d7183-bca3-437d-80a2-abca89fa78e8</testCaseGuid>
+</TestCaseEntity>

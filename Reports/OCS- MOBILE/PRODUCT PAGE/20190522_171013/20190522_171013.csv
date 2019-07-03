@@ -1,0 +1,194 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+PRODUCT PAGE,Chrome 74.0.3729.169,,2019-05-22 17:10:15,2019-05-22 17:19:20,9m - 5.045s,FAILED
+,,,,,,
+Test Cases/OCS - MOBILE/OCS- PRODUCT PAGE/Add to bag CTA,Chrome 74.0.3729.169,,2019-05-22 17:10:15,2019-05-22 17:10:58,42.843s,PASSED
+"callTestCase(findTestCase(""OCS - MOBILE/CALL - PDP""), [:], STOP_ON_FAILURE)",Chrome 74.0.3729.169,,2019-05-22 17:10:15,2019-05-22 17:10:52,36.473s,PASSED
+"scrollToElement(findTestObject(""OCS-MOBILE /Product page/Product image""), 1)",Chrome 74.0.3729.169,,2019-05-22 17:10:52,2019-05-22 17:10:52,0.039s,PASSED
+delay(2),Chrome 74.0.3729.169,,2019-05-22 17:10:52,2019-05-22 17:10:54,2.002s,PASSED
+"click(findTestObject(""OCS-MOBILE /Product page/Swatch_1g""))",Chrome 74.0.3729.169,,2019-05-22 17:10:54,2019-05-22 17:10:54,0.061s,PASSED
+"scrollToElement(findTestObject(""OCS-MOBILE /Product page/Swatch_3.5g""), 1)",Chrome 74.0.3729.169,,2019-05-22 17:10:54,2019-05-22 17:10:54,0.024s,PASSED
+delay(2),Chrome 74.0.3729.169,,2019-05-22 17:10:54,2019-05-22 17:10:56,2.013s,PASSED
+"click(findTestObject(""OCS-MOBILE /Product page/Add to Bag-button""))",Chrome 74.0.3729.169,,2019-05-22 17:10:56,2019-05-22 17:10:56,0.059s,PASSED
+delay(1),Chrome 74.0.3729.169,,2019-05-22 17:10:56,2019-05-22 17:10:57,1.005s,PASSED
+"verifyElementPresent(findTestObject(""OCS-MOBILE /Cart flyout/Cart - 1st item""), 2)",Chrome 74.0.3729.169,,2019-05-22 17:10:57,2019-05-22 17:10:58,0.543s,PASSED
+"click(findTestObject(""OCS-MOBILE /Cart flyout/Back icon""))",Chrome 74.0.3729.169,,2019-05-22 17:10:58,2019-05-22 17:10:58,0.098s,PASSED
+closeBrowser(),Chrome 74.0.3729.169,,2019-05-22 17:10:58,2019-05-22 17:10:58,0.169s,PASSED
+,,,,,,
+Test Cases/OCS - MOBILE/OCS- PRODUCT PAGE/How to choose cannbis products,Chrome 74.0.3729.169,,2019-05-22 17:10:58,2019-05-22 17:11:38,39.687s,PASSED
+"callTestCase(findTestCase(""OCS - MOBILE/CALL - PDP""), [:], STOP_ON_FAILURE)",Chrome 74.0.3729.169,,2019-05-22 17:10:58,2019-05-22 17:11:32,34.122s,PASSED
+"scrollToElement(findTestObject(""OCS-MOBILE /Product page/How to choose cannabis product - Section""), 2)",Chrome 74.0.3729.169,,2019-05-22 17:11:32,2019-05-22 17:11:32,0.034s,PASSED
+"click(findTestObject(""OCS-MOBILE /Product page/How to choose cannabis product - Button""))",Chrome 74.0.3729.169,,2019-05-22 17:11:32,2019-05-22 17:11:35,3.168s,PASSED
+a = getWindowTitle(),Chrome 74.0.3729.169,,2019-05-22 17:11:35,2019-05-22 17:11:35,0.025s,PASSED
+"b = ""Factors in Choosing Cannabis Products | Ontario Cannabis Store""",Chrome 74.0.3729.169,,2019-05-22 17:11:35,2019-05-22 17:11:35,0.002s,PASSED
+"comment(""WINDOW TITLE IS: "" + a)",Chrome 74.0.3729.169,,2019-05-22 17:11:35,2019-05-22 17:11:35,0.007s,PASSED
+if (a == b),Chrome 74.0.3729.169,,2019-05-22 17:11:35,2019-05-22 17:11:35,0.001s,PASSED
+back(),Chrome 74.0.3729.169,,2019-05-22 17:11:35,2019-05-22 17:11:38,2.196s,PASSED
+,,,,,,
+Test Cases/OCS - MOBILE/OCS- PRODUCT PAGE/Learn More,Chrome 74.0.3729.169,,2019-05-22 17:11:38,2019-05-22 17:12:12,34.391s,PASSED
+"callTestCase(findTestCase(""OCS - MOBILE/CALL - PDP""), [:], STOP_ON_FAILURE)",Chrome 74.0.3729.169,,2019-05-22 17:11:38,2019-05-22 17:12:12,33.773s,PASSED
+"scrollToElement(findTestObject(""OCS-MOBILE /Product page/Product image""), 1)",Chrome 74.0.3729.169,,2019-05-22 17:12:12,2019-05-22 17:12:12,0.036s,PASSED
+"click(findTestObject(""OCS-MOBILE /Product page/Learn More - Link""))",Chrome 74.0.3729.169,,2019-05-22 17:12:12,2019-05-22 17:12:12,0.060s,PASSED
+"verifyElementPresent(findTestObject(""OCS-MOBILE /Product page/About Product - Table""), 1)",Chrome 74.0.3729.169,,2019-05-22 17:12:12,2019-05-22 17:12:12,0.016s,PASSED
+takeScreenshot(),Chrome 74.0.3729.169,,2019-05-22 17:12:12,2019-05-22 17:12:12,0.388s,PASSED
+,,,,,,
+Test Cases/OCS - MOBILE/OCS- PRODUCT PAGE/More items to consider,Chrome 74.0.3729.169,,2019-05-22 17:12:12,2019-05-22 17:13:39,1m - 26.490s,PASSED
+"callTestCase(findTestCase(""OCS - MOBILE/CALL - PDP""), [:], STOP_ON_FAILURE)",Chrome 74.0.3729.169,,2019-05-22 17:12:12,2019-05-22 17:12:50,38.047s,PASSED
+"scrollToElement(findTestObject(""OCS-MOBILE /Product page/Product image""), 1)",Chrome 74.0.3729.169,,2019-05-22 17:12:50,2019-05-22 17:12:50,0.034s,PASSED
+"click(findTestObject(""OCS-MOBILE /Product page/Learn More - Link""))",Chrome 74.0.3729.169,,2019-05-22 17:12:50,2019-05-22 17:12:50,0.070s,PASSED
+delay(1),Chrome 74.0.3729.169,,2019-05-22 17:12:50,2019-05-22 17:12:51,1.004s,PASSED
+"scrollToElement(findTestObject(""OCS-MOBILE /Product page/Last raw of the table""), 0)",Chrome 74.0.3729.169,,2019-05-22 17:12:51,2019-05-22 17:12:51,0.027s,PASSED
+takeScreenshot(),Chrome 74.0.3729.169,,2019-05-22 17:12:51,2019-05-22 17:12:52,0.366s,PASSED
+delay(1),Chrome 74.0.3729.169,,2019-05-22 17:12:52,2019-05-22 17:12:53,1.005s,PASSED
+"click(findTestObject(""OCS-MOBILE /Product page/More items to consider section/1st Product - image - Grinder""))",Chrome 74.0.3729.169,,2019-05-22 17:12:53,2019-05-22 17:12:56,3.434s,PASSED
+"delay(2, STOP_ON_FAILURE)",Chrome 74.0.3729.169,,2019-05-22 17:12:56,2019-05-22 17:12:58,2.004s,PASSED
+takeScreenshot(),Chrome 74.0.3729.169,,2019-05-22 17:12:58,2019-05-22 17:12:59,0.327s,PASSED
+delay(1),Chrome 74.0.3729.169,,2019-05-22 17:12:59,2019-05-22 17:13:00,1.005s,PASSED
+back(),Chrome 74.0.3729.169,,2019-05-22 17:13:00,2019-05-22 17:13:01,1.942s,PASSED
+"click(findTestObject(""OCS-MOBILE /Product page/More items to consider section/Vaporizers - Tab""))",Chrome 74.0.3729.169,,2019-05-22 17:13:01,2019-05-22 17:13:02,0.070s,PASSED
+delay(2),Chrome 74.0.3729.169,,2019-05-22 17:13:02,2019-05-22 17:13:04,2.003s,PASSED
+takeScreenshot(),Chrome 74.0.3729.169,,2019-05-22 17:13:04,2019-05-22 17:13:04,0.287s,PASSED
+delay(1),Chrome 74.0.3729.169,,2019-05-22 17:13:04,2019-05-22 17:13:05,1.004s,PASSED
+"click(findTestObject(""OCS-MOBILE /Product page/More items to consider section/1st Product - image - Vaporizer""))",Chrome 74.0.3729.169,,2019-05-22 17:13:05,2019-05-22 17:13:08,2.748s,PASSED
+"delay(2, STOP_ON_FAILURE)",Chrome 74.0.3729.169,,2019-05-22 17:13:08,2019-05-22 17:13:10,2.004s,PASSED
+takeScreenshot(),Chrome 74.0.3729.169,,2019-05-22 17:13:10,2019-05-22 17:13:10,0.281s,PASSED
+delay(1),Chrome 74.0.3729.169,,2019-05-22 17:13:10,2019-05-22 17:13:11,1.005s,PASSED
+back(),Chrome 74.0.3729.169,,2019-05-22 17:13:11,2019-05-22 17:13:13,1.812s,PASSED
+"delay(2, STOP_ON_FAILURE)",Chrome 74.0.3729.169,,2019-05-22 17:13:13,2019-05-22 17:13:15,2.006s,PASSED
+"click(findTestObject(""OCS-MOBILE /Product page/More items to consider section/Papers Filters - Tab""))",Chrome 74.0.3729.169,,2019-05-22 17:13:15,2019-05-22 17:13:15,0.064s,PASSED
+takeScreenshot(),Chrome 74.0.3729.169,,2019-05-22 17:13:15,2019-05-22 17:13:15,0.314s,PASSED
+delay(1),Chrome 74.0.3729.169,,2019-05-22 17:13:15,2019-05-22 17:13:16,1.013s,PASSED
+"click(findTestObject(""OCS-MOBILE /Product page/More items to consider section/1st Product - image - Paper Filter""))",Chrome 74.0.3729.169,,2019-05-22 17:13:16,2019-05-22 17:13:19,2.674s,PASSED
+"delay(2, STOP_ON_FAILURE)",Chrome 74.0.3729.169,,2019-05-22 17:13:19,2019-05-22 17:13:21,2.007s,PASSED
+takeScreenshot(),Chrome 74.0.3729.169,,2019-05-22 17:13:21,2019-05-22 17:13:21,0.286s,PASSED
+delay(1),Chrome 74.0.3729.169,,2019-05-22 17:13:21,2019-05-22 17:13:22,1.003s,PASSED
+back(),Chrome 74.0.3729.169,,2019-05-22 17:13:22,2019-05-22 17:13:24,2.341s,PASSED
+delay(2),Chrome 74.0.3729.169,,2019-05-22 17:13:24,2019-05-22 17:13:26,2.004s,PASSED
+"click(findTestObject(""OCS-MOBILE /Product page/More items to consider section/Bongs Pipes - Tab""))",Chrome 74.0.3729.169,,2019-05-22 17:13:26,2019-05-22 17:13:26,0.064s,PASSED
+delay(2),Chrome 74.0.3729.169,,2019-05-22 17:13:26,2019-05-22 17:13:28,2.005s,PASSED
+takeScreenshot(),Chrome 74.0.3729.169,,2019-05-22 17:13:28,2019-05-22 17:13:29,0.296s,PASSED
+delay(1),Chrome 74.0.3729.169,,2019-05-22 17:13:29,2019-05-22 17:13:30,1.006s,PASSED
+"click(findTestObject(""OCS-MOBILE /Product page/More items to consider section/1st Product - image - Bongs Pipes""))",Chrome 74.0.3729.169,,2019-05-22 17:13:30,2019-05-22 17:13:33,3.239s,PASSED
+"delay(2, STOP_ON_FAILURE)",Chrome 74.0.3729.169,,2019-05-22 17:13:33,2019-05-22 17:13:35,2.006s,PASSED
+takeScreenshot(),Chrome 74.0.3729.169,,2019-05-22 17:13:35,2019-05-22 17:13:35,0.281s,PASSED
+delay(1),Chrome 74.0.3729.169,,2019-05-22 17:13:35,2019-05-22 17:13:36,1.007s,PASSED
+back(),Chrome 74.0.3729.169,,2019-05-22 17:13:36,2019-05-22 17:13:39,2.258s,PASSED
+,,,,,,
+Test Cases/OCS - MOBILE/OCS- PRODUCT PAGE/Price,Chrome 74.0.3729.169,,2019-05-22 17:13:39,2019-05-22 17:15:16,1m - 37.625s,FAILED
+"callTestCase(findTestCase(""OCS - MOBILE/CALL - PDP""), [:], STOP_ON_FAILURE)",Chrome 74.0.3729.169,,2019-05-22 17:13:39,2019-05-22 17:14:12,33.085s,PASSED
+"navigateToUrl(""https://ocs.ca/?fts=0&preview_theme_id=53373863756"")",Chrome 74.0.3729.169,,2019-05-22 17:14:12,2019-05-22 17:14:12,0.001s,NOT_RUN
+delay(2),Chrome 74.0.3729.169,,2019-05-22 17:14:12,2019-05-22 17:14:14,2.006s,PASSED
+"scrollToElement(findTestObject(""OCS-MOBILE /Product page/Product image""), 1)",Chrome 74.0.3729.169,,2019-05-22 17:14:14,2019-05-22 17:14:14,0.028s,PASSED
+delay(2),Chrome 74.0.3729.169,,2019-05-22 17:14:14,2019-05-22 17:14:16,2.003s,PASSED
+"click(findTestObject(""OCS-MOBILE /Product page/Swatch_1g""))",Chrome 74.0.3729.169,,2019-05-22 17:14:16,2019-05-22 17:14:16,0.061s,PASSED
+delay(2),Chrome 74.0.3729.169,,2019-05-22 17:14:16,2019-05-22 17:14:18,2.004s,PASSED
+"a = getText(findTestObject(""OCS-MOBILE /Product page/Price/1g Price - Swatch""))",Chrome 74.0.3729.169,,2019-05-22 17:14:18,2019-05-22 17:14:18,0.039s,PASSED
+"comment(""a ="" + a)",Chrome 74.0.3729.169,,2019-05-22 17:14:18,2019-05-22 17:14:18,0.000s,PASSED
+"setViewPortSize(1000, 800, OPTIONAL)",Chrome 74.0.3729.169,,2019-05-22 17:14:18,2019-05-22 17:14:18,0.109s,PASSED
+"delay(2, OPTIONAL)",Chrome 74.0.3729.169,,2019-05-22 17:14:18,2019-05-22 17:14:20,2.006s,PASSED
+"click(findTestObject(""Theme_oR/Page_Ontario Cannabis Store  Ontari/button_Hide bar""), OPTIONAL)",Chrome 74.0.3729.169,,2019-05-22 17:14:20,2019-05-22 17:14:20,0.153s,PASSED
+"delay(2, OPTIONAL)",Chrome 74.0.3729.169,,2019-05-22 17:14:20,2019-05-22 17:14:22,2.001s,PASSED
+"setViewPortSize(360, 800, OPTIONAL)",Chrome 74.0.3729.169,,2019-05-22 17:14:22,2019-05-22 17:14:22,0.110s,PASSED
+"delay(1, OPTIONAL)",Chrome 74.0.3729.169,,2019-05-22 17:14:22,2019-05-22 17:14:23,1.002s,PASSED
+"flag = verifyElementPresent(findTestObject(""OCS-MOBILE /Product page/Price/Price - Add to cart button""), 0, CONTINUE_ON_FAILURE)",Chrome 74.0.3729.169,,2019-05-22 17:14:23,2019-05-22 17:14:54,31.034s,FAILED
+"comment(""flag ="" + flag)",Chrome 74.0.3729.169,,2019-05-22 17:14:54,2019-05-22 17:14:54,0.000s,PASSED
+if (flag == true),Chrome 74.0.3729.169,,2019-05-22 17:14:54,2019-05-22 17:14:54,0.001s,PASSED
+else,Chrome 74.0.3729.169,,2019-05-22 17:14:54,2019-05-22 17:15:16,21.792s,FAILED
+,,,,,,
+Test Cases/OCS - MOBILE/OCS- PRODUCT PAGE/Recently viewed,Chrome 74.0.3729.169,,2019-05-22 17:15:16,2019-05-22 17:15:56,39.621s,PASSED
+"callTestCase(findTestCase(""OCS - MOBILE/CALL - PDP""), [:], STOP_ON_FAILURE)",Chrome 74.0.3729.169,,2019-05-22 17:15:16,2019-05-22 17:15:51,34.325s,PASSED
+a = getWindowTitle(),Chrome 74.0.3729.169,,2019-05-22 17:15:51,2019-05-22 17:15:51,0.008s,PASSED
+"comment(""WINDOW TITLE: "" + a)",Chrome 74.0.3729.169,,2019-05-22 17:15:51,2019-05-22 17:15:51,0.000s,PASSED
+"scrollToElement(findTestObject(""OCS-MOBILE /Product page/How to choose cannabis product - Button""), 2)",Chrome 74.0.3729.169,,2019-05-22 17:15:51,2019-05-22 17:15:51,0.027s,PASSED
+"click(findTestObject(""OCS-MOBILE /Product page/Recently Viewed/1st Product - Image""))",Chrome 74.0.3729.169,,2019-05-22 17:15:51,2019-05-22 17:15:54,3.166s,PASSED
+delay(2),Chrome 74.0.3729.169,,2019-05-22 17:15:54,2019-05-22 17:15:56,2.006s,PASSED
+b = getWindowTitle(),Chrome 74.0.3729.169,,2019-05-22 17:15:56,2019-05-22 17:15:56,0.007s,PASSED
+"comment(""WINDOW TITLE:"" + b)",Chrome 74.0.3729.169,,2019-05-22 17:15:56,2019-05-22 17:15:56,0.001s,PASSED
+if (a == b),Chrome 74.0.3729.169,,2019-05-22 17:15:56,2019-05-22 17:15:56,0.000s,PASSED
+,,,,,,
+Test Cases/OCS - MOBILE/OCS- PRODUCT PAGE/Shop all of our products,Chrome 74.0.3729.169,,2019-05-22 17:15:56,2019-05-22 17:16:40,44.335s,PASSED
+"callTestCase(findTestCase(""OCS - MOBILE/CALL - PDP""), [:], STOP_ON_FAILURE)",Chrome 74.0.3729.169,,2019-05-22 17:15:56,2019-05-22 17:16:30,34.385s,PASSED
+"scrollToElement(findTestObject(""OCS-MOBILE /Product page/Recently Viewed/1st Product - Image""), 2)",Chrome 74.0.3729.169,,2019-05-22 17:16:30,2019-05-22 17:16:30,0.034s,PASSED
+"delay(2, STOP_ON_FAILURE)",Chrome 74.0.3729.169,,2019-05-22 17:16:30,2019-05-22 17:16:32,2.007s,PASSED
+"setViewPortSize(1000, 800, OPTIONAL)",Chrome 74.0.3729.169,,2019-05-22 17:16:32,2019-05-22 17:16:32,0.110s,PASSED
+"delay(2, OPTIONAL)",Chrome 74.0.3729.169,,2019-05-22 17:16:32,2019-05-22 17:16:34,2.012s,PASSED
+"click(findTestObject(""Theme_oR/Page_Ontario Cannabis Store  Ontari/button_Hide bar""), OPTIONAL)",Chrome 74.0.3729.169,,2019-05-22 17:16:34,2019-05-22 17:16:35,0.123s,PASSED
+"delay(2, OPTIONAL)",Chrome 74.0.3729.169,,2019-05-22 17:16:35,2019-05-22 17:16:37,2.001s,PASSED
+"setViewPortSize(360, 800, OPTIONAL)",Chrome 74.0.3729.169,,2019-05-22 17:16:37,2019-05-22 17:16:37,0.116s,PASSED
+"delay(1, OPTIONAL)",Chrome 74.0.3729.169,,2019-05-22 17:16:37,2019-05-22 17:16:38,1.010s,PASSED
+"click(findTestObject(""OCS-MOBILE /Product page/Shop all of our products - Button""))",Chrome 74.0.3729.169,,2019-05-22 17:16:38,2019-05-22 17:16:40,2.422s,PASSED
+a = getWindowTitle(),Chrome 74.0.3729.169,,2019-05-22 17:16:40,2019-05-22 17:16:40,0.006s,PASSED
+"b = ""All Products | Ontario Cannabis Store""",Chrome 74.0.3729.169,,2019-05-22 17:16:40,2019-05-22 17:16:40,0.000s,PASSED
+"comment(""WINDOW TITLE: "" + a)",Chrome 74.0.3729.169,,2019-05-22 17:16:40,2019-05-22 17:16:40,0.001s,PASSED
+"verifyEqual(a, b)",Chrome 74.0.3729.169,,2019-05-22 17:16:40,2019-05-22 17:16:40,0.000s,PASSED
+,,,,,,
+Test Cases/OCS - MOBILE/OCS- PRODUCT PAGE/Show all accessories,Chrome 74.0.3729.169,,2019-05-22 17:16:40,2019-05-22 17:17:23,42.678s,PASSED
+"callTestCase(findTestCase(""OCS - MOBILE/CALL - PDP""), [:], STOP_ON_FAILURE)",Chrome 74.0.3729.169,,2019-05-22 17:16:40,2019-05-22 17:17:15,34.994s,PASSED
+"scrollToElement(findTestObject(""OCS-MOBILE /Product page/More items to consider section/Grinders - Tab""), 2)",Chrome 74.0.3729.169,,2019-05-22 17:17:15,2019-05-22 17:17:15,0.029s,PASSED
+delay(5),Chrome 74.0.3729.169,,2019-05-22 17:17:15,2019-05-22 17:17:20,5.007s,PASSED
+"click(findTestObject(""OCS-MOBILE /Product page/More items to consider section/Show all accessories - Link""))",Chrome 74.0.3729.169,,2019-05-22 17:17:20,2019-05-22 17:17:23,2.560s,PASSED
+a = getWindowTitle(),Chrome 74.0.3729.169,,2019-05-22 17:17:23,2019-05-22 17:17:23,0.009s,PASSED
+"b = ""All Accessories | Ontario Cannabis Store""",Chrome 74.0.3729.169,,2019-05-22 17:17:23,2019-05-22 17:17:23,0.000s,PASSED
+"comment(""WINDOW TITLE: "" + a)",Chrome 74.0.3729.169,,2019-05-22 17:17:23,2019-05-22 17:17:23,0.001s,PASSED
+"verifyEqual(a, b)",Chrome 74.0.3729.169,,2019-05-22 17:17:23,2019-05-22 17:17:23,0.000s,PASSED
+,,,,,,
+Test Cases/OCS - MOBILE/OCS- PRODUCT PAGE/Tooltip,Chrome 74.0.3729.169,,2019-05-22 17:17:23,2019-05-22 17:18:24,1m - 1.312s,PASSED
+"callTestCase(findTestCase(""OCS - MOBILE/CALL - PDP""), [:], STOP_ON_FAILURE)",Chrome 74.0.3729.169,,2019-05-22 17:17:23,2019-05-22 17:17:57,34.509s,PASSED
+"click(findTestObject(""OCS-MOBILE /Product page/Tooltips/THC - Tooltip""))",Chrome 74.0.3729.169,,2019-05-22 17:17:57,2019-05-22 17:17:58,0.063s,PASSED
+takeScreenshot(),Chrome 74.0.3729.169,,2019-05-22 17:17:58,2019-05-22 17:17:58,0.362s,PASSED
+delay(2),Chrome 74.0.3729.169,,2019-05-22 17:17:58,2019-05-22 17:18:00,2.005s,PASSED
+"click(findTestObject(""OCS-MOBILE /Product page/Tooltips/CBD - Tooltip""))",Chrome 74.0.3729.169,,2019-05-22 17:18:00,2019-05-22 17:18:00,0.057s,PASSED
+takeScreenshot(),Chrome 74.0.3729.169,,2019-05-22 17:18:00,2019-05-22 17:18:00,0.298s,PASSED
+delay(2),Chrome 74.0.3729.169,,2019-05-22 17:18:00,2019-05-22 17:18:02,2.008s,PASSED
+"click(findTestObject(""OCS-MOBILE /Product page/Tooltips/Plant type - Tooltip""))",Chrome 74.0.3729.169,,2019-05-22 17:18:02,2019-05-22 17:18:02,0.055s,PASSED
+takeScreenshot(),Chrome 74.0.3729.169,,2019-05-22 17:18:02,2019-05-22 17:18:03,0.313s,PASSED
+delay(2),Chrome 74.0.3729.169,,2019-05-22 17:18:03,2019-05-22 17:18:05,2.008s,PASSED
+"click(findTestObject(""OCS-MOBILE /Product page/Tooltips/Terpenes - Tooltip""))",Chrome 74.0.3729.169,,2019-05-22 17:18:05,2019-05-22 17:18:05,0.055s,PASSED
+takeScreenshot(),Chrome 74.0.3729.169,,2019-05-22 17:18:05,2019-05-22 17:18:05,0.310s,PASSED
+delay(2),Chrome 74.0.3729.169,,2019-05-22 17:18:05,2019-05-22 17:18:07,2.001s,PASSED
+"scrollToElement(findTestObject(""OCS-MOBILE /Product page/About Product - Section""), 0)",Chrome 74.0.3729.169,,2019-05-22 17:18:07,2019-05-22 17:18:07,0.034s,PASSED
+"click(findTestObject(""OCS-MOBILE /Product page/Tooltips/THC - Tooltip - About this product""))",Chrome 74.0.3729.169,,2019-05-22 17:18:07,2019-05-22 17:18:07,0.080s,PASSED
+delay(1),Chrome 74.0.3729.169,,2019-05-22 17:18:07,2019-05-22 17:18:08,1.008s,PASSED
+takeScreenshot(),Chrome 74.0.3729.169,,2019-05-22 17:18:08,2019-05-22 17:18:08,0.276s,PASSED
+delay(1),Chrome 74.0.3729.169,,2019-05-22 17:18:08,2019-05-22 17:18:09,1.007s,PASSED
+"click(findTestObject(""OCS-MOBILE /Product page/Tooltips/Close - Tooltip - THC""))",Chrome 74.0.3729.169,,2019-05-22 17:18:09,2019-05-22 17:18:09,0.055s,PASSED
+delay(1),Chrome 74.0.3729.169,,2019-05-22 17:18:09,2019-05-22 17:18:10,1.010s,PASSED
+"click(findTestObject(""OCS-MOBILE /Product page/Tooltips/CBD - Tooltip - About this product""))",Chrome 74.0.3729.169,,2019-05-22 17:18:10,2019-05-22 17:18:11,0.056s,PASSED
+delay(1),Chrome 74.0.3729.169,,2019-05-22 17:18:11,2019-05-22 17:18:12,1.007s,PASSED
+takeScreenshot(),Chrome 74.0.3729.169,,2019-05-22 17:18:12,2019-05-22 17:18:12,0.282s,PASSED
+delay(1),Chrome 74.0.3729.169,,2019-05-22 17:18:12,2019-05-22 17:18:13,1.009s,PASSED
+"click(findTestObject(""OCS-MOBILE /Product page/Tooltips/Close - Tooltip - CBD""))",Chrome 74.0.3729.169,,2019-05-22 17:18:13,2019-05-22 17:18:13,0.060s,PASSED
+delay(1),Chrome 74.0.3729.169,,2019-05-22 17:18:13,2019-05-22 17:18:14,1.002s,PASSED
+"click(findTestObject(""OCS-MOBILE /Product page/Tooltips/Plant type - Tooltip - About this product""))",Chrome 74.0.3729.169,,2019-05-22 17:18:14,2019-05-22 17:18:14,0.056s,PASSED
+delay(1),Chrome 74.0.3729.169,,2019-05-22 17:18:14,2019-05-22 17:18:15,1.001s,PASSED
+takeScreenshot(),Chrome 74.0.3729.169,,2019-05-22 17:18:15,2019-05-22 17:18:15,0.286s,PASSED
+delay(1),Chrome 74.0.3729.169,,2019-05-22 17:18:15,2019-05-22 17:18:16,1.005s,PASSED
+"click(findTestObject(""OCS-MOBILE /Product page/Tooltips/Close - Tooltip - Plant""))",Chrome 74.0.3729.169,,2019-05-22 17:18:16,2019-05-22 17:18:16,0.059s,PASSED
+delay(1),Chrome 74.0.3729.169,,2019-05-22 17:18:16,2019-05-22 17:18:17,1.006s,PASSED
+"click(findTestObject(""OCS-MOBILE /Product page/Tooltips/Terpenes - Tooltip - About this product""))",Chrome 74.0.3729.169,,2019-05-22 17:18:17,2019-05-22 17:18:17,0.055s,PASSED
+delay(1),Chrome 74.0.3729.169,,2019-05-22 17:18:17,2019-05-22 17:18:18,1.008s,PASSED
+takeScreenshot(),Chrome 74.0.3729.169,,2019-05-22 17:18:18,2019-05-22 17:18:19,0.285s,PASSED
+delay(1),Chrome 74.0.3729.169,,2019-05-22 17:18:19,2019-05-22 17:18:20,1.011s,PASSED
+"click(findTestObject(""OCS-MOBILE /Product page/Tooltips/Close - Tooltip - Terepenes""))",Chrome 74.0.3729.169,,2019-05-22 17:18:20,2019-05-22 17:18:20,0.064s,PASSED
+delay(1),Chrome 74.0.3729.169,,2019-05-22 17:18:20,2019-05-22 17:18:21,1.007s,PASSED
+"click(findTestObject(""OCS-MOBILE /Product page/Tooltips/GTIN - Tooltip - About this product""))",Chrome 74.0.3729.169,,2019-05-22 17:18:21,2019-05-22 17:18:21,0.064s,PASSED
+delay(1),Chrome 74.0.3729.169,,2019-05-22 17:18:21,2019-05-22 17:18:22,1.009s,PASSED
+takeScreenshot(),Chrome 74.0.3729.169,,2019-05-22 17:18:22,2019-05-22 17:18:22,0.282s,PASSED
+delay(1),Chrome 74.0.3729.169,,2019-05-22 17:18:22,2019-05-22 17:18:23,1.009s,PASSED
+"click(findTestObject(""OCS-MOBILE /Product page/Tooltips/Close - Tooltip - GTIN""))",Chrome 74.0.3729.169,,2019-05-22 17:18:23,2019-05-22 17:18:23,0.056s,PASSED
+delay(1),Chrome 74.0.3729.169,,2019-05-22 17:18:23,2019-05-22 17:18:24,1.006s,PASSED
+,,,,,,
+Test Cases/OCS - MOBILE/OCS- PRODUCT PAGE/variants selector,Chrome 74.0.3729.169,,2019-05-22 17:18:24,2019-05-22 17:19:20,55.576s,FAILED
+"callTestCase(findTestCase(""OCS - MOBILE/CALL - PDP""), [:], STOP_ON_FAILURE)",Chrome 74.0.3729.169,,2019-05-22 17:18:24,2019-05-22 17:19:00,35.664s,PASSED
+"navigateToUrl(""https://ocs.ca/products/shishkaberry-redecan"")",Chrome 74.0.3729.169,,2019-05-22 17:19:00,2019-05-22 17:19:03,3.228s,PASSED
+delay(2),Chrome 74.0.3729.169,,2019-05-22 17:19:03,2019-05-22 17:19:05,2.001s,PASSED
+"scrollToElement(findTestObject(""OCS-MOBILE /Product page/Product image""), 1)",Chrome 74.0.3729.169,,2019-05-22 17:19:05,2019-05-22 17:19:05,0.032s,PASSED
+delay(2),Chrome 74.0.3729.169,,2019-05-22 17:19:05,2019-05-22 17:19:07,2.003s,PASSED
+"flag1 = verifyElementPresent(findTestObject(""OCS-MOBILE /Product page/Swatch_1g""), 0)",Chrome 74.0.3729.169,,2019-05-22 17:19:07,2019-05-22 17:19:07,0.020s,PASSED
+"comment(""flag1="" + flag1)",Chrome 74.0.3729.169,,2019-05-22 17:19:07,2019-05-22 17:19:07,0.001s,PASSED
+if (flag1 == true),Chrome 74.0.3729.169,,2019-05-22 17:19:07,2019-05-22 17:19:15,7.498s,PASSED
+"flag2 = verifyElementPresent(findTestObject(""OCS-MOBILE /Product page/Swatch_3.5g""), 0)",Chrome 74.0.3729.169,,2019-05-22 17:19:15,2019-05-22 17:19:15,0.019s,PASSED
+"comment(""flag2="" + flag2)",Chrome 74.0.3729.169,,2019-05-22 17:19:15,2019-05-22 17:19:15,0.001s,PASSED
+if (flag2 == true),Chrome 74.0.3729.169,,2019-05-22 17:19:15,2019-05-22 17:19:17,2.365s,PASSED
+"flag3 = verifyElementPresent(findTestObject(""OCS-MOBILE /Product page/Swatch_7g""), 0)",Chrome 74.0.3729.169,,2019-05-22 17:19:17,2019-05-22 17:19:17,0.019s,PASSED
+"comment(""flag3="" + flag3)",Chrome 74.0.3729.169,,2019-05-22 17:19:17,2019-05-22 17:19:17,0.000s,PASSED
+if (flag3 == true),Chrome 74.0.3729.169,,2019-05-22 17:19:17,2019-05-22 17:19:20,2.652s,FAILED

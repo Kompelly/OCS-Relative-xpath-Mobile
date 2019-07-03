@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>variants selector</name>
+   <tag></tag>
+   <comment>flag1=&quot; + flag1
+flag2=&quot; + flag2
+flag3=&quot; + flag3</comment>
+   <testCaseGuid>44e4d104-850c-40c8-ac66-aafea80555c8</testCaseGuid>
+</TestCaseEntity>

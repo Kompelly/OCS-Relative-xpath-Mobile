@@ -1,0 +1,321 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Product page,Chrome 74.0.3729.108,,2019-04-30 12:37:04,2019-04-30 12:41:49,4m - 45.058s,PASSED
+,,,,,,
+Test Cases/OCS- PRODUCT PAGE/Add to bag CTA,Chrome 74.0.3729.108,,2019-04-30 12:37:04,2019-04-30 12:37:25,21.081s,PASSED
+"openBrowser("""")",Chrome 74.0.3729.108,,2019-04-30 12:37:04,2019-04-30 12:37:07,2.628s,PASSED
+"navigateToUrl(""http://ocs.ca/#/verify-age"")",Chrome 74.0.3729.108,,2019-04-30 12:37:07,2019-04-30 12:37:10,3.478s,PASSED
+maximizeWindow(),Chrome 74.0.3729.108,,2019-04-30 12:37:10,2019-04-30 12:37:11,0.250s,PASSED
+"selectOptionByValue(findTestObject(""OCS_OR/Page_Ontario Cannabis Store  Ontari/select_Select01020304050607080""), ""1"", true)",Chrome 74.0.3729.108,,2019-04-30 12:37:11,2019-04-30 12:37:11,0.407s,PASSED
+"selectOptionByValue(findTestObject(""OCS_OR/Page_Ontario Cannabis Store  Ontari/select_SelectJanuary - 01Febru""), ""0"", true)",Chrome 74.0.3729.108,,2019-04-30 12:37:11,2019-04-30 12:37:11,0.252s,PASSED
+"selectOptionByValue(findTestObject(""OCS_OR/Page_Ontario Cannabis Store  Ontari/select_Select20182017201620152 (1)""), ""1968"", true)",Chrome 74.0.3729.108,,2019-04-30 12:37:11,2019-04-30 12:37:12,1.227s,PASSED
+"click(findTestObject(""OCS_OR/Page_Ontario Cannabis Store  Ontari/button_Verify""))",Chrome 74.0.3729.108,,2019-04-30 12:37:12,2019-04-30 12:37:13,0.109s,PASSED
+"click(findTestObject(""OCS_OR/Page_Ontario Cannabis Store  Ontari/span_CONFIRM AND ACKNOWLEDGE_c""))",Chrome 74.0.3729.108,,2019-04-30 12:37:13,2019-04-30 12:37:13,0.078s,PASSED
+"click(findTestObject(""OCS_OR/Page_Ontario Cannabis Store  Ontari/button_CONFIRM""))",Chrome 74.0.3729.108,,2019-04-30 12:37:13,2019-04-30 12:37:13,0.081s,PASSED
+"click(findTestObject(""OCS_OR/Page_Ontario Cannabis Store  Ontari/button_Start Browsing""))",Chrome 74.0.3729.108,,2019-04-30 12:37:13,2019-04-30 12:37:13,0.062s,PASSED
+"mouseOver(findTestObject(""PROD-breadcrumb_OR/Page_Ontario Cannabis Store  Ontari/h3_Cannabis""))",Chrome 74.0.3729.108,,2019-04-30 12:37:13,2019-04-30 12:37:13,0.079s,PASSED
+"click(findTestObject(""PROD-breadcrumb_OR/Page_Ontario Cannabis Store  Ontari/span_Indica Dominant""))",Chrome 74.0.3729.108,,2019-04-30 12:37:13,2019-04-30 12:37:15,1.680s,PASSED
+delay(3),Chrome 74.0.3729.108,,2019-04-30 12:37:15,2019-04-30 12:37:18,3.028s,PASSED
+"click(findTestObject(""PROD-breadcrumb_OR/Page_Indica Dominant Dried Flower/h3_Shishkaberry""))",Chrome 74.0.3729.108,,2019-04-30 12:37:18,2019-04-30 12:37:21,3.011s,PASSED
+"click(findTestObject(""Object Repository/Add to bag CTA_OR/Page_Shishkaberry  Ontario Cannabis/a_Shishkaberry""))",Chrome 74.0.3729.108,,2019-04-30 12:37:21,2019-04-30 12:37:21,0.006s,NOT_RUN
+"click(findTestObject(""Object Repository/Add to bag CTA_OR/Page_Shishkaberry  Ontario Cannabis/a_Dried Flower""))",Chrome 74.0.3729.108,,2019-04-30 12:37:21,2019-04-30 12:37:21,0.001s,NOT_RUN
+"click(findTestObject(""Page_Dried Flower  Ontario Cannabis/a_Cannabis""))",Chrome 74.0.3729.108,,2019-04-30 12:37:21,2019-04-30 12:37:21,0.003s,NOT_RUN
+"click(findTestObject(""Page_All Cannabis Products  Ontario/a_Home""))",Chrome 74.0.3729.108,,2019-04-30 12:37:21,2019-04-30 12:37:21,0.002s,NOT_RUN
+"click(findTestObject(""Object Repository/Add to bag CTA_OR/Page_Shishkaberry  Ontario Cannabis/label_1g""))",Chrome 74.0.3729.108,,2019-04-30 12:37:21,2019-04-30 12:37:21,0.003s,NOT_RUN
+"click(findTestObject(""price_OR/Page_Shishkaberry  Ontario Cannabis/label_3.5g""))",Chrome 74.0.3729.108,,2019-04-30 12:37:21,2019-04-30 12:37:21,0.079s,PASSED
+"click(findTestObject(""Add to bag CTA_OR/Page_Shishkaberry  Ontario Cannabis/button_Add to Bag32.40""))",Chrome 74.0.3729.108,,2019-04-30 12:37:21,2019-04-30 12:37:21,0.070s,PASSED
+delay(3),Chrome 74.0.3729.108,,2019-04-30 12:37:21,2019-04-30 12:37:24,3.006s,PASSED
+"verifyTextPresent(""Bag"", false)",Chrome 74.0.3729.108,,2019-04-30 12:37:24,2019-04-30 12:37:25,0.867s,PASSED
+"click(findTestObject(""Add to bag CTA_OR/Page_Shishkaberry  Ontario Cannabis/i_32.40_icon icon--back js-clo""))",Chrome 74.0.3729.108,,2019-04-30 12:37:25,2019-04-30 12:37:25,0.142s,PASSED
+closeBrowser(),Chrome 74.0.3729.108,,2019-04-30 12:37:25,2019-04-30 12:37:25,0.150s,PASSED
+,,,,,,
+Test Cases/OCS- PRODUCT PAGE/Shop all of our products,Chrome 74.0.3729.108,,2019-04-30 12:37:25,2019-04-30 12:37:52,26.859s,PASSED
+"openBrowser("""")",Chrome 74.0.3729.108,,2019-04-30 12:37:25,2019-04-30 12:37:26,1.055s,PASSED
+"navigateToUrl(""https://ocs.ca/#/verify-age"")",Chrome 74.0.3729.108,,2019-04-30 12:37:26,2019-04-30 12:37:31,4.949s,PASSED
+maximizeWindow(),Chrome 74.0.3729.108,,2019-04-30 12:37:31,2019-04-30 12:37:31,0.230s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/all products_OR/Page_Ontario Cannabis Store  Ontari/select_Select01020304050607080""), ""16"", true)",Chrome 74.0.3729.108,,2019-04-30 12:37:31,2019-04-30 12:37:32,0.383s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/all products_OR/Page_Ontario Cannabis Store  Ontari/select_SelectJanuary - 01Febru""), ""8"", true)",Chrome 74.0.3729.108,,2019-04-30 12:37:32,2019-04-30 12:37:32,0.241s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/all products_OR/Page_Ontario Cannabis Store  Ontari/select_Select20182017201620152""), ""1957"", true)",Chrome 74.0.3729.108,,2019-04-30 12:37:32,2019-04-30 12:37:33,1.287s,PASSED
+"click(findTestObject(""Object Repository/all products_OR/Page_Ontario Cannabis Store  Ontari/button_Verify""))",Chrome 74.0.3729.108,,2019-04-30 12:37:33,2019-04-30 12:37:33,0.085s,PASSED
+"click(findTestObject(""Object Repository/all products_OR/Page_Ontario Cannabis Store  Ontari/span_CONFIRM AND ACKNOWLEDGE_c""))",Chrome 74.0.3729.108,,2019-04-30 12:37:33,2019-04-30 12:37:33,0.060s,PASSED
+"click(findTestObject(""Object Repository/all products_OR/Page_Ontario Cannabis Store  Ontari/button_CONFIRM""))",Chrome 74.0.3729.108,,2019-04-30 12:37:33,2019-04-30 12:37:33,0.064s,PASSED
+"click(findTestObject(""Object Repository/all products_OR/Page_Ontario Cannabis Store  Ontari/button_Start Browsing""))",Chrome 74.0.3729.108,,2019-04-30 12:37:33,2019-04-30 12:37:34,0.053s,PASSED
+delay(3),Chrome 74.0.3729.108,,2019-04-30 12:37:34,2019-04-30 12:37:37,3.003s,PASSED
+"click(findTestObject(""Object Repository/all products_OR/Page_Ontario Cannabis Store  Ontari/h3_Cannabis""))",Chrome 74.0.3729.108,,2019-04-30 12:37:37,2019-04-30 12:37:37,0.080s,PASSED
+delay(3),Chrome 74.0.3729.108,,2019-04-30 12:37:37,2019-04-30 12:37:40,3.005s,PASSED
+"click(findTestObject(""all products_OR/Page_Ontario Cannabis Store  Ontari/span_Indica Dominant""))",Chrome 74.0.3729.108,,2019-04-30 12:37:40,2019-04-30 12:37:43,3.193s,PASSED
+delay(3),Chrome 74.0.3729.108,,2019-04-30 12:37:43,2019-04-30 12:37:46,3.006s,PASSED
+"click(findTestObject(""Object Repository/all products_OR/Page_Indica Dominant Dried Flower/h3_Shishkaberry""))",Chrome 74.0.3729.108,,2019-04-30 12:37:46,2019-04-30 12:37:50,3.710s,PASSED
+"click(findTestObject(""Object Repository/all products_OR/Page_Shishkaberry  Ontario Cannabis/a_Shop all of our products""))",Chrome 74.0.3729.108,,2019-04-30 12:37:50,2019-04-30 12:37:52,2.113s,PASSED
+"verifyTextPresent(""All Products"", false)",Chrome 74.0.3729.108,,2019-04-30 12:37:52,2019-04-30 12:37:52,0.158s,PASSED
+,,,,,,
+Test Cases/OCS- PRODUCT PAGE/Tooltip,Chrome 74.0.3729.108,,2019-04-30 12:37:52,2019-04-30 12:38:26,33.699s,PASSED
+"openBrowser("""")",Chrome 74.0.3729.108,,2019-04-30 12:37:52,2019-04-30 12:37:53,1.208s,PASSED
+"navigateToUrl(""http://ocs.ca/#/verify-age"")",Chrome 74.0.3729.108,,2019-04-30 12:37:53,2019-04-30 12:37:57,3.805s,PASSED
+maximizeWindow(),Chrome 74.0.3729.108,,2019-04-30 12:37:57,2019-04-30 12:37:57,0.230s,PASSED
+"selectOptionByValue(findTestObject(""PROD-breadcrumb_OR/Page_Ontario Cannabis Store  Ontari/select_Select01020304050607080""), ""1"", true)",Chrome 74.0.3729.108,,2019-04-30 12:37:57,2019-04-30 12:37:58,0.381s,PASSED
+"selectOptionByValue(findTestObject(""PROD-breadcrumb_OR/Page_Ontario Cannabis Store  Ontari/select_SelectJanuary - 01Febru""), ""0"", true)",Chrome 74.0.3729.108,,2019-04-30 12:37:58,2019-04-30 12:37:58,0.189s,PASSED
+"selectOptionByValue(findTestObject(""PROD-breadcrumb_OR/Page_Ontario Cannabis Store  Ontari/select_Select20182017201620152""), ""1968"", true)",Chrome 74.0.3729.108,,2019-04-30 12:37:58,2019-04-30 12:37:59,1.166s,PASSED
+"click(findTestObject(""PROD-breadcrumb_OR/Page_Ontario Cannabis Store  Ontari/button_Verify""))",Chrome 74.0.3729.108,,2019-04-30 12:37:59,2019-04-30 12:37:59,0.126s,PASSED
+"click(findTestObject(""PROD-breadcrumb_OR/Page_Ontario Cannabis Store  Ontari/span_CONFIRM AND ACKNOWLEDGE_c""))",Chrome 74.0.3729.108,,2019-04-30 12:37:59,2019-04-30 12:37:59,0.072s,PASSED
+"click(findTestObject(""PROD-breadcrumb_OR/Page_Ontario Cannabis Store  Ontari/button_CONFIRM""))",Chrome 74.0.3729.108,,2019-04-30 12:37:59,2019-04-30 12:37:59,0.070s,PASSED
+"click(findTestObject(""PROD-breadcrumb_OR/Page_Ontario Cannabis Store  Ontari/button_Start Browsing""))",Chrome 74.0.3729.108,,2019-04-30 12:37:59,2019-04-30 12:37:59,0.062s,PASSED
+"mouseOver(findTestObject(""PROD-breadcrumb_OR/Page_Ontario Cannabis Store  Ontari/h3_Cannabis""))",Chrome 74.0.3729.108,,2019-04-30 12:37:59,2019-04-30 12:37:59,0.077s,PASSED
+"click(findTestObject(""PROD-breadcrumb_OR/Page_Ontario Cannabis Store  Ontari/span_Indica Dominant""))",Chrome 74.0.3729.108,,2019-04-30 12:37:59,2019-04-30 12:38:00,0.668s,PASSED
+delay(3),Chrome 74.0.3729.108,,2019-04-30 12:38:00,2019-04-30 12:38:03,3.002s,PASSED
+"click(findTestObject(""PROD-breadcrumb_OR/Page_Indica Dominant Dried Flower/h3_Shishkaberry""))",Chrome 74.0.3729.108,,2019-04-30 12:38:03,2019-04-30 12:38:07,3.739s,PASSED
+"mouseOver(findTestObject(""Tooltips_OR/Page_Shishkaberry  Ontario Cannabis/i_THC_icon icon--question-mark""))",Chrome 74.0.3729.108,,2019-04-30 12:38:07,2019-04-30 12:38:07,0.034s,PASSED
+delay(2),Chrome 74.0.3729.108,,2019-04-30 12:38:07,2019-04-30 12:38:09,2.003s,PASSED
+"click(findTestObject(""Object Repository/Tooltips_OR/Page_Shishkaberry  Ontario Cannabis/i_CBD_icon icon--question-mark""))",Chrome 74.0.3729.108,,2019-04-30 12:38:09,2019-04-30 12:38:09,0.059s,PASSED
+delay(2),Chrome 74.0.3729.108,,2019-04-30 12:38:09,2019-04-30 12:38:11,2.004s,PASSED
+"click(findTestObject(""Object Repository/Tooltips_OR/Page_Shishkaberry  Ontario Cannabis/i_Plant Type_icon icon--questi""))",Chrome 74.0.3729.108,,2019-04-30 12:38:11,2019-04-30 12:38:11,0.060s,PASSED
+delay(2),Chrome 74.0.3729.108,,2019-04-30 12:38:11,2019-04-30 12:38:13,2.002s,PASSED
+"click(findTestObject(""Object Repository/Tooltips_OR/Page_Shishkaberry  Ontario Cannabis/i_Terpenes_icon icon--question""))",Chrome 74.0.3729.108,,2019-04-30 12:38:13,2019-04-30 12:38:13,0.065s,PASSED
+delay(2),Chrome 74.0.3729.108,,2019-04-30 12:38:13,2019-04-30 12:38:15,2.003s,PASSED
+"click(findTestObject(""Object Repository/Tooltips_OR/Page_Shishkaberry  Ontario Cannabis/i_THC_icon icon--question-mark_1""))",Chrome 74.0.3729.108,,2019-04-30 12:38:15,2019-04-30 12:38:15,0.077s,PASSED
+delay(2),Chrome 74.0.3729.108,,2019-04-30 12:38:15,2019-04-30 12:38:17,2.004s,PASSED
+"click(findTestObject(""Object Repository/Tooltips_OR/Page_Shishkaberry  Ontario Cannabis/i_CBD_icon icon--question-mark_1""))",Chrome 74.0.3729.108,,2019-04-30 12:38:17,2019-04-30 12:38:17,0.067s,PASSED
+delay(2),Chrome 74.0.3729.108,,2019-04-30 12:38:17,2019-04-30 12:38:19,2.004s,PASSED
+"click(findTestObject(""Object Repository/Tooltips_OR/Page_Shishkaberry  Ontario Cannabis/i_Plant_icon icon--question-ma""))",Chrome 74.0.3729.108,,2019-04-30 12:38:19,2019-04-30 12:38:19,0.065s,PASSED
+delay(2),Chrome 74.0.3729.108,,2019-04-30 12:38:19,2019-04-30 12:38:21,2.002s,PASSED
+"click(findTestObject(""Object Repository/Tooltips_OR/Page_Shishkaberry  Ontario Cannabis/i_Terpenes_icon icon--question_1""))",Chrome 74.0.3729.108,,2019-04-30 12:38:21,2019-04-30 12:38:21,0.066s,PASSED
+delay(2),Chrome 74.0.3729.108,,2019-04-30 12:38:21,2019-04-30 12:38:23,2.006s,PASSED
+"click(findTestObject(""Object Repository/Tooltips_OR/Page_Shishkaberry  Ontario Cannabis/i_GTIN_icon icon--question-mar""))",Chrome 74.0.3729.108,,2019-04-30 12:38:23,2019-04-30 12:38:23,0.059s,PASSED
+delay(2),Chrome 74.0.3729.108,,2019-04-30 12:38:23,2019-04-30 12:38:25,2.002s,PASSED
+closeBrowser(),Chrome 74.0.3729.108,,2019-04-30 12:38:25,2019-04-30 12:38:26,0.118s,PASSED
+,,,,,,
+Test Cases/OCS- PRODUCT PAGE/Show all accessories,Chrome 74.0.3729.108,,2019-04-30 12:38:26,2019-04-30 12:38:49,23.616s,PASSED
+"openBrowser("""")",Chrome 74.0.3729.108,,2019-04-30 12:38:26,2019-04-30 12:38:27,0.992s,PASSED
+"navigateToUrl(""https://ocs.ca/#/verify-age"")",Chrome 74.0.3729.108,,2019-04-30 12:38:27,2019-04-30 12:38:30,3.383s,PASSED
+maximizeWindow(),Chrome 74.0.3729.108,,2019-04-30 12:38:30,2019-04-30 12:38:30,0.231s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Show all accessories_OR/Page_Ontario Cannabis Store  Ontari/select_Select01020304050607080""), ""16"", true)",Chrome 74.0.3729.108,,2019-04-30 12:38:30,2019-04-30 12:38:31,0.417s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Show all accessories_OR/Page_Ontario Cannabis Store  Ontari/select_SelectJanuary - 01Febru""), ""9"", true)",Chrome 74.0.3729.108,,2019-04-30 12:38:31,2019-04-30 12:38:31,0.229s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Show all accessories_OR/Page_Ontario Cannabis Store  Ontari/select_Select20182017201620152""), ""1956"", true)",Chrome 74.0.3729.108,,2019-04-30 12:38:31,2019-04-30 12:38:32,1.246s,PASSED
+"click(findTestObject(""Object Repository/Show all accessories_OR/Page_Ontario Cannabis Store  Ontari/button_Verify""))",Chrome 74.0.3729.108,,2019-04-30 12:38:32,2019-04-30 12:38:32,0.106s,PASSED
+"click(findTestObject(""Object Repository/Show all accessories_OR/Page_Ontario Cannabis Store  Ontari/span_CONFIRM AND ACKNOWLEDGE_c""))",Chrome 74.0.3729.108,,2019-04-30 12:38:32,2019-04-30 12:38:32,0.064s,PASSED
+"click(findTestObject(""Object Repository/Show all accessories_OR/Page_Ontario Cannabis Store  Ontari/button_CONFIRM""))",Chrome 74.0.3729.108,,2019-04-30 12:38:32,2019-04-30 12:38:32,0.066s,PASSED
+"click(findTestObject(""Object Repository/Show all accessories_OR/Page_Ontario Cannabis Store  Ontari/button_Start Browsing""))",Chrome 74.0.3729.108,,2019-04-30 12:38:32,2019-04-30 12:38:32,0.056s,PASSED
+delay(3),Chrome 74.0.3729.108,,2019-04-30 12:38:32,2019-04-30 12:38:35,3.004s,PASSED
+"click(findTestObject(""Object Repository/Show all accessories_OR/Page_Ontario Cannabis Store  Ontari/h3_Cannabis""))",Chrome 74.0.3729.108,,2019-04-30 12:38:35,2019-04-30 12:38:36,0.081s,PASSED
+delay(3),Chrome 74.0.3729.108,,2019-04-30 12:38:36,2019-04-30 12:38:39,3.003s,PASSED
+"click(findTestObject(""Object Repository/Show all accessories_OR/Page_Ontario Cannabis Store  Ontari/span_Indica Dominant""))",Chrome 74.0.3729.108,,2019-04-30 12:38:39,2019-04-30 12:38:40,1.636s,PASSED
+"click(findTestObject(""Object Repository/Show all accessories_OR/Page_Indica Dominant Dried Flower/h3_Shishkaberry""))",Chrome 74.0.3729.108,,2019-04-30 12:38:40,2019-04-30 12:38:43,3.260s,PASSED
+"click(findTestObject(""Object Repository/Show all accessories_OR/Page_Shishkaberry  Ontario Cannabis/a_Show all accessories""))",Chrome 74.0.3729.108,,2019-04-30 12:38:43,2019-04-30 12:38:46,2.504s,PASSED
+delay(3),Chrome 74.0.3729.108,,2019-04-30 12:38:46,2019-04-30 12:38:49,3.005s,PASSED
+"verifyTextPresent(""All Accessories"", false)",Chrome 74.0.3729.108,,2019-04-30 12:38:49,2019-04-30 12:38:49,0.145s,PASSED
+,,,,,,
+Test Cases/OCS- PRODUCT PAGE/breadcrumb,Chrome 74.0.3729.108,,2019-04-30 12:38:49,2019-04-30 12:39:11,21.792s,PASSED
+"openBrowser("""")",Chrome 74.0.3729.108,,2019-04-30 12:38:49,2019-04-30 12:38:51,1.336s,PASSED
+"navigateToUrl(""http://ocs.ca/#/verify-age"")",Chrome 74.0.3729.108,,2019-04-30 12:38:51,2019-04-30 12:38:54,3.782s,PASSED
+maximizeWindow(),Chrome 74.0.3729.108,,2019-04-30 12:38:54,2019-04-30 12:38:55,0.232s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/PROD-breadcrumb_OR/Page_Ontario Cannabis Store  Ontari/select_Select01020304050607080""), ""1"", true)",Chrome 74.0.3729.108,,2019-04-30 12:38:55,2019-04-30 12:38:55,0.323s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/PROD-breadcrumb_OR/Page_Ontario Cannabis Store  Ontari/select_SelectJanuary - 01Febru""), ""0"", true)",Chrome 74.0.3729.108,,2019-04-30 12:38:55,2019-04-30 12:38:55,0.176s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/PROD-breadcrumb_OR/Page_Ontario Cannabis Store  Ontari/select_Select20182017201620152""), ""1968"", true)",Chrome 74.0.3729.108,,2019-04-30 12:38:55,2019-04-30 12:38:56,1.146s,PASSED
+"click(findTestObject(""Object Repository/PROD-breadcrumb_OR/Page_Ontario Cannabis Store  Ontari/button_Verify""))",Chrome 74.0.3729.108,,2019-04-30 12:38:56,2019-04-30 12:38:56,0.089s,PASSED
+"click(findTestObject(""Object Repository/PROD-breadcrumb_OR/Page_Ontario Cannabis Store  Ontari/span_CONFIRM AND ACKNOWLEDGE_c""))",Chrome 74.0.3729.108,,2019-04-30 12:38:56,2019-04-30 12:38:56,0.069s,PASSED
+"click(findTestObject(""Object Repository/PROD-breadcrumb_OR/Page_Ontario Cannabis Store  Ontari/button_CONFIRM""))",Chrome 74.0.3729.108,,2019-04-30 12:38:56,2019-04-30 12:38:56,0.071s,PASSED
+"click(findTestObject(""Object Repository/PROD-breadcrumb_OR/Page_Ontario Cannabis Store  Ontari/button_Start Browsing""))",Chrome 74.0.3729.108,,2019-04-30 12:38:56,2019-04-30 12:38:57,0.053s,PASSED
+"mouseOver(findTestObject(""PROD-breadcrumb_OR/Page_Ontario Cannabis Store  Ontari/h3_Cannabis""))",Chrome 74.0.3729.108,,2019-04-30 12:38:57,2019-04-30 12:38:57,0.032s,PASSED
+"click(findTestObject(""Object Repository/PROD-breadcrumb_OR/Page_Ontario Cannabis Store  Ontari/span_Indica Dominant""))",Chrome 74.0.3729.108,,2019-04-30 12:38:57,2019-04-30 12:38:57,0.634s,PASSED
+delay(3),Chrome 74.0.3729.108,,2019-04-30 12:38:57,2019-04-30 12:39:00,3.005s,PASSED
+"click(findTestObject(""PROD-breadcrumb_OR/Page_Indica Dominant Dried Flower/h3_Shishkaberry""))",Chrome 74.0.3729.108,,2019-04-30 12:39:00,2019-04-30 12:39:02,2.213s,PASSED
+"click(findTestObject(""PROD-breadcrumb_OR/Page_Shishkaberry  Ontario Cannabis/a_Shishkaberry""))",Chrome 74.0.3729.108,,2019-04-30 12:39:02,2019-04-30 12:39:04,1.968s,PASSED
+"click(findTestObject(""Object Repository/PROD-breadcrumb_OR/Page_Shishkaberry  Ontario Cannabis/a_Dried Flower""))",Chrome 74.0.3729.108,,2019-04-30 12:39:04,2019-04-30 12:39:05,0.706s,PASSED
+b = getWindowTitle(),Chrome 74.0.3729.108,,2019-04-30 12:39:05,2019-04-30 12:39:05,0.049s,PASSED
+"comment("" b= "" + b)",Chrome 74.0.3729.108,,2019-04-30 12:39:05,2019-04-30 12:39:05,0.003s,PASSED
+assert getWindowTitle() == b,Chrome 74.0.3729.108,,2019-04-30 12:39:05,2019-04-30 12:39:05,0.006s,PASSED
+"click(findTestObject(""Object Repository/PROD-breadcrumb_OR/Page_Dried Flower  Ontario Cannabis/a_Cannabis""))",Chrome 74.0.3729.108,,2019-04-30 12:39:05,2019-04-30 12:39:08,2.376s,PASSED
+c = getWindowTitle(),Chrome 74.0.3729.108,,2019-04-30 12:39:08,2019-04-30 12:39:08,0.006s,PASSED
+"comment("" c= "" + c)",Chrome 74.0.3729.108,,2019-04-30 12:39:08,2019-04-30 12:39:08,0.001s,PASSED
+assert getWindowTitle() == c,Chrome 74.0.3729.108,,2019-04-30 12:39:08,2019-04-30 12:39:08,0.004s,PASSED
+"click(findTestObject(""Object Repository/PROD-breadcrumb_OR/Page_All Cannabis Products  Ontario/a_Home""))",Chrome 74.0.3729.108,,2019-04-30 12:39:08,2019-04-30 12:39:11,3.365s,PASSED
+a = getWindowTitle(),Chrome 74.0.3729.108,,2019-04-30 12:39:11,2019-04-30 12:39:11,0.006s,PASSED
+"comment("" a= "" + a)",Chrome 74.0.3729.108,,2019-04-30 12:39:11,2019-04-30 12:39:11,0.000s,PASSED
+assert getWindowTitle() == a,Chrome 74.0.3729.108,,2019-04-30 12:39:11,2019-04-30 12:39:11,0.005s,PASSED
+,,,,,,
+Test Cases/OCS- PRODUCT PAGE/Price,Chrome 74.0.3729.108,,2019-04-30 12:39:11,2019-04-30 12:39:25,13.829s,PASSED
+"openBrowser("""")",Chrome 74.0.3729.108,,2019-04-30 12:39:11,2019-04-30 12:39:12,1.110s,PASSED
+"navigateToUrl(""http://ocs.ca/#/verify-age"")",Chrome 74.0.3729.108,,2019-04-30 12:39:12,2019-04-30 12:39:15,3.296s,PASSED
+maximizeWindow(),Chrome 74.0.3729.108,,2019-04-30 12:39:15,2019-04-30 12:39:16,0.223s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/PROD-breadcrumb_OR/Page_Ontario Cannabis Store  Ontari/select_Select01020304050607080""), ""1"", true)",Chrome 74.0.3729.108,,2019-04-30 12:39:16,2019-04-30 12:39:16,0.337s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/PROD-breadcrumb_OR/Page_Ontario Cannabis Store  Ontari/select_SelectJanuary - 01Febru""), ""0"", true)",Chrome 74.0.3729.108,,2019-04-30 12:39:16,2019-04-30 12:39:16,0.171s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/PROD-breadcrumb_OR/Page_Ontario Cannabis Store  Ontari/select_Select20182017201620152""), ""1968"", true)",Chrome 74.0.3729.108,,2019-04-30 12:39:16,2019-04-30 12:39:17,1.108s,PASSED
+"click(findTestObject(""Object Repository/PROD-breadcrumb_OR/Page_Ontario Cannabis Store  Ontari/button_Verify""))",Chrome 74.0.3729.108,,2019-04-30 12:39:17,2019-04-30 12:39:17,0.094s,PASSED
+"click(findTestObject(""Object Repository/PROD-breadcrumb_OR/Page_Ontario Cannabis Store  Ontari/span_CONFIRM AND ACKNOWLEDGE_c""))",Chrome 74.0.3729.108,,2019-04-30 12:39:17,2019-04-30 12:39:17,0.063s,PASSED
+"click(findTestObject(""Object Repository/PROD-breadcrumb_OR/Page_Ontario Cannabis Store  Ontari/button_CONFIRM""))",Chrome 74.0.3729.108,,2019-04-30 12:39:17,2019-04-30 12:39:18,0.056s,PASSED
+"click(findTestObject(""Object Repository/PROD-breadcrumb_OR/Page_Ontario Cannabis Store  Ontari/button_Start Browsing""))",Chrome 74.0.3729.108,,2019-04-30 12:39:18,2019-04-30 12:39:18,0.051s,PASSED
+"mouseOver(findTestObject(""PROD-breadcrumb_OR/Page_Ontario Cannabis Store  Ontari/h3_Cannabis""))",Chrome 74.0.3729.108,,2019-04-30 12:39:18,2019-04-30 12:39:18,0.047s,PASSED
+"click(findTestObject(""PROD-breadcrumb_OR/Page_Ontario Cannabis Store  Ontari/span_Indica Dominant""))",Chrome 74.0.3729.108,,2019-04-30 12:39:18,2019-04-30 12:39:18,0.617s,PASSED
+delay(3),Chrome 74.0.3729.108,,2019-04-30 12:39:18,2019-04-30 12:39:21,3.005s,PASSED
+"click(findTestObject(""PROD-breadcrumb_OR/Page_Indica Dominant Dried Flower/h3_Shishkaberry""))",Chrome 74.0.3729.108,,2019-04-30 12:39:21,2019-04-30 12:39:24,3.167s,PASSED
+"click(findTestObject(""PROD-breadcrumb_OR/Page_Shishkaberry  Ontario Cannabis/a_Shishkaberry""))",Chrome 74.0.3729.108,,2019-04-30 12:39:24,2019-04-30 12:39:24,0.001s,NOT_RUN
+"click(findTestObject(""Object Repository/PROD-breadcrumb_OR/Page_Shishkaberry  Ontario Cannabis/a_Dried Flower""))",Chrome 74.0.3729.108,,2019-04-30 12:39:24,2019-04-30 12:39:24,0.001s,NOT_RUN
+"click(findTestObject(""Object Repository/PROD-breadcrumb_OR/Page_Dried Flower  Ontario Cannabis/a_Cannabis""))",Chrome 74.0.3729.108,,2019-04-30 12:39:24,2019-04-30 12:39:24,0.001s,NOT_RUN
+"click(findTestObject(""Object Repository/PROD-breadcrumb_OR/Page_All Cannabis Products  Ontario/a_Home""))",Chrome 74.0.3729.108,,2019-04-30 12:39:24,2019-04-30 12:39:24,0.001s,NOT_RUN
+"click(findTestObject(""price_OR/Page_Shishkaberry  Ontario Cannabis/label_1g""))",Chrome 74.0.3729.108,,2019-04-30 12:39:24,2019-04-30 12:39:24,0.090s,PASSED
+"click(findTestObject(""price_OR/Page_Shishkaberry  Ontario Cannabis/label_3.5g""))",Chrome 74.0.3729.108,,2019-04-30 12:39:24,2019-04-30 12:39:25,0.069s,PASSED
+"a = getText(findTestObject(""price_OR/Page_Shishkaberry  Ontario Cannabis/span_9.75""))",Chrome 74.0.3729.108,,2019-04-30 12:39:25,2019-04-30 12:39:25,0.041s,PASSED
+"comment(""a ="" + a)",Chrome 74.0.3729.108,,2019-04-30 12:39:25,2019-04-30 12:39:25,0.000s,PASSED
+b = a.substring(1),Chrome 74.0.3729.108,,2019-04-30 12:39:25,2019-04-30 12:39:25,0.001s,PASSED
+"comment(""b ="" + b)",Chrome 74.0.3729.108,,2019-04-30 12:39:25,2019-04-30 12:39:25,0.001s,PASSED
+"c = getText(findTestObject(""price_OR/Page_Shishkaberry  Ontario Cannabis/span_32.40""), STOP_ON_FAILURE)",Chrome 74.0.3729.108,,2019-04-30 12:39:25,2019-04-30 12:39:25,0.036s,PASSED
+"comment(""c ="" + c)",Chrome 74.0.3729.108,,2019-04-30 12:39:25,2019-04-30 12:39:25,0.000s,PASSED
+d = c.substring(1),Chrome 74.0.3729.108,,2019-04-30 12:39:25,2019-04-30 12:39:25,0.001s,PASSED
+"comment(""d ="" + d)",Chrome 74.0.3729.108,,2019-04-30 12:39:25,2019-04-30 12:39:25,0.000s,PASSED
+closeBrowser(),Chrome 74.0.3729.108,,2019-04-30 12:39:25,2019-04-30 12:39:25,0.112s,PASSED
+,,,,,,
+Test Cases/OCS- PRODUCT PAGE/Moreitems to consider,Chrome 74.0.3729.108,,2019-04-30 12:39:25,2019-04-30 12:40:21,56.012s,PASSED
+"openBrowser("""")",Chrome 74.0.3729.108,,2019-04-30 12:39:25,2019-04-30 12:39:26,1.033s,PASSED
+"navigateToUrl(""https://ocs.ca/#/verify-age"")",Chrome 74.0.3729.108,,2019-04-30 12:39:26,2019-04-30 12:39:27,1.415s,PASSED
+maximizeWindow(),Chrome 74.0.3729.108,,2019-04-30 12:39:27,2019-04-30 12:39:28,0.290s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/More items _OR/Page_Ontario Cannabis Store  Ontari/select_Select01020304050607080""), ""18"", true)",Chrome 74.0.3729.108,,2019-04-30 12:39:28,2019-04-30 12:39:28,0.568s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/More items _OR/Page_Ontario Cannabis Store  Ontari/select_SelectJanuary - 01Febru""), ""9"", true)",Chrome 74.0.3729.108,,2019-04-30 12:39:28,2019-04-30 12:39:28,0.223s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/More items _OR/Page_Ontario Cannabis Store  Ontari/select_Select20182017201620152""), ""1949"", true)",Chrome 74.0.3729.108,,2019-04-30 12:39:28,2019-04-30 12:39:30,1.264s,PASSED
+"click(findTestObject(""Object Repository/More items _OR/Page_Ontario Cannabis Store  Ontari/button_Verify""))",Chrome 74.0.3729.108,,2019-04-30 12:39:30,2019-04-30 12:39:30,0.098s,PASSED
+"click(findTestObject(""Object Repository/More items _OR/Page_Ontario Cannabis Store  Ontari/span_CONFIRM AND ACKNOWLEDGE_c""))",Chrome 74.0.3729.108,,2019-04-30 12:39:30,2019-04-30 12:39:30,0.075s,PASSED
+"click(findTestObject(""Object Repository/More items _OR/Page_Ontario Cannabis Store  Ontari/button_CONFIRM""))",Chrome 74.0.3729.108,,2019-04-30 12:39:30,2019-04-30 12:39:30,0.071s,PASSED
+"click(findTestObject(""Object Repository/More items _OR/Page_Ontario Cannabis Store  Ontari/button_Start Browsing""))",Chrome 74.0.3729.108,,2019-04-30 12:39:30,2019-04-30 12:39:30,0.054s,PASSED
+delay(3),Chrome 74.0.3729.108,,2019-04-30 12:39:30,2019-04-30 12:39:33,3.005s,PASSED
+"click(findTestObject(""Object Repository/Show all accessories_OR/Page_Ontario Cannabis Store  Ontari/h3_Cannabis""))",Chrome 74.0.3729.108,,2019-04-30 12:39:33,2019-04-30 12:39:33,0.080s,PASSED
+delay(3),Chrome 74.0.3729.108,,2019-04-30 12:39:33,2019-04-30 12:39:36,3.005s,PASSED
+"click(findTestObject(""Object Repository/More items _OR/Page_Ontario Cannabis Store  Ontari/span_Indica Dominant""))",Chrome 74.0.3729.108,,2019-04-30 12:39:36,2019-04-30 12:39:39,3.211s,PASSED
+delay(3),Chrome 74.0.3729.108,,2019-04-30 12:39:39,2019-04-30 12:39:42,3.005s,PASSED
+delay(2),Chrome 74.0.3729.108,,2019-04-30 12:39:42,2019-04-30 12:39:44,2.004s,PASSED
+"click(findTestObject(""More items _OR/Page_Indica Dominant Dried Flower/h3_Shishkaberry""))",Chrome 74.0.3729.108,,2019-04-30 12:39:44,2019-04-30 12:39:47,3.053s,PASSED
+delay(2),Chrome 74.0.3729.108,,2019-04-30 12:39:47,2019-04-30 12:39:49,2.002s,PASSED
+"click(findTestObject(""Object Repository/More items _OR/Page_Shishkaberry  Ontario Cannabis/li_Vaporizers""))",Chrome 74.0.3729.108,,2019-04-30 12:39:49,2019-04-30 12:39:49,0.082s,PASSED
+"click(findTestObject(""Object Repository/More items _OR/Page_Shishkaberry  Ontario Cannabis/li_Papers  Filters""))",Chrome 74.0.3729.108,,2019-04-30 12:39:49,2019-04-30 12:39:50,0.078s,PASSED
+"click(findTestObject(""Object Repository/More items _OR/Page_Shishkaberry  Ontario Cannabis/li_Bongs  Pipes""))",Chrome 74.0.3729.108,,2019-04-30 12:39:50,2019-04-30 12:39:50,0.070s,PASSED
+delay(3),Chrome 74.0.3729.108,,2019-04-30 12:39:50,2019-04-30 12:39:53,3.008s,PASSED
+"click(findTestObject(""Object Repository/More items _OR/Page_Shishkaberry  Ontario Cannabis/li_Grinders""))",Chrome 74.0.3729.108,,2019-04-30 12:39:53,2019-04-30 12:39:53,0.050s,PASSED
+delay(3),Chrome 74.0.3729.108,,2019-04-30 12:39:53,2019-04-30 12:39:56,3.005s,PASSED
+"click(findTestObject(""Object Repository/More items _OR/Page_Shishkaberry  Ontario Cannabis/i_Bongs  Pipes_icon--back slic""))",Chrome 74.0.3729.108,,2019-04-30 12:39:56,2019-04-30 12:39:56,0.067s,PASSED
+delay(3),Chrome 74.0.3729.108,,2019-04-30 12:39:56,2019-04-30 12:39:59,3.001s,PASSED
+"click(findTestObject(""Object Repository/More items _OR/Page_Shishkaberry  Ontario Cannabis/i_Dot Infinity Grinder Card_ic""))",Chrome 74.0.3729.108,,2019-04-30 12:39:59,2019-04-30 12:39:59,0.057s,PASSED
+delay(3),Chrome 74.0.3729.108,,2019-04-30 12:39:59,2019-04-30 12:40:02,3.006s,PASSED
+"click(findTestObject(""Object Repository/More items _OR/Page_Shishkaberry  Ontario Cannabis/i_Dot Infinity Grinder Card_ic""))",Chrome 74.0.3729.108,,2019-04-30 12:40:02,2019-04-30 12:40:02,0.037s,PASSED
+"delay(3, STOP_ON_FAILURE)",Chrome 74.0.3729.108,,2019-04-30 12:40:02,2019-04-30 12:40:05,3.005s,PASSED
+"click(findTestObject(""Object Repository/More items _OR/Page_Shishkaberry  Ontario Cannabis/li_Grinders""))",Chrome 74.0.3729.108,,2019-04-30 12:40:05,2019-04-30 12:40:05,0.058s,PASSED
+"click(findTestObject(""More items _OR/Page_Shishkaberry  Ontario Cannabis/img""), STOP_ON_FAILURE)",Chrome 74.0.3729.108,,2019-04-30 12:40:05,2019-04-30 12:40:08,3.269s,PASSED
+back(),Chrome 74.0.3729.108,,2019-04-30 12:40:08,2019-04-30 12:40:09,0.651s,PASSED
+"click(findTestObject(""Object Repository/More items _OR/Page_Shishkaberry  Ontario Cannabis/li_Vaporizers""))",Chrome 74.0.3729.108,,2019-04-30 12:40:09,2019-04-30 12:40:09,0.074s,PASSED
+"click(findTestObject(""Object Repository/More items _OR/Page_Shishkaberry  Ontario Cannabis/i_Show all accessories_icon--b""))",Chrome 74.0.3729.108,,2019-04-30 12:40:09,2019-04-30 12:40:09,0.081s,PASSED
+"click(findTestObject(""Object Repository/More items _OR/Page_Shishkaberry  Ontario Cannabis/i_PAX 2_icon--forward slick-ar""))",Chrome 74.0.3729.108,,2019-04-30 12:40:09,2019-04-30 12:40:09,0.060s,PASSED
+"click(findTestObject(""Object Repository/More items _OR/Page_Shishkaberry  Ontario Cannabis/img_1""))",Chrome 74.0.3729.108,,2019-04-30 12:40:09,2019-04-30 12:40:12,2.605s,PASSED
+back(),Chrome 74.0.3729.108,,2019-04-30 12:40:12,2019-04-30 12:40:12,0.662s,PASSED
+"click(findTestObject(""Object Repository/More items _OR/Page_Shishkaberry  Ontario Cannabis/li_Papers  Filters""))",Chrome 74.0.3729.108,,2019-04-30 12:40:12,2019-04-30 12:40:12,0.059s,PASSED
+"click(findTestObject(""Object Repository/More items _OR/Page_Shishkaberry  Ontario Cannabis/i_PAX 2_icon--back slick-arrow""))",Chrome 74.0.3729.108,,2019-04-30 12:40:12,2019-04-30 12:40:12,0.083s,PASSED
+"click(findTestObject(""Object Repository/More items _OR/Page_Shishkaberry  Ontario Cannabis/i_Kingsize Thin Rice Rolling P""))",Chrome 74.0.3729.108,,2019-04-30 12:40:12,2019-04-30 12:40:13,0.057s,PASSED
+"click(findTestObject(""Object Repository/More items _OR/Page_Shishkaberry  Ontario Cannabis/i_Kingsize Thin Rice Rolling P""))",Chrome 74.0.3729.108,,2019-04-30 12:40:13,2019-04-30 12:40:13,0.036s,PASSED
+"click(findTestObject(""Object Repository/More items _OR/Page_Shishkaberry  Ontario Cannabis/img_2""))",Chrome 74.0.3729.108,,2019-04-30 12:40:13,2019-04-30 12:40:16,3.154s,PASSED
+back(),Chrome 74.0.3729.108,,2019-04-30 12:40:16,2019-04-30 12:40:16,0.614s,PASSED
+"click(findTestObject(""Object Repository/More items _OR/Page_Shishkaberry  Ontario Cannabis/li_Bongs  Pipes""))",Chrome 74.0.3729.108,,2019-04-30 12:40:16,2019-04-30 12:40:16,0.069s,PASSED
+"click(findTestObject(""Object Repository/More items _OR/Page_Shishkaberry  Ontario Cannabis/i_Kingsize Thin Rice Rolling P_1""))",Chrome 74.0.3729.108,,2019-04-30 12:40:16,2019-04-30 12:40:16,0.092s,PASSED
+"click(findTestObject(""Object Repository/More items _OR/Page_Shishkaberry  Ontario Cannabis/i_Kingsize Thin Rice Rolling P_2""))",Chrome 74.0.3729.108,,2019-04-30 12:40:16,2019-04-30 12:40:17,0.042s,PASSED
+"click(findTestObject(""Object Repository/More items _OR/Page_Shishkaberry  Ontario Cannabis/i_Small Taster_icon--forward s""))",Chrome 74.0.3729.108,,2019-04-30 12:40:17,2019-04-30 12:40:17,0.057s,PASSED
+"click(findTestObject(""Object Repository/More items _OR/Page_Shishkaberry  Ontario Cannabis/i_Small Taster_icon--forward s""))",Chrome 74.0.3729.108,,2019-04-30 12:40:17,2019-04-30 12:40:17,0.040s,PASSED
+"click(findTestObject(""Object Repository/More items _OR/Page_Shishkaberry  Ontario Cannabis/img_3""))",Chrome 74.0.3729.108,,2019-04-30 12:40:17,2019-04-30 12:40:20,3.435s,PASSED
+back(),Chrome 74.0.3729.108,,2019-04-30 12:40:20,2019-04-30 12:40:21,0.699s,PASSED
+,,,,,,
+Test Cases/OCS- PRODUCT PAGE/Learn More,Chrome 74.0.3729.108,,2019-04-30 12:40:21,2019-04-30 12:40:42,21.106s,PASSED
+"openBrowser("""")",Chrome 74.0.3729.108,,2019-04-30 12:40:21,2019-04-30 12:40:21,0.001s,NOT_RUN
+"navigateToUrl(""http://ocs.ca/#/verify-age"")",Chrome 74.0.3729.108,,2019-04-30 12:40:21,2019-04-30 12:40:21,0.001s,NOT_RUN
+maximizeWindow(),Chrome 74.0.3729.108,,2019-04-30 12:40:21,2019-04-30 12:40:21,0.000s,NOT_RUN
+"selectOptionByValue(findTestObject(""Object Repository/Leran more_OR/Page_Ontario Cannabis Store  Ontari/select_Select01020304050607080""), ""1"", true)",Chrome 74.0.3729.108,,2019-04-30 12:40:21,2019-04-30 12:40:21,0.001s,NOT_RUN
+"selectOptionByValue(findTestObject(""Object Repository/Leran more_OR/Page_Ontario Cannabis Store  Ontari/select_SelectJanuary - 01Febru""), ""0"", true)",Chrome 74.0.3729.108,,2019-04-30 12:40:21,2019-04-30 12:40:21,0.000s,NOT_RUN
+"selectOptionByValue(findTestObject(""Object Repository/Leran more_OR/Page_Ontario Cannabis Store  Ontari/select_Select20182017201620152""), ""1968"", true)",Chrome 74.0.3729.108,,2019-04-30 12:40:21,2019-04-30 12:40:21,0.000s,NOT_RUN
+"click(findTestObject(""Object Repository/Leran more_OR/Page_Ontario Cannabis Store  Ontari/button_Verify""))",Chrome 74.0.3729.108,,2019-04-30 12:40:21,2019-04-30 12:40:21,0.000s,NOT_RUN
+"click(findTestObject(""Object Repository/Leran more_OR/Page_Ontario Cannabis Store  Ontari/span_CONFIRM AND ACKNOWLEDGE_c""))",Chrome 74.0.3729.108,,2019-04-30 12:40:21,2019-04-30 12:40:21,0.001s,NOT_RUN
+"click(findTestObject(""Object Repository/Leran more_OR/Page_Ontario Cannabis Store  Ontari/button_CONFIRM""))",Chrome 74.0.3729.108,,2019-04-30 12:40:21,2019-04-30 12:40:21,0.000s,NOT_RUN
+"click(findTestObject(""Object Repository/Leran more_OR/Page_Ontario Cannabis Store  Ontari/button_Start Browsing""))",Chrome 74.0.3729.108,,2019-04-30 12:40:21,2019-04-30 12:40:21,0.001s,NOT_RUN
+"mouseOver(findTestObject(""Object Repository/Leran more_OR/Page_Ontario Cannabis Store  Ontari/h3_Cannabis""))",Chrome 74.0.3729.108,,2019-04-30 12:40:21,2019-04-30 12:40:21,0.000s,NOT_RUN
+"click(findTestObject(""Object Repository/Leran more_OR/Page_Ontario Cannabis Store  Ontari/span_Indica Dominant""))",Chrome 74.0.3729.108,,2019-04-30 12:40:21,2019-04-30 12:40:21,0.001s,NOT_RUN
+delay(3),Chrome 74.0.3729.108,,2019-04-30 12:40:21,2019-04-30 12:40:21,0.000s,NOT_RUN
+"click(findTestObject(""Page_Indica Dominant Dried Flower/h3_Shishkaberry""))",Chrome 74.0.3729.108,,2019-04-30 12:40:21,2019-04-30 12:40:21,0.000s,NOT_RUN
+closeBrowser(),Chrome 74.0.3729.108,,2019-04-30 12:40:21,2019-04-30 12:40:21,0.001s,NOT_RUN
+"openBrowser("""")",Chrome 74.0.3729.108,,2019-04-30 12:40:21,2019-04-30 12:40:22,1.326s,PASSED
+"navigateToUrl(""https://ocs.ca/#/verify-age"")",Chrome 74.0.3729.108,,2019-04-30 12:40:22,2019-04-30 12:40:26,3.694s,PASSED
+maximizeWindow(),Chrome 74.0.3729.108,,2019-04-30 12:40:26,2019-04-30 12:40:26,0.227s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Leran more_OR/Page_Ontario Cannabis Store  Ontari/select_Select01020304050607080""), ""17"", true)",Chrome 74.0.3729.108,,2019-04-30 12:40:26,2019-04-30 12:40:27,0.401s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Leran more_OR/Page_Ontario Cannabis Store  Ontari/select_SelectJanuary - 01Febru""), ""9"", true)",Chrome 74.0.3729.108,,2019-04-30 12:40:27,2019-04-30 12:40:27,0.215s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Leran more_OR/Page_Ontario Cannabis Store  Ontari/select_Select20182017201620152""), ""1947"", true)",Chrome 74.0.3729.108,,2019-04-30 12:40:27,2019-04-30 12:40:28,1.267s,PASSED
+"click(findTestObject(""Object Repository/Leran more_OR/Page_Ontario Cannabis Store  Ontari/button_Verify""))",Chrome 74.0.3729.108,,2019-04-30 12:40:28,2019-04-30 12:40:28,0.085s,PASSED
+"click(findTestObject(""Object Repository/Leran more_OR/Page_Ontario Cannabis Store  Ontari/span_CONFIRM AND ACKNOWLEDGE_c""))",Chrome 74.0.3729.108,,2019-04-30 12:40:28,2019-04-30 12:40:28,0.057s,PASSED
+"click(findTestObject(""Object Repository/Leran more_OR/Page_Ontario Cannabis Store  Ontari/button_CONFIRM""))",Chrome 74.0.3729.108,,2019-04-30 12:40:28,2019-04-30 12:40:28,0.062s,PASSED
+"click(findTestObject(""Object Repository/Leran more_OR/Page_Ontario Cannabis Store  Ontari/button_Start Browsing""))",Chrome 74.0.3729.108,,2019-04-30 12:40:28,2019-04-30 12:40:28,0.058s,PASSED
+"click(findTestObject(""Object Repository/Leran more_OR/Page_Ontario Cannabis Store  Ontari/h3_Cannabis""))",Chrome 74.0.3729.108,,2019-04-30 12:40:28,2019-04-30 12:40:28,0.080s,PASSED
+delay(3),Chrome 74.0.3729.108,,2019-04-30 12:40:28,2019-04-30 12:40:31,3.004s,PASSED
+"click(findTestObject(""Object Repository/Leran more_OR/Page_Ontario Cannabis Store  Ontari/span_Indica Dominant""))",Chrome 74.0.3729.108,,2019-04-30 12:40:31,2019-04-30 12:40:32,0.590s,PASSED
+delay(3),Chrome 74.0.3729.108,,2019-04-30 12:40:32,2019-04-30 12:40:35,3.006s,PASSED
+"click(findTestObject(""Object Repository/Leran more_OR/Page_Indica Dominant Dried Flower/h3_Shishkaberry""))",Chrome 74.0.3729.108,,2019-04-30 12:40:35,2019-04-30 12:40:38,3.029s,PASSED
+delay(3),Chrome 74.0.3729.108,,2019-04-30 12:40:38,2019-04-30 12:40:41,3.005s,PASSED
+"click(findTestObject(""Object Repository/Leran more_OR/Page_Shishkaberry  Ontario Cannabis/a_Learn More""))",Chrome 74.0.3729.108,,2019-04-30 12:40:41,2019-04-30 12:40:41,0.065s,PASSED
+"scrollToPosition(900, 38)",Chrome 74.0.3729.108,,2019-04-30 12:40:41,2019-04-30 12:40:41,0.018s,PASSED
+takeScreenshot(),Chrome 74.0.3729.108,,2019-04-30 12:40:41,2019-04-30 12:40:42,0.582s,PASSED
+closeBrowser(),Chrome 74.0.3729.108,,2019-04-30 12:40:42,2019-04-30 12:40:42,0.153s,PASSED
+,,,,,,
+Test Cases/OCS- PRODUCT PAGE/Recently viewed,Chrome 74.0.3729.108,,2019-04-30 12:40:42,2019-04-30 12:41:05,23.218s,PASSED
+"openBrowser("""")",Chrome 74.0.3729.108,,2019-04-30 12:40:42,2019-04-30 12:40:43,1.038s,PASSED
+"navigateToUrl(""https://ocs.ca/#/verify-age"")",Chrome 74.0.3729.108,,2019-04-30 12:40:43,2019-04-30 12:40:48,4.726s,PASSED
+maximizeWindow(),Chrome 74.0.3729.108,,2019-04-30 12:40:48,2019-04-30 12:40:48,0.222s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Recently viewed_OR/Page_Ontario Cannabis Store  Ontari/select_Select01020304050607080""), ""18"", true)",Chrome 74.0.3729.108,,2019-04-30 12:40:48,2019-04-30 12:40:48,0.446s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Recently viewed_OR/Page_Ontario Cannabis Store  Ontari/select_SelectJanuary - 01Febru""), ""9"", true)",Chrome 74.0.3729.108,,2019-04-30 12:40:48,2019-04-30 12:40:49,0.222s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Recently viewed_OR/Page_Ontario Cannabis Store  Ontari/select_Select20182017201620152""), ""1949"", true)",Chrome 74.0.3729.108,,2019-04-30 12:40:49,2019-04-30 12:40:50,1.220s,PASSED
+"click(findTestObject(""Object Repository/Recently viewed_OR/Page_Ontario Cannabis Store  Ontari/button_Verify""))",Chrome 74.0.3729.108,,2019-04-30 12:40:50,2019-04-30 12:40:50,0.084s,PASSED
+"click(findTestObject(""Object Repository/Recently viewed_OR/Page_Ontario Cannabis Store  Ontari/span_CONFIRM AND ACKNOWLEDGE_c""))",Chrome 74.0.3729.108,,2019-04-30 12:40:50,2019-04-30 12:40:50,0.057s,PASSED
+"click(findTestObject(""Object Repository/Recently viewed_OR/Page_Ontario Cannabis Store  Ontari/button_CONFIRM""))",Chrome 74.0.3729.108,,2019-04-30 12:40:50,2019-04-30 12:40:50,0.059s,PASSED
+"click(findTestObject(""Object Repository/Recently viewed_OR/Page_Ontario Cannabis Store  Ontari/button_Start Browsing""))",Chrome 74.0.3729.108,,2019-04-30 12:40:50,2019-04-30 12:40:50,0.058s,PASSED
+delay(3),Chrome 74.0.3729.108,,2019-04-30 12:40:50,2019-04-30 12:40:53,3.003s,PASSED
+"click(findTestObject(""Object Repository/Recently viewed_OR/Page_Ontario Cannabis Store  Ontari/h3_Cannabis""))",Chrome 74.0.3729.108,,2019-04-30 12:40:53,2019-04-30 12:40:53,0.076s,PASSED
+delay(3),Chrome 74.0.3729.108,,2019-04-30 12:40:53,2019-04-30 12:40:56,3.005s,PASSED
+"click(findTestObject(""Object Repository/Recently viewed_OR/Page_Ontario Cannabis Store  Ontari/span_Indica Dominant""))",Chrome 74.0.3729.108,,2019-04-30 12:40:56,2019-04-30 12:40:57,0.774s,PASSED
+delay(3),Chrome 74.0.3729.108,,2019-04-30 12:40:57,2019-04-30 12:41:00,3.007s,PASSED
+"click(findTestObject(""Object Repository/Recently viewed_OR/Page_Indica Dominant Dried Flower/h3_Shishkaberry""))",Chrome 74.0.3729.108,,2019-04-30 12:41:00,2019-04-30 12:41:03,3.005s,PASSED
+"click(findTestObject(""Object Repository/Recently viewed_OR/Page_Shishkaberry  Ontario Cannabis/img""))",Chrome 74.0.3729.108,,2019-04-30 12:41:03,2019-04-30 12:41:05,2.093s,PASSED
+a = getWindowTitle(),Chrome 74.0.3729.108,,2019-04-30 12:41:05,2019-04-30 12:41:05,0.007s,PASSED
+if (a == getWindowTitle()),Chrome 74.0.3729.108,,2019-04-30 12:41:05,2019-04-30 12:41:05,0.007s,PASSED
+,,,,,,
+Test Cases/OCS- PRODUCT PAGE/variants selector,Chrome 74.0.3729.108,,2019-04-30 12:41:05,2019-04-30 12:41:23,17.732s,PASSED
+"openBrowser("""")",Chrome 74.0.3729.108,,2019-04-30 12:41:05,2019-04-30 12:41:06,1.069s,PASSED
+"navigateToUrl(""http://ocs.ca/#/verify-age"")",Chrome 74.0.3729.108,,2019-04-30 12:41:06,2019-04-30 12:41:09,3.207s,PASSED
+maximizeWindow(),Chrome 74.0.3729.108,,2019-04-30 12:41:09,2019-04-30 12:41:10,0.229s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/PROD-breadcrumb_OR/Page_Ontario Cannabis Store  Ontari/select_Select01020304050607080""), ""1"", true)",Chrome 74.0.3729.108,,2019-04-30 12:41:10,2019-04-30 12:41:10,0.308s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/PROD-breadcrumb_OR/Page_Ontario Cannabis Store  Ontari/select_SelectJanuary - 01Febru""), ""0"", true)",Chrome 74.0.3729.108,,2019-04-30 12:41:10,2019-04-30 12:41:10,0.182s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/PROD-breadcrumb_OR/Page_Ontario Cannabis Store  Ontari/select_Select20182017201620152""), ""1968"", true)",Chrome 74.0.3729.108,,2019-04-30 12:41:10,2019-04-30 12:41:11,1.160s,PASSED
+"click(findTestObject(""Object Repository/PROD-breadcrumb_OR/Page_Ontario Cannabis Store  Ontari/button_Verify""))",Chrome 74.0.3729.108,,2019-04-30 12:41:11,2019-04-30 12:41:11,0.086s,PASSED
+"click(findTestObject(""Object Repository/PROD-breadcrumb_OR/Page_Ontario Cannabis Store  Ontari/span_CONFIRM AND ACKNOWLEDGE_c""))",Chrome 74.0.3729.108,,2019-04-30 12:41:11,2019-04-30 12:41:11,0.062s,PASSED
+"click(findTestObject(""Object Repository/PROD-breadcrumb_OR/Page_Ontario Cannabis Store  Ontari/button_CONFIRM""))",Chrome 74.0.3729.108,,2019-04-30 12:41:11,2019-04-30 12:41:12,0.060s,PASSED
+"click(findTestObject(""Object Repository/PROD-breadcrumb_OR/Page_Ontario Cannabis Store  Ontari/button_Start Browsing""))",Chrome 74.0.3729.108,,2019-04-30 12:41:12,2019-04-30 12:41:12,0.055s,PASSED
+"mouseOver(findTestObject(""PROD-breadcrumb_OR/Page_Ontario Cannabis Store  Ontari/h3_Cannabis""))",Chrome 74.0.3729.108,,2019-04-30 12:41:12,2019-04-30 12:41:12,0.040s,PASSED
+"click(findTestObject(""Object Repository/PROD-breadcrumb_OR/Page_Ontario Cannabis Store  Ontari/span_Indica Dominant""))",Chrome 74.0.3729.108,,2019-04-30 12:41:12,2019-04-30 12:41:15,3.345s,PASSED
+delay(3),Chrome 74.0.3729.108,,2019-04-30 12:41:15,2019-04-30 12:41:18,3.003s,PASSED
+"click(findTestObject(""PROD-breadcrumb_OR/Page_Indica Dominant Dried Flower/h3_Shishkaberry""))",Chrome 74.0.3729.108,,2019-04-30 12:41:18,2019-04-30 12:41:23,4.550s,PASSED
+"click(findTestObject(""PROD-breadcrumb_OR/Page_Shishkaberry  Ontario Cannabis/a_Shishkaberry""))",Chrome 74.0.3729.108,,2019-04-30 12:41:23,2019-04-30 12:41:23,0.001s,NOT_RUN
+"click(findTestObject(""Object Repository/PROD-breadcrumb_OR/Page_Shishkaberry  Ontario Cannabis/a_Dried Flower""))",Chrome 74.0.3729.108,,2019-04-30 12:41:23,2019-04-30 12:41:23,0.001s,NOT_RUN
+"click(findTestObject(""Object Repository/PROD-breadcrumb_OR/Page_Dried Flower  Ontario Cannabis/a_Cannabis""))",Chrome 74.0.3729.108,,2019-04-30 12:41:23,2019-04-30 12:41:23,0.001s,NOT_RUN
+"click(findTestObject(""Object Repository/PROD-breadcrumb_OR/Page_All Cannabis Products  Ontario/a_Home""))",Chrome 74.0.3729.108,,2019-04-30 12:41:23,2019-04-30 12:41:23,0.000s,NOT_RUN
+"click(findTestObject(""price_OR/Page_Shishkaberry  Ontario Cannabis/label_1g""))",Chrome 74.0.3729.108,,2019-04-30 12:41:23,2019-04-30 12:41:23,0.075s,PASSED
+"click(findTestObject(""price_OR/Page_Shishkaberry  Ontario Cannabis/label_3.5g""))",Chrome 74.0.3729.108,,2019-04-30 12:41:23,2019-04-30 12:41:23,0.080s,PASSED
+closeBrowser(),Chrome 74.0.3729.108,,2019-04-30 12:41:23,2019-04-30 12:41:23,0.137s,PASSED
+,,,,,,
+Test Cases/OCS- PRODUCT PAGE/How to choose cannbis products,Chrome 74.0.3729.108,,2019-04-30 12:41:23,2019-04-30 12:41:48,25.624s,PASSED
+"openBrowser("""")",Chrome 74.0.3729.108,,2019-04-30 12:41:23,2019-04-30 12:41:24,0.917s,PASSED
+"navigateToUrl(""https://ocs.ca/#/verify-age"")",Chrome 74.0.3729.108,,2019-04-30 12:41:24,2019-04-30 12:41:28,3.661s,PASSED
+maximizeWindow(),Chrome 74.0.3729.108,,2019-04-30 12:41:28,2019-04-30 12:41:28,0.225s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/cannabis products_OR/Page_Ontario Cannabis Store  Ontari/select_Select01020304050607080""), ""16"", true)",Chrome 74.0.3729.108,,2019-04-30 12:41:28,2019-04-30 12:41:28,0.398s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/cannabis products_OR/Page_Ontario Cannabis Store  Ontari/select_SelectJanuary - 01Febru""), ""8"", true)",Chrome 74.0.3729.108,,2019-04-30 12:41:28,2019-04-30 12:41:28,0.213s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/cannabis products_OR/Page_Ontario Cannabis Store  Ontari/select_Select20182017201620152""), ""1949"", true)",Chrome 74.0.3729.108,,2019-04-30 12:41:28,2019-04-30 12:41:30,1.240s,PASSED
+"click(findTestObject(""Object Repository/cannabis products_OR/Page_Ontario Cannabis Store  Ontari/button_Verify""))",Chrome 74.0.3729.108,,2019-04-30 12:41:30,2019-04-30 12:41:30,0.084s,PASSED
+"click(findTestObject(""Object Repository/cannabis products_OR/Page_Ontario Cannabis Store  Ontari/span_CONFIRM AND ACKNOWLEDGE_c""))",Chrome 74.0.3729.108,,2019-04-30 12:41:30,2019-04-30 12:41:30,0.062s,PASSED
+"click(findTestObject(""Object Repository/cannabis products_OR/Page_Ontario Cannabis Store  Ontari/button_CONFIRM""))",Chrome 74.0.3729.108,,2019-04-30 12:41:30,2019-04-30 12:41:30,0.056s,PASSED
+"click(findTestObject(""Object Repository/cannabis products_OR/Page_Ontario Cannabis Store  Ontari/button_Start Browsing""))",Chrome 74.0.3729.108,,2019-04-30 12:41:30,2019-04-30 12:41:30,0.062s,PASSED
+delay(3),Chrome 74.0.3729.108,,2019-04-30 12:41:30,2019-04-30 12:41:33,3.001s,PASSED
+"click(findTestObject(""COLLECTION PAGE _OR/breadcrumbs_OR/Page_Ontario Cannabis Store  Ontari/h3_Cannabis""))",Chrome 74.0.3729.108,,2019-04-30 12:41:33,2019-04-30 12:41:33,0.078s,PASSED
+delay(3),Chrome 74.0.3729.108,,2019-04-30 12:41:33,2019-04-30 12:41:36,3.003s,PASSED
+"click(findTestObject(""Object Repository/cannabis products_OR/Page_Ontario Cannabis Store  Ontari/span_Indica Dominant""))",Chrome 74.0.3729.108,,2019-04-30 12:41:36,2019-04-30 12:41:38,1.757s,PASSED
+delay(2),Chrome 74.0.3729.108,,2019-04-30 12:41:38,2019-04-30 12:41:40,2.001s,PASSED
+"click(findTestObject(""Object Repository/cannabis products_OR/Page_Indica Dominant Dried Flower/h3_Shishkaberry""))",Chrome 74.0.3729.108,,2019-04-30 12:41:40,2019-04-30 12:41:43,3.550s,PASSED
+delay(2),Chrome 74.0.3729.108,,2019-04-30 12:41:43,2019-04-30 12:41:45,2.003s,PASSED
+"click(findTestObject(""Object Repository/cannabis products_OR/Page_Shishkaberry  Ontario Cannabis/a_How to choose cannabis produ""))",Chrome 74.0.3729.108,,2019-04-30 12:41:45,2019-04-30 12:41:48,2.471s,PASSED
+a = getWindowTitle(),Chrome 74.0.3729.108,,2019-04-30 12:41:48,2019-04-30 12:41:48,0.014s,PASSED
+if (getWindowTitle() == a),Chrome 74.0.3729.108,,2019-04-30 12:41:48,2019-04-30 12:41:48,0.005s,PASSED
+back(),Chrome 74.0.3729.108,,2019-04-30 12:41:48,2019-04-30 12:41:48,0.698s,PASSED
